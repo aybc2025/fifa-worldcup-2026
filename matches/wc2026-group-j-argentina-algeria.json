@@ -1,0 +1,94 @@
+{
+  "fixture": {
+    "id": "wc2026-group-j-argentina-algeria",
+    "date": "2026-06-17T03:00:00Z",
+    "venue": { "name": "Mercedes-Benz Stadium", "city": "Atlanta" },
+    "status": { "short": "FT", "long": "Match Finished" }
+  },
+  "league": { "round": "Group J" },
+  "teams": {
+    "home": { "name": "Argentina", "code": "ARG" },
+    "away": { "name": "Algeria", "code": "ALG" }
+  },
+  "goals": { "home": 3, "away": 0 },
+  "score": {
+    "halftime": { "home": 1, "away": 0 },
+    "fulltime": { "home": 3, "away": 0 }
+  },
+  "stats": [
+    {
+      "team": "Argentina",
+      "statistics": [
+        { "type": "Possession", "value": "44%" },
+        { "type": "Shots on Goal", "value": 6 },
+        { "type": "Total Shots", "value": 10 },
+        { "type": "Corner Kicks", "value": 2 },
+        { "type": "Fouls", "value": 13 },
+        { "type": "Yellow Cards", "value": 0 },
+        { "type": "Red Cards", "value": 0 }
+      ]
+    },
+    {
+      "team": "Algeria",
+      "statistics": [
+        { "type": "Possession", "value": "50%" },
+        { "type": "Shots on Goal", "value": 1 },
+        { "type": "Total Shots", "value": 7 },
+        { "type": "Corner Kicks", "value": 2 },
+        { "type": "Fouls", "value": 8 },
+        { "type": "Yellow Cards", "value": 0 },
+        { "type": "Red Cards", "value": 0 }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 17, "team": "Argentina", "player": "Lionel Messi", "type": "Goal", "detail": "Normal Goal" },
+    { "minute": 60, "team": "Argentina", "player": "Lionel Messi", "type": "Goal", "detail": "Normal Goal" },
+    { "minute": 76, "team": "Argentina", "player": "Lionel Messi", "type": "Goal", "detail": "Normal Goal" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Argentina" },
+      "formation": "4-4-2",
+      "startXI": [
+        { "player": { "name": "Emiliano Martínez",  "number": 23, "pos": "GK" } },
+        { "player": { "name": "Gonzalo Montiel",    "number": 4,  "pos": "RB" } },
+        { "player": { "name": "Cristian Romero",    "number": 13, "pos": "CB" } },
+        { "player": { "name": "Lisandro Martínez",  "number": 6,  "pos": "CB" } },
+        { "player": { "name": "Nicolás Tagliafico", "number": 25, "pos": "LB" } },
+        { "player": { "name": "Rodrigo De Paul",    "number": 7,  "pos": "CM" } },
+        { "player": { "name": "Alexis Mac Allister","number": 20, "pos": "CM" } },
+        { "player": { "name": "Enzo Fernández",     "number": 24, "pos": "CM" } },
+        { "player": { "name": "Thiago Almada",      "number": 16, "pos": "RM" } },
+        { "player": { "name": "Lionel Messi",       "number": 10, "pos": "RW" } },
+        { "player": { "name": "Lautaro Martínez",   "number": 22, "pos": "ST" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Gerónimo Rulli",     "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Nahuel Molina",      "number": 26, "pos": "DF" } },
+        { "player": { "name": "Julián Álvarez",     "number": 9,  "pos": "FW" } }
+      ]
+    },
+    {
+      "team": { "name": "Algeria" },
+      "formation": "4-3-3",
+      "startXI": [
+        { "player": { "name": "Raïs M'Bolhi",   "number": 23, "pos": "GK" } },
+        { "player": { "name": "Youcef Atal",    "number": 17, "pos": "RB" } },
+        { "player": { "name": "Aissa Mandi",    "number": 2,  "pos": "CB" } },
+        { "player": { "name": "Ramy Bensebaini","number": 21, "pos": "CB" } },
+        { "player": { "name": "Rayan Aït-Nouri","number": 15, "pos": "LB" } },
+        { "player": { "name": "Houssem Aouar",  "number": 14, "pos": "CM" } },
+        { "player": { "name": "Nabil Bentaleb", "number": 19, "pos": "CM" } },
+        { "player": { "name": "Yacine Adli",    "number": 22, "pos": "CM" } },
+        { "player": { "name": "Islam Slimani",  "number": 11, "pos": "RW" } },
+        { "player": { "name": "Andy Delort",    "number": 9,  "pos": "ST" } },
+        { "player": { "name": "Farès Chaïbi",   "number": 10, "pos": "LW" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Alexandre Oukidja","number": 1, "pos": "GK" } },
+        { "player": { "name": "Riyad Mahrez",    "number": 26, "pos": "FW" } }
+      ]
+    }
+  ]
+}

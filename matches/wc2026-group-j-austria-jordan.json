@@ -1,0 +1,96 @@
+{
+  "fixture": {
+    "id": "wc2026-group-j-austria-jordan",
+    "date": "2026-06-17T00:00:00Z",
+    "venue": { "name": "Estadio BBVA", "city": "Monterrey" },
+    "status": { "short": "FT", "long": "Match Finished" }
+  },
+  "league": { "round": "Group J" },
+  "teams": {
+    "home": { "name": "Austria", "code": "AUT" },
+    "away": { "name": "Jordan", "code": "JOR" }
+  },
+  "goals": { "home": 3, "away": 1 },
+  "score": {
+    "halftime": { "home": 1, "away": 0 },
+    "fulltime": { "home": 3, "away": 1 }
+  },
+  "stats": [
+    {
+      "team": "Austria",
+      "statistics": [
+        { "type": "Possession", "value": "53%" },
+        { "type": "Shots on Goal", "value": 4 },
+        { "type": "Total Shots", "value": 10 },
+        { "type": "Corner Kicks", "value": 4 },
+        { "type": "Fouls", "value": 12 },
+        { "type": "Yellow Cards", "value": 1 },
+        { "type": "Red Cards", "value": 0 }
+      ]
+    },
+    {
+      "team": "Jordan",
+      "statistics": [
+        { "type": "Possession", "value": "33%" },
+        { "type": "Shots on Goal", "value": 3 },
+        { "type": "Total Shots", "value": 11 },
+        { "type": "Corner Kicks", "value": 3 },
+        { "type": "Fouls", "value": 7 },
+        { "type": "Yellow Cards", "value": 0 },
+        { "type": "Red Cards", "value": 0 }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 20,  "team": "Austria", "player": "Romano Schmid",    "type": "Goal",  "detail": "Normal Goal", "_confidence": "FIFA: Schmid 20', Sofascore: Baumgartner 20' — FIFA used as tiebreaker" },
+    { "minute": 50,  "team": "Jordan",  "player": "Ali Olwan",        "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 76,  "team": "Austria", "player": "Yazan Al-Arab",    "type": "Goal",  "detail": "Own Goal (Jordan)" },
+    { "minute": 102, "team": "Austria", "player": "Marko Arnautović", "type": "Goal",  "detail": "Penalty" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Austria" },
+      "formation": "4-2-3-1",
+      "startXI": [
+        { "player": { "name": "Patrick Pentz",    "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Stefan Posch",     "number": 5,  "pos": "RB" } },
+        { "player": { "name": "Philipp Lienhart", "number": 15, "pos": "CB" } },
+        { "player": { "name": "David Alaba",      "number": 8,  "pos": "CB" } },
+        { "player": { "name": "Phillipp Mwene",   "number": 16, "pos": "LB" } },
+        { "player": { "name": "Nicolas Seiwald",  "number": 6,  "pos": "DM" } },
+        { "player": { "name": "Xaver Schlager",   "number": 4,  "pos": "DM" } },
+        { "player": { "name": "Patrick Wimmer",   "number": 18, "pos": "RM" } },
+        { "player": { "name": "Konrad Laimer",    "number": 20, "pos": "AM" } },
+        { "player": { "name": "Marcel Sabitzer",  "number": 9,  "pos": "LM" } },
+        { "player": { "name": "Sasa Kalajdzic",   "number": 14, "pos": "ST" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Christoph Baumgartner","number": 7,  "pos": "MF" } },
+        { "player": { "name": "Romano Schmid",         "number": null,"pos": "MF" } },
+        { "player": { "name": "Marko Arnautović",      "number": 19, "pos": "FW" } },
+        { "player": { "name": "Michael Gregoritsch",   "number": 21, "pos": "FW" } }
+      ]
+    },
+    {
+      "team": { "name": "Jordan" },
+      "formation": "3-4-2-1",
+      "startXI": [
+        { "player": { "name": "Yazeed Abu Laila",      "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Abdallah Nasib",        "number": 3,  "pos": "CB" } },
+        { "player": { "name": "Yazan Al-Arab",         "number": 5,  "pos": "CB" } },
+        { "player": { "name": "Bahaeddin Abualnadi",   "number": 16, "pos": "CB" } },
+        { "player": { "name": "Shadi Shaheen",         "number": 23, "pos": "RWB" } },
+        { "player": { "name": "Baha' Faisal",          "number": 21, "pos": "CM" } },
+        { "player": { "name": "Salam Al-Rawabdeh",     "number": 8,  "pos": "CM" } },
+        { "player": { "name": "Musa Al-Tamari",        "number": 20, "pos": "LWB" } },
+        { "player": { "name": "Ahmad Al-Hasan",        "number": 11, "pos": "AM" } },
+        { "player": { "name": "Ali Olwan",             "number": 9,  "pos": "FW" } },
+        { "player": { "name": "Mohammad Abu Harbeed",  "number": 10, "pos": "FW" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Ibrahim Shbatat",       "number": 12, "pos": "GK" } },
+        { "player": { "name": "Hamza Al-Dardour",      "number": 7,  "pos": "FW" } }
+      ]
+    }
+  ]
+}

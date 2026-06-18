@@ -1,0 +1,93 @@
+{
+  "fixture": {
+    "id": "wc2026-group-l-ghana-panama",
+    "date": "2026-06-17T23:00:00Z",
+    "venue": { "name": "Hard Rock Stadium", "city": "Miami" },
+    "status": { "short": "FT", "long": "Match Finished" }
+  },
+  "league": { "round": "Group L" },
+  "teams": {
+    "home": { "name": "Ghana", "code": "GHA" },
+    "away": { "name": "Panama", "code": "PAN" }
+  },
+  "goals": { "home": 1, "away": 0 },
+  "score": {
+    "halftime": { "home": 0, "away": 0 },
+    "fulltime": { "home": 1, "away": 0 }
+  },
+  "stats": [
+    {
+      "team": "Ghana",
+      "statistics": [
+        { "type": "Possession", "value": "35%" },
+        { "type": "Shots on Goal", "value": 2 },
+        { "type": "Total Shots", "value": 8 },
+        { "type": "Corner Kicks", "value": 2 },
+        { "type": "Fouls", "value": 9 },
+        { "type": "Yellow Cards", "value": 1 },
+        { "type": "Red Cards", "value": 0 }
+      ]
+    },
+    {
+      "team": "Panama",
+      "statistics": [
+        { "type": "Possession", "value": "55%" },
+        { "type": "Shots on Goal", "value": 4 },
+        { "type": "Total Shots", "value": 11 },
+        { "type": "Corner Kicks", "value": 2 },
+        { "type": "Fouls", "value": 11 },
+        { "type": "Yellow Cards", "value": 2 },
+        { "type": "Red Cards", "value": 0 }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 95, "team": "Ghana", "player": "Caleb Yirenkyi", "type": "Goal", "detail": "Normal Goal" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Ghana" },
+      "formation": "4-3-3",
+      "startXI": [
+        { "player": { "name": "Lawrence Ati-Zigi", "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Gideon Mensah",     "number": 26, "pos": "LB" } },
+        { "player": { "name": "Alexander Djiku",   "number": 4,  "pos": "CB" } },
+        { "player": { "name": "Daniel Amartey",    "number": 18, "pos": "CB" } },
+        { "player": { "name": "Baba Rahman",       "number": 14, "pos": "RB" } },
+        { "player": { "name": "Caleb Yirenkyi",    "number": 3,  "pos": "CM" } },
+        { "player": { "name": "Danlad Ibrahim Kyereh","number": 15, "pos": "CM" } },
+        { "player": { "name": "Mohammed Kudus",    "number": 22, "pos": "CM" } },
+        { "player": { "name": "Antoine Semenyo",   "number": 11, "pos": "RW" } },
+        { "player": { "name": "Fatawu Issahaku",   "number": 24, "pos": "LW" } },
+        { "player": { "name": "Andre Ayew",        "number": 9,  "pos": "ST" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Ibrahim Danlad",    "number": 16, "pos": "GK" } },
+        { "player": { "name": "Jordan Ayew",       "number": 13, "pos": "FW" } },
+        { "player": { "name": "Kamaldeen Sulemana","number": 10, "pos": "FW" } }
+      ]
+    },
+    {
+      "team": { "name": "Panama" },
+      "formation": "3-4-3",
+      "startXI": [
+        { "player": { "name": "Luis Mejía",           "number": 22, "pos": "GK" } },
+        { "player": { "name": "Fidel Escobar",        "number": 13, "pos": "CB" } },
+        { "player": { "name": "Andrés Andrade",       "number": 3,  "pos": "CB" } },
+        { "player": { "name": "Roderick Miller",      "number": 16, "pos": "CB" } },
+        { "player": { "name": "César Yanis Murillo",  "number": 23, "pos": "RWB" } },
+        { "player": { "name": "Adalberto Carrasquilla","number": 14, "pos": "CM" } },
+        { "player": { "name": "César Martínez",       "number": 11, "pos": "CM" } },
+        { "player": { "name": "Rolando Blackman",     "number": 6,  "pos": "LWB" } },
+        { "player": { "name": "Cristian Bárcenas",    "number": 2,  "pos": "RW" } },
+        { "player": { "name": "Ismael Díaz",          "number": 18, "pos": "LW" } },
+        { "player": { "name": "Kevin Waterman",       "number": 7,  "pos": "ST" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Orlando Mosquera",     "number": 1,  "pos": "GK" } },
+        { "player": { "name": "José Fajardo",         "number": 9,  "pos": "FW" } },
+        { "player": { "name": "Éric Davis",           "number": 4,  "pos": "DF" } }
+      ]
+    }
+  ]
+}

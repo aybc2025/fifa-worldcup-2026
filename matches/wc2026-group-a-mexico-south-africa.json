@@ -1,0 +1,110 @@
+{
+  "fixture": {
+    "id": "wc2026-group-a-mexico-south-africa",
+    "date": "2026-06-11T18:00:00Z",
+    "venue": { "name": "Estadio Azteca", "city": "Mexico City" },
+    "status": { "short": "FT", "long": "Match Finished" }
+  },
+  "league": { "round": "Group A" },
+  "teams": {
+    "home": { "name": "Mexico", "code": "MEX" },
+    "away": { "name": "South Africa", "code": "RSA" }
+  },
+  "goals": { "home": 2, "away": 0 },
+  "score": {
+    "halftime": { "home": 1, "away": 0 },
+    "fulltime": { "home": 2, "away": 0 }
+  },
+  "stats": [
+    {
+      "team": "Mexico",
+      "statistics": [
+        { "type": "Possession", "value": "57%", "_confidence": "FIFA=57%, Sofascore=61%; FIFA used" },
+        { "type": "Shots on Goal", "value": 4 },
+        { "type": "Total Shots", "value": 16 },
+        { "type": "Corner Kicks", "value": 3 },
+        { "type": "Fouls", "value": 12 },
+        { "type": "Yellow Cards", "value": 1 },
+        { "type": "Red Cards", "value": 1 }
+      ]
+    },
+    {
+      "team": "South Africa",
+      "statistics": [
+        { "type": "Possession", "value": "36%", "_confidence": "FIFA=36%, Sofascore=39%; FIFA used" },
+        { "type": "Shots on Goal", "value": 2 },
+        { "type": "Total Shots", "value": 3 },
+        { "type": "Corner Kicks", "value": 1 },
+        { "type": "Fouls", "value": 11 },
+        { "type": "Yellow Cards", "value": 2 },
+        { "type": "Red Cards", "value": 2 }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 9,  "team": "Mexico",       "player": "Julián Quiñones",  "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 49, "team": "South Africa",  "player": "Sphephelo Sithole","type": "Card",  "detail": "Yellow Card" },
+    { "minute": 56, "team": "South Africa",  "player": "Thalente Mbatha",  "type": "subst", "detail": "out: Lyle Foster, in: Thalente Mbatha" },
+    { "minute": 61, "team": "South Africa",  "player": "Themba Zwane",     "type": "subst", "detail": "out: Jayden Adams, in: Themba Zwane" },
+    { "minute": 66, "team": "Mexico",        "player": "Álvaro Fidalgo",   "type": "subst", "detail": "out: Gilberto Mora, in: Álvaro Fidalgo" },
+    { "minute": 66, "team": "Mexico",        "player": "Brian Gutiérrez",  "type": "subst", "detail": "out: Luis Chávez, in: Brian Gutiérrez" },
+    { "minute": 67, "team": "Mexico",        "player": "Raúl Jiménez",     "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 76, "team": "Mexico",        "player": "Erik Lira",        "type": "subst", "detail": "out: Edson Álvarez, in: Erik Lira" },
+    { "minute": 76, "team": "South Africa",  "player": "Evidence Makgopa", "type": "subst", "detail": "out: Iqraam Rayners, in: Evidence Makgopa" },
+    { "minute": 77, "team": "South Africa",  "player": "Oswin Appollis",   "type": "subst", "detail": "out: Aubrey Modiba, in: Oswin Appollis" },
+    { "minute": 79, "team": "Mexico",        "player": "Alexis Vega",      "type": "subst", "detail": "out: Julián Quiñones, in: Alexis Vega" },
+    { "minute": 84, "team": "South Africa",  "player": "Themba Zwane",     "type": "Card",  "detail": "Red Card — Violent conduct" },
+    { "minute": 92, "team": "Mexico",        "player": "César Montes",     "type": "Card",  "detail": "Red Card — Professional foul" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Mexico" },
+      "formation": "4-1-2-3",
+      "startXI": [
+        { "player": { "name": "Raúl Rangel",      "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Jorge Sánchez",    "number": 2,  "pos": "RB" } },
+        { "player": { "name": "César Montes",     "number": 3,  "pos": "CB" } },
+        { "player": { "name": "Johan Vásquez",    "number": 5,  "pos": "CB" } },
+        { "player": { "name": "Jesús Gallardo",   "number": 23, "pos": "LB" } },
+        { "player": { "name": "Erik Lira",        "number": 6,  "pos": "DM" } },
+        { "player": { "name": "Álvaro Fidalgo",   "number": 8,  "pos": "CM" } },
+        { "player": { "name": "Brian Gutiérrez",  "number": 26, "pos": "CM" } },
+        { "player": { "name": "Roberto Alvarado", "number": 25, "pos": "RW" } },
+        { "player": { "name": "Raúl Jiménez",     "number": 9,  "pos": "ST" } },
+        { "player": { "name": "Julián Quiñones",  "number": 16, "pos": "LW" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Guillermo Ochoa",  "number": 13, "pos": "GK" } },
+        { "player": { "name": "Edson Álvarez",    "number": 4,  "pos": "DM" } },
+        { "player": { "name": "Gilberto Mora",    "number": 19, "pos": "MF" } },
+        { "player": { "name": "Luis Chávez",      "number": 24, "pos": "MF" } },
+        { "player": { "name": "Alexis Vega",      "number": 10, "pos": "FW" } },
+        { "player": { "name": "Santiago Giménez", "number": 11, "pos": "ST" } },
+        { "player": { "name": "Armando González", "number": 14, "pos": "FW" } }
+      ]
+    },
+    {
+      "team": { "name": "South Africa" },
+      "formation": "5-3-2",
+      "startXI": [
+        { "player": { "name": "Ronwen Williams",    "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Khuliso Mudau",      "number": 20, "pos": "RB" } },
+        { "player": { "name": "Nkosinathi Sibisi",  "number": 19, "pos": "CB" } },
+        { "player": { "name": "Ime Okon",           "number": 21, "pos": "CB" } },
+        { "player": { "name": "Mbekezeli Mbokazi",  "number": 14, "pos": "CB" } },
+        { "player": { "name": "Aubrey Modiba",      "number": 6,  "pos": "LB" } },
+        { "player": { "name": "Teboho Mokoena",     "number": 4,  "pos": "CM" } },
+        { "player": { "name": "Sphephelo Sithole",  "number": 13, "pos": "CM" } },
+        { "player": { "name": "Jayden Adams",       "number": 23, "pos": "CM" } },
+        { "player": { "name": "Iqraam Rayners",     "number": 15, "pos": "FW" } },
+        { "player": { "name": "Lyle Foster",        "number": 9,  "pos": "ST" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Thalente Mbatha",    "number": null, "pos": "MF" } },
+        { "player": { "name": "Themba Zwane",       "number": null, "pos": "MF" } },
+        { "player": { "name": "Oswin Appollis",     "number": null, "pos": "MF" } },
+        { "player": { "name": "Evidence Makgopa",   "number": null, "pos": "FW" } }
+      ]
+    }
+  ]
+}

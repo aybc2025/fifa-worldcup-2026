@@ -1,0 +1,100 @@
+{
+  "fixture": {
+    "id": "wc2026-group-l-england-croatia",
+    "date": "2026-06-18T00:00:00Z",
+    "venue": { "name": "Gillette Stadium", "city": "Boston/New England" },
+    "status": { "short": "FT", "long": "Match Finished" }
+  },
+  "league": { "round": "Group L" },
+  "teams": {
+    "home": { "name": "England", "code": "ENG" },
+    "away": { "name": "Croatia", "code": "CRO" }
+  },
+  "goals": { "home": 4, "away": 2 },
+  "score": {
+    "halftime": { "home": 2, "away": 2 },
+    "fulltime": { "home": 4, "away": 2 }
+  },
+  "stats": [
+    {
+      "team": "England",
+      "statistics": [
+        { "type": "Possession", "value": "48%" },
+        { "type": "Shots on Goal", "value": 11 },
+        { "type": "Total Shots", "value": 22 },
+        { "type": "Corner Kicks", "value": 8 },
+        { "type": "Fouls", "value": 10 },
+        { "type": "Yellow Cards", "value": 0 },
+        { "type": "Red Cards", "value": 0 }
+      ]
+    },
+    {
+      "team": "Croatia",
+      "statistics": [
+        { "type": "Possession", "value": "43%" },
+        { "type": "Shots on Goal", "value": 5 },
+        { "type": "Total Shots", "value": 10 },
+        { "type": "Corner Kicks", "value": 2 },
+        { "type": "Fouls", "value": 12 },
+        { "type": "Yellow Cards", "value": 0 },
+        { "type": "Red Cards", "value": 0 }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 12, "team": "England", "player": "Harry Kane",       "type": "Goal",  "detail": "Penalty" },
+    { "minute": 36, "team": "Croatia", "player": "Martin Baturina",  "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 42, "team": "England", "player": "Harry Kane",       "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 47, "team": "England", "player": "Jude Bellingham",  "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 50, "team": "Croatia", "player": "Ante Musa",        "type": "Goal",  "detail": "Normal Goal", "_confidence": "FIFA: 50', Sofascore: 45+5' — FIFA used as tiebreaker" },
+    { "minute": 85, "team": "England", "player": "Marcus Rashford",  "type": "Goal",  "detail": "Normal Goal" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "England" },
+      "formation": "4-2-3-1",
+      "startXI": [
+        { "player": { "name": "Jordan Pickford",   "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Reece James",       "number": 24, "pos": "RB" } },
+        { "player": { "name": "Ezri Konsa",        "number": 2,  "pos": "CB" } },
+        { "player": { "name": "John Stones",       "number": 5,  "pos": "CB" } },
+        { "player": { "name": "Levi Colwill",      "number": 3,  "pos": "LB" } },
+        { "player": { "name": "Ethan Nwaneri",     "number": 8,  "pos": "DM" } },
+        { "player": { "name": "Declan Rice",       "number": 4,  "pos": "DM" } },
+        { "player": { "name": "Noni Madueke",      "number": 20, "pos": "RM" } },
+        { "player": { "name": "Jude Bellingham",   "number": 10, "pos": "AM" } },
+        { "player": { "name": "Anthony Gordon",    "number": 18, "pos": "LW" } },
+        { "player": { "name": "Harry Kane",        "number": 9,  "pos": "ST" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Dean Henderson",            "number": 13, "pos": "GK" } },
+        { "player": { "name": "Marc Guéhi",                "number": 6,  "pos": "DF" } },
+        { "player": { "name": "Trent Alexander-Arnold",    "number": 12, "pos": "MF" } },
+        { "player": { "name": "Marcus Rashford",           "number": 11, "pos": "FW" } },
+        { "player": { "name": "Ollie Watkins",             "number": 19, "pos": "FW" } }
+      ]
+    },
+    {
+      "team": { "name": "Croatia" },
+      "formation": "3-4-2-1",
+      "startXI": [
+        { "player": { "name": "Dominik Livaković", "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Josip Šutalo",      "number": 6,  "pos": "CB" } },
+        { "player": { "name": "Marin Pongračić",   "number": 22, "pos": "CB" } },
+        { "player": { "name": "Joško Gvardiol",    "number": 4,  "pos": "CB" } },
+        { "player": { "name": "Josip Stanišić",    "number": 2,  "pos": "RWB" } },
+        { "player": { "name": "Luka Modrić",       "number": 10, "pos": "CM" } },
+        { "player": { "name": "Mario Pašalić",     "number": 15, "pos": "CM" } },
+        { "player": { "name": "Ivan Perišić",      "number": 14, "pos": "LWB" } },
+        { "player": { "name": "Luka Sučić",        "number": 17, "pos": "AM" } },
+        { "player": { "name": "Martin Baturina",   "number": 16, "pos": "AM" } },
+        { "player": { "name": "Ante Musa",         "number": 26, "pos": "ST" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Ivica Ivušić",      "number": 12, "pos": "GK" } },
+        { "player": { "name": "Mateo Kovačić",     "number": 8,  "pos": "MF" } },
+        { "player": { "name": "Andrej Kramarić",   "number": 9,  "pos": "FW" } }
+      ]
+    }
+  ]
+}

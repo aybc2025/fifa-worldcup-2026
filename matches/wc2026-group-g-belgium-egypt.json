@@ -1,0 +1,93 @@
+{
+  "fixture": {
+    "id": "wc2026-group-g-belgium-egypt",
+    "date": "2026-06-16T00:00:00Z",
+    "venue": { "name": "Hard Rock Stadium", "city": "Miami" },
+    "status": { "short": "FT", "long": "Match Finished" }
+  },
+  "league": { "round": "Group G" },
+  "teams": {
+    "home": { "name": "Belgium", "code": "BEL" },
+    "away": { "name": "Egypt", "code": "EGY" }
+  },
+  "goals": { "home": 1, "away": 1 },
+  "score": {
+    "halftime": { "home": 0, "away": 1 },
+    "fulltime": { "home": 1, "away": 1 }
+  },
+  "stats": [
+    {
+      "team": "Belgium",
+      "statistics": [
+        { "type": "Possession", "value": "52%" },
+        { "type": "Shots on Goal", "value": 3 },
+        { "type": "Total Shots", "value": 15 },
+        { "type": "Corner Kicks", "value": 2 },
+        { "type": "Fouls", "value": 15 },
+        { "type": "Yellow Cards", "value": 2 },
+        { "type": "Red Cards", "value": 0 }
+      ]
+    },
+    {
+      "team": "Egypt",
+      "statistics": [
+        { "type": "Possession", "value": "38%" },
+        { "type": "Shots on Goal", "value": 3 },
+        { "type": "Total Shots", "value": 14 },
+        { "type": "Corner Kicks", "value": 7 },
+        { "type": "Fouls", "value": 15 },
+        { "type": "Yellow Cards", "value": 2 },
+        { "type": "Red Cards", "value": 0 }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 20, "team": "Egypt",   "player": "Omar Ashour",   "type": "Goal",  "detail": "Normal Goal", "_confidence": "FIFA: 20', Sofascore: 19' — FIFA used" },
+    { "minute": 66, "team": "Belgium", "player": "Mohamed Hany",  "type": "Goal",  "detail": "Own Goal (Egypt)" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Belgium" },
+      "formation": "4-2-3-1",
+      "startXI": [
+        { "player": { "name": "Thibaut Courtois",      "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Thomas Meunier",        "number": 15, "pos": "RB" } },
+        { "player": { "name": "Wout Faes",             "number": 25, "pos": "CB" } },
+        { "player": { "name": "Thomas Vermaelen",      "number": 4,  "pos": "CB" } },
+        { "player": { "name": "Timothy Castagne",      "number": 21, "pos": "LB" } },
+        { "player": { "name": "Amadou Onana",          "number": 24, "pos": "DM" } },
+        { "player": { "name": "Youri Tielemans",       "number": 8,  "pos": "DM" } },
+        { "player": { "name": "Leandro Trossard",      "number": 10, "pos": "AM" } },
+        { "player": { "name": "Kevin De Bruyne",       "number": 7,  "pos": "AM" } },
+        { "player": { "name": "Johan Doku",            "number": 11, "pos": "LW" } },
+        { "player": { "name": "Charles De Ketelaere",  "number": 17, "pos": "ST" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Koen Casteels",         "number": 12, "pos": "GK" } },
+        { "player": { "name": "Romelu Lukaku",         "number": 9,  "pos": "ST" } },
+        { "player": { "name": "Lois Openda",           "number": 23, "pos": "FW" } }
+      ]
+    },
+    {
+      "team": { "name": "Egypt" },
+      "formation": "4-2-3-1",
+      "startXI": [
+        { "player": { "name": "Mohamed Shobeir",       "number": 23, "pos": "GK" } },
+        { "player": { "name": "Mohamed Hany",          "number": 3,  "pos": "RB" } },
+        { "player": { "name": "Mostafa Mohamed Ibrahim","number": 2,  "pos": "CB" } },
+        { "player": { "name": "Ahmed Fathy",           "number": 14, "pos": "CB" } },
+        { "player": { "name": "Omar Aboul-Fetouh",     "number": 13, "pos": "LB" } },
+        { "player": { "name": "Mahmoud Alaa",          "number": 19, "pos": "DM" } },
+        { "player": { "name": "Mohamed Elneny",        "number": 17, "pos": "DM" } },
+        { "player": { "name": "Emam Ashour",           "number": 11, "pos": "AM" } },
+        { "player": { "name": "Mohamed Salah",         "number": 10, "pos": "AM" } },
+        { "player": { "name": "Omar Ashour",           "number": 8,  "pos": "FW" } },
+        { "player": { "name": "Omar Marmoush",         "number": 22, "pos": "ST" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Ahmed El-Shenawy",      "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Mostafa Mohamed",       "number": 9,  "pos": "FW" } }
+      ]
+    }
+  ]
+}
