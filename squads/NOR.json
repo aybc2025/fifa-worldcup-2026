@@ -1,0 +1,32 @@
+{
+  "team": { "name": "Norway", "code": "NOR" },
+  "coach": "Ståle Solbakken",
+  "squad": [
+    { "number": 1, "name": "Ørjan Nyland", "pos": "GK", "age": 35, "club": "Brighton & Hove Albion", "caps": 46, "goals": 0 },
+    { "number": 2, "name": "Omar Elabdellaoui", "pos": "DF", "age": 33, "club": "Galatasaray", "caps": 75, "goals": 3 },
+    { "number": 3, "name": "Birger Meling", "pos": "DF", "age": 31, "club": "Rennes", "caps": 30, "goals": 0 },
+    { "number": 4, "name": "Andreas Hanche-Olsen", "pos": "DF", "age": 28, "club": "Gent", "caps": 22, "goals": 1 },
+    { "number": 5, "name": "Andreas Hanche-Olsen", "pos": "DF", "age": 28, "club": "Gent", "caps": 22, "goals": 1 },
+    { "number": 6, "name": "Sander Berge", "pos": "MF", "age": 27, "club": "Fulham", "caps": 53, "goals": 2 },
+    { "number": 7, "name": "Mathias Normann", "pos": "MF", "age": 29, "club": "Marseille", "caps": 29, "goals": 0 },
+    { "number": 8, "name": "Martin Ødegaard", "pos": "MF", "age": 27, "club": "Arsenal", "caps": 100, "goals": 27 },
+    { "number": 9, "name": "Erling Haaland", "pos": "FW", "age": 25, "club": "Manchester City", "caps": 42, "goals": 32 },
+    { "number": 10, "name": "Petter Strand", "pos": "MF", "age": 23, "club": "Hoffenheim", "caps": 12, "goals": 0 },
+    { "number": 11, "name": "Antonio Nusa", "pos": "FW", "age": 20, "club": "RB Leipzig", "caps": 16, "goals": 2 },
+    { "number": 12, "name": "Jørgen Strand Larsen", "pos": "FW", "age": 25, "club": "Wolverhampton Wanderers", "caps": 28, "goals": 13 },
+    { "number": 13, "name": "David Datro Fofana", "pos": "FW", "age": 23, "club": "Union Berlin", "caps": 7, "goals": 0 },
+    { "number": 14, "name": "Fredrik Aursnes", "pos": "MF", "age": 29, "club": "Benfica", "caps": 45, "goals": 3 },
+    { "number": 15, "name": "Leo Østigård", "pos": "DF", "age": 26, "club": "Nice", "caps": 37, "goals": 0 },
+    { "number": 16, "name": "Kristian Thorstvedt", "pos": "MF", "age": 26, "club": "Sassuolo", "caps": 30, "goals": 1 },
+    { "number": 17, "name": "Markus Henriksen", "pos": "MF", "age": 32, "club": "Vejle", "caps": 48, "goals": 5 },
+    { "number": 18, "name": "Alexander Sørloth", "pos": "FW", "age": 30, "club": "Atlético Madrid", "caps": 59, "goals": 21 },
+    { "number": 19, "name": "Isak Määttä", "pos": "DF", "age": 22, "club": "Rosenborg", "caps": 7, "goals": 0 },
+    { "number": 20, "name": "Patrick Berg", "pos": "MF", "age": 27, "club": "Club Brugge", "caps": 30, "goals": 0 },
+    { "number": 21, "name": "Julian Ryerson", "pos": "DF", "age": 28, "club": "Borussia Dortmund", "caps": 29, "goals": 0 },
+    { "number": 22, "name": "Andreas Thorstvedt", "pos": "GK", "age": 28, "club": "Sparta Rotterdam", "caps": 2, "goals": 0 },
+    { "number": 23, "name": "Erik Botheim", "pos": "FW", "age": 25, "club": "Rosenborg", "caps": 5, "goals": 1 },
+    { "number": 24, "name": "Stian Gregersen", "pos": "DF", "age": 31, "club": "Club Brugge", "caps": 7, "goals": 0 },
+    { "number": 25, "name": "Tobias Børkeeiet", "pos": "MF", "age": 29, "club": "Rosenborg", "caps": 9, "goals": 0 },
+    { "number": 26, "name": "Matz Sels", "pos": "GK", "age": 33, "club": "Nottingham Forest", "caps": 8, "goals": 0 }
+  ]
+}

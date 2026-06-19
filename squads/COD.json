@@ -1,0 +1,32 @@
+{
+  "team": { "name": "Congo DR", "code": "COD" },
+  "coach": "Sébastien Desabre",
+  "squad": [
+    { "number": 1, "name": "Lionel Mpasi", "pos": "GK", "age": 31, "club": "Le Havre", "caps": 29, "goals": 0 },
+    { "number": 2, "name": "Aaron Wan-Bissaka", "pos": "DF", "age": 28, "club": "West Ham United", "caps": 12, "goals": 0 },
+    { "number": 3, "name": "Steve Kapuadi", "pos": "DF", "age": 28, "club": "Widzew Łódź", "caps": 4, "goals": 0 },
+    { "number": 4, "name": "Axel Tuanzebe", "pos": "DF", "age": 28, "club": "Burnley", "caps": 14, "goals": 1 },
+    { "number": 5, "name": "Dylan Batubinsika", "pos": "DF", "age": 30, "club": "AEL", "caps": 14, "goals": 1 },
+    { "number": 6, "name": "Ngal'ayel Mukau", "pos": "MF", "age": 21, "club": "Lille", "caps": 14, "goals": 0 },
+    { "number": 7, "name": "Nathanaël Mbuku", "pos": "MF", "age": 24, "club": "Montpellier", "caps": 19, "goals": 2 },
+    { "number": 8, "name": "Samuel Moutoussamy", "pos": "MF", "age": 29, "club": "Atromitos", "caps": 58, "goals": 0 },
+    { "number": 9, "name": "Brian Cipenga", "pos": "FW", "age": 28, "club": "Castellón", "caps": 8, "goals": 0 },
+    { "number": 10, "name": "Théo Bongonda", "pos": "MF", "age": 30, "club": "Spartak Moscow", "caps": 38, "goals": 7 },
+    { "number": 11, "name": "Gaël Kakuta", "pos": "FW", "age": 34, "club": "AEL", "caps": 31, "goals": 5 },
+    { "number": 12, "name": "Joris Kayembe", "pos": "DF", "age": 31, "club": "Genk", "caps": 26, "goals": 1 },
+    { "number": 13, "name": "Meschak Elia", "pos": "FW", "age": 28, "club": "Alanyaspor", "caps": 69, "goals": 12 },
+    { "number": 14, "name": "Noah Sadiki", "pos": "MF", "age": 21, "club": "Sunderland", "caps": 20, "goals": 0 },
+    { "number": 15, "name": "Aaron Tshibola", "pos": "MF", "age": 31, "club": "Kilmarnock", "caps": 17, "goals": 1 },
+    { "number": 16, "name": "Timothy Fayulu", "pos": "GK", "age": 26, "club": "Noah", "caps": 3, "goals": 0 },
+    { "number": 17, "name": "Cédric Bakambu", "pos": "FW", "age": 35, "club": "Real Betis", "caps": 70, "goals": 21 },
+    { "number": 18, "name": "Charles Pickel", "pos": "MF", "age": 29, "club": "Espanyol", "caps": 34, "goals": 1 },
+    { "number": 19, "name": "Fiston Mayele", "pos": "FW", "age": 31, "club": "Pyramids", "caps": 37, "goals": 6 },
+    { "number": 20, "name": "Yoane Wissa", "pos": "FW", "age": 29, "club": "Newcastle United", "caps": 38, "goals": 9 },
+    { "number": 21, "name": "Matthieu Epolo", "pos": "GK", "age": 21, "club": "Standard Liège", "caps": 1, "goals": 0 },
+    { "number": 22, "name": "Chancel Mbemba", "pos": "DF", "age": 31, "club": "Lille", "caps": 109, "goals": 7 },
+    { "number": 23, "name": "Simon Banza", "pos": "FW", "age": 29, "club": "Al Jazira", "caps": 15, "goals": 2 },
+    { "number": 24, "name": "Gédéon Kalulu", "pos": "DF", "age": 28, "club": "Aris Limassol", "caps": 28, "goals": 0 },
+    { "number": 25, "name": "Edo Kayembe", "pos": "MF", "age": 28, "club": "Watford", "caps": 43, "goals": 2 },
+    { "number": 26, "name": "Arthur Masuaku", "pos": "DF", "age": 32, "club": "Lens", "caps": 45, "goals": 4 }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "team": { "name": "Croatia", "code": "CRO" },
+  "coach": "Zlatko Dalić",
+  "squad": [
+    { "number": 1, "name": "Dominik Livaković", "pos": "GK", "age": 31, "club": "Dinamo Zagreb", "caps": 75, "goals": 0 },
+    { "number": 2, "name": "Josip Stanišić", "pos": "DF", "age": 26, "club": "Bayern Munich", "caps": 31, "goals": 0 },
+    { "number": 3, "name": "Marin Pongračić", "pos": "DF", "age": 28, "club": "Fiorentina", "caps": 20, "goals": 0 },
+    { "number": 4, "name": "Joško Gvardiol", "pos": "DF", "age": 24, "club": "Manchester City", "caps": 48, "goals": 4 },
+    { "number": 5, "name": "Duje Ćaleta-Car", "pos": "DF", "age": 29, "club": "Real Sociedad", "caps": 38, "goals": 1 },
+    { "number": 6, "name": "Josip Šutalo", "pos": "DF", "age": 26, "club": "Ajax", "caps": 33, "goals": 0 },
+    { "number": 7, "name": "Nikola Moro", "pos": "MF", "age": 28, "club": "Bologna", "caps": 10, "goals": 0 },
+    { "number": 8, "name": "Mateo Kovačić", "pos": "MF", "age": 32, "club": "Manchester City", "caps": 113, "goals": 5 },
+    { "number": 9, "name": "Andrej Kramarić", "pos": "FW", "age": 34, "club": "TSG Hoffenheim", "caps": 116, "goals": 36 },
+    { "number": 10, "name": "Luka Modrić", "pos": "MF", "age": 40, "club": "Milan", "caps": 198, "goals": 29 },
+    { "number": 11, "name": "Ante Budimir", "pos": "FW", "age": 34, "club": "Osasuna", "caps": 38, "goals": 6 },
+    { "number": 12, "name": "Ivor Pandur", "pos": "GK", "age": 26, "club": "Hull City", "caps": 0, "goals": 0 },
+    { "number": 13, "name": "Nikola Vlašić", "pos": "MF", "age": 28, "club": "Torino", "caps": 63, "goals": 10 },
+    { "number": 14, "name": "Ivan Perišić", "pos": "FW", "age": 37, "club": "PSV Eindhoven", "caps": 154, "goals": 38 },
+    { "number": 15, "name": "Mario Pašalić", "pos": "MF", "age": 31, "club": "Atalanta", "caps": 85, "goals": 12 },
+    { "number": 16, "name": "Martin Baturina", "pos": "MF", "age": 23, "club": "Como", "caps": 19, "goals": 1 },
+    { "number": 17, "name": "Petar Sučić", "pos": "MF", "age": 22, "club": "Inter Milan", "caps": 17, "goals": 1 },
+    { "number": 18, "name": "Kristijan Jakić", "pos": "DF", "age": 29, "club": "FC Augsburg", "caps": 17, "goals": 2 },
+    { "number": 19, "name": "Toni Fruk", "pos": "MF", "age": 25, "club": "Rijeka", "caps": 7, "goals": 1 },
+    { "number": 20, "name": "Igor Matanović", "pos": "FW", "age": 23, "club": "SC Freiburg", "caps": 9, "goals": 2 },
+    { "number": 21, "name": "Luka Sučić", "pos": "MF", "age": 23, "club": "Real Sociedad", "caps": 21, "goals": 1 },
+    { "number": 22, "name": "Luka Vušković", "pos": "DF", "age": 19, "club": "Hamburger SV", "caps": 5, "goals": 1 },
+    { "number": 23, "name": "Dominik Kotarski", "pos": "GK", "age": 26, "club": "Copenhagen", "caps": 4, "goals": 0 },
+    { "number": 24, "name": "Marco Pašalić", "pos": "FW", "age": 25, "club": "Orlando City SC", "caps": 15, "goals": 1 },
+    { "number": 25, "name": "Martin Erlić", "pos": "DF", "age": 28, "club": "Midtjylland", "caps": 13, "goals": 1 },
+    { "number": 26, "name": "Petar Musa", "pos": "FW", "age": 28, "club": "FC Dallas", "caps": 11, "goals": 1 }
+  ]
+}

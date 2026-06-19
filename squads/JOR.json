@@ -1,0 +1,32 @@
+{
+  "team": { "name": "Jordan", "code": "JOR" },
+  "coach": "Hussein Ammouta",
+  "squad": [
+    { "number": 1, "name": "Yazeed Abulaila", "pos": "GK", "age": 30, "club": "Al-Wehdat", "caps": 34, "goals": 0 },
+    { "number": 2, "name": "Mohammad Haikal", "pos": "DF", "age": 30, "club": "Al-Faisaly", "caps": 64, "goals": 1 },
+    { "number": 3, "name": "Yazan Al Naimat", "pos": "DF", "age": 27, "club": "Al-Faisaly", "caps": 40, "goals": 0 },
+    { "number": 4, "name": "Anas Bani Yaseen", "pos": "DF", "age": 29, "club": "Al-Ahli Amman", "caps": 54, "goals": 2 },
+    { "number": 5, "name": "Bashar Bani Yaseen", "pos": "DF", "age": 34, "club": "Al-Wahda", "caps": 86, "goals": 7 },
+    { "number": 6, "name": "Baha Faisal", "pos": "MF", "age": 27, "club": "Al-Jalil", "caps": 27, "goals": 0 },
+    { "number": 7, "name": "Musa Al-Taamari", "pos": "FW", "age": 30, "club": "Montpellier", "caps": 54, "goals": 19 },
+    { "number": 8, "name": "Saleh Rateb", "pos": "MF", "age": 30, "club": "Al-Ramtha", "caps": 37, "goals": 7 },
+    { "number": 9, "name": "Mousa Suleiman", "pos": "FW", "age": 26, "club": "Al-Faisaly", "caps": 32, "goals": 9 },
+    { "number": 10, "name": "Ahmad Dabbas", "pos": "MF", "age": 31, "club": "Fatih Karagümrük", "caps": 70, "goals": 13 },
+    { "number": 11, "name": "Ahmad Al-Sarouri", "pos": "FW", "age": 22, "club": "Hapoel Be'er Sheva", "caps": 9, "goals": 1 },
+    { "number": 12, "name": "Ibrahim Suleiman", "pos": "GK", "age": 26, "club": "Wolverhampton Wanderers", "caps": 8, "goals": 0 },
+    { "number": 13, "name": "Baher Madanat", "pos": "DF", "age": 25, "club": "Al-Faisaly", "caps": 36, "goals": 1 },
+    { "number": 14, "name": "Noor Al Rawabdeh", "pos": "MF", "age": 30, "club": "Al-Faisaly", "caps": 60, "goals": 10 },
+    { "number": 15, "name": "Hamza Oweidat", "pos": "DF", "age": 32, "club": "Al-Wehdat", "caps": 62, "goals": 2 },
+    { "number": 16, "name": "Musa Tameesh", "pos": "MF", "age": 27, "club": "Al-Ramtha", "caps": 29, "goals": 2 },
+    { "number": 17, "name": "Yazan Al Arabiyat", "pos": "FW", "age": 24, "club": "Oxford United", "caps": 20, "goals": 3 },
+    { "number": 18, "name": "Ali Olwan", "pos": "DF", "age": 25, "club": "Al-Faisaly", "caps": 11, "goals": 0 },
+    { "number": 19, "name": "Amro Masaad", "pos": "MF", "age": 30, "club": "Al-Wehdat", "caps": 76, "goals": 7 },
+    { "number": 20, "name": "Mutaz Hasan", "pos": "FW", "age": 34, "club": "Al-Ramtha", "caps": 72, "goals": 27 },
+    { "number": 21, "name": "Sedki Omari", "pos": "MF", "age": 23, "club": "Maccabi Haifa", "caps": 8, "goals": 2 },
+    { "number": 22, "name": "Obadah Al-Haija", "pos": "GK", "age": 26, "club": "Al-Ahli Amman", "caps": 5, "goals": 0 },
+    { "number": 23, "name": "Abdulla Nasib", "pos": "DF", "age": 34, "club": "Al-Faisaly", "caps": 78, "goals": 3 },
+    { "number": 24, "name": "Rami Anis", "pos": "FW", "age": 23, "club": "Anorthosis Famagusta", "caps": 8, "goals": 1 },
+    { "number": 25, "name": "Yazan Kahil", "pos": "MF", "age": 29, "club": "Al-Faisaly", "caps": 45, "goals": 1 },
+    { "number": 26, "name": "Ali Salameh", "pos": "DF", "age": 25, "club": "Al-Nasaf", "caps": 8, "goals": 0 }
+  ]
+}

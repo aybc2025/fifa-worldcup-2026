@@ -1,0 +1,32 @@
+{
+  "team": { "name": "Tunisia", "code": "TUN" },
+  "coach": "Sabri Lamouchi",
+  "squad": [
+    { "number": 1, "name": "Aymen Dahmen", "pos": "GK", "age": 29, "club": "Montpellier", "caps": 28, "goals": 0 },
+    { "number": 2, "name": "Mohamed Drager", "pos": "DF", "age": 27, "club": "Lorient", "caps": 37, "goals": 0 },
+    { "number": 3, "name": "Rami Bedoui", "pos": "DF", "age": 25, "club": "Estac Troyes", "caps": 4, "goals": 0 },
+    { "number": 4, "name": "Dylan Bronn", "pos": "DF", "age": 29, "club": "Salernitana", "caps": 44, "goals": 1 },
+    { "number": 5, "name": "Montassar Talbi", "pos": "DF", "age": 26, "club": "Lorient", "caps": 30, "goals": 0 },
+    { "number": 6, "name": "Aissa Laïdouni", "pos": "MF", "age": 29, "club": "Ferencváros", "caps": 43, "goals": 2 },
+    { "number": 7, "name": "Youssef Msakni", "pos": "FW", "age": 35, "club": "Espérance Sportive de Tunis", "caps": 113, "goals": 29 },
+    { "number": 8, "name": "Ellyes Skhiri", "pos": "MF", "age": 30, "club": "Eintracht Frankfurt", "caps": 60, "goals": 7 },
+    { "number": 9, "name": "Seifeddine Jaziri", "pos": "FW", "age": 31, "club": "Zamalek", "caps": 30, "goals": 6 },
+    { "number": 10, "name": "Wahbi Khazri", "pos": "FW", "age": 34, "club": "Al Feiha", "caps": 69, "goals": 26 },
+    { "number": 11, "name": "Naïm Sliti", "pos": "FW", "age": 31, "club": "Dijon", "caps": 74, "goals": 8 },
+    { "number": 12, "name": "Bechir Ben Said", "pos": "GK", "age": 30, "club": "Espérance Sportive de Tunis", "caps": 5, "goals": 0 },
+    { "number": 13, "name": "Mohamed Ben Romdhane", "pos": "MF", "age": 25, "club": "Nantes", "caps": 17, "goals": 3 },
+    { "number": 14, "name": "Ferjani Sassi", "pos": "MF", "age": 33, "club": "Al-Raed", "caps": 81, "goals": 9 },
+    { "number": 15, "name": "Ali Abdi", "pos": "DF", "age": 28, "club": "Brøndby", "caps": 9, "goals": 0 },
+    { "number": 16, "name": "Mortadha Ben Ouanes", "pos": "MF", "age": 26, "club": "Boavista", "caps": 21, "goals": 1 },
+    { "number": 17, "name": "Ali Maâloul", "pos": "DF", "age": 34, "club": "Al Ahly", "caps": 98, "goals": 5 },
+    { "number": 18, "name": "Ghailène Chaalali", "pos": "MF", "age": 29, "club": "Espérance Sportive de Tunis", "caps": 29, "goals": 5 },
+    { "number": 19, "name": "Hamza Rafia", "pos": "MF", "age": 26, "club": "Cremonese", "caps": 21, "goals": 4 },
+    { "number": 20, "name": "Hannibal Mejbri", "pos": "MF", "age": 22, "club": "Burnley", "caps": 21, "goals": 2 },
+    { "number": 21, "name": "Mohamed Amine Ben Hamida", "pos": "DF", "age": 24, "club": "Espérance Sportive de Tunis", "caps": 8, "goals": 0 },
+    { "number": 22, "name": "Taha Yassine Khenissi", "pos": "FW", "age": 34, "club": "Espérance Sportive de Tunis", "caps": 70, "goals": 36 },
+    { "number": 23, "name": "Farouk Ben Mustapha", "pos": "GK", "age": 35, "club": "Al-Khor", "caps": 27, "goals": 0 },
+    { "number": 24, "name": "Mohamed Khalil Sassi", "pos": "DF", "age": 30, "club": "Gaziantep FK", "caps": 36, "goals": 2 },
+    { "number": 25, "name": "Yassine Meriah", "pos": "DF", "age": 30, "club": "Clermont Foot", "caps": 21, "goals": 0 },
+    { "number": 26, "name": "Issam Jebali", "pos": "FW", "age": 30, "club": "Anderlecht", "caps": 29, "goals": 6 }
+  ]
+}

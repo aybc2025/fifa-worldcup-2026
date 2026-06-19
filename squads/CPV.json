@@ -1,0 +1,32 @@
+{
+  "team": { "name": "Cabo Verde", "code": "CPV" },
+  "coach": "Bubista",
+  "squad": [
+    { "number": 1, "name": "Vozinha", "pos": "GK", "age": 40, "club": "Chaves", "caps": 90, "goals": 0 },
+    { "number": 2, "name": "Stopira", "pos": "DF", "age": 38, "club": "Torreense", "caps": 61, "goals": 4 },
+    { "number": 3, "name": "Diney", "pos": "DF", "age": 31, "club": "Al Bataeh", "caps": 32, "goals": 2 },
+    { "number": 4, "name": "Pico", "pos": "DF", "age": 33, "club": "Shamrock Rovers", "caps": 45, "goals": 0 },
+    { "number": 5, "name": "Logan Costa", "pos": "DF", "age": 25, "club": "Villarreal", "caps": 28, "goals": 0 },
+    { "number": 6, "name": "Kevin Pina", "pos": "MF", "age": 29, "club": "Krasnodar", "caps": 31, "goals": 3 },
+    { "number": 7, "name": "Jovane Cabral", "pos": "MF", "age": 27, "club": "Estrela Amadora", "caps": 29, "goals": 3 },
+    { "number": 8, "name": "João Paulo", "pos": "MF", "age": 28, "club": "FCSB", "caps": 41, "goals": 1 },
+    { "number": 9, "name": "Gilson Benchimol", "pos": "FW", "age": 24, "club": "Akron Tolyatti", "caps": 21, "goals": 6 },
+    { "number": 10, "name": "Jamiro Monteiro", "pos": "MF", "age": 32, "club": "PEC Zwolle", "caps": 55, "goals": 5 },
+    { "number": 11, "name": "Garry Rodrigues", "pos": "MF", "age": 35, "club": "Apollon Limassol", "caps": 61, "goals": 10 },
+    { "number": 12, "name": "Márcio Rosa", "pos": "GK", "age": 29, "club": "Montana", "caps": 11, "goals": 0 },
+    { "number": 13, "name": "Sidny Lopes Cabral", "pos": "DF", "age": 23, "club": "Benfica", "caps": 11, "goals": 3 },
+    { "number": 14, "name": "Deroy Duarte", "pos": "MF", "age": 26, "club": "Ludogorets Razgrad", "caps": 33, "goals": 0 },
+    { "number": 15, "name": "Laros Duarte", "pos": "MF", "age": 29, "club": "Puskás Akadémia", "caps": 20, "goals": 1 },
+    { "number": 16, "name": "Yannick Semedo", "pos": "MF", "age": 30, "club": "Farense", "caps": 11, "goals": 1 },
+    { "number": 17, "name": "Willy Semedo", "pos": "MF", "age": 32, "club": "Omonia", "caps": 38, "goals": 3 },
+    { "number": 18, "name": "Telmo Arcanjo", "pos": "MF", "age": 24, "club": "Vitória de Guimarães", "caps": 16, "goals": 1 },
+    { "number": 19, "name": "Dailon Livramento", "pos": "FW", "age": 25, "club": "Casa Pia", "caps": 22, "goals": 7 },
+    { "number": 20, "name": "Ryan Mendes", "pos": "FW", "age": 36, "club": "Iğdır", "caps": 98, "goals": 22 },
+    { "number": 21, "name": "Nuno da Costa", "pos": "MF", "age": 35, "club": "İstanbul Başakşehir", "caps": 9, "goals": 2 },
+    { "number": 22, "name": "Steven Moreira", "pos": "DF", "age": 31, "club": "Columbus Crew", "caps": 20, "goals": 0 },
+    { "number": 23, "name": "CJ dos Santos", "pos": "GK", "age": 25, "club": "San Diego FC", "caps": 1, "goals": 0 },
+    { "number": 24, "name": "Wagner Pina", "pos": "DF", "age": 23, "club": "Trabzonspor", "caps": 14, "goals": 0 },
+    { "number": 25, "name": "Kelvin Pires", "pos": "DF", "age": 26, "club": "SJK", "caps": 6, "goals": 1 },
+    { "number": 26, "name": "Hélio Varela", "pos": "MF", "age": 24, "club": "Maccabi Tel Aviv", "caps": 21, "goals": 0 }
+  ]
+}

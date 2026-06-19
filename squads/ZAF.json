@@ -1,0 +1,32 @@
+{
+  "team": { "name": "South Africa", "code": "ZAF" },
+  "coach": "Hugo Broos",
+  "squad": [
+    { "number": 1, "name": "Ronwen Williams", "pos": "GK", "age": 33, "club": "Mamelodi Sundowns", "caps": 60, "goals": 0 },
+    { "number": 2, "name": "Reeve Frosler", "pos": "DF", "age": 27, "club": "Kaizer Chiefs", "caps": 32, "goals": 0 },
+    { "number": 3, "name": "Sifiso Hlanti", "pos": "DF", "age": 34, "club": "Kaizer Chiefs", "caps": 42, "goals": 0 },
+    { "number": 4, "name": "Mothobi Mvala", "pos": "MF", "age": 30, "club": "Mamelodi Sundowns", "caps": 36, "goals": 2 },
+    { "number": 5, "name": "Thibang Phete", "pos": "DF", "age": 30, "club": "Boavista", "caps": 29, "goals": 0 },
+    { "number": 6, "name": "Teboho Mokoena", "pos": "MF", "age": 27, "club": "Mamelodi Sundowns", "caps": 41, "goals": 6 },
+    { "number": 7, "name": "Themba Zwane", "pos": "FW", "age": 35, "club": "Mamelodi Sundowns", "caps": 48, "goals": 12 },
+    { "number": 8, "name": "Yusuf Maart", "pos": "MF", "age": 29, "club": "Kaizer Chiefs", "caps": 31, "goals": 2 },
+    { "number": 9, "name": "Lyle Foster", "pos": "FW", "age": 24, "club": "Burnley", "caps": 34, "goals": 6 },
+    { "number": 10, "name": "Percy Tau", "pos": "FW", "age": 31, "club": "Al-Ahly", "caps": 71, "goals": 15 },
+    { "number": 11, "name": "Lebo Mothiba", "pos": "FW", "age": 31, "club": "Amiens SC", "caps": 42, "goals": 13 },
+    { "number": 12, "name": "Veli Mothwa", "pos": "GK", "age": 33, "club": "AmaZulu", "caps": 11, "goals": 0 },
+    { "number": 13, "name": "Makhehlene Makhaula", "pos": "MF", "age": 29, "club": "SuperSport United", "caps": 21, "goals": 0 },
+    { "number": 14, "name": "Nkosinathi Sibisi", "pos": "DF", "age": 29, "club": "Orlando Pirates", "caps": 25, "goals": 2 },
+    { "number": 15, "name": "Aubrey Modiba", "pos": "DF", "age": 29, "club": "Mamelodi Sundowns", "caps": 20, "goals": 0 },
+    { "number": 16, "name": "Goodman Mosele", "pos": "MF", "age": 26, "club": "Busan IPark", "caps": 23, "goals": 2 },
+    { "number": 17, "name": "Luther Singh", "pos": "FW", "age": 28, "club": "FC Penafiel", "caps": 31, "goals": 3 },
+    { "number": 18, "name": "Reyaad Pieterse", "pos": "GK", "age": 27, "club": "Vitesse", "caps": 4, "goals": 0 },
+    { "number": 19, "name": "Siyanda Xulu", "pos": "DF", "age": 33, "club": "Trabzonspor", "caps": 42, "goals": 0 },
+    { "number": 20, "name": "Bradley Cross", "pos": "DF", "age": 24, "club": "Mamelodi Sundowns", "caps": 9, "goals": 0 },
+    { "number": 21, "name": "Grant Margeman", "pos": "MF", "age": 27, "club": "Ajax Cape Town", "caps": 7, "goals": 1 },
+    { "number": 22, "name": "Lyle Lakay", "pos": "MF", "age": 32, "club": "Mamelodi Sundowns", "caps": 28, "goals": 3 },
+    { "number": 23, "name": "Siyabonga Ngezana", "pos": "DF", "age": 28, "club": "Kaizer Chiefs", "caps": 29, "goals": 0 },
+    { "number": 24, "name": "Bafana Baloyi", "pos": "FW", "age": 22, "club": "Mamelodi Sundowns", "caps": 3, "goals": 0 },
+    { "number": 25, "name": "Oswin Appollis", "pos": "FW", "age": 24, "club": "Mamelodi Sundowns", "caps": 16, "goals": 3 },
+    { "number": 26, "name": "Elias Mokwana", "pos": "FW", "age": 25, "club": "Mamelodi Sundowns", "caps": 12, "goals": 3 }
+  ]
+}

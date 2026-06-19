@@ -1,0 +1,32 @@
+{
+  "team": { "name": "Australia", "code": "AUS" },
+  "coach": "Tony Popovic",
+  "squad": [
+    { "number": 1, "name": "Mathew Ryan", "pos": "GK", "age": 34, "club": "Levante", "caps": 104, "goals": 0 },
+    { "number": 2, "name": "Miloš Degenek", "pos": "DF", "age": 32, "club": "APOEL", "caps": 57, "goals": 1 },
+    { "number": 3, "name": "Alessandro Circati", "pos": "DF", "age": 22, "club": "Parma", "caps": 13, "goals": 1 },
+    { "number": 4, "name": "Jacob Italiano", "pos": "DF", "age": 24, "club": "Grazer AK", "caps": 5, "goals": 0 },
+    { "number": 5, "name": "Jordan Bos", "pos": "DF", "age": 23, "club": "Feyenoord", "caps": 27, "goals": 4 },
+    { "number": 6, "name": "Jason Geria", "pos": "DF", "age": 33, "club": "Albirex Niigata", "caps": 14, "goals": 0 },
+    { "number": 7, "name": "Mathew Leckie", "pos": "FW", "age": 35, "club": "Melbourne City", "caps": 80, "goals": 14 },
+    { "number": 8, "name": "Connor Metcalfe", "pos": "MF", "age": 26, "club": "FC St. Pauli", "caps": 36, "goals": 1 },
+    { "number": 9, "name": "Mohamed Touré", "pos": "FW", "age": 22, "club": "Norwich City", "caps": 10, "goals": 2 },
+    { "number": 10, "name": "Ajdin Hrustic", "pos": "FW", "age": 29, "club": "Heracles Almelo", "caps": 37, "goals": 4 },
+    { "number": 11, "name": "Awer Mabil", "pos": "FW", "age": 30, "club": "Castellón", "caps": 38, "goals": 10 },
+    { "number": 12, "name": "Paul Izzo", "pos": "GK", "age": 31, "club": "Randers", "caps": 4, "goals": 0 },
+    { "number": 13, "name": "Aiden O'Neill", "pos": "MF", "age": 27, "club": "New York City FC", "caps": 31, "goals": 0 },
+    { "number": 14, "name": "Cammy Devlin", "pos": "MF", "age": 28, "club": "Heart of Midlothian", "caps": 5, "goals": 0 },
+    { "number": 15, "name": "Kai Trewin", "pos": "DF", "age": 25, "club": "New York City FC", "caps": 6, "goals": 0 },
+    { "number": 16, "name": "Aziz Behich", "pos": "DF", "age": 35, "club": "Melbourne City", "caps": 84, "goals": 3 },
+    { "number": 17, "name": "Nestory Irankunda", "pos": "FW", "age": 20, "club": "Watford", "caps": 15, "goals": 5 },
+    { "number": 18, "name": "Patrick Beach", "pos": "GK", "age": 22, "club": "Melbourne City", "caps": 2, "goals": 0 },
+    { "number": 19, "name": "Harry Souttar", "pos": "DF", "age": 27, "club": "Leicester City", "caps": 38, "goals": 11 },
+    { "number": 20, "name": "Cristian Volpato", "pos": "FW", "age": 22, "club": "Sassuolo", "caps": 1, "goals": 0 },
+    { "number": 21, "name": "Cameron Burgess", "pos": "DF", "age": 30, "club": "Swansea City", "caps": 27, "goals": 0 },
+    { "number": 22, "name": "Jackson Irvine", "pos": "MF", "age": 33, "club": "FC St. Pauli", "caps": 82, "goals": 14 },
+    { "number": 23, "name": "Nishan Velupillay", "pos": "FW", "age": 25, "club": "Melbourne Victory", "caps": 7, "goals": 3 },
+    { "number": 24, "name": "Paul Okon-Engstler", "pos": "MF", "age": 21, "club": "Sydney FC", "caps": 6, "goals": 0 },
+    { "number": 25, "name": "Lucas Herrington", "pos": "DF", "age": 18, "club": "Colorado Rapids", "caps": 4, "goals": 0 },
+    { "number": 26, "name": "Tete Yengi", "pos": "FW", "age": 25, "club": "Machida Zelvia", "caps": 1, "goals": 1 }
+  ]
+}

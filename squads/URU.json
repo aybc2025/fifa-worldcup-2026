@@ -1,0 +1,32 @@
+{
+  "team": { "name": "Uruguay", "code": "URU" },
+  "coach": "Marcelo Bielsa",
+  "squad": [
+    { "number": 1, "name": "Sergio Rochet", "pos": "GK", "age": 31, "club": "Nacional", "caps": 40, "goals": 0 },
+    { "number": 2, "name": "Nahitan Nández", "pos": "MF", "age": 29, "club": "Inter Miami", "caps": 51, "goals": 3 },
+    { "number": 3, "name": "Mathías Olivera", "pos": "DF", "age": 27, "club": "Napoli", "caps": 39, "goals": 0 },
+    { "number": 4, "name": "Ronald Araújo", "pos": "DF", "age": 26, "club": "Barcelona", "caps": 35, "goals": 4 },
+    { "number": 5, "name": "José María Giménez", "pos": "DF", "age": 30, "club": "Atlético Madrid", "caps": 80, "goals": 5 },
+    { "number": 6, "name": "Rodrigo Bentancur", "pos": "MF", "age": 28, "club": "Tottenham Hotspur", "caps": 62, "goals": 6 },
+    { "number": 7, "name": "Nicolás De La Cruz", "pos": "MF", "age": 28, "club": "Flamengo", "caps": 38, "goals": 5 },
+    { "number": 8, "name": "Federico Valverde", "pos": "MF", "age": 27, "club": "Real Madrid", "caps": 69, "goals": 12 },
+    { "number": 9, "name": "Darwin Núñez", "pos": "FW", "age": 26, "club": "Liverpool", "caps": 55, "goals": 24 },
+    { "number": 10, "name": "Giorgian De Arrascaeta", "pos": "MF", "age": 31, "club": "Flamengo", "caps": 70, "goals": 19 },
+    { "number": 11, "name": "Facundo Torres", "pos": "FW", "age": 25, "club": "Orlando City", "caps": 25, "goals": 6 },
+    { "number": 12, "name": "Diego Godín", "pos": "DF", "age": 39, "club": "Nacional", "caps": 160, "goals": 16 },
+    { "number": 13, "name": "Sebastián Cáceres", "pos": "DF", "age": 28, "club": "Club América", "caps": 16, "goals": 2 },
+    { "number": 14, "name": "Lucas Olaza", "pos": "DF", "age": 30, "club": "Celta Vigo", "caps": 14, "goals": 0 },
+    { "number": 15, "name": "Matías Vecino", "pos": "MF", "age": 33, "club": "Lazio", "caps": 78, "goals": 10 },
+    { "number": 16, "name": "Manuel Ugarte", "pos": "MF", "age": 24, "club": "Manchester United", "caps": 33, "goals": 0 },
+    { "number": 17, "name": "Gastón Pereiro", "pos": "MF", "age": 30, "club": "Real Betis", "caps": 29, "goals": 5 },
+    { "number": 18, "name": "Maximiliano Araújo", "pos": "FW", "age": 26, "club": "Sporting CP", "caps": 19, "goals": 4 },
+    { "number": 19, "name": "Martín Satriano", "pos": "FW", "age": 24, "club": "Brest", "caps": 16, "goals": 4 },
+    { "number": 20, "name": "Sebastián Coates", "pos": "DF", "age": 34, "club": "Sporting CP", "caps": 65, "goals": 2 },
+    { "number": 21, "name": "Brian Rodríguez", "pos": "FW", "age": 25, "club": "Club América", "caps": 14, "goals": 3 },
+    { "number": 22, "name": "Washington Aguerre", "pos": "GK", "age": 39, "club": "Cagliari", "caps": 2, "goals": 0 },
+    { "number": 23, "name": "Santiago Mele", "pos": "GK", "age": 27, "club": "Junior", "caps": 4, "goals": 0 },
+    { "number": 24, "name": "Agustín Canobbio", "pos": "FW", "age": 26, "club": "Athletico Paranaense", "caps": 21, "goals": 7 },
+    { "number": 25, "name": "Luciano Rodríguez", "pos": "FW", "age": 21, "club": "Liverpool Montevideo", "caps": 9, "goals": 2 },
+    { "number": 26, "name": "Emiliano Martínez", "pos": "FW", "age": 22, "club": "Peñarol", "caps": 3, "goals": 0 }
+  ]
+}

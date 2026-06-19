@@ -1,0 +1,32 @@
+{
+  "team": { "name": "Scotland", "code": "SCO" },
+  "coach": "Steve Clarke",
+  "squad": [
+    { "number": 1, "name": "Craig Gordon", "pos": "GK", "age": 42, "club": "Heart of Midlothian", "caps": 83, "goals": 0 },
+    { "number": 2, "name": "Anthony Ralston", "pos": "DF", "age": 25, "club": "Celtic", "caps": 25, "goals": 0 },
+    { "number": 3, "name": "Andy Robertson", "pos": "DF", "age": 32, "club": "Liverpool", "caps": 86, "goals": 3 },
+    { "number": 4, "name": "Grant Hanley", "pos": "DF", "age": 34, "club": "Norwich City", "caps": 62, "goals": 3 },
+    { "number": 5, "name": "Jack Hendry", "pos": "DF", "age": 30, "club": "AZ Alkmaar", "caps": 40, "goals": 1 },
+    { "number": 6, "name": "Callum McGregor", "pos": "MF", "age": 31, "club": "Celtic", "caps": 64, "goals": 7 },
+    { "number": 7, "name": "John McGinn", "pos": "MF", "age": 30, "club": "Aston Villa", "caps": 78, "goals": 14 },
+    { "number": 8, "name": "Scott McTominay", "pos": "MF", "age": 29, "club": "Napoli", "caps": 55, "goals": 16 },
+    { "number": 9, "name": "Lyndon Dykes", "pos": "FW", "age": 30, "club": "QPR", "caps": 49, "goals": 11 },
+    { "number": 10, "name": "Ryan Christie", "pos": "MF", "age": 30, "club": "Bournemouth", "caps": 58, "goals": 11 },
+    { "number": 11, "name": "Ryan Fraser", "pos": "FW", "age": 31, "club": "Wolverhampton Wanderers", "caps": 23, "goals": 4 },
+    { "number": 12, "name": "Liam Kelly", "pos": "GK", "age": 33, "club": "Coventry City", "caps": 8, "goals": 0 },
+    { "number": 13, "name": "Ben Davies", "pos": "DF", "age": 30, "club": "Nottingham Forest", "caps": 11, "goals": 0 },
+    { "number": 14, "name": "Kenny McLean", "pos": "MF", "age": 33, "club": "Norwich City", "caps": 37, "goals": 4 },
+    { "number": 15, "name": "Liam Cooper", "pos": "DF", "age": 34, "club": "Coventry City", "caps": 27, "goals": 1 },
+    { "number": 16, "name": "Billy Gilmour", "pos": "MF", "age": 24, "club": "Brighton & Hove Albion", "caps": 30, "goals": 0 },
+    { "number": 17, "name": "Stuart Armstrong", "pos": "MF", "age": 33, "club": "Southampton", "caps": 55, "goals": 5 },
+    { "number": 18, "name": "Che Adams", "pos": "FW", "age": 30, "club": "Torino", "caps": 32, "goals": 6 },
+    { "number": 19, "name": "Kieran Tierney", "pos": "DF", "age": 28, "club": "Real Sociedad", "caps": 62, "goals": 3 },
+    { "number": 20, "name": "Lawrence Shankland", "pos": "FW", "age": 30, "club": "Heart of Midlothian", "caps": 26, "goals": 12 },
+    { "number": 21, "name": "Ryan Jack", "pos": "MF", "age": 32, "club": "Rangers", "caps": 19, "goals": 1 },
+    { "number": 22, "name": "Ross McCrorie", "pos": "DF", "age": 27, "club": "Bristol City", "caps": 11, "goals": 0 },
+    { "number": 23, "name": "Jon McLaughlin", "pos": "GK", "age": 37, "club": "Rangers", "caps": 10, "goals": 0 },
+    { "number": 24, "name": "Liel Abada", "pos": "FW", "age": 24, "club": "Charlotte FC", "caps": 5, "goals": 0 },
+    { "number": 25, "name": "Jake Doyle-Hayes", "pos": "MF", "age": 26, "club": "St Mirren", "caps": 5, "goals": 0 },
+    { "number": 26, "name": "Alex Cochrane", "pos": "DF", "age": 25, "club": "Nottingham Forest", "caps": 4, "goals": 0 }
+  ]
+}

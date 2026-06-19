@@ -1,0 +1,32 @@
+{
+  "team": { "name": "New Zealand", "code": "NZL" },
+  "coach": "Darren Bazeley",
+  "squad": [
+    { "number": 1, "name": "Max Crocombe", "pos": "GK", "age": 32, "club": "Dundee", "caps": 30, "goals": 0 },
+    { "number": 2, "name": "Liberato Cacace", "pos": "DF", "age": 24, "club": "Empoli", "caps": 39, "goals": 1 },
+    { "number": 3, "name": "Michael Boxall", "pos": "DF", "age": 37, "club": "Minnesota United", "caps": 67, "goals": 3 },
+    { "number": 4, "name": "Winston Reid", "pos": "DF", "age": 37, "club": "Esbjerg", "caps": 59, "goals": 4 },
+    { "number": 5, "name": "Tommy Smith", "pos": "DF", "age": 33, "club": "Al-Wakrah", "caps": 77, "goals": 2 },
+    { "number": 6, "name": "Tim Payne", "pos": "MF", "age": 28, "club": "FC Cincinnati", "caps": 46, "goals": 0 },
+    { "number": 7, "name": "Marco Rojas", "pos": "FW", "age": 34, "club": "Vissel Kobe", "caps": 103, "goals": 22 },
+    { "number": 8, "name": "Joe Bell", "pos": "MF", "age": 27, "club": "Charlotte FC", "caps": 35, "goals": 0 },
+    { "number": 9, "name": "Oli Sail", "pos": "FW", "age": 27, "club": "Wellington Phoenix", "caps": 41, "goals": 12 },
+    { "number": 10, "name": "Kosta Barbarouses", "pos": "FW", "age": 35, "club": "Al-Khor", "caps": 77, "goals": 18 },
+    { "number": 11, "name": "Ben Waine", "pos": "FW", "age": 24, "club": "Urawa Red Diamonds", "caps": 30, "goals": 10 },
+    { "number": 12, "name": "Stefan Marinovic", "pos": "GK", "age": 34, "club": "Vancouver Whitecaps", "caps": 44, "goals": 0 },
+    { "number": 13, "name": "Elijah Just", "pos": "MF", "age": 22, "club": "Metz", "caps": 14, "goals": 1 },
+    { "number": 14, "name": "Matthew Garbett", "pos": "MF", "age": 24, "club": "Esbjerg", "caps": 26, "goals": 2 },
+    { "number": 15, "name": "Nando de Graaf", "pos": "DF", "age": 25, "club": "Telstar", "caps": 14, "goals": 0 },
+    { "number": 16, "name": "Clayton Lewis", "pos": "MF", "age": 28, "club": "Wellington Phoenix", "caps": 47, "goals": 5 },
+    { "number": 17, "name": "Sarpreet Singh", "pos": "MF", "age": 26, "club": "Schalke 04", "caps": 37, "goals": 4 },
+    { "number": 18, "name": "Louis Fenton", "pos": "DF", "age": 30, "club": "Wellington Phoenix", "caps": 52, "goals": 0 },
+    { "number": 19, "name": "Tyler Boyd", "pos": "FW", "age": 29, "club": "Çaykur Rizespor", "caps": 30, "goals": 9 },
+    { "number": 20, "name": "Marko Stamenic", "pos": "MF", "age": 24, "club": "Wellington Phoenix", "caps": 22, "goals": 1 },
+    { "number": 21, "name": "Myer Bevan", "pos": "FW", "age": 25, "club": "Wellington Phoenix", "caps": 17, "goals": 2 },
+    { "number": 22, "name": "Moses Dyer", "pos": "FW", "age": 27, "club": "Esbjerg", "caps": 31, "goals": 6 },
+    { "number": 23, "name": "Ethan Bartlett", "pos": "GK", "age": 30, "club": "Wellington Phoenix", "caps": 12, "goals": 0 },
+    { "number": 24, "name": "Deklan Wynne", "pos": "DF", "age": 30, "club": "Hamilton Wanderers", "caps": 19, "goals": 0 },
+    { "number": 25, "name": "Cameron Howieson", "pos": "MF", "age": 27, "club": "St Mirren", "caps": 5, "goals": 0 },
+    { "number": 26, "name": "Callan Elliot", "pos": "FW", "age": 23, "club": "Wellington Phoenix", "caps": 5, "goals": 0 }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "team": { "name": "Panama", "code": "PAN" },
+  "coach": "Thomas Christiansen",
+  "squad": [
+    { "number": 1, "name": "Orlando Mosquera", "pos": "GK", "age": 29, "club": "Portland Timbers", "caps": 36, "goals": 0 },
+    { "number": 2, "name": "Michael Amir Murillo", "pos": "DF", "age": 28, "club": "Montpellier", "caps": 76, "goals": 0 },
+    { "number": 3, "name": "Eric Davis", "pos": "DF", "age": 36, "club": "SD Eibar", "caps": 99, "goals": 2 },
+    { "number": 4, "name": "Fidel Escobar", "pos": "DF", "age": 30, "club": "New York Red Bulls", "caps": 55, "goals": 2 },
+    { "number": 5, "name": "Andrés Andrade", "pos": "MF", "age": 32, "club": "Motagua", "caps": 61, "goals": 1 },
+    { "number": 6, "name": "Felipe Baloy", "pos": "DF", "age": 43, "club": "retired", "caps": 133, "goals": 4 },
+    { "number": 7, "name": "José Fajardo", "pos": "FW", "age": 28, "club": "SD Eibar", "caps": 60, "goals": 17 },
+    { "number": 8, "name": "Aníbal Godoy", "pos": "MF", "age": 36, "club": "Nashville SC", "caps": 129, "goals": 0 },
+    { "number": 9, "name": "Ismael Díaz", "pos": "FW", "age": 24, "club": "Clermont Foot", "caps": 48, "goals": 20 },
+    { "number": 10, "name": "Adalberto Carrasquilla", "pos": "MF", "age": 28, "club": "Nashville SC", "caps": 65, "goals": 11 },
+    { "number": 11, "name": "Édgar Bárcenas", "pos": "FW", "age": 31, "club": "Club Sporting Cristal", "caps": 57, "goals": 10 },
+    { "number": 12, "name": "Luis Mejía", "pos": "GK", "age": 32, "club": "Atlanta United", "caps": 31, "goals": 0 },
+    { "number": 13, "name": "Éric Careaga", "pos": "DF", "age": 27, "club": "Nashville SC", "caps": 37, "goals": 2 },
+    { "number": 14, "name": "Álex Rodríguez", "pos": "MF", "age": 30, "club": "Club Atlético Tucumán", "caps": 46, "goals": 2 },
+    { "number": 15, "name": "Abdiel Ayarza", "pos": "MF", "age": 25, "club": "Minnesota United", "caps": 35, "goals": 2 },
+    { "number": 16, "name": "Harold Cummings", "pos": "DF", "age": 29, "club": "Club Sporting Cristal", "caps": 64, "goals": 4 },
+    { "number": 17, "name": "Rolando Blackburn", "pos": "FW", "age": 31, "club": "Nashville SC", "caps": 57, "goals": 22 },
+    { "number": 18, "name": "Cecilio Waterman", "pos": "FW", "age": 31, "club": "Portland Timbers", "caps": 59, "goals": 14 },
+    { "number": 19, "name": "Alberto Quintero", "pos": "FW", "age": 36, "club": "Universitario de Deportes", "caps": 111, "goals": 21 },
+    { "number": 20, "name": "Alfredo Stephens", "pos": "MF", "age": 26, "club": "Portland Timbers", "caps": 35, "goals": 4 },
+    { "number": 21, "name": "Freddy Hall", "pos": "GK", "age": 28, "club": "Huachipato", "caps": 25, "goals": 0 },
+    { "number": 22, "name": "Cristian Martínez", "pos": "DF", "age": 25, "club": "Portland Timbers", "caps": 14, "goals": 0 },
+    { "number": 23, "name": "Gabriel Torres", "pos": "FW", "age": 36, "club": "Chorrillo FC", "caps": 122, "goals": 43 },
+    { "number": 24, "name": "Ronaldo Dely Valdés", "pos": "FW", "age": 24, "club": "Atlanta United", "caps": 10, "goals": 0 },
+    { "number": 25, "name": "Alvin Barton", "pos": "DF", "age": 30, "club": "Platense", "caps": 27, "goals": 0 },
+    { "number": 26, "name": "Tomás Martínez", "pos": "MF", "age": 30, "club": "Nashville SC", "caps": 19, "goals": 1 }
+  ]
+}

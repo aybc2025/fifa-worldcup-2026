@@ -1,0 +1,32 @@
+{
+  "team": { "name": "Brazil", "code": "BRA" },
+  "coach": "Carlo Ancelotti",
+  "squad": [
+    { "number": 1, "name": "Alisson", "pos": "GK", "age": 33, "club": "Liverpool", "caps": 78, "goals": 0 },
+    { "number": 2, "name": "Éderson Silva", "pos": "MF", "age": 26, "club": "Atalanta", "caps": 3, "goals": 0 },
+    { "number": 3, "name": "Gabriel Magalhães", "pos": "DF", "age": 28, "club": "Arsenal", "caps": 17, "goals": 1 },
+    { "number": 4, "name": "Marquinhos", "pos": "DF", "age": 32, "club": "Paris Saint-Germain", "caps": 105, "goals": 7 },
+    { "number": 5, "name": "Casemiro", "pos": "MF", "age": 34, "club": "Manchester United", "caps": 86, "goals": 9 },
+    { "number": 6, "name": "Alex Sandro", "pos": "DF", "age": 35, "club": "Flamengo", "caps": 45, "goals": 2 },
+    { "number": 7, "name": "Vinícius Júnior", "pos": "FW", "age": 25, "club": "Real Madrid", "caps": 49, "goals": 9 },
+    { "number": 8, "name": "Bruno Guimarães", "pos": "MF", "age": 28, "club": "Newcastle United", "caps": 43, "goals": 3 },
+    { "number": 9, "name": "Matheus Cunha", "pos": "FW", "age": 27, "club": "Manchester United", "caps": 23, "goals": 1 },
+    { "number": 10, "name": "Neymar", "pos": "FW", "age": 34, "club": "Santos", "caps": 128, "goals": 79 },
+    { "number": 11, "name": "Raphinha", "pos": "FW", "age": 29, "club": "Barcelona", "caps": 39, "goals": 11 },
+    { "number": 12, "name": "Weverton", "pos": "GK", "age": 38, "club": "Grêmio", "caps": 11, "goals": 0 },
+    { "number": 13, "name": "Danilo Luiz", "pos": "DF", "age": 34, "club": "Flamengo", "caps": 70, "goals": 1 },
+    { "number": 14, "name": "Bremer", "pos": "DF", "age": 29, "club": "Juventus", "caps": 8, "goals": 1 },
+    { "number": 15, "name": "Léo Pereira", "pos": "DF", "age": 30, "club": "Flamengo", "caps": 4, "goals": 0 },
+    { "number": 16, "name": "Douglas Santos", "pos": "DF", "age": 32, "club": "Zenit Saint Petersburg", "caps": 7, "goals": 0 },
+    { "number": 17, "name": "Fabinho", "pos": "MF", "age": 32, "club": "Al-Ittihad", "caps": 33, "goals": 0 },
+    { "number": 18, "name": "Danilo Santos", "pos": "MF", "age": 25, "club": "Botafogo", "caps": 4, "goals": 2 },
+    { "number": 19, "name": "Endrick", "pos": "FW", "age": 19, "club": "Lyon", "caps": 17, "goals": 4 },
+    { "number": 20, "name": "Lucas Paquetá", "pos": "MF", "age": 28, "club": "Flamengo", "caps": 63, "goals": 13 },
+    { "number": 21, "name": "Luiz Henrique", "pos": "FW", "age": 25, "club": "Zenit Saint Petersburg", "caps": 15, "goals": 2 },
+    { "number": 22, "name": "Gabriel Martinelli", "pos": "FW", "age": 24, "club": "Arsenal", "caps": 23, "goals": 4 },
+    { "number": 23, "name": "Ederson Moraes", "pos": "GK", "age": 32, "club": "Fenerbahçe", "caps": 32, "goals": 0 },
+    { "number": 24, "name": "Roger Ibañez", "pos": "DF", "age": 27, "club": "Al-Ahli", "caps": 7, "goals": 0 },
+    { "number": 25, "name": "Igor Thiago", "pos": "FW", "age": 24, "club": "Brentford", "caps": 4, "goals": 2 },
+    { "number": 26, "name": "Rayan", "pos": "FW", "age": 19, "club": "Bournemouth", "caps": 2, "goals": 1 }
+  ]
+}

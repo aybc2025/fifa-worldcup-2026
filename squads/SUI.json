@@ -1,0 +1,32 @@
+{
+  "team": { "name": "Switzerland", "code": "SUI" },
+  "coach": "Murat Yakin",
+  "squad": [
+    { "number": 1, "name": "Yann Sommer", "pos": "GK", "age": 37, "club": "Inter Milan", "caps": 100, "goals": 0 },
+    { "number": 2, "name": "Silvan Widmer", "pos": "DF", "age": 32, "club": "Mainz 05", "caps": 48, "goals": 2 },
+    { "number": 3, "name": "Ricardo Rodríguez", "pos": "DF", "age": 33, "club": "Torino", "caps": 109, "goals": 5 },
+    { "number": 4, "name": "Manuel Akanji", "pos": "DF", "age": 30, "club": "Manchester City", "caps": 56, "goals": 3 },
+    { "number": 5, "name": "Fabian Schär", "pos": "DF", "age": 33, "club": "Newcastle United", "caps": 78, "goals": 13 },
+    { "number": 6, "name": "Denis Zakaria", "pos": "MF", "age": 28, "club": "Monaco", "caps": 50, "goals": 5 },
+    { "number": 7, "name": "Breel Embolo", "pos": "FW", "age": 28, "club": "Monaco", "caps": 68, "goals": 19 },
+    { "number": 8, "name": "Remo Freuler", "pos": "MF", "age": 33, "club": "Bologna", "caps": 69, "goals": 6 },
+    { "number": 9, "name": "Haris Seferović", "pos": "FW", "age": 33, "club": "Galatasaray", "caps": 83, "goals": 27 },
+    { "number": 10, "name": "Granit Xhaka", "pos": "MF", "age": 34, "club": "Bayer Leverkusen", "caps": 130, "goals": 29 },
+    { "number": 11, "name": "Ruben Vargas", "pos": "MF", "age": 27, "club": "FC Augsburg", "caps": 39, "goals": 4 },
+    { "number": 12, "name": "Gregor Kobel", "pos": "GK", "age": 28, "club": "Borussia Dortmund", "caps": 22, "goals": 0 },
+    { "number": 13, "name": "Edimilson Fernandes", "pos": "MF", "age": 30, "club": "Mainz 05", "caps": 35, "goals": 1 },
+    { "number": 14, "name": "Steven Zuber", "pos": "MF", "age": 34, "club": "Fenerbahçe", "caps": 69, "goals": 11 },
+    { "number": 15, "name": "Nico Elvedi", "pos": "DF", "age": 29, "club": "Borussia Mönchengladbach", "caps": 60, "goals": 5 },
+    { "number": 16, "name": "Djibril Sow", "pos": "MF", "age": 29, "club": "Sevilla", "caps": 38, "goals": 2 },
+    { "number": 17, "name": "Ardon Jashari", "pos": "MF", "age": 23, "club": "Club Brugge", "caps": 20, "goals": 1 },
+    { "number": 18, "name": "Michel Aebischer", "pos": "MF", "age": 28, "club": "Bologna", "caps": 32, "goals": 3 },
+    { "number": 19, "name": "Renato Steffen", "pos": "MF", "age": 33, "club": "FC Lugano", "caps": 48, "goals": 8 },
+    { "number": 20, "name": "Noah Okafor", "pos": "FW", "age": 25, "club": "Milan", "caps": 28, "goals": 6 },
+    { "number": 21, "name": "Christian Fassnacht", "pos": "FW", "age": 32, "club": "FC Lausanne-Sport", "caps": 26, "goals": 2 },
+    { "number": 22, "name": "Philipp Köhn", "pos": "GK", "age": 27, "club": "Monaco", "caps": 5, "goals": 0 },
+    { "number": 23, "name": "Becir Omeragic", "pos": "DF", "age": 24, "club": "FC Zurich", "caps": 9, "goals": 0 },
+    { "number": 24, "name": "Dan Ndoye", "pos": "FW", "age": 24, "club": "Bologna", "caps": 22, "goals": 5 },
+    { "number": 25, "name": "Zeki Amdouni", "pos": "FW", "age": 25, "club": "Burnley", "caps": 19, "goals": 5 },
+    { "number": 26, "name": "Leonidas Stergiou", "pos": "DF", "age": 23, "club": "VfB Stuttgart", "caps": 12, "goals": 0 }
+  ]
+}

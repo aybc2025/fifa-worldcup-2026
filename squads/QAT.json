@@ -1,0 +1,32 @@
+{
+  "team": { "name": "Qatar", "code": "QAT" },
+  "coach": "Marquez López",
+  "squad": [
+    { "number": 1, "name": "Meshaal Barsham", "pos": "GK", "age": 28, "club": "Al-Sadd", "caps": 48, "goals": 0 },
+    { "number": 2, "name": "Pedro Miguel", "pos": "DF", "age": 32, "club": "Al-Sadd", "caps": 102, "goals": 1 },
+    { "number": 3, "name": "Abdelkarim Hassan", "pos": "DF", "age": 30, "club": "Al-Sadd", "caps": 122, "goals": 9 },
+    { "number": 4, "name": "Boualem Khoukhi", "pos": "DF", "age": 34, "club": "Al-Sadd", "caps": 106, "goals": 9 },
+    { "number": 5, "name": "Bassam Al-Rawi", "pos": "DF", "age": 30, "club": "Al-Gharafa", "caps": 89, "goals": 3 },
+    { "number": 6, "name": "Assim Madibo", "pos": "MF", "age": 28, "club": "Al-Duhail", "caps": 66, "goals": 5 },
+    { "number": 7, "name": "Ahmed Alaaeldin", "pos": "MF", "age": 27, "club": "Al-Gharafa", "caps": 62, "goals": 9 },
+    { "number": 8, "name": "Karim Boudiaf", "pos": "MF", "age": 32, "club": "Al-Duhail", "caps": 103, "goals": 9 },
+    { "number": 9, "name": "Almoez Ali", "pos": "FW", "age": 29, "club": "Al-Duhail", "caps": 109, "goals": 62 },
+    { "number": 10, "name": "Akram Afif", "pos": "FW", "age": 28, "club": "Al-Sadd", "caps": 101, "goals": 40 },
+    { "number": 11, "name": "Hasan Al-Haydos", "pos": "FW", "age": 34, "club": "Al-Sadd", "caps": 181, "goals": 72 },
+    { "number": 12, "name": "Yousuf Hassan", "pos": "GK", "age": 26, "club": "Al-Arabi", "caps": 18, "goals": 0 },
+    { "number": 13, "name": "Homam Al-Amine", "pos": "MF", "age": 25, "club": "Al-Sadd", "caps": 27, "goals": 2 },
+    { "number": 14, "name": "Ali Asad", "pos": "DF", "age": 30, "club": "Al-Sadd", "caps": 48, "goals": 1 },
+    { "number": 15, "name": "Ismail Mohamad", "pos": "DF", "age": 26, "club": "Al-Rayyan", "caps": 39, "goals": 0 },
+    { "number": 16, "name": "Mohammed Waad", "pos": "MF", "age": 27, "club": "Al-Rayyan", "caps": 41, "goals": 3 },
+    { "number": 17, "name": "Salem Al-Hajri", "pos": "DF", "age": 25, "club": "Al-Gharafa", "caps": 27, "goals": 0 },
+    { "number": 18, "name": "Abdullah Al-Ahrak", "pos": "MF", "age": 24, "club": "Al-Arabi", "caps": 15, "goals": 1 },
+    { "number": 19, "name": "Yusuf Abdurisag", "pos": "FW", "age": 22, "club": "Al-Sadd", "caps": 18, "goals": 7 },
+    { "number": 20, "name": "Khalid Muneer Ali", "pos": "MF", "age": 24, "club": "Al-Duhail", "caps": 16, "goals": 2 },
+    { "number": 21, "name": "Ahmed Suhail", "pos": "FW", "age": 26, "club": "Al-Gharafa", "caps": 28, "goals": 7 },
+    { "number": 22, "name": "Salah Zakaria", "pos": "GK", "age": 32, "club": "Al-Sadd", "caps": 10, "goals": 0 },
+    { "number": 23, "name": "Salmeen Al-Nabet", "pos": "MF", "age": 23, "club": "Al-Duhail", "caps": 6, "goals": 1 },
+    { "number": 24, "name": "Ahmed Fatehi", "pos": "DF", "age": 23, "club": "Al-Ahli", "caps": 11, "goals": 0 },
+    { "number": 25, "name": "Musab Kheder", "pos": "FW", "age": 26, "club": "Al-Gharafa", "caps": 22, "goals": 5 },
+    { "number": 26, "name": "Khalid Al-Hantouli", "pos": "DF", "age": 26, "club": "Al-Rayyan", "caps": 9, "goals": 0 }
+  ]
+}

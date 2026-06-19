@@ -1,0 +1,32 @@
+{
+  "team": { "name": "Sweden", "code": "SWE" },
+  "coach": "Jon Dahl Tomasson",
+  "squad": [
+    { "number": 1, "name": "Robin Olsen", "pos": "GK", "age": 35, "club": "Aston Villa", "caps": 57, "goals": 0 },
+    { "number": 2, "name": "Emil Krafth", "pos": "DF", "age": 30, "club": "Newcastle United", "caps": 30, "goals": 0 },
+    { "number": 3, "name": "Ludwig Augustinsson", "pos": "DF", "age": 31, "club": "Sevilla", "caps": 58, "goals": 3 },
+    { "number": 4, "name": "Pontus Jansson", "pos": "DF", "age": 35, "club": "Brentford", "caps": 52, "goals": 4 },
+    { "number": 5, "name": "Isak Hien", "pos": "DF", "age": 26, "club": "Atalanta", "caps": 26, "goals": 3 },
+    { "number": 6, "name": "Albin Ekdal", "pos": "MF", "age": 36, "club": "Malmö FF", "caps": 81, "goals": 2 },
+    { "number": 7, "name": "Sebastian Larsson", "pos": "MF", "age": 39, "club": "AIK", "caps": 133, "goals": 8 },
+    { "number": 8, "name": "Mattias Svanberg", "pos": "MF", "age": 26, "club": "Wolfsburg", "caps": 37, "goals": 3 },
+    { "number": 9, "name": "Alexander Isak", "pos": "FW", "age": 27, "club": "Newcastle United", "caps": 52, "goals": 20 },
+    { "number": 10, "name": "Emil Forsberg", "pos": "MF", "age": 34, "club": "RB Leipzig", "caps": 103, "goals": 32 },
+    { "number": 11, "name": "Marcus Danielson", "pos": "DF", "age": 34, "club": "IFK Göteborg", "caps": 15, "goals": 0 },
+    { "number": 12, "name": "Karl-Johan Johnsson", "pos": "GK", "age": 33, "club": "Guingamp", "caps": 22, "goals": 0 },
+    { "number": 13, "name": "Dejan Kulusevski", "pos": "MF", "age": 25, "club": "Tottenham Hotspur", "caps": 45, "goals": 10 },
+    { "number": 14, "name": "Kristoffer Olsson", "pos": "MF", "age": 30, "club": "Midtjylland", "caps": 31, "goals": 3 },
+    { "number": 15, "name": "Jens Cajuste", "pos": "MF", "age": 26, "club": "Brentford", "caps": 21, "goals": 0 },
+    { "number": 16, "name": "Viktor Claesson", "pos": "MF", "age": 33, "club": "AIK", "caps": 54, "goals": 6 },
+    { "number": 17, "name": "Samuel Chukwueze", "pos": "FW", "age": 27, "club": "AC Milan", "caps": 0, "goals": 0 },
+    { "number": 18, "name": "Robin Quaison", "pos": "FW", "age": 31, "club": "Malmö FF", "caps": 47, "goals": 11 },
+    { "number": 19, "name": "Anthony Elanga", "pos": "FW", "age": 23, "club": "Nottingham Forest", "caps": 22, "goals": 4 },
+    { "number": 20, "name": "Zlatan Ibrahimović", "pos": "FW", "age": 44, "club": "retired", "caps": 120, "goals": 62 },
+    { "number": 21, "name": "Victor Lindelöf", "pos": "DF", "age": 31, "club": "Manchester United", "caps": 72, "goals": 3 },
+    { "number": 22, "name": "Oscar Linnér", "pos": "GK", "age": 28, "club": "RB Leipzig", "caps": 9, "goals": 0 },
+    { "number": 23, "name": "Gustav Svensson", "pos": "MF", "age": 35, "club": "Djurgårdens IF", "caps": 5, "goals": 0 },
+    { "number": 24, "name": "Carl Starfelt", "pos": "DF", "age": 30, "club": "Celtic", "caps": 25, "goals": 0 },
+    { "number": 25, "name": "Williot Swedberg", "pos": "FW", "age": 22, "club": "Celta Vigo", "caps": 13, "goals": 2 },
+    { "number": 26, "name": "Linus Wahlqvist", "pos": "DF", "age": 29, "club": "Dinamo Zagreb", "caps": 11, "goals": 0 }
+  ]
+}

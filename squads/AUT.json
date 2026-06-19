@@ -1,0 +1,32 @@
+{
+  "team": { "name": "Austria", "code": "AUT" },
+  "coach": "Ralf Rangnick",
+  "squad": [
+    { "number": 1, "name": "Alexander Schlager", "pos": "GK", "age": 30, "club": "Red Bull Salzburg", "caps": 26, "goals": 0 },
+    { "number": 2, "name": "David Affengruber", "pos": "DF", "age": 25, "club": "Elche", "caps": 1, "goals": 0 },
+    { "number": 3, "name": "Kevin Danso", "pos": "DF", "age": 27, "club": "Tottenham Hotspur", "caps": 32, "goals": 0 },
+    { "number": 4, "name": "Xaver Schlager", "pos": "MF", "age": 28, "club": "RB Leipzig", "caps": 51, "goals": 4 },
+    { "number": 5, "name": "Stefan Posch", "pos": "DF", "age": 29, "club": "Mainz 05", "caps": 52, "goals": 5 },
+    { "number": 6, "name": "Nicolas Seiwald", "pos": "MF", "age": 25, "club": "RB Leipzig", "caps": 47, "goals": 1 },
+    { "number": 7, "name": "Marko Arnautović", "pos": "FW", "age": 37, "club": "Red Star Belgrade", "caps": 133, "goals": 47 },
+    { "number": 8, "name": "David Alaba", "pos": "DF", "age": 33, "club": "Real Madrid", "caps": 113, "goals": 15 },
+    { "number": 9, "name": "Marcel Sabitzer", "pos": "MF", "age": 32, "club": "Borussia Dortmund", "caps": 98, "goals": 26 },
+    { "number": 10, "name": "Florian Grillitsch", "pos": "MF", "age": 30, "club": "Braga", "caps": 58, "goals": 1 },
+    { "number": 11, "name": "Michael Gregoritsch", "pos": "FW", "age": 32, "club": "FC Augsburg", "caps": 75, "goals": 24 },
+    { "number": 12, "name": "Florian Wiegele", "pos": "GK", "age": 25, "club": "Viktoria Plzeň", "caps": 1, "goals": 0 },
+    { "number": 13, "name": "Patrick Pentz", "pos": "GK", "age": 29, "club": "Brøndby", "caps": 18, "goals": 0 },
+    { "number": 14, "name": "Saša Kalajdžić", "pos": "FW", "age": 28, "club": "LASK", "caps": 22, "goals": 4 },
+    { "number": 15, "name": "Philipp Lienhart", "pos": "DF", "age": 29, "club": "SC Freiburg", "caps": 41, "goals": 3 },
+    { "number": 16, "name": "Phillipp Mwene", "pos": "DF", "age": 32, "club": "Mainz 05", "caps": 30, "goals": 0 },
+    { "number": 17, "name": "Carney Chukwuemeka", "pos": "MF", "age": 22, "club": "Borussia Dortmund", "caps": 3, "goals": 1 },
+    { "number": 18, "name": "Romano Schmid", "pos": "MF", "age": 26, "club": "Werder Bremen", "caps": 34, "goals": 3 },
+    { "number": 19, "name": "Dejan Ljubičić", "pos": "MF", "age": 28, "club": "Schalke 04", "caps": 9, "goals": 1 },
+    { "number": 20, "name": "Konrad Laimer", "pos": "MF", "age": 29, "club": "Bayern Munich", "caps": 57, "goals": 7 },
+    { "number": 21, "name": "Patrick Wimmer", "pos": "FW", "age": 25, "club": "VfL Wolfsburg", "caps": 30, "goals": 1 },
+    { "number": 22, "name": "Alexander Prass", "pos": "MF", "age": 25, "club": "TSG Hoffenheim", "caps": 19, "goals": 0 },
+    { "number": 23, "name": "Marco Friedl", "pos": "DF", "age": 28, "club": "Werder Bremen", "caps": 11, "goals": 0 },
+    { "number": 24, "name": "Paul Wanner", "pos": "MF", "age": 20, "club": "PSV Eindhoven", "caps": 3, "goals": 0 },
+    { "number": 25, "name": "Michael Svoboda", "pos": "DF", "age": 27, "club": "Venezia", "caps": 4, "goals": 0 },
+    { "number": 26, "name": "Alessandro Schöpf", "pos": "MF", "age": 32, "club": "Wolfsberger AC", "caps": 35, "goals": 6 }
+  ]
+}

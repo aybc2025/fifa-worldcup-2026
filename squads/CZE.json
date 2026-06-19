@@ -1,0 +1,32 @@
+{
+  "team": { "name": "Czech Republic", "code": "CZE" },
+  "coach": "Miroslav Koubek",
+  "squad": [
+    { "number": 1, "name": "Matěj Kovář", "pos": "GK", "age": 26, "club": "PSV Eindhoven", "caps": 20, "goals": 0 },
+    { "number": 2, "name": "David Zima", "pos": "DF", "age": 25, "club": "Slavia Prague", "caps": 25, "goals": 1 },
+    { "number": 3, "name": "Tomáš Holeš", "pos": "DF", "age": 33, "club": "Slavia Prague", "caps": 41, "goals": 2 },
+    { "number": 4, "name": "Robin Hranáč", "pos": "DF", "age": 26, "club": "TSG Hoffenheim", "caps": 14, "goals": 1 },
+    { "number": 5, "name": "Vladimír Coufal", "pos": "DF", "age": 33, "club": "TSG Hoffenheim", "caps": 62, "goals": 2 },
+    { "number": 6, "name": "Štěpán Chaloupek", "pos": "DF", "age": 23, "club": "Slavia Prague", "caps": 5, "goals": 0 },
+    { "number": 7, "name": "Ladislav Krejčí", "pos": "DF", "age": 27, "club": "Wolverhampton Wanderers", "caps": 27, "goals": 5 },
+    { "number": 8, "name": "Vladimír Darida", "pos": "MF", "age": 35, "club": "Hradec Králové", "caps": 79, "goals": 8 },
+    { "number": 9, "name": "Adam Hložek", "pos": "FW", "age": 23, "club": "TSG Hoffenheim", "caps": 43, "goals": 5 },
+    { "number": 10, "name": "Patrik Schick", "pos": "FW", "age": 30, "club": "Bayer Leverkusen", "caps": 53, "goals": 26 },
+    { "number": 11, "name": "Jan Kuchta", "pos": "FW", "age": 29, "club": "Sparta Prague", "caps": 31, "goals": 3 },
+    { "number": 12, "name": "Lukáš Červ", "pos": "MF", "age": 25, "club": "Viktoria Plzeň", "caps": 17, "goals": 2 },
+    { "number": 13, "name": "Mojmír Chytil", "pos": "FW", "age": 27, "club": "Slavia Prague", "caps": 22, "goals": 6 },
+    { "number": 14, "name": "David Jurásek", "pos": "DF", "age": 25, "club": "Slavia Prague", "caps": 18, "goals": 1 },
+    { "number": 15, "name": "Pavel Šulc", "pos": "FW", "age": 25, "club": "Lyon", "caps": 21, "goals": 5 },
+    { "number": 16, "name": "Jindřich Staněk", "pos": "GK", "age": 30, "club": "Slavia Prague", "caps": 14, "goals": 0 },
+    { "number": 17, "name": "Lukáš Provod", "pos": "MF", "age": 29, "club": "Slavia Prague", "caps": 38, "goals": 3 },
+    { "number": 18, "name": "Michal Sadílek", "pos": "MF", "age": 27, "club": "Slavia Prague", "caps": 35, "goals": 1 },
+    { "number": 19, "name": "Tomáš Chorý", "pos": "FW", "age": 31, "club": "Slavia Prague", "caps": 22, "goals": 7 },
+    { "number": 20, "name": "Jaroslav Zelený", "pos": "DF", "age": 33, "club": "Sparta Prague", "caps": 23, "goals": 0 },
+    { "number": 21, "name": "David Douděra", "pos": "DF", "age": 28, "club": "Slavia Prague", "caps": 17, "goals": 2 },
+    { "number": 22, "name": "Tomáš Souček", "pos": "MF", "age": 31, "club": "West Ham United", "caps": 90, "goals": 17 },
+    { "number": 23, "name": "Lukáš Horníček", "pos": "GK", "age": 23, "club": "Braga", "caps": 1, "goals": 0 },
+    { "number": 24, "name": "Alexandr Sojka", "pos": "MF", "age": 23, "club": "Viktoria Plzeň", "caps": 2, "goals": 0 },
+    { "number": 25, "name": "Hugo Sochůrek", "pos": "MF", "age": 18, "club": "Sparta Prague", "caps": 1, "goals": 0 },
+    { "number": 26, "name": "Denis Višinský", "pos": "FW", "age": 23, "club": "Viktoria Plzeň", "caps": 2, "goals": 1 }
+  ]
+}

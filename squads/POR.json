@@ -1,0 +1,32 @@
+{
+  "team": { "name": "Portugal", "code": "POR" },
+  "coach": "Roberto Martínez",
+  "squad": [
+    { "number": 1, "name": "Diogo Costa", "pos": "GK", "age": 26, "club": "Porto", "caps": 30, "goals": 0 },
+    { "number": 2, "name": "João Cancelo", "pos": "DF", "age": 32, "club": "Al-Hilal", "caps": 72, "goals": 5 },
+    { "number": 3, "name": "Nuno Mendes", "pos": "DF", "age": 23, "club": "Paris Saint-Germain", "caps": 39, "goals": 1 },
+    { "number": 4, "name": "Rúben Dias", "pos": "DF", "age": 28, "club": "Manchester City", "caps": 74, "goals": 3 },
+    { "number": 5, "name": "Danilo Pereira", "pos": "DF", "age": 33, "club": "Al-Gharafa", "caps": 74, "goals": 4 },
+    { "number": 6, "name": "Vitinha", "pos": "MF", "age": 25, "club": "Paris Saint-Germain", "caps": 42, "goals": 3 },
+    { "number": 7, "name": "Cristiano Ronaldo", "pos": "FW", "age": 41, "club": "Al-Nassr", "caps": 220, "goals": 137 },
+    { "number": 8, "name": "Bruno Fernandes", "pos": "MF", "age": 32, "club": "Manchester United", "caps": 83, "goals": 23 },
+    { "number": 9, "name": "Gonçalo Ramos", "pos": "FW", "age": 24, "club": "Paris Saint-Germain", "caps": 28, "goals": 16 },
+    { "number": 10, "name": "Bernardo Silva", "pos": "MF", "age": 31, "club": "Manchester City", "caps": 108, "goals": 22 },
+    { "number": 11, "name": "Rafael Leão", "pos": "FW", "age": 26, "club": "Milan", "caps": 44, "goals": 12 },
+    { "number": 12, "name": "Rui Patrício", "pos": "GK", "age": 38, "club": "Roma", "caps": 120, "goals": 0 },
+    { "number": 13, "name": "Diogo Dalot", "pos": "DF", "age": 26, "club": "Manchester United", "caps": 45, "goals": 2 },
+    { "number": 14, "name": "William Carvalho", "pos": "MF", "age": 33, "club": "Real Betis", "caps": 102, "goals": 3 },
+    { "number": 15, "name": "Pepe", "pos": "DF", "age": 43, "club": "Porto", "caps": 145, "goals": 7 },
+    { "number": 16, "name": "Rúben Neves", "pos": "MF", "age": 29, "club": "Al-Hilal", "caps": 72, "goals": 5 },
+    { "number": 17, "name": "Pedro Neto", "pos": "MF", "age": 25, "club": "Chelsea", "caps": 32, "goals": 3 },
+    { "number": 18, "name": "Rúben Vinagre", "pos": "DF", "age": 26, "club": "Sporting CP", "caps": 12, "goals": 0 },
+    { "number": 19, "name": "Pedro Gonçalves", "pos": "MF", "age": 27, "club": "Sporting CP", "caps": 19, "goals": 5 },
+    { "number": 20, "name": "Sebastián Coates", "pos": "DF", "age": 34, "club": "Sporting CP", "caps": 3, "goals": 1 },
+    { "number": 21, "name": "Diogo Jota", "pos": "FW", "age": 29, "club": "Liverpool", "caps": 51, "goals": 18 },
+    { "number": 22, "name": "Gonçalo Inácio", "pos": "DF", "age": 24, "club": "Nottingham Forest", "caps": 21, "goals": 0 },
+    { "number": 23, "name": "José Sá", "pos": "GK", "age": 32, "club": "Wolverhampton Wanderers", "caps": 21, "goals": 0 },
+    { "number": 24, "name": "João Félix", "pos": "FW", "age": 26, "club": "Chelsea", "caps": 49, "goals": 11 },
+    { "number": 25, "name": "Francisco Conceição", "pos": "MF", "age": 23, "club": "Juventus", "caps": 20, "goals": 3 },
+    { "number": 26, "name": "Nelson Semedo", "pos": "DF", "age": 32, "club": "Wolverhampton Wanderers", "caps": 65, "goals": 0 }
+  ]
+}

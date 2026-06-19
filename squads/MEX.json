@@ -1,0 +1,32 @@
+{
+  "team": { "name": "Mexico", "code": "MEX" },
+  "coach": "Javier Aguirre",
+  "squad": [
+    { "number": 1, "name": "Guillermo Ochoa", "pos": "GK", "age": 41, "club": "Pachuca", "caps": 149, "goals": 0 },
+    { "number": 2, "name": "Jorge Sánchez", "pos": "DF", "age": 27, "club": "Porto", "caps": 42, "goals": 0 },
+    { "number": 3, "name": "Gerardo Arteaga", "pos": "DF", "age": 27, "club": "Genk", "caps": 36, "goals": 1 },
+    { "number": 4, "name": "Héctor Moreno", "pos": "DF", "age": 37, "club": "Club América", "caps": 133, "goals": 6 },
+    { "number": 5, "name": "Johan Vásquez", "pos": "DF", "age": 26, "club": "Cremona", "caps": 43, "goals": 0 },
+    { "number": 6, "name": "Edson Álvarez", "pos": "MF", "age": 28, "club": "West Ham United", "caps": 79, "goals": 6 },
+    { "number": 7, "name": "Hirving Lozano", "pos": "FW", "age": 30, "club": "San Diego FC", "caps": 88, "goals": 19 },
+    { "number": 8, "name": "Héctor Herrera", "pos": "MF", "age": 35, "club": "LA Galaxy", "caps": 126, "goals": 22 },
+    { "number": 9, "name": "Raúl Jiménez", "pos": "FW", "age": 34, "club": "Fulham", "caps": 117, "goals": 33 },
+    { "number": 10, "name": "Alexis Vega", "pos": "FW", "age": 28, "club": "Toluca", "caps": 41, "goals": 11 },
+    { "number": 11, "name": "Roberto Alvarado", "pos": "MF", "age": 26, "club": "Chivas de Guadalajara", "caps": 32, "goals": 2 },
+    { "number": 12, "name": "Luis Malagón", "pos": "GK", "age": 29, "club": "Club América", "caps": 14, "goals": 0 },
+    { "number": 13, "name": "Sebastián Córdova", "pos": "MF", "age": 28, "club": "Tigres UANL", "caps": 26, "goals": 2 },
+    { "number": 14, "name": "Uriel Antuna", "pos": "FW", "age": 28, "club": "Cruz Azul", "caps": 35, "goals": 7 },
+    { "number": 15, "name": "Érick Gutiérrez", "pos": "MF", "age": 31, "club": "PSV", "caps": 65, "goals": 3 },
+    { "number": 16, "name": "Julián Araujo", "pos": "DF", "age": 23, "club": "Bournemouth", "caps": 24, "goals": 0 },
+    { "number": 17, "name": "Santiago Giménez", "pos": "FW", "age": 24, "club": "Milan", "caps": 31, "goals": 16 },
+    { "number": 18, "name": "Marcelo Flores", "pos": "MF", "age": 22, "club": "Tigres UANL", "caps": 13, "goals": 3 },
+    { "number": 19, "name": "Jaime Lozano", "pos": "MF", "age": 25, "club": "Tigres UANL", "caps": 9, "goals": 0 },
+    { "number": 20, "name": "Alejandro Zendejas", "pos": "MF", "age": 27, "club": "Club América", "caps": 25, "goals": 4 },
+    { "number": 21, "name": "Charly Rodríguez", "pos": "MF", "age": 24, "club": "Cruz Azul", "caps": 21, "goals": 4 },
+    { "number": 22, "name": "Rodolfo Cota", "pos": "GK", "age": 37, "club": "Chivas de Guadalajara", "caps": 8, "goals": 0 },
+    { "number": 23, "name": "Hugo Sánchez", "pos": "FW", "age": 23, "club": "Toluca", "caps": 4, "goals": 0 },
+    { "number": 24, "name": "Gilberto Mora", "pos": "MF", "age": 23, "club": "Club León", "caps": 9, "goals": 0 },
+    { "number": 25, "name": "Carlos Antuna", "pos": "DF", "age": 24, "club": "Cruz Azul", "caps": 5, "goals": 0 },
+    { "number": 26, "name": "Ozziel Herrera", "pos": "MF", "age": 25, "club": "Club León", "caps": 8, "goals": 2 }
+  ]
+}

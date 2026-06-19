@@ -1,0 +1,32 @@
+{
+  "team": { "name": "Bosnia and Herzegovina", "code": "BIH" },
+  "coach": "Sergej Barbarez",
+  "squad": [
+    { "number": 1, "name": "Nikola Vasilj", "pos": "GK", "age": 30, "club": "FC St. Pauli", "caps": 26, "goals": 0 },
+    { "number": 2, "name": "Nihad Mujakić", "pos": "DF", "age": 28, "club": "Gaziantep", "caps": 12, "goals": 1 },
+    { "number": 3, "name": "Dennis Hadžikadunić", "pos": "DF", "age": 27, "club": "Sampdoria", "caps": 32, "goals": 0 },
+    { "number": 4, "name": "Tarik Muharemović", "pos": "DF", "age": 23, "club": "Sassuolo", "caps": 14, "goals": 1 },
+    { "number": 5, "name": "Sead Kolašinac", "pos": "DF", "age": 32, "club": "Atalanta", "caps": 65, "goals": 0 },
+    { "number": 6, "name": "Benjamin Tahirović", "pos": "MF", "age": 23, "club": "Brøndby", "caps": 28, "goals": 2 },
+    { "number": 7, "name": "Amar Dedić", "pos": "DF", "age": 23, "club": "Benfica", "caps": 28, "goals": 1 },
+    { "number": 8, "name": "Armin Gigović", "pos": "MF", "age": 24, "club": "Young Boys", "caps": 20, "goals": 1 },
+    { "number": 9, "name": "Samed Baždar", "pos": "FW", "age": 22, "club": "Jagiellonia Białystok", "caps": 13, "goals": 1 },
+    { "number": 10, "name": "Ermedin Demirović", "pos": "FW", "age": 28, "club": "VfB Stuttgart", "caps": 40, "goals": 4 },
+    { "number": 11, "name": "Edin Džeko", "pos": "FW", "age": 40, "club": "Schalke 04", "caps": 148, "goals": 73 },
+    { "number": 12, "name": "Mladen Jurkas", "pos": "GK", "age": 18, "club": "Borac Banja Luka", "caps": 0, "goals": 0 },
+    { "number": 13, "name": "Ivan Bašić", "pos": "MF", "age": 24, "club": "Astana", "caps": 17, "goals": 0 },
+    { "number": 14, "name": "Ivan Šunjić", "pos": "MF", "age": 29, "club": "Pafos", "caps": 11, "goals": 0 },
+    { "number": 15, "name": "Amar Memić", "pos": "MF", "age": 25, "club": "Viktoria Plzeň", "caps": 13, "goals": 1 },
+    { "number": 16, "name": "Amir Hadžiahmetović", "pos": "MF", "age": 29, "club": "Hull City", "caps": 36, "goals": 0 },
+    { "number": 17, "name": "Dženis Burnić", "pos": "MF", "age": 28, "club": "Karlsruher SC", "caps": 20, "goals": 0 },
+    { "number": 18, "name": "Nikola Katić", "pos": "DF", "age": 29, "club": "Schalke 04", "caps": 17, "goals": 2 },
+    { "number": 19, "name": "Kerim Alajbegović", "pos": "FW", "age": 18, "club": "Red Bull Salzburg", "caps": 10, "goals": 1 },
+    { "number": 20, "name": "Esmir Bajraktarević", "pos": "FW", "age": 21, "club": "PSV Eindhoven", "caps": 16, "goals": 1 },
+    { "number": 21, "name": "Stjepan Radeljić", "pos": "DF", "age": 28, "club": "Rijeka", "caps": 5, "goals": 0 },
+    { "number": 22, "name": "Martin Zlomislić", "pos": "GK", "age": 27, "club": "Rijeka", "caps": 3, "goals": 0 },
+    { "number": 23, "name": "Haris Tabaković", "pos": "FW", "age": 31, "club": "Borussia Mönchengladbach", "caps": 10, "goals": 4 },
+    { "number": 24, "name": "Arjan Malić", "pos": "DF", "age": 20, "club": "Sturm Graz", "caps": 8, "goals": 0 },
+    { "number": 25, "name": "Jovo Lukić", "pos": "FW", "age": 27, "club": "Universitatea Cluj", "caps": 3, "goals": 0 },
+    { "number": 26, "name": "Ermin Mahmić", "pos": "MF", "age": 21, "club": "Slovan Liberec", "caps": 2, "goals": 0 }
+  ]
+}

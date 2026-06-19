@@ -1,0 +1,32 @@
+{
+  "team": { "name": "Ecuador", "code": "ECU" },
+  "coach": "Sebastián Beccacece",
+  "squad": [
+    { "number": 1, "name": "Hernán Galíndez", "pos": "GK", "age": 39, "club": "Huracán", "caps": 35, "goals": 0 },
+    { "number": 2, "name": "Félix Torres", "pos": "DF", "age": 29, "club": "Internacional", "caps": 49, "goals": 5 },
+    { "number": 3, "name": "Piero Hincapié", "pos": "DF", "age": 24, "club": "Arsenal", "caps": 52, "goals": 3 },
+    { "number": 4, "name": "Joel Ordóñez", "pos": "DF", "age": 22, "club": "Club Brugge", "caps": 17, "goals": 0 },
+    { "number": 5, "name": "Jordy Alcívar", "pos": "MF", "age": 26, "club": "Independiente del Valle", "caps": 11, "goals": 1 },
+    { "number": 6, "name": "Willian Pacho", "pos": "DF", "age": 24, "club": "Paris Saint-Germain", "caps": 34, "goals": 2 },
+    { "number": 7, "name": "Pervis Estupiñán", "pos": "DF", "age": 28, "club": "Milan", "caps": 54, "goals": 5 },
+    { "number": 8, "name": "Anthony Valencia", "pos": "MF", "age": 22, "club": "Antwerp", "caps": 3, "goals": 1 },
+    { "number": 9, "name": "John Yeboah", "pos": "FW", "age": 25, "club": "Venezia", "caps": 23, "goals": 3 },
+    { "number": 10, "name": "Kendry Páez", "pos": "MF", "age": 19, "club": "River Plate", "caps": 26, "goals": 2 },
+    { "number": 11, "name": "Kevin Rodríguez", "pos": "FW", "age": 26, "club": "Union Saint-Gilloise", "caps": 31, "goals": 2 },
+    { "number": 12, "name": "Moisés Ramírez", "pos": "GK", "age": 25, "club": "Kifisia", "caps": 7, "goals": 0 },
+    { "number": 13, "name": "Enner Valencia", "pos": "FW", "age": 36, "club": "Pachuca", "caps": 105, "goals": 49 },
+    { "number": 14, "name": "Alan Minda", "pos": "MF", "age": 23, "club": "Atlético Mineiro", "caps": 20, "goals": 2 },
+    { "number": 15, "name": "Pedro Vite", "pos": "MF", "age": 24, "club": "Pumas UNAM", "caps": 17, "goals": 1 },
+    { "number": 16, "name": "Jordy Caicedo", "pos": "FW", "age": 28, "club": "Huracán", "caps": 20, "goals": 4 },
+    { "number": 17, "name": "Ángelo Preciado", "pos": "DF", "age": 28, "club": "Atlético Mineiro", "caps": 55, "goals": 0 },
+    { "number": 18, "name": "Denil Castillo", "pos": "MF", "age": 22, "club": "Midtjylland", "caps": 5, "goals": 0 },
+    { "number": 19, "name": "Gonzalo Plata", "pos": "FW", "age": 25, "club": "Flamengo", "caps": 50, "goals": 8 },
+    { "number": 20, "name": "Nilson Angulo", "pos": "FW", "age": 22, "club": "Sunderland", "caps": 14, "goals": 2 },
+    { "number": 21, "name": "Alan Franco", "pos": "MF", "age": 27, "club": "Atlético Mineiro", "caps": 58, "goals": 1 },
+    { "number": 22, "name": "Gonzalo Valle", "pos": "GK", "age": 30, "club": "LDU Quito", "caps": 4, "goals": 0 },
+    { "number": 23, "name": "Moisés Caicedo", "pos": "MF", "age": 24, "club": "Chelsea", "caps": 61, "goals": 3 },
+    { "number": 24, "name": "Jeremy Arévalo", "pos": "FW", "age": 21, "club": "VfB Stuttgart", "caps": 4, "goals": 0 },
+    { "number": 25, "name": "Jackson Porozo", "pos": "DF", "age": 25, "club": "Tijuana", "caps": 10, "goals": 1 },
+    { "number": 26, "name": "Yaimar Medina", "pos": "DF", "age": 21, "club": "Genk", "caps": 6, "goals": 0 }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "team": { "name": "Iraq", "code": "IRQ" },
+  "coach": "Jesús Casas",
+  "squad": [
+    { "number": 1, "name": "Jalal Hassan", "pos": "GK", "age": 29, "club": "Al-Zawraa", "caps": 34, "goals": 0 },
+    { "number": 2, "name": "Ali Jasim", "pos": "DF", "age": 27, "club": "Tractor", "caps": 57, "goals": 1 },
+    { "number": 3, "name": "Rebin Sulaka", "pos": "DF", "age": 27, "club": "Fateh Sari", "caps": 29, "goals": 0 },
+    { "number": 4, "name": "Saman Shaker", "pos": "DF", "age": 26, "club": "Zob Ahan", "caps": 37, "goals": 4 },
+    { "number": 5, "name": "Mahmood Hassan", "pos": "MF", "age": 22, "club": "Al-Quwa Al-Jawiya", "caps": 1, "goals": 0 },
+    { "number": 6, "name": "Ibrahim Bayesh", "pos": "DF", "age": 28, "club": "Al-Shorta", "caps": 41, "goals": 1 },
+    { "number": 7, "name": "Bashar Resan", "pos": "FW", "age": 30, "club": "Al-Shorta", "caps": 52, "goals": 14 },
+    { "number": 8, "name": "Ahmad Yasin", "pos": "MF", "age": 26, "club": "Al-Zawraa", "caps": 46, "goals": 3 },
+    { "number": 9, "name": "Aymen Hussein", "pos": "FW", "age": 29, "club": "Zamalek", "caps": 73, "goals": 28 },
+    { "number": 10, "name": "Amjad Attwan", "pos": "MF", "age": 29, "club": "Al-Zawraa", "caps": 59, "goals": 11 },
+    { "number": 11, "name": "Mohammed Dawood", "pos": "MF", "age": 24, "club": "Al-Zawraa", "caps": 43, "goals": 12 },
+    { "number": 12, "name": "Dhurgham Ismail", "pos": "GK", "age": 35, "club": "Al-Quwa Al-Jawiya", "caps": 108, "goals": 0 },
+    { "number": 13, "name": "Mustafa Nadhim", "pos": "DF", "age": 28, "club": "Qingdao Hainiu", "caps": 17, "goals": 0 },
+    { "number": 14, "name": "Ali Adnan", "pos": "DF", "age": 30, "club": "Al-Nasaf", "caps": 83, "goals": 5 },
+    { "number": 15, "name": "Saad Natiq", "pos": "MF", "age": 29, "club": "Al-Zawraa", "caps": 21, "goals": 0 },
+    { "number": 16, "name": "Osama Rashid", "pos": "MF", "age": 30, "club": "Al-Quwa Al-Jawiya", "caps": 81, "goals": 11 },
+    { "number": 17, "name": "Mohammed Kareem", "pos": "FW", "age": 22, "club": "Al-Zawraa", "caps": 9, "goals": 2 },
+    { "number": 18, "name": "Omar Kareem", "pos": "MF", "age": 23, "club": "Zob Ahan", "caps": 11, "goals": 0 },
+    { "number": 19, "name": "Mohanad Ali", "pos": "FW", "age": 27, "club": "Al-Shorta", "caps": 30, "goals": 4 },
+    { "number": 20, "name": "Alaa Abbas", "pos": "DF", "age": 27, "club": "Al-Zawraa", "caps": 29, "goals": 1 },
+    { "number": 21, "name": "Emad Mohsin", "pos": "MF", "age": 30, "club": "Al-Quwa Al-Jawiya", "caps": 81, "goals": 17 },
+    { "number": 22, "name": "Humam Tariq", "pos": "GK", "age": 25, "club": "Al-Naft", "caps": 6, "goals": 0 },
+    { "number": 23, "name": "Hashim Ali", "pos": "DF", "age": 25, "club": "Al-Zawraa", "caps": 17, "goals": 0 },
+    { "number": 24, "name": "Abbas Sayed", "pos": "FW", "age": 24, "club": "Al-Shorta", "caps": 0, "goals": 0 },
+    { "number": 25, "name": "Mukhtar Ali", "pos": "MF", "age": 22, "club": "Al-Zawraa", "caps": 7, "goals": 0 },
+    { "number": 26, "name": "Yusif Alawi", "pos": "GK", "age": 29, "club": "Al-Naft", "caps": 5, "goals": 0 }
+  ]
+}

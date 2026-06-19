@@ -1,0 +1,32 @@
+{
+  "team": { "name": "Uzbekistan", "code": "UZB" },
+  "coach": "Srecko Katanec",
+  "squad": [
+    { "number": 1, "name": "Abduvohid Nematov", "pos": "GK", "age": 27, "club": "Pakhtakor", "caps": 27, "goals": 0 },
+    { "number": 2, "name": "Sherzod Nasrullayev", "pos": "DF", "age": 27, "club": "Pakhtakor", "caps": 42, "goals": 0 },
+    { "number": 3, "name": "Dostonbek Tursunov", "pos": "DF", "age": 27, "club": "CSKA Moscow", "caps": 31, "goals": 0 },
+    { "number": 4, "name": "Sanjar Tursunov", "pos": "DF", "age": 32, "club": "Pakhtakor", "caps": 44, "goals": 0 },
+    { "number": 5, "name": "Temur Karimov", "pos": "DF", "age": 26, "club": "Pakhtakor", "caps": 32, "goals": 0 },
+    { "number": 6, "name": "Otabek Shukurov", "pos": "MF", "age": 29, "club": "Pakhtakor", "caps": 43, "goals": 3 },
+    { "number": 7, "name": "Eldor Shomurodov", "pos": "FW", "age": 29, "club": "Crystal Palace", "caps": 60, "goals": 23 },
+    { "number": 8, "name": "Bobur Abdullayev", "pos": "MF", "age": 26, "club": "Pakhtakor", "caps": 36, "goals": 4 },
+    { "number": 9, "name": "Ilhomjon Narzullayev", "pos": "FW", "age": 25, "club": "Pakhtakor", "caps": 28, "goals": 12 },
+    { "number": 10, "name": "Jaloliddin Masharipov", "pos": "MF", "age": 31, "club": "Al-Qadsiah", "caps": 75, "goals": 16 },
+    { "number": 11, "name": "Odiljon Hamrobekov", "pos": "FW", "age": 26, "club": "Pakhtakor", "caps": 19, "goals": 5 },
+    { "number": 12, "name": "Oybek Akhmedov", "pos": "GK", "age": 30, "club": "Metallurg Bekabad", "caps": 5, "goals": 0 },
+    { "number": 13, "name": "Akbar Tursunmurodov", "pos": "FW", "age": 30, "club": "Pakhtakor", "caps": 63, "goals": 34 },
+    { "number": 14, "name": "Husayn Norchaev", "pos": "MF", "age": 28, "club": "Pakhtakor", "caps": 31, "goals": 4 },
+    { "number": 15, "name": "Shamsiddin Shokhiev", "pos": "DF", "age": 23, "club": "Pakhtakor", "caps": 13, "goals": 0 },
+    { "number": 16, "name": "Jasurbek Yakhshiboyev", "pos": "MF", "age": 27, "club": "Pakhtakor", "caps": 37, "goals": 8 },
+    { "number": 17, "name": "Khurshid Muxtarov", "pos": "FW", "age": 23, "club": "Pakhtakor", "caps": 12, "goals": 2 },
+    { "number": 18, "name": "Abbosbek Fayzullayev", "pos": "MF", "age": 23, "club": "Anderlecht", "caps": 35, "goals": 10 },
+    { "number": 19, "name": "Umid Hasanov", "pos": "MF", "age": 24, "club": "Pakhtakor", "caps": 5, "goals": 0 },
+    { "number": 20, "name": "Dilshod Yusupov", "pos": "MF", "age": 29, "club": "FC Kyzylorda", "caps": 22, "goals": 1 },
+    { "number": 21, "name": "Husan Murodov", "pos": "FW", "age": 27, "club": "Pakhtakor", "caps": 18, "goals": 5 },
+    { "number": 22, "name": "Otabek Akhmedov", "pos": "MF", "age": 29, "club": "Al-Hilal", "caps": 83, "goals": 13 },
+    { "number": 23, "name": "Hamza Kadirov", "pos": "GK", "age": 22, "club": "Pakhtakor", "caps": 2, "goals": 0 },
+    { "number": 24, "name": "Lochinbek Iskandarov", "pos": "DF", "age": 23, "club": "Pakhtakor", "caps": 7, "goals": 0 },
+    { "number": 25, "name": "Usmon Tursunov", "pos": "MF", "age": 22, "club": "Pakhtakor", "caps": 3, "goals": 0 },
+    { "number": 26, "name": "Nurbek Shokirov", "pos": "FW", "age": 21, "club": "Pakhtakor", "caps": 1, "goals": 0 }
+  ]
+}

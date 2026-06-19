@@ -1,0 +1,32 @@
+{
+  "team": { "name": "Colombia", "code": "COL" },
+  "coach": "Néstor Lorenzo",
+  "squad": [
+    { "number": 1, "name": "David Ospina", "pos": "GK", "age": 37, "club": "Atlético Nacional", "caps": 130, "goals": 0 },
+    { "number": 2, "name": "Daniel Muñoz", "pos": "DF", "age": 30, "club": "Crystal Palace", "caps": 46, "goals": 3 },
+    { "number": 3, "name": "Jhon Lucumí", "pos": "DF", "age": 27, "club": "Bologna", "caps": 37, "goals": 1 },
+    { "number": 4, "name": "Santiago Arias", "pos": "DF", "age": 34, "club": "Independiente", "caps": 68, "goals": 0 },
+    { "number": 5, "name": "Kevin Castaño", "pos": "MF", "age": 25, "club": "River Plate", "caps": 25, "goals": 0 },
+    { "number": 6, "name": "Richard Ríos", "pos": "MF", "age": 26, "club": "Benfica", "caps": 32, "goals": 2 },
+    { "number": 7, "name": "Luis Díaz", "pos": "FW", "age": 29, "club": "Bayern Munich", "caps": 74, "goals": 22 },
+    { "number": 8, "name": "Jorge Carrascal", "pos": "MF", "age": 28, "club": "Flamengo", "caps": 24, "goals": 2 },
+    { "number": 9, "name": "Jhon Córdoba", "pos": "FW", "age": 33, "club": "Krasnodar", "caps": 21, "goals": 6 },
+    { "number": 10, "name": "James Rodríguez", "pos": "MF", "age": 34, "club": "Minnesota United FC", "caps": 126, "goals": 31 },
+    { "number": 11, "name": "Jhon Arias", "pos": "MF", "age": 28, "club": "Palmeiras", "caps": 38, "goals": 6 },
+    { "number": 12, "name": "Camilo Vargas", "pos": "GK", "age": 37, "club": "Atlas", "caps": 42, "goals": 0 },
+    { "number": 13, "name": "Yerry Mina", "pos": "DF", "age": 31, "club": "Cagliari", "caps": 54, "goals": 8 },
+    { "number": 14, "name": "Gustavo Puerta", "pos": "DF", "age": 22, "club": "Racing Santander", "caps": 6, "goals": 1 },
+    { "number": 15, "name": "Juan Portilla", "pos": "MF", "age": 27, "club": "Athletico Paranaense", "caps": 10, "goals": 0 },
+    { "number": 16, "name": "Jefferson Lerma", "pos": "MF", "age": 31, "club": "Crystal Palace", "caps": 65, "goals": 5 },
+    { "number": 17, "name": "Johan Mojica", "pos": "DF", "age": 33, "club": "Mallorca", "caps": 45, "goals": 1 },
+    { "number": 18, "name": "Willer Ditta", "pos": "DF", "age": 28, "club": "Cruz Azul", "caps": 5, "goals": 0 },
+    { "number": 19, "name": "Cucho Hernández", "pos": "FW", "age": 27, "club": "Real Betis", "caps": 9, "goals": 2 },
+    { "number": 20, "name": "Juan Fernando Quintero", "pos": "MF", "age": 33, "club": "River Plate", "caps": 49, "goals": 6 },
+    { "number": 21, "name": "Jaminton Campaz", "pos": "FW", "age": 26, "club": "Rosario Central", "caps": 10, "goals": 1 },
+    { "number": 22, "name": "Deiver Machado", "pos": "DF", "age": 32, "club": "Nantes", "caps": 15, "goals": 0 },
+    { "number": 23, "name": "Davinson Sánchez", "pos": "DF", "age": 29, "club": "Galatasaray", "caps": 79, "goals": 4 },
+    { "number": 24, "name": "Álvaro Montero", "pos": "GK", "age": 31, "club": "Vélez Sarsfield", "caps": 12, "goals": 0 },
+    { "number": 25, "name": "Luis Suárez", "pos": "FW", "age": 28, "club": "Sporting CP", "caps": 12, "goals": 5 },
+    { "number": 26, "name": "Andrés Gómez", "pos": "FW", "age": 23, "club": "Vasco da Gama", "caps": 8, "goals": 2 }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "team": { "name": "IR Iran", "code": "IRN" },
+  "coach": "Amir Ghalenoei",
+  "squad": [
+    { "number": 1, "name": "Alireza Beiranvand", "pos": "GK", "age": 33, "club": "Tractor", "caps": 86, "goals": 0 },
+    { "number": 2, "name": "Saleh Hardani", "pos": "DF", "age": 27, "club": "Esteghlal", "caps": 18, "goals": 1 },
+    { "number": 3, "name": "Ehsan Hajsafi", "pos": "DF", "age": 36, "club": "Sepahan", "caps": 146, "goals": 7 },
+    { "number": 4, "name": "Shojae Khalilzadeh", "pos": "DF", "age": 37, "club": "Tractor", "caps": 58, "goals": 2 },
+    { "number": 5, "name": "Milad Mohammadi", "pos": "DF", "age": 32, "club": "Persepolis", "caps": 76, "goals": 1 },
+    { "number": 6, "name": "Saeid Ezatolahi", "pos": "MF", "age": 29, "club": "Shabab Al Ahli", "caps": 83, "goals": 2 },
+    { "number": 7, "name": "Alireza Jahanbakhsh", "pos": "MF", "age": 32, "club": "Dender", "caps": 98, "goals": 17 },
+    { "number": 8, "name": "Mohammad Mohebi", "pos": "MF", "age": 27, "club": "Rostov", "caps": 37, "goals": 14 },
+    { "number": 9, "name": "Mehdi Taremi", "pos": "FW", "age": 33, "club": "Olympiacos", "caps": 105, "goals": 60 },
+    { "number": 10, "name": "Mehdi Ghayedi", "pos": "FW", "age": 27, "club": "Al Nasr", "caps": 30, "goals": 10 },
+    { "number": 11, "name": "Ali Alipour", "pos": "FW", "age": 30, "club": "Persepolis", "caps": 14, "goals": 1 },
+    { "number": 12, "name": "Payam Niazmand", "pos": "GK", "age": 31, "club": "Persepolis", "caps": 15, "goals": 0 },
+    { "number": 13, "name": "Hossein Kanaanizadegan", "pos": "DF", "age": 32, "club": "Persepolis", "caps": 65, "goals": 6 },
+    { "number": 14, "name": "Saman Ghoddos", "pos": "MF", "age": 32, "club": "Kalba", "caps": 68, "goals": 3 },
+    { "number": 15, "name": "Rouzbeh Cheshmi", "pos": "MF", "age": 32, "club": "Esteghlal", "caps": 40, "goals": 3 },
+    { "number": 16, "name": "Mahdi Torabi", "pos": "MF", "age": 31, "club": "Tractor", "caps": 52, "goals": 7 },
+    { "number": 17, "name": "Arya Yousefi", "pos": "DF", "age": 24, "club": "Sepahan", "caps": 14, "goals": 1 },
+    { "number": 18, "name": "Amirhossein Hosseinzadeh", "pos": "FW", "age": 25, "club": "Tractor", "caps": 18, "goals": 5 },
+    { "number": 19, "name": "Ali Nemati", "pos": "DF", "age": 30, "club": "Foolad", "caps": 18, "goals": 0 },
+    { "number": 20, "name": "Shahriyar Moghanlou", "pos": "FW", "age": 31, "club": "Kalba", "caps": 21, "goals": 2 },
+    { "number": 21, "name": "Mohammad Ghorbani", "pos": "MF", "age": 24, "club": "Al Wahda", "caps": 16, "goals": 0 },
+    { "number": 22, "name": "Hossein Hosseini", "pos": "GK", "age": 33, "club": "Sepahan", "caps": 13, "goals": 0 },
+    { "number": 23, "name": "Ramin Rezaeian", "pos": "DF", "age": 36, "club": "Foolad", "caps": 74, "goals": 8 },
+    { "number": 24, "name": "Dennis Eckert", "pos": "FW", "age": 29, "club": "Standard Liège", "caps": 0, "goals": 0 },
+    { "number": 25, "name": "Danial Eiri", "pos": "DF", "age": 22, "club": "Malavan", "caps": 0, "goals": 0 },
+    { "number": 26, "name": "Amirmohammad Razzaghinia", "pos": "MF", "age": 20, "club": "Esteghlal", "caps": 4, "goals": 0 }
+  ]
+}

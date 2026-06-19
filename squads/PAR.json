@@ -1,0 +1,32 @@
+{
+  "team": { "name": "Paraguay", "code": "PAR" },
+  "coach": "Gustavo Alfaro",
+  "squad": [
+    { "number": 1, "name": "Antony Silva", "pos": "GK", "age": 38, "club": "Olimpia", "caps": 93, "goals": 0 },
+    { "number": 2, "name": "Omar Alderete", "pos": "DF", "age": 28, "club": "Valencia", "caps": 40, "goals": 2 },
+    { "number": 3, "name": "Junior Alonso", "pos": "DF", "age": 31, "club": "Atlético Mineiro", "caps": 46, "goals": 5 },
+    { "number": 4, "name": "Gustavo Gómez", "pos": "DF", "age": 32, "club": "Palmeiras", "caps": 68, "goals": 8 },
+    { "number": 5, "name": "Santiago Arzamendia", "pos": "DF", "age": 27, "club": "Cádiz", "caps": 39, "goals": 0 },
+    { "number": 6, "name": "Rodrigo Rojas", "pos": "DF", "age": 27, "club": "Racing Club", "caps": 30, "goals": 1 },
+    { "number": 7, "name": "Ángel Romero", "pos": "FW", "age": 33, "club": "Corinthians", "caps": 48, "goals": 16 },
+    { "number": 8, "name": "Andrés Cubas", "pos": "MF", "age": 28, "club": "Rayo Vallecano", "caps": 31, "goals": 1 },
+    { "number": 9, "name": "Antonio Sanabria", "pos": "FW", "age": 29, "club": "Torino", "caps": 49, "goals": 17 },
+    { "number": 10, "name": "Miguel Almirón", "pos": "MF", "age": 31, "club": "Galatasaray", "caps": 72, "goals": 11 },
+    { "number": 11, "name": "Carlos González", "pos": "FW", "age": 32, "club": "Tigres UANL", "caps": 52, "goals": 21 },
+    { "number": 12, "name": "Rodrigo Muñoz", "pos": "GK", "age": 32, "club": "Real Salt Lake", "caps": 20, "goals": 0 },
+    { "number": 13, "name": "Matías Rojas", "pos": "MF", "age": 30, "club": "Racing Club", "caps": 44, "goals": 7 },
+    { "number": 14, "name": "Mathias Villasanti", "pos": "MF", "age": 29, "club": "Grêmio", "caps": 40, "goals": 2 },
+    { "number": 15, "name": "Alberto Espínola", "pos": "DF", "age": 22, "club": "Olimpia", "caps": 10, "goals": 0 },
+    { "number": 16, "name": "Óscar Romero", "pos": "MF", "age": 33, "club": "Corinthians", "caps": 68, "goals": 12 },
+    { "number": 17, "name": "Alejandro Romero Gamarra", "pos": "MF", "age": 28, "club": "Atlanta United", "caps": 11, "goals": 3 },
+    { "number": 18, "name": "Richard Sánchez", "pos": "MF", "age": 31, "club": "Club América", "caps": 44, "goals": 2 },
+    { "number": 19, "name": "Julio Enciso", "pos": "FW", "age": 22, "club": "Brighton & Hove Albion", "caps": 23, "goals": 6 },
+    { "number": 20, "name": "Diego Gómez", "pos": "MF", "age": 23, "club": "Inter Miami", "caps": 30, "goals": 4 },
+    { "number": 21, "name": "Braian Samudio", "pos": "FW", "age": 21, "club": "Olimpia", "caps": 4, "goals": 2 },
+    { "number": 22, "name": "Jorge Morel", "pos": "GK", "age": 33, "club": "Cerro Porteño", "caps": 10, "goals": 0 },
+    { "number": 23, "name": "Ramón Sosa", "pos": "MF", "age": 25, "club": "Nottingham Forest", "caps": 30, "goals": 4 },
+    { "number": 24, "name": "Santiago Palma", "pos": "FW", "age": 22, "club": "Lanús", "caps": 7, "goals": 1 },
+    { "number": 25, "name": "Santiago Elías Arzamendia", "pos": "DF", "age": 23, "club": "Olimpia", "caps": 5, "goals": 0 },
+    { "number": 26, "name": "Gabriel Báez", "pos": "DF", "age": 24, "club": "Cerro Porteño", "caps": 2, "goals": 0 }
+  ]
+}

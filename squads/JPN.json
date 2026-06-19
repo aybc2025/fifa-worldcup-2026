@@ -1,0 +1,32 @@
+{
+  "team": { "name": "Japan", "code": "JPN" },
+  "coach": "Hajime Moriyasu",
+  "squad": [
+    { "number": 1, "name": "Zion Suzuki", "pos": "GK", "age": 23, "club": "Anderlecht", "caps": 17, "goals": 0 },
+    { "number": 2, "name": "Hiroki Sakai", "pos": "DF", "age": 34, "club": "Urawa Red Diamonds", "caps": 75, "goals": 2 },
+    { "number": 3, "name": "Ko Itakura", "pos": "DF", "age": 27, "club": "Borussia Mönchengladbach", "caps": 35, "goals": 3 },
+    { "number": 4, "name": "Maya Yoshida", "pos": "DF", "age": 36, "club": "Vissel Kobe", "caps": 136, "goals": 7 },
+    { "number": 5, "name": "Yuto Nagatomo", "pos": "DF", "age": 38, "club": "FC Tokyo", "caps": 144, "goals": 3 },
+    { "number": 6, "name": "Wataru Endo", "pos": "MF", "age": 32, "club": "Liverpool", "caps": 56, "goals": 3 },
+    { "number": 7, "name": "Takumi Minamino", "pos": "FW", "age": 31, "club": "Monaco", "caps": 68, "goals": 24 },
+    { "number": 8, "name": "Ao Tanaka", "pos": "MF", "age": 26, "club": "Liverpool", "caps": 41, "goals": 4 },
+    { "number": 9, "name": "Kyogo Furuhashi", "pos": "FW", "age": 30, "club": "Celtic", "caps": 37, "goals": 17 },
+    { "number": 10, "name": "Shoya Nakajima", "pos": "MF", "age": 31, "club": "Yokohama F. Marinos", "caps": 37, "goals": 7 },
+    { "number": 11, "name": "Junya Ito", "pos": "FW", "age": 32, "club": "Stade de Reims", "caps": 60, "goals": 9 },
+    { "number": 12, "name": "Kosei Tani", "pos": "GK", "age": 23, "club": "Shonan Bellmare", "caps": 7, "goals": 0 },
+    { "number": 13, "name": "Hidemasa Morita", "pos": "MF", "age": 30, "club": "Sporting CP", "caps": 33, "goals": 4 },
+    { "number": 14, "name": "Daichi Kamada", "pos": "MF", "age": 29, "club": "Crystal Palace", "caps": 42, "goals": 14 },
+    { "number": 15, "name": "Shuta Machino", "pos": "FW", "age": 27, "club": "Gent", "caps": 8, "goals": 2 },
+    { "number": 16, "name": "Takefusa Kubo", "pos": "MF", "age": 24, "club": "Real Sociedad", "caps": 40, "goals": 5 },
+    { "number": 17, "name": "Ritsu Doan", "pos": "MF", "age": 27, "club": "Freiburg", "caps": 60, "goals": 20 },
+    { "number": 18, "name": "Ryusei Iida", "pos": "DF", "age": 21, "club": "FC Augsburg", "caps": 7, "goals": 0 },
+    { "number": 19, "name": "Kaoru Mitoma", "pos": "MF", "age": 28, "club": "Brighton & Hove Albion", "caps": 42, "goals": 14 },
+    { "number": 20, "name": "Yukinari Sugawara", "pos": "DF", "age": 25, "club": "Southampton", "caps": 23, "goals": 1 },
+    { "number": 21, "name": "Ayase Ueda", "pos": "FW", "age": 27, "club": "Feyenoord", "caps": 37, "goals": 22 },
+    { "number": 22, "name": "Taishi Matsumoto", "pos": "DF", "age": 30, "club": "Kashima Antlers", "caps": 3, "goals": 0 },
+    { "number": 23, "name": "Mao Hosoya", "pos": "FW", "age": 24, "club": "Heracles Almelo", "caps": 10, "goals": 2 },
+    { "number": 24, "name": "Miki Yamane", "pos": "DF", "age": 31, "club": "Bayer Leverkusen", "caps": 16, "goals": 0 },
+    { "number": 25, "name": "Keito Nakamura", "pos": "MF", "age": 24, "club": "Stade de Reims", "caps": 12, "goals": 2 },
+    { "number": 26, "name": "Shinnosuke Hatanaka", "pos": "GK", "age": 29, "club": "Urawa Red Diamonds", "caps": 1, "goals": 0 }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "team": { "name": "Saudi Arabia", "code": "KSA" },
+  "coach": "Hervé Renard",
+  "squad": [
+    { "number": 1, "name": "Mohammed Al-Owais", "pos": "GK", "age": 34, "club": "Al-Hilal", "caps": 72, "goals": 0 },
+    { "number": 2, "name": "Sultan Al-Ghanam", "pos": "DF", "age": 26, "club": "Al-Hilal", "caps": 29, "goals": 0 },
+    { "number": 3, "name": "Abdullah Madu", "pos": "DF", "age": 30, "club": "Al-Hilal", "caps": 60, "goals": 1 },
+    { "number": 4, "name": "Ali Al-Bulaihi", "pos": "DF", "age": 35, "club": "Al-Hilal", "caps": 77, "goals": 4 },
+    { "number": 5, "name": "Hassan Tambakti", "pos": "DF", "age": 23, "club": "Al-Hilal", "caps": 26, "goals": 0 },
+    { "number": 6, "name": "Ali Al-Hassan", "pos": "MF", "age": 27, "club": "Al-Shabab", "caps": 54, "goals": 4 },
+    { "number": 7, "name": "Saud Abdulhamid", "pos": "DF", "age": 26, "club": "Roma", "caps": 41, "goals": 0 },
+    { "number": 8, "name": "Mohamed Kanno", "pos": "MF", "age": 28, "club": "Al-Hilal", "caps": 65, "goals": 4 },
+    { "number": 9, "name": "Firas Al-Buraikan", "pos": "FW", "age": 26, "club": "Al-Hilal", "caps": 42, "goals": 18 },
+    { "number": 10, "name": "Salem Al-Dawsari", "pos": "FW", "age": 33, "club": "Al-Hilal", "caps": 108, "goals": 40 },
+    { "number": 11, "name": "Abdullah Radif", "pos": "MF", "age": 30, "club": "Al-Hilal", "caps": 48, "goals": 10 },
+    { "number": 12, "name": "Nawaf Al-Aqidi", "pos": "GK", "age": 28, "club": "Al-Ahli", "caps": 11, "goals": 0 },
+    { "number": 13, "name": "Ali Al-Asmari", "pos": "MF", "age": 28, "club": "Al-Fateh", "caps": 52, "goals": 1 },
+    { "number": 14, "name": "Salman Al-Faraj", "pos": "MF", "age": 34, "club": "Al-Hilal", "caps": 133, "goals": 7 },
+    { "number": 15, "name": "Yasser Al-Shahrani", "pos": "DF", "age": 31, "club": "Al-Hilal", "caps": 67, "goals": 2 },
+    { "number": 16, "name": "Abdulelah Al-Malki", "pos": "MF", "age": 27, "club": "Al-Qadsiah", "caps": 27, "goals": 3 },
+    { "number": 17, "name": "Abdullah Al-Hamdan", "pos": "FW", "age": 25, "club": "Al-Shabab", "caps": 25, "goals": 5 },
+    { "number": 18, "name": "Ziyad Al-Sahafi", "pos": "FW", "age": 25, "club": "Al-Nassr", "caps": 16, "goals": 5 },
+    { "number": 19, "name": "Marwan Al-Sahafi", "pos": "DF", "age": 24, "club": "Al-Nassr", "caps": 8, "goals": 1 },
+    { "number": 20, "name": "Riyadh Sharahili", "pos": "MF", "age": 30, "club": "Al-Hilal", "caps": 56, "goals": 1 },
+    { "number": 21, "name": "Khalid Al-Ghannam", "pos": "GK", "age": 33, "club": "Al-Qadsiah", "caps": 40, "goals": 0 },
+    { "number": 22, "name": "Mohammed Almeshal", "pos": "MF", "age": 26, "club": "Al-Ettifaq", "caps": 2, "goals": 0 },
+    { "number": 23, "name": "Haitham Asiri", "pos": "MF", "age": 26, "club": "Al-Ahli", "caps": 20, "goals": 0 },
+    { "number": 24, "name": "Nayef Aguerd", "pos": "DF", "age": 29, "club": "Nice", "caps": 2, "goals": 0 },
+    { "number": 25, "name": "Khalid Al-Qahtani", "pos": "FW", "age": 24, "club": "Al-Ittihad", "caps": 1, "goals": 0 },
+    { "number": 26, "name": "Omar Al-Ghamdi", "pos": "DF", "age": 32, "club": "Al-Ittihad", "caps": 27, "goals": 0 }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "team": { "name": "Haiti", "code": "HTI" },
+  "coach": "Sébastien Migné",
+  "squad": [
+    { "number": 1, "name": "Johny Placide", "pos": "GK", "age": 38, "club": "Bastia", "caps": 82, "goals": 0 },
+    { "number": 2, "name": "Carlens Arcus", "pos": "DF", "age": 29, "club": "Angers", "caps": 56, "goals": 1 },
+    { "number": 3, "name": "Keeto Thermoncy", "pos": "DF", "age": 20, "club": "Young Boys", "caps": 1, "goals": 0 },
+    { "number": 4, "name": "Ricardo Adé", "pos": "DF", "age": 36, "club": "LDU Quito", "caps": 59, "goals": 2 },
+    { "number": 5, "name": "Hannes Delcroix", "pos": "DF", "age": 27, "club": "Lugano", "caps": 7, "goals": 0 },
+    { "number": 6, "name": "Carl Sainté", "pos": "MF", "age": 23, "club": "El Paso Locomotive FC", "caps": 26, "goals": 0 },
+    { "number": 7, "name": "Derrick Etienne Jr.", "pos": "FW", "age": 29, "club": "Toronto FC", "caps": 51, "goals": 8 },
+    { "number": 8, "name": "Martin Expérience", "pos": "DF", "age": 27, "club": "Nancy", "caps": 21, "goals": 0 },
+    { "number": 9, "name": "Duckens Nazon", "pos": "FW", "age": 32, "club": "Esteghlal", "caps": 82, "goals": 44 },
+    { "number": 10, "name": "Jean-Ricner Bellegarde", "pos": "MF", "age": 27, "club": "Wolverhampton Wanderers", "caps": 10, "goals": 0 },
+    { "number": 11, "name": "Louicius Deedson", "pos": "FW", "age": 25, "club": "FC Dallas", "caps": 32, "goals": 10 },
+    { "number": 12, "name": "Alexandre Pierre", "pos": "GK", "age": 25, "club": "Sochaux", "caps": 16, "goals": 0 },
+    { "number": 13, "name": "Duke Lacroix", "pos": "DF", "age": 32, "club": "Colorado Springs Switchbacks FC", "caps": 16, "goals": 3 },
+    { "number": 14, "name": "Garven Metusala", "pos": "DF", "age": 26, "club": "Colorado Springs Switchbacks FC", "caps": 16, "goals": 0 },
+    { "number": 15, "name": "Ruben Providence", "pos": "FW", "age": 24, "club": "Almere City", "caps": 15, "goals": 3 },
+    { "number": 16, "name": "Lenny Joseph", "pos": "FW", "age": 25, "club": "Ferencváros", "caps": 2, "goals": 1 },
+    { "number": 17, "name": "Danley Jean Jacques", "pos": "MF", "age": 26, "club": "Philadelphia Union", "caps": 31, "goals": 6 },
+    { "number": 18, "name": "Wilson Isidor", "pos": "FW", "age": 25, "club": "Sunderland", "caps": 4, "goals": 2 },
+    { "number": 19, "name": "Yassin Fortuné", "pos": "FW", "age": 27, "club": "Vizela", "caps": 4, "goals": 0 },
+    { "number": 20, "name": "Frantzdy Pierrot", "pos": "FW", "age": 31, "club": "Çaykur Rizespor", "caps": 51, "goals": 34 },
+    { "number": 21, "name": "Josué Casimir", "pos": "FW", "age": 24, "club": "Auxerre", "caps": 7, "goals": 0 },
+    { "number": 22, "name": "Jean-Kévin Duverne", "pos": "DF", "age": 28, "club": "Gent", "caps": 17, "goals": 1 },
+    { "number": 23, "name": "Josué Duverger", "pos": "GK", "age": 26, "club": "Cosmos Koblenz", "caps": 7, "goals": 0 },
+    { "number": 24, "name": "Wilguens Paugain", "pos": "DF", "age": 24, "club": "Zulte Waregem", "caps": 8, "goals": 0 },
+    { "number": 25, "name": "Dominique Simon", "pos": "MF", "age": 25, "club": "Tatran Prešov", "caps": 2, "goals": 0 },
+    { "number": 26, "name": "Woodensky Pierre", "pos": "MF", "age": 21, "club": "Violette", "caps": 1, "goals": 0 }
+  ]
+}

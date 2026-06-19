@@ -1,0 +1,32 @@
+{
+  "team": { "name": "Germany", "code": "GER" },
+  "coach": "Julian Nagelsmann",
+  "squad": [
+    { "number": 1, "name": "Manuel Neuer", "pos": "GK", "age": 40, "club": "Bayern Munich", "caps": 124, "goals": 0 },
+    { "number": 2, "name": "Antonio Rüdiger", "pos": "DF", "age": 33, "club": "Real Madrid", "caps": 82, "goals": 3 },
+    { "number": 3, "name": "Waldemar Anton", "pos": "DF", "age": 29, "club": "Borussia Dortmund", "caps": 13, "goals": 0 },
+    { "number": 4, "name": "Jonathan Tah", "pos": "DF", "age": 30, "club": "Bayern Munich", "caps": 47, "goals": 1 },
+    { "number": 5, "name": "Aleksandar Pavlović", "pos": "MF", "age": 22, "club": "Bayern Munich", "caps": 11, "goals": 1 },
+    { "number": 6, "name": "Joshua Kimmich", "pos": "DF", "age": 31, "club": "Bayern Munich", "caps": 110, "goals": 10 },
+    { "number": 7, "name": "Kai Havertz", "pos": "FW", "age": 27, "club": "Arsenal", "caps": 58, "goals": 22 },
+    { "number": 8, "name": "Leon Goretzka", "pos": "MF", "age": 31, "club": "Bayern Munich", "caps": 70, "goals": 15 },
+    { "number": 9, "name": "Jamie Leweling", "pos": "MF", "age": 25, "club": "VfB Stuttgart", "caps": 5, "goals": 1 },
+    { "number": 10, "name": "Jamal Musiala", "pos": "MF", "age": 23, "club": "Bayern Munich", "caps": 42, "goals": 9 },
+    { "number": 11, "name": "Nick Woltemade", "pos": "FW", "age": 24, "club": "Newcastle United", "caps": 11, "goals": 4 },
+    { "number": 12, "name": "Oliver Baumann", "pos": "GK", "age": 36, "club": "TSG Hoffenheim", "caps": 13, "goals": 0 },
+    { "number": 13, "name": "Pascal Groß", "pos": "MF", "age": 34, "club": "Brighton & Hove Albion", "caps": 18, "goals": 1 },
+    { "number": 14, "name": "Maximilian Beier", "pos": "FW", "age": 23, "club": "Borussia Dortmund", "caps": 9, "goals": 0 },
+    { "number": 15, "name": "Nico Schlotterbeck", "pos": "DF", "age": 26, "club": "Borussia Dortmund", "caps": 27, "goals": 0 },
+    { "number": 16, "name": "Angelo Stiller", "pos": "MF", "age": 25, "club": "VfB Stuttgart", "caps": 8, "goals": 0 },
+    { "number": 17, "name": "Florian Wirtz", "pos": "MF", "age": 23, "club": "Liverpool", "caps": 41, "goals": 11 },
+    { "number": 18, "name": "Nathaniel Brown", "pos": "DF", "age": 22, "club": "Eintracht Frankfurt", "caps": 5, "goals": 0 },
+    { "number": 19, "name": "Leroy Sané", "pos": "MF", "age": 30, "club": "Galatasaray", "caps": 76, "goals": 17 },
+    { "number": 20, "name": "Nadiem Amiri", "pos": "MF", "age": 29, "club": "Mainz 05", "caps": 11, "goals": 1 },
+    { "number": 21, "name": "Alexander Nübel", "pos": "GK", "age": 29, "club": "VfB Stuttgart", "caps": 3, "goals": 0 },
+    { "number": 22, "name": "David Raum", "pos": "DF", "age": 28, "club": "RB Leipzig", "caps": 37, "goals": 1 },
+    { "number": 23, "name": "Felix Nmecha", "pos": "MF", "age": 25, "club": "Borussia Dortmund", "caps": 8, "goals": 1 },
+    { "number": 24, "name": "Malick Thiaw", "pos": "DF", "age": 24, "club": "Newcastle United", "caps": 5, "goals": 0 },
+    { "number": 25, "name": "Assan Ouédraogo", "pos": "MF", "age": 20, "club": "RB Leipzig", "caps": 1, "goals": 1 },
+    { "number": 26, "name": "Deniz Undav", "pos": "FW", "age": 29, "club": "VfB Stuttgart", "caps": 9, "goals": 6 }
+  ]
+}

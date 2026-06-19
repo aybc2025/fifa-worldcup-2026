@@ -1,0 +1,32 @@
+{
+  "team": { "name": "Senegal", "code": "SEN" },
+  "coach": "Aliou Cissé",
+  "squad": [
+    { "number": 1, "name": "Édouard Mendy", "pos": "GK", "age": 33, "club": "Al-Ahli", "caps": 59, "goals": 0 },
+    { "number": 2, "name": "Formose Mendy", "pos": "DF", "age": 26, "club": "Al-Qadsiah", "caps": 11, "goals": 0 },
+    { "number": 3, "name": "Saliou Ciss", "pos": "DF", "age": 38, "club": "Al-Duhail", "caps": 80, "goals": 0 },
+    { "number": 4, "name": "Kalidou Koulibaly", "pos": "DF", "age": 35, "club": "Al-Hilal", "caps": 112, "goals": 6 },
+    { "number": 5, "name": "Abdou Diallo", "pos": "DF", "age": 29, "club": "Al-Ittihad", "caps": 44, "goals": 1 },
+    { "number": 6, "name": "Nampalys Mendy", "pos": "MF", "age": 34, "club": "Leicester City", "caps": 48, "goals": 0 },
+    { "number": 7, "name": "Ismaïla Sarr", "pos": "FW", "age": 27, "club": "Marseille", "caps": 60, "goals": 22 },
+    { "number": 8, "name": "Cheikhou Kouyaté", "pos": "MF", "age": 35, "club": "PAOK", "caps": 90, "goals": 6 },
+    { "number": 9, "name": "Boulaye Dia", "pos": "FW", "age": 28, "club": "Lazio", "caps": 37, "goals": 13 },
+    { "number": 10, "name": "Sadio Mané", "pos": "FW", "age": 34, "club": "Al-Nassr", "caps": 100, "goals": 39 },
+    { "number": 11, "name": "Keita Baldé", "pos": "FW", "age": 30, "club": "Farense", "caps": 41, "goals": 6 },
+    { "number": 12, "name": "Alfred Gomis", "pos": "GK", "age": 31, "club": "Rennes", "caps": 28, "goals": 0 },
+    { "number": 13, "name": "Idrissa Gana Gueye", "pos": "MF", "age": 36, "club": "Everton", "caps": 100, "goals": 4 },
+    { "number": 14, "name": "Pape Matar Sarr", "pos": "MF", "age": 23, "club": "Tottenham Hotspur", "caps": 35, "goals": 5 },
+    { "number": 15, "name": "Lamine Camara", "pos": "MF", "age": 22, "club": "Monaco", "caps": 22, "goals": 5 },
+    { "number": 16, "name": "Moussa Niakhaté", "pos": "DF", "age": 29, "club": "Nottingham Forest", "caps": 20, "goals": 1 },
+    { "number": 17, "name": "Fodé Ballo-Touré", "pos": "DF", "age": 28, "club": "Fulham", "caps": 27, "goals": 0 },
+    { "number": 18, "name": "Krepin Diatta", "pos": "FW", "age": 27, "club": "Monaco", "caps": 47, "goals": 10 },
+    { "number": 19, "name": "Iliman Ndiaye", "pos": "FW", "age": 26, "club": "Everton", "caps": 31, "goals": 9 },
+    { "number": 20, "name": "Pape Guèye", "pos": "MF", "age": 26, "club": "Marseille", "caps": 14, "goals": 2 },
+    { "number": 21, "name": "Nicolas Jackson", "pos": "FW", "age": 24, "club": "Chelsea", "caps": 26, "goals": 14 },
+    { "number": 22, "name": "Abdoulaye Niakhaté Ndiaye", "pos": "DF", "age": 25, "club": "Rennes", "caps": 3, "goals": 0 },
+    { "number": 23, "name": "Seny Dieng", "pos": "GK", "age": 33, "club": "Middlesbrough", "caps": 30, "goals": 0 },
+    { "number": 24, "name": "Cheikh Ahmet Bamba Dieng", "pos": "FW", "age": 24, "club": "Lorient", "caps": 14, "goals": 2 },
+    { "number": 25, "name": "Moussa Diallo", "pos": "DF", "age": 23, "club": "Auxerre", "caps": 3, "goals": 0 },
+    { "number": 26, "name": "El Hadji Malick Diouf", "pos": "FW", "age": 22, "club": "Burnley", "caps": 4, "goals": 0 }
+  ]
+}
