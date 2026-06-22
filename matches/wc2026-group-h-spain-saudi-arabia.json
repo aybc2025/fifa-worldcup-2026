@@ -1,0 +1,132 @@
+{
+  "fixture": {
+    "id": "wc2026-group-h-spain-saudi-arabia",
+    "date": "2026-06-21T13:00:00Z",
+    "venue": { "name": "Mercedes-Benz Stadium", "city": "Atlanta" },
+    "status": { "short": "FT", "long": "Match Finished" }
+  },
+  "league": { "round": "Group H" },
+  "teams": {
+    "home": { "name": "Spain",        "code": "ESP" },
+    "away": { "name": "Saudi Arabia", "code": "KSA" }
+  },
+  "goals": { "home": 4, "away": 0 },
+  "score": {
+    "halftime": { "home": 3, "away": 0 },
+    "fulltime": { "home": 4, "away": 0 }
+  },
+  "stats": [
+    {
+      "team": "Spain",
+      "statistics": [
+        { "type": "Possession",    "value": "63%" },
+        { "type": "Shots on Goal", "value": "8" },
+        { "type": "Total Shots",   "value": "22" },
+        { "type": "Corner Kicks",  "value": "6" },
+        { "type": "Fouls",         "value": "10" },
+        { "type": "Yellow Cards",  "value": "0" },
+        { "type": "Red Cards",     "value": "0" }
+      ]
+    },
+    {
+      "team": "Saudi Arabia",
+      "statistics": [
+        { "type": "Possession",    "value": "29%" },
+        { "type": "Shots on Goal", "value": "2" },
+        { "type": "Total Shots",   "value": "3" },
+        { "type": "Corner Kicks",  "value": "1" },
+        { "type": "Fouls",         "value": "2" },
+        { "type": "Yellow Cards",  "value": "2" },
+        { "type": "Red Cards",     "value": "0" }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 10, "team": "Spain",        "player": "Lamine Yamal",          "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 21, "team": "Spain",        "player": "Mikel Oyarzabal",       "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 24, "team": "Spain",        "player": "Mikel Oyarzabal",       "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 30, "team": "Saudi Arabia", "player": "Salem Al-Dawsari",      "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 46, "team": "Spain",        "player": "Ferran Torres",         "type": "subst", "detail": "out: Mikel Oyarzabal, in: Ferran Torres" },
+    { "minute": 46, "team": "Spain",        "player": "Yeremy Pino",           "type": "subst", "detail": "out: Lamine Yamal, in: Yeremy Pino" },
+    { "minute": 46, "team": "Saudi Arabia", "player": "Mohamed Kanno",         "type": "subst", "detail": "out: Abdullah Al-Khaibari, in: Mohamed Kanno" },
+    { "minute": 46, "team": "Saudi Arabia", "player": "Abdullah Al-Hamdan",    "type": "subst", "detail": "out: Musab Al-Juwayr, in: Abdullah Al-Hamdan" },
+    { "minute": 49, "team": "Saudi Arabia", "player": "Hassan Altambakti",     "type": "Goal",  "detail": "Own Goal" },
+    { "minute": 60, "team": "Saudi Arabia", "player": "Mohammed Abu Al-Shamat","type": "subst", "detail": "out: Feras Al-Buraikan, in: Mohammed Abu Al-Shamat" },
+    { "minute": 60, "team": "Saudi Arabia", "player": "Ala'a Al-Hejji",       "type": "subst", "detail": "out: Abdulelah Al-Amri, in: Ala'a Al-Hejji" },
+    { "minute": 61, "team": "Spain",        "player": "Nico Williams",         "type": "subst", "detail": "out: Alex Baena, in: Nico Williams" },
+    { "minute": 61, "team": "Spain",        "player": "Mikel Merino",          "type": "subst", "detail": "out: Dani Olmo, in: Mikel Merino" },
+    { "minute": 70, "team": "Spain",        "player": "Fabian Ruiz",           "type": "subst", "detail": "out: Pedri, in: Fabian Ruiz" },
+    { "minute": 90, "team": "Saudi Arabia", "player": "Khalid Al-Ghannam",     "type": "subst", "detail": "out: Nasser Al-Dawsari, in: Khalid Al-Ghannam" },
+    { "minute": 90, "team": "Saudi Arabia", "player": "Khalid Al-Ghannam",     "type": "Card",  "detail": "Yellow Card" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Spain" },
+      "formation": "4-3-3",
+      "startXI": [
+        { "player": { "name": "Unai Simon",      "number": 23, "pos": "G" } },
+        { "player": { "name": "Pedro Porro",     "number": 12, "pos": "D" } },
+        { "player": { "name": "Aymeric Laporte", "number": 14, "pos": "D" } },
+        { "player": { "name": "Pau Cubarsi",     "number": 22, "pos": "D" } },
+        { "player": { "name": "Marc Cucurella",  "number": 24, "pos": "D" } },
+        { "player": { "name": "Rodri",           "number": 16, "pos": "M" } },
+        { "player": { "name": "Pedri",           "number": 20, "pos": "M" } },
+        { "player": { "name": "Alex Baena",      "number": 15, "pos": "M" } },
+        { "player": { "name": "Lamine Yamal",    "number": 19, "pos": "F" } },
+        { "player": { "name": "Mikel Oyarzabal", "number": 21, "pos": "F" } },
+        { "player": { "name": "Dani Olmo",       "number": 10, "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "David Raya",        "number": 1,  "pos": "G" } },
+        { "player": { "name": "Joan Garcia",       "number": 13, "pos": "G" } },
+        { "player": { "name": "Marc Pubill",       "number": 2,  "pos": "D" } },
+        { "player": { "name": "Alex Grimaldo",     "number": 3,  "pos": "D" } },
+        { "player": { "name": "Eric Garcia",       "number": 4,  "pos": "D" } },
+        { "player": { "name": "Marcos Llorente",   "number": 5,  "pos": "M" } },
+        { "player": { "name": "Mikel Merino",      "number": 6,  "pos": "M" } },
+        { "player": { "name": "Fabian Ruiz",       "number": 8,  "pos": "M" } },
+        { "player": { "name": "Gavi",              "number": 9,  "pos": "M" } },
+        { "player": { "name": "Martin Zubimendi",  "number": 18, "pos": "M" } },
+        { "player": { "name": "Victor Munoz",      "number": 25, "pos": "M" } },
+        { "player": { "name": "Ferran Torres",     "number": 7,  "pos": "F" } },
+        { "player": { "name": "Yeremy Pino",       "number": 11, "pos": "F" } },
+        { "player": { "name": "Nico Williams",     "number": 17, "pos": "F" } },
+        { "player": { "name": "Borja Iglesias",    "number": 26, "pos": "F" } }
+      ]
+    },
+    {
+      "team": { "name": "Saudi Arabia" },
+      "formation": "5-4-1",
+      "startXI": [
+        { "player": { "name": "Mohammed Al-Owais",   "number": 21, "pos": "G" } },
+        { "player": { "name": "Ali Lajami",          "number": 3,  "pos": "D" } },
+        { "player": { "name": "Abdulelah Al-Amri",   "number": 4,  "pos": "D" } },
+        { "player": { "name": "Hassan Altambakti",   "number": 5,  "pos": "D" } },
+        { "player": { "name": "Saud Abdulhamid",     "number": 12, "pos": "D" } },
+        { "player": { "name": "Moteb Al-Harbi",      "number": 24, "pos": "D" } },
+        { "player": { "name": "Nasser Al-Dawsari",   "number": 6,  "pos": "M" } },
+        { "player": { "name": "Musab Al-Juwayr",     "number": 7,  "pos": "M" } },
+        { "player": { "name": "Abdullah Al-Khaibari","number": 15, "pos": "M" } },
+        { "player": { "name": "Salem Al-Dawsari",    "number": 10, "pos": "M" } },
+        { "player": { "name": "Feras Al-Buraikan",   "number": 9,  "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Nawaf Al-Aqidi",       "number": 1,  "pos": "G" } },
+        { "player": { "name": "Ahmed Al-Kassar",      "number": 22, "pos": "G" } },
+        { "player": { "name": "Ali Majrashi",         "number": 2,  "pos": "D" } },
+        { "player": { "name": "Nawaf Boushal",        "number": 13, "pos": "D" } },
+        { "player": { "name": "Hassan Kadesh",        "number": 14, "pos": "D" } },
+        { "player": { "name": "Ala'a Al-Hejji",      "number": 18, "pos": "D" } },
+        { "player": { "name": "Ayman Yahya",          "number": 8,  "pos": "M" } },
+        { "player": { "name": "Ziyad Al-Johani",      "number": 16, "pos": "M" } },
+        { "player": { "name": "Mohamed Kanno",        "number": 23, "pos": "M" } },
+        { "player": { "name": "Sultan Mandash",       "number": 20, "pos": "M" } },
+        { "player": { "name": "Jehad Thakri",         "number": 25, "pos": "M" } },
+        { "player": { "name": "Khalid Al-Ghannam",    "number": 17, "pos": "M" } },
+        { "player": { "name": "Saleh Al-Shehri",      "number": 11, "pos": "F" } },
+        { "player": { "name": "Mohammed Abu Al-Shamat","number": 26, "pos": "F" } },
+        { "player": { "name": "Abdullah Al-Hamdan",   "number": 19, "pos": "F" } }
+      ]
+    }
+  ]
+}

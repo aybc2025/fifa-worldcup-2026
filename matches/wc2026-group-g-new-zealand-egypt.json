@@ -1,0 +1,134 @@
+{
+  "fixture": {
+    "id": "wc2026-group-g-new-zealand-egypt",
+    "date": "2026-06-21T22:00:00Z",
+    "venue": { "name": "BC Place", "city": "Vancouver" },
+    "status": { "short": "FT", "long": "Match Finished" }
+  },
+  "league": { "round": "Group G" },
+  "teams": {
+    "home": { "name": "New Zealand", "code": "NZL" },
+    "away": { "name": "Egypt",       "code": "EGY" }
+  },
+  "goals": { "home": 1, "away": 3 },
+  "score": {
+    "halftime": { "home": 1, "away": 0 },
+    "fulltime": { "home": 1, "away": 3 }
+  },
+  "stats": [
+    {
+      "team": "New Zealand",
+      "statistics": [
+        { "type": "Possession",    "value": "42%" },
+        { "type": "Shots on Goal", "value": "4" },
+        { "type": "Total Shots",   "value": "9" },
+        { "type": "Corner Kicks",  "value": "4" },
+        { "type": "Fouls",         "value": "14" },
+        { "type": "Yellow Cards",  "value": "2" },
+        { "type": "Red Cards",     "value": "0" }
+      ]
+    },
+    {
+      "team": "Egypt",
+      "statistics": [
+        { "type": "Possession",    "value": "48%" },
+        { "type": "Shots on Goal", "value": "7" },
+        { "type": "Total Shots",   "value": "19" },
+        { "type": "Corner Kicks",  "value": "3" },
+        { "type": "Fouls",         "value": "8" },
+        { "type": "Yellow Cards",  "value": "1" },
+        { "type": "Red Cards",     "value": "0" }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 15, "team": "New Zealand", "player": "Finn Surman",           "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 17, "team": "Egypt",       "player": "Mohanad Lashin",        "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 20, "team": "New Zealand", "player": "Sarpreet Singh",        "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 34, "team": "New Zealand", "player": "Callum McCowatt",       "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 41, "team": "Egypt",       "player": "Ramy Rabia",            "type": "subst", "detail": "out: Hamdy Fathy, in: Ramy Rabia" },
+    { "minute": 58, "team": "Egypt",       "player": "Mostafa Zico",          "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 66, "team": "New Zealand", "player": "Ben Old",               "type": "subst", "detail": "out: Callum McCowatt, in: Ben Old" },
+    { "minute": 67, "team": "Egypt",       "player": "Mohamed Salah",         "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 76, "team": "New Zealand", "player": "Ryan Thomas",           "type": "subst", "detail": "out: Sarpreet Singh, in: Ryan Thomas" },
+    { "minute": 76, "team": "New Zealand", "player": "Jesse Randall",         "type": "subst", "detail": "out: Liberato Cacace, in: Jesse Randall" },
+    { "minute": 76, "team": "Egypt",       "player": "Trezeguet",             "type": "subst", "detail": "out: Omar Marmoush, in: Trezeguet" },
+    { "minute": 76, "team": "Egypt",       "player": "Hamza Abdelkarim",      "type": "subst", "detail": "out: Mostafa Zico, in: Hamza Abdelkarim" },
+    { "minute": 82, "team": "Egypt",       "player": "Trezeguet",             "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 84, "team": "Egypt",       "player": "Zizo",                  "type": "subst", "detail": "out: Emam Ashour, in: Zizo" },
+    { "minute": 84, "team": "Egypt",       "player": "Hossam Abdelmaguid",    "type": "subst", "detail": "out: Mohamed Salah, in: Hossam Abdelmaguid" },
+    { "minute": 85, "team": "New Zealand", "player": "Tyler Bindon",          "type": "subst", "detail": "out: Tim Payne, in: Tyler Bindon" },
+    { "minute": 85, "team": "New Zealand", "player": "Francis De Vries",      "type": "subst", "detail": "out: Elijah Just, in: Francis De Vries" },
+    { "minute": 90, "team": "Egypt",       "player": "Mohamed Abdelmonem",    "type": "subst", "detail": "out: Hossam Abdelmaguid, in: Mohamed Abdelmonem" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "New Zealand" },
+      "formation": "4-4-2",
+      "startXI": [
+        { "player": { "name": "Max Crocombe",    "number": 1,  "pos": "G" } },
+        { "player": { "name": "Tim Payne",       "number": 2,  "pos": "D" } },
+        { "player": { "name": "Michael Boxall",  "number": 5,  "pos": "D" } },
+        { "player": { "name": "Liberato Cacace", "number": 13, "pos": "D" } },
+        { "player": { "name": "Joe Bell",        "number": 6,  "pos": "M" } },
+        { "player": { "name": "Marko Stamenic",  "number": 8,  "pos": "M" } },
+        { "player": { "name": "Sarpreet Singh",  "number": 10, "pos": "M" } },
+        { "player": { "name": "Finn Surman",     "number": 16, "pos": "M" } },
+        { "player": { "name": "Callum McCowatt", "number": 20, "pos": "M" } },
+        { "player": { "name": "Elijah Just",     "number": 11, "pos": "F" } },
+        { "player": { "name": "Chris Wood",      "number": 9,  "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Alex Paulsen",      "number": 12, "pos": "G" } },
+        { "player": { "name": "Michael Woud",      "number": 22, "pos": "G" } },
+        { "player": { "name": "Tyler Bindon",      "number": 4,  "pos": "D" } },
+        { "player": { "name": "Francis De Vries",  "number": 3,  "pos": "D" } },
+        { "player": { "name": "Nando Pijnaker",    "number": 15, "pos": "D" } },
+        { "player": { "name": "Tommy Smith",       "number": 26, "pos": "D" } },
+        { "player": { "name": "Alex Rufer",        "number": 14, "pos": "M" } },
+        { "player": { "name": "Callan Elliot",     "number": 24, "pos": "M" } },
+        { "player": { "name": "Lachlan Bayliss",   "number": 25, "pos": "M" } },
+        { "player": { "name": "Ben Old",           "number": 19, "pos": "M" } },
+        { "player": { "name": "Jesse Randall",     "number": 21, "pos": "M" } },
+        { "player": { "name": "Ryan Thomas",       "number": 23, "pos": "M" } },
+        { "player": { "name": "Logan Rogerson",    "number": 7,  "pos": "F" } },
+        { "player": { "name": "Kosta Barbarouses", "number": 17, "pos": "F" } },
+        { "player": { "name": "Ben Waine",         "number": 18, "pos": "F" } }
+      ]
+    },
+    {
+      "team": { "name": "Egypt" },
+      "formation": "4-2-3-1",
+      "startXI": [
+        { "player": { "name": "Mostafa Shoubir",  "number": 23, "pos": "G" } },
+        { "player": { "name": "Yasser Ibrahim",   "number": 2,  "pos": "D" } },
+        { "player": { "name": "Mohamed Hany",     "number": 3,  "pos": "D" } },
+        { "player": { "name": "Ahmed Fatouh",     "number": 13, "pos": "D" } },
+        { "player": { "name": "Hamdy Fathy",      "number": 14, "pos": "D" } },
+        { "player": { "name": "Emam Ashour",      "number": 8,  "pos": "M" } },
+        { "player": { "name": "Mostafa Zico",     "number": 11, "pos": "M" } },
+        { "player": { "name": "Mohamed Salah",    "number": 10, "pos": "M" } },
+        { "player": { "name": "Marawan Attia",    "number": 19, "pos": "M" } },
+        { "player": { "name": "Mohanad Lashin",   "number": 17, "pos": "M" } },
+        { "player": { "name": "Omar Marmoush",    "number": 22, "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Mohamed Elshenawy",  "number": 1,  "pos": "G" } },
+        { "player": { "name": "Mahdi Soliman",       "number": 16, "pos": "G" } },
+        { "player": { "name": "Mohamed Alaa",        "number": 26, "pos": "D" } },
+        { "player": { "name": "Hossam Abdelmaguid",  "number": 4,  "pos": "D" } },
+        { "player": { "name": "Mohamed Abdelmonem",  "number": 6,  "pos": "D" } },
+        { "player": { "name": "Ramy Rabia",          "number": 5,  "pos": "D" } },
+        { "player": { "name": "Karim Hafez",         "number": 15, "pos": "M" } },
+        { "player": { "name": "Tarek Alaa",          "number": 24, "pos": "M" } },
+        { "player": { "name": "Nabil Donga",         "number": 18, "pos": "M" } },
+        { "player": { "name": "Mahmoud Saber",       "number": 21, "pos": "M" } },
+        { "player": { "name": "Zizo",                "number": 25, "pos": "M" } },
+        { "player": { "name": "Trezeguet",           "number": 7,  "pos": "F" } },
+        { "player": { "name": "Hamza Abdelkarim",    "number": 9,  "pos": "F" } },
+        { "player": { "name": "Haissem Hassan",      "number": 12, "pos": "F" } },
+        { "player": { "name": "Ibrahim Adel",        "number": 20, "pos": "F" } }
+      ]
+    }
+  ]
+}

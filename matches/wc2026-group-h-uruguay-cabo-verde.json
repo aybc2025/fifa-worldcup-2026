@@ -1,0 +1,128 @@
+{
+  "fixture": {
+    "id": "wc2026-group-h-uruguay-cabo-verde",
+    "date": "2026-06-21T19:00:00Z",
+    "venue": { "name": "Hard Rock Stadium", "city": "Miami Gardens" },
+    "status": { "short": "FT", "long": "Match Finished" }
+  },
+  "league": { "round": "Group H" },
+  "teams": {
+    "home": { "name": "Uruguay",    "code": "URU" },
+    "away": { "name": "Cape Verde", "code": "CPV" }
+  },
+  "goals": { "home": 2, "away": 2 },
+  "score": {
+    "halftime": { "home": 2, "away": 1 },
+    "fulltime": { "home": 2, "away": 2 }
+  },
+  "stats": [
+    {
+      "team": "Uruguay",
+      "statistics": [
+        { "type": "Possession",    "value": "54%" },
+        { "type": "Shots on Goal", "value": "2" },
+        { "type": "Total Shots",   "value": "17" },
+        { "type": "Corner Kicks",  "value": "11" },
+        { "type": "Fouls",         "value": "11" },
+        { "type": "Yellow Cards",  "value": "2" },
+        { "type": "Red Cards",     "value": "0" }
+      ]
+    },
+    {
+      "team": "Cape Verde",
+      "statistics": [
+        { "type": "Possession",    "value": "33%" },
+        { "type": "Shots on Goal", "value": "4" },
+        { "type": "Total Shots",   "value": "12" },
+        { "type": "Corner Kicks",  "value": "4" },
+        { "type": "Fouls",         "value": "4" },
+        { "type": "Yellow Cards",  "value": "2" },
+        { "type": "Red Cards",     "value": "0" }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 5,  "team": "Cape Verde", "player": "Sidny Lopes Cabral",  "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 20, "team": "Uruguay",    "player": "Rodrigo Bentancur",   "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 21, "team": "Cape Verde", "player": "Kevin Pina",          "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 44, "team": "Uruguay",    "player": "Maxi Araujo",         "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 45, "team": "Uruguay",    "player": "Agustin Canobbio",    "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 46, "team": "Cape Verde", "player": "Deroy Duarte",        "type": "subst", "detail": "out: Telmo Arcanjo, in: Deroy Duarte" },
+    { "minute": 58, "team": "Uruguay",    "player": "Mathias Olivera",     "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 58, "team": "Cape Verde", "player": "Helio Varela",        "type": "subst", "detail": "out: Garry Rodrigues, in: Helio Varela" },
+    { "minute": 58, "team": "Cape Verde", "player": "Nuno Da Costa",       "type": "subst", "detail": "out: Gilson Tavares, in: Nuno Da Costa" },
+    { "minute": 61, "team": "Cape Verde", "player": "Helio Varela",        "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 70, "team": "Uruguay",    "player": "Nicolas De La Cruz",  "type": "subst", "detail": "out: Manuel Ugarte, in: Nicolas De La Cruz" },
+    { "minute": 70, "team": "Uruguay",    "player": "Darwin Nunez",        "type": "subst", "detail": "out: Federico Vinas, in: Darwin Nunez" },
+    { "minute": 71, "team": "Cape Verde", "player": "Laros Duarte",        "type": "subst", "detail": "out: Kevin Pina, in: Laros Duarte" },
+    { "minute": 80, "team": "Cape Verde", "player": "Yannick Semedo",      "type": "subst", "detail": "out: Jamiro Monteiro, in: Yannick Semedo" },
+    { "minute": 81, "team": "Uruguay",    "player": "Brian Rodriguez",     "type": "subst", "detail": "out: Maxi Araujo, in: Brian Rodriguez" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Uruguay" },
+      "formation": "4-1-2-3",
+      "startXI": [
+        { "player": { "name": "Fernando Muslera",    "number": 23, "pos": "G" } },
+        { "player": { "name": "Guillermo Varela",    "number": 13, "pos": "D" } },
+        { "player": { "name": "Sebastian Caceres",   "number": 3,  "pos": "D" } },
+        { "player": { "name": "Mathias Olivera",     "number": 16, "pos": "D" } },
+        { "player": { "name": "Juan Manuel Sanabria","number": 25, "pos": "D" } },
+        { "player": { "name": "Manuel Ugarte",       "number": 5,  "pos": "M" } },
+        { "player": { "name": "Rodrigo Bentancur",   "number": 6,  "pos": "M" } },
+        { "player": { "name": "Federico Valverde",   "number": 8,  "pos": "M" } },
+        { "player": { "name": "Agustin Canobbio",    "number": 14, "pos": "F" } },
+        { "player": { "name": "Maxi Araujo",         "number": 20, "pos": "F" } },
+        { "player": { "name": "Federico Vinas",      "number": 21, "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Sergio Rochet",      "number": 1,  "pos": "G" } },
+        { "player": { "name": "Santiago Mele",      "number": 12, "pos": "G" } },
+        { "player": { "name": "Jose Maria Gimenez", "number": 2,  "pos": "D" } },
+        { "player": { "name": "Matias Vina",        "number": 17, "pos": "D" } },
+        { "player": { "name": "Santiago Bueno",     "number": 24, "pos": "D" } },
+        { "player": { "name": "Joaquin Piquerez",   "number": 22, "pos": "D" } },
+        { "player": { "name": "Rodrigo Zalazar",    "number": 26, "pos": "M" } },
+        { "player": { "name": "Emiliano Martinez",  "number": 15, "pos": "M" } },
+        { "player": { "name": "Nicolas De La Cruz", "number": 7,  "pos": "M" } },
+        { "player": { "name": "Darwin Nunez",       "number": 9,  "pos": "F" } },
+        { "player": { "name": "Facundo Pellistri",  "number": 11, "pos": "F" } },
+        { "player": { "name": "Brian Rodriguez",    "number": 18, "pos": "F" } },
+        { "player": { "name": "Rodrigo Aguirre",    "number": 19, "pos": "F" } }
+      ]
+    },
+    {
+      "team": { "name": "Cape Verde" },
+      "formation": "4-1-2-3",
+      "startXI": [
+        { "player": { "name": "Vozinha",           "number": 1,  "pos": "G" } },
+        { "player": { "name": "Diney Borges",      "number": 3,  "pos": "D" } },
+        { "player": { "name": "Pico Lopes",        "number": 4,  "pos": "D" } },
+        { "player": { "name": "Sidny Lopes Cabral","number": 13, "pos": "D" } },
+        { "player": { "name": "Steven Moreira",    "number": 22, "pos": "D" } },
+        { "player": { "name": "Kevin Pina",        "number": 6,  "pos": "M" } },
+        { "player": { "name": "Laros Duarte",      "number": 15, "pos": "M" } },
+        { "player": { "name": "Jamiro Monteiro",   "number": 10, "pos": "M" } },
+        { "player": { "name": "Garry Rodrigues",   "number": 11, "pos": "F" } },
+        { "player": { "name": "Telmo Arcanjo",     "number": 18, "pos": "F" } },
+        { "player": { "name": "Ryan Mendes",       "number": 20, "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Marcio Rosa",       "number": 12, "pos": "G" } },
+        { "player": { "name": "CJ Dos Santos",     "number": 23, "pos": "G" } },
+        { "player": { "name": "Stopira",           "number": 2,  "pos": "D" } },
+        { "player": { "name": "Logan Costa",       "number": 5,  "pos": "D" } },
+        { "player": { "name": "Wagner Pina",       "number": 24, "pos": "D" } },
+        { "player": { "name": "Kelvin Pires",      "number": 25, "pos": "D" } },
+        { "player": { "name": "Jovane Cabral",     "number": 7,  "pos": "M" } },
+        { "player": { "name": "Joao Paulo",        "number": 8,  "pos": "M" } },
+        { "player": { "name": "Willy Semedo",      "number": 17, "pos": "M" } },
+        { "player": { "name": "Yannick Semedo",    "number": 16, "pos": "M" } },
+        { "player": { "name": "Helio Varela",      "number": 26, "pos": "F" } },
+        { "player": { "name": "Deroy Duarte",      "number": 14, "pos": "F" } },
+        { "player": { "name": "Nuno Da Costa",     "number": 21, "pos": "F" } },
+        { "player": { "name": "Dailon Livramento", "number": 19, "pos": "F" } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "fixture": {
+    "id": "wc2026-group-g-belgium-ir-iran",
+    "date": "2026-06-21T16:00:00Z",
+    "venue": { "name": "SoFi Stadium", "city": "Inglewood (Los Angeles)" },
+    "status": { "short": "FT", "long": "Match Finished" }
+  },
+  "league": { "round": "Group G" },
+  "teams": {
+    "home": { "name": "Belgium", "code": "BEL" },
+    "away": { "name": "Iran",    "code": "IRN" }
+  },
+  "goals": { "home": 0, "away": 0 },
+  "score": {
+    "halftime": { "home": 0, "away": 0 },
+    "fulltime": { "home": 0, "away": 0 }
+  },
+  "stats": [
+    {
+      "team": "Belgium",
+      "statistics": [
+        { "type": "Possession",    "value": "59%" },
+        { "type": "Shots on Goal", "value": "7" },
+        { "type": "Total Shots",   "value": "23" },
+        { "type": "Corner Kicks",  "value": "4" },
+        { "type": "Fouls",         "value": "7" },
+        { "type": "Yellow Cards",  "value": "1" },
+        { "type": "Red Cards",     "value": "1" }
+      ]
+    },
+    {
+      "team": "Iran",
+      "statistics": [
+        { "type": "Possession",    "value": "30%" },
+        { "type": "Shots on Goal", "value": "3" },
+        { "type": "Total Shots",   "value": "7" },
+        { "type": "Corner Kicks",  "value": "2" },
+        { "type": "Fouls",         "value": "9" },
+        { "type": "Yellow Cards",  "value": "1" },
+        { "type": "Red Cards",     "value": "0" }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 3,  "team": "Belgium", "player": "Romelu Lukaku",              "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 33, "team": "Iran",    "player": "Saeid Ezatolahi",            "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 46, "team": "Iran",    "player": "Alireza Jahanbakhsh",        "type": "subst", "detail": "out: Saleh Hardani, in: Alireza Jahanbakhsh" },
+    { "minute": 58, "team": "Belgium", "player": "Timothy Castagne",          "type": "subst", "detail": "out: Thomas Meunier, in: Timothy Castagne" },
+    { "minute": 58, "team": "Belgium", "player": "Hans Vanaken",              "type": "subst", "detail": "out: Nicolas Raskin, in: Hans Vanaken" },
+    { "minute": 58, "team": "Belgium", "player": "Dodi Lukebakio",            "type": "subst", "detail": "out: Alexis Saelemaekers, in: Dodi Lukebakio" },
+    { "minute": 66, "team": "Belgium", "player": "Nathan Ngoy",               "type": "Card",  "detail": "Red Card" },
+    { "minute": 66, "team": "Iran",    "player": "Milad Mohammadi",           "type": "subst", "detail": "out: Ehsan Hajsafi, in: Milad Mohammadi" },
+    { "minute": 66, "team": "Iran",    "player": "Mehdi Torabi",              "type": "subst", "detail": "out: Mohammad Mohebbi, in: Mehdi Torabi" },
+    { "minute": 73, "team": "Belgium", "player": "Arthur Theate",             "type": "subst", "detail": "out: Romelu Lukaku, in: Arthur Theate" },
+    { "minute": 79, "team": "Iran",    "player": "Shahriyar Moghanloo",       "type": "subst", "detail": "out: Saman Ghoddos, in: Shahriyar Moghanloo" },
+    { "minute": 85, "team": "Iran",    "player": "Amirhossein Hosseinzadeh", "type": "subst", "detail": "out: Saeid Ezatolahi, in: Amirhossein Hosseinzadeh" },
+    { "minute": 87, "team": "Belgium", "player": "Matias Fernandez-Pardo",   "type": "subst", "detail": "out: Kevin De Bruyne, in: Matias Fernandez-Pardo" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Belgium" },
+      "formation": "4-2-3-1",
+      "startXI": [
+        { "player": { "name": "Thibaut Courtois",    "number": 1,  "pos": "G" } },
+        { "player": { "name": "Thomas Meunier",      "number": 15, "pos": "D" } },
+        { "player": { "name": "Nathan Ngoy",         "number": 25, "pos": "D" } },
+        { "player": { "name": "Brandon Mechele",     "number": 4,  "pos": "D" } },
+        { "player": { "name": "Maxim De Cuyper",     "number": 5,  "pos": "D" } },
+        { "player": { "name": "Nicolas Raskin",      "number": 23, "pos": "M" } },
+        { "player": { "name": "Youri Tielemans",     "number": 8,  "pos": "M" } },
+        { "player": { "name": "Alexis Saelemaekers", "number": 22, "pos": "M" } },
+        { "player": { "name": "Kevin De Bruyne",     "number": 7,  "pos": "M" } },
+        { "player": { "name": "Leandro Trossard",    "number": 10, "pos": "M" } },
+        { "player": { "name": "Romelu Lukaku",       "number": 9,  "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Senne Lammens",          "number": 12, "pos": "G" } },
+        { "player": { "name": "Mike Penders",           "number": 13, "pos": "G" } },
+        { "player": { "name": "Arthur Theate",          "number": 3,  "pos": "D" } },
+        { "player": { "name": "Koni De Winter",         "number": 16, "pos": "D" } },
+        { "player": { "name": "Timothy Castagne",       "number": 21, "pos": "D" } },
+        { "player": { "name": "Axel Witsel",            "number": 6,  "pos": "M" } },
+        { "player": { "name": "Joaquin Seys",           "number": 18, "pos": "M" } },
+        { "player": { "name": "Hans Vanaken",           "number": 20, "pos": "M" } },
+        { "player": { "name": "Amadou Onana",           "number": 24, "pos": "M" } },
+        { "player": { "name": "Matias Fernandez-Pardo", "number": 26, "pos": "M" } },
+        { "player": { "name": "Diego Moreira",          "number": 19, "pos": "M" } },
+        { "player": { "name": "Dodi Lukebakio",         "number": 14, "pos": "F" } },
+        { "player": { "name": "Charles De Ketelaere",   "number": 17, "pos": "F" } }
+      ]
+    },
+    {
+      "team": { "name": "Iran" },
+      "formation": "5-4-1",
+      "startXI": [
+        { "player": { "name": "Alireza Beiranvand",  "number": 1,  "pos": "G" } },
+        { "player": { "name": "Saleh Hardani",       "number": 2,  "pos": "D" } },
+        { "player": { "name": "Ehsan Hajsafi",       "number": 3,  "pos": "D" } },
+        { "player": { "name": "Shoja Khalilzadeh",   "number": 4,  "pos": "D" } },
+        { "player": { "name": "Hossein Kanani",      "number": 13, "pos": "D" } },
+        { "player": { "name": "Ali Nemati",          "number": 19, "pos": "D" } },
+        { "player": { "name": "Saman Ghoddos",       "number": 14, "pos": "M" } },
+        { "player": { "name": "Saeid Ezatolahi",     "number": 6,  "pos": "M" } },
+        { "player": { "name": "Mohammad Mohebbi",    "number": 8,  "pos": "M" } },
+        { "player": { "name": "Ramin Rezaeian",      "number": 23, "pos": "M" } },
+        { "player": { "name": "Mehdi Taremi",        "number": 9,  "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Payam Niazmand",              "number": 12, "pos": "G" } },
+        { "player": { "name": "Hossein Hosseini",            "number": 22, "pos": "G" } },
+        { "player": { "name": "Roozbeh Cheshmi",             "number": 15, "pos": "D" } },
+        { "player": { "name": "Danial Iri",                  "number": 25, "pos": "D" } },
+        { "player": { "name": "Milad Mohammadi",             "number": 5,  "pos": "D" } },
+        { "player": { "name": "Alireza Jahanbakhsh",         "number": 7,  "pos": "M" } },
+        { "player": { "name": "Mehdi Torabi",                "number": 16, "pos": "M" } },
+        { "player": { "name": "Mohammad Ghorbani",           "number": 21, "pos": "M" } },
+        { "player": { "name": "Mehdi Ghayedi",               "number": 10, "pos": "M" } },
+        { "player": { "name": "Amirhossein Hosseinzadeh",    "number": 18, "pos": "M" } },
+        { "player": { "name": "Shahriyar Moghanloo",         "number": 20, "pos": "M" } },
+        { "player": { "name": "Amirmohammad Razzaghinia",    "number": 26, "pos": "M" } },
+        { "player": { "name": "Aria Yousefi",                "number": 17, "pos": "M" } },
+        { "player": { "name": "Ali Alipour",                 "number": 11, "pos": "F" } },
+        { "player": { "name": "Dennis Eckert Ayensa",        "number": 24, "pos": "F" } }
+      ]
+    }
+  ]
+}
