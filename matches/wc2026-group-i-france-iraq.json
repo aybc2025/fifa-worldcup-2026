@@ -1,0 +1,130 @@
+{
+  "fixture": {
+    "id": "wc2026-group-i-france-iraq",
+    "date": "2026-06-22T18:00:00Z",
+    "venue": { "name": "Philadelphia Stadium", "city": "Philadelphia" },
+    "status": { "short": "FT", "long": "Match Finished" }
+  },
+  "league": { "round": "Group I" },
+  "teams": {
+    "home": { "name": "France", "code": "FRA" },
+    "away": { "name": "Iraq",   "code": "IRQ" }
+  },
+  "goals": { "home": 3, "away": 0 },
+  "score": {
+    "halftime": { "home": 1, "away": 0 },
+    "fulltime": { "home": 3, "away": 0 }
+  },
+  "stats": [
+    {
+      "team": "France",
+      "statistics": [
+        { "type": "Possession",    "value": "49%" },
+        { "type": "Shots on Goal", "value": "5" },
+        { "type": "Total Shots",   "value": "19" },
+        { "type": "Corner Kicks",  "value": "4" },
+        { "type": "Fouls",         "value": "8" },
+        { "type": "Yellow Cards",  "value": "0" },
+        { "type": "Red Cards",     "value": "0" }
+      ]
+    },
+    {
+      "team": "Iraq",
+      "statistics": [
+        { "type": "Possession",    "value": "44%" },
+        { "type": "Shots on Goal", "value": "0" },
+        { "type": "Total Shots",   "value": "4" },
+        { "type": "Corner Kicks",  "value": "2" },
+        { "type": "Fouls",         "value": "4" },
+        { "type": "Yellow Cards",  "value": "1" },
+        { "type": "Red Cards",     "value": "0" }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 6,  "team": "Iraq",   "player": "Amir Alammari",       "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 14, "team": "France", "player": "Kylian Mbappe",       "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 26, "team": "Iraq",   "player": "Ali Al-Hamadi",       "type": "subst", "detail": "out: Aymen Hussein, in: Ali Al-Hamadi" },
+    { "minute": 54, "team": "France", "player": "Kylian Mbappe",       "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 60, "team": "Iraq",   "player": "Rebin Sulaka",        "type": "subst", "detail": "out: Zaid Tahseen, in: Rebin Sulaka" },
+    { "minute": 60, "team": "Iraq",   "player": "Youssef Amyn",        "type": "subst", "detail": "out: Zaid Ismael, in: Youssef Amyn" },
+    { "minute": 66, "team": "France", "player": "Ousmane Dembele",     "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 68, "team": "France", "player": "Rayan Cherki",        "type": "subst", "detail": "out: Michael Olise, in: Rayan Cherki" },
+    { "minute": 68, "team": "France", "player": "Desire Doue",         "type": "subst", "detail": "out: Ousmane Dembele, in: Desire Doue" },
+    { "minute": 68, "team": "Iraq",   "player": "Aimar Sher",          "type": "subst", "detail": "out: Amir Alammari, in: Aimar Sher" },
+    { "minute": 69, "team": "Iraq",   "player": "Marko Farji",         "type": "subst", "detail": "out: Ibrahim Bayesh, in: Marko Farji" },
+    { "minute": 83, "team": "France", "player": "Malo Gusto",          "type": "subst", "detail": "out: Jules Kounde, in: Malo Gusto" },
+    { "minute": 83, "team": "France", "player": "Maghnes Akliouche",   "type": "subst", "detail": "out: Bradley Barcola, in: Maghnes Akliouche" },
+    { "minute": 91, "team": "France", "player": "Marcus Thuram",       "type": "subst", "detail": "out: Kylian Mbappe, in: Marcus Thuram" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "France" },
+      "formation": "4-2-3-1",
+      "startXI": [
+        { "player": { "name": "Mike Maignan",      "number": 16, "pos": "G" } },
+        { "player": { "name": "Jules Kounde",      "number": 5,  "pos": "D" } },
+        { "player": { "name": "Dayot Upamecano",   "number": 4,  "pos": "D" } },
+        { "player": { "name": "William Saliba",    "number": 17, "pos": "D" } },
+        { "player": { "name": "Lucas Digne",       "number": 3,  "pos": "D" } },
+        { "player": { "name": "Manu Kone",         "number": 6,  "pos": "M" } },
+        { "player": { "name": "Adrien Rabiot",     "number": 14, "pos": "M" } },
+        { "player": { "name": "Michael Olise",     "number": 11, "pos": "M" } },
+        { "player": { "name": "Bradley Barcola",   "number": 12, "pos": "M" } },
+        { "player": { "name": "Ousmane Dembele",   "number": 7,  "pos": "F" } },
+        { "player": { "name": "Kylian Mbappe",     "number": 10, "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Brice Samba",         "number": 1,  "pos": "G" } },
+        { "player": { "name": "Robin Risser",        "number": 23, "pos": "G" } },
+        { "player": { "name": "Malo Gusto",          "number": 2,  "pos": "D" } },
+        { "player": { "name": "Ibrahima Konate",     "number": 15, "pos": "D" } },
+        { "player": { "name": "Theo Hernandez",      "number": 19, "pos": "D" } },
+        { "player": { "name": "Lucas Hernandez",     "number": 21, "pos": "D" } },
+        { "player": { "name": "Maxence Lacroix",     "number": 26, "pos": "D" } },
+        { "player": { "name": "Aurelien Tchouameni", "number": 8,  "pos": "M" } },
+        { "player": { "name": "Ngolo Kante",         "number": 13, "pos": "M" } },
+        { "player": { "name": "Warren Zaire-Emery",  "number": 18, "pos": "M" } },
+        { "player": { "name": "Rayan Cherki",        "number": 24, "pos": "M" } },
+        { "player": { "name": "Maghnes Akliouche",   "number": 25, "pos": "M" } },
+        { "player": { "name": "Marcus Thuram",       "number": 9,  "pos": "F" } },
+        { "player": { "name": "Desire Doue",         "number": 20, "pos": "F" } },
+        { "player": { "name": "Jean-Philippe Mateta","number": 22, "pos": "F" } }
+      ]
+    },
+    {
+      "team": { "name": "Iraq" },
+      "formation": "4-2-3-1",
+      "startXI": [
+        { "player": { "name": "Ahmed Basil",    "number": 22, "pos": "G" } },
+        { "player": { "name": "Hussein Ali",    "number": 3,  "pos": "D" } },
+        { "player": { "name": "Akam Hashim",    "number": 5,  "pos": "D" } },
+        { "player": { "name": "Merchas Doski",  "number": 23, "pos": "D" } },
+        { "player": { "name": "Zaid Tahseen",   "number": 4,  "pos": "D" } },
+        { "player": { "name": "Ibrahim Bayesh", "number": 8,  "pos": "M" } },
+        { "player": { "name": "Zidane Iqbal",   "number": 14, "pos": "M" } },
+        { "player": { "name": "Amir Alammari",  "number": 16, "pos": "M" } },
+        { "player": { "name": "Zaid Ismael",    "number": 24, "pos": "M" } },
+        { "player": { "name": "Ahmed Qasem",    "number": 11, "pos": "F" } },
+        { "player": { "name": "Aymen Hussein",  "number": 18, "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Fahad Talib",      "number": 1,  "pos": "G" } },
+        { "player": { "name": "Jalal Hassan",     "number": 12, "pos": "G" } },
+        { "player": { "name": "Rebin Sulaka",     "number": 2,  "pos": "D" } },
+        { "player": { "name": "Munaf Younus",     "number": 6,  "pos": "D" } },
+        { "player": { "name": "Ahmed Maknazi",    "number": 15, "pos": "D" } },
+        { "player": { "name": "Mustafa Saadoon",  "number": 25, "pos": "D" } },
+        { "player": { "name": "Frans Putros",     "number": 26, "pos": "M" } },
+        { "player": { "name": "Youssef Amyn",     "number": 7,  "pos": "M" } },
+        { "player": { "name": "Kevin Yakob",      "number": 19, "pos": "M" } },
+        { "player": { "name": "Aimar Sher",       "number": 20, "pos": "M" } },
+        { "player": { "name": "Marko Farji",      "number": 21, "pos": "M" } },
+        { "player": { "name": "Ali Al-Hamadi",    "number": 9,  "pos": "F" } },
+        { "player": { "name": "Mohanad Ali",      "number": 10, "pos": "F" } },
+        { "player": { "name": "Ali Yousif",       "number": 13, "pos": "F" } },
+        { "player": { "name": "Ali Jasim",        "number": 17, "pos": "F" } }
+      ]
+    }
+  ]
+}

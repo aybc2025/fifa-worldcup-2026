@@ -1,0 +1,131 @@
+{
+  "fixture": {
+    "id": "wc2026-group-i-norway-senegal",
+    "date": "2026-06-22T21:00:00Z",
+    "venue": { "name": "New York/New Jersey Stadium", "city": "New Jersey" },
+    "status": { "short": "FT", "long": "Match Finished" }
+  },
+  "league": { "round": "Group I" },
+  "teams": {
+    "home": { "name": "Norway",  "code": "NOR" },
+    "away": { "name": "Senegal", "code": "SEN" }
+  },
+  "goals": { "home": 3, "away": 2 },
+  "score": {
+    "halftime": { "home": 1, "away": 0 },
+    "fulltime": { "home": 3, "away": 2 }
+  },
+  "stats": [
+    {
+      "team": "Norway",
+      "statistics": [
+        { "type": "Possession",    "value": "40%" },
+        { "type": "Shots on Goal", "value": "7" },
+        { "type": "Total Shots",   "value": "13" },
+        { "type": "Corner Kicks",  "value": "5" },
+        { "type": "Fouls",         "value": "13" },
+        { "type": "Yellow Cards",  "value": "0" },
+        { "type": "Red Cards",     "value": "0" }
+      ]
+    },
+    {
+      "team": "Senegal",
+      "statistics": [
+        { "type": "Possession",    "value": "51%" },
+        { "type": "Shots on Goal", "value": "4" },
+        { "type": "Total Shots",   "value": "16" },
+        { "type": "Corner Kicks",  "value": "4" },
+        { "type": "Fouls",         "value": "5" },
+        { "type": "Yellow Cards",  "value": "0" },
+        { "type": "Red Cards",     "value": "0" }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 13, "team": "Norway",  "player": "Marcus Holmgren Pedersen", "type": "subst", "detail": "out: Julian Ryerson, in: Marcus Holmgren Pedersen" },
+    { "minute": 43, "team": "Norway",  "player": "Marcus Holmgren Pedersen", "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 46, "team": "Norway",  "player": "Patrick Berg",             "type": "subst", "detail": "out: Fredrik Aursnes, in: Patrick Berg" },
+    { "minute": 48, "team": "Norway",  "player": "Erling Haaland",           "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 53, "team": "Senegal", "player": "Ismaila Sarr",             "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 54, "team": "Senegal", "player": "Ismail Jakobs",            "type": "subst", "detail": "out: El Hadji Malick Diouf, in: Ismail Jakobs" },
+    { "minute": 54, "team": "Senegal", "player": "Ibrahim Mbaye",            "type": "subst", "detail": "out: Pape Gueye, in: Ibrahim Mbaye" },
+    { "minute": 58, "team": "Norway",  "player": "Erling Haaland",           "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 63, "team": "Senegal", "player": "Pathe Ismail Ciss",        "type": "subst", "detail": "out: Lamine Camara, in: Pathe Ismail Ciss" },
+    { "minute": 63, "team": "Senegal", "player": "Mory Diaw",                "type": "subst", "detail": "out: Edouard Mendy, in: Mory Diaw" },
+    { "minute": 71, "team": "Norway",  "player": "Andreas Schjelderup",      "type": "subst", "detail": "out: Antonio Nusa, in: Andreas Schjelderup" },
+    { "minute": 72, "team": "Senegal", "player": "Pape Matar Sarr",          "type": "subst", "detail": "out: Kalidou Koulibaly, in: Pape Matar Sarr" },
+    { "minute": 84, "team": "Norway",  "player": "Leo Ostigard",             "type": "subst", "detail": "out: Torbjorn Heggem, in: Leo Ostigard" },
+    { "minute": 84, "team": "Norway",  "player": "Oscar Bobb",               "type": "subst", "detail": "out: Alexander Sorloth, in: Oscar Bobb" },
+    { "minute": 93, "team": "Senegal", "player": "Ismaila Sarr",             "type": "Goal",  "detail": "Normal Goal" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Norway" },
+      "formation": "4-1-2-3",
+      "startXI": [
+        { "player": { "name": "Orjan Nyland",        "number": 1,  "pos": "G" } },
+        { "player": { "name": "Julian Ryerson",      "number": 26, "pos": "D" } },
+        { "player": { "name": "Kristoffer Ajer",     "number": 3,  "pos": "D" } },
+        { "player": { "name": "Torbjorn Heggem",     "number": 17, "pos": "D" } },
+        { "player": { "name": "David Moller Wolfe",  "number": 5,  "pos": "D" } },
+        { "player": { "name": "Sander Berge",        "number": 8,  "pos": "M" } },
+        { "player": { "name": "Martin Odegaard",     "number": 10, "pos": "M" } },
+        { "player": { "name": "Fredrik Aursnes",     "number": 14, "pos": "M" } },
+        { "player": { "name": "Alexander Sorloth",   "number": 7,  "pos": "F" } },
+        { "player": { "name": "Erling Haaland",      "number": 9,  "pos": "F" } },
+        { "player": { "name": "Antonio Nusa",        "number": 20, "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Sander Tangvik",           "number": 12, "pos": "G" } },
+        { "player": { "name": "Egil Selvik",              "number": 13, "pos": "G" } },
+        { "player": { "name": "Leo Ostigard",             "number": 4,  "pos": "D" } },
+        { "player": { "name": "Fredrik Andre Bjorkan",    "number": 15, "pos": "D" } },
+        { "player": { "name": "Marcus Holmgren Pedersen", "number": 16, "pos": "M" } },
+        { "player": { "name": "Morten Thorsby",           "number": 2,  "pos": "M" } },
+        { "player": { "name": "Patrick Berg",             "number": 6,  "pos": "M" } },
+        { "player": { "name": "Kristian Thorstvedt",      "number": 18, "pos": "M" } },
+        { "player": { "name": "Thelo Aasgaard",           "number": 19, "pos": "M" } },
+        { "player": { "name": "Sondre Langas",            "number": 24, "pos": "M" } },
+        { "player": { "name": "Henrik Falchener",         "number": 25, "pos": "M" } },
+        { "player": { "name": "Andreas Schjelderup",      "number": 21, "pos": "F" } },
+        { "player": { "name": "Oscar Bobb",               "number": 22, "pos": "F" } },
+        { "player": { "name": "Jens Petter Hauge",        "number": 23, "pos": "F" } },
+        { "player": { "name": "Jorgen Strand Larsen",     "number": 11, "pos": "F" } }
+      ]
+    },
+    {
+      "team": { "name": "Senegal" },
+      "formation": "4-3-3",
+      "startXI": [
+        { "player": { "name": "Edouard Mendy",         "number": 16, "pos": "G" } },
+        { "player": { "name": "Krepin Diatta",         "number": 15, "pos": "D" } },
+        { "player": { "name": "Kalidou Koulibaly",     "number": 3,  "pos": "D" } },
+        { "player": { "name": "Moussa Niakhate",       "number": 19, "pos": "D" } },
+        { "player": { "name": "El Hadji Malick Diouf", "number": 25, "pos": "D" } },
+        { "player": { "name": "Idrissa Gana Gueye",   "number": 5,  "pos": "M" } },
+        { "player": { "name": "Lamine Camara",         "number": 8,  "pos": "M" } },
+        { "player": { "name": "Pape Gueye",            "number": 26, "pos": "M" } },
+        { "player": { "name": "Sadio Mane",            "number": 10, "pos": "F" } },
+        { "player": { "name": "Nicolas Jackson",       "number": 11, "pos": "F" } },
+        { "player": { "name": "Ismaila Sarr",          "number": 18, "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Yehvann Diouf",        "number": 1,  "pos": "G" } },
+        { "player": { "name": "Mory Diaw",            "number": 23, "pos": "G" } },
+        { "player": { "name": "Mamadou Sarr",         "number": 2,  "pos": "D" } },
+        { "player": { "name": "Abdoulaye Seck",       "number": 4,  "pos": "D" } },
+        { "player": { "name": "Ismail Jakobs",        "number": 14, "pos": "D" } },
+        { "player": { "name": "Antoine Mendy",        "number": 24, "pos": "D" } },
+        { "player": { "name": "Pathe Ismail Ciss",    "number": 6,  "pos": "M" } },
+        { "player": { "name": "Ibrahim Mbaye",        "number": 20, "pos": "M" } },
+        { "player": { "name": "Pape Matar Sarr",      "number": 17, "pos": "M" } },
+        { "player": { "name": "Habib Diarra",         "number": 21, "pos": "M" } },
+        { "player": { "name": "Bara Sapoko Ndiaye",   "number": 22, "pos": "M" } },
+        { "player": { "name": "Assane Diao",          "number": 7,  "pos": "F" } },
+        { "player": { "name": "Ahmadou Bamba Dieng",  "number": 9,  "pos": "F" } },
+        { "player": { "name": "Cherif Ndiaye",        "number": 12, "pos": "F" } },
+        { "player": { "name": "Iliman Ndiaye",        "number": 13, "pos": "F" } }
+      ]
+    }
+  ]
+}
