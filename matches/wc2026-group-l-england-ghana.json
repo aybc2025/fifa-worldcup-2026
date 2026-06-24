@@ -1,0 +1,116 @@
+{
+  "fixture": {
+    "id": "wc2026-group-l-england-ghana",
+    "date": "2026-06-23T17:00:00Z",
+    "venue": { "name": "Boston Stadium", "city": "Boston" },
+    "status": { "short": "FT", "long": "Match Finished" }
+  },
+  "league": { "round": "Group L" },
+  "teams": {
+    "home": { "name": "England", "code": "ENG" },
+    "away": { "name": "Ghana",   "code": "GHA" }
+  },
+  "goals": { "home": 0, "away": 0 },
+  "score": {
+    "halftime": { "home": 0, "away": 0 },
+    "fulltime": { "home": 0, "away": 0 }
+  },
+  "stats": [
+    {
+      "team": "England",
+      "statistics": [
+        { "type": "Possession",    "value": "72%" },
+        { "type": "Shots on Goal", "value": "3" },
+        { "type": "Total Shots",   "value": "19" },
+        { "type": "Corner Kicks",  "value": "9" },
+        { "type": "Fouls",         "value": "14" },
+        { "type": "Yellow Cards",  "value": "1" },
+        { "type": "Red Cards",     "value": "0" }
+      ]
+    },
+    {
+      "team": "Ghana",
+      "statistics": [
+        { "type": "Possession",    "value": "20%" },
+        { "type": "Shots on Goal", "value": "0" },
+        { "type": "Total Shots",   "value": "2" },
+        { "type": "Corner Kicks",  "value": "2" },
+        { "type": "Fouls",         "value": "24" },
+        { "type": "Yellow Cards",  "value": "1" },
+        { "type": "Red Cards",     "value": "0" }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 41, "team": "England", "player": "Declan Rice",             "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 60, "team": "Ghana",   "player": "Inaki Williams",          "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 65, "team": "England", "player": "Bukayo Saka",             "type": "subst", "detail": "out: Anthony Gordon, in: Bukayo Saka" },
+    { "minute": 66, "team": "Ghana",   "player": "Abdul Fatawu Issahaku",   "type": "subst", "detail": "out: Inaki Williams, in: Abdul Fatawu Issahaku" },
+    { "minute": 66, "team": "England", "player": "Nico O'Reilly",           "type": "subst", "detail": "out: Djed Spence, in: Nico O'Reilly" },
+    { "minute": 67, "team": "Ghana",   "player": "Prince Kwabena Adu",      "type": "subst", "detail": "out: Jordan Ayew, in: Prince Kwabena Adu" },
+    { "minute": 73, "team": "England", "player": "Morgan Rogers",           "type": "subst", "detail": "out: Jude Bellingham, in: Morgan Rogers" },
+    { "minute": 74, "team": "England", "player": "Eberechi Eze",            "type": "subst", "detail": "out: Elliot Anderson, in: Eberechi Eze" },
+    { "minute": 83, "team": "England", "player": "Marcus Rashford",         "type": "subst", "detail": "out: Noni Madueke, in: Marcus Rashford" },
+    { "minute": 87, "team": "Ghana",   "player": "Kojo Peprah Oppong",      "type": "subst", "detail": "out: Marvin Senaya, in: Kojo Peprah Oppong" },
+    { "minute": 95, "team": "Ghana",   "player": "Rahman Baba",             "type": "subst", "detail": "out: Prince Kwabena Adu, in: Rahman Baba" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "England" },
+      "formation": "4-2-3-1",
+      "startXI": [
+        { "player": { "name": "Jordan Pickford",  "number": 1,  "pos": "G" } },
+        { "player": { "name": "Reece James",      "number": 24, "pos": "D" } },
+        { "player": { "name": "Ezri Konsa",       "number": 2,  "pos": "D" } },
+        { "player": { "name": "Marc Guehi",       "number": 6,  "pos": "D" } },
+        { "player": { "name": "Djed Spence",      "number": 25, "pos": "D" } },
+        { "player": { "name": "Elliot Anderson",  "number": 8,  "pos": "M" } },
+        { "player": { "name": "Declan Rice",      "number": 4,  "pos": "M" } },
+        { "player": { "name": "Noni Madueke",     "number": 20, "pos": "M" } },
+        { "player": { "name": "Jude Bellingham",  "number": 10, "pos": "M" } },
+        { "player": { "name": "Anthony Gordon",   "number": 18, "pos": "M" } },
+        { "player": { "name": "Harry Kane",       "number": 9,  "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "James Trafford",   "number": 23, "pos": "G" } },
+        { "player": { "name": "Dean Henderson",   "number": 13, "pos": "G" } },
+        { "player": { "name": "John Stones",      "number": 5,  "pos": "D" } },
+        { "player": { "name": "Jarell Quansah",   "number": 26, "pos": "D" } },
+        { "player": { "name": "Dan Burn",         "number": 15, "pos": "D" } },
+        { "player": { "name": "Trevoh Chalobah",  "number": 12, "pos": "D" } },
+        { "player": { "name": "Nico O'Reilly",    "number": 3,  "pos": "M" } },
+        { "player": { "name": "Jordan Henderson", "number": 14, "pos": "M" } },
+        { "player": { "name": "Kobbie Mainoo",    "number": 16, "pos": "M" } },
+        { "player": { "name": "Morgan Rogers",    "number": 17, "pos": "M" } },
+        { "player": { "name": "Eberechi Eze",     "number": 21, "pos": "M" } },
+        { "player": { "name": "Bukayo Saka",      "number": 7,  "pos": "M" } },
+        { "player": { "name": "Marcus Rashford",  "number": 11, "pos": "F" } },
+        { "player": { "name": "Ivan Toney",       "number": 22, "pos": "F" } },
+        { "player": { "name": "Ollie Watkins",    "number": 19, "pos": "F" } }
+      ]
+    },
+    {
+      "team": { "name": "Ghana" },
+      "formation": "4-1-4-1",
+      "startXI": [
+        { "player": { "name": "Benjamin Asare",  "number": 16, "pos": "G" } },
+        { "player": { "name": "Marvin Senaya",   "number": 26, "pos": "D" } },
+        { "player": { "name": "Jonas Adjetey",   "number": 4,  "pos": "D" } },
+        { "player": { "name": "Jerome Opoku",    "number": 18, "pos": "D" } },
+        { "player": { "name": "Gideon Mensah",   "number": 14, "pos": "D" } },
+        { "player": { "name": "Thomas Partey",   "number": 5,  "pos": "M" } },
+        { "player": { "name": "Inaki Williams",  "number": 19, "pos": "M" } },
+        { "player": { "name": "Caleb Yirenkyi",  "number": 3,  "pos": "M" } },
+        { "player": { "name": "Kwasi Sibo",      "number": 8,  "pos": "M" } },
+        { "player": { "name": "Antoine Semenyo", "number": 11, "pos": "M" } },
+        { "player": { "name": "Jordan Ayew",     "number": 9,  "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Abdul Fatawu Issahaku", "number": null, "pos": "M" } },
+        { "player": { "name": "Prince Kwabena Adu",    "number": null, "pos": "F" } },
+        { "player": { "name": "Kojo Peprah Oppong",    "number": null, "pos": "F" } },
+        { "player": { "name": "Rahman Baba",           "number": null, "pos": "D" } }
+      ]
+    }
+  ]
+}

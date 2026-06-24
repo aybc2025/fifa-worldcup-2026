@@ -1,0 +1,133 @@
+{
+  "fixture": {
+    "id": "wc2026-group-k-portugal-uzbekistan",
+    "date": "2026-06-23T15:00:00Z",
+    "venue": { "name": "Houston Stadium", "city": "Houston" },
+    "status": { "short": "FT", "long": "Match Finished" }
+  },
+  "league": { "round": "Group K" },
+  "teams": {
+    "home": { "name": "Portugal",   "code": "POR" },
+    "away": { "name": "Uzbekistan", "code": "UZB" }
+  },
+  "goals": { "home": 5, "away": 0 },
+  "score": {
+    "halftime": { "home": 3, "away": 0 },
+    "fulltime": { "home": 5, "away": 0 }
+  },
+  "stats": [
+    {
+      "team": "Portugal",
+      "statistics": [
+        { "type": "Possession",    "value": "56%" },
+        { "type": "Shots on Goal", "value": "9" },
+        { "type": "Total Shots",   "value": "17" },
+        { "type": "Corner Kicks",  "value": "3" },
+        { "type": "Fouls",         "value": "15" },
+        { "type": "Yellow Cards",  "value": "1" },
+        { "type": "Red Cards",     "value": "0" }
+      ]
+    },
+    {
+      "team": "Uzbekistan",
+      "statistics": [
+        { "type": "Possession",    "value": "34%" },
+        { "type": "Shots on Goal", "value": "2" },
+        { "type": "Total Shots",   "value": "7" },
+        { "type": "Corner Kicks",  "value": "2" },
+        { "type": "Fouls",         "value": "14" },
+        { "type": "Yellow Cards",  "value": "1" },
+        { "type": "Red Cards",     "value": "0" }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 6,  "team": "Portugal",   "player": "Cristiano Ronaldo",     "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 14, "team": "Uzbekistan", "player": "Odiljon Khamrobekov",   "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 17, "team": "Portugal",   "player": "Nuno Mendes",           "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 39, "team": "Portugal",   "player": "Cristiano Ronaldo",     "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 46, "team": "Portugal",   "player": "Nelson Semedo",         "type": "subst", "detail": "out: Joao Cancelo, in: Nelson Semedo" },
+    { "minute": 46, "team": "Portugal",   "player": "Francisco Conceicao",   "type": "subst", "detail": "out: Pedro Neto, in: Francisco Conceicao" },
+    { "minute": 46, "team": "Uzbekistan", "player": "Akmal Mozgovoy",        "type": "subst", "detail": "out: Odiljon Khamrobekov, in: Akmal Mozgovoy" },
+    { "minute": 46, "team": "Uzbekistan", "player": "Khojiakbar Alijonov",   "type": "subst", "detail": "out: Sherzod Nasrullaev, in: Khojiakbar Alijonov" },
+    { "minute": 60, "team": "Uzbekistan", "player": "Abduvohid Nematov",     "type": "Goal",  "detail": "Own Goal" },
+    { "minute": 63, "team": "Portugal",   "player": "Francisco Trincao",     "type": "subst", "detail": "out: Joao Felix, in: Francisco Trincao" },
+    { "minute": 68, "team": "Portugal",   "player": "Renato Veiga",          "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 73, "team": "Uzbekistan", "player": "Igor Sergeev",          "type": "subst", "detail": "out: Abbosbek Fayzullaev, in: Igor Sergeev" },
+    { "minute": 76, "team": "Portugal",   "player": "Bernardo Silva",        "type": "subst", "detail": "out: Joao Neves, in: Bernardo Silva" },
+    { "minute": 83, "team": "Portugal",   "player": "Rafael Leao",           "type": "subst", "detail": "out: Vitinha, in: Rafael Leao" },
+    { "minute": 87, "team": "Portugal",   "player": "Rafael Leao",           "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 92, "team": "Uzbekistan", "player": "Sherzod Esanov",        "type": "subst", "detail": "out: Otabek Shukurov, in: Sherzod Esanov" },
+    { "minute": 92, "team": "Uzbekistan", "player": "Ruslanbek Jiyanov",     "type": "subst", "detail": "out: Bekhruz Karimov, in: Ruslanbek Jiyanov" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Portugal" },
+      "formation": "4-2-3-1",
+      "startXI": [
+        { "player": { "name": "Diogo Costa",        "number": 1,  "pos": "G" } },
+        { "player": { "name": "Joao Cancelo",        "number": 20, "pos": "D" } },
+        { "player": { "name": "Ruben Dias",          "number": 3,  "pos": "D" } },
+        { "player": { "name": "Renato Veiga",        "number": 13, "pos": "D" } },
+        { "player": { "name": "Nuno Mendes",         "number": 25, "pos": "D" } },
+        { "player": { "name": "Joao Neves",          "number": 15, "pos": "M" } },
+        { "player": { "name": "Vitinha",             "number": 23, "pos": "M" } },
+        { "player": { "name": "Pedro Neto",          "number": 18, "pos": "M" } },
+        { "player": { "name": "Bruno Fernandes",     "number": 8,  "pos": "M" } },
+        { "player": { "name": "Joao Felix",          "number": 11, "pos": "M" } },
+        { "player": { "name": "Cristiano Ronaldo",   "number": 7,  "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Jose Sa",             "number": 12, "pos": "G" } },
+        { "player": { "name": "Rui Silva",           "number": 22, "pos": "G" } },
+        { "player": { "name": "Tomas Araujo",        "number": 4,  "pos": "D" } },
+        { "player": { "name": "Diogo Dalot",         "number": 5,  "pos": "D" } },
+        { "player": { "name": "Goncalo Inacio",      "number": 14, "pos": "D" } },
+        { "player": { "name": "Nelson Semedo",       "number": 2,  "pos": "D" } },
+        { "player": { "name": "Matheus Nunes",       "number": 6,  "pos": "M" } },
+        { "player": { "name": "Samu Costa",          "number": 24, "pos": "M" } },
+        { "player": { "name": "Ruben Neves",         "number": 21, "pos": "M" } },
+        { "player": { "name": "Bernardo Silva",      "number": 10, "pos": "M" } },
+        { "player": { "name": "Francisco Conceicao", "number": 26, "pos": "M" } },
+        { "player": { "name": "Francisco Trincao",   "number": 16, "pos": "F" } },
+        { "player": { "name": "Rafael Leao",         "number": 17, "pos": "F" } },
+        { "player": { "name": "Goncalo Ramos",       "number": 9,  "pos": "F" } },
+        { "player": { "name": "Goncalo Guedes",      "number": 19, "pos": "F" } }
+      ]
+    },
+    {
+      "team": { "name": "Uzbekistan" },
+      "formation": "3-4-2-1",
+      "startXI": [
+        { "player": { "name": "Abduvohid Nematov",   "number": 12, "pos": "G" } },
+        { "player": { "name": "Abdukodir Khusanov",  "number": 2,  "pos": "D" } },
+        { "player": { "name": "Rustam Ashurmatov",   "number": 5,  "pos": "D" } },
+        { "player": { "name": "Abdulla Abdullaev",   "number": 18, "pos": "D" } },
+        { "player": { "name": "Bekhruz Karimov",     "number": 24, "pos": "M" } },
+        { "player": { "name": "Odiljon Khamrobekov", "number": 9,  "pos": "M" } },
+        { "player": { "name": "Otabek Shukurov",     "number": 7,  "pos": "M" } },
+        { "player": { "name": "Sherzod Nasrullaev",  "number": 13, "pos": "M" } },
+        { "player": { "name": "Azizjon Ganiev",      "number": 19, "pos": "M" } },
+        { "player": { "name": "Abbosbek Fayzullaev", "number": 22, "pos": "M" } },
+        { "player": { "name": "Eldor Shomurodov",    "number": 14, "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Utkir Yusupov",        "number": null, "pos": "G" } },
+        { "player": { "name": "Botirali Ergashev",    "number": null, "pos": "G" } },
+        { "player": { "name": "Farrukh Sayfiev",      "number": null, "pos": "D" } },
+        { "player": { "name": "Umar Eshmurodov",      "number": null, "pos": "D" } },
+        { "player": { "name": "Avazbek Ulmasaliyev",  "number": null, "pos": "D" } },
+        { "player": { "name": "Khojiakbar Alijonov",  "number": null, "pos": "M" } },
+        { "player": { "name": "Akmal Mozgovoy",       "number": null, "pos": "M" } },
+        { "player": { "name": "Jakhongir Urozov",     "number": null, "pos": "M" } },
+        { "player": { "name": "Sherzod Esanov",       "number": null, "pos": "M" } },
+        { "player": { "name": "Azizbek Amonov",       "number": null, "pos": "M" } },
+        { "player": { "name": "Ruslanbek Jiyanov",    "number": null, "pos": "M" } },
+        { "player": { "name": "Jamshid Iskanderov",   "number": null, "pos": "M" } },
+        { "player": { "name": "Igor Sergeev",         "number": null, "pos": "F" } },
+        { "player": { "name": "Oston Urunov",         "number": null, "pos": "F" } },
+        { "player": { "name": "Dostonbek Khamdamov",  "number": null, "pos": "F" } }
+      ]
+    }
+  ]
+}
