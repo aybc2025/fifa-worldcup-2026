@@ -1,0 +1,107 @@
+{
+  "nav": {
+    "home": "Home",
+    "groups": "Groups",
+    "knockout": "Knockout",
+    "teams": "Teams",
+    "scorers": "Scorers",
+    "stadiums": "Stadiums"
+  },
+  "home": {
+    "title": "World Cup 2026",
+    "today": "Today",
+    "all": "All Matches",
+    "live": "Live Now",
+    "upcoming": "Upcoming",
+    "finished": "Finished"
+  },
+  "match": {
+    "kickoff": "Kick-off",
+    "halftime": "Half Time",
+    "fulltime": "Full Time",
+    "extratime": "Extra Time",
+    "penalties": "Penalties",
+    "lineup": "Lineup",
+    "events": "Events",
+    "stats": "Stats",
+    "possession": "Possession",
+    "shots": "Shots",
+    "shotsOnTarget": "On Target",
+    "corners": "Corners",
+    "fouls": "Fouls",
+    "yellowCards": "Yellow Cards",
+    "redCards": "Red Cards",
+    "goal": "Goal",
+    "ownGoal": "Own Goal",
+    "penalty": "Penalty",
+    "yellow": "Yellow Card",
+    "red": "Red Card",
+    "sub": "Substitution",
+    "noEvents": "No events yet"
+  },
+  "groups": {
+    "title": "Group Stage",
+    "group": "Group",
+    "played": "P",
+    "won": "W",
+    "drawn": "D",
+    "lost": "L",
+    "gf": "GF",
+    "ga": "GA",
+    "gd": "GD",
+    "points": "Pts",
+    "qualified": "Qualified",
+    "eliminated": "Eliminated"
+  },
+  "knockout": {
+    "title": "Knockout Stage",
+    "r32": "Round of 32",
+    "r16": "Round of 16",
+    "qf": "Quarter-finals",
+    "sf": "Semi-finals",
+    "third": "3rd Place",
+    "final": "Final",
+    "tbd": "TBD",
+    "swipeHint": "Swipe to explore →"
+  },
+  "teams": {
+    "title": "48 Teams",
+    "search": "Search team...",
+    "squad": "Squad",
+    "players": "Players",
+    "coach": "Coach",
+    "matches": "Matches",
+    "stats": "Stats",
+    "favorite": "Favourite",
+    "addFavorite": "Add to favourites",
+    "removeFavorite": "Remove from favourites"
+  },
+  "scorers": {
+    "title": "Top Scorers",
+    "rank": "#",
+    "player": "Player",
+    "team": "Team",
+    "goals": "Goals",
+    "assists": "Assists",
+    "penalty": "Pen"
+  },
+  "stadiums": {
+    "title": "Stadiums",
+    "capacity": "Capacity",
+    "city": "City",
+    "country": "Country",
+    "matches": "Scheduled Matches"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Failed to load data",
+    "retry": "Try again",
+    "noData": "No data available",
+    "offline": "No internet connection — showing cached data",
+    "update": "New version available",
+    "updateBtn": "Refresh",
+    "minute": "min",
+    "group": "Group",
+    "vs": "vs"
+  }
+}

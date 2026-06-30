@@ -1,0 +1,107 @@
+{
+  "nav": {
+    "home": "ראשי",
+    "groups": "בתים",
+    "knockout": "נוקאאוט",
+    "teams": "נבחרות",
+    "scorers": "מבקיעים",
+    "stadiums": "אצטדיונים"
+  },
+  "home": {
+    "title": "מונדיאל 2026",
+    "today": "היום",
+    "all": "כל המשחקים",
+    "live": "חי עכשיו",
+    "upcoming": "הבא",
+    "finished": "סיים"
+  },
+  "match": {
+    "kickoff": "שריקת פתיחה",
+    "halftime": "הפסקה",
+    "fulltime": "סיום",
+    "extratime": "הארכה",
+    "penalties": "פנדלים",
+    "lineup": "הרכב",
+    "events": "אירועים",
+    "stats": "סטטיסטיקות",
+    "possession": "בעלות",
+    "shots": "בעיטות",
+    "shotsOnTarget": "על השער",
+    "corners": "קרנות",
+    "fouls": "עבירות",
+    "yellowCards": "כרטיסים צהובים",
+    "redCards": "כרטיסים אדומים",
+    "goal": "שער",
+    "ownGoal": "גול עצמי",
+    "penalty": "פנדל",
+    "yellow": "כרטיס צהוב",
+    "red": "כרטיס אדום",
+    "sub": "חילוף",
+    "noEvents": "אין אירועים עדיין"
+  },
+  "groups": {
+    "title": "שלב הבתים",
+    "group": "בית",
+    "played": "מ",
+    "won": "נ",
+    "drawn": "ת",
+    "lost": "ה",
+    "gf": "ש+",
+    "ga": "ש-",
+    "gd": "הפרש",
+    "points": "נק'",
+    "qualified": "עבר לשלב הבא",
+    "eliminated": "נפל"
+  },
+  "knockout": {
+    "title": "שלב הנוקאאוט",
+    "r32": "שלב ה-32",
+    "r16": "שמינית גמר",
+    "qf": "רבע גמר",
+    "sf": "חצי גמר",
+    "third": "מקום שלישי",
+    "final": "גמר",
+    "tbd": "טרם נקבע",
+    "swipeHint": "← גרור לצפייה"
+  },
+  "teams": {
+    "title": "48 נבחרות",
+    "search": "חפש נבחרת...",
+    "squad": "הרכב",
+    "players": "שחקנים",
+    "coach": "מאמן",
+    "matches": "משחקים",
+    "stats": "סטטיסטיקות",
+    "favorite": "מועדפת",
+    "addFavorite": "הוסף למועדפות",
+    "removeFavorite": "הסר ממועדפות"
+  },
+  "scorers": {
+    "title": "מלך השערים",
+    "rank": "#",
+    "player": "שחקן",
+    "team": "נבחרת",
+    "goals": "שערים",
+    "assists": "בישולים",
+    "penalty": "פנדלים"
+  },
+  "stadiums": {
+    "title": "אצטדיונים",
+    "capacity": "קיבולת",
+    "city": "עיר",
+    "country": "מדינה",
+    "matches": "משחקים מתוכננים"
+  },
+  "common": {
+    "loading": "טוען...",
+    "error": "שגיאה בטעינת נתונים",
+    "retry": "נסה שוב",
+    "noData": "אין נתונים",
+    "offline": "אין חיבור לאינטרנט — מציג נתונים שמורים",
+    "update": "גרסה חדשה זמינה",
+    "updateBtn": "רענן",
+    "minute": "דקה",
+    "group": "בית",
+    "vs": "נגד"
+  }
+}
