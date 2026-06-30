@@ -1,0 +1,595 @@
+﻿{
+    "fixture":  {
+                    "id":  "wc2026-group-e-ecuador-germany",
+                    "date":  "2026-06-25T17:00:00Z",
+                    "venue":  {
+                                  "name":  "New York/New Jersey Stadium",
+                                  "city":  "New Jersey"
+                              },
+                    "status":  {
+                                   "short":  "FT",
+                                   "long":  "Match Finished"
+                               }
+                },
+    "league":  {
+                   "round":  "Group E"
+               },
+    "teams":  {
+                  "home":  {
+                               "name":  "Ecuador",
+                               "code":  "ECU"
+                           },
+                  "away":  {
+                               "name":  "Germany",
+                               "code":  "GER"
+                           }
+              },
+    "goals":  {
+                  "home":  2,
+                  "away":  1
+              },
+    "score":  {
+                  "halftime":  {
+                                   "home":  1,
+                                   "away":  1
+                               },
+                  "fulltime":  {
+                                   "home":  2,
+                                   "away":  1
+                               }
+              },
+    "stats":  [
+                  {
+                      "team":  "Ecuador",
+                      "statistics":  [
+                                         {
+                                             "type":  "Possession",
+                                             "value":  "39%"
+                                         },
+                                         {
+                                             "type":  "Shots on Goal",
+                                             "value":  3
+                                         },
+                                         {
+                                             "type":  "Total Shots",
+                                             "value":  7
+                                         },
+                                         {
+                                             "type":  "Corner Kicks",
+                                             "value":  3
+                                         },
+                                         {
+                                             "type":  "Fouls",
+                                             "value":  15
+                                         },
+                                         {
+                                             "type":  "Yellow Cards",
+                                             "value":  3
+                                         },
+                                         {
+                                             "type":  "Red Cards",
+                                             "value":  0
+                                         }
+                                     ]
+                  },
+                  {
+                      "team":  "Germany",
+                      "statistics":  [
+                                         {
+                                             "type":  "Possession",
+                                             "value":  "51%"
+                                         },
+                                         {
+                                             "type":  "Shots on Goal",
+                                             "value":  3
+                                         },
+                                         {
+                                             "type":  "Total Shots",
+                                             "value":  11
+                                         },
+                                         {
+                                             "type":  "Corner Kicks",
+                                             "value":  2
+                                         },
+                                         {
+                                             "type":  "Fouls",
+                                             "value":  10
+                                         },
+                                         {
+                                             "type":  "Yellow Cards",
+                                             "value":  1
+                                         },
+                                         {
+                                             "type":  "Red Cards",
+                                             "value":  0
+                                         }
+                                     ]
+                  }
+              ],
+    "events":  [
+                   {
+                       "minute":  2,
+                       "team":  "Germany",
+                       "player":  "Leroy Sané",
+                       "type":  "Goal",
+                       "detail":  "Normal Goal"
+                   },
+                   {
+                       "minute":  9,
+                       "team":  "Ecuador",
+                       "player":  "Nilson Angulo",
+                       "type":  "Goal",
+                       "detail":  "Normal Goal"
+                   },
+                   {
+                       "minute":  43,
+                       "team":  "Ecuador",
+                       "player":  "Piero Hincapie",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   },
+                   {
+                       "minute":  44,
+                       "team":  "Germany",
+                       "player":  "Aleksandar Pavlovic",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   },
+                   {
+                       "minute":  0,
+                       "team":  "Germany",
+                       "player":  "Angelo Stiller",
+                       "type":  "subst",
+                       "detail":  "out: Angelo Stiller, in: Pascal Gross (HT)"
+                   },
+                   {
+                       "minute":  50,
+                       "team":  "Ecuador",
+                       "player":  "Alan Franco",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   },
+                   {
+                       "minute":  60,
+                       "team":  "Germany",
+                       "player":  "Deniz Undav",
+                       "type":  "subst",
+                       "detail":  "out: Kai Havertz, in: Deniz Undav"
+                   },
+                   {
+                       "minute":  60,
+                       "team":  "Germany",
+                       "player":  "Malick Thiaw",
+                       "type":  "subst",
+                       "detail":  "out: David Raum, in: Malick Thiaw"
+                   },
+                   {
+                       "minute":  64,
+                       "team":  "Ecuador",
+                       "player":  "Kevin Rodriguez",
+                       "type":  "subst",
+                       "detail":  "out: Angelo Preciado, in: Kevin Rodriguez"
+                   },
+                   {
+                       "minute":  64,
+                       "team":  "Germany",
+                       "player":  "Maximilian Beier",
+                       "type":  "subst",
+                       "detail":  "out: Felix Nmecha, in: Maximilian Beier"
+                   },
+                   {
+                       "minute":  71,
+                       "team":  "Ecuador",
+                       "player":  "Pervis Estupinan",
+                       "type":  "subst",
+                       "detail":  "out: Pervis Estupinan, in: [reserve]"
+                   },
+                   {
+                       "minute":  73,
+                       "team":  "Germany",
+                       "player":  "Pascal Gross",
+                       "type":  "subst",
+                       "detail":  "out: Pascal Gross, in: Florian Wirtz"
+                   },
+                   {
+                       "minute":  77,
+                       "team":  "Ecuador",
+                       "player":  "Gonzalo Plata",
+                       "type":  "Goal",
+                       "detail":  "Normal Goal"
+                   },
+                   {
+                       "minute":  85,
+                       "team":  "Ecuador",
+                       "player":  "Felix Torres",
+                       "type":  "subst",
+                       "detail":  "out: Nilson Angulo, in: Felix Torres"
+                   },
+                   {
+                       "minute":  85,
+                       "team":  "Ecuador",
+                       "player":  "Jordy Caicedo",
+                       "type":  "subst",
+                       "detail":  "out: Gonzalo Plata, in: Jordy Caicedo"
+                   },
+                   {
+                       "minute":  89,
+                       "team":  "Ecuador",
+                       "player":  "Gonzalo Plata",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   }
+               ],
+    "lineups":  [
+                    {
+                        "team":  {
+                                     "name":  "Ecuador"
+                                 },
+                        "formation":  "4-4-2",
+                        "startXI":  [
+                                        {
+                                            "player":  {
+                                                           "name":  "Hernan Galindez",
+                                                           "number":  1,
+                                                           "pos":  "G"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Piero Hincapie",
+                                                           "number":  3,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Pervis Estupinan",
+                                                           "number":  7,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Joel Ordonez",
+                                                           "number":  4,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Willian Pacho",
+                                                           "number":  6,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Pedro Vite",
+                                                           "number":  15,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Alan Franco",
+                                                           "number":  21,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Angelo Preciado",
+                                                           "number":  17,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Moises Caicedo",
+                                                           "number":  23,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "John Yeboah",
+                                                           "number":  9,
+                                                           "pos":  "F"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Enner Valencia",
+                                                           "number":  13,
+                                                           "pos":  "F"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Nilson Angulo",
+                                                           "number":  20,
+                                                           "pos":  "F"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Gonzalo Plata",
+                                                           "number":  19,
+                                                           "pos":  "F"
+                                                       }
+                                        }
+                                    ],
+                        "substitutes":  [
+                                            {
+                                                "player":  {
+                                                               "name":  "Moises Ramirez",
+                                                               "number":  12,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Gonzalo Valle",
+                                                               "number":  22,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Felix Torres",
+                                                               "number":  2,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Jackson Porozo",
+                                                               "number":  25,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Yaimar Medina",
+                                                               "number":  26,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Jordy Alcivar",
+                                                               "number":  5,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Anthony Valencia",
+                                                               "number":  8,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Kendry Paez",
+                                                               "number":  10,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Alan Minda",
+                                                               "number":  14,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Denil Castillo",
+                                                               "number":  18,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Kevin Rodriguez",
+                                                               "number":  11,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Jordy Caicedo",
+                                                               "number":  16,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Jeremy Arevalo",
+                                                               "number":  24,
+                                                               "pos":  null
+                                                           }
+                                            }
+                                        ]
+                    },
+                    {
+                        "team":  {
+                                     "name":  "Germany"
+                                 },
+                        "formation":  "4-2-3-1",
+                        "startXI":  [
+                                        {
+                                            "player":  {
+                                                           "name":  "Manuel Neuer",
+                                                           "number":  1,
+                                                           "pos":  "G"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Antonio Rudiger",
+                                                           "number":  2,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Jonathan Tah",
+                                                           "number":  4,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Joshua Kimmich",
+                                                           "number":  6,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "David Raum",
+                                                           "number":  22,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Aleksandar Pavlovic",
+                                                           "number":  5,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Angelo Stiller",
+                                                           "number":  16,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Jamal Musiala",
+                                                           "number":  10,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Florian Wirtz",
+                                                           "number":  17,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Pascal Gross",
+                                                           "number":  13,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Leroy Sané",
+                                                           "number":  19,
+                                                           "pos":  "F"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Felix Nmecha",
+                                                           "number":  23,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Maximilian Beier",
+                                                           "number":  14,
+                                                           "pos":  "F"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Kai Havertz",
+                                                           "number":  7,
+                                                           "pos":  "F"
+                                                       }
+                                        }
+                                    ],
+                        "substitutes":  [
+                                            {
+                                                "player":  {
+                                                               "name":  "Oliver Baumann",
+                                                               "number":  12,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Alexander Nübel",
+                                                               "number":  21,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Waldemar Anton",
+                                                               "number":  3,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Malick Thiaw",
+                                                               "number":  24,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Leon Goretzka",
+                                                               "number":  8,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Jamie Leweling",
+                                                               "number":  9,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Nadiem Amiri",
+                                                               "number":  20,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Assan Ouedraogo",
+                                                               "number":  25,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Nick Woltemade",
+                                                               "number":  11,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Deniz Undav",
+                                                               "number":  26,
+                                                               "pos":  null
+                                                           }
+                                            }
+                                        ]
+                    }
+                ]
+}

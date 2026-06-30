@@ -1,0 +1,616 @@
+﻿{
+    "fixture":  {
+                    "id":  "wc2026-group-j-jordan-argentina",
+                    "date":  "2026-06-27T19:00:00Z",
+                    "venue":  {
+                                  "name":  "Dallas Stadium",
+                                  "city":  "Dallas"
+                              },
+                    "status":  {
+                                   "short":  "FT",
+                                   "long":  "Match Finished"
+                               }
+                },
+    "league":  {
+                   "round":  "Group J"
+               },
+    "teams":  {
+                  "home":  {
+                               "name":  "Jordan",
+                               "code":  "JOR"
+                           },
+                  "away":  {
+                               "name":  "Argentina",
+                               "code":  "ARG"
+                           }
+              },
+    "goals":  {
+                  "home":  1,
+                  "away":  3
+              },
+    "score":  {
+                  "halftime":  {
+                                   "home":  0,
+                                   "away":  2
+                               },
+                  "fulltime":  {
+                                   "home":  1,
+                                   "away":  3
+                               }
+              },
+    "stats":  [
+                  {
+                      "team":  "Jordan",
+                      "statistics":  [
+                                         {
+                                             "type":  "Possession",
+                                             "value":  "27%"
+                                         },
+                                         {
+                                             "type":  "Shots on Goal",
+                                             "value":  1
+                                         },
+                                         {
+                                             "type":  "Total Shots",
+                                             "value":  5
+                                         },
+                                         {
+                                             "type":  "Corner Kicks",
+                                             "value":  2
+                                         },
+                                         {
+                                             "type":  "Fouls",
+                                             "value":  13
+                                         },
+                                         {
+                                             "type":  "Yellow Cards",
+                                             "value":  3
+                                         },
+                                         {
+                                             "type":  "Red Cards",
+                                             "value":  0
+                                         }
+                                     ]
+                  },
+                  {
+                      "team":  "Argentina",
+                      "statistics":  [
+                                         {
+                                             "type":  "Possession",
+                                             "value":  "67%"
+                                         },
+                                         {
+                                             "type":  "Shots on Goal",
+                                             "value":  4
+                                         },
+                                         {
+                                             "type":  "Total Shots",
+                                             "value":  13
+                                         },
+                                         {
+                                             "type":  "Corner Kicks",
+                                             "value":  6
+                                         },
+                                         {
+                                             "type":  "Fouls",
+                                             "value":  7
+                                         },
+                                         {
+                                             "type":  "Yellow Cards",
+                                             "value":  0
+                                         },
+                                         {
+                                             "type":  "Red Cards",
+                                             "value":  0
+                                         }
+                                     ]
+                  }
+              ],
+    "events":  [
+                   {
+                       "minute":  17,
+                       "team":  "Jordan",
+                       "player":  "Mohannad Abutaha",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   },
+                   {
+                       "minute":  19,
+                       "team":  "Argentina",
+                       "player":  "Giovani Lo Celso",
+                       "type":  "Goal",
+                       "detail":  "Normal Goal"
+                   },
+                   {
+                       "minute":  31,
+                       "team":  "Argentina",
+                       "player":  "Lautaro Martinez",
+                       "type":  "Goal",
+                       "detail":  "Penalty"
+                   },
+                   {
+                       "minute":  45,
+                       "team":  "Jordan",
+                       "player":  "Mousa Altamari",
+                       "type":  "subst",
+                       "detail":  "out: Ali Azaizeh, in: Mousa Altamari (HT)"
+                   },
+                   {
+                       "minute":  45,
+                       "team":  "Jordan",
+                       "player":  "Mahmoud Almardi",
+                       "type":  "subst",
+                       "detail":  "out: Odeh Fakhoury, in: Mahmoud Almardi (HT)"
+                   },
+                   {
+                       "minute":  55,
+                       "team":  "Jordan",
+                       "player":  "Mousa Altamari",
+                       "type":  "Goal",
+                       "detail":  "Normal Goal"
+                   },
+                   {
+                       "minute":  60,
+                       "team":  "Argentina",
+                       "player":  "Lionel Messi",
+                       "type":  "subst",
+                       "detail":  "out: Lautaro Martinez, in: Lionel Messi"
+                   },
+                   {
+                       "minute":  60,
+                       "team":  "Argentina",
+                       "player":  "Thiago Almada",
+                       "type":  "subst",
+                       "detail":  "out: Giovani Lo Celso, in: Thiago Almada"
+                   },
+                   {
+                       "minute":  60,
+                       "team":  "Argentina",
+                       "player":  "Nico Paz",
+                       "type":  "subst",
+                       "detail":  "out: Alexis Mac Allister, in: Nico Paz"
+                   },
+                   {
+                       "minute":  64,
+                       "team":  "Jordan",
+                       "player":  "Yazan Alarab",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   },
+                   {
+                       "minute":  71,
+                       "team":  "Argentina",
+                       "player":  "Valentin Barco",
+                       "type":  "subst",
+                       "detail":  "out: Giuliano Simeone, in: Valentin Barco"
+                   },
+                   {
+                       "minute":  76,
+                       "team":  "Jordan",
+                       "player":  "Amer Jamous",
+                       "type":  "subst",
+                       "detail":  "out: Nizar Alrashdan, in: Amer Jamous"
+                   },
+                   {
+                       "minute":  80,
+                       "team":  "Argentina",
+                       "player":  "Lionel Messi",
+                       "type":  "Goal",
+                       "detail":  "Normal Goal"
+                   },
+                   {
+                       "minute":  82,
+                       "team":  "Argentina",
+                       "player":  "Jose Manuel Lopez",
+                       "type":  "subst",
+                       "detail":  "out: Julian Alvarez, in: Jose Manuel Lopez"
+                   },
+                   {
+                       "minute":  90,
+                       "team":  "Jordan",
+                       "player":  "Saleem Obaid",
+                       "type":  "subst",
+                       "detail":  "out: Husam Abudahab, in: Saleem Obaid"
+                   },
+                   {
+                       "minute":  90,
+                       "team":  "Jordan",
+                       "player":  "Mohammad Abuzraiq",
+                       "type":  "subst",
+                       "detail":  "out: Ali Olwan, in: Mohammad Abuzraiq"
+                   },
+                   {
+                       "minute":  90,
+                       "team":  "Jordan",
+                       "player":  "Mohammad Abuzraiq",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   }
+               ],
+    "lineups":  [
+                    {
+                        "team":  {
+                                     "name":  "Jordan"
+                                 },
+                        "formation":  "3-4-3",
+                        "startXI":  [
+                                        {
+                                            "player":  {
+                                                           "name":  "Yazeed Abulaila",
+                                                           "number":  1,
+                                                           "pos":  "G"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Abdallah Nasib",
+                                                           "number":  3,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Husam Abudahab",
+                                                           "number":  4,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Yazan Alarab",
+                                                           "number":  5,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Ehsan Haddad",
+                                                           "number":  23,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Noor Alrawabdeh",
+                                                           "number":  8,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Mohannad Abutaha",
+                                                           "number":  20,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Nizar Alrashdan",
+                                                           "number":  21,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Ali Olwan",
+                                                           "number":  9,
+                                                           "pos":  "F"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Odeh Fakhoury",
+                                                           "number":  11,
+                                                           "pos":  "F"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Ali Azaizeh",
+                                                           "number":  24,
+                                                           "pos":  "F"
+                                                       }
+                                        }
+                                    ],
+                        "substitutes":  [
+                                            {
+                                                "player":  {
+                                                               "name":  "Nour Baniateyah",
+                                                               "number":  12,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Abdallah Alfakhori",
+                                                               "number":  22,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Mohammad Abuhasheesh",
+                                                               "number":  2,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Amer Jamous",
+                                                               "number":  6,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Mohammad Abuzraiq",
+                                                               "number":  7,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Mousa Altamari",
+                                                               "number":  10,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Mahmoud Almardi",
+                                                               "number":  13,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Rajaei Ayed",
+                                                               "number":  14,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Ibrahim Sadeh",
+                                                               "number":  15,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Mohammad Abualnadi",
+                                                               "number":  16,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Saleem Obaid",
+                                                               "number":  17,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Mohammad Abughoush",
+                                                               "number":  18,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Saed Alrosan",
+                                                               "number":  19,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Mohammad Aldaoud",
+                                                               "number":  25,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Anas Badawi",
+                                                               "number":  26,
+                                                               "pos":  null
+                                                           }
+                                            }
+                                        ]
+                    },
+                    {
+                        "team":  {
+                                     "name":  "Argentina"
+                                 },
+                        "formation":  "4-1-2-3",
+                        "startXI":  [
+                                        {
+                                            "player":  {
+                                                           "name":  "Emiliano Martinez",
+                                                           "number":  23,
+                                                           "pos":  "G"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Marcos Senesi",
+                                                           "number":  2,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Nicolas Tagliafico",
+                                                           "number":  3,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Nicolas Otamendi",
+                                                           "number":  19,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Nahuel Molina",
+                                                           "number":  26,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Leandro Paredes",
+                                                           "number":  5,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Alexis Mac Allister",
+                                                           "number":  20,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Giovani Lo Celso",
+                                                           "number":  11,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Exequiel Palacios",
+                                                           "number":  14,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Julian Alvarez",
+                                                           "number":  9,
+                                                           "pos":  "F"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Giuliano Simeone",
+                                                           "number":  17,
+                                                           "pos":  "F"
+                                                       }
+                                        }
+                                    ],
+                        "substitutes":  [
+                                            {
+                                                "player":  {
+                                                               "name":  "Juan Musso",
+                                                               "number":  1,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Geronimo Rulli",
+                                                               "number":  12,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Gonzalo Montiel",
+                                                               "number":  4,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Lisandro Martinez",
+                                                               "number":  6,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Rodrigo De Paul",
+                                                               "number":  7,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Valentin Barco",
+                                                               "number":  8,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Lionel Messi",
+                                                               "number":  10,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Cristian Romero",
+                                                               "number":  13,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Nico Gonzalez",
+                                                               "number":  15,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Thiago Almada",
+                                                               "number":  16,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Nico Paz",
+                                                               "number":  18,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Jose Manuel Lopez",
+                                                               "number":  21,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Lautaro Martinez",
+                                                               "number":  22,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Enzo Fernandez",
+                                                               "number":  24,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Facundo Medina",
+                                                               "number":  25,
+                                                               "pos":  null
+                                                           }
+                                            }
+                                        ]
+                    }
+                ]
+}

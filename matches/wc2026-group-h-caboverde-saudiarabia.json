@@ -1,0 +1,581 @@
+﻿{
+    "fixture":  {
+                    "id":  "wc2026-group-h-caboverde-saudiarabia",
+                    "date":  "2026-06-26T21:00:00Z",
+                    "venue":  {
+                                  "name":  "Houston Stadium",
+                                  "city":  "Houston"
+                              },
+                    "status":  {
+                                   "short":  "FT",
+                                   "long":  "Match Finished"
+                               }
+                },
+    "league":  {
+                   "round":  "Group H"
+               },
+    "teams":  {
+                  "home":  {
+                               "name":  "Cabo Verde",
+                               "code":  "CPV"
+                           },
+                  "away":  {
+                               "name":  "Saudi Arabia",
+                               "code":  "KSA"
+                           }
+              },
+    "goals":  {
+                  "home":  0,
+                  "away":  0
+              },
+    "score":  {
+                  "halftime":  {
+                                   "home":  0,
+                                   "away":  0
+                               },
+                  "fulltime":  {
+                                   "home":  0,
+                                   "away":  0
+                               }
+              },
+    "stats":  [
+                  {
+                      "team":  "Cabo Verde",
+                      "statistics":  [
+                                         {
+                                             "type":  "Possession",
+                                             "value":  "47%"
+                                         },
+                                         {
+                                             "type":  "Shots on Goal",
+                                             "value":  2
+                                         },
+                                         {
+                                             "type":  "Total Shots",
+                                             "value":  15
+                                         },
+                                         {
+                                             "type":  "Corner Kicks",
+                                             "value":  4
+                                         },
+                                         {
+                                             "type":  "Fouls",
+                                             "value":  10
+                                         },
+                                         {
+                                             "type":  "Yellow Cards",
+                                             "value":  1
+                                         },
+                                         {
+                                             "type":  "Red Cards",
+                                             "value":  0
+                                         }
+                                     ]
+                  },
+                  {
+                      "team":  "Saudi Arabia",
+                      "statistics":  [
+                                         {
+                                             "type":  "Possession",
+                                             "value":  "41%"
+                                         },
+                                         {
+                                             "type":  "Shots on Goal",
+                                             "value":  3
+                                         },
+                                         {
+                                             "type":  "Total Shots",
+                                             "value":  7
+                                         },
+                                         {
+                                             "type":  "Corner Kicks",
+                                             "value":  2
+                                         },
+                                         {
+                                             "type":  "Fouls",
+                                             "value":  16
+                                         },
+                                         {
+                                             "type":  "Yellow Cards",
+                                             "value":  3
+                                         },
+                                         {
+                                             "type":  "Red Cards",
+                                             "value":  0
+                                         }
+                                     ]
+                  }
+              ],
+    "events":  [
+                   {
+                       "minute":  4,
+                       "team":  "Saudi Arabia",
+                       "player":  "Saud Abdulhamid",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   },
+                   {
+                       "minute":  8,
+                       "team":  "Cabo Verde",
+                       "player":  "Wagner Pina",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   },
+                   {
+                       "minute":  33,
+                       "team":  "Saudi Arabia",
+                       "player":  "Ali Lajami",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   },
+                   {
+                       "minute":  0,
+                       "team":  "Saudi Arabia",
+                       "player":  "Musab Aljuwayr",
+                       "type":  "subst",
+                       "detail":  "out: Abdullah Alkhaibari, in: Musab Aljuwayr (HT)"
+                   },
+                   {
+                       "minute":  61,
+                       "team":  "Cabo Verde",
+                       "player":  "Nuno Da Costa",
+                       "type":  "subst",
+                       "detail":  "out: Dailon Livramento, in: Nuno Da Costa"
+                   },
+                   {
+                       "minute":  61,
+                       "team":  "Cabo Verde",
+                       "player":  "Helio Varela",
+                       "type":  "subst",
+                       "detail":  "out: Willy Semedo, in: Helio Varela"
+                   },
+                   {
+                       "minute":  65,
+                       "team":  "Saudi Arabia",
+                       "player":  "Mohammed Abu Alshamat",
+                       "type":  "subst",
+                       "detail":  "out: Sultan Mandash, in: Mohammed Abu Alshamat"
+                   },
+                   {
+                       "minute":  65,
+                       "team":  "Saudi Arabia",
+                       "player":  "Abdullah Alhamddan",
+                       "type":  "subst",
+                       "detail":  "out: Abdullah Alhamddan, in: [reserve]"
+                   },
+                   {
+                       "minute":  71,
+                       "team":  "Cabo Verde",
+                       "player":  "Garry Rodrigues",
+                       "type":  "subst",
+                       "detail":  "out: Ryan Mendes, in: Garry Rodrigues"
+                   },
+                   {
+                       "minute":  71,
+                       "team":  "Cabo Verde",
+                       "player":  "Laros Duarte",
+                       "type":  "subst",
+                       "detail":  "out: Laros Duarte, in: Jamiro Monteiro"
+                   },
+                   {
+                       "minute":  82,
+                       "team":  "Saudi Arabia",
+                       "player":  "Moteb Alharbi",
+                       "type":  "subst",
+                       "detail":  "out: Nawaf Bu Washl, in: Moteb Alharbi"
+                   },
+                   {
+                       "minute":  82,
+                       "team":  "Saudi Arabia",
+                       "player":  "Feras Albrikan",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   },
+                   {
+                       "minute":  93,
+                       "team":  "Saudi Arabia",
+                       "player":  "Nawaf Bu Washl",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   },
+                   {
+                       "minute":  94,
+                       "team":  "Cabo Verde",
+                       "player":  "Steven Moreira",
+                       "type":  "subst",
+                       "detail":  "out: Wagner Pina, in: Steven Moreira"
+                   }
+               ],
+    "lineups":  [
+                    {
+                        "team":  {
+                                     "name":  "Cabo Verde"
+                                 },
+                        "formation":  "4-1-2-3",
+                        "startXI":  [
+                                        {
+                                            "player":  {
+                                                           "name":  "Vozinha",
+                                                           "number":  1,
+                                                           "pos":  "G"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Diney Borges",
+                                                           "number":  3,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Pico Lopes",
+                                                           "number":  4,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Wagner Pina",
+                                                           "number":  24,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Steven Moreira",
+                                                           "number":  22,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Kevin Pina",
+                                                           "number":  6,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Joao Paulo",
+                                                           "number":  8,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Jamiro Monteiro",
+                                                           "number":  10,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Laros Duarte",
+                                                           "number":  15,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Deroy Duarte",
+                                                           "number":  14,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Willy Semedo",
+                                                           "number":  17,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Dailon Livramento",
+                                                           "number":  19,
+                                                           "pos":  "F"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Ryan Mendes",
+                                                           "number":  20,
+                                                           "pos":  "F"
+                                                       }
+                                        }
+                                    ],
+                        "substitutes":  [
+                                            {
+                                                "player":  {
+                                                               "name":  "Marcio Rosa",
+                                                               "number":  12,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "CJ Dos Santos",
+                                                               "number":  23,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Stopira",
+                                                               "number":  2,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Logan Costa",
+                                                               "number":  5,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Kelvin Pires",
+                                                               "number":  25,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Jovane Cabral",
+                                                               "number":  7,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Yannick Semedo",
+                                                               "number":  16,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Helio Varela",
+                                                               "number":  26,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Nuno Da Costa",
+                                                               "number":  21,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Garry Rodrigues",
+                                                               "number":  11,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Gilson Benchimol",
+                                                               "number":  9,
+                                                               "pos":  null
+                                                           }
+                                            }
+                                        ]
+                    },
+                    {
+                        "team":  {
+                                     "name":  "Saudi Arabia"
+                                 },
+                        "formation":  "4-4-2",
+                        "startXI":  [
+                                        {
+                                            "player":  {
+                                                           "name":  "Mohammed Alowais",
+                                                           "number":  21,
+                                                           "pos":  "G"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Abdulelah Alamri",
+                                                           "number":  4,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Hassan Altambakti",
+                                                           "number":  5,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Ali Lajami",
+                                                           "number":  3,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Saud Abdulhamid",
+                                                           "number":  12,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Nawaf Bu Washl",
+                                                           "number":  13,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Nasser Aldawsari",
+                                                           "number":  6,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Abdullah Alkhaibari",
+                                                           "number":  15,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Mohamed Kanno",
+                                                           "number":  23,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Sultan Mandash",
+                                                           "number":  20,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Feras Albrikan",
+                                                           "number":  9,
+                                                           "pos":  "F"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Salem Aldawsari",
+                                                           "number":  10,
+                                                           "pos":  "F"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Abdullah Alhamddan",
+                                                           "number":  19,
+                                                           "pos":  "F"
+                                                       }
+                                        }
+                                    ],
+                        "substitutes":  [
+                                            {
+                                                "player":  {
+                                                               "name":  "Nawaf Alaqidi",
+                                                               "number":  1,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Ahmed Alkassar",
+                                                               "number":  22,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Ali Majrashi",
+                                                               "number":  2,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Hassan Kadish",
+                                                               "number":  14,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Jehad Thikri",
+                                                               "number":  25,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Moteb Alharbi",
+                                                               "number":  24,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Musab Aljuwayr",
+                                                               "number":  7,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Ziyad Aljohani",
+                                                               "number":  16,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Ala Alhajji",
+                                                               "number":  18,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Aiman Yahya",
+                                                               "number":  8,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Saleh Alshehri",
+                                                               "number":  11,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Khalid Alghannam",
+                                                               "number":  17,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Mohammed Abu Alshamat",
+                                                               "number":  26,
+                                                               "pos":  null
+                                                           }
+                                            }
+                                        ]
+                    }
+                ]
+}

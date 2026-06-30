@@ -1,0 +1,581 @@
+﻿{
+    "fixture":  {
+                    "id":  "wc2026-group-f-japan-sweden",
+                    "date":  "2026-06-25T20:00:00Z",
+                    "venue":  {
+                                  "name":  "Dallas Stadium",
+                                  "city":  "Dallas"
+                              },
+                    "status":  {
+                                   "short":  "FT",
+                                   "long":  "Match Finished"
+                               }
+                },
+    "league":  {
+                   "round":  "Group F"
+               },
+    "teams":  {
+                  "home":  {
+                               "name":  "Japan",
+                               "code":  "JPN"
+                           },
+                  "away":  {
+                               "name":  "Sweden",
+                               "code":  "SWE"
+                           }
+              },
+    "goals":  {
+                  "home":  1,
+                  "away":  1
+              },
+    "score":  {
+                  "halftime":  {
+                                   "home":  0,
+                                   "away":  0
+                               },
+                  "fulltime":  {
+                                   "home":  1,
+                                   "away":  1
+                               }
+              },
+    "stats":  [
+                  {
+                      "team":  "Japan",
+                      "statistics":  [
+                                         {
+                                             "type":  "Possession",
+                                             "value":  "44%"
+                                         },
+                                         {
+                                             "type":  "Shots on Goal",
+                                             "value":  3
+                                         },
+                                         {
+                                             "type":  "Total Shots",
+                                             "value":  8
+                                         },
+                                         {
+                                             "type":  "Corner Kicks",
+                                             "value":  2
+                                         },
+                                         {
+                                             "type":  "Fouls",
+                                             "value":  20
+                                         },
+                                         {
+                                             "type":  "Yellow Cards",
+                                             "value":  1
+                                         },
+                                         {
+                                             "type":  "Red Cards",
+                                             "value":  0
+                                         }
+                                     ]
+                  },
+                  {
+                      "team":  "Sweden",
+                      "statistics":  [
+                                         {
+                                             "type":  "Possession",
+                                             "value":  "44%"
+                                         },
+                                         {
+                                             "type":  "Shots on Goal",
+                                             "value":  5
+                                         },
+                                         {
+                                             "type":  "Total Shots",
+                                             "value":  11
+                                         },
+                                         {
+                                             "type":  "Corner Kicks",
+                                             "value":  8
+                                         },
+                                         {
+                                             "type":  "Fouls",
+                                             "value":  11
+                                         },
+                                         {
+                                             "type":  "Yellow Cards",
+                                             "value":  2
+                                         },
+                                         {
+                                             "type":  "Red Cards",
+                                             "value":  0
+                                         }
+                                     ]
+                  }
+              ],
+    "events":  [
+                   {
+                       "minute":  32,
+                       "team":  "Sweden",
+                       "player":  "Lucas Bergvall",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   },
+                   {
+                       "minute":  37,
+                       "team":  "Sweden",
+                       "player":  "Isak Hien",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   },
+                   {
+                       "minute":  39,
+                       "team":  "Japan",
+                       "player":  "Shogo Taniguchi",
+                       "type":  "subst",
+                       "detail":  "out: Shogo Taniguchi, in: Ayumu Seko"
+                   },
+                   {
+                       "minute":  56,
+                       "team":  "Japan",
+                       "player":  "Daizen Maeda",
+                       "type":  "Goal",
+                       "detail":  "Normal Goal"
+                   },
+                   {
+                       "minute":  62,
+                       "team":  "Sweden",
+                       "player":  "Anthony Elanga",
+                       "type":  "Goal",
+                       "detail":  "Normal Goal"
+                   },
+                   {
+                       "minute":  66,
+                       "team":  "Japan",
+                       "player":  "Koki Ogawa",
+                       "type":  "subst",
+                       "detail":  "out: Ayase Ueda, in: Koki Ogawa"
+                   },
+                   {
+                       "minute":  66,
+                       "team":  "Japan",
+                       "player":  "Junya Ito",
+                       "type":  "subst",
+                       "detail":  "out: Ritsu Doan, in: Junya Ito"
+                   },
+                   {
+                       "minute":  75,
+                       "team":  "Japan",
+                       "player":  "Tsuyoshi Watanabe",
+                       "type":  "subst",
+                       "detail":  "out: Tsuyoshi Watanabe, in: Keito Nakamura"
+                   },
+                   {
+                       "minute":  75,
+                       "team":  "Japan",
+                       "player":  "Yuto Nagatomo",
+                       "type":  "subst",
+                       "detail":  "out: Yuto Nagatomo, in: [reserve]"
+                   },
+                   {
+                       "minute":  75,
+                       "team":  "Sweden",
+                       "player":  "Daniel Svensson",
+                       "type":  "subst",
+                       "detail":  "out: Daniel Svensson, in: Elliot Stroud"
+                   },
+                   {
+                       "minute":  75,
+                       "team":  "Sweden",
+                       "player":  "Ken Sema",
+                       "type":  "subst",
+                       "detail":  "out: Ken Sema, in: Alexander Bernhardsson"
+                   },
+                   {
+                       "minute":  84,
+                       "team":  "Sweden",
+                       "player":  "Viktor Gyokeres",
+                       "type":  "subst",
+                       "detail":  "out: Viktor Gyokeres, in: [reserve]"
+                   },
+                   {
+                       "minute":  87,
+                       "team":  "Sweden",
+                       "player":  "Carl Starfelt",
+                       "type":  "subst",
+                       "detail":  "out: Carl Starfelt, in: Victor Lindelof"
+                   },
+                   {
+                       "minute":  87,
+                       "team":  "Sweden",
+                       "player":  "Benjamin Nygren",
+                       "type":  "subst",
+                       "detail":  "out: Benjamin Nygren, in: Gabriel Gudmundsson"
+                   }
+               ],
+    "lineups":  [
+                    {
+                        "team":  {
+                                     "name":  "Japan"
+                                 },
+                        "formation":  "3-4-3",
+                        "startXI":  [
+                                        {
+                                            "player":  {
+                                                           "name":  "Zion Suzuki",
+                                                           "number":  1,
+                                                           "pos":  "G"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Yukinari Sugawara",
+                                                           "number":  2,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Kou Itakura",
+                                                           "number":  4,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Shogo Taniguchi",
+                                                           "number":  3,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Hiroki Ito",
+                                                           "number":  21,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Ao Tanaka",
+                                                           "number":  7,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Ritsu Doan",
+                                                           "number":  10,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Junya Ito",
+                                                           "number":  14,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Daizen Maeda",
+                                                           "number":  11,
+                                                           "pos":  "F"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Keito Nakamura",
+                                                           "number":  13,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Yuto Nagatomo",
+                                                           "number":  5,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Daichi Kamada",
+                                                           "number":  15,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Ayase Ueda",
+                                                           "number":  18,
+                                                           "pos":  "F"
+                                                       }
+                                        }
+                                    ],
+                        "substitutes":  [
+                                            {
+                                                "player":  {
+                                                               "name":  "Keisuke Osako",
+                                                               "number":  12,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Tomoki Hayakawa",
+                                                               "number":  23,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Takehiro Tomiyasu",
+                                                               "number":  22,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Junnosuke Suzuki",
+                                                               "number":  25,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Tsuyoshi Watanabe",
+                                                               "number":  16,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Ayumu Seko",
+                                                               "number":  20,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Koki Ogawa",
+                                                               "number":  19,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Kaishu Sano",
+                                                               "number":  24,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Shuto Machino",
+                                                               "number":  6,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Keisuke Goto",
+                                                               "number":  9,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Kento Shiogai",
+                                                               "number":  26,
+                                                               "pos":  null
+                                                           }
+                                            }
+                                        ]
+                    },
+                    {
+                        "team":  {
+                                     "name":  "Sweden"
+                                 },
+                        "formation":  "3-4-3",
+                        "startXI":  [
+                                        {
+                                            "player":  {
+                                                           "name":  "Jacob Widell Zetterstrom",
+                                                           "number":  1,
+                                                           "pos":  "G"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Gustaf Lagerbielke",
+                                                           "number":  2,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Victor Lindelof",
+                                                           "number":  3,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Carl Starfelt",
+                                                           "number":  15,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Isak Hien",
+                                                           "number":  4,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Lucas Bergvall",
+                                                           "number":  7,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Gabriel Gudmundsson",
+                                                           "number":  5,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Benjamin Nygren",
+                                                           "number":  10,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Alexander Bernhardsson",
+                                                           "number":  21,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Daniel Svensson",
+                                                           "number":  8,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Yasin Ayari",
+                                                           "number":  18,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Ken Sema",
+                                                           "number":  13,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Alexander Isak",
+                                                           "number":  9,
+                                                           "pos":  "F"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Anthony Elanga",
+                                                           "number":  11,
+                                                           "pos":  "F"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Viktor Gyokeres",
+                                                           "number":  17,
+                                                           "pos":  "F"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Elliot Stroud",
+                                                           "number":  24,
+                                                           "pos":  "M"
+                                                       }
+                                        }
+                                    ],
+                        "substitutes":  [
+                                            {
+                                                "player":  {
+                                                               "name":  "Viktor Johansson",
+                                                               "number":  12,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Kristoffer Nordfeldt",
+                                                               "number":  23,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Herman Johansson",
+                                                               "number":  6,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Hjalmar Ekdal",
+                                                               "number":  14,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Eric Smith",
+                                                               "number":  20,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Jesper Karlstrom",
+                                                               "number":  16,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Mattias Svanberg",
+                                                               "number":  19,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Besfort Zeneli",
+                                                               "number":  22,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Gustaf Nilsson",
+                                                               "number":  25,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Taha Ali",
+                                                               "number":  26,
+                                                               "pos":  null
+                                                           }
+                                            }
+                                        ]
+                    }
+                ]
+}

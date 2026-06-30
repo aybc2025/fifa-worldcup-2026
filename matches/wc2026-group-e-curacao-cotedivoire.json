@@ -1,0 +1,602 @@
+﻿{
+    "fixture":  {
+                    "id":  "wc2026-group-e-curacao-cotedivoire",
+                    "date":  "2026-06-25T17:00:00Z",
+                    "venue":  {
+                                  "name":  "Philadelphia Stadium",
+                                  "city":  "Philadelphia"
+                              },
+                    "status":  {
+                                   "short":  "FT",
+                                   "long":  "Match Finished"
+                               }
+                },
+    "league":  {
+                   "round":  "Group E"
+               },
+    "teams":  {
+                  "home":  {
+                               "name":  "Curaçao",
+                               "code":  "CUW"
+                           },
+                  "away":  {
+                               "name":  "Côte d'Ivoire",
+                               "code":  "CIV"
+                           }
+              },
+    "goals":  {
+                  "home":  0,
+                  "away":  2
+              },
+    "score":  {
+                  "halftime":  {
+                                   "home":  0,
+                                   "away":  1
+                               },
+                  "fulltime":  {
+                                   "home":  0,
+                                   "away":  2
+                               }
+              },
+    "stats":  [
+                  {
+                      "team":  "Curaçao",
+                      "statistics":  [
+                                         {
+                                             "type":  "Possession",
+                                             "value":  "37%"
+                                         },
+                                         {
+                                             "type":  "Shots on Goal",
+                                             "value":  2
+                                         },
+                                         {
+                                             "type":  "Total Shots",
+                                             "value":  11
+                                         },
+                                         {
+                                             "type":  "Corner Kicks",
+                                             "value":  4
+                                         },
+                                         {
+                                             "type":  "Fouls",
+                                             "value":  11
+                                         },
+                                         {
+                                             "type":  "Yellow Cards",
+                                             "value":  2
+                                         },
+                                         {
+                                             "type":  "Red Cards",
+                                             "value":  0
+                                         }
+                                     ]
+                  },
+                  {
+                      "team":  "Côte d'Ivoire",
+                      "statistics":  [
+                                         {
+                                             "type":  "Possession",
+                                             "value":  "55%"
+                                         },
+                                         {
+                                             "type":  "Shots on Goal",
+                                             "value":  3
+                                         },
+                                         {
+                                             "type":  "Total Shots",
+                                             "value":  7
+                                         },
+                                         {
+                                             "type":  "Corner Kicks",
+                                             "value":  6
+                                         },
+                                         {
+                                             "type":  "Fouls",
+                                             "value":  6
+                                         },
+                                         {
+                                             "type":  "Yellow Cards",
+                                             "value":  1
+                                         },
+                                         {
+                                             "type":  "Red Cards",
+                                             "value":  0
+                                         }
+                                     ]
+                  }
+              ],
+    "events":  [
+                   {
+                       "minute":  7,
+                       "team":  "Côte d'Ivoire",
+                       "player":  "Nicolas Pépé",
+                       "type":  "Goal",
+                       "detail":  "Normal Goal"
+                   },
+                   {
+                       "minute":  61,
+                       "team":  "Curaçao",
+                       "player":  "Jeremy Antonisse",
+                       "type":  "subst",
+                       "detail":  "out: Livano Comenencia, in: Jeremy Antonisse"
+                   },
+                   {
+                       "minute":  64,
+                       "team":  "Côte d'Ivoire",
+                       "player":  "Nicolas Pépé",
+                       "type":  "Goal",
+                       "detail":  "Normal Goal"
+                   },
+                   {
+                       "minute":  67,
+                       "team":  "Côte d'Ivoire",
+                       "player":  "Oumar Diakite",
+                       "type":  "subst",
+                       "detail":  "out: Yan Diomande, in: Oumar Diakite"
+                   },
+                   {
+                       "minute":  67,
+                       "team":  "Côte d'Ivoire",
+                       "player":  "Bazoumana Toure",
+                       "type":  "subst",
+                       "detail":  "out: Ange-Yoan Bonny, in: Bazoumana Toure"
+                   },
+                   {
+                       "minute":  67,
+                       "team":  "Côte d'Ivoire",
+                       "player":  "Elye Wahi",
+                       "type":  "subst",
+                       "detail":  "out: Nicolas Pépé, in: Elye Wahi"
+                   },
+                   {
+                       "minute":  75,
+                       "team":  "Curaçao",
+                       "player":  "Juninho Bacuna",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   },
+                   {
+                       "minute":  77,
+                       "team":  "Côte d'Ivoire",
+                       "player":  "Franck Kessie",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   },
+                   {
+                       "minute":  77,
+                       "team":  "Curaçao",
+                       "player":  "Gervane Kastaneer",
+                       "type":  "subst",
+                       "detail":  "out: Tyrese Noslin, in: Gervane Kastaneer"
+                   },
+                   {
+                       "minute":  77,
+                       "team":  "Curaçao",
+                       "player":  "Deveron Fonville",
+                       "type":  "subst",
+                       "detail":  "out: Jurien Gaari, in: Deveron Fonville"
+                   },
+                   {
+                       "minute":  77,
+                       "team":  "Côte d'Ivoire",
+                       "player":  "Jean Michael Seri",
+                       "type":  "subst",
+                       "detail":  "out: Jean Michael Seri, in: [reserve]"
+                   },
+                   {
+                       "minute":  83,
+                       "team":  "Curaçao",
+                       "player":  "Gervane Kastaneer",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   },
+                   {
+                       "minute":  90,
+                       "team":  "Curaçao",
+                       "player":  "Brandley Kuwas",
+                       "type":  "subst",
+                       "detail":  "out: Brandley Kuwas, in: Juergen Locadia"
+                   },
+                   {
+                       "minute":  90,
+                       "team":  "Curaçao",
+                       "player":  "Shurandy Sambo",
+                       "type":  "subst",
+                       "detail":  "out: Joshua Brenet, in: Shurandy Sambo"
+                   },
+                   {
+                       "minute":  0,
+                       "team":  "Côte d'Ivoire",
+                       "player":  "Christ Inao Oulai",
+                       "type":  "subst",
+                       "detail":  "out: Christ Inao Oulai, in: Amad Diallo (HT)"
+                   }
+               ],
+    "lineups":  [
+                    {
+                        "team":  {
+                                     "name":  "Curaçao"
+                                 },
+                        "formation":  "5-4-1",
+                        "startXI":  [
+                                        {
+                                            "player":  {
+                                                           "name":  "Eloy Room",
+                                                           "number":  1,
+                                                           "pos":  "G"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Jurien Gaari",
+                                                           "number":  3,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Sherel Floranus",
+                                                           "number":  5,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Armando Obispo",
+                                                           "number":  18,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Joshua Brenet",
+                                                           "number":  20,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Shurandy Sambo",
+                                                           "number":  2,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Juninho Bacuna",
+                                                           "number":  7,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Livano Comenencia",
+                                                           "number":  8,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Jeremy Antonisse",
+                                                           "number":  11,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Leandro Bacuna",
+                                                           "number":  10,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Tahith Chong",
+                                                           "number":  21,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Juergen Locadia",
+                                                           "number":  9,
+                                                           "pos":  "F"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Brandley Kuwas",
+                                                           "number":  17,
+                                                           "pos":  "F"
+                                                       }
+                                        }
+                                    ],
+                        "substitutes":  [
+                                            {
+                                                "player":  {
+                                                               "name":  "Tyrick Bodak",
+                                                               "number":  25,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Trevor Doornbusch",
+                                                               "number":  26,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Roshon van Eijma",
+                                                               "number":  4,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Riechedly Bazoer",
+                                                               "number":  23,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Godfried Roemeratoe",
+                                                               "number":  6,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Arjany Martha",
+                                                               "number":  15,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Kevin Felida",
+                                                               "number":  22,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Sontje Hansen",
+                                                               "number":  12,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Tyrese Noslin",
+                                                               "number":  13,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Kenji Gorre",
+                                                               "number":  14,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Jearl Margaritha",
+                                                               "number":  16,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Gervane Kastaneer",
+                                                               "number":  19,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Deveron Fonville",
+                                                               "number":  24,
+                                                               "pos":  null
+                                                           }
+                                            }
+                                        ]
+                    },
+                    {
+                        "team":  {
+                                     "name":  "Côte d'Ivoire"
+                                 },
+                        "formation":  "4-1-2-3",
+                        "startXI":  [
+                                        {
+                                            "player":  {
+                                                           "name":  "Yahia Fofana",
+                                                           "number":  1,
+                                                           "pos":  "G"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Ousmane Diomande",
+                                                           "number":  2,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Odilon Kossounou",
+                                                           "number":  7,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Christopher Operi",
+                                                           "number":  13,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Guela Doue",
+                                                           "number":  17,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Franck Kessie",
+                                                           "number":  8,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Jean Michael Seri",
+                                                           "number":  4,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Ibrahim Sangare",
+                                                           "number":  18,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Ange-Yoan Bonny",
+                                                           "number":  9,
+                                                           "pos":  "F"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Yan Diomande",
+                                                           "number":  11,
+                                                           "pos":  "F"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Nicolas Pépé",
+                                                           "number":  19,
+                                                           "pos":  "F"
+                                                       }
+                                        }
+                                    ],
+                        "substitutes":  [
+                                            {
+                                                "player":  {
+                                                               "name":  "Mohamed Kone",
+                                                               "number":  16,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Alban Lafont",
+                                                               "number":  23,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Ghislain Konan",
+                                                               "number":  3,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Wilfried Singo",
+                                                               "number":  5,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Emmanuel Agbadou",
+                                                               "number":  20,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Evan Ndicka",
+                                                               "number":  21,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Seko Fofana",
+                                                               "number":  6,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Parfait Guiagon",
+                                                               "number":  25,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Christ Inao Oulai",
+                                                               "number":  26,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Simon Adingra",
+                                                               "number":  10,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Elye Wahi",
+                                                               "number":  12,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Oumar Diakite",
+                                                               "number":  14,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Evann Guessand",
+                                                               "number":  22,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Bazoumana Toure",
+                                                               "number":  24,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Amad Diallo",
+                                                               "number":  15,
+                                                               "pos":  null
+                                                           }
+                                            }
+                                        ]
+                    }
+                ]
+}
