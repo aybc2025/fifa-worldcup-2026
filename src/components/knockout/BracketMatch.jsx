@@ -5,7 +5,7 @@ import { FLAG_URL, COUNTRY_CODES } from '../../config/constants'
 
 const FINISHED = new Set(['FT', 'AET', 'PEN', 'AWD', 'WO'])
 
-function TeamRow({ team, score, isWinner, isFinished }) {
+function TeamRow({ team, score, isWinner, isFinished, penScore }) {
   const cc = team ? COUNTRY_CODES[team.name] : null
   const isTbd = !team
 
@@ -30,10 +30,13 @@ function TeamRow({ team, score, isWinner, isFinished }) {
         {team?.name ?? '?'}
       </span>
 
-      <span className={`text-[11px] font-mono font-bold w-4 text-center ${
+      <span className={`text-[11px] font-mono font-bold text-center ${
         isWinner ? 'text-teal' : 'text-muted'
       }`}>
         {isFinished ? (score ?? 0) : ''}
+        {isFinished && penScore != null ? (
+          <span className="text-[9px] font-normal ml-0.5 opacity-70">({penScore})</span>
+        ) : null}
       </span>
     </div>
   )
@@ -48,12 +51,16 @@ export function BracketMatch({ fixture, index = 0 }) {
     fixture.fixture?.status?.short
   )
 
-  const homeWon =
-    isFinished &&
-    (fixture.goals?.home ?? 0) > (fixture.goals?.away ?? 0)
-  const awayWon =
-    isFinished &&
-    (fixture.goals?.away ?? 0) > (fixture.goals?.home ?? 0)
+  const penHome = fixture?.score?.penalty?.home
+  const penAway = fixture?.score?.penalty?.away
+  const wentToPen = penHome != null && penAway != null
+
+  const homeWon = isFinished && (
+    wentToPen ? penHome > penAway : (fixture.goals?.home ?? 0) > (fixture.goals?.away ?? 0)
+  )
+  const awayWon = isFinished && (
+    wentToPen ? penAway > penHome : (fixture.goals?.away ?? 0) > (fixture.goals?.home ?? 0)
+  )
 
   return (
     <motion.div
@@ -89,12 +96,14 @@ export function BracketMatch({ fixture, index = 0 }) {
           score={fixture?.goals?.home}
           isWinner={homeWon}
           isFinished={isFinished}
+          penScore={wentToPen ? penHome : null}
         />
         <TeamRow
           team={fixture?.teams?.away}
           score={fixture?.goals?.away}
           isWinner={awayWon}
           isFinished={isFinished}
+          penScore={wentToPen ? penAway : null}
         />
       </div>
 

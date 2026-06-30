@@ -40,6 +40,9 @@ export function normalizeMatch(m, idx) {
 
   const homeGoals = hasScore ? m.score.ft[0] : null
   const awayGoals = hasScore ? m.score.ft[1] : null
+  const hasPen = Array.isArray(m.score?.p)
+  const homePen = hasPen ? m.score.p[0] : null
+  const awayPen = hasPen ? m.score.p[1] : null
 
   const events = [
     ...(m.goals1 ?? []).map((g) => ({
@@ -63,8 +66,8 @@ export function normalizeMatch(m, idx) {
       id: m.num ?? idx + 1,
       date: dateStr,
       status: {
-        short: hasScore ? 'FT' : 'NS',
-        long: hasScore ? 'Match Finished' : 'Not Started',
+        short: hasScore ? (hasPen ? 'PEN' : 'FT') : 'NS',
+        long: hasScore ? (hasPen ? 'Penalties' : 'Match Finished') : 'Not Started',
       },
       venue: m.ground ? { name: m.ground.name, city: m.ground.city } : null,
     },
@@ -77,6 +80,7 @@ export function normalizeMatch(m, idx) {
     score: {
       halftime: { home: m.score?.ht?.[0] ?? null, away: m.score?.ht?.[1] ?? null },
       fulltime: { home: homeGoals, away: awayGoals },
+      penalty: { home: homePen, away: awayPen },
     },
     events,
     _group: m.group ? String(m.group).replace(/^group\s*/i, '').toUpperCase() : null,
