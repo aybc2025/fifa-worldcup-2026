@@ -78,6 +78,16 @@ const BRACKET_ORDER = {
   'Round of 16': [89, 90, 93, 94, 91, 92, 95, 96],
 }
 
+// Which two previous-round match IDs feed each next-round match (home, away)
+const FEEDS_FROM = {
+  89: [74, 77], 90: [73, 75], 91: [76, 78], 92: [79, 80],
+  93: [83, 84], 94: [81, 82], 95: [86, 88], 96: [85, 87],
+  97: [89, 90], 98: [93, 94], 99: [91, 92], 100: [95, 96],
+  101: [97, 98], 102: [99, 100],
+  103: [101, 102], // 3rd place: losers
+  104: [101, 102], // Final: winners
+}
+
 function bracketSort(fixtures, round) {
   const order = BRACKET_ORDER[round]
   if (!order) return fixtures.sort((a, b) => (a.fixture.id ?? 0) - (b.fixture.id ?? 0))
@@ -88,8 +98,31 @@ function bracketSort(fixtures, round) {
   })
 }
 
+function isDecided(f) {
+  return ['FT', 'AET', 'PEN', 'AWD', 'WO'].includes(f?.fixture?.status?.short)
+}
+
+function getWinner(f, wantLoser = false) {
+  if (!f || !isDecided(f)) return null
+  const hp = f.score?.penalty?.home
+  const ap = f.score?.penalty?.away
+  const wentToPen = hp != null && ap != null
+  const homeScore = wentToPen ? hp : (f.goals?.home ?? 0)
+  const awayScore = wentToPen ? ap : (f.goals?.away ?? 0)
+  if (homeScore === awayScore) return null
+  const homeWon = homeScore > awayScore
+  return wantLoser
+    ? (homeWon ? f.teams.away : f.teams.home)
+    : (homeWon ? f.teams.home : f.teams.away)
+}
+
+function isPlaceholder(name) {
+  return /^[WL]\d+$/.test(name ?? '')
+}
+
 export function useKnockout(allFixtures = []) {
   const rounds = {}
+  const byId = new Map()
 
   for (const f of allFixtures) {
     const raw = f.league?.round ?? ''
@@ -100,10 +133,29 @@ export function useKnockout(allFixtures = []) {
     if (!canonical) continue
     if (!rounds[canonical]) rounds[canonical] = []
     rounds[canonical].push(f)
+    byId.set(f.fixture.id, f)
   }
 
   for (const key of Object.keys(rounds)) {
     bracketSort(rounds[key], key)
+  }
+
+  // Replace placeholder team names (W74, W75, etc.) with actual winners
+  for (const fixtures of Object.values(rounds)) {
+    for (const f of fixtures) {
+      const feeds = FEEDS_FROM[f.fixture.id]
+      if (!feeds) continue
+      const wantLoser = f.fixture.id === 103
+      const [feedHome, feedAway] = feeds
+      if (isPlaceholder(f.teams.home.name)) {
+        const winner = getWinner(byId.get(feedHome), wantLoser)
+        if (winner) f.teams.home = winner
+      }
+      if (isPlaceholder(f.teams.away.name)) {
+        const winner = getWinner(byId.get(feedAway), wantLoser)
+        if (winner) f.teams.away = winner
+      }
+    }
   }
 
   return { rounds }
