@@ -6,7 +6,7 @@ export default defineConfig({
   // For GitHub Pages: set base to your repo name
   // e.g. base: '/worldcup-2026/'
   // For custom domain or root deploy: base: '/'
-  base: '/worldcup-2026/',
+  base: '/fifa-worldcup-2026/',
 
   plugins: [
     react(),
@@ -21,11 +21,11 @@ export default defineConfig({
         background_color: '#080c10',
         display: 'standalone',
         orientation: 'portrait',
-        start_url: '/worldcup-2026/',
-        scope: '/worldcup-2026/',
+        start_url: '/fifa-worldcup-2026/',
+        scope: '/fifa-worldcup-2026/',
         icons: [
           {
-            src: '/worldcup-2026/icons/icon.svg',
+            src: '/fifa-worldcup-2026/icons/icon.svg',
             sizes: 'any',
             type: 'image/svg+xml',
             purpose: 'any maskable'
