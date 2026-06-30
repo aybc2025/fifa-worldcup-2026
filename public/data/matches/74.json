@@ -1,0 +1,116 @@
+{
+  "stats": [
+    {
+      "team": "Germany",
+      "statistics": [
+        { "type": "Possession", "value": "65%" },
+        { "type": "Shots on Goal", "value": 6 },
+        { "type": "Total Shots", "value": 21 },
+        { "type": "Corner Kicks", "value": 16 },
+        { "type": "Fouls", "value": 18 },
+        { "type": "Yellow Cards", "value": 2 },
+        { "type": "Red Cards", "value": 0 }
+      ]
+    },
+    {
+      "team": "Paraguay",
+      "statistics": [
+        { "type": "Possession", "value": "23%" },
+        { "type": "Shots on Goal", "value": 3 },
+        { "type": "Total Shots", "value": 7 },
+        { "type": "Corner Kicks", "value": 6 },
+        { "type": "Fouls", "value": 12 },
+        { "type": "Yellow Cards", "value": 2 },
+        { "type": "Red Cards", "value": 0 }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 42,  "team": "Paraguay", "player": "Julio Enciso",      "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 46,  "team": "Germany",  "player": "Leon Goretzka",     "type": "subst", "detail": "out: Felix Nmecha" },
+    { "minute": 54,  "team": "Germany",  "player": "Kai Havertz",       "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 55,  "team": "Paraguay", "player": "Gustavo Caballero", "type": "subst", "detail": "out: Gabriel Ávalos" },
+    { "minute": 57,  "team": "Paraguay", "player": "Mauricio",          "type": "subst", "detail": "out: Julio Enciso" },
+    { "minute": 63,  "team": "Germany",  "player": "Jamal Musiala",     "type": "subst", "detail": "out: Deniz Undav" },
+    { "minute": 65,  "team": "Paraguay", "player": "Andrés Cubas",      "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 79,  "team": "Germany",  "player": "Waldemar Anton",    "type": "subst", "detail": "out: Aleksandar Pavlović" },
+    { "minute": 88,  "team": "Germany",  "player": "Nick Woltemade",    "type": "subst", "detail": "out: Leroy Sané" },
+    { "minute": 91,  "team": "Paraguay", "player": "Gustavo Velázquez", "type": "subst", "detail": "out: Miguel Almirón" },
+    { "minute": 99,  "team": "Paraguay", "player": "Antonio Sanabria",  "type": "subst", "detail": "out: Damián Bobadilla" },
+    { "minute": 99,  "team": "Paraguay", "player": "Braian Ojeda",      "type": "subst", "detail": "out: Juan Cáceres" },
+    { "minute": 106, "team": "Germany",  "player": "Kai Havertz",       "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 110, "team": "Germany",  "player": "Malick Thiaw",      "type": "subst", "detail": "out: Antonio Rüdiger" },
+    { "minute": 110, "team": "Germany",  "player": "Nadiem Amiri",      "type": "subst", "detail": "out: Florian Wirtz" },
+    { "minute": 115, "team": "Germany",  "player": "Jamal Musiala",     "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 117, "team": "Paraguay", "player": "Matías Galarza",    "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 122, "team": "Paraguay", "player": "Fabián Balbuena",   "type": "subst", "detail": "out: Junior Alonso" },
+    { "minute": null,"team": "Paraguay", "player": "Penalty Shootout",  "type": "Penalty","detail": "Paraguay wins 4-3 on penalties" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Germany" },
+      "formation": "4-2-3-1",
+      "startXI": [
+        { "player": { "name": "Manuel Neuer",        "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Antonio Rüdiger",     "number": 2,  "pos": "CB" } },
+        { "player": { "name": "Jonathan Tah",        "number": 4,  "pos": "CB" } },
+        { "player": { "name": "Joshua Kimmich",      "number": 6,  "pos": "RB" } },
+        { "player": { "name": "Nathaniel Brown",     "number": 18, "pos": "LB" } },
+        { "player": { "name": "Aleksandar Pavlović", "number": 5,  "pos": "DM" } },
+        { "player": { "name": "Felix Nmecha",        "number": 23, "pos": "DM" } },
+        { "player": { "name": "Florian Wirtz",       "number": 17, "pos": "AM" } },
+        { "player": { "name": "Leroy Sané",          "number": 19, "pos": "RW" } },
+        { "player": { "name": "Deniz Undav",         "number": 26, "pos": "AM" } },
+        { "player": { "name": "Kai Havertz",         "number": 7,  "pos": "ST" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Oliver Baumann",   "number": 12, "pos": "GK" } },
+        { "player": { "name": "Alexander Nübel",  "number": 21, "pos": "GK" } },
+        { "player": { "name": "Waldemar Anton",   "number": 3,  "pos": "CB" } },
+        { "player": { "name": "David Raum",       "number": 22, "pos": "LB" } },
+        { "player": { "name": "Malick Thiaw",     "number": 24, "pos": "CB" } },
+        { "player": { "name": "Leon Goretzka",    "number": 8,  "pos": "CM" } },
+        { "player": { "name": "Jamal Musiala",    "number": 10, "pos": "AM" } },
+        { "player": { "name": "Pascal Groß",      "number": 13, "pos": "CM" } },
+        { "player": { "name": "Angelo Stiller",   "number": 16, "pos": "DM" } },
+        { "player": { "name": "Nadiem Amiri",     "number": 20, "pos": "AM" } },
+        { "player": { "name": "Assan Ouédraogo",  "number": 25, "pos": "CM" } },
+        { "player": { "name": "Nick Woltemade",   "number": 11, "pos": "ST" } },
+        { "player": { "name": "Maximilian Beier", "number": 14, "pos": "ST" } }
+      ]
+    },
+    {
+      "team": { "name": "Paraguay" },
+      "formation": "4-4-2",
+      "startXI": [
+        { "player": { "name": "Orlando Gill",      "number": 12, "pos": "GK" } },
+        { "player": { "name": "Juan José Cáceres", "number": 4,  "pos": "RB" } },
+        { "player": { "name": "Junior Alonso",     "number": 6,  "pos": "CB" } },
+        { "player": { "name": "Fabian Balbuena",   "number": 5,  "pos": "CB" } },
+        { "player": { "name": "José Cañale",       "number": 13, "pos": "LB" } },
+        { "player": { "name": "Miguel Almirón",    "number": 10, "pos": "RM" } },
+        { "player": { "name": "Andrés Cubas",      "number": 14, "pos": "CM" } },
+        { "player": { "name": "Damián Bobadilla",  "number": 16, "pos": "CM" } },
+        { "player": { "name": "Matías Galarza",    "number": 23, "pos": "LM" } },
+        { "player": { "name": "Julio Enciso",      "number": 19, "pos": "ST" } },
+        { "player": { "name": "Gabriel Ávalos",    "number": 21, "pos": "ST" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Gatito Fernández",         "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Gastón Olveira",           "number": 22, "pos": "GK" } },
+        { "player": { "name": "Gustavo Velázquez",        "number": 2,  "pos": "CM" } },
+        { "player": { "name": "Omar Alderete",            "number": 3,  "pos": "CB" } },
+        { "player": { "name": "Alexandro Maidana",        "number": 26, "pos": "LB" } },
+        { "player": { "name": "Ramón Sosa",               "number": 7,  "pos": "RW" } },
+        { "player": { "name": "Mauricio",                 "number": 11, "pos": "LW" } },
+        { "player": { "name": "Braian Ojeda",             "number": 20, "pos": "RB" } },
+        { "player": { "name": "Gustavo Caballero",        "number": 24, "pos": "ST" } },
+        { "player": { "name": "Antonio Sanabria",         "number": 9,  "pos": "ST" } },
+        { "player": { "name": "Alejandro Romero Gamarra", "number": 17, "pos": "AM" } },
+        { "player": { "name": "Alex Arce",                "number": 18, "pos": "ST" } },
+        { "player": { "name": "Isidro Pitta",             "number": 25, "pos": "ST" } },
+        { "player": { "name": "Gustavo Gómez",            "number": 15, "pos": "CB" } }
+      ]
+    }
+  ]
+}

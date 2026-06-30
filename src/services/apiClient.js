@@ -17,3 +17,8 @@ export const fetchAllFixtures = () => apiFetch(`${RAW}/worldcup.json`)
 
 // All 48 teams (name, fifa_code, group, continent, confed)
 export const fetchTeamsData = () => apiFetch(`${RAW}/worldcup.teams.json`)
+
+// Detailed match data (stats, lineups, enriched events) — returns null if not available
+export const fetchMatchDetail = (id) =>
+  apiFetch(`${import.meta.env.BASE_URL}data/matches/${id}.json`).catch(() => null)
+

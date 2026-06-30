@@ -1,0 +1,113 @@
+{
+  "stats": [
+    {
+      "team": "Netherlands",
+      "statistics": [
+        { "type": "Possession", "value": "31%" },
+        { "type": "Shots on Goal", "value": 2 },
+        { "type": "Total Shots", "value": 6 },
+        { "type": "Corner Kicks", "value": 5 },
+        { "type": "Fouls", "value": 18 },
+        { "type": "Yellow Cards", "value": 0 },
+        { "type": "Red Cards", "value": 0 }
+      ]
+    },
+    {
+      "team": "Morocco",
+      "statistics": [
+        { "type": "Possession", "value": "61%" },
+        { "type": "Shots on Goal", "value": 5 },
+        { "type": "Total Shots", "value": 11 },
+        { "type": "Corner Kicks", "value": 8 },
+        { "type": "Fouls", "value": 15 },
+        { "type": "Yellow Cards", "value": 1 },
+        { "type": "Red Cards", "value": 0 }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 47,  "team": "Morocco",     "player": "Issa Diop",          "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 71,  "team": "Netherlands", "player": "Wout Weghorst",      "type": "subst", "detail": "out: Brian Brobbey" },
+    { "minute": 71,  "team": "Netherlands", "player": "Teun Koopmeiners",   "type": "subst", "detail": "out: Nathan Aké" },
+    { "minute": 72,  "team": "Netherlands", "player": "Cody Gakpo",         "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 75,  "team": "Morocco",     "player": "Anass Salah-Eddine", "type": "subst", "detail": "out: Chadi Riad" },
+    { "minute": 79,  "team": "Morocco",     "player": "Samir El Mourabet",  "type": "subst", "detail": "out: Ayyoub Bouaddi" },
+    { "minute": 79,  "team": "Morocco",     "player": "Gessime Yassine",    "type": "subst", "detail": "out: Brahim Díaz" },
+    { "minute": 86,  "team": "Netherlands", "player": "Quinten Timber",     "type": "subst", "detail": "out: Ryan Gravenberch" },
+    { "minute": 86,  "team": "Netherlands", "player": "Jorrel Hato",        "type": "subst", "detail": "out: Micky van de Ven" },
+    { "minute": 86,  "team": "Morocco",     "player": "Soufiane Rahimi",    "type": "subst", "detail": "out: Azzedine Ounahi" },
+    { "minute": 87,  "team": "Morocco",     "player": "Chemsdine Talbi",    "type": "subst", "detail": "out: Bilal El Khannouss" },
+    { "minute": 91,  "team": "Morocco",     "player": "Issa Diop",          "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 110, "team": "Netherlands", "player": "Marten de Roon",     "type": "subst", "detail": "out: Frenkie de Jong" },
+    { "minute": 113, "team": "Netherlands", "player": "Justin Kluivert",    "type": "subst", "detail": "out: Cody Gakpo" },
+    { "minute": null,"team": "Morocco",     "player": "Penalty Shootout",   "type": "Penalty","detail": "Morocco wins 3-2 on penalties" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Netherlands" },
+      "formation": "3-4-3",
+      "startXI": [
+        { "player": { "name": "Bart Verbruggen",      "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Virgil van Dijk",      "number": 4,  "pos": "CB" } },
+        { "player": { "name": "Nathan Aké",           "number": 5,  "pos": "CB" } },
+        { "player": { "name": "Jan Paul van Hecke",   "number": 6,  "pos": "CB" } },
+        { "player": { "name": "Denzel Dumfries",      "number": 22, "pos": "RWB" } },
+        { "player": { "name": "Micky van de Ven",     "number": 15, "pos": "LWB" } },
+        { "player": { "name": "Ryan Gravenberch",     "number": 8,  "pos": "CM" } },
+        { "player": { "name": "Frenkie de Jong",      "number": 21, "pos": "CM" } },
+        { "player": { "name": "Cody Gakpo",           "number": 11, "pos": "LW" } },
+        { "player": { "name": "Brian Brobbey",        "number": 19, "pos": "ST" } },
+        { "player": { "name": "Crysencio Summerville","number": 24, "pos": "RW" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Robin Roefs",           "number": 13, "pos": "GK" } },
+        { "player": { "name": "Mark Flekken",          "number": 23, "pos": "GK" } },
+        { "player": { "name": "Lutsharel Geertruida",  "number": 2,  "pos": "RB" } },
+        { "player": { "name": "Mats Wieffer",          "number": 12, "pos": "DM" } },
+        { "player": { "name": "Jorrel Hato",           "number": 25, "pos": "LWB" } },
+        { "player": { "name": "Marten de Roon",        "number": 3,  "pos": "CM" } },
+        { "player": { "name": "Justin Kluivert",       "number": 7,  "pos": "LW" } },
+        { "player": { "name": "Tijjani Reijnders",     "number": 14, "pos": "CM" } },
+        { "player": { "name": "Guus Til",              "number": 16, "pos": "CM" } },
+        { "player": { "name": "Teun Koopmeiners",      "number": 20, "pos": "CM" } },
+        { "player": { "name": "Quinten Timber",        "number": 26, "pos": "CM" } },
+        { "player": { "name": "Wout Weghorst",         "number": 9,  "pos": "ST" } },
+        { "player": { "name": "Memphis Depay",         "number": 10, "pos": "ST" } },
+        { "player": { "name": "Noa Lang",              "number": 17, "pos": "LW" } }
+      ]
+    },
+    {
+      "team": { "name": "Morocco" },
+      "formation": "4-2-3-1",
+      "startXI": [
+        { "player": { "name": "Yassine Bounou",     "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Achraf Hakimi",      "number": 2,  "pos": "RB" } },
+        { "player": { "name": "Noussair Mazraoui",  "number": 3,  "pos": "LB" } },
+        { "player": { "name": "Issa Diop",          "number": 14, "pos": "CB" } },
+        { "player": { "name": "Chadi Riad",         "number": 18, "pos": "CB" } },
+        { "player": { "name": "Ayyoub Bouaddi",     "number": 6,  "pos": "DM" } },
+        { "player": { "name": "Neil El Aynaoui",    "number": 24, "pos": "DM" } },
+        { "player": { "name": "Azzedine Ounahi",    "number": 8,  "pos": "AM" } },
+        { "player": { "name": "Ismael Saibari",     "number": 11, "pos": "AM" } },
+        { "player": { "name": "Bilal El Khannouss", "number": 23, "pos": "AM" } },
+        { "player": { "name": "Brahim Díaz",        "number": 10, "pos": "ST" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Munir El Kajoui",      "number": 12, "pos": "GK" } },
+        { "player": { "name": "Ahmed Reda Tagnaouti", "number": 22, "pos": "GK" } },
+        { "player": { "name": "Marwane Saadane",      "number": 5,  "pos": "CB" } },
+        { "player": { "name": "Zakaria El Ouahdi",    "number": 13, "pos": "RB" } },
+        { "player": { "name": "Youssef Belammari",    "number": 19, "pos": "LB" } },
+        { "player": { "name": "Redouane Halhal",      "number": 25, "pos": "CM" } },
+        { "player": { "name": "Anass Salah-Eddine",   "number": 26, "pos": "CB" } },
+        { "player": { "name": "Sofyan Amrabat",       "number": 4,  "pos": "DM" } },
+        { "player": { "name": "Chemsdine Talbi",      "number": 7,  "pos": "AM" } },
+        { "player": { "name": "Samir El Mourabet",    "number": 15, "pos": "DM" } },
+        { "player": { "name": "Gessime Yassine",      "number": 16, "pos": "AM" } },
+        { "player": { "name": "Soufiane Rahimi",      "number": 9,  "pos": "ST" } },
+        { "player": { "name": "Amine Sbai",           "number": 17, "pos": "AM" } },
+        { "player": { "name": "Ayoub El Kaabi",       "number": 20, "pos": "ST" } }
+      ]
+    }
+  ]
+}

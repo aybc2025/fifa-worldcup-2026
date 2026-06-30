@@ -1,5 +1,5 @@
 import { useQuery } from '@tanstack/react-query'
-import { fetchAllFixtures } from '../services/apiClient'
+import { fetchAllFixtures, fetchMatchDetail } from '../services/apiClient'
 import { normalizeFixtures } from './useMatches'
 import { TTL, POLL } from '../config/constants'
 
@@ -20,6 +20,13 @@ export function useMatch(id) {
     enabled: !!id,
   })
 
+  const { data: detail } = useQuery({
+    queryKey: ['match-detail', id],
+    queryFn: () => fetchMatchDetail(id),
+    staleTime: TTL.FIXTURES_ALL,
+    enabled: !!id,
+  })
+
   const fixtures = normalizeFixtures(data)
   const fixture = fixtures.find((f) => String(f.fixture?.id) === String(id)) ?? null
   const isLive = LIVE_STATUSES.has(fixture?.fixture?.status?.short)
@@ -30,8 +37,8 @@ export function useMatch(id) {
     isLoading,
     isError,
     error,
-    events: fixture?.events ?? [],
-    lineups: [],
-    stats: [],
+    events: detail?.events ?? fixture?.events ?? [],
+    lineups: detail?.lineups ?? [],
+    stats: detail?.stats ?? [],
   }
 }
