@@ -15,8 +15,9 @@ function getStatus(f) {
 }
 
 function getDate(f) {
-  const iso = f.kickoff_utc || f.date || f.fixture?.date || ''
-  return iso.slice(0, 10) // already UTC from matchToUTC — fine, IF header also uses UTC
+  // Use the original tournament-calendar date, not the UTC-derived date.
+  // Evening games in US timezones (UTC-5 to UTC-7) shift to the next UTC day.
+  return f.fixture?.localDate || f.kickoff_utc?.slice(0, 10) || f.fixture?.date?.slice(0, 10) || ''
 }
 
 export default function HomePage() {

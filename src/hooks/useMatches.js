@@ -65,6 +65,7 @@ export function normalizeMatch(m, idx) {
     fixture: {
       id: m.num ?? idx + 1,
       date: dateStr,
+      localDate: m.date ?? dateStr.slice(0, 10),
       status: {
         short: hasScore ? (hasPen ? 'PEN' : 'FT') : 'NS',
         long: hasScore ? (hasPen ? 'Penalties' : 'Match Finished') : 'Not Started',
