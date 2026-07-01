@@ -127,7 +127,7 @@ export default function MatchPage() {
             exit={{ opacity: 0, y: -6 }}
             transition={{ duration: 0.2 }}
           >
-            {tab === 'events' && <MatchTimeline events={events} homeTeamId={teams?.home?.id} />}
+            {tab === 'events' && <MatchTimeline events={events} homeTeamId={teams?.home?.id} homeTeamName={teams?.home?.name} />}
             {tab === 'stats' && (stats.length ? <MatchStats stats={stats} /> : <EmptyState message="Stats not yet available" />)}
             {tab === 'lineup' && <LineupGrid lineups={lineups} />}
           </motion.div>

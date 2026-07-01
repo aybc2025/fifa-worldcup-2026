@@ -1,10 +1,10 @@
 ﻿{
     "fixture":  {
-                    "id":  "wc2026-group-g-newzealand-belgium",
+                    "id":  "wc2026-group-g-egypt-iran",
                     "date":  "2026-06-27T00:00:00Z",
                     "venue":  {
-                                  "name":  "BC Place Vancouver",
-                                  "city":  "Vancouver"
+                                  "name":  "Seattle Stadium",
+                                  "city":  "Seattle"
                               },
                     "status":  {
                                    "short":  "FT",
@@ -16,55 +16,55 @@
                },
     "teams":  {
                   "home":  {
-                               "name":  "New Zealand",
-                               "code":  "NZL"
+                               "name":  "Egypt",
+                               "code":  "EGY"
                            },
                   "away":  {
-                               "name":  "Belgium",
-                               "code":  "BEL"
+                               "name":  "IR Iran",
+                               "code":  "IRN"
                            }
               },
     "goals":  {
                   "home":  1,
-                  "away":  5
+                  "away":  1
               },
     "score":  {
                   "halftime":  {
-                                   "home":  0,
+                                   "home":  1,
                                    "away":  1
                                },
                   "fulltime":  {
                                    "home":  1,
-                                   "away":  5
+                                   "away":  1
                                }
               },
     "stats":  [
                   {
-                      "team":  "New Zealand",
+                      "team":  "Egypt",
                       "statistics":  [
                                          {
                                              "type":  "Possession",
-                                             "value":  "40%"
+                                             "value":  "53%"
                                          },
                                          {
                                              "type":  "Shots on Goal",
-                                             "value":  2
+                                             "value":  3
                                          },
                                          {
                                              "type":  "Total Shots",
-                                             "value":  6
+                                             "value":  15
                                          },
                                          {
                                              "type":  "Corner Kicks",
-                                             "value":  5
+                                             "value":  8
                                          },
                                          {
                                              "type":  "Fouls",
-                                             "value":  10
+                                             "value":  11
                                          },
                                          {
                                              "type":  "Yellow Cards",
-                                             "value":  2
+                                             "value":  3
                                          },
                                          {
                                              "type":  "Red Cards",
@@ -73,31 +73,31 @@
                                      ]
                   },
                   {
-                      "team":  "Belgium",
+                      "team":  "IR Iran",
                       "statistics":  [
                                          {
                                              "type":  "Possession",
-                                             "value":  "50%"
+                                             "value":  "36%"
                                          },
                                          {
                                              "type":  "Shots on Goal",
-                                             "value":  10
+                                             "value":  3
                                          },
                                          {
                                              "type":  "Total Shots",
-                                             "value":  35
+                                             "value":  13
                                          },
                                          {
                                              "type":  "Corner Kicks",
-                                             "value":  8
+                                             "value":  2
                                          },
                                          {
                                              "type":  "Fouls",
-                                             "value":  7
+                                             "value":  16
                                          },
                                          {
                                              "type":  "Yellow Cards",
-                                             "value":  0
+                                             "value":  4
                                          },
                                          {
                                              "type":  "Red Cards",
@@ -108,233 +108,404 @@
               ],
     "events":  [
                    {
-                       "minute":  28,
-                       "team":  "Belgium",
-                       "player":  "Leandro Trossard",
+                       "minute":  5,
+                       "team":  "Egypt",
+                       "player":  "Mahmoud Saber",
                        "type":  "Goal",
                        "detail":  "Normal Goal"
                    },
                    {
-                       "minute":  0,
-                       "team":  "New Zealand",
-                       "player":  "Jesse Randall",
-                       "type":  "subst",
-                       "detail":  "out: Sarpreet Singh, in: Jesse Randall (HT)"
+                       "minute":  14,
+                       "team":  "IR Iran",
+                       "player":  "Ramin Rezaeian",
+                       "type":  "Goal",
+                       "detail":  "Normal Goal"
                    },
                    {
-                       "minute":  0,
-                       "team":  "New Zealand",
-                       "player":  "Ben Old",
-                       "type":  "subst",
-                       "detail":  "out: Ryan Thomas, in: Ben Old (HT)"
-                   },
-                   {
-                       "minute":  46,
-                       "team":  "New Zealand",
-                       "player":  "Marko Stamenic",
+                       "minute":  14,
+                       "team":  "Egypt",
+                       "player":  "Yasser Ibrahim",
                        "type":  "Card",
                        "detail":  "Yellow Card"
                    },
                    {
-                       "minute":  50,
-                       "team":  "Belgium",
-                       "player":  "Leandro Trossard",
-                       "type":  "Goal",
-                       "detail":  "Normal Goal"
+                       "minute":  14,
+                       "team":  "IR Iran",
+                       "player":  "Hossein Kanani",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
                    },
                    {
-                       "minute":  56,
-                       "team":  "Belgium",
-                       "player":  "Matias Fernandez-Pardo",
+                       "minute":  18,
+                       "team":  "IR Iran",
+                       "player":  "Hossein Kanani",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   },
+                   {
+                       "minute":  19,
+                       "team":  "Egypt",
+                       "player":  "Mohamed Abdelmoneim",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   },
+                   {
+                       "minute":  41,
+                       "team":  "Egypt",
+                       "player":  "Yasser Ibrahim",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   },
+                   {
+                       "minute":  43,
+                       "team":  "IR Iran",
+                       "player":  "Ali Nemati",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   },
+                   {
+                       "minute":  0,
+                       "team":  "Egypt",
+                       "player":  "Omar Marmoush",
                        "type":  "subst",
-                       "detail":  "out: Jeremy Doku, in: Matias Fernandez-Pardo"
+                       "detail":  "out: Emam Ashour, in: Omar Marmoush (HT)"
                    },
                    {
-                       "minute":  56,
-                       "team":  "New Zealand",
-                       "player":  "Elijah Just",
+                       "minute":  0,
+                       "team":  "Egypt",
+                       "player":  "Marawan Attia",
                        "type":  "subst",
-                       "detail":  "out: Elijah Just, in: [reserve]"
+                       "detail":  "out: Mahmoud Saber, in: Marawan Attia (HT)"
                    },
                    {
-                       "minute":  64,
-                       "team":  "New Zealand",
-                       "player":  "Michael Boxall",
+                       "minute":  0,
+                       "team":  "IR Iran",
+                       "player":  "Saleh Hardani",
                        "type":  "subst",
-                       "detail":  "out: Michael Boxall, in: Tim Payne"
+                       "detail":  "out: Saleh Hardani, in: [reserve] (HT)"
                    },
                    {
-                       "minute":  64,
-                       "team":  "New Zealand",
-                       "player":  "Callum McOwatt",
+                       "minute":  57,
+                       "team":  "Egypt",
+                       "player":  "Zizo",
                        "type":  "subst",
-                       "detail":  "out: Callum McOwatt, in: Joe Bell"
+                       "detail":  "out: Zizo, in: Mohamed Salah"
                    },
                    {
-                       "minute":  66,
-                       "team":  "Belgium",
-                       "player":  "Kevin De Bruyne",
-                       "type":  "Goal",
-                       "detail":  "Normal Goal"
-                   },
-                   {
-                       "minute":  72,
-                       "team":  "Belgium",
-                       "player":  "Alexis Saelemaekers",
+                       "minute":  67,
+                       "team":  "IR Iran",
+                       "player":  "Shahriyar Moghanloo",
                        "type":  "subst",
-                       "detail":  "out: Leandro Trossard, in: Alexis Saelemaekers"
+                       "detail":  "out: Shahriyar Moghanloo, in: Saman Ghoddos"
                    },
                    {
-                       "minute":  72,
-                       "team":  "Belgium",
-                       "player":  "Amadou Onana",
+                       "minute":  76,
+                       "team":  "Egypt",
+                       "player":  "Hamza Abdelkarim",
                        "type":  "subst",
-                       "detail":  "out: Amadou Onana, in: Kevin De Bruyne"
+                       "detail":  "out: Hamza Abdelkarim, in: Mostafa Zico"
                    },
                    {
                        "minute":  79,
-                       "team":  "New Zealand",
-                       "player":  "Francis De Vries",
+                       "team":  "IR Iran",
+                       "player":  "Saeid Ezatolahi",
                        "type":  "subst",
-                       "detail":  "out: Liberato Cacace, in: Francis De Vries"
+                       "detail":  "out: Saeid Ezatolahi, in: [reserve]"
                    },
                    {
-                       "minute":  84,
-                       "team":  "New Zealand",
-                       "player":  "Elijah Just",
-                       "type":  "Goal",
-                       "detail":  "Normal Goal"
-                   },
-                   {
-                       "minute":  85,
-                       "team":  "Belgium",
-                       "player":  "Romelu Lukaku",
+                       "minute":  90,
+                       "team":  "Egypt",
+                       "player":  "Mohanad Lashin",
                        "type":  "subst",
-                       "detail":  "out: Charles De Ketelaere, in: Romelu Lukaku"
+                       "detail":  "out: Mohanad Lashin, in: [reserve]"
                    },
                    {
-                       "minute":  85,
-                       "team":  "Belgium",
-                       "player":  "Nicolas Raskin",
-                       "type":  "subst",
-                       "detail":  "out: Youri Tielemans, in: Nicolas Raskin"
-                   },
-                   {
-                       "minute":  86,
-                       "team":  "Belgium",
-                       "player":  "Romelu Lukaku",
-                       "type":  "Goal",
-                       "detail":  "Normal Goal"
-                   },
-                   {
-                       "minute":  88,
-                       "team":  "New Zealand",
-                       "player":  "Finn Surman",
+                       "minute":  90,
+                       "team":  "IR Iran",
+                       "player":  "Shoja Khalilzadeh",
                        "type":  "Card",
                        "detail":  "Yellow Card"
                    },
                    {
-                       "minute":  94,
-                       "team":  "Belgium",
-                       "player":  "Alexis Saelemaekers",
-                       "type":  "Goal",
-                       "detail":  "Normal Goal"
+                       "minute":  91,
+                       "team":  "IR Iran",
+                       "player":  "Alireza Jahanbakhsh",
+                       "type":  "subst",
+                       "detail":  "out: Alireza Jahanbakhsh, in: [reserve]"
                    }
                ],
     "lineups":  [
                     {
                         "team":  {
-                                     "name":  "New Zealand"
+                                     "name":  "Egypt"
                                  },
                         "formation":  "4-2-3-1",
                         "startXI":  [
                                         {
                                             "player":  {
-                                                           "name":  "Max Crocombe",
-                                                           "number":  1,
+                                                           "name":  "Mostafa Shoubir",
+                                                           "number":  23,
                                                            "pos":  "G"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Tim Payne",
-                                                           "number":  2,
+                                                           "name":  "Mohamed Hany",
+                                                           "number":  3,
                                                            "pos":  "D"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Michael Boxall",
+                                                           "name":  "Ramy Rabia",
                                                            "number":  5,
                                                            "pos":  "D"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Tyler Bindon",
-                                                           "number":  4,
+                                                           "name":  "Mohamed Abdelmoneim",
+                                                           "number":  6,
                                                            "pos":  "D"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Liberato Cacace",
+                                                           "name":  "Yasser Ibrahim",
+                                                           "number":  2,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Ahmed Fatouh",
                                                            "number":  13,
                                                            "pos":  "D"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Finn Surman",
-                                                           "number":  16,
-                                                           "pos":  "D"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Joe Bell",
-                                                           "number":  6,
-                                                           "pos":  "M"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Callum McOwatt",
-                                                           "number":  20,
-                                                           "pos":  "M"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Marko Stamenic",
+                                                           "name":  "Emam Ashour",
                                                            "number":  8,
                                                            "pos":  "M"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Sarpreet Singh",
-                                                           "number":  10,
+                                                           "name":  "Hamza Abdelkarim",
+                                                           "number":  9,
                                                            "pos":  "M"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Ryan Thomas",
-                                                           "number":  23,
+                                                           "name":  "Mohanad Lashin",
+                                                           "number":  17,
                                                            "pos":  "M"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Elijah Just",
-                                                           "number":  11,
+                                                           "name":  "Mahmoud Saber",
+                                                           "number":  21,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Trezeguet",
+                                                           "number":  7,
                                                            "pos":  "F"
                                                        }
+                                        }
+                                    ],
+                        "substitutes":  [
+                                            {
+                                                "player":  {
+                                                               "name":  "Mohamed Elshenawy",
+                                                               "number":  1,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Mahdy Soliman",
+                                                               "number":  16,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Mohamed Alaa",
+                                                               "number":  26,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Karim Hafez",
+                                                               "number":  15,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Tarek Alaa",
+                                                               "number":  24,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Omar Marmoush",
+                                                               "number":  22,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Marawan Attia",
+                                                               "number":  19,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Mostafa Zico",
+                                                               "number":  11,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Nabil Donga",
+                                                               "number":  18,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Haissem Hassan",
+                                                               "number":  12,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Mohamed Salah",
+                                                               "number":  10,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Zizo",
+                                                               "number":  25,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Ibrahim Adel",
+                                                               "number":  20,
+                                                               "pos":  null
+                                                           }
+                                            }
+                                        ]
+                    },
+                    {
+                        "team":  {
+                                     "name":  "IR Iran"
+                                 },
+                        "formation":  "5-4-1",
+                        "startXI":  [
+                                        {
+                                            "player":  {
+                                                           "name":  "Alireza Beiranvand",
+                                                           "number":  1,
+                                                           "pos":  "G"
+                                                       }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Chris Wood",
+                                                           "name":  "Shoja Khalilzadeh",
+                                                           "number":  4,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Milad Mohammadi",
+                                                           "number":  5,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Hossein Kanani",
+                                                           "number":  13,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Saleh Hardani",
+                                                           "number":  2,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Ali Nemati",
+                                                           "number":  19,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Ramin Rezaeian",
+                                                           "number":  23,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Saeid Ezatolahi",
+                                                           "number":  6,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Mohammad Mohebbi",
+                                                           "number":  8,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Alireza Jahanbakhsh",
+                                                           "number":  7,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Shahriyar Moghanloo",
+                                                           "number":  20,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Mohammad Ghorbani",
+                                                           "number":  21,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Mehdi Taremi",
                                                            "number":  9,
                                                            "pos":  "F"
                                                        }
@@ -343,270 +514,92 @@
                         "substitutes":  [
                                             {
                                                 "player":  {
-                                                               "name":  "Alex Paulsen",
+                                                               "name":  "Payam Niazmand",
                                                                "number":  12,
                                                                "pos":  "G"
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Michael Woud",
+                                                               "name":  "Hossein Hosseini",
                                                                "number":  22,
                                                                "pos":  "G"
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Francis De Vries",
+                                                               "name":  "Ehsan Hajisafi",
                                                                "number":  3,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Nando Pijnaker",
-                                                               "number":  15,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Callan Elliot",
-                                                               "number":  24,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Tommy Smith",
-                                                               "number":  26,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Jesse Randall",
-                                                               "number":  21,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Ben Old",
-                                                               "number":  19,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Alex Rufer",
-                                                               "number":  14,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Lachlan Bayliss",
-                                                               "number":  25,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Logan Rogerson",
-                                                               "number":  7,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Kosta Barbarouses",
+                                                               "name":  "Arya Yousefi",
                                                                "number":  17,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Ben Waine",
-                                                               "number":  18,
+                                                               "name":  "Danial Iri",
+                                                               "number":  25,
                                                                "pos":  null
                                                            }
-                                            }
-                                        ]
-                    },
-                    {
-                        "team":  {
-                                     "name":  "Belgium"
-                                 },
-                        "formation":  "4-2-3-1",
-                        "startXI":  [
-                                        {
-                                            "player":  {
-                                                           "name":  "Thibaut Courtois",
-                                                           "number":  1,
-                                                           "pos":  "G"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Arthur Theate",
-                                                           "number":  3,
-                                                           "pos":  "D"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Brandon Mechele",
-                                                           "number":  4,
-                                                           "pos":  "D"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Maxim De Cuyper",
-                                                           "number":  5,
-                                                           "pos":  "D"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Timothy Castagne",
-                                                           "number":  21,
-                                                           "pos":  "D"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Amadou Onana",
-                                                           "number":  24,
-                                                           "pos":  "M"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Youri Tielemans",
-                                                           "number":  8,
-                                                           "pos":  "M"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Hans Vanaken",
-                                                           "number":  20,
-                                                           "pos":  "M"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Leandro Trossard",
-                                                           "number":  10,
-                                                           "pos":  "F"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Jeremy Doku",
-                                                           "number":  11,
-                                                           "pos":  "F"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Charles De Ketelaere",
-                                                           "number":  17,
-                                                           "pos":  "F"
-                                                       }
-                                        }
-                                    ],
-                        "substitutes":  [
-                                            {
-                                                "player":  {
-                                                               "name":  "Senne Lammens",
-                                                               "number":  12,
-                                                               "pos":  "G"
-                                                           }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Mike Penders",
-                                                               "number":  13,
-                                                               "pos":  "G"
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Thomas Meunier",
+                                                               "name":  "Roozbeh Cheshmi",
                                                                "number":  15,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Koni De Winter",
+                                                               "name":  "Saman Ghoddos",
+                                                               "number":  14,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Mehdi Torabi",
                                                                "number":  16,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Joaquin Seys",
-                                                               "number":  18,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Axel Witsel",
-                                                               "number":  6,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Kevin De Bruyne",
-                                                               "number":  7,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Nicolas Raskin",
-                                                               "number":  23,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Diego Moreira",
-                                                               "number":  19,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Alexis Saelemaekers",
-                                                               "number":  22,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Matias Fernandez-Pardo",
+                                                               "name":  "Amirmohammad Razaghinia",
                                                                "number":  26,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Romelu Lukaku",
-                                                               "number":  9,
+                                                               "name":  "Mehdi Ghayedi",
+                                                               "number":  10,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Dodi Lukebakio",
-                                                               "number":  14,
+                                                               "name":  "Ali Alipour",
+                                                               "number":  11,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Amirhossein Hosseinzadeh",
+                                                               "number":  18,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Dennis Dargahi",
+                                                               "number":  24,
                                                                "pos":  null
                                                            }
                                             }

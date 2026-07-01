@@ -1,126 +1,125 @@
 {
   "fixture": {
-    "id": "wc2026-group-a-mexico-koreapublic",
-    "date": "2026-06-19T01:00:00Z",
-    "venue": { "name": "Estadio Akron", "city": "Guadalajara" },
+    "id": "wc2026-group-a-czechia-southafrica",
+    "date": "2026-06-18T13:00:00Z",
+    "venue": { "name": "Mercedes-Benz Stadium", "city": "Atlanta" },
     "status": { "short": "FT", "long": "Match Finished" }
   },
   "league": { "round": "Group A" },
   "teams": {
-    "home": { "name": "Mexico", "code": "MEX" },
-    "away": { "name": "South Korea", "code": "KOR" }
+    "home": { "name": "Czech Republic", "code": "CZE" },
+    "away": { "name": "South Africa", "code": "ZAF" }
   },
-  "goals": { "home": 1, "away": 0 },
+  "goals": { "home": 1, "away": 1 },
   "score": {
-    "halftime": { "home": 0, "away": 0 },
-    "fulltime": { "home": 1, "away": 0 }
+    "halftime": { "home": 1, "away": 0 },
+    "fulltime": { "home": 1, "away": 1 }
   },
   "stats": [
     {
-      "team": "Mexico",
+      "team": "Czech Republic",
       "statistics": [
-        { "type": "Possession", "value": "40%" },
-        { "type": "Shots on Goal", "value": "4" },
-        { "type": "Total Shots", "value": "8" },
-        { "type": "Corner Kicks", "value": "0" },
-        { "type": "Fouls", "value": "9" },
-        { "type": "Yellow Cards", "value": "0" },
+        { "type": "Possession", "value": "32%" },
+        { "type": "Shots on Goal", "value": "3" },
+        { "type": "Total Shots", "value": "14" },
+        { "type": "Corner Kicks", "value": "5" },
+        { "type": "Fouls", "value": "12" },
+        { "type": "Yellow Cards", "value": "1" },
         { "type": "Red Cards", "value": "0" }
       ]
     },
     {
-      "team": "South Korea",
+      "team": "South Africa",
       "statistics": [
-        { "type": "Possession", "value": "51%" },
-        { "type": "Shots on Goal", "value": "2" },
-        { "type": "Total Shots", "value": "9" },
-        { "type": "Corner Kicks", "value": "2" },
-        { "type": "Fouls", "value": "7" },
+        { "type": "Possession", "value": "60%" },
+        { "type": "Shots on Goal", "value": "4" },
+        { "type": "Total Shots", "value": "17" },
+        { "type": "Corner Kicks", "value": "5" },
+        { "type": "Fouls", "value": "10" },
         { "type": "Yellow Cards", "value": "2" },
         { "type": "Red Cards", "value": "0" }
       ]
     }
   ],
   "events": [
-    { "minute": 4,  "team": "South Korea", "player": "LEE Kangin",       "type": "Card",  "detail": "Yellow Card" },
-    { "minute": 50, "team": "Mexico",       "player": "Luis ROMO",        "type": "Goal",  "detail": "Normal Goal" },
-    { "minute": 57, "team": "South Korea",  "player": "OH Hyeongyu",      "type": "subst", "detail": "out: HWANG Heechan, in: OH Hyeongyu" },
-    { "minute": 57, "team": "South Korea",  "player": "LEE Jaesung",      "type": "subst", "detail": "out: SEOL Youngwoo, in: LEE Jaesung" },
-    { "minute": 58, "team": "South Korea",  "player": "PAIK Seungho",     "type": "Card",  "detail": "Yellow Card" },
-    { "minute": 71, "team": "Mexico",       "player": "Orbelin PINEDA",   "type": "subst", "detail": "out: Brian GUTIERREZ, in: Orbelin PINEDA" },
-    { "minute": 71, "team": "Mexico",       "player": "Obed VARGAS",      "type": "subst", "detail": "out: Luis ROMO, in: Obed VARGAS" },
-    { "minute": 71, "team": "South Korea",  "player": "YANG Hyunjun",     "type": "subst", "detail": "out: LEE Gihyuk, in: YANG Hyunjun" },
-    { "minute": 71, "team": "South Korea",  "player": "EOM Jisung",       "type": "subst", "detail": "out: KIM Moonhwan, in: EOM Jisung" },
-    { "minute": 77, "team": "South Korea",  "player": "CHO Guesung",      "type": "subst", "detail": "out: PAIK Seungho, in: CHO Guesung" },
-    { "minute": 80, "team": "Mexico",       "player": "Santiago GIMENEZ", "type": "subst", "detail": "out: Raul JIMENEZ, in: Santiago GIMENEZ" },
-    { "minute": 80, "team": "Mexico",       "player": "Israel REYES",     "type": "subst", "detail": "out: Roberto ALVARADO, in: Israel REYES" },
-    { "minute": 84, "team": "Mexico",       "player": "Cesar HUERTA",     "type": "subst", "detail": "out: Julian QUINONES, in: Cesar HUERTA" }
+    { "minute": 6,  "team": "Czech Republic", "player": "Michal SADILEK",      "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 33, "team": "South Africa",   "player": "Teboho MOKOENA",      "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 40, "team": "South Africa",   "player": "Thalente MBATHA",     "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 46, "team": "South Africa",   "player": "Relebohile MOFOKENG", "type": "subst", "detail": "out: Jayden ADAMS, in: Relebohile MOFOKENG" },
+    { "minute": 55, "team": "Czech Republic", "player": "Jaroslav ZELENY",     "type": "subst", "detail": "out: Alexandr SOJKA, in: Jaroslav ZELENY" },
+    { "minute": 55, "team": "Czech Republic", "player": "Pavel SULC",          "type": "subst", "detail": "out: Vladimir DARIDA, in: Pavel SULC" },
+    { "minute": 66, "team": "South Africa",   "player": "Evidence MAKGOPA",    "type": "subst", "detail": "out: Iqraam RAYNERS, in: Evidence MAKGOPA" },
+    { "minute": 67, "team": "Czech Republic", "player": "Tomas SOUCEK",        "type": "subst", "detail": "out: Michal SADILEK, in: Tomas SOUCEK" },
+    { "minute": 67, "team": "Czech Republic", "player": "Lukas PROVOD",        "type": "subst", "detail": "out: Adam HLOZEK, in: Lukas PROVOD" },
+    { "minute": 75, "team": "Czech Republic", "player": "Ladislav KREJCI",     "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 78, "team": "Czech Republic", "player": "David ZIMA",          "type": "subst", "detail": "out: Lukas CERV, in: David ZIMA" },
+    { "minute": 83, "team": "South Africa",   "player": "Teboho MOKOENA",      "type": "Goal",  "detail": "Penalty" },
+    { "minute": 84, "team": "South Africa",   "player": "Kamogelo SEBELEBELE", "type": "subst", "detail": "out: Thapelo MASEKO, in: Kamogelo SEBELEBELE" }
   ],
   "lineups": [
     {
-      "team": { "name": "Mexico" },
-      "formation": "4-1-2-3",
+      "team": { "name": "Czech Republic" },
+      "formation": "3-5-2",
       "startXI": [
-        { "player": { "name": "Raul RANGEL",      "number": 1,  "pos": "G" } },
-        { "player": { "name": "Jorge SANCHEZ",    "number": 2,  "pos": "D" } },
-        { "player": { "name": "Edson ALVAREZ",    "number": 4,  "pos": "D" } },
-        { "player": { "name": "Johan VASQUEZ",    "number": 5,  "pos": "D" } },
-        { "player": { "name": "Jesus GALLARDO",   "number": 23, "pos": "D" } },
-        { "player": { "name": "Erik LIRA",        "number": 6,  "pos": "M" } },
-        { "player": { "name": "Luis ROMO",        "number": 7,  "pos": "M" } },
-        { "player": { "name": "Brian GUTIERREZ",  "number": 26, "pos": "M" } },
-        { "player": { "name": "Julian QUINONES",  "number": 16, "pos": "F" } },
-        { "player": { "name": "Raul JIMENEZ",     "number": 9,  "pos": "F" } },
-        { "player": { "name": "Roberto ALVARADO", "number": 25, "pos": "F" } }
+        { "player": { "name": "Matej KOVAR",     "number": 1,  "pos": "G" } },
+        { "player": { "name": "Tomas HOLES",     "number": 3,  "pos": "D" } },
+        { "player": { "name": "Robin HRANAC",    "number": 4,  "pos": "D" } },
+        { "player": { "name": "Ladislav KREJCI", "number": 7,  "pos": "D" } },
+        { "player": { "name": "Vladimir COUFAL", "number": 5,  "pos": "D" } },
+        { "player": { "name": "Vladimir DARIDA", "number": 8,  "pos": "M" } },
+        { "player": { "name": "Lukas CERV",      "number": 12, "pos": "M" } },
+        { "player": { "name": "Michal SADILEK",  "number": 18, "pos": "M" } },
+        { "player": { "name": "Alexandr SOJKA",  "number": 24, "pos": "M" } },
+        { "player": { "name": "Patrik SCHICK",   "number": 10, "pos": "F" } },
+        { "player": { "name": "Adam HLOZEK",     "number": 9,  "pos": "F" } }
       ],
       "substitutes": [
-        { "player": { "name": "Carlos ACEVEDO",    "number": 12, "pos": "G" } },
-        { "player": { "name": "Guillermo OCHOA",   "number": 13, "pos": "G" } },
-        { "player": { "name": "Israel REYES",      "number": 15, "pos": "D" } },
-        { "player": { "name": "Mateo CHAVEZ",      "number": 20, "pos": "D" } },
-        { "player": { "name": "Alvaro FIDALGO",    "number": 8,  "pos": "M" } },
-        { "player": { "name": "Orbelin PINEDA",    "number": 17, "pos": "M" } },
-        { "player": { "name": "Obed VARGAS",       "number": 18, "pos": "M" } },
-        { "player": { "name": "Gilberto MORA",     "number": 19, "pos": "M" } },
-        { "player": { "name": "Luis CHAVEZ",       "number": 24, "pos": "M" } },
-        { "player": { "name": "Alexis VEGA",       "number": 10, "pos": "F" } },
-        { "player": { "name": "Santiago GIMENEZ",  "number": 11, "pos": "F" } },
-        { "player": { "name": "Armando GONZALEZ",  "number": 14, "pos": "F" } },
-        { "player": { "name": "Cesar HUERTA",      "number": 21, "pos": "F" } },
-        { "player": { "name": "Guillermo MARTINEZ","number": 22, "pos": "F" } }
+        { "player": { "name": "Jindrich STANEK",  "number": 16, "pos": "G" } },
+        { "player": { "name": "Lukas HORNICEK",   "number": 23, "pos": "G" } },
+        { "player": { "name": "David ZIMA",       "number": 2,  "pos": "D" } },
+        { "player": { "name": "Stepan CHALOUPEK", "number": 6,  "pos": "D" } },
+        { "player": { "name": "David DOUDERA",    "number": 21, "pos": "D" } },
+        { "player": { "name": "Jaroslav ZELENY",  "number": 20, "pos": "M" } },
+        { "player": { "name": "Tomas SOUCEK",     "number": 22, "pos": "M" } },
+        { "player": { "name": "Pavel SULC",       "number": 15, "pos": "M" } },
+        { "player": { "name": "Lukas PROVOD",     "number": 17, "pos": "F" } },
+        { "player": { "name": "Hugo SOCHUREK",    "number": 25, "pos": "F" } },
+        { "player": { "name": "Jan KUCHTA",       "number": 11, "pos": "F" } },
+        { "player": { "name": "Mojmir CHYTIL",    "number": 13, "pos": "F" } },
+        { "player": { "name": "Tomas CHORY",      "number": 19, "pos": "F" } },
+        { "player": { "name": "Denis VISINSKY",   "number": 26, "pos": "M" } }
       ]
     },
     {
-      "team": { "name": "South Korea" },
-      "formation": "3-4-3",
+      "team": { "name": "South Africa" },
+      "formation": "4-3-3",
       "startXI": [
-        { "player": { "name": "KIM Seunggyu",  "number": 1,  "pos": "G" } },
-        { "player": { "name": "LEE Hanbeom",   "number": 2,  "pos": "D" } },
-        { "player": { "name": "KIM Minjae",    "number": 4,  "pos": "D" } },
-        { "player": { "name": "KIM Moonhwan",  "number": 15, "pos": "D" } },
-        { "player": { "name": "EOM Jisung",    "number": 25, "pos": "D" } },
-        { "player": { "name": "LEE Gihyuk",    "number": 3,  "pos": "M" } },
-        { "player": { "name": "HWANG Inbeom",  "number": 6,  "pos": "M" } },
-        { "player": { "name": "PAIK Seungho",  "number": 8,  "pos": "M" } },
-        { "player": { "name": "LEE Kangin",    "number": 19, "pos": "F" } },
-        { "player": { "name": "SON Heungmin",  "number": 7,  "pos": "F" } },
-        { "player": { "name": "HWANG Heechan", "number": 11, "pos": "F" } }
+        { "player": { "name": "Ronwen WILLIAMS",   "number": 1,  "pos": "G" } },
+        { "player": { "name": "Aubrey MODIBA",     "number": 6,  "pos": "D" } },
+        { "player": { "name": "Mbekezeli MBOKAZI", "number": 14, "pos": "D" } },
+        { "player": { "name": "Khuliso MUDAU",     "number": 20, "pos": "D" } },
+        { "player": { "name": "Ime OKON",          "number": 21, "pos": "D" } },
+        { "player": { "name": "Teboho MOKOENA",    "number": 4,  "pos": "M" } },
+        { "player": { "name": "Thalente MBATHA",   "number": 5,  "pos": "M" } },
+        { "player": { "name": "Jayden ADAMS",      "number": 23, "pos": "M" } },
+        { "player": { "name": "Oswin APPOLLIS",    "number": 7,  "pos": "F" } },
+        { "player": { "name": "Thapelo MASEKO",    "number": 12, "pos": "F" } },
+        { "player": { "name": "Iqraam RAYNERS",    "number": 15, "pos": "F" } }
       ],
       "substitutes": [
-        { "player": { "name": "SONG Bumkeun",    "number": 12, "pos": "G" } },
-        { "player": { "name": "JO Hyeonwoo",     "number": 21, "pos": "G" } },
-        { "player": { "name": "KIM Taehyeon",    "number": 5,  "pos": "D" } },
-        { "player": { "name": "LEE Taeseok",     "number": 13, "pos": "D" } },
-        { "player": { "name": "CHO Wije",        "number": 14, "pos": "D" } },
-        { "player": { "name": "PARK Jinseob",    "number": 16, "pos": "D" } },
-        { "player": { "name": "CASTROP Jens",    "number": 23, "pos": "M" } },
-        { "player": { "name": "BAE Junho",       "number": 17, "pos": "M" } },
-        { "player": { "name": "LEE Donggyeong",  "number": 26, "pos": "M" } },
-        { "player": { "name": "YANG Hyunjun",    "number": 20, "pos": "F" } },
-        { "player": { "name": "SEOL Youngwoo",   "number": 22, "pos": "F" } },
-        { "player": { "name": "KIM Jingyu",      "number": 24, "pos": "F" } },
-        { "player": { "name": "CHO Guesung",     "number": 9,  "pos": "F" } },
-        { "player": { "name": "OH Hyeongyu",     "number": 18, "pos": "F" } }
+        { "player": { "name": "Sipho CHAINE",        "number": 16, "pos": "G" } },
+        { "player": { "name": "Ricardo GOSS",        "number": 22, "pos": "G" } },
+        { "player": { "name": "Thabang MATULUDI",    "number": 2,  "pos": "D" } },
+        { "player": { "name": "Khulumani NDAMANE",   "number": 3,  "pos": "D" } },
+        { "player": { "name": "Samukele KABINI",     "number": 18, "pos": "D" } },
+        { "player": { "name": "Nkosinathi SIBISI",   "number": 19, "pos": "D" } },
+        { "player": { "name": "Olwethu MAKHANYA",    "number": 24, "pos": "D" } },
+        { "player": { "name": "Bradley CROSS",       "number": 26, "pos": "D" } },
+        { "player": { "name": "Tshepang MOREMI",     "number": 8,  "pos": "M" } },
+        { "player": { "name": "Relebohile MOFOKENG", "number": 10, "pos": "F" } },
+        { "player": { "name": "Lyle FOSTER",         "number": 9,  "pos": "F" } },
+        { "player": { "name": "Evidence MAKGOPA",    "number": 17, "pos": "F" } },
+        { "player": { "name": "Kamogelo SEBELEBELE", "number": 25, "pos": "F" } }
       ]
     }
   ]

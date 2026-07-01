@@ -1,105 +1,546 @@
-{
-  "fixture": {
-    "id": "wc2026-group-e-germany-curacao",
-    "date": "2026-06-14T20:00:00Z",
-    "venue": { "name": "MetLife Stadium", "city": "East Rutherford" },
-    "status": { "short": "FT", "long": "Match Finished" }
-  },
-  "league": { "round": "Group E" },
-  "teams": {
-    "home": { "name": "Germany", "code": "GER" },
-    "away": { "name": "Curaçao", "code": "CUW" }
-  },
-  "goals": { "home": 7, "away": 1 },
-  "score": {
-    "halftime": { "home": 3, "away": 1 },
-    "fulltime": { "home": 7, "away": 1 }
-  },
-  "stats": [
-    {
-      "team": "Germany",
-      "statistics": [
-        { "type": "Possession", "value": "57%" },
-        { "type": "Shots on Goal", "value": 12 },
-        { "type": "Total Shots", "value": 26 },
-        { "type": "Corner Kicks", "value": 8 },
-        { "type": "Fouls", "value": 18 },
-        { "type": "Yellow Cards", "value": 0 },
-        { "type": "Red Cards", "value": 0 }
-      ]
-    },
-    {
-      "team": "Curaçao",
-      "statistics": [
-        { "type": "Possession", "value": "35%" },
-        { "type": "Shots on Goal", "value": 2 },
-        { "type": "Total Shots", "value": 8 },
-        { "type": "Corner Kicks", "value": 1 },
-        { "type": "Fouls", "value": 11 },
-        { "type": "Yellow Cards", "value": 0 },
-        { "type": "Red Cards", "value": 0 }
-      ]
-    }
-  ],
-  "events": [
-    { "minute": 6,  "team": "Germany",  "player": "Lukas Nmecha",       "type": "Goal", "detail": "Normal Goal" },
-    { "minute": 21, "team": "Curaçao",  "player": "Livorno Comenencia", "type": "Goal", "detail": "Normal Goal" },
-    { "minute": 38, "team": "Germany",  "player": "Nico Schlotterbeck", "type": "Goal", "detail": "Normal Goal" },
-    { "minute": 45, "team": "Germany",  "player": "Kai Havertz",        "type": "Goal", "detail": "Penalty" },
-    { "minute": 47, "team": "Germany",  "player": "Jamal Musiala",      "type": "Goal", "detail": "Normal Goal" },
-    { "minute": 64, "team": "Germany",  "player": "Deniz Undav",        "type": "subst","detail": "out: Jamal Musiala, in: Deniz Undav" },
-    { "minute": 68, "team": "Germany",  "player": "Maximilian Brown",   "type": "Goal", "detail": "Normal Goal" },
-    { "minute": 73, "team": "Germany",  "player": "Antonio Rüdiger",    "type": "subst","detail": "out: Jonathan Tah, in: Antonio Rüdiger" },
-    { "minute": 78, "team": "Germany",  "player": "Deniz Undav",        "type": "Goal", "detail": "Normal Goal" },
-    { "minute": 88, "team": "Germany",  "player": "Kai Havertz",        "type": "Goal", "detail": "Normal Goal" }
-  ],
-  "lineups": [
-    {
-      "team": { "name": "Germany" },
-      "formation": "4-2-3-1",
-      "startXI": [
-        { "player": { "name": "Manuel Neuer",         "number": 1,  "pos": "GK" } },
-        { "player": { "name": "Joshua Kimmich",       "number": 6,  "pos": "RB" } },
-        { "player": { "name": "Jonathan Tah",         "number": 4,  "pos": "CB" } },
-        { "player": { "name": "Nico Schlotterbeck",   "number": 15, "pos": "CB" } },
-        { "player": { "name": "Maximilian Brown",     "number": 18, "pos": "LB" } },
-        { "player": { "name": "Lukas Nmecha",         "number": 23, "pos": "DM" } },
-        { "player": { "name": "Aleksandar Pavlović",  "number": 5,  "pos": "DM" } },
-        { "player": { "name": "Leroy Sané",           "number": 19, "pos": "RM" } },
-        { "player": { "name": "Jamal Musiala",        "number": 10, "pos": "AM" } },
-        { "player": { "name": "Florian Wirtz",        "number": 17, "pos": "LM" } },
-        { "player": { "name": "Kai Havertz",          "number": 7,  "pos": "ST" } }
-      ],
-      "substitutes": [
-        { "player": { "name": "Marc-André ter Stegen","number": 22, "pos": "GK" } },
-        { "player": { "name": "Antonio Rüdiger",      "number": 2,  "pos": "DF" } },
-        { "player": { "name": "Waldemar Anton",       "number": 3,  "pos": "DF" } },
-        { "player": { "name": "Leon Goretzka",        "number": 8,  "pos": "MF" } },
-        { "player": { "name": "Deniz Undav",          "number": 26, "pos": "FW" } },
-        { "player": { "name": "Niclas Füllkrug",      "number": 13, "pos": "FW" } }
-      ]
-    },
-    {
-      "team": { "name": "Curaçao" },
-      "formation": "4-3-1-2",
-      "startXI": [
-        { "player": { "name": "Eloy Room",              "number": 1,  "pos": "GK" } },
-        { "player": { "name": "Cuco Martina",           "number": 5,  "pos": "RB" } },
-        { "player": { "name": "Riechedly Bazoer",       "number": 23, "pos": "CB" } },
-        { "player": { "name": "Rangelo Janga",          "number": 18, "pos": "CB" } },
-        { "player": { "name": "Ethan Obispo",           "number": 24, "pos": "LB" } },
-        { "player": { "name": "Livorno Comenencia",     "number": 8,  "pos": "CM" } },
-        { "player": { "name": "Jafar Aisati",           "number": 10, "pos": "CM" } },
-        { "player": { "name": "Juninho Bacuna",         "number": 7,  "pos": "CM" } },
-        { "player": { "name": "Leandro Bacuna",         "number": null,"pos": "AM" } },
-        { "player": { "name": "Chederick van den Berg", "number": 21, "pos": "FW" } },
-        { "player": { "name": "Jurickson Locadia",      "number": 9,  "pos": "FW" } }
-      ],
-      "substitutes": [
-        { "player": { "name": "Timon Wellenreuther","number": 13, "pos": "GK" } },
-        { "player": { "name": "Myron Boadu",        "number": 11, "pos": "FW" } },
-        { "player": { "name": "Evander",            "number": 15, "pos": "MF" } }
-      ]
-    }
-  ]
+﻿{
+    "fixture":  {
+                    "id":  "wc2026-group-d-paraguay-australia",
+                    "date":  "2026-06-25T23:00:00Z",
+                    "venue":  {
+                                  "name":  "San Francisco Bay Area Stadium",
+                                  "city":  "San Francisco Bay Area"
+                              },
+                    "status":  {
+                                   "short":  "FT",
+                                   "long":  "Match Finished"
+                               }
+                },
+    "league":  {
+                   "round":  "Group D"
+               },
+    "teams":  {
+                  "home":  {
+                               "name":  "Paraguay",
+                               "code":  "PAR"
+                           },
+                  "away":  {
+                               "name":  "Australia",
+                               "code":  "AUS"
+                           }
+              },
+    "goals":  {
+                  "home":  0,
+                  "away":  0
+              },
+    "score":  {
+                  "halftime":  {
+                                   "home":  0,
+                                   "away":  0
+                               },
+                  "fulltime":  {
+                                   "home":  0,
+                                   "away":  0
+                               }
+              },
+    "stats":  [
+                  {
+                      "team":  "Paraguay",
+                      "statistics":  [
+                                         {
+                                             "type":  "Possession",
+                                             "value":  "42%"
+                                         },
+                                         {
+                                             "type":  "Shots on Goal",
+                                             "value":  2
+                                         },
+                                         {
+                                             "type":  "Total Shots",
+                                             "value":  7
+                                         },
+                                         {
+                                             "type":  "Corner Kicks",
+                                             "value":  1
+                                         },
+                                         {
+                                             "type":  "Fouls",
+                                             "value":  9
+                                         },
+                                         {
+                                             "type":  "Yellow Cards",
+                                             "value":  1
+                                         },
+                                         {
+                                             "type":  "Red Cards",
+                                             "value":  0
+                                         }
+                                     ]
+                  },
+                  {
+                      "team":  "Australia",
+                      "statistics":  [
+                                         {
+                                             "type":  "Possession",
+                                             "value":  "46%"
+                                         },
+                                         {
+                                             "type":  "Shots on Goal",
+                                             "value":  5
+                                         },
+                                         {
+                                             "type":  "Total Shots",
+                                             "value":  12
+                                         },
+                                         {
+                                             "type":  "Corner Kicks",
+                                             "value":  3
+                                         },
+                                         {
+                                             "type":  "Fouls",
+                                             "value":  6
+                                         },
+                                         {
+                                             "type":  "Yellow Cards",
+                                             "value":  1
+                                         },
+                                         {
+                                             "type":  "Red Cards",
+                                             "value":  0
+                                         }
+                                     ]
+                  }
+              ],
+    "events":  [
+                   {
+                       "minute":  0,
+                       "team":  "Paraguay",
+                       "player":  "Mauricio",
+                       "type":  "subst",
+                       "detail":  "out: Alexandro Maidana, in: Mauricio (HT)"
+                   },
+                   {
+                       "minute":  46,
+                       "team":  "Australia",
+                       "player":  "Jackson Irvine",
+                       "type":  "subst",
+                       "detail":  "out: Jackson Irvine, in: Ajdin Hrustic"
+                   },
+                   {
+                       "minute":  58,
+                       "team":  "Australia",
+                       "player":  "Ajdin Hrustic",
+                       "type":  "subst",
+                       "detail":  "out: Ajdin Hrustic, in: Cristian Volpato"
+                   },
+                   {
+                       "minute":  67,
+                       "team":  "Paraguay",
+                       "player":  "Alex Arce",
+                       "type":  "subst",
+                       "detail":  "out: Alex Arce, in: Gabriel Avalos"
+                   },
+                   {
+                       "minute":  77,
+                       "team":  "Paraguay",
+                       "player":  "Diego Gomez",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   },
+                   {
+                       "minute":  84,
+                       "team":  "Paraguay",
+                       "player":  "Jose Canale",
+                       "type":  "subst",
+                       "detail":  "out: Jose Canale, in: Omar Alderete"
+                   },
+                   {
+                       "minute":  84,
+                       "team":  "Australia",
+                       "player":  "Tete Yengi",
+                       "type":  "subst",
+                       "detail":  "out: Nestory Irankunda, in: Tete Yengi"
+                   },
+                   {
+                       "minute":  84,
+                       "team":  "Australia",
+                       "player":  "Paul Okon-Engstler",
+                       "type":  "subst",
+                       "detail":  "out: Jackson Irvine, in: Paul Okon-Engstler"
+                   },
+                   {
+                       "minute":  92,
+                       "team":  "Paraguay",
+                       "player":  "Damian Bobadilla",
+                       "type":  "subst",
+                       "detail":  "out: Damian Bobadilla, in: Matias Galarza"
+                   },
+                   {
+                       "minute":  92,
+                       "team":  "Paraguay",
+                       "player":  "Junior Alonso",
+                       "type":  "subst",
+                       "detail":  "out: Junior Alonso, in: [reserve]"
+                   }
+               ],
+    "lineups":  [
+                    {
+                        "team":  {
+                                     "name":  "Paraguay"
+                                 },
+                        "formation":  "5-3-2",
+                        "startXI":  [
+                                        {
+                                            "player":  {
+                                                           "name":  "Orlando Gill",
+                                                           "number":  12,
+                                                           "pos":  "G"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Gustavo Velazquez",
+                                                           "number":  2,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Omar Alderete",
+                                                           "number":  3,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Jose Canale",
+                                                           "number":  13,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Juan Jose Caceres",
+                                                           "number":  4,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Gustavo Gomez",
+                                                           "number":  15,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Alexandro Maidana",
+                                                           "number":  26,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Diego Gomez",
+                                                           "number":  8,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Damian Bobadilla",
+                                                           "number":  16,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Andres Cubas",
+                                                           "number":  14,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Julio Enciso",
+                                                           "number":  19,
+                                                           "pos":  "F"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Alex Arce",
+                                                           "number":  18,
+                                                           "pos":  "F"
+                                                       }
+                                        }
+                                    ],
+                        "substitutes":  [
+                                            {
+                                                "player":  {
+                                                               "name":  "Gatito Fernandez",
+                                                               "number":  1,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Gaston Olveira",
+                                                               "number":  22,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Fabian Balbuena",
+                                                               "number":  5,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Junior Alonso",
+                                                               "number":  6,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Ramon Sosa",
+                                                               "number":  7,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Mauricio",
+                                                               "number":  11,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Matias Galarza",
+                                                               "number":  23,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Braian Ojeda",
+                                                               "number":  20,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Gabriel Avalos",
+                                                               "number":  21,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Antonio Sanabria",
+                                                               "number":  9,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Alejandro Romero Gamarra",
+                                                               "number":  17,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Isidro Pitta",
+                                                               "number":  25,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Gustavo Caballero",
+                                                               "number":  24,
+                                                               "pos":  null
+                                                           }
+                                            }
+                                        ]
+                    },
+                    {
+                        "team":  {
+                                     "name":  "Australia"
+                                 },
+                        "formation":  "3-4-3",
+                        "startXI":  [
+                                        {
+                                            "player":  {
+                                                           "name":  "Patrick Beach",
+                                                           "number":  18,
+                                                           "pos":  "G"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Alessandro Circati",
+                                                           "number":  3,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Jordan Bos",
+                                                           "number":  5,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Aziz Behich",
+                                                           "number":  16,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Harry Souttar",
+                                                           "number":  19,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Lucas Herrington",
+                                                           "number":  25,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Connor Metcalfe",
+                                                           "number":  8,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Aiden O'Neill",
+                                                           "number":  13,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Jackson Irvine",
+                                                           "number":  22,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Nestory Irankunda",
+                                                           "number":  17,
+                                                           "pos":  "F"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Cristian Volpato",
+                                                           "number":  20,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Ajdin Hrustic",
+                                                           "number":  10,
+                                                           "pos":  "M"
+                                                       }
+                                        }
+                                    ],
+                        "substitutes":  [
+                                            {
+                                                "player":  {
+                                                               "name":  "Mathew Ryan",
+                                                               "number":  1,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Paul Izzo",
+                                                               "number":  12,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Milos Degenek",
+                                                               "number":  2,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Jason Geria",
+                                                               "number":  6,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Kai Trewin",
+                                                               "number":  15,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Cameron Burgess",
+                                                               "number":  21,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Cameron Devlin",
+                                                               "number":  14,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Paul Okon-Engstler",
+                                                               "number":  24,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Mohamed Toure",
+                                                               "number":  9,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Awer Mabil",
+                                                               "number":  11,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Tete Yengi",
+                                                               "number":  26,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Nishan Velupillay",
+                                                               "number":  23,
+                                                               "pos":  null
+                                                           }
+                                            }
+                                        ]
+                    }
+                ]
 }

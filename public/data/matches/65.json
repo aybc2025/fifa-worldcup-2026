@@ -1,10 +1,10 @@
 ﻿{
     "fixture":  {
-                    "id":  "wc2026-group-l-croatia-ghana",
-                    "date":  "2026-06-27T18:00:00Z",
+                    "id":  "wc2026-group-k-colombia-portugal",
+                    "date":  "2026-06-27T20:30:00Z",
                     "venue":  {
-                                  "name":  "Philadelphia Stadium",
-                                  "city":  "Philadelphia"
+                                  "name":  "Miami Stadium",
+                                  "city":  "Miami"
                               },
                     "status":  {
                                    "short":  "FT",
@@ -12,55 +12,55 @@
                                }
                 },
     "league":  {
-                   "round":  "Group L"
+                   "round":  "Group K"
                },
     "teams":  {
                   "home":  {
-                               "name":  "Croatia",
-                               "code":  "CRO"
+                               "name":  "Colombia",
+                               "code":  "COL"
                            },
                   "away":  {
-                               "name":  "Ghana",
-                               "code":  "GHA"
+                               "name":  "Portugal",
+                               "code":  "POR"
                            }
               },
     "goals":  {
-                  "home":  2,
-                  "away":  1
+                  "home":  0,
+                  "away":  0
               },
     "score":  {
                   "halftime":  {
-                                   "home":  1,
+                                   "home":  0,
                                    "away":  0
                                },
                   "fulltime":  {
-                                   "home":  2,
-                                   "away":  1
+                                   "home":  0,
+                                   "away":  0
                                }
               },
     "stats":  [
                   {
-                      "team":  "Croatia",
+                      "team":  "Colombia",
                       "statistics":  [
                                          {
                                              "type":  "Possession",
-                                             "value":  "50%"
+                                             "value":  "51%"
                                          },
                                          {
                                              "type":  "Shots on Goal",
-                                             "value":  4
+                                             "value":  7
                                          },
                                          {
                                              "type":  "Total Shots",
-                                             "value":  8
+                                             "value":  24
                                          },
                                          {
                                              "type":  "Corner Kicks",
-                                             "value":  3
+                                             "value":  5
                                          },
                                          {
                                              "type":  "Fouls",
-                                             "value":  9
+                                             "value":  12
                                          },
                                          {
                                              "type":  "Yellow Cards",
@@ -73,19 +73,19 @@
                                      ]
                   },
                   {
-                      "team":  "Ghana",
+                      "team":  "Portugal",
                       "statistics":  [
                                          {
                                              "type":  "Possession",
-                                             "value":  "43%"
+                                             "value":  "41%"
                                          },
                                          {
                                              "type":  "Shots on Goal",
-                                             "value":  1
+                                             "value":  2
                                          },
                                          {
                                              "type":  "Total Shots",
-                                             "value":  6
+                                             "value":  13
                                          },
                                          {
                                              "type":  "Corner Kicks",
@@ -93,11 +93,11 @@
                                          },
                                          {
                                              "type":  "Fouls",
-                                             "value":  13
+                                             "value":  6
                                          },
                                          {
                                              "type":  "Yellow Cards",
-                                             "value":  1
+                                             "value":  0
                                          },
                                          {
                                              "type":  "Red Cards",
@@ -108,220 +108,164 @@
               ],
     "events":  [
                    {
-                       "minute":  31,
-                       "team":  "Croatia",
-                       "player":  "Petar Sucic",
-                       "type":  "Goal",
-                       "detail":  "Normal Goal"
+                       "minute":  0,
+                       "team":  "Portugal",
+                       "player":  "Diogo Dalot",
+                       "type":  "subst",
+                       "detail":  "out: Joao Cancelo, in: Diogo Dalot (HT)"
                    },
                    {
                        "minute":  0,
-                       "team":  "Ghana",
-                       "player":  "Kojo Peprah Oppong",
+                       "team":  "Portugal",
+                       "player":  "Joao Neves",
                        "type":  "subst",
-                       "detail":  "out: Jonas Adjetey, in: Kojo Peprah Oppong (HT)"
+                       "detail":  "out: Ruben Neves, in: Joao Neves (HT)"
                    },
                    {
-                       "minute":  0,
-                       "team":  "Ghana",
-                       "player":  "Abdul Fatawu",
+                       "minute":  60,
+                       "team":  "Colombia",
+                       "player":  "Richard Rios",
                        "type":  "subst",
-                       "detail":  "out: Elisha Owusu, in: Abdul Fatawu (HT)"
+                       "detail":  "out: Jefferson Lerma, in: Richard Rios"
                    },
                    {
-                       "minute":  66,
-                       "team":  "Croatia",
-                       "player":  "Igor Matanovic",
+                       "minute":  60,
+                       "team":  "Colombia",
+                       "player":  "Luis Suarez",
                        "type":  "subst",
-                       "detail":  "out: Ante Budimir, in: Igor Matanovic"
+                       "detail":  "out: Jhon Cordoba, in: Luis Suarez"
                    },
                    {
-                       "minute":  68,
-                       "team":  "Croatia",
-                       "player":  "Ivan Perisic",
+                       "minute":  70,
+                       "team":  "Portugal",
+                       "player":  "Vitinha",
                        "type":  "subst",
-                       "detail":  "out: Ivan Perisic, in: [reserve]"
+                       "detail":  "out: Samu Costa, in: Vitinha"
                    },
                    {
-                       "minute":  71,
-                       "team":  "Ghana",
-                       "player":  "Ernest Nuamah",
+                       "minute":  70,
+                       "team":  "Portugal",
+                       "player":  "Rafael Leao",
                        "type":  "subst",
-                       "detail":  "out: Kamaldeen Sulemana, in: Ernest Nuamah"
+                       "detail":  "out: Joao Felix, in: Rafael Leao"
                    },
                    {
-                       "minute":  71,
-                       "team":  "Ghana",
-                       "player":  "Brandon Thomas-Asante",
+                       "minute":  76,
+                       "team":  "Colombia",
+                       "player":  "Juan Quintero",
                        "type":  "subst",
-                       "detail":  "out: Jordan Ayew, in: Brandon Thomas-Asante"
+                       "detail":  "out: Jhon Arias, in: Juan Quintero"
                    },
                    {
-                       "minute":  73,
-                       "team":  "Ghana",
-                       "player":  "Derrick Luckassen",
-                       "type":  "Goal",
-                       "detail":  "Normal Goal"
-                   },
-                   {
-                       "minute":  78,
-                       "team":  "Croatia",
-                       "player":  "Mario Pasalic",
+                       "minute":  76,
+                       "team":  "Colombia",
+                       "player":  "Kevin Castano",
                        "type":  "subst",
-                       "detail":  "out: Mario Pasalic, in: Mateo Kovacic"
+                       "detail":  "out: Kevin Castano, in: [reserve]"
                    },
                    {
-                       "minute":  83,
-                       "team":  "Croatia",
-                       "player":  "Nikola Vlasic",
-                       "type":  "Goal",
-                       "detail":  "Normal Goal"
-                   },
-                   {
-                       "minute":  85,
-                       "team":  "Ghana",
-                       "player":  "Caleb Yirenkyi",
+                       "minute":  86,
+                       "team":  "Colombia",
+                       "player":  "James Rodriguez",
                        "type":  "subst",
-                       "detail":  "out: Caleb Yirenkyi, in: [reserve]"
+                       "detail":  "out: Gustavo Puerta, in: James Rodriguez"
                    },
                    {
-                       "minute":  85,
-                       "team":  "Ghana",
-                       "player":  "Kwasi Sibo",
-                       "type":  "Card",
-                       "detail":  "Yellow Card"
-                   },
-                   {
-                       "minute":  88,
-                       "team":  "Croatia",
-                       "player":  "Josko Gvardiol",
+                       "minute":  87,
+                       "team":  "Colombia",
+                       "player":  "Daniel Munoz",
                        "type":  "subst",
-                       "detail":  "out: Martin Baturina, in: Josko Gvardiol"
-                   },
-                   {
-                       "minute":  88,
-                       "team":  "Croatia",
-                       "player":  "Marco Pasalic",
-                       "type":  "subst",
-                       "detail":  "out: Marco Pasalic, in: [reserve]"
+                       "detail":  "out: Santiago Arias, in: Daniel Munoz"
                    },
                    {
                        "minute":  90,
-                       "team":  "Ghana",
-                       "player":  "Kojo Peprah Oppong",
-                       "type":  "Card",
-                       "detail":  "Yellow Card"
-                   },
-                   {
-                       "minute":  94,
-                       "team":  "Croatia",
-                       "player":  "Luka Modric",
-                       "type":  "Card",
-                       "detail":  "Yellow Card"
+                       "team":  "Portugal",
+                       "player":  "Matheus Nunes",
+                       "type":  "subst",
+                       "detail":  "out: Nuno Mendes, in: Matheus Nunes"
                    }
                ],
     "lineups":  [
                     {
                         "team":  {
-                                     "name":  "Croatia"
+                                     "name":  "Colombia"
                                  },
-                        "formation":  "4-2-3-1",
+                        "formation":  "4-1-2-3",
                         "startXI":  [
                                         {
                                             "player":  {
-                                                           "name":  "Dominik Livakovic",
-                                                           "number":  1,
+                                                           "name":  "Camilo Vargas",
+                                                           "number":  12,
                                                            "pos":  "G"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Josip Stanisic",
-                                                           "number":  2,
-                                                           "pos":  "D"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Marin Pongracic",
+                                                           "name":  "Jhon Lucumi",
                                                            "number":  3,
                                                            "pos":  "D"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Josip Sutalo",
-                                                           "number":  6,
-                                                           "pos":  "D"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Josko Gvardiol",
+                                                           "name":  "Santiago Arias",
                                                            "number":  4,
                                                            "pos":  "D"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Mateo Kovacic",
-                                                           "number":  8,
+                                                           "name":  "Gustavo Puerta",
+                                                           "number":  14,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Deiver Machado",
+                                                           "number":  22,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Davinson Sanchez",
+                                                           "number":  23,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Jhon Arias",
+                                                           "number":  11,
                                                            "pos":  "M"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Mario Pasalic",
-                                                           "number":  15,
+                                                           "name":  "Kevin Castano",
+                                                           "number":  5,
                                                            "pos":  "M"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Luka Modric",
-                                                           "number":  10,
-                                                           "pos":  "M"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Nikola Vlasic",
-                                                           "number":  13,
-                                                           "pos":  "M"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Martin Baturina",
+                                                           "name":  "Jefferson Lerma",
                                                            "number":  16,
                                                            "pos":  "M"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Marco Pasalic",
-                                                           "number":  24,
-                                                           "pos":  "M"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Petar Sucic",
-                                                           "number":  17,
-                                                           "pos":  "M"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Ante Budimir",
-                                                           "number":  11,
+                                                           "name":  "Luis Diaz",
+                                                           "number":  7,
                                                            "pos":  "F"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Ivan Perisic",
-                                                           "number":  14,
+                                                           "name":  "Jhon Cordoba",
+                                                           "number":  9,
                                                            "pos":  "F"
                                                        }
                                         }
@@ -329,85 +273,106 @@
                         "substitutes":  [
                                             {
                                                 "player":  {
-                                                               "name":  "Ivor Pandur",
-                                                               "number":  12,
+                                                               "name":  "David Ospina",
+                                                               "number":  1,
                                                                "pos":  "G"
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Dominik Kotarski",
-                                                               "number":  23,
+                                                               "name":  "Alvaro Montero",
+                                                               "number":  24,
                                                                "pos":  "G"
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Duje Caleta-Car",
-                                                               "number":  5,
+                                                               "name":  "Daniel Munoz",
+                                                               "number":  2,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Kristijan Jakic",
+                                                               "name":  "Yerry Mina",
+                                                               "number":  13,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Johan Mojica",
+                                                               "number":  17,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Willer Ditta",
                                                                "number":  18,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Luka Vuskovic",
-                                                               "number":  22,
+                                                               "name":  "Richard Rios",
+                                                               "number":  6,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Martin Erlic",
-                                                               "number":  25,
+                                                               "name":  "Jorge Carrascal",
+                                                               "number":  8,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Marvin Senaya",
-                                                               "number":  26,
+                                                               "name":  "James Rodriguez",
+                                                               "number":  10,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Nikola Moro",
-                                                               "number":  7,
+                                                               "name":  "Juan Portilla",
+                                                               "number":  15,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Toni Fruk",
-                                                               "number":  19,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Luka Sucic",
-                                                               "number":  21,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Igor Matanovic",
+                                                               "name":  "Juan Quintero",
                                                                "number":  20,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Andrej Kramaric",
-                                                               "number":  9,
+                                                               "name":  "Jaminton Campaz",
+                                                               "number":  21,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Cucho Hernandez",
+                                                               "number":  19,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Luis Suarez",
+                                                               "number":  25,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Andres Gomez",
+                                                               "number":  26,
                                                                "pos":  null
                                                            }
                                             }
@@ -415,91 +380,84 @@
                     },
                     {
                         "team":  {
-                                     "name":  "Ghana"
+                                     "name":  "Portugal"
                                  },
-                        "formation":  "4-1-2-3",
+                        "formation":  "4-2-3-1",
                         "startXI":  [
                                         {
                                             "player":  {
-                                                           "name":  "Benjamin Asare",
-                                                           "number":  16,
+                                                           "name":  "Diogo Costa",
+                                                           "number":  1,
                                                            "pos":  "G"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Jonas Adjetey",
-                                                           "number":  4,
+                                                           "name":  "Ruben Dias",
+                                                           "number":  3,
                                                            "pos":  "D"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Gideon Mensah",
-                                                           "number":  14,
+                                                           "name":  "Renato Veiga",
+                                                           "number":  13,
                                                            "pos":  "D"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Derrick Luckassen",
-                                                           "number":  23,
+                                                           "name":  "Joao Cancelo",
+                                                           "number":  20,
                                                            "pos":  "D"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Marvin Senaya",
-                                                           "number":  26,
+                                                           "name":  "Nuno Mendes",
+                                                           "number":  25,
                                                            "pos":  "D"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Thomas Partey",
-                                                           "number":  5,
-                                                           "pos":  "M"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Kwasi Sibo",
+                                                           "name":  "Bruno Fernandes",
                                                            "number":  8,
                                                            "pos":  "M"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Caleb Yirenkyi",
-                                                           "number":  3,
+                                                           "name":  "Ruben Neves",
+                                                           "number":  21,
                                                            "pos":  "M"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Elisha Owusu",
-                                                           "number":  15,
+                                                           "name":  "Samu Costa",
+                                                           "number":  24,
                                                            "pos":  "M"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Antoine Semenyo",
+                                                           "name":  "Cristiano Ronaldo",
+                                                           "number":  7,
+                                                           "pos":  "F"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Joao Felix",
                                                            "number":  11,
                                                            "pos":  "F"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Jordan Ayew",
-                                                           "number":  9,
-                                                           "pos":  "F"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Kamaldeen Sulemana",
-                                                           "number":  22,
+                                                           "name":  "Pedro Neto",
+                                                           "number":  18,
                                                            "pos":  "F"
                                                        }
                                         }
@@ -507,99 +465,106 @@
                         "substitutes":  [
                                             {
                                                 "player":  {
-                                                               "name":  "Lawrence Ati Zigi",
-                                                               "number":  1,
-                                                               "pos":  "G"
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Joseph Anang",
+                                                               "name":  "Jose Sa",
                                                                "number":  12,
                                                                "pos":  "G"
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Alidu Seidu",
+                                                               "name":  "Rui Silva",
+                                                               "number":  22,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Nelson Semedo",
                                                                "number":  2,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Abdul Mumin",
+                                                               "name":  "Tomas Araujo",
+                                                               "number":  4,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Diogo Dalot",
+                                                               "number":  5,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Goncalo Inacio",
+                                                               "number":  14,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Matheus Nunes",
                                                                "number":  6,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Kojo Peprah Oppong",
-                                                               "number":  21,
+                                                               "name":  "Joao Neves",
+                                                               "number":  15,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Baba Rahman",
-                                                               "number":  17,
+                                                               "name":  "Vitinha",
+                                                               "number":  23,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Jerome Opoku",
-                                                               "number":  18,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Abdul Fatawu",
-                                                               "number":  7,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Augustine Boakye",
-                                                               "number":  20,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Christopher Bonsu Baah",
-                                                               "number":  13,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Brandon Thomas-Asante",
+                                                               "name":  "Bernardo Silva",
                                                                "number":  10,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Ernest Nuamah",
-                                                               "number":  24,
+                                                               "name":  "Goncalo Ramos",
+                                                               "number":  9,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Inaki Williams",
+                                                               "name":  "Francisco Trincao",
+                                                               "number":  16,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Rafael Leao",
+                                                               "number":  17,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Goncalo Guedes",
                                                                "number":  19,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Prince Adu",
-                                                               "number":  25,
+                                                               "name":  "Francisco Conceicao",
+                                                               "number":  26,
                                                                "pos":  null
                                                            }
                                             }

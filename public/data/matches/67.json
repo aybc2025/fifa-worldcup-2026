@@ -1,95 +1,99 @@
 {
   "fixture": {
-    "id": "wc2026-group-j-austria-jordan",
-    "date": "2026-06-17T00:00:00Z",
-    "venue": { "name": "Estadio BBVA", "city": "Monterrey" },
+    "id": "wc2026-group-l-england-croatia",
+    "date": "2026-06-18T00:00:00Z",
+    "venue": { "name": "Gillette Stadium", "city": "Boston/New England" },
     "status": { "short": "FT", "long": "Match Finished" }
   },
-  "league": { "round": "Group J" },
+  "league": { "round": "Group L" },
   "teams": {
-    "home": { "name": "Austria", "code": "AUT" },
-    "away": { "name": "Jordan", "code": "JOR" }
+    "home": { "name": "England", "code": "ENG" },
+    "away": { "name": "Croatia", "code": "CRO" }
   },
-  "goals": { "home": 3, "away": 1 },
+  "goals": { "home": 4, "away": 2 },
   "score": {
-    "halftime": { "home": 1, "away": 0 },
-    "fulltime": { "home": 3, "away": 1 }
+    "halftime": { "home": 2, "away": 2 },
+    "fulltime": { "home": 4, "away": 2 }
   },
   "stats": [
     {
-      "team": "Austria",
+      "team": "England",
       "statistics": [
-        { "type": "Possession", "value": "53%" },
-        { "type": "Shots on Goal", "value": 4 },
-        { "type": "Total Shots", "value": 10 },
-        { "type": "Corner Kicks", "value": 4 },
-        { "type": "Fouls", "value": 12 },
-        { "type": "Yellow Cards", "value": 1 },
+        { "type": "Possession", "value": "48%" },
+        { "type": "Shots on Goal", "value": 11 },
+        { "type": "Total Shots", "value": 22 },
+        { "type": "Corner Kicks", "value": 8 },
+        { "type": "Fouls", "value": 10 },
+        { "type": "Yellow Cards", "value": 0 },
         { "type": "Red Cards", "value": 0 }
       ]
     },
     {
-      "team": "Jordan",
+      "team": "Croatia",
       "statistics": [
-        { "type": "Possession", "value": "33%" },
-        { "type": "Shots on Goal", "value": 3 },
-        { "type": "Total Shots", "value": 11 },
-        { "type": "Corner Kicks", "value": 3 },
-        { "type": "Fouls", "value": 7 },
+        { "type": "Possession", "value": "43%" },
+        { "type": "Shots on Goal", "value": 5 },
+        { "type": "Total Shots", "value": 10 },
+        { "type": "Corner Kicks", "value": 2 },
+        { "type": "Fouls", "value": 12 },
         { "type": "Yellow Cards", "value": 0 },
         { "type": "Red Cards", "value": 0 }
       ]
     }
   ],
   "events": [
-    { "minute": 20,  "team": "Austria", "player": "Romano Schmid",    "type": "Goal",  "detail": "Normal Goal", "_confidence": "FIFA: Schmid 20', Sofascore: Baumgartner 20' — FIFA used as tiebreaker" },
-    { "minute": 50,  "team": "Jordan",  "player": "Ali Olwan",        "type": "Goal",  "detail": "Normal Goal" },
-    { "minute": 76,  "team": "Austria", "player": "Yazan Al-Arab",    "type": "Goal",  "detail": "Own Goal (Jordan)" },
-    { "minute": 102, "team": "Austria", "player": "Marko Arnautović", "type": "Goal",  "detail": "Penalty" }
+    { "minute": 12, "team": "England", "player": "Harry Kane",       "type": "Goal",  "detail": "Penalty" },
+    { "minute": 36, "team": "Croatia", "player": "Martin Baturina",  "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 42, "team": "England", "player": "Harry Kane",       "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 47, "team": "England", "player": "Jude Bellingham",  "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 50, "team": "Croatia", "player": "Ante Musa",        "type": "Goal",  "detail": "Normal Goal", "_confidence": "FIFA: 50', Sofascore: 45+5' — FIFA used as tiebreaker" },
+    { "minute": 85, "team": "England", "player": "Marcus Rashford",  "type": "Goal",  "detail": "Normal Goal" }
   ],
   "lineups": [
     {
-      "team": { "name": "Austria" },
+      "team": { "name": "England" },
       "formation": "4-2-3-1",
       "startXI": [
-        { "player": { "name": "Patrick Pentz",    "number": 1,  "pos": "GK" } },
-        { "player": { "name": "Stefan Posch",     "number": 5,  "pos": "RB" } },
-        { "player": { "name": "Philipp Lienhart", "number": 15, "pos": "CB" } },
-        { "player": { "name": "David Alaba",      "number": 8,  "pos": "CB" } },
-        { "player": { "name": "Phillipp Mwene",   "number": 16, "pos": "LB" } },
-        { "player": { "name": "Nicolas Seiwald",  "number": 6,  "pos": "DM" } },
-        { "player": { "name": "Xaver Schlager",   "number": 4,  "pos": "DM" } },
-        { "player": { "name": "Patrick Wimmer",   "number": 18, "pos": "RM" } },
-        { "player": { "name": "Konrad Laimer",    "number": 20, "pos": "AM" } },
-        { "player": { "name": "Marcel Sabitzer",  "number": 9,  "pos": "LM" } },
-        { "player": { "name": "Sasa Kalajdzic",   "number": 14, "pos": "ST" } }
+        { "player": { "name": "Jordan Pickford",   "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Reece James",       "number": 24, "pos": "RB" } },
+        { "player": { "name": "Ezri Konsa",        "number": 2,  "pos": "CB" } },
+        { "player": { "name": "John Stones",       "number": 5,  "pos": "CB" } },
+        { "player": { "name": "Levi Colwill",      "number": 3,  "pos": "LB" } },
+        { "player": { "name": "Ethan Nwaneri",     "number": 8,  "pos": "DM" } },
+        { "player": { "name": "Declan Rice",       "number": 4,  "pos": "DM" } },
+        { "player": { "name": "Noni Madueke",      "number": 20, "pos": "RM" } },
+        { "player": { "name": "Jude Bellingham",   "number": 10, "pos": "AM" } },
+        { "player": { "name": "Anthony Gordon",    "number": 18, "pos": "LW" } },
+        { "player": { "name": "Harry Kane",        "number": 9,  "pos": "ST" } }
       ],
       "substitutes": [
-        { "player": { "name": "Christoph Baumgartner","number": 7,  "pos": "MF" } },
-        { "player": { "name": "Romano Schmid",         "number": null,"pos": "MF" } },
-        { "player": { "name": "Marko Arnautović",      "number": 19, "pos": "FW" } },
-        { "player": { "name": "Michael Gregoritsch",   "number": 21, "pos": "FW" } }
+        { "player": { "name": "Dean Henderson",            "number": 13, "pos": "GK" } },
+        { "player": { "name": "Marc Guéhi",                "number": 6,  "pos": "DF" } },
+        { "player": { "name": "Trent Alexander-Arnold",    "number": 12, "pos": "MF" } },
+        { "player": { "name": "Marcus Rashford",           "number": 11, "pos": "FW" } },
+        { "player": { "name": "Ollie Watkins",             "number": 19, "pos": "FW" } }
       ]
     },
     {
-      "team": { "name": "Jordan" },
+      "team": { "name": "Croatia" },
       "formation": "3-4-2-1",
       "startXI": [
-        { "player": { "name": "Yazeed Abu Laila",      "number": 1,  "pos": "GK" } },
-        { "player": { "name": "Abdallah Nasib",        "number": 3,  "pos": "CB" } },
-        { "player": { "name": "Yazan Al-Arab",         "number": 5,  "pos": "CB" } },
-        { "player": { "name": "Bahaeddin Abualnadi",   "number": 16, "pos": "CB" } },
-        { "player": { "name": "Shadi Shaheen",         "number": 23, "pos": "RWB" } },
-        { "player": { "name": "Baha' Faisal",          "number": 21, "pos": "CM" } },
-        { "player": { "name": "Salam Al-Rawabdeh",     "number": 8,  "pos": "CM" } },
-        { "player": { "name": "Musa Al-Tamari",        "number": 20, "pos": "LWB" } },
-        { "player": { "name": "Ahmad Al-Hasan",        "number": 11, "pos": "AM" } },
-        { "player": { "name": "Ali Olwan",             "number": 9,  "pos": "FW" } },
-        { "player": { "name": "Mohammad Abu Harbeed",  "number": 10, "pos": "FW" } }
+        { "player": { "name": "Dominik Livaković", "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Josip Šutalo",      "number": 6,  "pos": "CB" } },
+        { "player": { "name": "Marin Pongračić",   "number": 22, "pos": "CB" } },
+        { "player": { "name": "Joško Gvardiol",    "number": 4,  "pos": "CB" } },
+        { "player": { "name": "Josip Stanišić",    "number": 2,  "pos": "RWB" } },
+        { "player": { "name": "Luka Modrić",       "number": 10, "pos": "CM" } },
+        { "player": { "name": "Mario Pašalić",     "number": 15, "pos": "CM" } },
+        { "player": { "name": "Ivan Perišić",      "number": 14, "pos": "LWB" } },
+        { "player": { "name": "Luka Sučić",        "number": 17, "pos": "AM" } },
+        { "player": { "name": "Martin Baturina",   "number": 16, "pos": "AM" } },
+        { "player": { "name": "Ante Musa",         "number": 26, "pos": "ST" } }
       ],
       "substitutes": [
-        { "player": { "name": "Ibrahim Shbatat",       "number": 12, "pos": "GK" } },
-        { "player": { "name": "Hamza Al-Dardour",      "number": 7,  "pos": "FW" } }
+        { "player": { "name": "Ivica Ivušić",      "number": 12, "pos": "GK" } },
+        { "player": { "name": "Mateo Kovačić",     "number": 8,  "pos": "MF" } },
+        { "player": { "name": "Andrej Kramarić",   "number": 9,  "pos": "FW" } }
       ]
     }
   ]

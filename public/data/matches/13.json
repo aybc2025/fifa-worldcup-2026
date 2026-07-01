@@ -1,95 +1,110 @@
 {
   "fixture": {
-    "id": "wc2026-group-c-haiti-scotland",
-    "date": "2026-06-13T23:00:00Z",
-    "venue": { "name": "Gillette Stadium", "city": "Boston" },
+    "id": "wc2026-group-c-brazil-morocco",
+    "date": "2026-06-13T21:00:00Z",
+    "venue": { "name": "MetLife Stadium", "city": "East Rutherford" },
     "status": { "short": "FT", "long": "Match Finished" }
   },
   "league": { "round": "Group C" },
   "teams": {
-    "home": { "name": "Haiti", "code": "HAI" },
-    "away": { "name": "Scotland", "code": "SCO" }
+    "home": { "name": "Brazil", "code": "BRA" },
+    "away": { "name": "Morocco", "code": "MAR" }
   },
-  "goals": { "home": 0, "away": 1 },
+  "goals": { "home": 1, "away": 1 },
   "score": {
-    "halftime": { "home": 0, "away": 1 },
-    "fulltime": { "home": 0, "away": 1 }
+    "halftime": { "home": 1, "away": 1 },
+    "fulltime": { "home": 1, "away": 1 }
   },
   "stats": [
     {
-      "team": "Haiti",
+      "team": "Brazil",
       "statistics": [
-        { "type": "Possession", "value": "51%", "_confidence": "FIFA=51%, Sofascore=54%; FIFA used" },
-        { "type": "Shots on Goal", "value": 2 },
-        { "type": "Total Shots", "value": 15 },
-        { "type": "Corner Kicks", "value": 4 },
-        { "type": "Fouls", "value": 23 },
-        { "type": "Yellow Cards", "value": 1 },
+        { "type": "Possession", "value": "46%", "_confidence": "FIFA=46%, Sofascore=51%; FIFA used" },
+        { "type": "Shots on Goal", "value": 5 },
+        { "type": "Total Shots", "value": 12 },
+        { "type": "Corner Kicks", "value": 6 },
+        { "type": "Fouls", "value": 16 },
+        { "type": "Yellow Cards", "value": 2 },
         { "type": "Red Cards", "value": 0 }
       ]
     },
     {
-      "team": "Scotland",
+      "team": "Morocco",
       "statistics": [
-        { "type": "Possession", "value": "40%", "_confidence": "FIFA=40%, Sofascore=46%; FIFA used" },
-        { "type": "Shots on Goal", "value": 2 },
-        { "type": "Total Shots", "value": 9 },
-        { "type": "Corner Kicks", "value": 3 },
-        { "type": "Fouls", "value": 21 },
-        { "type": "Yellow Cards", "value": 3 },
+        { "type": "Possession", "value": "45%", "_confidence": "FIFA=45%, Sofascore=49%; FIFA used" },
+        { "type": "Shots on Goal", "value": 3 },
+        { "type": "Total Shots", "value": 14 },
+        { "type": "Corner Kicks", "value": 2 },
+        { "type": "Fouls", "value": 14 },
+        { "type": "Yellow Cards", "value": 0 },
         { "type": "Red Cards", "value": 0 }
       ]
     }
   ],
   "events": [
-    { "minute": 28, "team": "Scotland", "player": "John McGinn",           "type": "Goal",  "detail": "Normal Goal" },
-    { "minute": 61, "team": "Haiti",    "player": "Josué Casimir",         "type": "subst", "detail": "out: Lenny Dossou Deedson, in: Josué Casimir" },
-    { "minute": 76, "team": "Haiti",    "player": "Lenny Joseph",          "type": "subst", "detail": "out: Woodensky Isidor, in: Lenny Joseph" },
-    { "minute": 85, "team": "Haiti",    "player": "Yassin Fortune",        "type": "subst", "detail": "out: Richardson Providence, in: Yassin Fortune" }
+    { "minute": 21, "team": "Morocco", "player": "Ismael Saibari",     "type": "Goal",  "detail": "Normal Goal — assist: Brahim Díaz" },
+    { "minute": 32, "team": "Brazil",  "player": "Vinícius Júnior",    "type": "Goal",  "detail": "Normal Goal — assist: Bruno Guimarães" },
+    { "minute": 46, "team": "Brazil",  "player": "Danilo",             "type": "subst", "detail": "out: Rodrigo Ibañez, in: Danilo" },
+    { "minute": 46, "team": "Brazil",  "player": "Fabinho",            "type": "subst", "detail": "out: Casemiro, in: Fabinho" },
+    { "minute": 61, "team": "Brazil",  "player": "Matheus Cunha",      "type": "subst", "detail": "out: Lucas Paquetá, in: Matheus Cunha" },
+    { "minute": 62, "team": "Brazil",  "player": "Luiz Henrique",      "type": "subst", "detail": "out: Igor Thiago, in: Luiz Henrique" },
+    { "minute": 65, "team": "Morocco", "player": "Charaf Talbi",       "type": "subst", "detail": "out: Brahim Díaz, in: Charaf Talbi" },
+    { "minute": 65, "team": "Morocco", "player": "Soufiane El Mourabet","type": "subst", "detail": "out: Azzedine Ounahi, in: Soufiane El Mourabet" },
+    { "minute": 80, "team": "Brazil",  "player": "Danilo Santos",      "type": "subst", "detail": "out: Bruno Guimarães, in: Danilo Santos" },
+    { "minute": 80, "team": "Morocco", "player": "Ayoub Amaimouni",    "type": "subst", "detail": "out: Bilal El Khannouss, in: Ayoub Amaimouni" },
+    { "minute": 80, "team": "Morocco", "player": "Ayoub Salah-Eddine", "type": "subst", "detail": "out: Noussair Mazraoui, in: Ayoub Salah-Eddine" },
+    { "minute": 89, "team": "Morocco", "player": "Soufiane Rahimi",    "type": "subst", "detail": "out: Ismael Saibari, in: Soufiane Rahimi" }
   ],
   "lineups": [
     {
-      "team": { "name": "Haiti" },
-      "formation": "4-4-2",
+      "team": { "name": "Brazil" },
+      "formation": "4-2-3-1",
       "startXI": [
-        { "player": { "name": "Jimmy Placide",          "number": 1,  "pos": "GK" } },
-        { "player": { "name": "Carlo Arcus",            "number": 2,  "pos": "RB" } },
-        { "player": { "name": "Réginald Adé",           "number": 4,  "pos": "CB" } },
-        { "player": { "name": "Hannes Delcroix",        "number": 5,  "pos": "CB" } },
-        { "player": { "name": "Martin Expérience",      "number": 8,  "pos": "LB" } },
-        { "player": { "name": "Lenny Dossou Deedson",   "number": 11, "pos": "RM" } },
-        { "player": { "name": "Duckens Jean Jacques",   "number": 17, "pos": "CM" } },
-        { "player": { "name": "Jean-Ricner Bellegarde", "number": 10, "pos": "CM" } },
-        { "player": { "name": "Richardson Providence",  "number": 15, "pos": "LM" } },
-        { "player": { "name": "Frantz Pierrot",         "number": 20, "pos": "ST" } },
-        { "player": { "name": "Woodensky Isidor",       "number": 18, "pos": "ST" } }
+        { "player": { "name": "Alisson",           "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Rodrigo Ibañez",    "number": 24, "pos": "RB" } },
+        { "player": { "name": "Marquinhos",        "number": 4,  "pos": "CB" } },
+        { "player": { "name": "Gabriel Magalhães", "number": 3,  "pos": "CB" } },
+        { "player": { "name": "Douglas Santos",    "number": 16, "pos": "LB" } },
+        { "player": { "name": "Casemiro",          "number": 5,  "pos": "DM" } },
+        { "player": { "name": "Bruno Guimarães",   "number": 8,  "pos": "DM" } },
+        { "player": { "name": "Lucas Paquetá",     "number": 20, "pos": "AM" } },
+        { "player": { "name": "Raphinha",          "number": 11, "pos": "RM" } },
+        { "player": { "name": "Vinícius Júnior",   "number": 7,  "pos": "LM" } },
+        { "player": { "name": "Igor Thiago",       "number": 25, "pos": "ST" } }
       ],
       "substitutes": [
-        { "player": { "name": "Josué Casimir",  "number": 21, "pos": "MF" } },
-        { "player": { "name": "Lenny Joseph",   "number": 16, "pos": "FW" } },
-        { "player": { "name": "Yassin Fortune", "number": 19, "pos": "FW" } }
+        { "player": { "name": "Ederson",           "number": 23, "pos": "GK" } },
+        { "player": { "name": "Danilo",            "number": 13, "pos": "RB" } },
+        { "player": { "name": "Fabinho",           "number": 17, "pos": "DM" } },
+        { "player": { "name": "Matheus Cunha",     "number": 9,  "pos": "ST" } },
+        { "player": { "name": "Luiz Henrique",     "number": 21, "pos": "FW" } },
+        { "player": { "name": "Danilo Santos",     "number": 18, "pos": "MF" } },
+        { "player": { "name": "Gabriel Martinelli","number": 22, "pos": "LW" } },
+        { "player": { "name": "Endrick",           "number": 19, "pos": "FW" } }
       ]
     },
     {
-      "team": { "name": "Scotland" },
-      "formation": "4-4-2",
+      "team": { "name": "Morocco" },
+      "formation": "4-2-3-1",
       "startXI": [
-        { "player": { "name": "Angus Gunn",       "number": 1,  "pos": "GK" } },
-        { "player": { "name": "Aaron Hickey",     "number": 2,  "pos": "RB" } },
-        { "player": { "name": "Grant Hanley",     "number": 5,  "pos": "CB" } },
-        { "player": { "name": "Jack Hendry",      "number": 13, "pos": "CB" } },
-        { "player": { "name": "Andy Robertson",   "number": 3,  "pos": "LB" } },
-        { "player": { "name": "Ben Doak",         "number": 17, "pos": "RM" } },
-        { "player": { "name": "Scott McTominay",  "number": 4,  "pos": "CM" } },
-        { "player": { "name": "Lewis Ferguson",   "number": 19, "pos": "CM" } },
-        { "player": { "name": "John McGinn",      "number": 7,  "pos": "LM" } },
-        { "player": { "name": "Lawrence Shankland","number": 20, "pos": "ST" } },
-        { "player": { "name": "Che Adams",        "number": 10, "pos": "ST" } }
+        { "player": { "name": "Bono",              "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Achraf Hakimi",     "number": 2,  "pos": "RB" } },
+        { "player": { "name": "Iliass Diop",       "number": 14, "pos": "CB" } },
+        { "player": { "name": "Chadi Riad",        "number": 18, "pos": "CB" } },
+        { "player": { "name": "Noussair Mazraoui", "number": 3,  "pos": "LB" } },
+        { "player": { "name": "Nassim El Aynaoui", "number": 24, "pos": "DM" } },
+        { "player": { "name": "Ayyoub Bouaddi",    "number": 6,  "pos": "DM" } },
+        { "player": { "name": "Brahim Díaz",       "number": 10, "pos": "AM" } },
+        { "player": { "name": "Azzedine Ounahi",   "number": 8,  "pos": "CM" } },
+        { "player": { "name": "Bilal El Khannouss","number": 23, "pos": "LM" } },
+        { "player": { "name": "Ismael Saibari",    "number": 11, "pos": "ST" } }
       ],
       "substitutes": [
-        { "player": { "name": "Craig Gordon",     "number": 12, "pos": "GK" } },
-        { "player": { "name": "Kieran Tierney",   "number": 15, "pos": "LB" } },
-        { "player": { "name": "Callum McGregor",  "number": 8,  "pos": "CM" } }
+        { "player": { "name": "Charaf Talbi",         "number": null, "pos": "FW" } },
+        { "player": { "name": "Soufiane El Mourabet",  "number": null, "pos": "MF" } },
+        { "player": { "name": "Ayoub Amaimouni",       "number": null, "pos": "MF" } },
+        { "player": { "name": "Ayoub Salah-Eddine",    "number": null, "pos": "DF" } },
+        { "player": { "name": "Soufiane Rahimi",       "number": null, "pos": "FW" } }
       ]
     }
   ]

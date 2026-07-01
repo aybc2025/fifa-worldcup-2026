@@ -1,10 +1,10 @@
 ﻿{
     "fixture":  {
-                    "id":  "wc2026-group-j-algeria-austria",
-                    "date":  "2026-06-27T19:00:00Z",
+                    "id":  "wc2026-group-l-panama-england",
+                    "date":  "2026-06-27T18:00:00Z",
                     "venue":  {
-                                  "name":  "Kansas City Stadium",
-                                  "city":  "Kansas City"
+                                  "name":  "New York/New Jersey Stadium",
+                                  "city":  "New Jersey"
                               },
                     "status":  {
                                    "short":  "FT",
@@ -12,59 +12,59 @@
                                }
                 },
     "league":  {
-                   "round":  "Group J"
+                   "round":  "Group L"
                },
     "teams":  {
                   "home":  {
-                               "name":  "Algeria",
-                               "code":  "ALG"
+                               "name":  "Panama",
+                               "code":  "PAN"
                            },
                   "away":  {
-                               "name":  "Austria",
-                               "code":  "AUT"
+                               "name":  "England",
+                               "code":  "ENG"
                            }
               },
     "goals":  {
-                  "home":  3,
-                  "away":  3
+                  "home":  0,
+                  "away":  2
               },
     "score":  {
                   "halftime":  {
-                                   "home":  1,
-                                   "away":  1
+                                   "home":  0,
+                                   "away":  0
                                },
                   "fulltime":  {
-                                   "home":  3,
-                                   "away":  3
+                                   "home":  0,
+                                   "away":  2
                                }
               },
     "stats":  [
                   {
-                      "team":  "Algeria",
+                      "team":  "Panama",
                       "statistics":  [
                                          {
                                              "type":  "Possession",
-                                             "value":  "60%"
+                                             "value":  "33%"
                                          },
                                          {
                                              "type":  "Shots on Goal",
-                                             "value":  5
+                                             "value":  2
                                          },
                                          {
                                              "type":  "Total Shots",
-                                             "value":  12
+                                             "value":  13
                                          },
                                          {
                                              "type":  "Corner Kicks",
-                                             "value":  0
-                                         },
-                                         {
-                                             "type":  "Fouls",
                                              "value":  3
                                          },
                                          {
+                                             "type":  "Fouls",
+                                             "value":  16
+                                         },
+                                         {
                                              "type":  "Yellow Cards",
-                                             "value":  0
+                                             "value":  2
                                          },
                                          {
                                              "type":  "Red Cards",
@@ -73,27 +73,27 @@
                                      ]
                   },
                   {
-                      "team":  "Austria",
+                      "team":  "England",
                       "statistics":  [
                                          {
                                              "type":  "Possession",
-                                             "value":  "33%"
+                                             "value":  "57%"
                                          },
                                          {
                                              "type":  "Shots on Goal",
-                                             "value":  3
+                                             "value":  6
                                          },
                                          {
                                              "type":  "Total Shots",
-                                             "value":  10
+                                             "value":  17
                                          },
                                          {
                                              "type":  "Corner Kicks",
-                                             "value":  3
+                                             "value":  7
                                          },
                                          {
                                              "type":  "Fouls",
-                                             "value":  7
+                                             "value":  13
                                          },
                                          {
                                              "type":  "Yellow Cards",
@@ -108,199 +108,206 @@
               ],
     "events":  [
                    {
-                       "minute":  11,
-                       "team":  "Austria",
-                       "player":  "Marko Arnautovic",
+                       "minute":  0,
+                       "team":  "Panama",
+                       "player":  "Jose Fajardo",
+                       "type":  "subst",
+                       "detail":  "out: Tomas Rodriguez, in: Jose Fajardo (HT)"
+                   },
+                   {
+                       "minute":  53,
+                       "team":  "Panama",
+                       "player":  "Jose Fajardo",
                        "type":  "Card",
                        "detail":  "Yellow Card"
                    },
                    {
-                       "minute":  28,
-                       "team":  "Austria",
-                       "player":  "Marko Arnautovic",
-                       "type":  "Goal",
-                       "detail":  "Normal Goal"
-                   },
-                   {
-                       "minute":  45,
-                       "team":  "Algeria",
-                       "player":  "Rafik Belghali",
-                       "type":  "Goal",
-                       "detail":  "Normal Goal"
-                   },
-                   {
-                       "minute":  45,
-                       "team":  "Austria",
-                       "player":  "Florian Grillitsch",
-                       "type":  "subst",
-                       "detail":  "out: Xaver Schlager, in: Florian Grillitsch (HT)"
-                   },
-                   {
-                       "minute":  45,
-                       "team":  "Austria",
-                       "player":  "Romano Schmid",
-                       "type":  "subst",
-                       "detail":  "out: Paul Wanner, in: Romano Schmid (HT)"
-                   },
-                   {
-                       "minute":  45,
-                       "team":  "Austria",
-                       "player":  "Marko Arnautovic",
-                       "type":  "subst",
-                       "detail":  "out: Michael Gregoritsch, in: Marko Arnautovic (HT)"
-                   },
-                   {
-                       "minute":  55,
-                       "team":  "Austria",
-                       "player":  "Marcel Sabitzer",
-                       "type":  "Goal",
-                       "detail":  "Normal Goal"
-                   },
-                   {
                        "minute":  60,
-                       "team":  "Algeria",
-                       "player":  "Riyad Mahrez",
-                       "type":  "Goal",
-                       "detail":  "Normal Goal"
+                       "team":  "England",
+                       "player":  "Jarell Quansah",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
                    },
                    {
                        "minute":  62,
-                       "team":  "Austria",
-                       "player":  "Kevin Danso",
-                       "type":  "subst",
-                       "detail":  "out: David Alaba, in: Kevin Danso"
-                   },
-                   {
-                       "minute":  71,
-                       "team":  "Algeria",
-                       "player":  "Samir Chergui",
-                       "type":  "subst",
-                       "detail":  "out: Rafik Belghali, in: Samir Chergui"
-                   },
-                   {
-                       "minute":  71,
-                       "team":  "Algeria",
-                       "player":  "Zineddine Belaid",
-                       "type":  "subst",
-                       "detail":  "out: Amine Gouiri, in: Zineddine Belaid"
-                   },
-                   {
-                       "minute":  71,
-                       "team":  "Algeria",
-                       "player":  "Rayan Ait-Nouri",
-                       "type":  "subst",
-                       "detail":  "out: Jaouen Hadjam, in: Rayan Ait-Nouri"
-                   },
-                   {
-                       "minute":  90,
-                       "team":  "Algeria",
-                       "player":  "Riyad Mahrez",
+                       "team":  "England",
+                       "player":  "Jude Bellingham",
                        "type":  "Goal",
                        "detail":  "Normal Goal"
                    },
                    {
-                       "minute":  90,
-                       "team":  "Algeria",
-                       "player":  "Fares Ghedjemis",
+                       "minute":  63,
+                       "team":  "England",
+                       "player":  "Noni Madueke",
                        "type":  "subst",
-                       "detail":  "out: Houssem Aouar, in: Fares Ghedjemis"
+                       "detail":  "out: Noni Madueke, in: Bukayo Saka"
                    },
                    {
-                       "minute":  90,
-                       "team":  "Austria",
-                       "player":  "Sasa Kalajdzic",
+                       "minute":  63,
+                       "team":  "England",
+                       "player":  "Djed Spence",
                        "type":  "subst",
-                       "detail":  "out: Phillip Mwene, in: Sasa Kalajdzic"
+                       "detail":  "out: Djed Spence, in: Jarell Quansah"
                    },
                    {
-                       "minute":  96,
-                       "team":  "Austria",
-                       "player":  "Sasa Kalajdzic",
+                       "minute":  67,
+                       "team":  "England",
+                       "player":  "Harry Kane",
                        "type":  "Goal",
                        "detail":  "Normal Goal"
+                   },
+                   {
+                       "minute":  71,
+                       "team":  "Panama",
+                       "player":  "Ismael Diaz",
+                       "type":  "subst",
+                       "detail":  "out: Edgar Yoel Barcenas, in: Ismael Diaz"
+                   },
+                   {
+                       "minute":  71,
+                       "team":  "Panama",
+                       "player":  "Azarias Londono",
+                       "type":  "subst",
+                       "detail":  "out: Azarias Londono, in: [reserve]"
+                   },
+                   {
+                       "minute":  71,
+                       "team":  "England",
+                       "player":  "Eberechi Eze",
+                       "type":  "subst",
+                       "detail":  "out: Jude Bellingham, in: Eberechi Eze"
+                   },
+                   {
+                       "minute":  83,
+                       "team":  "Panama",
+                       "player":  "Andres Andrade",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   },
+                   {
+                       "minute":  84,
+                       "team":  "England",
+                       "player":  "Ollie Watkins",
+                       "type":  "subst",
+                       "detail":  "out: Harry Kane, in: Ollie Watkins"
+                   },
+                   {
+                       "minute":  84,
+                       "team":  "England",
+                       "player":  "Jordan Henderson",
+                       "type":  "subst",
+                       "detail":  "out: Elliot Anderson, in: Jordan Henderson"
+                   },
+                   {
+                       "minute":  88,
+                       "team":  "Panama",
+                       "player":  "Alberto Quintero",
+                       "type":  "subst",
+                       "detail":  "out: Alberto Quintero, in: Carlos Harvey"
+                   },
+                   {
+                       "minute":  88,
+                       "team":  "Panama",
+                       "player":  "Eric Davis",
+                       "type":  "subst",
+                       "detail":  "out: Jorge Gutierrez, in: Eric Davis"
                    }
                ],
     "lineups":  [
                     {
                         "team":  {
-                                     "name":  "Algeria"
+                                     "name":  "Panama"
                                  },
-                        "formation":  "4-2-3-1",
+                        "formation":  "3-4-3",
                         "startXI":  [
                                         {
                                             "player":  {
-                                                           "name":  "Oussama Benbot",
-                                                           "number":  16,
+                                                           "name":  "Orlando Mosquera",
+                                                           "number":  22,
                                                            "pos":  "G"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Aissa Mandi",
-                                                           "number":  2,
+                                                           "name":  "Jose Cordoba",
+                                                           "number":  3,
                                                            "pos":  "D"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Jaouen Hadjam",
-                                                           "number":  13,
+                                                           "name":  "Fidel Escobar",
+                                                           "number":  4,
                                                            "pos":  "D"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Rafik Belghali",
-                                                           "number":  17,
+                                                           "name":  "Carlos Harvey",
+                                                           "number":  14,
                                                            "pos":  "D"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Ramy Bensebaini",
-                                                           "number":  21,
-                                                           "pos":  "D"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Houssem Aouar",
-                                                           "number":  8,
-                                                           "pos":  "M"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Fares Chaibi",
-                                                           "number":  10,
-                                                           "pos":  "M"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Nabil Bentaleb",
+                                                           "name":  "Alberto Quintero",
                                                            "number":  19,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Andres Andrade",
+                                                           "number":  16,
                                                            "pos":  "M"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Ibrahim Maza",
-                                                           "number":  22,
+                                                           "name":  "Amir Murillo",
+                                                           "number":  23,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Jorge Gutierrez",
+                                                           "number":  26,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Cristian Martinez",
+                                                           "number":  6,
                                                            "pos":  "M"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Amine Gouiri",
-                                                           "number":  9,
+                                                           "name":  "Jose Luis Rodriguez",
+                                                           "number":  7,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Azarias Londono",
+                                                           "number":  24,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Edgar Yoel Barcenas",
+                                                           "number":  11,
                                                            "pos":  "F"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Riyad Mahrez",
-                                                           "number":  7,
+                                                           "name":  "Tomas Rodriguez",
+                                                           "number":  9,
                                                            "pos":  "F"
                                                        }
                                         }
@@ -308,99 +315,92 @@
                         "substitutes":  [
                                             {
                                                 "player":  {
-                                                               "name":  "Melvin Mastil",
+                                                               "name":  "Luis Mejia",
                                                                "number":  1,
                                                                "pos":  "G"
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Luca Zidane",
-                                                               "number":  23,
+                                                               "name":  "Cesar Samudio",
+                                                               "number":  12,
                                                                "pos":  "G"
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Achref Abada",
-                                                               "number":  3,
+                                                               "name":  "Cesar Blackman",
+                                                               "number":  2,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Mohamed Amine Tougai",
-                                                               "number":  4,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Zineddine Belaid",
+                                                               "name":  "Edgardo Farina",
                                                                "number":  5,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Ramiz Zerrouki",
-                                                               "number":  6,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Anis Hadj Moussa",
-                                                               "number":  11,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Nadhir Benbouali",
-                                                               "number":  12,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Hicham Boudaoui",
-                                                               "number":  14,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Rayan Ait-Nouri",
+                                                               "name":  "Eric Davis",
                                                                "number":  15,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Adil Boulbina",
-                                                               "number":  20,
+                                                               "name":  "Jiovany Ramos",
+                                                               "number":  13,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Yassine Titraoui",
-                                                               "number":  24,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Fares Ghedjemis",
+                                                               "name":  "Roderick Miller",
                                                                "number":  25,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Samir Chergui",
-                                                               "number":  26,
+                                                               "name":  "Adalberto Carrasquilla",
+                                                               "number":  8,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Anibal Godoy",
+                                                               "number":  20,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Ismael Diaz",
+                                                               "number":  10,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Jose Fajardo",
+                                                               "number":  17,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Cesar Yanis",
+                                                               "number":  21,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Cecilio Waterman",
+                                                               "number":  18,
                                                                "pos":  null
                                                            }
                                             }
@@ -408,84 +408,84 @@
                     },
                     {
                         "team":  {
-                                     "name":  "Austria"
+                                     "name":  "England"
                                  },
                         "formation":  "4-2-3-1",
                         "startXI":  [
                                         {
                                             "player":  {
-                                                           "name":  "Alexander Schlager",
+                                                           "name":  "Jordan Pickford",
                                                            "number":  1,
                                                            "pos":  "G"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Stefan Posch",
-                                                           "number":  5,
+                                                           "name":  "Ezri Konsa",
+                                                           "number":  2,
                                                            "pos":  "D"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "David Alaba",
-                                                           "number":  8,
+                                                           "name":  "Nico O'Reilly",
+                                                           "number":  3,
                                                            "pos":  "D"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Philipp Lienhart",
-                                                           "number":  15,
-                                                           "pos":  "D"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Phillip Mwene",
-                                                           "number":  16,
-                                                           "pos":  "D"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Xaver Schlager",
-                                                           "number":  4,
-                                                           "pos":  "M"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Nicolas Seiwald",
+                                                           "name":  "Marc Guehi",
                                                            "number":  6,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Jarell Quansah",
+                                                           "number":  26,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Djed Spence",
+                                                           "number":  25,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Elliot Anderson",
+                                                           "number":  8,
                                                            "pos":  "M"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Marcel Sabitzer",
-                                                           "number":  9,
+                                                           "name":  "Jude Bellingham",
+                                                           "number":  10,
                                                            "pos":  "M"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Paul Wanner",
-                                                           "number":  24,
+                                                           "name":  "Morgan Rogers",
+                                                           "number":  17,
                                                            "pos":  "M"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Konrad Laimer",
+                                                           "name":  "Noni Madueke",
                                                            "number":  20,
                                                            "pos":  "F"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Michael Gregoritsch",
-                                                           "number":  11,
+                                                           "name":  "Harry Kane",
+                                                           "number":  9,
                                                            "pos":  "F"
                                                        }
                                         }
@@ -493,106 +493,99 @@
                         "substitutes":  [
                                             {
                                                 "player":  {
-                                                               "name":  "Florian Wiegele",
-                                                               "number":  12,
-                                                               "pos":  "G"
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Patrick Pentz",
+                                                               "name":  "Dean Henderson",
                                                                "number":  13,
                                                                "pos":  "G"
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "David Affengruber",
-                                                               "number":  2,
+                                                               "name":  "James Trafford",
+                                                               "number":  23,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "John Stones",
+                                                               "number":  5,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Kevin Danso",
-                                                               "number":  3,
+                                                               "name":  "Trevoh Chalobah",
+                                                               "number":  12,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Marko Arnautovic",
-                                                               "number":  7,
+                                                               "name":  "Dan Burn",
+                                                               "number":  15,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Florian Grillitsch",
-                                                               "number":  10,
+                                                               "name":  "Declan Rice",
+                                                               "number":  4,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Sasa Kalajdzic",
+                                                               "name":  "Jordan Henderson",
                                                                "number":  14,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Carney Chukwuemeka",
-                                                               "number":  17,
+                                                               "name":  "Kobbie Mainoo",
+                                                               "number":  16,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Romano Schmid",
-                                                               "number":  18,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Dejan Ljubicic",
-                                                               "number":  19,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Patrick Wimmer",
+                                                               "name":  "Eberechi Eze",
                                                                "number":  21,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Alexander Prass",
+                                                               "name":  "Bukayo Saka",
+                                                               "number":  7,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Anthony Gordon",
+                                                               "number":  18,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Ollie Watkins",
+                                                               "number":  19,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Marcus Rashford",
+                                                               "number":  11,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Ivan Toney",
                                                                "number":  22,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Marco Friedl",
-                                                               "number":  23,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Michael Svoboda",
-                                                               "number":  25,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Alessandro Schoepf",
-                                                               "number":  26,
                                                                "pos":  null
                                                            }
                                             }

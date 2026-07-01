@@ -1,10 +1,10 @@
 ﻿{
     "fixture":  {
-                    "id":  "wc2026-group-k-congodr-uzbekistan",
-                    "date":  "2026-06-27T20:30:00Z",
+                    "id":  "wc2026-group-j-algeria-austria",
+                    "date":  "2026-06-27T19:00:00Z",
                     "venue":  {
-                                  "name":  "Atlanta Stadium",
-                                  "city":  "Atlanta"
+                                  "name":  "Kansas City Stadium",
+                                  "city":  "Kansas City"
                               },
                     "status":  {
                                    "short":  "FT",
@@ -12,39 +12,39 @@
                                }
                 },
     "league":  {
-                   "round":  "Group K"
+                   "round":  "Group J"
                },
     "teams":  {
                   "home":  {
-                               "name":  "Congo DR",
-                               "code":  "COD"
+                               "name":  "Algeria",
+                               "code":  "ALG"
                            },
                   "away":  {
-                               "name":  "Uzbekistan",
-                               "code":  "UZB"
+                               "name":  "Austria",
+                               "code":  "AUT"
                            }
               },
     "goals":  {
                   "home":  3,
-                  "away":  1
+                  "away":  3
               },
     "score":  {
                   "halftime":  {
-                                   "home":  0,
+                                   "home":  1,
                                    "away":  1
                                },
                   "fulltime":  {
                                    "home":  3,
-                                   "away":  1
+                                   "away":  3
                                }
               },
     "stats":  [
                   {
-                      "team":  "Congo DR",
+                      "team":  "Algeria",
                       "statistics":  [
                                          {
                                              "type":  "Possession",
-                                             "value":  "53%"
+                                             "value":  "60%"
                                          },
                                          {
                                              "type":  "Shots on Goal",
@@ -52,19 +52,19 @@
                                          },
                                          {
                                              "type":  "Total Shots",
-                                             "value":  19
+                                             "value":  12
                                          },
                                          {
                                              "type":  "Corner Kicks",
-                                             "value":  2
+                                             "value":  0
                                          },
                                          {
                                              "type":  "Fouls",
-                                             "value":  6
+                                             "value":  3
                                          },
                                          {
                                              "type":  "Yellow Cards",
-                                             "value":  3
+                                             "value":  0
                                          },
                                          {
                                              "type":  "Red Cards",
@@ -73,19 +73,19 @@
                                      ]
                   },
                   {
-                      "team":  "Uzbekistan",
+                      "team":  "Austria",
                       "statistics":  [
                                          {
                                              "type":  "Possession",
-                                             "value":  "36%"
+                                             "value":  "33%"
                                          },
                                          {
                                              "type":  "Shots on Goal",
-                                             "value":  1
+                                             "value":  3
                                          },
                                          {
                                              "type":  "Total Shots",
-                                             "value":  3
+                                             "value":  10
                                          },
                                          {
                                              "type":  "Corner Kicks",
@@ -93,11 +93,11 @@
                                          },
                                          {
                                              "type":  "Fouls",
-                                             "value":  16
+                                             "value":  7
                                          },
                                          {
                                              "type":  "Yellow Cards",
-                                             "value":  2
+                                             "value":  1
                                          },
                                          {
                                              "type":  "Red Cards",
@@ -108,128 +108,114 @@
               ],
     "events":  [
                    {
-                       "minute":  10,
-                       "team":  "Uzbekistan",
-                       "player":  "Eldor Shomurodov",
+                       "minute":  11,
+                       "team":  "Austria",
+                       "player":  "Marko Arnautovic",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   },
+                   {
+                       "minute":  28,
+                       "team":  "Austria",
+                       "player":  "Marko Arnautovic",
                        "type":  "Goal",
                        "detail":  "Normal Goal"
-                   },
-                   {
-                       "minute":  21,
-                       "team":  "Congo DR",
-                       "player":  "Noah Sadiki",
-                       "type":  "Card",
-                       "detail":  "Yellow Card"
-                   },
-                   {
-                       "minute":  43,
-                       "team":  "Uzbekistan",
-                       "player":  "Abdukodir Khusanov",
-                       "type":  "Card",
-                       "detail":  "Yellow Card"
                    },
                    {
                        "minute":  45,
-                       "team":  "Congo DR",
-                       "player":  "Nathanael Mbuku",
-                       "type":  "Card",
-                       "detail":  "Yellow Card"
-                   },
-                   {
-                       "minute":  51,
-                       "team":  "Congo DR",
-                       "player":  "Fiston Mayele",
-                       "type":  "subst",
-                       "detail":  "out: Cedric Bakambu, in: Fiston Mayele"
-                   },
-                   {
-                       "minute":  58,
-                       "team":  "Uzbekistan",
-                       "player":  "Azizjon Ganiev",
-                       "type":  "subst",
-                       "detail":  "out: Dostonbek Khamdamov, in: Azizjon Ganiev"
-                   },
-                   {
-                       "minute":  58,
-                       "team":  "Uzbekistan",
-                       "player":  "Odiljon Xamrobekov",
-                       "type":  "subst",
-                       "detail":  "out: Otabek Shukurov, in: Odiljon Xamrobekov"
-                   },
-                   {
-                       "minute":  62,
-                       "team":  "Congo DR",
-                       "player":  "Samuel Moutoussamy",
-                       "type":  "Card",
-                       "detail":  "Yellow Card"
-                   },
-                   {
-                       "minute":  68,
-                       "team":  "Congo DR",
-                       "player":  "Yoane Wissa",
-                       "type":  "Goal",
-                       "detail":  "Penalty"
-                   },
-                   {
-                       "minute":  72,
-                       "team":  "Congo DR",
-                       "player":  "Theo Bongonda",
-                       "type":  "subst",
-                       "detail":  "out: Brian Cipenga, in: Theo Bongonda"
-                   },
-                   {
-                       "minute":  72,
-                       "team":  "Congo DR",
-                       "player":  "Meschack Elia",
-                       "type":  "subst",
-                       "detail":  "out: Nathanael Mbuku, in: Meschack Elia"
-                   },
-                   {
-                       "minute":  72,
-                       "team":  "Congo DR",
-                       "player":  "Ngalayel Mukau",
-                       "type":  "subst",
-                       "detail":  "out: Samuel Moutoussamy, in: Ngalayel Mukau"
-                   },
-                   {
-                       "minute":  73,
-                       "team":  "Uzbekistan",
-                       "player":  "Oston Urunov",
-                       "type":  "subst",
-                       "detail":  "out: Abbosbek Fayzullaev, in: Oston Urunov"
-                   },
-                   {
-                       "minute":  78,
-                       "team":  "Congo DR",
-                       "player":  "Fiston Mayele",
+                       "team":  "Algeria",
+                       "player":  "Rafik Belghali",
                        "type":  "Goal",
                        "detail":  "Normal Goal"
                    },
                    {
-                       "minute":  82,
-                       "team":  "Uzbekistan",
-                       "player":  "Jamshid Iskanderov",
+                       "minute":  45,
+                       "team":  "Austria",
+                       "player":  "Florian Grillitsch",
                        "type":  "subst",
-                       "detail":  "out: Akmal Mozgovoy, in: Jamshid Iskanderov"
+                       "detail":  "out: Xaver Schlager, in: Florian Grillitsch (HT)"
                    },
                    {
-                       "minute":  82,
-                       "team":  "Uzbekistan",
-                       "player":  "Igor Sergeev",
+                       "minute":  45,
+                       "team":  "Austria",
+                       "player":  "Romano Schmid",
                        "type":  "subst",
-                       "detail":  "out: Jakhongir Urozov, in: Igor Sergeev"
+                       "detail":  "out: Paul Wanner, in: Romano Schmid (HT)"
                    },
                    {
-                       "minute":  83,
-                       "team":  "Congo DR",
-                       "player":  "Joris Kayembe",
+                       "minute":  45,
+                       "team":  "Austria",
+                       "player":  "Marko Arnautovic",
                        "type":  "subst",
-                       "detail":  "out: Arthur Masuaku, in: Joris Kayembe"
+                       "detail":  "out: Michael Gregoritsch, in: Marko Arnautovic (HT)"
                    },
                    {
-                       "minute":  91,
-                       "team":  "Congo DR",
-                       "player":  "Yoane Wissa",
+                       "minute":  55,
+                       "team":  "Austria",
+                       "player":  "Marcel Sabitzer",
+                       "type":  "Goal",
+                       "detail":  "Normal Goal"
+                   },
+                   {
+                       "minute":  60,
+                       "team":  "Algeria",
+                       "player":  "Riyad Mahrez",
+                       "type":  "Goal",
+                       "detail":  "Normal Goal"
+                   },
+                   {
+                       "minute":  62,
+                       "team":  "Austria",
+                       "player":  "Kevin Danso",
+                       "type":  "subst",
+                       "detail":  "out: David Alaba, in: Kevin Danso"
+                   },
+                   {
+                       "minute":  71,
+                       "team":  "Algeria",
+                       "player":  "Samir Chergui",
+                       "type":  "subst",
+                       "detail":  "out: Rafik Belghali, in: Samir Chergui"
+                   },
+                   {
+                       "minute":  71,
+                       "team":  "Algeria",
+                       "player":  "Zineddine Belaid",
+                       "type":  "subst",
+                       "detail":  "out: Amine Gouiri, in: Zineddine Belaid"
+                   },
+                   {
+                       "minute":  71,
+                       "team":  "Algeria",
+                       "player":  "Rayan Ait-Nouri",
+                       "type":  "subst",
+                       "detail":  "out: Jaouen Hadjam, in: Rayan Ait-Nouri"
+                   },
+                   {
+                       "minute":  90,
+                       "team":  "Algeria",
+                       "player":  "Riyad Mahrez",
+                       "type":  "Goal",
+                       "detail":  "Normal Goal"
+                   },
+                   {
+                       "minute":  90,
+                       "team":  "Algeria",
+                       "player":  "Fares Ghedjemis",
+                       "type":  "subst",
+                       "detail":  "out: Houssem Aouar, in: Fares Ghedjemis"
+                   },
+                   {
+                       "minute":  90,
+                       "team":  "Austria",
+                       "player":  "Sasa Kalajdzic",
+                       "type":  "subst",
+                       "detail":  "out: Phillip Mwene, in: Sasa Kalajdzic"
+                   },
+                   {
+                       "minute":  96,
+                       "team":  "Austria",
+                       "player":  "Sasa Kalajdzic",
                        "type":  "Goal",
                        "detail":  "Normal Goal"
                    }
@@ -237,84 +223,84 @@
     "lineups":  [
                     {
                         "team":  {
-                                     "name":  "Congo DR"
+                                     "name":  "Algeria"
                                  },
-                        "formation":  "4-4-2",
+                        "formation":  "4-2-3-1",
                         "startXI":  [
                                         {
                                             "player":  {
-                                                           "name":  "Lionel Mpasi",
-                                                           "number":  1,
+                                                           "name":  "Oussama Benbot",
+                                                           "number":  16,
                                                            "pos":  "G"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Aaron Wan-Bissaka",
+                                                           "name":  "Aissa Mandi",
                                                            "number":  2,
                                                            "pos":  "D"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Axel Tuanzebe",
-                                                           "number":  4,
+                                                           "name":  "Jaouen Hadjam",
+                                                           "number":  13,
                                                            "pos":  "D"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Chancel Mbemba",
-                                                           "number":  22,
+                                                           "name":  "Rafik Belghali",
+                                                           "number":  17,
                                                            "pos":  "D"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Arthur Masuaku",
-                                                           "number":  26,
+                                                           "name":  "Ramy Bensebaini",
+                                                           "number":  21,
                                                            "pos":  "D"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Nathanael Mbuku",
-                                                           "number":  7,
-                                                           "pos":  "M"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Samuel Moutoussamy",
+                                                           "name":  "Houssem Aouar",
                                                            "number":  8,
                                                            "pos":  "M"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Noah Sadiki",
-                                                           "number":  14,
+                                                           "name":  "Fares Chaibi",
+                                                           "number":  10,
                                                            "pos":  "M"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Meschack Elia",
-                                                           "number":  13,
+                                                           "name":  "Nabil Bentaleb",
+                                                           "number":  19,
                                                            "pos":  "M"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Brian Cipenga",
+                                                           "name":  "Ibrahim Maza",
+                                                           "number":  22,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Amine Gouiri",
                                                            "number":  9,
                                                            "pos":  "F"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Cedric Bakambu",
-                                                           "number":  17,
+                                                           "name":  "Riyad Mahrez",
+                                                           "number":  7,
                                                            "pos":  "F"
                                                        }
                                         }
@@ -322,106 +308,99 @@
                         "substitutes":  [
                                             {
                                                 "player":  {
-                                                               "name":  "Timothy Fayulu",
-                                                               "number":  16,
+                                                               "name":  "Melvin Mastil",
+                                                               "number":  1,
                                                                "pos":  "G"
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Matthieu Epolo",
-                                                               "number":  21,
+                                                               "name":  "Luca Zidane",
+                                                               "number":  23,
                                                                "pos":  "G"
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Steve Kapuadi",
+                                                               "name":  "Achref Abada",
                                                                "number":  3,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Dylan Batubinsika",
+                                                               "name":  "Mohamed Amine Tougai",
+                                                               "number":  4,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Zineddine Belaid",
                                                                "number":  5,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Ngalayel Mukau",
+                                                               "name":  "Ramiz Zerrouki",
                                                                "number":  6,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Theo Bongonda",
-                                                               "number":  10,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Gael Kakuta",
+                                                               "name":  "Anis Hadj Moussa",
                                                                "number":  11,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Joris Kayembe",
+                                                               "name":  "Nadhir Benbouali",
                                                                "number":  12,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Aaron Tshibola",
+                                                               "name":  "Hicham Boudaoui",
+                                                               "number":  14,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Rayan Ait-Nouri",
                                                                "number":  15,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Charles Pickel",
-                                                               "number":  18,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Fiston Mayele",
-                                                               "number":  19,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Yoane Wissa",
+                                                               "name":  "Adil Boulbina",
                                                                "number":  20,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Simon Banza",
-                                                               "number":  23,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Gedeon Kalulu",
+                                                               "name":  "Yassine Titraoui",
                                                                "number":  24,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Edo Kayembe",
+                                                               "name":  "Fares Ghedjemis",
                                                                "number":  25,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Samir Chergui",
+                                                               "number":  26,
                                                                "pos":  null
                                                            }
                                             }
@@ -429,84 +408,84 @@
                     },
                     {
                         "team":  {
-                                     "name":  "Uzbekistan"
+                                     "name":  "Austria"
                                  },
-                        "formation":  "3-4-3",
+                        "formation":  "4-2-3-1",
                         "startXI":  [
                                         {
                                             "player":  {
-                                                           "name":  "Abduvohid Nematov",
-                                                           "number":  12,
+                                                           "name":  "Alexander Schlager",
+                                                           "number":  1,
                                                            "pos":  "G"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Abdukodir Khusanov",
-                                                           "number":  2,
-                                                           "pos":  "D"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Khojiakbar Alijonov",
-                                                           "number":  3,
-                                                           "pos":  "D"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Rustam Ashurmatov",
+                                                           "name":  "Stefan Posch",
                                                            "number":  5,
                                                            "pos":  "D"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Sherzod Nasrullaev",
-                                                           "number":  13,
+                                                           "name":  "David Alaba",
+                                                           "number":  8,
                                                            "pos":  "D"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Akmal Mozgovoy",
+                                                           "name":  "Philipp Lienhart",
+                                                           "number":  15,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Phillip Mwene",
+                                                           "number":  16,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Xaver Schlager",
+                                                           "number":  4,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Nicolas Seiwald",
                                                            "number":  6,
                                                            "pos":  "M"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Otabek Shukurov",
-                                                           "number":  7,
+                                                           "name":  "Marcel Sabitzer",
+                                                           "number":  9,
                                                            "pos":  "M"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Dostonbek Khamdamov",
-                                                           "number":  17,
+                                                           "name":  "Paul Wanner",
+                                                           "number":  24,
                                                            "pos":  "M"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Abbosbek Fayzullaev",
-                                                           "number":  22,
-                                                           "pos":  "M"
+                                                           "name":  "Konrad Laimer",
+                                                           "number":  20,
+                                                           "pos":  "F"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Jakhongir Urozov",
-                                                           "number":  26,
-                                                           "pos":  "D"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Eldor Shomurodov",
-                                                           "number":  14,
+                                                           "name":  "Michael Gregoritsch",
+                                                           "number":  11,
                                                            "pos":  "F"
                                                        }
                                         }
@@ -514,106 +493,106 @@
                         "substitutes":  [
                                             {
                                                 "player":  {
-                                                               "name":  "Utkir Yusupov",
-                                                               "number":  1,
+                                                               "name":  "Florian Wiegele",
+                                                               "number":  12,
                                                                "pos":  "G"
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Botirali Ergashev",
-                                                               "number":  16,
+                                                               "name":  "Patrick Pentz",
+                                                               "number":  13,
                                                                "pos":  "G"
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Farrukh Sayfiev",
-                                                               "number":  4,
+                                                               "name":  "David Affengruber",
+                                                               "number":  2,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Jamshid Iskanderov",
-                                                               "number":  8,
+                                                               "name":  "Kevin Danso",
+                                                               "number":  3,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Odiljon Xamrobekov",
-                                                               "number":  9,
+                                                               "name":  "Marko Arnautovic",
+                                                               "number":  7,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Ruslanbek Jiyanov",
+                                                               "name":  "Florian Grillitsch",
                                                                "number":  10,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Oston Urunov",
-                                                               "number":  11,
+                                                               "name":  "Sasa Kalajdzic",
+                                                               "number":  14,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Umar Eshmurodov",
-                                                               "number":  15,
+                                                               "name":  "Carney Chukwuemeka",
+                                                               "number":  17,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Abdulla Abdullaev",
+                                                               "name":  "Romano Schmid",
                                                                "number":  18,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Azizjon Ganiev",
+                                                               "name":  "Dejan Ljubicic",
                                                                "number":  19,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Azizbek Amonov",
-                                                               "number":  20,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Igor Sergeev",
+                                                               "name":  "Patrick Wimmer",
                                                                "number":  21,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Sherzod Esanov",
+                                                               "name":  "Alexander Prass",
+                                                               "number":  22,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Marco Friedl",
                                                                "number":  23,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Behruzjon Karimov",
-                                                               "number":  24,
+                                                               "name":  "Michael Svoboda",
+                                                               "number":  25,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Avazbek Ulmasaliyev",
-                                                               "number":  25,
+                                                               "name":  "Alessandro Schoepf",
+                                                               "number":  26,
                                                                "pos":  null
                                                            }
                                             }

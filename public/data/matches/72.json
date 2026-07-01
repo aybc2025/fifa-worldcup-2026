@@ -1,10 +1,10 @@
 ﻿{
     "fixture":  {
-                    "id":  "wc2026-r32-southafrica-canada",
-                    "date":  "2026-06-28T12:00:00Z",
+                    "id":  "wc2026-group-l-croatia-ghana",
+                    "date":  "2026-06-27T18:00:00Z",
                     "venue":  {
-                                  "name":  "Los Angeles Stadium",
-                                  "city":  "Los Angeles"
+                                  "name":  "Philadelphia Stadium",
+                                  "city":  "Philadelphia"
                               },
                     "status":  {
                                    "short":  "FT",
@@ -12,39 +12,72 @@
                                }
                 },
     "league":  {
-                   "round":  "Round of 32"
+                   "round":  "Group L"
                },
     "teams":  {
                   "home":  {
-                               "name":  "South Africa",
-                               "code":  "RSA"
+                               "name":  "Croatia",
+                               "code":  "CRO"
                            },
                   "away":  {
-                               "name":  "Canada",
-                               "code":  "CAN"
+                               "name":  "Ghana",
+                               "code":  "GHA"
                            }
               },
     "goals":  {
-                  "home":  0,
+                  "home":  2,
                   "away":  1
               },
     "score":  {
                   "halftime":  {
-                                   "home":  0,
+                                   "home":  1,
                                    "away":  0
                                },
                   "fulltime":  {
-                                   "home":  0,
+                                   "home":  2,
                                    "away":  1
                                }
               },
     "stats":  [
                   {
-                      "team":  "South Africa",
+                      "team":  "Croatia",
                       "statistics":  [
                                          {
                                              "type":  "Possession",
-                                             "value":  "55%"
+                                             "value":  "50%"
+                                         },
+                                         {
+                                             "type":  "Shots on Goal",
+                                             "value":  4
+                                         },
+                                         {
+                                             "type":  "Total Shots",
+                                             "value":  8
+                                         },
+                                         {
+                                             "type":  "Corner Kicks",
+                                             "value":  3
+                                         },
+                                         {
+                                             "type":  "Fouls",
+                                             "value":  9
+                                         },
+                                         {
+                                             "type":  "Yellow Cards",
+                                             "value":  1
+                                         },
+                                         {
+                                             "type":  "Red Cards",
+                                             "value":  0
+                                         }
+                                     ]
+                  },
+                  {
+                      "team":  "Ghana",
+                      "statistics":  [
+                                         {
+                                             "type":  "Possession",
+                                             "value":  "43%"
                                          },
                                          {
                                              "type":  "Shots on Goal",
@@ -56,48 +89,15 @@
                                          },
                                          {
                                              "type":  "Corner Kicks",
-                                             "value":  1
-                                         },
-                                         {
-                                             "type":  "Fouls",
-                                             "value":  10
-                                         },
-                                         {
-                                             "type":  "Yellow Cards",
-                                             "value":  0
-                                         },
-                                         {
-                                             "type":  "Red Cards",
-                                             "value":  0
-                                         }
-                                     ]
-                  },
-                  {
-                      "team":  "Canada",
-                      "statistics":  [
-                                         {
-                                             "type":  "Possession",
-                                             "value":  "35%"
-                                         },
-                                         {
-                                             "type":  "Shots on Goal",
-                                             "value":  7
-                                         },
-                                         {
-                                             "type":  "Total Shots",
-                                             "value":  12
-                                         },
-                                         {
-                                             "type":  "Corner Kicks",
-                                             "value":  4
-                                         },
-                                         {
-                                             "type":  "Fouls",
-                                             "value":  16
-                                         },
-                                         {
-                                             "type":  "Yellow Cards",
                                              "value":  2
+                                         },
+                                         {
+                                             "type":  "Fouls",
+                                             "value":  13
+                                         },
+                                         {
+                                             "type":  "Yellow Cards",
+                                             "value":  1
                                          },
                                          {
                                              "type":  "Red Cards",
@@ -108,150 +108,220 @@
               ],
     "events":  [
                    {
-                       "minute":  45,
-                       "team":  "South Africa",
-                       "player":  "Relebohile Mofokeng",
-                       "type":  "subst",
-                       "detail":  "out: Thalente Mbatha, in: Relebohile Mofokeng (HT)"
-                   },
-                   {
-                       "minute":  59,
-                       "team":  "Canada",
-                       "player":  "Luc De Fougerolles",
-                       "type":  "subst",
-                       "detail":  "out: Moise Bombito, in: Luc De Fougerolles"
-                   },
-                   {
-                       "minute":  59,
-                       "team":  "Canada",
-                       "player":  "Niko Sigur",
-                       "type":  "subst",
-                       "detail":  "out: Nathan Saliba, in: Niko Sigur"
-                   },
-                   {
-                       "minute":  70,
-                       "team":  "Canada",
-                       "player":  "Jacob Shaffelburg",
-                       "type":  "subst",
-                       "detail":  "out: Liam Millar, in: Jacob Shaffelburg"
-                   },
-                   {
-                       "minute":  70,
-                       "team":  "Canada",
-                       "player":  "Promise David",
-                       "type":  "subst",
-                       "detail":  "out: Tani Oluwaseyi, in: Promise David"
-                   },
-                   {
-                       "minute":  75,
-                       "team":  "Canada",
-                       "player":  "Alphonso Davies",
-                       "type":  "subst",
-                       "detail":  "out: Tajon Buchanan, in: Alphonso Davies"
-                   },
-                   {
-                       "minute":  86,
-                       "team":  "South Africa",
-                       "player":  "Thapelo Maseko",
-                       "type":  "subst",
-                       "detail":  "out: Tshepang Moremi, in: Thapelo Maseko"
-                   },
-                   {
-                       "minute":  86,
-                       "team":  "South Africa",
-                       "player":  "Iqraam Rayners",
-                       "type":  "subst",
-                       "detail":  "out: Evidence Makgopa, in: Iqraam Rayners"
-                   },
-                   {
-                       "minute":  92,
-                       "team":  "Canada",
-                       "player":  "Stephen Eustaquio",
+                       "minute":  31,
+                       "team":  "Croatia",
+                       "player":  "Petar Sucic",
                        "type":  "Goal",
                        "detail":  "Normal Goal"
+                   },
+                   {
+                       "minute":  0,
+                       "team":  "Ghana",
+                       "player":  "Kojo Peprah Oppong",
+                       "type":  "subst",
+                       "detail":  "out: Jonas Adjetey, in: Kojo Peprah Oppong (HT)"
+                   },
+                   {
+                       "minute":  0,
+                       "team":  "Ghana",
+                       "player":  "Abdul Fatawu",
+                       "type":  "subst",
+                       "detail":  "out: Elisha Owusu, in: Abdul Fatawu (HT)"
+                   },
+                   {
+                       "minute":  66,
+                       "team":  "Croatia",
+                       "player":  "Igor Matanovic",
+                       "type":  "subst",
+                       "detail":  "out: Ante Budimir, in: Igor Matanovic"
+                   },
+                   {
+                       "minute":  68,
+                       "team":  "Croatia",
+                       "player":  "Ivan Perisic",
+                       "type":  "subst",
+                       "detail":  "out: Ivan Perisic, in: [reserve]"
+                   },
+                   {
+                       "minute":  71,
+                       "team":  "Ghana",
+                       "player":  "Ernest Nuamah",
+                       "type":  "subst",
+                       "detail":  "out: Kamaldeen Sulemana, in: Ernest Nuamah"
+                   },
+                   {
+                       "minute":  71,
+                       "team":  "Ghana",
+                       "player":  "Brandon Thomas-Asante",
+                       "type":  "subst",
+                       "detail":  "out: Jordan Ayew, in: Brandon Thomas-Asante"
+                   },
+                   {
+                       "minute":  73,
+                       "team":  "Ghana",
+                       "player":  "Derrick Luckassen",
+                       "type":  "Goal",
+                       "detail":  "Normal Goal"
+                   },
+                   {
+                       "minute":  78,
+                       "team":  "Croatia",
+                       "player":  "Mario Pasalic",
+                       "type":  "subst",
+                       "detail":  "out: Mario Pasalic, in: Mateo Kovacic"
+                   },
+                   {
+                       "minute":  83,
+                       "team":  "Croatia",
+                       "player":  "Nikola Vlasic",
+                       "type":  "Goal",
+                       "detail":  "Normal Goal"
+                   },
+                   {
+                       "minute":  85,
+                       "team":  "Ghana",
+                       "player":  "Caleb Yirenkyi",
+                       "type":  "subst",
+                       "detail":  "out: Caleb Yirenkyi, in: [reserve]"
+                   },
+                   {
+                       "minute":  85,
+                       "team":  "Ghana",
+                       "player":  "Kwasi Sibo",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   },
+                   {
+                       "minute":  88,
+                       "team":  "Croatia",
+                       "player":  "Josko Gvardiol",
+                       "type":  "subst",
+                       "detail":  "out: Martin Baturina, in: Josko Gvardiol"
+                   },
+                   {
+                       "minute":  88,
+                       "team":  "Croatia",
+                       "player":  "Marco Pasalic",
+                       "type":  "subst",
+                       "detail":  "out: Marco Pasalic, in: [reserve]"
+                   },
+                   {
+                       "minute":  90,
+                       "team":  "Ghana",
+                       "player":  "Kojo Peprah Oppong",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   },
+                   {
+                       "minute":  94,
+                       "team":  "Croatia",
+                       "player":  "Luka Modric",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
                    }
                ],
     "lineups":  [
                     {
                         "team":  {
-                                     "name":  "South Africa"
+                                     "name":  "Croatia"
                                  },
                         "formation":  "4-2-3-1",
                         "startXI":  [
                                         {
                                             "player":  {
-                                                           "name":  "Ronwen Williams",
+                                                           "name":  "Dominik Livakovic",
                                                            "number":  1,
                                                            "pos":  "G"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Aubrey Modiba",
+                                                           "name":  "Josip Stanisic",
+                                                           "number":  2,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Marin Pongracic",
+                                                           "number":  3,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Josip Sutalo",
                                                            "number":  6,
                                                            "pos":  "D"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Mbekezeli Mbokazi",
-                                                           "number":  14,
-                                                           "pos":  "D"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Khuliso Mudau",
-                                                           "number":  20,
-                                                           "pos":  "D"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Ime Okon",
-                                                           "number":  21,
-                                                           "pos":  "D"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Teboho Mokoena",
+                                                           "name":  "Josko Gvardiol",
                                                            "number":  4,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Mateo Kovacic",
+                                                           "number":  8,
                                                            "pos":  "M"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Sphephelo Sithole",
+                                                           "name":  "Mario Pasalic",
+                                                           "number":  15,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Luka Modric",
+                                                           "number":  10,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Nikola Vlasic",
                                                            "number":  13,
                                                            "pos":  "M"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Oswin Appollis",
-                                                           "number":  7,
-                                                           "pos":  "F"
+                                                           "name":  "Martin Baturina",
+                                                           "number":  16,
+                                                           "pos":  "M"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Thalente Mbatha",
-                                                           "number":  5,
-                                                           "pos":  "F"
+                                                           "name":  "Marco Pasalic",
+                                                           "number":  24,
+                                                           "pos":  "M"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Tshepang Moremi",
-                                                           "number":  8,
-                                                           "pos":  "F"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Evidence Makgopa",
+                                                           "name":  "Petar Sucic",
                                                            "number":  17,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Ante Budimir",
+                                                           "number":  11,
+                                                           "pos":  "F"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Ivan Perisic",
+                                                           "number":  14,
                                                            "pos":  "F"
                                                        }
                                         }
@@ -259,99 +329,85 @@
                         "substitutes":  [
                                             {
                                                 "player":  {
-                                                               "name":  "Sipho Chaine",
-                                                               "number":  16,
-                                                               "pos":  "G"
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Ricardo Goss",
-                                                               "number":  22,
-                                                               "pos":  "G"
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Thabang Matuludi",
-                                                               "number":  2,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Khulumani Ndamane",
-                                                               "number":  3,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Lyle Foster",
-                                                               "number":  9,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Relebohile Mofokeng",
-                                                               "number":  10,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Thapelo Maseko",
+                                                               "name":  "Ivor Pandur",
                                                                "number":  12,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Dominik Kotarski",
+                                                               "number":  23,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Duje Caleta-Car",
+                                                               "number":  5,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Iqraam Rayners",
-                                                               "number":  15,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Samukele Kabini",
+                                                               "name":  "Kristijan Jakic",
                                                                "number":  18,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Nkosinathi Sibisi",
-                                                               "number":  19,
+                                                               "name":  "Luka Vuskovic",
+                                                               "number":  22,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Jayden Adams",
-                                                               "number":  23,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Olwethu Makhanya",
-                                                               "number":  24,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Kamogelo Sebelebele",
+                                                               "name":  "Martin Erlic",
                                                                "number":  25,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Bradley Cross",
+                                                               "name":  "Marvin Senaya",
                                                                "number":  26,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Nikola Moro",
+                                                               "number":  7,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Toni Fruk",
+                                                               "number":  19,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Luka Sucic",
+                                                               "number":  21,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Igor Matanovic",
+                                                               "number":  20,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Andrej Kramaric",
+                                                               "number":  9,
                                                                "pos":  null
                                                            }
                                             }
@@ -359,84 +415,91 @@
                     },
                     {
                         "team":  {
-                                     "name":  "Canada"
+                                     "name":  "Ghana"
                                  },
-                        "formation":  "4-4-2",
+                        "formation":  "4-1-2-3",
                         "startXI":  [
                                         {
                                             "player":  {
-                                                           "name":  "Maxime Crepeau",
+                                                           "name":  "Benjamin Asare",
                                                            "number":  16,
                                                            "pos":  "G"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Alistair Johnston",
-                                                           "number":  2,
+                                                           "name":  "Jonas Adjetey",
+                                                           "number":  4,
                                                            "pos":  "D"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Derek Cornelius",
-                                                           "number":  13,
+                                                           "name":  "Gideon Mensah",
+                                                           "number":  14,
                                                            "pos":  "D"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Moise Bombito",
+                                                           "name":  "Derrick Luckassen",
+                                                           "number":  23,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Marvin Senaya",
+                                                           "number":  26,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Thomas Partey",
+                                                           "number":  5,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Kwasi Sibo",
+                                                           "number":  8,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Caleb Yirenkyi",
+                                                           "number":  3,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Elisha Owusu",
                                                            "number":  15,
-                                                           "pos":  "D"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Richie Laryea",
-                                                           "number":  22,
-                                                           "pos":  "D"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Stephen Eustaquio",
-                                                           "number":  7,
                                                            "pos":  "M"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Liam Millar",
+                                                           "name":  "Antoine Semenyo",
                                                            "number":  11,
-                                                           "pos":  "M"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Nathan Saliba",
-                                                           "number":  25,
-                                                           "pos":  "M"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Tajon Buchanan",
-                                                           "number":  17,
-                                                           "pos":  "M"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Jonathan David",
-                                                           "number":  10,
                                                            "pos":  "F"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Tani Oluwaseyi",
-                                                           "number":  12,
+                                                           "name":  "Jordan Ayew",
+                                                           "number":  9,
+                                                           "pos":  "F"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Kamaldeen Sulemana",
+                                                           "number":  22,
                                                            "pos":  "F"
                                                        }
                                         }
@@ -444,99 +507,99 @@
                         "substitutes":  [
                                             {
                                                 "player":  {
-                                                               "name":  "Dayne St. Clair",
+                                                               "name":  "Lawrence Ati Zigi",
                                                                "number":  1,
                                                                "pos":  "G"
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Owen Goodman",
-                                                               "number":  18,
+                                                               "name":  "Joseph Anang",
+                                                               "number":  12,
                                                                "pos":  "G"
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Alfie Jones",
-                                                               "number":  3,
+                                                               "name":  "Alidu Seidu",
+                                                               "number":  2,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Luc De Fougerolles",
-                                                               "number":  4,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Joel Waterman",
-                                                               "number":  5,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Mathieu Choiniere",
+                                                               "name":  "Abdul Mumin",
                                                                "number":  6,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Cyle Larin",
-                                                               "number":  9,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Jacob Shaffelburg",
-                                                               "number":  14,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Alphonso Davies",
-                                                               "number":  19,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Ali Ahmed",
-                                                               "number":  20,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Jonathan Osorio",
+                                                               "name":  "Kojo Peprah Oppong",
                                                                "number":  21,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Niko Sigur",
-                                                               "number":  23,
+                                                               "name":  "Baba Rahman",
+                                                               "number":  17,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Promise David",
+                                                               "name":  "Jerome Opoku",
+                                                               "number":  18,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Abdul Fatawu",
+                                                               "number":  7,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Augustine Boakye",
+                                                               "number":  20,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Christopher Bonsu Baah",
+                                                               "number":  13,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Brandon Thomas-Asante",
+                                                               "number":  10,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Ernest Nuamah",
                                                                "number":  24,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Jayden Nelson",
-                                                               "number":  26,
+                                                               "name":  "Inaki Williams",
+                                                               "number":  19,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Prince Adu",
+                                                               "number":  25,
                                                                "pos":  null
                                                            }
                                             }

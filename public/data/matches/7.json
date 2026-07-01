@@ -1,14 +1,14 @@
 {
   "fixture": {
-    "id": "wc2026-group-b-qatar-switzerland",
-    "date": "2026-06-13T18:00:00Z",
-    "venue": { "name": "Levi's Stadium", "city": "San Francisco Bay Area" },
+    "id": "wc2026-group-b-canada-bosnia-and-herzegovina",
+    "date": "2026-06-12T18:00:00Z",
+    "venue": { "name": "BMO Field", "city": "Toronto" },
     "status": { "short": "FT", "long": "Match Finished" }
   },
   "league": { "round": "Group B" },
   "teams": {
-    "home": { "name": "Qatar", "code": "QAT" },
-    "away": { "name": "Switzerland", "code": "SUI" }
+    "home": { "name": "Canada", "code": "CAN" },
+    "away": { "name": "Bosnia and Herzegovina", "code": "BIH" }
   },
   "goals": { "home": 1, "away": 1 },
   "score": {
@@ -17,83 +17,97 @@
   },
   "stats": [
     {
-      "team": "Qatar",
+      "team": "Canada",
       "statistics": [
-        { "type": "Possession", "value": "28%", "_confidence": "FIFA=28%, Sofascore=32%; FIFA used" },
-        { "type": "Shots on Goal", "value": 3 },
-        { "type": "Total Shots", "value": 6 },
-        { "type": "Corner Kicks", "value": 3 },
-        { "type": "Fouls", "value": 12 },
+        { "type": "Possession", "value": "52%", "_confidence": "FIFA=52%, Sofascore=61%; FIFA used" },
+        { "type": "Shots on Goal", "value": 4 },
+        { "type": "Total Shots", "value": 13 },
+        { "type": "Corner Kicks", "value": 9 },
+        { "type": "Fouls", "value": 10 },
         { "type": "Yellow Cards", "value": 2 },
         { "type": "Red Cards", "value": 0 }
       ]
     },
     {
-      "team": "Switzerland",
+      "team": "Bosnia and Herzegovina",
       "statistics": [
-        { "type": "Possession", "value": "58%", "_confidence": "FIFA=58%, Sofascore=68%; FIFA used" },
-        { "type": "Shots on Goal", "value": 7 },
-        { "type": "Total Shots", "value": 26 },
-        { "type": "Corner Kicks", "value": 10 },
-        { "type": "Fouls", "value": 11 },
-        { "type": "Yellow Cards", "value": 1 },
+        { "type": "Possession", "value": "29%", "_confidence": "FIFA=29%, Sofascore=39%; FIFA used" },
+        { "type": "Shots on Goal", "value": 3 },
+        { "type": "Total Shots", "value": 8 },
+        { "type": "Corner Kicks", "value": 4 },
+        { "type": "Fouls", "value": 20 },
+        { "type": "Yellow Cards", "value": 3 },
         { "type": "Red Cards", "value": 0 }
       ]
     }
   ],
   "events": [
-    { "minute": 17, "team": "Switzerland", "player": "Breel Embolo",   "type": "Goal",  "detail": "Penalty" },
-    { "minute": 60, "team": "Qatar",       "player": "Ahmed Fathi",    "type": "subst", "detail": "out: Abdullah Al-Ahbabi, in: Ahmed Fathi" },
-    { "minute": 60, "team": "Qatar",       "player": "Karim Boudiaf",  "type": "subst", "detail": "out: Jassem Abdulsallam, in: Karim Boudiaf" },
-    { "minute": 60, "team": "Qatar",       "player": "Ahmed Alaaeldin","type": "subst", "detail": "out: Yusuf Abdurisag, in: Ahmed Alaaeldin" },
-    { "minute": 79, "team": "Qatar",       "player": "Mohamed Naceur Almanai","type": "subst","detail": "out: Abdelkarim Madibo, in: Mohamed Naceur Almanai" },
-    { "minute": 88, "team": "Qatar",       "player": "Hassan Al Haydos","type":"subst", "detail": "out: El Junior, in: Hassan Al Haydos" },
-    { "minute": 94, "team": "Qatar",       "player": "Miro Muheim",    "type": "Goal",  "detail": "Own Goal (Switzerland)" }
+    { "minute": 11, "team": "Canada",                  "player": "Alistair Johnston",  "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 21, "team": "Bosnia and Herzegovina",   "player": "Jovo Lukić",         "type": "Goal",  "detail": "Header — assist: Sead Kolašinac" },
+    { "minute": 45, "team": "Bosnia and Herzegovina",   "player": "Ermedin Demirović",  "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 46, "team": "Bosnia and Herzegovina",   "player": "Jovo Lukić",         "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 53, "team": "Canada",                  "player": "Luc De Fougerolles", "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 61, "team": "Canada",                  "player": "Ali Ahmed",          "type": "subst", "detail": "out: Tajon Buchanan, in: Ali Ahmed" },
+    { "minute": 61, "team": "Canada",                  "player": "Jacob Shaffelburg",  "type": "subst", "detail": "out: Liam Millar, in: Jacob Shaffelburg" },
+    { "minute": 61, "team": "Canada",                  "player": "Promise David",      "type": "subst", "detail": "out: Jonathan David, in: Promise David" },
+    { "minute": 62, "team": "Bosnia and Herzegovina",   "player": "Armin Gigović",      "type": "subst", "detail": "out: Ivan Bašić, in: Armin Gigović" },
+    { "minute": 62, "team": "Bosnia and Herzegovina",   "player": "Samed Baždar",       "type": "subst", "detail": "out: Jovo Lukić, in: Samed Baždar" },
+    { "minute": 74, "team": "Bosnia and Herzegovina",   "player": "Kerim Alajbegović",  "type": "subst", "detail": "out: Amar Memić, in: Kerim Alajbegović" },
+    { "minute": 74, "team": "Bosnia and Herzegovina",   "player": "Ivan Šunjić",        "type": "subst", "detail": "out: Esmir Bajraktarević, in: Ivan Šunjić" },
+    { "minute": 76, "team": "Canada",                  "player": "Cyle Larin",         "type": "subst", "detail": "out: Tani Oluwaseyi, in: Cyle Larin" },
+    { "minute": 78, "team": "Canada",                  "player": "Cyle Larin",         "type": "Goal",  "detail": "Normal Goal — assist: Promise David" },
+    { "minute": 84, "team": "Bosnia and Herzegovina",   "player": "Dženis Burnić",      "type": "subst", "detail": "out: Sead Kolašinac, in: Dženis Burnić" },
+    { "minute": 91, "team": "Canada",                  "player": "Jonathan Osorio",    "type": "subst", "detail": "out: Stephen Eustaquio, in: Jonathan Osorio" },
+    { "minute": 93, "team": "Bosnia and Herzegovina",   "player": "Nikola Katić",       "type": "Card",  "detail": "Yellow Card" }
   ],
   "lineups": [
     {
-      "team": { "name": "Qatar" },
-      "formation": "4-3-3",
+      "team": { "name": "Canada" },
+      "formation": "4-4-2",
       "startXI": [
-        { "player": { "name": "Meshaal Abunada",    "number": 1,  "pos": "GK" } },
-        { "player": { "name": "Abdullah Al-Ahbabi", "number": 13, "pos": "RB" } },
-        { "player": { "name": "Pedro Miguel",       "number": 2,  "pos": "CB" } },
-        { "player": { "name": "Bassam Khoukhi",     "number": 16, "pos": "CB" } },
-        { "player": { "name": "Homam Al-Amin",      "number": 14, "pos": "LB" } },
-        { "player": { "name": "Jassem Abdulsallam", "number": 5,  "pos": "DM" } },
-        { "player": { "name": "Abdelkarim Madibo",  "number": 23, "pos": "CM" } },
-        { "player": { "name": "Ismail Laye",        "number": 4,  "pos": "CM" } },
-        { "player": { "name": "El Junior",          "number": 8,  "pos": "RW" } },
-        { "player": { "name": "Yusuf Abdurisag",    "number": 15, "pos": "LW" } },
-        { "player": { "name": "Akram Afif",         "number": 11, "pos": "ST" } }
+        { "player": { "name": "Maxime Crépeau",    "number": 16, "pos": "GK" } },
+        { "player": { "name": "Alistair Johnston", "number": 2,  "pos": "RB" } },
+        { "player": { "name": "Luc De Fougerolles","number": 4,  "pos": "CB" } },
+        { "player": { "name": "Derek Cornelius",   "number": 13, "pos": "CB" } },
+        { "player": { "name": "Richie Laryea",     "number": 22, "pos": "LB" } },
+        { "player": { "name": "Tajon Buchanan",    "number": 17, "pos": "RM" } },
+        { "player": { "name": "Ismaël Koné",       "number": 8,  "pos": "CM" } },
+        { "player": { "name": "Stephen Eustaquio", "number": 7,  "pos": "CM" } },
+        { "player": { "name": "Liam Millar",       "number": 11, "pos": "LM" } },
+        { "player": { "name": "Jonathan David",    "number": 10, "pos": "ST" } },
+        { "player": { "name": "Tani Oluwaseyi",    "number": 12, "pos": "ST" } }
       ],
       "substitutes": [
-        { "player": { "name": "Ahmed Fathi",        "number": 20, "pos": "MF" } },
-        { "player": { "name": "Karim Boudiaf",      "number": 12, "pos": "MF" } },
-        { "player": { "name": "Ahmed Alaaeldin",    "number": 7,  "pos": "MF" } },
-        { "player": { "name": "Mohamed Naceur Almanai","number": 26,"pos": "MF" } },
-        { "player": { "name": "Hassan Al Haydos",   "number": 10, "pos": "FW" } },
-        { "player": { "name": "Almoez Ali",         "number": 19, "pos": "FW" } }
+        { "player": { "name": "Alphonso Davies",   "number": 19, "pos": "LB" } },
+        { "player": { "name": "Cyle Larin",        "number": 9,  "pos": "ST" } },
+        { "player": { "name": "Ali Ahmed",         "number": 20, "pos": "FW" } },
+        { "player": { "name": "Promise David",     "number": 24, "pos": "FW" } },
+        { "player": { "name": "Jacob Shaffelburg", "number": 14, "pos": "MF" } },
+        { "player": { "name": "Jonathan Osorio",   "number": 21, "pos": "MF" } }
       ]
     },
     {
-      "team": { "name": "Switzerland" },
-      "formation": "4-3-3",
+      "team": { "name": "Bosnia and Herzegovina" },
+      "formation": "4-4-2",
       "startXI": [
-        { "player": { "name": "Gregor Kobel",       "number": 1,  "pos": "GK" } },
-        { "player": { "name": "Denis Zakaria",      "number": 6,  "pos": "RB" } },
-        { "player": { "name": "Nico Elvedi",        "number": 4,  "pos": "CB" } },
-        { "player": { "name": "Manuel Akanji",      "number": 5,  "pos": "CB" } },
-        { "player": { "name": "Ricardo Rodríguez",  "number": 13, "pos": "LB" } },
-        { "player": { "name": "Michel Aebischer",   "number": 20, "pos": "DM" } },
-        { "player": { "name": "Granit Xhaka",       "number": 10, "pos": "CM" } },
-        { "player": { "name": "Remo Freuler",       "number": 8,  "pos": "CM" } },
-        { "player": { "name": "Dan Ndoye",          "number": 11, "pos": "RW" } },
-        { "player": { "name": "Breel Embolo",       "number": 7,  "pos": "ST" } },
-        { "player": { "name": "Ruben Vargas",       "number": 17, "pos": "LW" } }
+        { "player": { "name": "Nikola Vasilj",         "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Amar Dedić",            "number": 7,  "pos": "RB" } },
+        { "player": { "name": "Nikola Katić",          "number": 18, "pos": "CB" } },
+        { "player": { "name": "Tarik Muharemović",     "number": 4,  "pos": "CB" } },
+        { "player": { "name": "Sead Kolašinac",        "number": 5,  "pos": "LB" } },
+        { "player": { "name": "Esmir Bajraktarević",   "number": 20, "pos": "RM" } },
+        { "player": { "name": "Benjamin Tahirović",    "number": 6,  "pos": "CM" } },
+        { "player": { "name": "Ivan Bašić",            "number": 13, "pos": "CM" } },
+        { "player": { "name": "Amar Memić",            "number": 15, "pos": "LM" } },
+        { "player": { "name": "Ermedin Demirović",     "number": 10, "pos": "ST" } },
+        { "player": { "name": "Jovo Lukić",            "number": 25, "pos": "ST" } }
       ],
       "substitutes": [
-        { "player": { "name": "Miro Muheim",        "number": null, "pos": "LB" } }
+        { "player": { "name": "Armin Gigović",     "number": null, "pos": "MF" } },
+        { "player": { "name": "Samed Baždar",      "number": null, "pos": "MF" } },
+        { "player": { "name": "Kerim Alajbegović", "number": null, "pos": "MF" } },
+        { "player": { "name": "Ivan Šunjić",       "number": null, "pos": "MF" } },
+        { "player": { "name": "Dženis Burnić",     "number": null, "pos": "MF" } }
       ]
     }
   ]

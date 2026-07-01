@@ -1,129 +1,115 @@
 {
   "fixture": {
-    "id": "wc2026-group-j-jordan-algeria",
-    "date": "2026-06-23T03:00:00Z",
-    "venue": { "name": "San Francisco Bay Area Stadium", "city": "Santa Clara" },
+    "id": "wc2026-group-l-england-ghana",
+    "date": "2026-06-23T17:00:00Z",
+    "venue": { "name": "Boston Stadium", "city": "Boston" },
     "status": { "short": "FT", "long": "Match Finished" }
   },
-  "league": { "round": "Group J" },
+  "league": { "round": "Group L" },
   "teams": {
-    "home": { "name": "Jordan",  "code": "JOR" },
-    "away": { "name": "Algeria", "code": "ALG" }
+    "home": { "name": "England", "code": "ENG" },
+    "away": { "name": "Ghana",   "code": "GHA" }
   },
-  "goals": { "home": 1, "away": 2 },
+  "goals": { "home": 0, "away": 0 },
   "score": {
-    "halftime": { "home": 1, "away": 0 },
-    "fulltime": { "home": 1, "away": 2 }
+    "halftime": { "home": 0, "away": 0 },
+    "fulltime": { "home": 0, "away": 0 }
   },
   "stats": [
     {
-      "team": "Jordan",
+      "team": "England",
       "statistics": [
-        { "type": "Possession",    "value": "30%" },
-        { "type": "Shots on Goal", "value": "4" },
-        { "type": "Total Shots",   "value": "8" },
-        { "type": "Corner Kicks",  "value": "1" },
-        { "type": "Fouls",         "value": "10" },
+        { "type": "Possession",    "value": "72%" },
+        { "type": "Shots on Goal", "value": "3" },
+        { "type": "Total Shots",   "value": "19" },
+        { "type": "Corner Kicks",  "value": "9" },
+        { "type": "Fouls",         "value": "14" },
         { "type": "Yellow Cards",  "value": "1" },
         { "type": "Red Cards",     "value": "0" }
       ]
     },
     {
-      "team": "Algeria",
+      "team": "Ghana",
       "statistics": [
-        { "type": "Possession",    "value": "55%" },
-        { "type": "Shots on Goal", "value": "8" },
-        { "type": "Total Shots",   "value": "18" },
-        { "type": "Corner Kicks",  "value": "10" },
-        { "type": "Fouls",         "value": "6" },
+        { "type": "Possession",    "value": "20%" },
+        { "type": "Shots on Goal", "value": "0" },
+        { "type": "Total Shots",   "value": "2" },
+        { "type": "Corner Kicks",  "value": "2" },
+        { "type": "Fouls",         "value": "24" },
         { "type": "Yellow Cards",  "value": "1" },
         { "type": "Red Cards",     "value": "0" }
       ]
     }
   ],
   "events": [
-    { "minute": 36, "team": "Jordan",  "player": "Nizar Alrashdan",    "type": "Goal",  "detail": "Normal Goal" },
-    { "minute": 44, "team": "Algeria", "player": "Ramiz Zerrouki",     "type": "Card",  "detail": "Yellow Card" },
-    { "minute": 46, "team": "Algeria", "player": "Nabil Bentaleb",     "type": "subst", "detail": "out: Ramiz Zerrouki, in: Nabil Bentaleb" },
-    { "minute": 46, "team": "Algeria", "player": "Nadhir Benbouali",   "type": "subst", "detail": "out: Hicham Boudaoui, in: Nadhir Benbouali" },
-    { "minute": 64, "team": "Jordan",  "player": "Husam Abudahab",     "type": "Card",  "detail": "Yellow Card" },
-    { "minute": 69, "team": "Algeria", "player": "Nadhir Benbouali",   "type": "Goal",  "detail": "Normal Goal" },
-    { "minute": 76, "team": "Jordan",  "player": "Odeh Fakhoury",      "type": "subst", "detail": "out: Mahmoud Almardi, in: Odeh Fakhoury" },
-    { "minute": 76, "team": "Algeria", "player": "Anis Hadj Moussa",   "type": "subst", "detail": "out: Riyad Mahrez, in: Anis Hadj Moussa" },
-    { "minute": 82, "team": "Algeria", "player": "Amine Gouiri",       "type": "Goal",  "detail": "Normal Goal" },
-    { "minute": 84, "team": "Jordan",  "player": "Ali Azaizeh",        "type": "subst", "detail": "out: Mousa Altamari, in: Ali Azaizeh" },
-    { "minute": 84, "team": "Jordan",  "player": "Mohammad Abuhasheesh","type": "subst", "detail": "out: Mohannad Abutaha, in: Mohammad Abuhasheesh" },
-    { "minute": 85, "team": "Algeria", "player": "Jaouen Hadjam",      "type": "subst", "detail": "out: Rayan Ait-Nouri, in: Jaouen Hadjam" },
-    { "minute": 86, "team": "Algeria", "player": "Zineddine Belaid",   "type": "subst", "detail": "out: Amine Gouiri, in: Zineddine Belaid" },
-    { "minute": 91, "team": "Jordan",  "player": "Saleem Obaid",       "type": "subst", "detail": "out: Husam Abudahab, in: Saleem Obaid" },
-    { "minute": 92, "team": "Jordan",  "player": "Mohammad Abuzraiq",  "type": "subst", "detail": "out: Ali Olwan, in: Mohammad Abuzraiq" }
+    { "minute": 41, "team": "England", "player": "Declan Rice",             "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 60, "team": "Ghana",   "player": "Inaki Williams",          "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 65, "team": "England", "player": "Bukayo Saka",             "type": "subst", "detail": "out: Anthony Gordon, in: Bukayo Saka" },
+    { "minute": 66, "team": "Ghana",   "player": "Abdul Fatawu Issahaku",   "type": "subst", "detail": "out: Inaki Williams, in: Abdul Fatawu Issahaku" },
+    { "minute": 66, "team": "England", "player": "Nico O'Reilly",           "type": "subst", "detail": "out: Djed Spence, in: Nico O'Reilly" },
+    { "minute": 67, "team": "Ghana",   "player": "Prince Kwabena Adu",      "type": "subst", "detail": "out: Jordan Ayew, in: Prince Kwabena Adu" },
+    { "minute": 73, "team": "England", "player": "Morgan Rogers",           "type": "subst", "detail": "out: Jude Bellingham, in: Morgan Rogers" },
+    { "minute": 74, "team": "England", "player": "Eberechi Eze",            "type": "subst", "detail": "out: Elliot Anderson, in: Eberechi Eze" },
+    { "minute": 83, "team": "England", "player": "Marcus Rashford",         "type": "subst", "detail": "out: Noni Madueke, in: Marcus Rashford" },
+    { "minute": 87, "team": "Ghana",   "player": "Kojo Peprah Oppong",      "type": "subst", "detail": "out: Marvin Senaya, in: Kojo Peprah Oppong" },
+    { "minute": 95, "team": "Ghana",   "player": "Rahman Baba",             "type": "subst", "detail": "out: Prince Kwabena Adu, in: Rahman Baba" }
   ],
   "lineups": [
     {
-      "team": { "name": "Jordan" },
-      "formation": "3-4-3",
+      "team": { "name": "England" },
+      "formation": "4-2-3-1",
       "startXI": [
-        { "player": { "name": "Yazeed Abulaila",   "number": 1,  "pos": "G" } },
-        { "player": { "name": "Abdallah Nasib",    "number": 3,  "pos": "D" } },
-        { "player": { "name": "Husam Abudahab",    "number": 4,  "pos": "D" } },
-        { "player": { "name": "Yazan Alarab",      "number": 5,  "pos": "D" } },
-        { "player": { "name": "Ehsan Haddad",      "number": 23, "pos": "M" } },
-        { "player": { "name": "Noor Alrawabdeh",   "number": 8,  "pos": "M" } },
-        { "player": { "name": "Mohannad Abutaha",  "number": 20, "pos": "M" } },
-        { "player": { "name": "Nizar Alrashdan",   "number": 21, "pos": "M" } },
-        { "player": { "name": "Ali Olwan",         "number": 9,  "pos": "F" } },
-        { "player": { "name": "Mahmoud Almardi",   "number": 13, "pos": "F" } },
-        { "player": { "name": "Mousa Altamari",    "number": 10, "pos": "F" } }
+        { "player": { "name": "Jordan Pickford",  "number": 1,  "pos": "G" } },
+        { "player": { "name": "Reece James",      "number": 24, "pos": "D" } },
+        { "player": { "name": "Ezri Konsa",       "number": 2,  "pos": "D" } },
+        { "player": { "name": "Marc Guehi",       "number": 6,  "pos": "D" } },
+        { "player": { "name": "Djed Spence",      "number": 25, "pos": "D" } },
+        { "player": { "name": "Elliot Anderson",  "number": 8,  "pos": "M" } },
+        { "player": { "name": "Declan Rice",      "number": 4,  "pos": "M" } },
+        { "player": { "name": "Noni Madueke",     "number": 20, "pos": "M" } },
+        { "player": { "name": "Jude Bellingham",  "number": 10, "pos": "M" } },
+        { "player": { "name": "Anthony Gordon",   "number": 18, "pos": "M" } },
+        { "player": { "name": "Harry Kane",       "number": 9,  "pos": "F" } }
       ],
       "substitutes": [
-        { "player": { "name": "Nour Baniateyah",    "number": 12, "pos": "G" } },
-        { "player": { "name": "Abdallah Alfakhori", "number": 22, "pos": "G" } },
-        { "player": { "name": "Mohammad Abualnadi", "number": 16, "pos": "D" } },
-        { "player": { "name": "Ibrahim Sadeh",      "number": 15, "pos": "D" } },
-        { "player": { "name": "Mohammad Abuhasheesh","number": 2,  "pos": "M" } },
-        { "player": { "name": "Saed Alrosan",       "number": 19, "pos": "M" } },
-        { "player": { "name": "Anas Badawi",        "number": 26, "pos": "M" } },
-        { "player": { "name": "Amer Jamous",        "number": 6,  "pos": "M" } },
-        { "player": { "name": "Rajaei Ayed",        "number": 14, "pos": "M" } },
-        { "player": { "name": "Mohammad Abughoush", "number": 18, "pos": "M" } },
-        { "player": { "name": "Mohammad Aldaoud",   "number": 25, "pos": "M" } },
-        { "player": { "name": "Saleem Obaid",       "number": 17, "pos": "M" } },
-        { "player": { "name": "Odeh Fakhoury",      "number": 11, "pos": "F" } },
-        { "player": { "name": "Ali Azaizeh",        "number": 24, "pos": "F" } },
-        { "player": { "name": "Mohammad Abuzraiq",  "number": 7,  "pos": "F" } }
+        { "player": { "name": "James Trafford",   "number": 23, "pos": "G" } },
+        { "player": { "name": "Dean Henderson",   "number": 13, "pos": "G" } },
+        { "player": { "name": "John Stones",      "number": 5,  "pos": "D" } },
+        { "player": { "name": "Jarell Quansah",   "number": 26, "pos": "D" } },
+        { "player": { "name": "Dan Burn",         "number": 15, "pos": "D" } },
+        { "player": { "name": "Trevoh Chalobah",  "number": 12, "pos": "D" } },
+        { "player": { "name": "Nico O'Reilly",    "number": 3,  "pos": "M" } },
+        { "player": { "name": "Jordan Henderson", "number": 14, "pos": "M" } },
+        { "player": { "name": "Kobbie Mainoo",    "number": 16, "pos": "M" } },
+        { "player": { "name": "Morgan Rogers",    "number": 17, "pos": "M" } },
+        { "player": { "name": "Eberechi Eze",     "number": 21, "pos": "M" } },
+        { "player": { "name": "Bukayo Saka",      "number": 7,  "pos": "M" } },
+        { "player": { "name": "Marcus Rashford",  "number": 11, "pos": "F" } },
+        { "player": { "name": "Ivan Toney",       "number": 22, "pos": "F" } },
+        { "player": { "name": "Ollie Watkins",    "number": 19, "pos": "F" } }
       ]
     },
     {
-      "team": { "name": "Algeria" },
-      "formation": "4-2-1-3",
+      "team": { "name": "Ghana" },
+      "formation": "4-1-4-1",
       "startXI": [
-        { "player": { "name": "Luca Zidane",      "number": 23, "pos": "G" } },
-        { "player": { "name": "Aissa Mandi",      "number": 2,  "pos": "D" } },
-        { "player": { "name": "Rafik Belghali",   "number": 17, "pos": "D" } },
-        { "player": { "name": "Ramy Bensebaini",  "number": 21, "pos": "D" } },
-        { "player": { "name": "Rayan Ait-Nouri",  "number": 15, "pos": "D" } },
-        { "player": { "name": "Ramiz Zerrouki",   "number": 6,  "pos": "M" } },
-        { "player": { "name": "Hicham Boudaoui",  "number": 14, "pos": "M" } },
-        { "player": { "name": "Ibrahim Maza",     "number": 22, "pos": "M" } },
-        { "player": { "name": "Fares Chaibi",     "number": 10, "pos": "M" } },
-        { "player": { "name": "Riyad Mahrez",     "number": 7,  "pos": "F" } },
-        { "player": { "name": "Amine Gouiri",     "number": 9,  "pos": "F" } }
+        { "player": { "name": "Benjamin Asare",  "number": 16, "pos": "G" } },
+        { "player": { "name": "Marvin Senaya",   "number": 26, "pos": "D" } },
+        { "player": { "name": "Jonas Adjetey",   "number": 4,  "pos": "D" } },
+        { "player": { "name": "Jerome Opoku",    "number": 18, "pos": "D" } },
+        { "player": { "name": "Gideon Mensah",   "number": 14, "pos": "D" } },
+        { "player": { "name": "Thomas Partey",   "number": 5,  "pos": "M" } },
+        { "player": { "name": "Inaki Williams",  "number": 19, "pos": "M" } },
+        { "player": { "name": "Caleb Yirenkyi",  "number": 3,  "pos": "M" } },
+        { "player": { "name": "Kwasi Sibo",      "number": 8,  "pos": "M" } },
+        { "player": { "name": "Antoine Semenyo", "number": 11, "pos": "M" } },
+        { "player": { "name": "Jordan Ayew",     "number": 9,  "pos": "F" } }
       ],
       "substitutes": [
-        { "player": { "name": "Melvin Mastil",        "number": 1,  "pos": "G" } },
-        { "player": { "name": "Oussama Benbot",       "number": 16, "pos": "G" } },
-        { "player": { "name": "Achref Abada",         "number": 3,  "pos": "D" } },
-        { "player": { "name": "Mohamed Amine Tougai", "number": 4,  "pos": "D" } },
-        { "player": { "name": "Jaouen Hadjam",        "number": 13, "pos": "D" } },
-        { "player": { "name": "Zineddine Belaid",     "number": 5,  "pos": "M" } },
-        { "player": { "name": "Nabil Bentaleb",       "number": 19, "pos": "M" } },
-        { "player": { "name": "Nadhir Benbouali",     "number": 12, "pos": "M" } },
-        { "player": { "name": "Houssem Aouar",        "number": 8,  "pos": "M" } },
-        { "player": { "name": "Yassine Titraoui",     "number": 24, "pos": "M" } },
-        { "player": { "name": "Samir Chergui",        "number": 26, "pos": "M" } },
-        { "player": { "name": "Anis Hadj Moussa",     "number": 11, "pos": "F" } },
-        { "player": { "name": "Adil Boulbina",        "number": 20, "pos": "F" } },
-        { "player": { "name": "Fares Ghedjemis",      "number": 25, "pos": "F" } }
+        { "player": { "name": "Abdul Fatawu Issahaku", "number": null, "pos": "M" } },
+        { "player": { "name": "Prince Kwabena Adu",    "number": null, "pos": "F" } },
+        { "player": { "name": "Kojo Peprah Oppong",    "number": null, "pos": "F" } },
+        { "player": { "name": "Rahman Baba",           "number": null, "pos": "D" } }
       ]
     }
   ]

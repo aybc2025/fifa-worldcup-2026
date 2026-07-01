@@ -1,92 +1,94 @@
 {
   "fixture": {
-    "id": "wc2026-group-l-ghana-panama",
-    "date": "2026-06-17T23:00:00Z",
-    "venue": { "name": "Hard Rock Stadium", "city": "Miami" },
+    "id": "wc2026-group-k-portugal-congo-dr",
+    "date": "2026-06-17T20:00:00Z",
+    "venue": { "name": "Lumen Field", "city": "Seattle" },
     "status": { "short": "FT", "long": "Match Finished" }
   },
-  "league": { "round": "Group L" },
+  "league": { "round": "Group K" },
   "teams": {
-    "home": { "name": "Ghana", "code": "GHA" },
-    "away": { "name": "Panama", "code": "PAN" }
+    "home": { "name": "Portugal", "code": "POR" },
+    "away": { "name": "Congo DR", "code": "COD" }
   },
-  "goals": { "home": 1, "away": 0 },
+  "goals": { "home": 1, "away": 1 },
   "score": {
-    "halftime": { "home": 0, "away": 0 },
-    "fulltime": { "home": 1, "away": 0 }
+    "halftime": { "home": 1, "away": 1 },
+    "fulltime": { "home": 1, "away": 1 }
   },
   "stats": [
     {
-      "team": "Ghana",
+      "team": "Portugal",
       "statistics": [
-        { "type": "Possession", "value": "35%" },
-        { "type": "Shots on Goal", "value": 2 },
-        { "type": "Total Shots", "value": 8 },
-        { "type": "Corner Kicks", "value": 2 },
+        { "type": "Possession", "value": "68%" },
+        { "type": "Shots on Goal", "value": 1 },
+        { "type": "Total Shots", "value": 7 },
+        { "type": "Corner Kicks", "value": 5 },
         { "type": "Fouls", "value": 9 },
-        { "type": "Yellow Cards", "value": 1 },
+        { "type": "Yellow Cards", "value": 3 },
         { "type": "Red Cards", "value": 0 }
       ]
     },
     {
-      "team": "Panama",
+      "team": "Congo DR",
       "statistics": [
-        { "type": "Possession", "value": "55%" },
-        { "type": "Shots on Goal", "value": 4 },
-        { "type": "Total Shots", "value": 11 },
-        { "type": "Corner Kicks", "value": 2 },
-        { "type": "Fouls", "value": 11 },
-        { "type": "Yellow Cards", "value": 2 },
+        { "type": "Possession", "value": "25%" },
+        { "type": "Shots on Goal", "value": 2 },
+        { "type": "Total Shots", "value": 8 },
+        { "type": "Corner Kicks", "value": 4 },
+        { "type": "Fouls", "value": 10 },
+        { "type": "Yellow Cards", "value": 1 },
         { "type": "Red Cards", "value": 0 }
       ]
     }
   ],
   "events": [
-    { "minute": 95, "team": "Ghana", "player": "Caleb Yirenkyi", "type": "Goal", "detail": "Normal Goal" }
+    { "minute": 6,  "team": "Portugal", "player": "João Neves",  "type": "Goal", "detail": "Normal Goal" },
+    { "minute": 50, "team": "Congo DR", "player": "Yoane Wissa",  "type": "Goal", "detail": "Normal Goal", "_confidence": "FIFA: 50', Sofascore: 45+5' — FIFA used as tiebreaker" }
   ],
   "lineups": [
     {
-      "team": { "name": "Ghana" },
-      "formation": "4-3-3",
+      "team": { "name": "Portugal" },
+      "formation": "4-2-3-1",
       "startXI": [
-        { "player": { "name": "Lawrence Ati-Zigi", "number": 1,  "pos": "GK" } },
-        { "player": { "name": "Gideon Mensah",     "number": 26, "pos": "LB" } },
-        { "player": { "name": "Alexander Djiku",   "number": 4,  "pos": "CB" } },
-        { "player": { "name": "Daniel Amartey",    "number": 18, "pos": "CB" } },
-        { "player": { "name": "Baba Rahman",       "number": 14, "pos": "RB" } },
-        { "player": { "name": "Caleb Yirenkyi",    "number": 3,  "pos": "CM" } },
-        { "player": { "name": "Danlad Ibrahim Kyereh","number": 15, "pos": "CM" } },
-        { "player": { "name": "Mohammed Kudus",    "number": 22, "pos": "CM" } },
-        { "player": { "name": "Antoine Semenyo",   "number": 11, "pos": "RW" } },
-        { "player": { "name": "Fatawu Issahaku",   "number": 24, "pos": "LW" } },
-        { "player": { "name": "Andre Ayew",        "number": 9,  "pos": "ST" } }
+        { "player": { "name": "Diogo Costa",      "number": 1,  "pos": "GK" } },
+        { "player": { "name": "João Cancelo",      "number": 20, "pos": "RB" } },
+        { "player": { "name": "Tiago Djaló",       "number": 4,  "pos": "CB" } },
+        { "player": { "name": "Rúben Dias",        "number": 3,  "pos": "CB" } },
+        { "player": { "name": "Nuno Mendes",       "number": 25, "pos": "LB" } },
+        { "player": { "name": "João Neves",        "number": 15, "pos": "DM" } },
+        { "player": { "name": "Vitinha",           "number": 23, "pos": "DM" } },
+        { "player": { "name": "Bernardo Silva",    "number": 10, "pos": "AM" } },
+        { "player": { "name": "Bruno Fernandes",   "number": 8,  "pos": "AM" } },
+        { "player": { "name": "Pedro Neto",        "number": 18, "pos": "LW" } },
+        { "player": { "name": "Cristiano Ronaldo", "number": 7,  "pos": "ST" } }
       ],
       "substitutes": [
-        { "player": { "name": "Ibrahim Danlad",    "number": 16, "pos": "GK" } },
-        { "player": { "name": "Jordan Ayew",       "number": 13, "pos": "FW" } },
-        { "player": { "name": "Kamaldeen Sulemana","number": 10, "pos": "FW" } }
+        { "player": { "name": "José Sá",           "number": 12, "pos": "GK" } },
+        { "player": { "name": "Diogo Dalot",       "number": 2,  "pos": "DF" } },
+        { "player": { "name": "Rúben Neves",       "number": 16, "pos": "MF" } },
+        { "player": { "name": "Rafael Leão",       "number": 11, "pos": "FW" } },
+        { "player": { "name": "Gonçalo Ramos",     "number": 19, "pos": "FW" } }
       ]
     },
     {
-      "team": { "name": "Panama" },
-      "formation": "3-4-3",
+      "team": { "name": "Congo DR" },
+      "formation": "5-3-2",
       "startXI": [
-        { "player": { "name": "Luis Mejía",           "number": 22, "pos": "GK" } },
-        { "player": { "name": "Fidel Escobar",        "number": 13, "pos": "CB" } },
-        { "player": { "name": "Andrés Andrade",       "number": 3,  "pos": "CB" } },
-        { "player": { "name": "Roderick Miller",      "number": 16, "pos": "CB" } },
-        { "player": { "name": "César Yanis Murillo",  "number": 23, "pos": "RWB" } },
-        { "player": { "name": "Adalberto Carrasquilla","number": 14, "pos": "CM" } },
-        { "player": { "name": "César Martínez",       "number": 11, "pos": "CM" } },
-        { "player": { "name": "Rolando Blackman",     "number": 6,  "pos": "LWB" } },
-        { "player": { "name": "Cristian Bárcenas",    "number": 2,  "pos": "RW" } },
-        { "player": { "name": "Ismael Díaz",          "number": 18, "pos": "LW" } },
-        { "player": { "name": "Kevin Waterman",       "number": 7,  "pos": "ST" } }
+        { "player": { "name": "Lionel Mpasi Nzau", "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Aaron Wan-Bissaka", "number": 2,  "pos": "RB" } },
+        { "player": { "name": "Chancel Mbemba",    "number": 22, "pos": "CB" } },
+        { "player": { "name": "Axel Tuanzebe",     "number": 4,  "pos": "CB" } },
+        { "player": { "name": "Joris Kayembe",     "number": 3,  "pos": "CB" } },
+        { "player": { "name": "Arthur Masuaku",    "number": 26, "pos": "LB" } },
+        { "player": { "name": "Cédric Bakambu",    "number": 6,  "pos": "CM" } },
+        { "player": { "name": "Jean-Marc Makoun",  "number": 8,  "pos": "CM" } },
+        { "player": { "name": "Théo Bongonda",     "number": 25, "pos": "AM" } },
+        { "player": { "name": "Yoane Wissa",       "number": 20, "pos": "FW" } },
+        { "player": { "name": "Dodi Lukebakio",    "number": 17, "pos": "FW" } }
       ],
       "substitutes": [
-        { "player": { "name": "Orlando Mosquera",     "number": 1,  "pos": "GK" } },
-        { "player": { "name": "José Fajardo",         "number": 9,  "pos": "FW" } },
-        { "player": { "name": "Éric Davis",           "number": 4,  "pos": "DF" } }
+        { "player": { "name": "Joël Kiassumbua",   "number": 16, "pos": "GK" } },
+        { "player": { "name": "Yannick Bolasie",   "number": 9,  "pos": "FW" } }
       ]
     }
   ]

@@ -1,574 +1,130 @@
-﻿{
-    "fixture":  {
-                    "id":  "wc2026-group-k-colombia-portugal",
-                    "date":  "2026-06-27T20:30:00Z",
-                    "venue":  {
-                                  "name":  "Miami Stadium",
-                                  "city":  "Miami"
-                              },
-                    "status":  {
-                                   "short":  "FT",
-                                   "long":  "Match Finished"
-                               }
-                },
-    "league":  {
-                   "round":  "Group K"
-               },
-    "teams":  {
-                  "home":  {
-                               "name":  "Colombia",
-                               "code":  "COL"
-                           },
-                  "away":  {
-                               "name":  "Portugal",
-                               "code":  "POR"
-                           }
-              },
-    "goals":  {
-                  "home":  0,
-                  "away":  0
-              },
-    "score":  {
-                  "halftime":  {
-                                   "home":  0,
-                                   "away":  0
-                               },
-                  "fulltime":  {
-                                   "home":  0,
-                                   "away":  0
-                               }
-              },
-    "stats":  [
-                  {
-                      "team":  "Colombia",
-                      "statistics":  [
-                                         {
-                                             "type":  "Possession",
-                                             "value":  "51%"
-                                         },
-                                         {
-                                             "type":  "Shots on Goal",
-                                             "value":  7
-                                         },
-                                         {
-                                             "type":  "Total Shots",
-                                             "value":  24
-                                         },
-                                         {
-                                             "type":  "Corner Kicks",
-                                             "value":  5
-                                         },
-                                         {
-                                             "type":  "Fouls",
-                                             "value":  12
-                                         },
-                                         {
-                                             "type":  "Yellow Cards",
-                                             "value":  1
-                                         },
-                                         {
-                                             "type":  "Red Cards",
-                                             "value":  0
-                                         }
-                                     ]
-                  },
-                  {
-                      "team":  "Portugal",
-                      "statistics":  [
-                                         {
-                                             "type":  "Possession",
-                                             "value":  "41%"
-                                         },
-                                         {
-                                             "type":  "Shots on Goal",
-                                             "value":  2
-                                         },
-                                         {
-                                             "type":  "Total Shots",
-                                             "value":  13
-                                         },
-                                         {
-                                             "type":  "Corner Kicks",
-                                             "value":  2
-                                         },
-                                         {
-                                             "type":  "Fouls",
-                                             "value":  6
-                                         },
-                                         {
-                                             "type":  "Yellow Cards",
-                                             "value":  0
-                                         },
-                                         {
-                                             "type":  "Red Cards",
-                                             "value":  0
-                                         }
-                                     ]
-                  }
-              ],
-    "events":  [
-                   {
-                       "minute":  0,
-                       "team":  "Portugal",
-                       "player":  "Diogo Dalot",
-                       "type":  "subst",
-                       "detail":  "out: Joao Cancelo, in: Diogo Dalot (HT)"
-                   },
-                   {
-                       "minute":  0,
-                       "team":  "Portugal",
-                       "player":  "Joao Neves",
-                       "type":  "subst",
-                       "detail":  "out: Ruben Neves, in: Joao Neves (HT)"
-                   },
-                   {
-                       "minute":  60,
-                       "team":  "Colombia",
-                       "player":  "Richard Rios",
-                       "type":  "subst",
-                       "detail":  "out: Jefferson Lerma, in: Richard Rios"
-                   },
-                   {
-                       "minute":  60,
-                       "team":  "Colombia",
-                       "player":  "Luis Suarez",
-                       "type":  "subst",
-                       "detail":  "out: Jhon Cordoba, in: Luis Suarez"
-                   },
-                   {
-                       "minute":  70,
-                       "team":  "Portugal",
-                       "player":  "Vitinha",
-                       "type":  "subst",
-                       "detail":  "out: Samu Costa, in: Vitinha"
-                   },
-                   {
-                       "minute":  70,
-                       "team":  "Portugal",
-                       "player":  "Rafael Leao",
-                       "type":  "subst",
-                       "detail":  "out: Joao Felix, in: Rafael Leao"
-                   },
-                   {
-                       "minute":  76,
-                       "team":  "Colombia",
-                       "player":  "Juan Quintero",
-                       "type":  "subst",
-                       "detail":  "out: Jhon Arias, in: Juan Quintero"
-                   },
-                   {
-                       "minute":  76,
-                       "team":  "Colombia",
-                       "player":  "Kevin Castano",
-                       "type":  "subst",
-                       "detail":  "out: Kevin Castano, in: [reserve]"
-                   },
-                   {
-                       "minute":  86,
-                       "team":  "Colombia",
-                       "player":  "James Rodriguez",
-                       "type":  "subst",
-                       "detail":  "out: Gustavo Puerta, in: James Rodriguez"
-                   },
-                   {
-                       "minute":  87,
-                       "team":  "Colombia",
-                       "player":  "Daniel Munoz",
-                       "type":  "subst",
-                       "detail":  "out: Santiago Arias, in: Daniel Munoz"
-                   },
-                   {
-                       "minute":  90,
-                       "team":  "Portugal",
-                       "player":  "Matheus Nunes",
-                       "type":  "subst",
-                       "detail":  "out: Nuno Mendes, in: Matheus Nunes"
-                   }
-               ],
-    "lineups":  [
-                    {
-                        "team":  {
-                                     "name":  "Colombia"
-                                 },
-                        "formation":  "4-1-2-3",
-                        "startXI":  [
-                                        {
-                                            "player":  {
-                                                           "name":  "Camilo Vargas",
-                                                           "number":  12,
-                                                           "pos":  "G"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Jhon Lucumi",
-                                                           "number":  3,
-                                                           "pos":  "D"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Santiago Arias",
-                                                           "number":  4,
-                                                           "pos":  "D"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Gustavo Puerta",
-                                                           "number":  14,
-                                                           "pos":  "D"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Deiver Machado",
-                                                           "number":  22,
-                                                           "pos":  "D"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Davinson Sanchez",
-                                                           "number":  23,
-                                                           "pos":  "D"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Jhon Arias",
-                                                           "number":  11,
-                                                           "pos":  "M"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Kevin Castano",
-                                                           "number":  5,
-                                                           "pos":  "M"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Jefferson Lerma",
-                                                           "number":  16,
-                                                           "pos":  "M"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Luis Diaz",
-                                                           "number":  7,
-                                                           "pos":  "F"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Jhon Cordoba",
-                                                           "number":  9,
-                                                           "pos":  "F"
-                                                       }
-                                        }
-                                    ],
-                        "substitutes":  [
-                                            {
-                                                "player":  {
-                                                               "name":  "David Ospina",
-                                                               "number":  1,
-                                                               "pos":  "G"
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Alvaro Montero",
-                                                               "number":  24,
-                                                               "pos":  "G"
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Daniel Munoz",
-                                                               "number":  2,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Yerry Mina",
-                                                               "number":  13,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Johan Mojica",
-                                                               "number":  17,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Willer Ditta",
-                                                               "number":  18,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Richard Rios",
-                                                               "number":  6,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Jorge Carrascal",
-                                                               "number":  8,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "James Rodriguez",
-                                                               "number":  10,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Juan Portilla",
-                                                               "number":  15,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Juan Quintero",
-                                                               "number":  20,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Jaminton Campaz",
-                                                               "number":  21,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Cucho Hernandez",
-                                                               "number":  19,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Luis Suarez",
-                                                               "number":  25,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Andres Gomez",
-                                                               "number":  26,
-                                                               "pos":  null
-                                                           }
-                                            }
-                                        ]
-                    },
-                    {
-                        "team":  {
-                                     "name":  "Portugal"
-                                 },
-                        "formation":  "4-2-3-1",
-                        "startXI":  [
-                                        {
-                                            "player":  {
-                                                           "name":  "Diogo Costa",
-                                                           "number":  1,
-                                                           "pos":  "G"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Ruben Dias",
-                                                           "number":  3,
-                                                           "pos":  "D"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Renato Veiga",
-                                                           "number":  13,
-                                                           "pos":  "D"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Joao Cancelo",
-                                                           "number":  20,
-                                                           "pos":  "D"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Nuno Mendes",
-                                                           "number":  25,
-                                                           "pos":  "D"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Bruno Fernandes",
-                                                           "number":  8,
-                                                           "pos":  "M"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Ruben Neves",
-                                                           "number":  21,
-                                                           "pos":  "M"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Samu Costa",
-                                                           "number":  24,
-                                                           "pos":  "M"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Cristiano Ronaldo",
-                                                           "number":  7,
-                                                           "pos":  "F"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Joao Felix",
-                                                           "number":  11,
-                                                           "pos":  "F"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Pedro Neto",
-                                                           "number":  18,
-                                                           "pos":  "F"
-                                                       }
-                                        }
-                                    ],
-                        "substitutes":  [
-                                            {
-                                                "player":  {
-                                                               "name":  "Jose Sa",
-                                                               "number":  12,
-                                                               "pos":  "G"
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Rui Silva",
-                                                               "number":  22,
-                                                               "pos":  "G"
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Nelson Semedo",
-                                                               "number":  2,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Tomas Araujo",
-                                                               "number":  4,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Diogo Dalot",
-                                                               "number":  5,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Goncalo Inacio",
-                                                               "number":  14,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Matheus Nunes",
-                                                               "number":  6,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Joao Neves",
-                                                               "number":  15,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Vitinha",
-                                                               "number":  23,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Bernardo Silva",
-                                                               "number":  10,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Goncalo Ramos",
-                                                               "number":  9,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Francisco Trincao",
-                                                               "number":  16,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Rafael Leao",
-                                                               "number":  17,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Goncalo Guedes",
-                                                               "number":  19,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Francisco Conceicao",
-                                                               "number":  26,
-                                                               "pos":  null
-                                                           }
-                                            }
-                                        ]
-                    }
-                ]
+{
+  "fixture": {
+    "id": "wc2026-group-j-jordan-algeria",
+    "date": "2026-06-23T03:00:00Z",
+    "venue": { "name": "San Francisco Bay Area Stadium", "city": "Santa Clara" },
+    "status": { "short": "FT", "long": "Match Finished" }
+  },
+  "league": { "round": "Group J" },
+  "teams": {
+    "home": { "name": "Jordan",  "code": "JOR" },
+    "away": { "name": "Algeria", "code": "ALG" }
+  },
+  "goals": { "home": 1, "away": 2 },
+  "score": {
+    "halftime": { "home": 1, "away": 0 },
+    "fulltime": { "home": 1, "away": 2 }
+  },
+  "stats": [
+    {
+      "team": "Jordan",
+      "statistics": [
+        { "type": "Possession",    "value": "30%" },
+        { "type": "Shots on Goal", "value": "4" },
+        { "type": "Total Shots",   "value": "8" },
+        { "type": "Corner Kicks",  "value": "1" },
+        { "type": "Fouls",         "value": "10" },
+        { "type": "Yellow Cards",  "value": "1" },
+        { "type": "Red Cards",     "value": "0" }
+      ]
+    },
+    {
+      "team": "Algeria",
+      "statistics": [
+        { "type": "Possession",    "value": "55%" },
+        { "type": "Shots on Goal", "value": "8" },
+        { "type": "Total Shots",   "value": "18" },
+        { "type": "Corner Kicks",  "value": "10" },
+        { "type": "Fouls",         "value": "6" },
+        { "type": "Yellow Cards",  "value": "1" },
+        { "type": "Red Cards",     "value": "0" }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 36, "team": "Jordan",  "player": "Nizar Alrashdan",    "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 44, "team": "Algeria", "player": "Ramiz Zerrouki",     "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 46, "team": "Algeria", "player": "Nabil Bentaleb",     "type": "subst", "detail": "out: Ramiz Zerrouki, in: Nabil Bentaleb" },
+    { "minute": 46, "team": "Algeria", "player": "Nadhir Benbouali",   "type": "subst", "detail": "out: Hicham Boudaoui, in: Nadhir Benbouali" },
+    { "minute": 64, "team": "Jordan",  "player": "Husam Abudahab",     "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 69, "team": "Algeria", "player": "Nadhir Benbouali",   "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 76, "team": "Jordan",  "player": "Odeh Fakhoury",      "type": "subst", "detail": "out: Mahmoud Almardi, in: Odeh Fakhoury" },
+    { "minute": 76, "team": "Algeria", "player": "Anis Hadj Moussa",   "type": "subst", "detail": "out: Riyad Mahrez, in: Anis Hadj Moussa" },
+    { "minute": 82, "team": "Algeria", "player": "Amine Gouiri",       "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 84, "team": "Jordan",  "player": "Ali Azaizeh",        "type": "subst", "detail": "out: Mousa Altamari, in: Ali Azaizeh" },
+    { "minute": 84, "team": "Jordan",  "player": "Mohammad Abuhasheesh","type": "subst", "detail": "out: Mohannad Abutaha, in: Mohammad Abuhasheesh" },
+    { "minute": 85, "team": "Algeria", "player": "Jaouen Hadjam",      "type": "subst", "detail": "out: Rayan Ait-Nouri, in: Jaouen Hadjam" },
+    { "minute": 86, "team": "Algeria", "player": "Zineddine Belaid",   "type": "subst", "detail": "out: Amine Gouiri, in: Zineddine Belaid" },
+    { "minute": 91, "team": "Jordan",  "player": "Saleem Obaid",       "type": "subst", "detail": "out: Husam Abudahab, in: Saleem Obaid" },
+    { "minute": 92, "team": "Jordan",  "player": "Mohammad Abuzraiq",  "type": "subst", "detail": "out: Ali Olwan, in: Mohammad Abuzraiq" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Jordan" },
+      "formation": "3-4-3",
+      "startXI": [
+        { "player": { "name": "Yazeed Abulaila",   "number": 1,  "pos": "G" } },
+        { "player": { "name": "Abdallah Nasib",    "number": 3,  "pos": "D" } },
+        { "player": { "name": "Husam Abudahab",    "number": 4,  "pos": "D" } },
+        { "player": { "name": "Yazan Alarab",      "number": 5,  "pos": "D" } },
+        { "player": { "name": "Ehsan Haddad",      "number": 23, "pos": "M" } },
+        { "player": { "name": "Noor Alrawabdeh",   "number": 8,  "pos": "M" } },
+        { "player": { "name": "Mohannad Abutaha",  "number": 20, "pos": "M" } },
+        { "player": { "name": "Nizar Alrashdan",   "number": 21, "pos": "M" } },
+        { "player": { "name": "Ali Olwan",         "number": 9,  "pos": "F" } },
+        { "player": { "name": "Mahmoud Almardi",   "number": 13, "pos": "F" } },
+        { "player": { "name": "Mousa Altamari",    "number": 10, "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Nour Baniateyah",    "number": 12, "pos": "G" } },
+        { "player": { "name": "Abdallah Alfakhori", "number": 22, "pos": "G" } },
+        { "player": { "name": "Mohammad Abualnadi", "number": 16, "pos": "D" } },
+        { "player": { "name": "Ibrahim Sadeh",      "number": 15, "pos": "D" } },
+        { "player": { "name": "Mohammad Abuhasheesh","number": 2,  "pos": "M" } },
+        { "player": { "name": "Saed Alrosan",       "number": 19, "pos": "M" } },
+        { "player": { "name": "Anas Badawi",        "number": 26, "pos": "M" } },
+        { "player": { "name": "Amer Jamous",        "number": 6,  "pos": "M" } },
+        { "player": { "name": "Rajaei Ayed",        "number": 14, "pos": "M" } },
+        { "player": { "name": "Mohammad Abughoush", "number": 18, "pos": "M" } },
+        { "player": { "name": "Mohammad Aldaoud",   "number": 25, "pos": "M" } },
+        { "player": { "name": "Saleem Obaid",       "number": 17, "pos": "M" } },
+        { "player": { "name": "Odeh Fakhoury",      "number": 11, "pos": "F" } },
+        { "player": { "name": "Ali Azaizeh",        "number": 24, "pos": "F" } },
+        { "player": { "name": "Mohammad Abuzraiq",  "number": 7,  "pos": "F" } }
+      ]
+    },
+    {
+      "team": { "name": "Algeria" },
+      "formation": "4-2-1-3",
+      "startXI": [
+        { "player": { "name": "Luca Zidane",      "number": 23, "pos": "G" } },
+        { "player": { "name": "Aissa Mandi",      "number": 2,  "pos": "D" } },
+        { "player": { "name": "Rafik Belghali",   "number": 17, "pos": "D" } },
+        { "player": { "name": "Ramy Bensebaini",  "number": 21, "pos": "D" } },
+        { "player": { "name": "Rayan Ait-Nouri",  "number": 15, "pos": "D" } },
+        { "player": { "name": "Ramiz Zerrouki",   "number": 6,  "pos": "M" } },
+        { "player": { "name": "Hicham Boudaoui",  "number": 14, "pos": "M" } },
+        { "player": { "name": "Ibrahim Maza",     "number": 22, "pos": "M" } },
+        { "player": { "name": "Fares Chaibi",     "number": 10, "pos": "M" } },
+        { "player": { "name": "Riyad Mahrez",     "number": 7,  "pos": "F" } },
+        { "player": { "name": "Amine Gouiri",     "number": 9,  "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Melvin Mastil",        "number": 1,  "pos": "G" } },
+        { "player": { "name": "Oussama Benbot",       "number": 16, "pos": "G" } },
+        { "player": { "name": "Achref Abada",         "number": 3,  "pos": "D" } },
+        { "player": { "name": "Mohamed Amine Tougai", "number": 4,  "pos": "D" } },
+        { "player": { "name": "Jaouen Hadjam",        "number": 13, "pos": "D" } },
+        { "player": { "name": "Zineddine Belaid",     "number": 5,  "pos": "M" } },
+        { "player": { "name": "Nabil Bentaleb",       "number": 19, "pos": "M" } },
+        { "player": { "name": "Nadhir Benbouali",     "number": 12, "pos": "M" } },
+        { "player": { "name": "Houssem Aouar",        "number": 8,  "pos": "M" } },
+        { "player": { "name": "Yassine Titraoui",     "number": 24, "pos": "M" } },
+        { "player": { "name": "Samir Chergui",        "number": 26, "pos": "M" } },
+        { "player": { "name": "Anis Hadj Moussa",     "number": 11, "pos": "F" } },
+        { "player": { "name": "Adil Boulbina",        "number": 20, "pos": "F" } },
+        { "player": { "name": "Fares Ghedjemis",      "number": 25, "pos": "F" } }
+      ]
+    }
+  ]
 }

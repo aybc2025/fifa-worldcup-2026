@@ -1,107 +1,109 @@
 {
   "fixture": {
-    "id": "wc2026-group-a-korea-republic-czechia",
-    "date": "2026-06-11T23:00:00Z",
-    "venue": { "name": "Estadio Akron", "city": "Guadalajara" },
+    "id": "wc2026-group-a-mexico-south-africa",
+    "date": "2026-06-11T18:00:00Z",
+    "venue": { "name": "Estadio Azteca", "city": "Mexico City" },
     "status": { "short": "FT", "long": "Match Finished" }
   },
   "league": { "round": "Group A" },
   "teams": {
-    "home": { "name": "Korea Republic", "code": "KOR" },
-    "away": { "name": "Czechia", "code": "CZE" }
+    "home": { "name": "Mexico", "code": "MEX" },
+    "away": { "name": "South Africa", "code": "RSA" }
   },
-  "goals": { "home": 2, "away": 1 },
+  "goals": { "home": 2, "away": 0 },
   "score": {
-    "halftime": { "home": 0, "away": 0 },
-    "fulltime": { "home": 2, "away": 1 }
+    "halftime": { "home": 1, "away": 0 },
+    "fulltime": { "home": 2, "away": 0 }
   },
   "stats": [
     {
-      "team": "Korea Republic",
+      "team": "Mexico",
       "statistics": [
-        { "type": "Possession", "value": "55%", "_confidence": "FIFA=55%, Sofascore=62%; FIFA used" },
-        { "type": "Shots on Goal", "value": 6 },
-        { "type": "Total Shots", "value": 15 },
-        { "type": "Corner Kicks", "value": 4 },
-        { "type": "Fouls", "value": 9 },
+        { "type": "Possession", "value": "57%", "_confidence": "FIFA=57%, Sofascore=61%; FIFA used" },
+        { "type": "Shots on Goal", "value": 4 },
+        { "type": "Total Shots", "value": 16 },
+        { "type": "Corner Kicks", "value": 3 },
+        { "type": "Fouls", "value": 12 },
         { "type": "Yellow Cards", "value": 1 },
-        { "type": "Red Cards", "value": 0 }
+        { "type": "Red Cards", "value": 1 }
       ]
     },
     {
-      "team": "Czechia",
+      "team": "South Africa",
       "statistics": [
-        { "type": "Possession", "value": "34%", "_confidence": "FIFA=34%, Sofascore=38%; FIFA used" },
-        { "type": "Shots on Goal", "value": 4 },
-        { "type": "Total Shots", "value": 7 },
-        { "type": "Corner Kicks", "value": 5 },
-        { "type": "Fouls", "value": 16 },
-        { "type": "Yellow Cards", "value": 0 },
-        { "type": "Red Cards", "value": 0 }
+        { "type": "Possession", "value": "36%", "_confidence": "FIFA=36%, Sofascore=39%; FIFA used" },
+        { "type": "Shots on Goal", "value": 2 },
+        { "type": "Total Shots", "value": 3 },
+        { "type": "Corner Kicks", "value": 1 },
+        { "type": "Fouls", "value": 11 },
+        { "type": "Yellow Cards", "value": 2 },
+        { "type": "Red Cards", "value": 2 }
       ]
     }
   ],
   "events": [
-    { "minute": 59, "team": "Czechia",        "player": "Ladislav Krejčí",  "type": "Goal",  "detail": "Header — assist: Vladimír Coufal" },
-    { "minute": 62, "team": "Korea Republic", "player": "Hwang Hee-chan",    "type": "subst", "detail": "out: Lee Jae-sung, in: Hwang Hee-chan" },
-    { "minute": 64, "team": "Czechia",        "player": "Tomáš Chorý",      "type": "subst", "detail": "out: Patrik Schick, in: Tomáš Chorý" },
-    { "minute": 64, "team": "Czechia",        "player": "Michal Sadílek",   "type": "subst", "detail": "out: Lukáš Provod, in: Michal Sadílek" },
-    { "minute": 64, "team": "Czechia",        "player": "Adam Hložek",      "type": "subst", "detail": "out: Pavel Šulc, in: Adam Hložek" },
-    { "minute": 67, "team": "Korea Republic", "player": "Hwang In-beom",    "type": "Goal",  "detail": "Normal Goal — assist: Lee Kang-in" },
-    { "minute": 69, "team": "Korea Republic", "player": "Oh Hyeon-gyu",     "type": "subst", "detail": "out: Son Heung-min, in: Oh Hyeon-gyu" },
-    { "minute": 69, "team": "Korea Republic", "player": "Eom Ji-sung",      "type": "subst", "detail": "out: Lee Tae-seok, in: Eom Ji-sung" },
-    { "minute": 80, "team": "Korea Republic", "player": "Oh Hyeon-gyu",     "type": "Goal",  "detail": "Normal Goal — assist: Hwang In-beom" },
-    { "minute": 84, "team": "Czechia",        "player": "Mojmír Chytil",    "type": "subst", "detail": "out: Alexandr Sojka, in: Mojmír Chytil" },
-    { "minute": 84, "team": "Korea Republic", "player": "Jin-seob Park",    "type": "subst", "detail": "out: Seung-ho Paik, in: Jin-seob Park" },
-    { "minute": 84, "team": "Korea Republic", "player": "Jin-gyu Kim",      "type": "subst", "detail": "out: Hwang In-beom, in: Jin-gyu Kim" },
-    { "minute": 96, "team": "Korea Republic", "player": "Lee Gi-hyuk",      "type": "Card",  "detail": "Yellow Card" }
+    { "minute": 9,  "team": "Mexico",       "player": "Julián Quiñones",  "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 49, "team": "South Africa",  "player": "Sphephelo Sithole","type": "Card",  "detail": "Yellow Card" },
+    { "minute": 56, "team": "South Africa",  "player": "Thalente Mbatha",  "type": "subst", "detail": "out: Lyle Foster, in: Thalente Mbatha" },
+    { "minute": 61, "team": "South Africa",  "player": "Themba Zwane",     "type": "subst", "detail": "out: Jayden Adams, in: Themba Zwane" },
+    { "minute": 66, "team": "Mexico",        "player": "Álvaro Fidalgo",   "type": "subst", "detail": "out: Gilberto Mora, in: Álvaro Fidalgo" },
+    { "minute": 66, "team": "Mexico",        "player": "Brian Gutiérrez",  "type": "subst", "detail": "out: Luis Chávez, in: Brian Gutiérrez" },
+    { "minute": 67, "team": "Mexico",        "player": "Raúl Jiménez",     "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 76, "team": "Mexico",        "player": "Erik Lira",        "type": "subst", "detail": "out: Edson Álvarez, in: Erik Lira" },
+    { "minute": 76, "team": "South Africa",  "player": "Evidence Makgopa", "type": "subst", "detail": "out: Iqraam Rayners, in: Evidence Makgopa" },
+    { "minute": 77, "team": "South Africa",  "player": "Oswin Appollis",   "type": "subst", "detail": "out: Aubrey Modiba, in: Oswin Appollis" },
+    { "minute": 79, "team": "Mexico",        "player": "Alexis Vega",      "type": "subst", "detail": "out: Julián Quiñones, in: Alexis Vega" },
+    { "minute": 84, "team": "South Africa",  "player": "Themba Zwane",     "type": "Card",  "detail": "Red Card — Violent conduct" },
+    { "minute": 92, "team": "Mexico",        "player": "César Montes",     "type": "Card",  "detail": "Red Card — Professional foul" }
   ],
   "lineups": [
     {
-      "team": { "name": "Korea Republic" },
-      "formation": "3-4-2-1",
+      "team": { "name": "Mexico" },
+      "formation": "4-1-2-3",
       "startXI": [
-        { "player": { "name": "Kim Seung-gyu",  "number": 1,  "pos": "GK" } },
-        { "player": { "name": "Lee Hanbeom",    "number": 2,  "pos": "CB" } },
-        { "player": { "name": "Kim Min-jae",    "number": 4,  "pos": "CB" } },
-        { "player": { "name": "Lee Gi-hyuk",    "number": 3,  "pos": "CB" } },
-        { "player": { "name": "Seol Young-woo", "number": 22, "pos": "RWB" } },
-        { "player": { "name": "Hwang In-beom",  "number": 6,  "pos": "CM" } },
-        { "player": { "name": "Seung-ho Paik",  "number": 8,  "pos": "CM" } },
-        { "player": { "name": "Lee Tae-seok",   "number": 13, "pos": "LWB" } },
-        { "player": { "name": "Lee Kang-in",    "number": 19, "pos": "AM" } },
-        { "player": { "name": "Lee Jae-sung",   "number": 10, "pos": "AM" } },
-        { "player": { "name": "Son Heung-min",  "number": 7,  "pos": "ST" } }
+        { "player": { "name": "Raúl Rangel",      "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Jorge Sánchez",    "number": 2,  "pos": "RB" } },
+        { "player": { "name": "César Montes",     "number": 3,  "pos": "CB" } },
+        { "player": { "name": "Johan Vásquez",    "number": 5,  "pos": "CB" } },
+        { "player": { "name": "Jesús Gallardo",   "number": 23, "pos": "LB" } },
+        { "player": { "name": "Erik Lira",        "number": 6,  "pos": "DM" } },
+        { "player": { "name": "Álvaro Fidalgo",   "number": 8,  "pos": "CM" } },
+        { "player": { "name": "Brian Gutiérrez",  "number": 26, "pos": "CM" } },
+        { "player": { "name": "Roberto Alvarado", "number": 25, "pos": "RW" } },
+        { "player": { "name": "Raúl Jiménez",     "number": 9,  "pos": "ST" } },
+        { "player": { "name": "Julián Quiñones",  "number": 16, "pos": "LW" } }
       ],
       "substitutes": [
-        { "player": { "name": "Jin-seob Park",  "number": 16, "pos": "MF" } },
-        { "player": { "name": "Hwang Hee-chan", "number": 11, "pos": "FW" } },
-        { "player": { "name": "Oh Hyeon-gyu",  "number": 18, "pos": "ST" } },
-        { "player": { "name": "Jin-gyu Kim",   "number": 24, "pos": "MF" } },
-        { "player": { "name": "Eom Ji-sung",   "number": 25, "pos": "DF" } }
+        { "player": { "name": "Guillermo Ochoa",  "number": 13, "pos": "GK" } },
+        { "player": { "name": "Edson Álvarez",    "number": 4,  "pos": "DM" } },
+        { "player": { "name": "Gilberto Mora",    "number": 19, "pos": "MF" } },
+        { "player": { "name": "Luis Chávez",      "number": 24, "pos": "MF" } },
+        { "player": { "name": "Alexis Vega",      "number": 10, "pos": "FW" } },
+        { "player": { "name": "Santiago Giménez", "number": 11, "pos": "ST" } },
+        { "player": { "name": "Armando González", "number": 14, "pos": "FW" } }
       ]
     },
     {
-      "team": { "name": "Czechia" },
-      "formation": "3-4-2-1",
+      "team": { "name": "South Africa" },
+      "formation": "5-3-2",
       "startXI": [
-        { "player": { "name": "Matej Kovář",      "number": 1,  "pos": "GK" } },
-        { "player": { "name": "Stepan Chaloupek", "number": 6,  "pos": "CB" } },
-        { "player": { "name": "Robin Hranáč",     "number": 4,  "pos": "CB" } },
-        { "player": { "name": "Ladislav Krejčí",  "number": 7,  "pos": "CB" } },
-        { "player": { "name": "Vladimír Coufal",  "number": 5,  "pos": "RWB" } },
-        { "player": { "name": "Tomáš Souček",     "number": 22, "pos": "CM" } },
-        { "player": { "name": "Alexandr Sojka",   "number": 24, "pos": "CM" } },
-        { "player": { "name": "Jaroslav Zelený",  "number": 20, "pos": "LWB" } },
-        { "player": { "name": "Lukáš Provod",     "number": 17, "pos": "AM" } },
-        { "player": { "name": "Pavel Šulc",       "number": 15, "pos": "AM" } },
-        { "player": { "name": "Patrik Schick",    "number": 10, "pos": "ST" } }
+        { "player": { "name": "Ronwen Williams",    "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Khuliso Mudau",      "number": 20, "pos": "RB" } },
+        { "player": { "name": "Nkosinathi Sibisi",  "number": 19, "pos": "CB" } },
+        { "player": { "name": "Ime Okon",           "number": 21, "pos": "CB" } },
+        { "player": { "name": "Mbekezeli Mbokazi",  "number": 14, "pos": "CB" } },
+        { "player": { "name": "Aubrey Modiba",      "number": 6,  "pos": "LB" } },
+        { "player": { "name": "Teboho Mokoena",     "number": 4,  "pos": "CM" } },
+        { "player": { "name": "Sphephelo Sithole",  "number": 13, "pos": "CM" } },
+        { "player": { "name": "Jayden Adams",       "number": 23, "pos": "CM" } },
+        { "player": { "name": "Iqraam Rayners",     "number": 15, "pos": "FW" } },
+        { "player": { "name": "Lyle Foster",        "number": 9,  "pos": "ST" } }
       ],
       "substitutes": [
-        { "player": { "name": "Michal Sadílek",   "number": null, "pos": "MF" } },
-        { "player": { "name": "Adam Hložek",      "number": null, "pos": "FW" } },
-        { "player": { "name": "Tomáš Chorý",      "number": null, "pos": "FW" } },
-        { "player": { "name": "Mojmír Chytil",    "number": null, "pos": "FW" } }
+        { "player": { "name": "Thalente Mbatha",    "number": null, "pos": "MF" } },
+        { "player": { "name": "Themba Zwane",       "number": null, "pos": "MF" } },
+        { "player": { "name": "Oswin Appollis",     "number": null, "pos": "MF" } },
+        { "player": { "name": "Evidence Makgopa",   "number": null, "pos": "FW" } }
       ]
     }
   ]

@@ -18,15 +18,25 @@ function CardIcon({ detail }) {
 
 function EventRow({ event, isHome, index }) {
   const { t } = useTranslation()
-  const { time, team, player, assist, type, detail } = event
+  const { time, minute, player, assist, type, detail } = event
+
+  // Support both { player: "Name" } and { player: { name: "Name" } }
+  const playerName = player?.name ?? player
+  // Support both { time: { elapsed: N } } and { minute: N }
+  const elapsed = time?.elapsed ?? minute
+  // Substitution: out-player comes from assist.name or "out: Name[, in: ...]" in detail
+  const outName = assist?.name
+    ?? (type === 'subst' && typeof detail === 'string'
+      ? (detail.match(/^out:\s*([^,(]+)/)?.[1]?.trim() ?? null)
+      : null)
 
   const icon = type === 'Card'
     ? <CardIcon detail={detail} />
     : <span className="text-base">{EVENT_ICONS[type] ?? EVENT_ICONS[detail] ?? '•'}</span>
 
   const label = type === 'subst'
-    ? `${player?.name} → ${assist?.name}`
-    : player?.name
+    ? `${playerName} → ${outName ?? '?'}`
+    : playerName
 
   const sublabel = type === 'Goal' && detail === 'Penalty'
     ? `(${t('match.penalty')})`
@@ -47,7 +57,7 @@ function EventRow({ event, isHome, index }) {
     >
       {/* Time */}
       <span className="text-[11px] text-muted min-w-[32px] text-center pt-0.5 font-mono">
-        {time?.elapsed}'
+        {elapsed != null ? `${elapsed}'` : ''}
       </span>
 
       {/* Icon */}
@@ -62,7 +72,7 @@ function EventRow({ event, isHome, index }) {
   )
 }
 
-export function MatchTimeline({ events, homeTeamId }) {
+export function MatchTimeline({ events, homeTeamId, homeTeamName }) {
   const { t } = useTranslation()
 
   if (!events?.length) {
@@ -71,14 +81,19 @@ export function MatchTimeline({ events, homeTeamId }) {
 
   return (
     <div className="divide-y divide-border">
-      {events.map((ev, i) => (
-        <EventRow
-          key={i}
-          event={ev}
-          isHome={ev.team?.id === homeTeamId}
-          index={i}
-        />
-      ))}
+      {events.map((ev, i) => {
+        const evTeamName = typeof ev.team === 'string' ? ev.team : ev.team?.name
+        const isHome = ev.team?.id === homeTeamId
+          || (homeTeamName != null && evTeamName === homeTeamName)
+        return (
+          <EventRow
+            key={i}
+            event={ev}
+            isHome={isHome}
+            index={i}
+          />
+        )
+      })}
     </div>
   )
 }

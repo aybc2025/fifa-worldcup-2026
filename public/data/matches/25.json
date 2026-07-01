@@ -1,89 +1,104 @@
 {
   "fixture": {
-    "id": "wc2026-group-e-cote-divoire-ecuador",
-    "date": "2026-06-15T02:00:00Z",
-    "venue": { "name": "Levi's Stadium", "city": "San Francisco Bay Area" },
+    "id": "wc2026-group-e-germany-curacao",
+    "date": "2026-06-14T20:00:00Z",
+    "venue": { "name": "MetLife Stadium", "city": "East Rutherford" },
     "status": { "short": "FT", "long": "Match Finished" }
   },
   "league": { "round": "Group E" },
   "teams": {
-    "home": { "name": "Côte d'Ivoire", "code": "CIV" },
-    "away": { "name": "Ecuador", "code": "ECU" }
+    "home": { "name": "Germany", "code": "GER" },
+    "away": { "name": "Curaçao", "code": "CUW" }
   },
-  "goals": { "home": 1, "away": 0 },
+  "goals": { "home": 7, "away": 1 },
   "score": {
-    "halftime": { "home": 0, "away": 0 },
-    "fulltime": { "home": 1, "away": 0 }
+    "halftime": { "home": 3, "away": 1 },
+    "fulltime": { "home": 7, "away": 1 }
   },
   "stats": [
     {
-      "team": "Côte d'Ivoire",
+      "team": "Germany",
       "statistics": [
-        { "type": "Possession", "value": "41%" },
-        { "type": "Shots on Goal", "value": 4 },
-        { "type": "Total Shots", "value": 15 },
-        { "type": "Corner Kicks", "value": 3 },
-        { "type": "Fouls", "value": 10 },
-        { "type": "Yellow Cards", "value": 3 },
+        { "type": "Possession", "value": "57%" },
+        { "type": "Shots on Goal", "value": 12 },
+        { "type": "Total Shots", "value": 26 },
+        { "type": "Corner Kicks", "value": 8 },
+        { "type": "Fouls", "value": 18 },
+        { "type": "Yellow Cards", "value": 0 },
         { "type": "Red Cards", "value": 0 }
       ]
     },
     {
-      "team": "Ecuador",
+      "team": "Curaçao",
       "statistics": [
-        { "type": "Possession", "value": "49%" },
-        { "type": "Shots on Goal", "value": 1 },
-        { "type": "Total Shots", "value": 12 },
-        { "type": "Corner Kicks", "value": 5 },
-        { "type": "Fouls", "value": 13 },
-        { "type": "Yellow Cards", "value": 1 },
+        { "type": "Possession", "value": "35%" },
+        { "type": "Shots on Goal", "value": 2 },
+        { "type": "Total Shots", "value": 8 },
+        { "type": "Corner Kicks", "value": 1 },
+        { "type": "Fouls", "value": 11 },
+        { "type": "Yellow Cards", "value": 0 },
         { "type": "Red Cards", "value": 0 }
       ]
     }
   ],
   "events": [
-    { "minute": 90, "team": "Côte d'Ivoire", "player": "Amad Diallo", "type": "Goal", "detail": "Normal Goal" }
+    { "minute": 6,  "team": "Germany",  "player": "Lukas Nmecha",       "type": "Goal", "detail": "Normal Goal" },
+    { "minute": 21, "team": "Curaçao",  "player": "Livorno Comenencia", "type": "Goal", "detail": "Normal Goal" },
+    { "minute": 38, "team": "Germany",  "player": "Nico Schlotterbeck", "type": "Goal", "detail": "Normal Goal" },
+    { "minute": 45, "team": "Germany",  "player": "Kai Havertz",        "type": "Goal", "detail": "Penalty" },
+    { "minute": 47, "team": "Germany",  "player": "Jamal Musiala",      "type": "Goal", "detail": "Normal Goal" },
+    { "minute": 64, "team": "Germany",  "player": "Deniz Undav",        "type": "subst","detail": "out: Jamal Musiala, in: Deniz Undav" },
+    { "minute": 68, "team": "Germany",  "player": "Maximilian Brown",   "type": "Goal", "detail": "Normal Goal" },
+    { "minute": 73, "team": "Germany",  "player": "Antonio Rüdiger",    "type": "subst","detail": "out: Jonathan Tah, in: Antonio Rüdiger" },
+    { "minute": 78, "team": "Germany",  "player": "Deniz Undav",        "type": "Goal", "detail": "Normal Goal" },
+    { "minute": 88, "team": "Germany",  "player": "Kai Havertz",        "type": "Goal", "detail": "Normal Goal" }
   ],
   "lineups": [
     {
-      "team": { "name": "Côte d'Ivoire" },
-      "formation": "4-4-2",
+      "team": { "name": "Germany" },
+      "formation": "4-2-3-1",
       "startXI": [
-        { "player": { "name": "Yahia Fofana",       "number": 1,  "pos": "GK" } },
-        { "player": { "name": "Wilfried Singo",     "number": 5,  "pos": "RB" } },
-        { "player": { "name": "Evan Ndicka",        "number": 20, "pos": "CB" } },
-        { "player": { "name": "Willy Boly",         "number": 3,  "pos": "CB" } },
-        { "player": { "name": "Ghislain Konan",     "number": 17, "pos": "LB" } },
-        { "player": { "name": "Franck Kessié",      "number": 8,  "pos": "CM" } },
-        { "player": { "name": "Seko Fofana",        "number": 6,  "pos": "CM" } },
-        { "player": { "name": "Ibrahim Sangaré",    "number": 24, "pos": "CM" } },
-        { "player": { "name": "Amad Diallo",        "number": 11, "pos": "RW" } },
-        { "player": { "name": "Nicolas Pépé",       "number": 19, "pos": "LW" } },
-        { "player": { "name": "Sébastien Haller",   "number": 12, "pos": "ST" } }
+        { "player": { "name": "Manuel Neuer",         "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Joshua Kimmich",       "number": 6,  "pos": "RB" } },
+        { "player": { "name": "Jonathan Tah",         "number": 4,  "pos": "CB" } },
+        { "player": { "name": "Nico Schlotterbeck",   "number": 15, "pos": "CB" } },
+        { "player": { "name": "Maximilian Brown",     "number": 18, "pos": "LB" } },
+        { "player": { "name": "Lukas Nmecha",         "number": 23, "pos": "DM" } },
+        { "player": { "name": "Aleksandar Pavlović",  "number": 5,  "pos": "DM" } },
+        { "player": { "name": "Leroy Sané",           "number": 19, "pos": "RM" } },
+        { "player": { "name": "Jamal Musiala",        "number": 10, "pos": "AM" } },
+        { "player": { "name": "Florian Wirtz",        "number": 17, "pos": "LM" } },
+        { "player": { "name": "Kai Havertz",          "number": 7,  "pos": "ST" } }
       ],
       "substitutes": [
-        { "player": { "name": "Wilfried Zaha",      "number": 10, "pos": "FW" } },
-        { "player": { "name": "Max-Alain Gradel",   "number": 9,  "pos": "FW" } }
+        { "player": { "name": "Marc-André ter Stegen","number": 22, "pos": "GK" } },
+        { "player": { "name": "Antonio Rüdiger",      "number": 2,  "pos": "DF" } },
+        { "player": { "name": "Waldemar Anton",       "number": 3,  "pos": "DF" } },
+        { "player": { "name": "Leon Goretzka",        "number": 8,  "pos": "MF" } },
+        { "player": { "name": "Deniz Undav",          "number": 26, "pos": "FW" } },
+        { "player": { "name": "Niclas Füllkrug",      "number": 13, "pos": "FW" } }
       ]
     },
     {
-      "team": { "name": "Ecuador" },
-      "formation": "4-4-2",
+      "team": { "name": "Curaçao" },
+      "formation": "4-3-1-2",
       "startXI": [
-        { "player": { "name": "Hernán Galíndez",   "number": 1,  "pos": "GK" } },
-        { "player": { "name": "Angelo Preciado",   "number": 21, "pos": "RB" } },
-        { "player": { "name": "Piero Hincapié",    "number": 3,  "pos": "CB" } },
-        { "player": { "name": "Félix Torres",      "number": 4,  "pos": "CB" } },
-        { "player": { "name": "Pervis Estupiñán",  "number": 6,  "pos": "LB" } },
-        { "player": { "name": "Moisés Caicedo",    "number": 23, "pos": "CM" } },
-        { "player": { "name": "Carlos Gruezo",     "number": 15, "pos": "CM" } },
-        { "player": { "name": "Romario Ibarra",    "number": 14, "pos": "RM" } },
-        { "player": { "name": "Gonzalo Plata",     "number": 19, "pos": "LW" } },
-        { "player": { "name": "Djorkaeff Reasco",  "number": 9,  "pos": "FW" } },
-        { "player": { "name": "Enner Valencia",    "number": 13, "pos": "ST" } }
+        { "player": { "name": "Eloy Room",              "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Cuco Martina",           "number": 5,  "pos": "RB" } },
+        { "player": { "name": "Riechedly Bazoer",       "number": 23, "pos": "CB" } },
+        { "player": { "name": "Rangelo Janga",          "number": 18, "pos": "CB" } },
+        { "player": { "name": "Ethan Obispo",           "number": 24, "pos": "LB" } },
+        { "player": { "name": "Livorno Comenencia",     "number": 8,  "pos": "CM" } },
+        { "player": { "name": "Jafar Aisati",           "number": 10, "pos": "CM" } },
+        { "player": { "name": "Juninho Bacuna",         "number": 7,  "pos": "CM" } },
+        { "player": { "name": "Leandro Bacuna",         "number": null,"pos": "AM" } },
+        { "player": { "name": "Chederick van den Berg", "number": 21, "pos": "FW" } },
+        { "player": { "name": "Jurickson Locadia",      "number": 9,  "pos": "FW" } }
       ],
       "substitutes": [
-        { "player": { "name": "Jeremy Sarmiento",  "number": 11, "pos": "FW" } }
+        { "player": { "name": "Timon Wellenreuther","number": 13, "pos": "GK" } },
+        { "player": { "name": "Myron Boadu",        "number": 11, "pos": "FW" } },
+        { "player": { "name": "Evander",            "number": 15, "pos": "MF" } }
       ]
     }
   ]

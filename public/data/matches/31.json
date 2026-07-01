@@ -1,95 +1,99 @@
 {
   "fixture": {
-    "id": "wc2026-group-f-sweden-tunisia",
+    "id": "wc2026-group-f-netherlands-japan",
     "date": "2026-06-14T23:00:00Z",
-    "venue": { "name": "Allegiant Stadium", "city": "Las Vegas" },
+    "venue": { "name": "AT&T Stadium", "city": "Dallas" },
     "status": { "short": "FT", "long": "Match Finished" }
   },
   "league": { "round": "Group F" },
   "teams": {
-    "home": { "name": "Sweden", "code": "SWE" },
-    "away": { "name": "Tunisia", "code": "TUN" }
+    "home": { "name": "Netherlands", "code": "NED" },
+    "away": { "name": "Japan", "code": "JPN" }
   },
-  "goals": { "home": 5, "away": 1 },
+  "goals": { "home": 2, "away": 2 },
   "score": {
-    "halftime": { "home": 2, "away": 1 },
-    "fulltime": { "home": 5, "away": 1 }
+    "halftime": { "home": 0, "away": 0 },
+    "fulltime": { "home": 2, "away": 2 }
   },
   "stats": [
     {
-      "team": "Sweden",
+      "team": "Netherlands",
       "statistics": [
-        { "type": "Possession", "value": "47%" },
-        { "type": "Shots on Goal", "value": 7 },
-        { "type": "Total Shots", "value": 13 },
-        { "type": "Corner Kicks", "value": 4 },
-        { "type": "Fouls", "value": 10 },
-        { "type": "Yellow Cards", "value": 0 },
+        { "type": "Possession", "value": "54%" },
+        { "type": "Shots on Goal", "value": 6 },
+        { "type": "Total Shots", "value": 10 },
+        { "type": "Corner Kicks", "value": 5 },
+        { "type": "Fouls", "value": 7 },
+        { "type": "Yellow Cards", "value": 3 },
         { "type": "Red Cards", "value": 0 }
       ]
     },
     {
-      "team": "Tunisia",
+      "team": "Japan",
       "statistics": [
-        { "type": "Possession", "value": "42%" },
+        { "type": "Possession", "value": "37%" },
         { "type": "Shots on Goal", "value": 2 },
-        { "type": "Total Shots", "value": 6 },
-        { "type": "Corner Kicks", "value": 2 },
-        { "type": "Fouls", "value": 8 },
-        { "type": "Yellow Cards", "value": 1 },
+        { "type": "Total Shots", "value": 9 },
+        { "type": "Corner Kicks", "value": 4 },
+        { "type": "Fouls", "value": 7 },
+        { "type": "Yellow Cards", "value": 0 },
         { "type": "Red Cards", "value": 0 }
       ]
     }
   ],
   "events": [
-    { "minute": 7,  "team": "Sweden",  "player": "Samuel Ayari",     "type": "Goal", "detail": "Normal Goal" },
-    { "minute": 30, "team": "Sweden",  "player": "Alexander Isak",   "type": "Goal", "detail": "Normal Goal" },
-    { "minute": 43, "team": "Tunisia", "player": "Karim Rekik",      "type": "Goal", "detail": "Normal Goal" },
-    { "minute": 59, "team": "Sweden",  "player": "Viktor Gyökeres",  "type": "Goal", "detail": "Normal Goal" },
-    { "minute": 84, "team": "Sweden",  "player": "Mattias Svanberg", "type": "Goal", "detail": "Normal Goal" },
-    { "minute": 96, "team": "Sweden",  "player": "Samuel Ayari",     "type": "Goal", "detail": "Normal Goal" }
+    { "minute": 51, "team": "Netherlands", "player": "Virgil van Dijk",      "type": "Goal",  "detail": "Normal Goal — assist: Ryan Gravenberch" },
+    { "minute": 57, "team": "Japan",       "player": "Ritsu Doan",           "type": "Goal",  "detail": "Normal Goal", "_confidence": "FIFA: Doan 57', Sofascore: Nakamura 57' — FIFA used as tiebreaker" },
+    { "minute": 64, "team": "Netherlands", "player": "Crysencio Summerville","type": "Goal",  "detail": "Normal Goal — assist: Ryan Gravenberch" },
+    { "minute": 70, "team": "Netherlands", "player": "Teun Koopmeiners",     "type": "subst", "detail": "out: Crysencio Summerville, in: Teun Koopmeiners" },
+    { "minute": 70, "team": "Netherlands", "player": "Memphis Depay",        "type": "subst", "detail": "out: Donyell Malen, in: Memphis Depay" },
+    { "minute": 75, "team": "Japan",       "player": "Takefusa Kubo",        "type": "subst", "detail": "out: Ritsu Doan, in: Takefusa Kubo" },
+    { "minute": 85, "team": "Netherlands", "player": "Brian Brobbey",        "type": "subst", "detail": "out: Cody Gakpo, in: Brian Brobbey" },
+    { "minute": 89, "team": "Japan",       "player": "Daichi Kamada",        "type": "Goal",  "detail": "Normal Goal — assist: Ogawa" }
   ],
   "lineups": [
     {
-      "team": { "name": "Sweden" },
-      "formation": "3-1-4-2",
+      "team": { "name": "Netherlands" },
+      "formation": "4-3-3",
       "startXI": [
-        { "player": { "name": "Kristoffer Nordfeldt","number": 23, "pos": "GK" } },
-        { "player": { "name": "Emil Krafth",         "number": 2,  "pos": "CB" } },
-        { "player": { "name": "Isak Hien",           "number": 4,  "pos": "CB" } },
-        { "player": { "name": "Victor Lindelöf",     "number": 3,  "pos": "CB" } },
-        { "player": { "name": "Marcus Karlström",    "number": 16, "pos": "DM" } },
-        { "player": { "name": "Mattias Svanberg",    "number": 21, "pos": "CM" } },
-        { "player": { "name": "Jesper Nygren",       "number": 10, "pos": "CM" } },
-        { "player": { "name": "Samuel Ayari",        "number": 18, "pos": "RM" } },
-        { "player": { "name": "Mikael Gudmundsson",  "number": 5,  "pos": "LM" } },
-        { "player": { "name": "Viktor Gyökeres",     "number": 17, "pos": "ST" } },
-        { "player": { "name": "Alexander Isak",      "number": 9,  "pos": "ST" } }
+        { "player": { "name": "Bart Verbruggen",      "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Denzel Dumfries",      "number": 22, "pos": "RB" } },
+        { "player": { "name": "Jan Paul van Hecke",   "number": 6,  "pos": "CB" } },
+        { "player": { "name": "Virgil van Dijk",      "number": 4,  "pos": "CB" } },
+        { "player": { "name": "Micky van de Ven",     "number": 15, "pos": "LB" } },
+        { "player": { "name": "Ryan Gravenberch",     "number": 8,  "pos": "CM" } },
+        { "player": { "name": "Frenkie de Jong",      "number": 21, "pos": "CM" } },
+        { "player": { "name": "Tijjani Reijnders",    "number": 14, "pos": "CM" } },
+        { "player": { "name": "Crysencio Summerville","number": 24, "pos": "RW" } },
+        { "player": { "name": "Donyell Malen",        "number": 18, "pos": "LW" } },
+        { "player": { "name": "Cody Gakpo",           "number": 11, "pos": "ST" } }
       ],
       "substitutes": [
-        { "player": { "name": "Robin Olsen",        "number": 1,  "pos": "GK" } },
-        { "player": { "name": "Dejan Kulusevski",   "number": 11, "pos": "FW" } },
-        { "player": { "name": "Anthony Elanga",     "number": 14, "pos": "FW" } }
+        { "player": { "name": "Teun Koopmeiners",     "number": 7,  "pos": "MF" } },
+        { "player": { "name": "Memphis Depay",        "number": null,"pos": "FW" } },
+        { "player": { "name": "Brian Brobbey",        "number": 9,  "pos": "ST" } },
+        { "player": { "name": "Wout Weghorst",        "number": 19, "pos": "ST" } }
       ]
     },
     {
-      "team": { "name": "Tunisia" },
-      "formation": "5-3-2",
+      "team": { "name": "Japan" },
+      "formation": "3-4-2-1",
       "startXI": [
-        { "player": { "name": "Mouez Hassen",         "number": 1,  "pos": "GK" } },
-        { "player": { "name": "Nayef Aguerd",         "number": 20, "pos": "CB" } },
-        { "player": { "name": "Karim Rekik",          "number": 4,  "pos": "CB" } },
-        { "player": { "name": "Montassar Talbi",      "number": 3,  "pos": "CB" } },
-        { "player": { "name": "Hamza Abdi",           "number": 21, "pos": "RWB" } },
-        { "player": { "name": "Yan Valery",           "number": 2,  "pos": "LWB" } },
-        { "player": { "name": "Anis Ben Slimane",     "number": 13, "pos": "CM" } },
-        { "player": { "name": "Ellyes Skhiri",        "number": 17, "pos": "CM" } },
-        { "player": { "name": "Hannibal Mejbri",      "number": 10, "pos": "AM" } },
-        { "player": { "name": "Taha Yassine Khenissi","number": 8,  "pos": "FW" } },
-        { "player": { "name": "Seifeddine Jaziri",    "number": 25, "pos": "FW" } }
+        { "player": { "name": "Zion Suzuki",    "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Shogo Taniguchi","number": 3,  "pos": "CB" } },
+        { "player": { "name": "Ko Itō",         "number": 16, "pos": "CB" } },
+        { "player": { "name": "Hiroki Ito",     "number": 21, "pos": "CB" } },
+        { "player": { "name": "Ritsu Doan",     "number": 10, "pos": "RWB" } },
+        { "player": { "name": "Ao Tanaka",      "number": 24, "pos": "CM" } },
+        { "player": { "name": "Daichi Kamada",  "number": 15, "pos": "CM" } },
+        { "player": { "name": "Kaoru Mitoma",   "number": 13, "pos": "LWB" } },
+        { "player": { "name": "Takefusa Kubo",  "number": 8,  "pos": "AM" } },
+        { "player": { "name": "Daizen Maeda",   "number": 11, "pos": "AM" } },
+        { "player": { "name": "Ayase Ueda",     "number": 18, "pos": "ST" } }
       ],
       "substitutes": [
-        { "player": { "name": "Naïm Sliti", "number": 7, "pos": "FW" } }
+        { "player": { "name": "Reo Hatate",     "number": 7,  "pos": "MF" } },
+        { "player": { "name": "Takuma Asano",   "number": 19, "pos": "FW" } }
       ]
     }
   ]

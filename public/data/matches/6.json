@@ -1,113 +1,124 @@
 {
   "fixture": {
-    "id": "wc2026-group-b-canada-bosnia-and-herzegovina",
-    "date": "2026-06-12T18:00:00Z",
-    "venue": { "name": "BMO Field", "city": "Toronto" },
+    "id": "wc2026-group-a-south-africa-korea-republic",
+    "date": "2026-06-25T01:00:00Z",
+    "venue": { "name": "Monterrey Stadium", "city": "Monterrey" },
     "status": { "short": "FT", "long": "Match Finished" }
   },
-  "league": { "round": "Group B" },
+  "league": { "round": "Group A" },
   "teams": {
-    "home": { "name": "Canada", "code": "CAN" },
-    "away": { "name": "Bosnia and Herzegovina", "code": "BIH" }
+    "home": { "name": "South Africa",   "code": "RSA" },
+    "away": { "name": "South Korea",    "code": "KOR" }
   },
-  "goals": { "home": 1, "away": 1 },
+  "goals": { "home": 1, "away": 0 },
   "score": {
-    "halftime": { "home": 0, "away": 1 },
-    "fulltime": { "home": 1, "away": 1 }
+    "halftime": { "home": 0, "away": 0 },
+    "fulltime":  { "home": 1, "away": 0 }
   },
   "stats": [
     {
-      "team": "Canada",
+      "team": "South Africa",
       "statistics": [
-        { "type": "Possession", "value": "52%", "_confidence": "FIFA=52%, Sofascore=61%; FIFA used" },
-        { "type": "Shots on Goal", "value": 4 },
-        { "type": "Total Shots", "value": 13 },
-        { "type": "Corner Kicks", "value": 9 },
-        { "type": "Fouls", "value": 10 },
-        { "type": "Yellow Cards", "value": 2 },
-        { "type": "Red Cards", "value": 0 }
+        { "type": "Possession",    "value": "32%" },
+        { "type": "Shots on Goal", "value": "4" },
+        { "type": "Total Shots",   "value": "13" },
+        { "type": "Corner Kicks",  "value": "4" },
+        { "type": "Fouls",         "value": "7" },
+        { "type": "Yellow Cards",  "value": "1" },
+        { "type": "Red Cards",     "value": "0" }
       ]
     },
     {
-      "team": "Bosnia and Herzegovina",
+      "team": "South Korea",
       "statistics": [
-        { "type": "Possession", "value": "29%", "_confidence": "FIFA=29%, Sofascore=39%; FIFA used" },
-        { "type": "Shots on Goal", "value": 3 },
-        { "type": "Total Shots", "value": 8 },
-        { "type": "Corner Kicks", "value": 4 },
-        { "type": "Fouls", "value": 20 },
-        { "type": "Yellow Cards", "value": 3 },
-        { "type": "Red Cards", "value": 0 }
+        { "type": "Possession",    "value": "68%" },
+        { "type": "Shots on Goal", "value": "3" },
+        { "type": "Total Shots",   "value": "8" },
+        { "type": "Corner Kicks",  "value": "6" },
+        { "type": "Fouls",         "value": "9" },
+        { "type": "Yellow Cards",  "value": "1" },
+        { "type": "Red Cards",     "value": "0" }
       ]
     }
   ],
   "events": [
-    { "minute": 11, "team": "Canada",                  "player": "Alistair Johnston",  "type": "Card",  "detail": "Yellow Card" },
-    { "minute": 21, "team": "Bosnia and Herzegovina",   "player": "Jovo Lukić",         "type": "Goal",  "detail": "Header — assist: Sead Kolašinac" },
-    { "minute": 45, "team": "Bosnia and Herzegovina",   "player": "Ermedin Demirović",  "type": "Card",  "detail": "Yellow Card" },
-    { "minute": 46, "team": "Bosnia and Herzegovina",   "player": "Jovo Lukić",         "type": "Card",  "detail": "Yellow Card" },
-    { "minute": 53, "team": "Canada",                  "player": "Luc De Fougerolles", "type": "Card",  "detail": "Yellow Card" },
-    { "minute": 61, "team": "Canada",                  "player": "Ali Ahmed",          "type": "subst", "detail": "out: Tajon Buchanan, in: Ali Ahmed" },
-    { "minute": 61, "team": "Canada",                  "player": "Jacob Shaffelburg",  "type": "subst", "detail": "out: Liam Millar, in: Jacob Shaffelburg" },
-    { "minute": 61, "team": "Canada",                  "player": "Promise David",      "type": "subst", "detail": "out: Jonathan David, in: Promise David" },
-    { "minute": 62, "team": "Bosnia and Herzegovina",   "player": "Armin Gigović",      "type": "subst", "detail": "out: Ivan Bašić, in: Armin Gigović" },
-    { "minute": 62, "team": "Bosnia and Herzegovina",   "player": "Samed Baždar",       "type": "subst", "detail": "out: Jovo Lukić, in: Samed Baždar" },
-    { "minute": 74, "team": "Bosnia and Herzegovina",   "player": "Kerim Alajbegović",  "type": "subst", "detail": "out: Amar Memić, in: Kerim Alajbegović" },
-    { "minute": 74, "team": "Bosnia and Herzegovina",   "player": "Ivan Šunjić",        "type": "subst", "detail": "out: Esmir Bajraktarević, in: Ivan Šunjić" },
-    { "minute": 76, "team": "Canada",                  "player": "Cyle Larin",         "type": "subst", "detail": "out: Tani Oluwaseyi, in: Cyle Larin" },
-    { "minute": 78, "team": "Canada",                  "player": "Cyle Larin",         "type": "Goal",  "detail": "Normal Goal — assist: Promise David" },
-    { "minute": 84, "team": "Bosnia and Herzegovina",   "player": "Dženis Burnić",      "type": "subst", "detail": "out: Sead Kolašinac, in: Dženis Burnić" },
-    { "minute": 91, "team": "Canada",                  "player": "Jonathan Osorio",    "type": "subst", "detail": "out: Stephen Eustaquio, in: Jonathan Osorio" },
-    { "minute": 93, "team": "Bosnia and Herzegovina",   "player": "Nikola Katić",       "type": "Card",  "detail": "Yellow Card" }
+    { "minute": 46, "team": "South Korea",   "player": "Jens-Lys Cajuste",  "type": "subst", "detail": "out: Lee Taeseok, in: Jens-Lys Cajuste" },
+    { "minute": 46, "team": "South Korea",   "player": "Paik Seungho",      "type": "subst", "detail": "out: Kim Jingyu, in: Paik Seungho" },
+    { "minute": 46, "team": "South Korea",   "player": "Hwang Heechan",     "type": "subst", "detail": "out: Son Heungmin, in: Hwang Heechan" },
+    { "minute": 62, "team": "South Africa",  "player": "Tshepang Moremi",   "type": "subst", "detail": "out: Oswin Appollis, in: Tshepang Moremi" },
+    { "minute": 63, "team": "South Africa",  "player": "Thapelo Maseko",    "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 65, "team": "South Korea",   "player": "Park Jinseob",      "type": "subst", "detail": "out: Kim Minjae, in: Park Jinseob" },
+    { "minute": 72, "team": "South Korea",   "player": "Kim Minjae",        "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 73, "team": "South Africa",  "player": "Aubrey Modiba",     "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 74, "team": "South Korea",   "player": "Oh Hyeongyu",       "type": "subst", "detail": "out: Cho Guesung, in: Oh Hyeongyu" },
+    { "minute": 75, "team": "South Africa",  "player": "Iqraam Rayners",    "type": "subst", "detail": "out: Thapelo Maseko, in: Iqraam Rayners" },
+    { "minute": 80, "team": "South Africa",  "player": "Jayden Adams",      "type": "subst", "detail": "out: Relebohile Mofokeng, in: Jayden Adams" }
   ],
   "lineups": [
     {
-      "team": { "name": "Canada" },
-      "formation": "4-4-2",
+      "team": { "name": "South Africa" },
+      "formation": "4-2-3-1",
       "startXI": [
-        { "player": { "name": "Maxime Crépeau",    "number": 16, "pos": "GK" } },
-        { "player": { "name": "Alistair Johnston", "number": 2,  "pos": "RB" } },
-        { "player": { "name": "Luc De Fougerolles","number": 4,  "pos": "CB" } },
-        { "player": { "name": "Derek Cornelius",   "number": 13, "pos": "CB" } },
-        { "player": { "name": "Richie Laryea",     "number": 22, "pos": "LB" } },
-        { "player": { "name": "Tajon Buchanan",    "number": 17, "pos": "RM" } },
-        { "player": { "name": "Ismaël Koné",       "number": 8,  "pos": "CM" } },
-        { "player": { "name": "Stephen Eustaquio", "number": 7,  "pos": "CM" } },
-        { "player": { "name": "Liam Millar",       "number": 11, "pos": "LM" } },
-        { "player": { "name": "Jonathan David",    "number": 10, "pos": "ST" } },
-        { "player": { "name": "Tani Oluwaseyi",    "number": 12, "pos": "ST" } }
+        { "player": { "name": "Ronwen Williams",      "number": 1,  "pos": "G" } },
+        { "player": { "name": "Aubrey Modiba",        "number": 6,  "pos": "D" } },
+        { "player": { "name": "Mbekezeli Mbokazi",    "number": 14, "pos": "D" } },
+        { "player": { "name": "Khuliso Mudau",        "number": 20, "pos": "D" } },
+        { "player": { "name": "Ime Okon",             "number": 21, "pos": "D" } },
+        { "player": { "name": "Thalente Mbatha",      "number": 5,  "pos": "M" } },
+        { "player": { "name": "Sphephelo Sithole",    "number": 13, "pos": "M" } },
+        { "player": { "name": "Oswin Appollis",       "number": 7,  "pos": "M" } },
+        { "player": { "name": "Relebohile Mofokeng",  "number": 10, "pos": "M" } },
+        { "player": { "name": "Thapelo Maseko",       "number": 12, "pos": "M" } },
+        { "player": { "name": "Evidence Makgopa",     "number": 17, "pos": "F" } }
       ],
       "substitutes": [
-        { "player": { "name": "Alphonso Davies",   "number": 19, "pos": "LB" } },
-        { "player": { "name": "Cyle Larin",        "number": 9,  "pos": "ST" } },
-        { "player": { "name": "Ali Ahmed",         "number": 20, "pos": "FW" } },
-        { "player": { "name": "Promise David",     "number": 24, "pos": "FW" } },
-        { "player": { "name": "Jacob Shaffelburg", "number": 14, "pos": "MF" } },
-        { "player": { "name": "Jonathan Osorio",   "number": 21, "pos": "MF" } }
+        { "player": { "name": "Tshepang Moremi",     "number": 8,  "pos": "M" } },
+        { "player": { "name": "Iqraam Rayners",      "number": 15, "pos": "F" } },
+        { "player": { "name": "Jayden Adams",        "number": 23, "pos": "M" } },
+        { "player": { "name": "Sipho Chaine",        "number": 16, "pos": "G" } },
+        { "player": { "name": "Ricardo Goss",        "number": 22, "pos": "G" } },
+        { "player": { "name": "Thabang Matuludi",    "number": 2,  "pos": "D" } },
+        { "player": { "name": "Khulumani Ndamane",   "number": 3,  "pos": "D" } },
+        { "player": { "name": "Samukele Kabini",     "number": 18, "pos": "M" } },
+        { "player": { "name": "Nkosinathi Sibisi",   "number": 19, "pos": "D" } },
+        { "player": { "name": "Olwethu Makhanya",    "number": 24, "pos": "M" } },
+        { "player": { "name": "Bradley Cross",       "number": 26, "pos": "M" } },
+        { "player": { "name": "Lyle Foster",         "number": 9,  "pos": "F" } },
+        { "player": { "name": "Kamogelo Sebelebele", "number": 25, "pos": "F" } }
       ]
     },
     {
-      "team": { "name": "Bosnia and Herzegovina" },
-      "formation": "4-4-2",
+      "team": { "name": "South Korea" },
+      "formation": "3-4-3",
       "startXI": [
-        { "player": { "name": "Nikola Vasilj",         "number": 1,  "pos": "GK" } },
-        { "player": { "name": "Amar Dedić",            "number": 7,  "pos": "RB" } },
-        { "player": { "name": "Nikola Katić",          "number": 18, "pos": "CB" } },
-        { "player": { "name": "Tarik Muharemović",     "number": 4,  "pos": "CB" } },
-        { "player": { "name": "Sead Kolašinac",        "number": 5,  "pos": "LB" } },
-        { "player": { "name": "Esmir Bajraktarević",   "number": 20, "pos": "RM" } },
-        { "player": { "name": "Benjamin Tahirović",    "number": 6,  "pos": "CM" } },
-        { "player": { "name": "Ivan Bašić",            "number": 13, "pos": "CM" } },
-        { "player": { "name": "Amar Memić",            "number": 15, "pos": "LM" } },
-        { "player": { "name": "Ermedin Demirović",     "number": 10, "pos": "ST" } },
-        { "player": { "name": "Jovo Lukić",            "number": 25, "pos": "ST" } }
+        { "player": { "name": "Kim Seunggyu",   "number": 1,  "pos": "G" } },
+        { "player": { "name": "Lee Hanbeom",    "number": 2,  "pos": "D" } },
+        { "player": { "name": "Kim Minjae",     "number": 4,  "pos": "D" } },
+        { "player": { "name": "Lee Taeseok",    "number": 13, "pos": "D" } },
+        { "player": { "name": "Seol Youngwoo",  "number": 22, "pos": "D" } },
+        { "player": { "name": "Lee Gihyuk",     "number": 3,  "pos": "M" } },
+        { "player": { "name": "Hwang Inbeom",   "number": 6,  "pos": "M" } },
+        { "player": { "name": "Kim Jingyu",     "number": 24, "pos": "M" } },
+        { "player": { "name": "Son Heungmin",   "number": 7,  "pos": "F" } },
+        { "player": { "name": "Lee Kangin",     "number": 19, "pos": "F" } },
+        { "player": { "name": "Cho Guesung",    "number": 9,  "pos": "F" } }
       ],
       "substitutes": [
-        { "player": { "name": "Armin Gigović",     "number": null, "pos": "MF" } },
-        { "player": { "name": "Samed Baždar",      "number": null, "pos": "MF" } },
-        { "player": { "name": "Kerim Alajbegović", "number": null, "pos": "MF" } },
-        { "player": { "name": "Ivan Šunjić",       "number": null, "pos": "MF" } },
-        { "player": { "name": "Dženis Burnić",     "number": null, "pos": "MF" } }
+        { "player": { "name": "Jens-Lys Cajuste",  "number": 23, "pos": "D" } },
+        { "player": { "name": "Paik Seungho",      "number": 8,  "pos": "M" } },
+        { "player": { "name": "Hwang Heechan",     "number": 11, "pos": "F" } },
+        { "player": { "name": "Park Jinseob",      "number": 16, "pos": "D" } },
+        { "player": { "name": "Oh Hyeongyu",       "number": 18, "pos": "F" } },
+        { "player": { "name": "Song Bumkeun",      "number": 12, "pos": "G" } },
+        { "player": { "name": "Jo Hyeonwoo",       "number": 21, "pos": "G" } },
+        { "player": { "name": "Kim Taehyeon",      "number": 5,  "pos": "D" } },
+        { "player": { "name": "Cho Wije",          "number": 14, "pos": "D" } },
+        { "player": { "name": "Kim Moonhwan",      "number": 15, "pos": "D" } },
+        { "player": { "name": "Lee Jaesung",       "number": 10, "pos": "M" } },
+        { "player": { "name": "Bae Junho",         "number": 17, "pos": "M" } },
+        { "player": { "name": "Yang Hyunjun",      "number": 20, "pos": "F" } },
+        { "player": { "name": "Eum Jisung",        "number": 25, "pos": "F" } },
+        { "player": { "name": "Lee Donggyeong",    "number": 26, "pos": "M" } }
       ]
     }
   ]

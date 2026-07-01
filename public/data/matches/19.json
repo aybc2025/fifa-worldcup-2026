@@ -1,93 +1,110 @@
 {
   "fixture": {
-    "id": "wc2026-group-d-australia-turkiye",
-    "date": "2026-06-14T00:00:00Z",
-    "venue": { "name": "BC Place", "city": "Vancouver" },
+    "id": "wc2026-group-d-usa-paraguay",
+    "date": "2026-06-12T23:00:00Z",
+    "venue": { "name": "SoFi Stadium", "city": "Los Angeles" },
     "status": { "short": "FT", "long": "Match Finished" }
   },
   "league": { "round": "Group D" },
   "teams": {
-    "home": { "name": "Australia", "code": "AUS" },
-    "away": { "name": "Türkiye", "code": "TUR" }
+    "home": { "name": "USA", "code": "USA" },
+    "away": { "name": "Paraguay", "code": "PAR" }
   },
-  "goals": { "home": 2, "away": 0 },
+  "goals": { "home": 4, "away": 1 },
   "score": {
-    "halftime": { "home": 1, "away": 0 },
-    "fulltime": { "home": 2, "away": 0 }
+    "halftime": { "home": 3, "away": 0 },
+    "fulltime": { "home": 4, "away": 1 }
   },
   "stats": [
     {
-      "team": "Australia",
+      "team": "USA",
       "statistics": [
-        { "type": "Possession", "value": "27%" },
-        { "type": "Shots on Goal", "value": 4 },
-        { "type": "Total Shots", "value": 9 },
-        { "type": "Corner Kicks", "value": 5 },
-        { "type": "Fouls", "value": 12 },
-        { "type": "Yellow Cards", "value": 0 },
+        { "type": "Possession", "value": "59%" },
+        { "type": "Shots on Goal", "value": 6 },
+        { "type": "Total Shots", "value": 16 },
+        { "type": "Corner Kicks", "value": 3 },
+        { "type": "Fouls", "value": 13 },
+        { "type": "Yellow Cards", "value": 1 },
         { "type": "Red Cards", "value": 0 }
       ]
     },
     {
-      "team": "Türkiye",
+      "team": "Paraguay",
       "statistics": [
-        { "type": "Possession", "value": "62%" },
-        { "type": "Shots on Goal", "value": 7 },
-        { "type": "Total Shots", "value": 30 },
-        { "type": "Corner Kicks", "value": 8 },
-        { "type": "Fouls", "value": 4 },
-        { "type": "Yellow Cards", "value": 1 },
+        { "type": "Possession", "value": "28%" },
+        { "type": "Shots on Goal", "value": 1 },
+        { "type": "Total Shots", "value": 9 },
+        { "type": "Corner Kicks", "value": 1 },
+        { "type": "Fouls", "value": 17 },
+        { "type": "Yellow Cards", "value": 5 },
         { "type": "Red Cards", "value": 0 }
       ]
     }
   ],
   "events": [
-    { "minute": 27, "team": "Australia", "player": "Nestory Irankunda", "type": "Goal", "detail": "Normal Goal" },
-    { "minute": 75, "team": "Australia", "player": "Connor Metcalfe",   "type": "Goal", "detail": "Normal Goal" }
+    { "minute": 7,  "team": "USA",      "player": "Damián Bobadilla",   "type": "Goal",  "detail": "Own Goal" },
+    { "minute": 10, "team": "Paraguay", "player": "Juan José Cáceres",  "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 31, "team": "USA",      "player": "Folarin Balogun",    "type": "Goal",  "detail": "Normal Goal — assist: Christian Pulisic" },
+    { "minute": 50, "team": "USA",      "player": "Folarin Balogun",    "type": "Goal",  "detail": "Normal Goal — assist: Malik Tillman" },
+    { "minute": 46, "team": "USA",      "player": "Sebastian Berhalter","type": "subst", "detail": "out: Christian Pulisic, in: Sebastian Berhalter" },
+    { "minute": 46, "team": "Paraguay", "player": "Mauricio",           "type": "subst", "detail": "out: Damián Bobadilla, in: Mauricio" },
+    { "minute": 53, "team": "Paraguay", "player": "Miguel Almirón",     "type": "Card",  "detail": "Yellow Card (VAR)" },
+    { "minute": 59, "team": "USA",      "player": "Tyler Adams",        "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 62, "team": "Paraguay", "player": "Álex Arce",          "type": "subst", "detail": "out: Antonio Sanabria, in: Álex Arce" },
+    { "minute": 72, "team": "USA",      "player": "Tim Weah",           "type": "subst", "detail": "out: Sergiño Dest, in: Tim Weah" },
+    { "minute": 72, "team": "USA",      "player": "Ricardo Pepi",       "type": "subst", "detail": "out: Folarin Balogun, in: Ricardo Pepi" },
+    { "minute": 73, "team": "Paraguay", "player": "Mauricio",           "type": "Goal",  "detail": "Normal Goal — assist: Julio Enciso" },
+    { "minute": 79, "team": "Paraguay", "player": "Diego Gómez",        "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 82, "team": "USA",      "player": "Giovanni Reyna",     "type": "subst", "detail": "out: Malik Tillman, in: Giovanni Reyna" },
+    { "minute": 88, "team": "Paraguay", "player": "Álex Arce",          "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 93, "team": "Paraguay", "player": "Júnior Alonso",      "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 98, "team": "USA",      "player": "Giovanni Reyna",     "type": "Goal",  "detail": "Normal Goal — assist: Alex Freeman" }
   ],
   "lineups": [
     {
-      "team": { "name": "Australia" },
-      "formation": "5-4-1",
+      "team": { "name": "USA" },
+      "formation": "4-2-3-1",
       "startXI": [
-        { "player": { "name": "Joe Beach",          "number": 18, "pos": "GK" } },
-        { "player": { "name": "Gianni Italiano",    "number": 4,  "pos": "RB" } },
-        { "player": { "name": "Alex Circati",       "number": 3,  "pos": "CB" } },
-        { "player": { "name": "Harry Souttar",      "number": 19, "pos": "CB" } },
-        { "player": { "name": "Craig Burgess",      "number": 21, "pos": "CB" } },
-        { "player": { "name": "Joel Bos",           "number": 5,  "pos": "LB" } },
-        { "player": { "name": "Connor Metcalfe",    "number": 8,  "pos": "MF" } },
-        { "player": { "name": "Aidan O'Neill",      "number": 13, "pos": "MF" } },
-        { "player": { "name": "Phil Okon-Engstler", "number": 24, "pos": "MF" } },
-        { "player": { "name": "Nestory Irankunda",  "number": 17, "pos": "FW" } },
-        { "player": { "name": "Mathieu Touré",      "number": 9,  "pos": "ST" } }
+        { "player": { "name": "Matt Freese",        "number": 24, "pos": "GK" } },
+        { "player": { "name": "Alex Freeman",       "number": 16, "pos": "RB" } },
+        { "player": { "name": "Chris Richards",     "number": 3,  "pos": "CB" } },
+        { "player": { "name": "Tim Ream",           "number": 13, "pos": "CB" } },
+        { "player": { "name": "Antonee Robinson",   "number": 5,  "pos": "LB" } },
+        { "player": { "name": "Tyler Adams",        "number": 4,  "pos": "DM" } },
+        { "player": { "name": "Malik Tillman",      "number": 17, "pos": "DM" } },
+        { "player": { "name": "Sergiño Dest",       "number": 2,  "pos": "RM" } },
+        { "player": { "name": "Weston McKennie",    "number": 8,  "pos": "CM" } },
+        { "player": { "name": "Christian Pulisic",  "number": 10, "pos": "LM" } },
+        { "player": { "name": "Folarin Balogun",    "number": 20, "pos": "ST" } }
       ],
       "substitutes": [
-        { "player": { "name": "Mathew Ryan",        "number": 1,  "pos": "GK" } },
-        { "player": { "name": "Riley McGree",       "number": 10, "pos": "MF" } },
-        { "player": { "name": "Martin Boyle",       "number": 11, "pos": "FW" } }
+        { "player": { "name": "Matt Turner",        "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Sebastian Berhalter","number": 14, "pos": "MF" } },
+        { "player": { "name": "Giovanni Reyna",     "number": 7,  "pos": "AM" } },
+        { "player": { "name": "Tim Weah",           "number": 21, "pos": "FW" } },
+        { "player": { "name": "Ricardo Pepi",       "number": 9,  "pos": "ST" } }
       ]
     },
     {
-      "team": { "name": "Türkiye" },
-      "formation": "4-2-3-1",
+      "team": { "name": "Paraguay" },
+      "formation": "4-4-2",
       "startXI": [
-        { "player": { "name": "Uğurcan Çakır",      "number": 23, "pos": "GK" } },
-        { "player": { "name": "Zeki Çelik",         "number": 2,  "pos": "RB" } },
-        { "player": { "name": "Merih Demiral",      "number": 3,  "pos": "CB" } },
-        { "player": { "name": "Abdülkerim Bardakcı","number": 14, "pos": "CB" } },
-        { "player": { "name": "Ferdi Kadıoğlu",     "number": 20, "pos": "LB" } },
-        { "player": { "name": "İlkay Yüksek",       "number": 16, "pos": "DM" } },
-        { "player": { "name": "Hakan Çalhanoğlu",   "number": 10, "pos": "DM" } },
-        { "player": { "name": "Arda Güler",         "number": 8,  "pos": "AM" } },
-        { "player": { "name": "Orkun Kökçü",        "number": 6,  "pos": "AM" } },
-        { "player": { "name": "Barış Alper Yılmaz", "number": 21, "pos": "FW" } },
-        { "player": { "name": "Kerem Aktürkoğlu",   "number": 7,  "pos": "ST" } }
+        { "player": { "name": "Orlando Gill",       "number": 12, "pos": "GK" } },
+        { "player": { "name": "Juan José Cáceres",  "number": 4,  "pos": "RB" } },
+        { "player": { "name": "Gustavo Gómez",      "number": 15, "pos": "CB" } },
+        { "player": { "name": "Omar Alderete",      "number": 3,  "pos": "CB" } },
+        { "player": { "name": "Júnior Alonso",      "number": 6,  "pos": "LB" } },
+        { "player": { "name": "Diego Gómez",        "number": 8,  "pos": "RM" } },
+        { "player": { "name": "Andrés Cubas",       "number": 14, "pos": "CM" } },
+        { "player": { "name": "Damián Bobadilla",   "number": 16, "pos": "CM" } },
+        { "player": { "name": "Miguel Almirón",     "number": 10, "pos": "LM" } },
+        { "player": { "name": "Antonio Sanabria",   "number": 9,  "pos": "ST" } },
+        { "player": { "name": "Julio Enciso",       "number": 19, "pos": "ST" } }
       ],
       "substitutes": [
-        { "player": { "name": "Altay Bayındır",     "number": 1,  "pos": "GK" } },
-        { "player": { "name": "Okay Yokuşlu",       "number": 5,  "pos": "MF" } },
-        { "player": { "name": "Cenk Tosun",         "number": 11, "pos": "FW" } }
+        { "player": { "name": "Mauricio",           "number": null, "pos": "MF" } },
+        { "player": { "name": "Álex Arce",          "number": null, "pos": "FW" } },
+        { "player": { "name": "Ramón Sosa",         "number": null, "pos": "FW" } }
       ]
     }
   ]

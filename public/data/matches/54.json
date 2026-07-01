@@ -1,95 +1,630 @@
-{
-  "fixture": {
-    "id": "wc2026-group-k-portugal-congo-dr",
-    "date": "2026-06-17T20:00:00Z",
-    "venue": { "name": "Lumen Field", "city": "Seattle" },
-    "status": { "short": "FT", "long": "Match Finished" }
-  },
-  "league": { "round": "Group K" },
-  "teams": {
-    "home": { "name": "Portugal", "code": "POR" },
-    "away": { "name": "Congo DR", "code": "COD" }
-  },
-  "goals": { "home": 1, "away": 1 },
-  "score": {
-    "halftime": { "home": 1, "away": 1 },
-    "fulltime": { "home": 1, "away": 1 }
-  },
-  "stats": [
-    {
-      "team": "Portugal",
-      "statistics": [
-        { "type": "Possession", "value": "68%" },
-        { "type": "Shots on Goal", "value": 1 },
-        { "type": "Total Shots", "value": 7 },
-        { "type": "Corner Kicks", "value": 5 },
-        { "type": "Fouls", "value": 9 },
-        { "type": "Yellow Cards", "value": 3 },
-        { "type": "Red Cards", "value": 0 }
-      ]
-    },
-    {
-      "team": "Congo DR",
-      "statistics": [
-        { "type": "Possession", "value": "25%" },
-        { "type": "Shots on Goal", "value": 2 },
-        { "type": "Total Shots", "value": 8 },
-        { "type": "Corner Kicks", "value": 4 },
-        { "type": "Fouls", "value": 10 },
-        { "type": "Yellow Cards", "value": 1 },
-        { "type": "Red Cards", "value": 0 }
-      ]
-    }
-  ],
-  "events": [
-    { "minute": 6,  "team": "Portugal", "player": "João Neves",  "type": "Goal", "detail": "Normal Goal" },
-    { "minute": 50, "team": "Congo DR", "player": "Yoane Wissa",  "type": "Goal", "detail": "Normal Goal", "_confidence": "FIFA: 50', Sofascore: 45+5' — FIFA used as tiebreaker" }
-  ],
-  "lineups": [
-    {
-      "team": { "name": "Portugal" },
-      "formation": "4-2-3-1",
-      "startXI": [
-        { "player": { "name": "Diogo Costa",      "number": 1,  "pos": "GK" } },
-        { "player": { "name": "João Cancelo",      "number": 20, "pos": "RB" } },
-        { "player": { "name": "Tiago Djaló",       "number": 4,  "pos": "CB" } },
-        { "player": { "name": "Rúben Dias",        "number": 3,  "pos": "CB" } },
-        { "player": { "name": "Nuno Mendes",       "number": 25, "pos": "LB" } },
-        { "player": { "name": "João Neves",        "number": 15, "pos": "DM" } },
-        { "player": { "name": "Vitinha",           "number": 23, "pos": "DM" } },
-        { "player": { "name": "Bernardo Silva",    "number": 10, "pos": "AM" } },
-        { "player": { "name": "Bruno Fernandes",   "number": 8,  "pos": "AM" } },
-        { "player": { "name": "Pedro Neto",        "number": 18, "pos": "LW" } },
-        { "player": { "name": "Cristiano Ronaldo", "number": 7,  "pos": "ST" } }
-      ],
-      "substitutes": [
-        { "player": { "name": "José Sá",           "number": 12, "pos": "GK" } },
-        { "player": { "name": "Diogo Dalot",       "number": 2,  "pos": "DF" } },
-        { "player": { "name": "Rúben Neves",       "number": 16, "pos": "MF" } },
-        { "player": { "name": "Rafael Leão",       "number": 11, "pos": "FW" } },
-        { "player": { "name": "Gonçalo Ramos",     "number": 19, "pos": "FW" } }
-      ]
-    },
-    {
-      "team": { "name": "Congo DR" },
-      "formation": "5-3-2",
-      "startXI": [
-        { "player": { "name": "Lionel Mpasi Nzau", "number": 1,  "pos": "GK" } },
-        { "player": { "name": "Aaron Wan-Bissaka", "number": 2,  "pos": "RB" } },
-        { "player": { "name": "Chancel Mbemba",    "number": 22, "pos": "CB" } },
-        { "player": { "name": "Axel Tuanzebe",     "number": 4,  "pos": "CB" } },
-        { "player": { "name": "Joris Kayembe",     "number": 3,  "pos": "CB" } },
-        { "player": { "name": "Arthur Masuaku",    "number": 26, "pos": "LB" } },
-        { "player": { "name": "Cédric Bakambu",    "number": 6,  "pos": "CM" } },
-        { "player": { "name": "Jean-Marc Makoun",  "number": 8,  "pos": "CM" } },
-        { "player": { "name": "Théo Bongonda",     "number": 25, "pos": "AM" } },
-        { "player": { "name": "Yoane Wissa",       "number": 20, "pos": "FW" } },
-        { "player": { "name": "Dodi Lukebakio",    "number": 17, "pos": "FW" } }
-      ],
-      "substitutes": [
-        { "player": { "name": "Joël Kiassumbua",   "number": 16, "pos": "GK" } },
-        { "player": { "name": "Yannick Bolasie",   "number": 9,  "pos": "FW" } }
-      ]
-    }
-  ]
+﻿{
+    "fixture":  {
+                    "id":  "wc2026-group-i-senegal-iraq",
+                    "date":  "2026-06-26T16:00:00Z",
+                    "venue":  {
+                                  "name":  "Toronto Stadium",
+                                  "city":  "Toronto"
+                              },
+                    "status":  {
+                                   "short":  "FT",
+                                   "long":  "Match Finished"
+                               }
+                },
+    "league":  {
+                   "round":  "Group I"
+               },
+    "teams":  {
+                  "home":  {
+                               "name":  "Senegal",
+                               "code":  "SEN"
+                           },
+                  "away":  {
+                               "name":  "Iraq",
+                               "code":  "IRQ"
+                           }
+              },
+    "goals":  {
+                  "home":  5,
+                  "away":  0
+              },
+    "score":  {
+                  "halftime":  {
+                                   "home":  1,
+                                   "away":  0
+                               },
+                  "fulltime":  {
+                                   "home":  5,
+                                   "away":  0
+                               }
+              },
+    "stats":  [
+                  {
+                      "team":  "Senegal",
+                      "statistics":  [
+                                         {
+                                             "type":  "Possession",
+                                             "value":  "58%"
+                                         },
+                                         {
+                                             "type":  "Shots on Goal",
+                                             "value":  11
+                                         },
+                                         {
+                                             "type":  "Total Shots",
+                                             "value":  27
+                                         },
+                                         {
+                                             "type":  "Corner Kicks",
+                                             "value":  12
+                                         },
+                                         {
+                                             "type":  "Fouls",
+                                             "value":  10
+                                         },
+                                         {
+                                             "type":  "Yellow Cards",
+                                             "value":  2
+                                         },
+                                         {
+                                             "type":  "Red Cards",
+                                             "value":  0
+                                         }
+                                     ]
+                  },
+                  {
+                      "team":  "Iraq",
+                      "statistics":  [
+                                         {
+                                             "type":  "Possession",
+                                             "value":  "30%"
+                                         },
+                                         {
+                                             "type":  "Shots on Goal",
+                                             "value":  1
+                                         },
+                                         {
+                                             "type":  "Total Shots",
+                                             "value":  6
+                                         },
+                                         {
+                                             "type":  "Corner Kicks",
+                                             "value":  3
+                                         },
+                                         {
+                                             "type":  "Fouls",
+                                             "value":  11
+                                         },
+                                         {
+                                             "type":  "Yellow Cards",
+                                             "value":  2
+                                         },
+                                         {
+                                             "type":  "Red Cards",
+                                             "value":  1
+                                         }
+                                     ]
+                  }
+              ],
+    "events":  [
+                   {
+                       "minute":  4,
+                       "team":  "Senegal",
+                       "player":  "Habib Diarra",
+                       "type":  "Goal",
+                       "detail":  "Normal Goal"
+                   },
+                   {
+                       "minute":  13,
+                       "team":  "Iraq",
+                       "player":  "Rebin Sulaka",
+                       "type":  "Card",
+                       "detail":  "Red Card"
+                   },
+                   {
+                       "minute":  16,
+                       "team":  "Iraq",
+                       "player":  "Munaf Younus",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   },
+                   {
+                       "minute":  18,
+                       "team":  "Senegal",
+                       "player":  "Abdoulaye Seck",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   },
+                   {
+                       "minute":  0,
+                       "team":  "Iraq",
+                       "player":  "Jalal Hassan",
+                       "type":  "subst",
+                       "detail":  "out: Ahmed Basil, in: Jalal Hassan (HT)"
+                   },
+                   {
+                       "minute":  56,
+                       "team":  "Senegal",
+                       "player":  "Ismaila Sarr",
+                       "type":  "Goal",
+                       "detail":  "Normal Goal"
+                   },
+                   {
+                       "minute":  56,
+                       "team":  "Senegal",
+                       "player":  "Lamine Camara",
+                       "type":  "subst",
+                       "detail":  "out: Habib Diarra, in: Pape Gueye"
+                   },
+                   {
+                       "minute":  56,
+                       "team":  "Senegal",
+                       "player":  "Nicolas Jackson",
+                       "type":  "subst",
+                       "detail":  "out: Nicolas Jackson, in: Ibrahim Mbaye"
+                   },
+                   {
+                       "minute":  56,
+                       "team":  "Senegal",
+                       "player":  "Pape Gueye",
+                       "type":  "subst",
+                       "detail":  "out: Lamine Camara, in: Pape Gueye"
+                   },
+                   {
+                       "minute":  57,
+                       "team":  "Iraq",
+                       "player":  "Ali Yousif",
+                       "type":  "subst",
+                       "detail":  "out: Ali Alhamadi, in: Ali Yousif"
+                   },
+                   {
+                       "minute":  57,
+                       "team":  "Iraq",
+                       "player":  "Ahmed Maknazi",
+                       "type":  "subst",
+                       "detail":  "out: Ahmed Maknazi, in: [reserve]"
+                   },
+                   {
+                       "minute":  58,
+                       "team":  "Senegal",
+                       "player":  "Pathe Ciss",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   },
+                   {
+                       "minute":  58,
+                       "team":  "Senegal",
+                       "player":  "Pathe Ciss",
+                       "type":  "subst",
+                       "detail":  "out: Pathe Ciss, in: [reserve]"
+                   },
+                   {
+                       "minute":  59,
+                       "team":  "Senegal",
+                       "player":  "Pape Gueye",
+                       "type":  "Goal",
+                       "detail":  "Normal Goal"
+                   },
+                   {
+                       "minute":  67,
+                       "team":  "Iraq",
+                       "player":  "Kevin Yakob",
+                       "type":  "subst",
+                       "detail":  "out: Kevin Yakob, in: [reserve]"
+                   },
+                   {
+                       "minute":  71,
+                       "team":  "Senegal",
+                       "player":  "Pape Gueye",
+                       "type":  "Goal",
+                       "detail":  "Normal Goal"
+                   },
+                   {
+                       "minute":  75,
+                       "team":  "Iraq",
+                       "player":  "Amir Alammari",
+                       "type":  "subst",
+                       "detail":  "out: Amir Alammari, in: [reserve]"
+                   },
+                   {
+                       "minute":  81,
+                       "team":  "Senegal",
+                       "player":  "Assane Diao",
+                       "type":  "subst",
+                       "detail":  "out: Ismaila Sarr, in: Assane Diao"
+                   },
+                   {
+                       "minute":  82,
+                       "team":  "Senegal",
+                       "player":  "Iliman Ndiaye",
+                       "type":  "Goal",
+                       "detail":  "Normal Goal"
+                   },
+                   {
+                       "minute":  90,
+                       "team":  "Iraq",
+                       "player":  "Merchas Doski",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   }
+               ],
+    "lineups":  [
+                    {
+                        "team":  {
+                                     "name":  "Senegal"
+                                 },
+                        "formation":  "4-1-2-3",
+                        "startXI":  [
+                                        {
+                                            "player":  {
+                                                           "name":  "Mory Diaw",
+                                                           "number":  23,
+                                                           "pos":  "G"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Abdoulaye Seck",
+                                                           "number":  4,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Pathe Ciss",
+                                                           "number":  6,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Ismail Jakobs",
+                                                           "number":  14,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Krepin Diatta",
+                                                           "number":  15,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Moussa Niakhate",
+                                                           "number":  19,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Idrissa Gana Gueye",
+                                                           "number":  5,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Lamine Camara",
+                                                           "number":  8,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Habib Diarra",
+                                                           "number":  21,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Nicolas Jackson",
+                                                           "number":  11,
+                                                           "pos":  "F"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Sadio Mané",
+                                                           "number":  10,
+                                                           "pos":  "F"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Ismaila Sarr",
+                                                           "number":  18,
+                                                           "pos":  "F"
+                                                       }
+                                        }
+                                    ],
+                        "substitutes":  [
+                                            {
+                                                "player":  {
+                                                               "name":  "Yehvann Diouf",
+                                                               "number":  1,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Mamadou Sarr",
+                                                               "number":  2,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Kalidou Koulibaly",
+                                                               "number":  3,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Antoine Mendy",
+                                                               "number":  24,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "El Hadji Malick Diouf",
+                                                               "number":  25,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Pape Matar Sarr",
+                                                               "number":  17,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Pape Gueye",
+                                                               "number":  26,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Bara Sapoko Ndiaye",
+                                                               "number":  22,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Assane Diao",
+                                                               "number":  7,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Bamba Dieng",
+                                                               "number":  9,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Ibrahim Mbaye",
+                                                               "number":  20,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Cherif Ndiaye",
+                                                               "number":  12,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Iliman Ndiaye",
+                                                               "number":  13,
+                                                               "pos":  null
+                                                           }
+                                            }
+                                        ]
+                    },
+                    {
+                        "team":  {
+                                     "name":  "Iraq"
+                                 },
+                        "formation":  "4-4-2",
+                        "startXI":  [
+                                        {
+                                            "player":  {
+                                                           "name":  "Ahmed Basil",
+                                                           "number":  22,
+                                                           "pos":  "G"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Rebin Sulaka",
+                                                           "number":  2,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Akam Hashim",
+                                                           "number":  5,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Merchas Doski",
+                                                           "number":  23,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Frans Putros",
+                                                           "number":  26,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Ahmed Maknazi",
+                                                           "number":  15,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Ibrahim Bayesh",
+                                                           "number":  8,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Zidane Iqbal",
+                                                           "number":  14,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Kevin Yakob",
+                                                           "number":  19,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Amir Alammari",
+                                                           "number":  16,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Munaf Younus",
+                                                           "number":  6,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Ali Alhamadi",
+                                                           "number":  9,
+                                                           "pos":  "F"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Ahmed Qasem",
+                                                           "number":  11,
+                                                           "pos":  "F"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Ali Jasim",
+                                                           "number":  17,
+                                                           "pos":  "F"
+                                                       }
+                                        }
+                                    ],
+                        "substitutes":  [
+                                            {
+                                                "player":  {
+                                                               "name":  "Fahad Talib",
+                                                               "number":  1,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Jalal Hassan",
+                                                               "number":  12,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Hussein Ali",
+                                                               "number":  3,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Zaid Tahseen",
+                                                               "number":  4,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Mustafa Saadoon",
+                                                               "number":  25,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Youssef Amyn",
+                                                               "number":  7,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Aimar Sher",
+                                                               "number":  20,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Zaid Ismael",
+                                                               "number":  24,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Mohanad Ali",
+                                                               "number":  10,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Ali Yousif",
+                                                               "number":  13,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Aymen Hussein",
+                                                               "number":  18,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Marko Farji",
+                                                               "number":  21,
+                                                               "pos":  null
+                                                           }
+                                            }
+                                        ]
+                    }
+                ]
 }

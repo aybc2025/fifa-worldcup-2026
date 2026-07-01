@@ -1,10 +1,10 @@
 ﻿{
     "fixture":  {
-                    "id":  "wc2026-group-f-tunisia-netherlands",
+                    "id":  "wc2026-group-f-japan-sweden",
                     "date":  "2026-06-25T20:00:00Z",
                     "venue":  {
-                                  "name":  "Kansas City Stadium",
-                                  "city":  "Kansas City"
+                                  "name":  "Dallas Stadium",
+                                  "city":  "Dallas"
                               },
                     "status":  {
                                    "short":  "FT",
@@ -16,55 +16,55 @@
                },
     "teams":  {
                   "home":  {
-                               "name":  "Tunisia",
-                               "code":  "TUN"
+                               "name":  "Japan",
+                               "code":  "JPN"
                            },
                   "away":  {
-                               "name":  "Netherlands",
-                               "code":  "NED"
+                               "name":  "Sweden",
+                               "code":  "SWE"
                            }
               },
     "goals":  {
                   "home":  1,
-                  "away":  3
+                  "away":  1
               },
     "score":  {
                   "halftime":  {
-                                   "home":  1,
-                                   "away":  2
+                                   "home":  0,
+                                   "away":  0
                                },
                   "fulltime":  {
                                    "home":  1,
-                                   "away":  3
+                                   "away":  1
                                }
               },
     "stats":  [
                   {
-                      "team":  "Tunisia",
+                      "team":  "Japan",
                       "statistics":  [
                                          {
                                              "type":  "Possession",
-                                             "value":  "27%"
+                                             "value":  "44%"
                                          },
                                          {
                                              "type":  "Shots on Goal",
-                                             "value":  4
+                                             "value":  3
                                          },
                                          {
                                              "type":  "Total Shots",
-                                             "value":  10
+                                             "value":  8
                                          },
                                          {
                                              "type":  "Corner Kicks",
-                                             "value":  4
+                                             "value":  2
                                          },
                                          {
                                              "type":  "Fouls",
-                                             "value":  11
+                                             "value":  20
                                          },
                                          {
                                              "type":  "Yellow Cards",
-                                             "value":  0
+                                             "value":  1
                                          },
                                          {
                                              "type":  "Red Cards",
@@ -73,31 +73,31 @@
                                      ]
                   },
                   {
-                      "team":  "Netherlands",
+                      "team":  "Sweden",
                       "statistics":  [
                                          {
                                              "type":  "Possession",
-                                             "value":  "64%"
+                                             "value":  "44%"
                                          },
                                          {
                                              "type":  "Shots on Goal",
-                                             "value":  7
+                                             "value":  5
                                          },
                                          {
                                              "type":  "Total Shots",
-                                             "value":  20
+                                             "value":  11
                                          },
                                          {
                                              "type":  "Corner Kicks",
-                                             "value":  6
+                                             "value":  8
                                          },
                                          {
                                              "type":  "Fouls",
-                                             "value":  10
+                                             "value":  11
                                          },
                                          {
                                              "type":  "Yellow Cards",
-                                             "value":  0
+                                             "value":  2
                                          },
                                          {
                                              "type":  "Red Cards",
@@ -108,220 +108,199 @@
               ],
     "events":  [
                    {
-                       "minute":  3,
-                       "team":  "Tunisia",
-                       "player":  "Ellyes Skhiri",
-                       "type":  "Goal",
-                       "detail":  "Own Goal"
+                       "minute":  32,
+                       "team":  "Sweden",
+                       "player":  "Lucas Bergvall",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
                    },
                    {
-                       "minute":  7,
-                       "team":  "Netherlands",
-                       "player":  "Brian Brobbey",
-                       "type":  "Goal",
-                       "detail":  "Normal Goal"
+                       "minute":  37,
+                       "team":  "Sweden",
+                       "player":  "Isak Hien",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
                    },
                    {
-                       "minute":  54,
-                       "team":  "Tunisia",
-                       "player":  "Hazem Mastouri",
+                       "minute":  39,
+                       "team":  "Japan",
+                       "player":  "Shogo Taniguchi",
+                       "type":  "subst",
+                       "detail":  "out: Shogo Taniguchi, in: Ayumu Seko"
+                   },
+                   {
+                       "minute":  56,
+                       "team":  "Japan",
+                       "player":  "Daizen Maeda",
                        "type":  "Goal",
                        "detail":  "Normal Goal"
                    },
                    {
                        "minute":  62,
-                       "team":  "Netherlands",
-                       "player":  "Jan Paul van Hecke",
+                       "team":  "Sweden",
+                       "player":  "Anthony Elanga",
                        "type":  "Goal",
                        "detail":  "Normal Goal"
                    },
                    {
-                       "minute":  67,
-                       "team":  "Tunisia",
-                       "player":  "Mortadha Ben Ouanes",
+                       "minute":  66,
+                       "team":  "Japan",
+                       "player":  "Koki Ogawa",
                        "type":  "subst",
-                       "detail":  "out: Mortadha Ben Ouanes, in: Mohamed Amine Ben Hmida"
+                       "detail":  "out: Ayase Ueda, in: Koki Ogawa"
                    },
                    {
-                       "minute":  67,
-                       "team":  "Tunisia",
-                       "player":  "Elias Achouri",
+                       "minute":  66,
+                       "team":  "Japan",
+                       "player":  "Junya Ito",
                        "type":  "subst",
-                       "detail":  "out: Elias Achouri, in: Anis Slimane"
-                   },
-                   {
-                       "minute":  67,
-                       "team":  "Tunisia",
-                       "player":  "Mohamed Hadj Mahmoud",
-                       "type":  "subst",
-                       "detail":  "out: Mohamed Hadj Mahmoud, in: Rani Khedira"
-                   },
-                   {
-                       "minute":  72,
-                       "team":  "Netherlands",
-                       "player":  "Crysencio Summerville",
-                       "type":  "subst",
-                       "detail":  "out: Crysencio Summerville, in: Donyell Malen"
-                   },
-                   {
-                       "minute":  72,
-                       "team":  "Netherlands",
-                       "player":  "Tijjani Reijnders",
-                       "type":  "subst",
-                       "detail":  "out: Tijjani Reijnders, in: Justin Kluivert"
-                   },
-                   {
-                       "minute":  72,
-                       "team":  "Netherlands",
-                       "player":  "Teun Koopmeiners",
-                       "type":  "subst",
-                       "detail":  "out: Frenkie de Jong, in: Teun Koopmeiners"
+                       "detail":  "out: Ritsu Doan, in: Junya Ito"
                    },
                    {
                        "minute":  75,
-                       "team":  "Tunisia",
-                       "player":  "Firas Chaouat",
+                       "team":  "Japan",
+                       "player":  "Tsuyoshi Watanabe",
                        "type":  "subst",
-                       "detail":  "out: Firas Chaouat, in: [reserve]"
+                       "detail":  "out: Tsuyoshi Watanabe, in: Keito Nakamura"
                    },
                    {
-                       "minute":  77,
-                       "team":  "Netherlands",
-                       "player":  "Memphis Depay",
+                       "minute":  75,
+                       "team":  "Japan",
+                       "player":  "Yuto Nagatomo",
                        "type":  "subst",
-                       "detail":  "out: Brian Brobbey, in: Memphis Depay"
+                       "detail":  "out: Yuto Nagatomo, in: [reserve]"
+                   },
+                   {
+                       "minute":  75,
+                       "team":  "Sweden",
+                       "player":  "Daniel Svensson",
+                       "type":  "subst",
+                       "detail":  "out: Daniel Svensson, in: Elliot Stroud"
+                   },
+                   {
+                       "minute":  75,
+                       "team":  "Sweden",
+                       "player":  "Ken Sema",
+                       "type":  "subst",
+                       "detail":  "out: Ken Sema, in: Alexander Bernhardsson"
                    },
                    {
                        "minute":  84,
-                       "team":  "Netherlands",
-                       "player":  "Noa Lang",
+                       "team":  "Sweden",
+                       "player":  "Viktor Gyokeres",
                        "type":  "subst",
-                       "detail":  "out: Noa Lang, in: Cody Gakpo"
+                       "detail":  "out: Viktor Gyokeres, in: [reserve]"
                    },
                    {
-                       "minute":  90,
-                       "team":  "Tunisia",
-                       "player":  "Sebastian Tounekti",
+                       "minute":  87,
+                       "team":  "Sweden",
+                       "player":  "Carl Starfelt",
                        "type":  "subst",
-                       "detail":  "out: Hazem Mastouri, in: Sebastian Tounekti"
+                       "detail":  "out: Carl Starfelt, in: Victor Lindelof"
+                   },
+                   {
+                       "minute":  87,
+                       "team":  "Sweden",
+                       "player":  "Benjamin Nygren",
+                       "type":  "subst",
+                       "detail":  "out: Benjamin Nygren, in: Gabriel Gudmundsson"
                    }
                ],
     "lineups":  [
                     {
                         "team":  {
-                                     "name":  "Tunisia"
+                                     "name":  "Japan"
                                  },
-                        "formation":  "5-4-1",
+                        "formation":  "3-4-3",
                         "startXI":  [
                                         {
                                             "player":  {
-                                                           "name":  "Aymen Dahmen",
-                                                           "number":  16,
+                                                           "name":  "Zion Suzuki",
+                                                           "number":  1,
                                                            "pos":  "G"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Ali Abdi",
+                                                           "name":  "Yukinari Sugawara",
                                                            "number":  2,
                                                            "pos":  "D"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Montassar Talbi",
+                                                           "name":  "Kou Itakura",
+                                                           "number":  4,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Shogo Taniguchi",
                                                            "number":  3,
                                                            "pos":  "D"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Yan Valery",
-                                                           "number":  20,
-                                                           "pos":  "D"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Mohamed Amine Ben Hmida",
+                                                           "name":  "Hiroki Ito",
                                                            "number":  21,
                                                            "pos":  "D"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Mortadha Ben Ouanes",
-                                                           "number":  12,
-                                                           "pos":  "D"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Hannibal Mejbri",
-                                                           "number":  10,
-                                                           "pos":  "M"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Ismael Gharbi",
-                                                           "number":  11,
-                                                           "pos":  "M"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Firas Chaouat",
-                                                           "number":  19,
-                                                           "pos":  "M"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Rani Khedira",
-                                                           "number":  13,
-                                                           "pos":  "M"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Mohamed Hadj Mahmoud",
-                                                           "number":  15,
-                                                           "pos":  "M"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Ellyes Skhiri",
-                                                           "number":  17,
-                                                           "pos":  "M"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Anis Slimane",
-                                                           "number":  25,
-                                                           "pos":  "M"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Elias Achouri",
+                                                           "name":  "Ao Tanaka",
                                                            "number":  7,
                                                            "pos":  "M"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Hazem Mastouri",
-                                                           "number":  9,
+                                                           "name":  "Ritsu Doan",
+                                                           "number":  10,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Junya Ito",
+                                                           "number":  14,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Daizen Maeda",
+                                                           "number":  11,
                                                            "pos":  "F"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Sebastian Tounekti",
-                                                           "number":  26,
+                                                           "name":  "Keito Nakamura",
+                                                           "number":  13,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Yuto Nagatomo",
+                                                           "number":  5,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Daichi Kamada",
+                                                           "number":  15,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Ayase Ueda",
+                                                           "number":  18,
                                                            "pos":  "F"
                                                        }
                                         }
@@ -329,57 +308,78 @@
                         "substitutes":  [
                                             {
                                                 "player":  {
-                                                               "name":  "Mouhib Chamakh",
-                                                               "number":  1,
+                                                               "name":  "Keisuke Osako",
+                                                               "number":  12,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Tomoki Hayakawa",
+                                                               "number":  23,
                                                                "pos":  "G"
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Sabri Ben Hessen",
+                                                               "name":  "Takehiro Tomiyasu",
                                                                "number":  22,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Omar Rekik",
-                                                               "number":  4,
+                                                               "name":  "Junnosuke Suzuki",
+                                                               "number":  25,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Dylan Bronn",
-                                                               "number":  6,
+                                                               "name":  "Tsuyoshi Watanabe",
+                                                               "number":  16,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Raed Chikhaoui",
+                                                               "name":  "Ayumu Seko",
+                                                               "number":  20,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Koki Ogawa",
+                                                               "number":  19,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Kaishu Sano",
                                                                "number":  24,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Khalil Ayari",
-                                                               "number":  14,
+                                                               "name":  "Shuto Machino",
+                                                               "number":  6,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Elias Saad",
-                                                               "number":  8,
+                                                               "name":  "Keisuke Goto",
+                                                               "number":  9,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Rayan Elloumi",
-                                                               "number":  18,
+                                                               "name":  "Kento Shiogai",
+                                                               "number":  26,
                                                                "pos":  null
                                                            }
                                             }
@@ -387,184 +387,191 @@
                     },
                     {
                         "team":  {
-                                     "name":  "Netherlands"
+                                     "name":  "Sweden"
                                  },
-                        "formation":  "4-1-2-3",
+                        "formation":  "3-4-3",
                         "startXI":  [
                                         {
                                             "player":  {
-                                                           "name":  "Bart Verbruggen",
+                                                           "name":  "Jacob Widell Zetterstrom",
                                                            "number":  1,
                                                            "pos":  "G"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Virgil van Dijk",
+                                                           "name":  "Gustaf Lagerbielke",
+                                                           "number":  2,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Victor Lindelof",
+                                                           "number":  3,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Carl Starfelt",
+                                                           "number":  15,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Isak Hien",
                                                            "number":  4,
                                                            "pos":  "D"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Nathan Aké",
-                                                           "number":  5,
-                                                           "pos":  "D"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Jan Paul van Hecke",
-                                                           "number":  6,
-                                                           "pos":  "D"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Denzel Dumfries",
-                                                           "number":  22,
-                                                           "pos":  "D"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Ryan Gravenberch",
-                                                           "number":  8,
-                                                           "pos":  "M"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Tijjani Reijnders",
-                                                           "number":  14,
-                                                           "pos":  "M"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Justin Kluivert",
+                                                           "name":  "Lucas Bergvall",
                                                            "number":  7,
                                                            "pos":  "M"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Frenkie de Jong",
+                                                           "name":  "Gabriel Gudmundsson",
+                                                           "number":  5,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Benjamin Nygren",
+                                                           "number":  10,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Alexander Bernhardsson",
                                                            "number":  21,
                                                            "pos":  "M"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Cody Gakpo",
+                                                           "name":  "Daniel Svensson",
+                                                           "number":  8,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Yasin Ayari",
+                                                           "number":  18,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Ken Sema",
+                                                           "number":  13,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Alexander Isak",
+                                                           "number":  9,
+                                                           "pos":  "F"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Anthony Elanga",
                                                            "number":  11,
                                                            "pos":  "F"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Noa Lang",
+                                                           "name":  "Viktor Gyokeres",
                                                            "number":  17,
                                                            "pos":  "F"
                                                        }
                                         },
                                         {
                                             "player":  {
-                                                           "name":  "Donyell Malen",
-                                                           "number":  18,
-                                                           "pos":  "F"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Crysencio Summerville",
+                                                           "name":  "Elliot Stroud",
                                                            "number":  24,
-                                                           "pos":  "F"
-                                                       }
-                                        },
-                                        {
-                                            "player":  {
-                                                           "name":  "Brian Brobbey",
-                                                           "number":  19,
-                                                           "pos":  "F"
+                                                           "pos":  "M"
                                                        }
                                         }
                                     ],
                         "substitutes":  [
                                             {
                                                 "player":  {
-                                                               "name":  "Robin Roefs",
-                                                               "number":  13,
+                                                               "name":  "Viktor Johansson",
+                                                               "number":  12,
                                                                "pos":  "G"
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Mark Flekken",
+                                                               "name":  "Kristoffer Nordfeldt",
                                                                "number":  23,
                                                                "pos":  "G"
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Lutsharel Geertruida",
-                                                               "number":  2,
+                                                               "name":  "Herman Johansson",
+                                                               "number":  6,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Mats Wieffer",
-                                                               "number":  12,
+                                                               "name":  "Hjalmar Ekdal",
+                                                               "number":  14,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Micky van de Ven",
-                                                               "number":  15,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Jorrel Hato",
-                                                               "number":  25,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Marten de Roon",
-                                                               "number":  3,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Teun Koopmeiners",
+                                                               "name":  "Eric Smith",
                                                                "number":  20,
                                                                "pos":  null
                                                            }
                                             },
                                             {
                                                 "player":  {
-                                                               "name":  "Quinten Timber",
+                                                               "name":  "Jesper Karlstrom",
+                                                               "number":  16,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Mattias Svanberg",
+                                                               "number":  19,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Besfort Zeneli",
+                                                               "number":  22,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Gustaf Nilsson",
+                                                               "number":  25,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Taha Ali",
                                                                "number":  26,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Wout Weghorst",
-                                                               "number":  9,
-                                                               "pos":  null
-                                                           }
-                                            },
-                                            {
-                                                "player":  {
-                                                               "name":  "Memphis Depay",
-                                                               "number":  10,
                                                                "pos":  null
                                                            }
                                             }

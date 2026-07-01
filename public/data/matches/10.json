@@ -1,128 +1,132 @@
 {
   "fixture": {
-    "id": "wc2026-group-b-switzerland-canada",
-    "date": "2026-06-24T19:00:00Z",
-    "venue": { "name": "BC Place Vancouver", "city": "Vancouver" },
+    "id": "wc2026-group-b-canada-qatar",
+    "date": "2026-06-18T22:00:00Z",
+    "venue": { "name": "BC Place", "city": "Vancouver" },
     "status": { "short": "FT", "long": "Match Finished" }
   },
   "league": { "round": "Group B" },
   "teams": {
-    "home": { "name": "Switzerland", "code": "SUI" },
-    "away": { "name": "Canada",      "code": "CAN" }
+    "home": { "name": "Canada", "code": "CAN" },
+    "away": { "name": "Qatar", "code": "QAT" }
   },
-  "goals": { "home": 2, "away": 1 },
+  "goals": { "home": 6, "away": 0 },
   "score": {
-    "halftime": { "home": 0, "away": 0 },
-    "fulltime":  { "home": 2, "away": 1 }
+    "halftime": { "home": 3, "away": 0 },
+    "fulltime": { "home": 6, "away": 0 }
   },
   "stats": [
     {
-      "team": "Switzerland",
+      "team": "Canada",
       "statistics": [
-        { "type": "Possession",    "value": "55%" },
-        { "type": "Shots on Goal", "value": "4" },
-        { "type": "Total Shots",   "value": "6" },
-        { "type": "Corner Kicks",  "value": "2" },
-        { "type": "Fouls",         "value": "19" },
-        { "type": "Yellow Cards",  "value": "1" },
-        { "type": "Red Cards",     "value": "0" }
+        { "type": "Possession", "value": "65%" },
+        { "type": "Shots on Goal", "value": "11" },
+        { "type": "Total Shots", "value": "33" },
+        { "type": "Corner Kicks", "value": "19" },
+        { "type": "Fouls", "value": "9" },
+        { "type": "Yellow Cards", "value": "1" },
+        { "type": "Red Cards", "value": "0" }
       ]
     },
     {
-      "team": "Canada",
+      "team": "Qatar",
       "statistics": [
-        { "type": "Possession",    "value": "45%" },
-        { "type": "Shots on Goal", "value": "7" },
-        { "type": "Total Shots",   "value": "13" },
-        { "type": "Corner Kicks",  "value": "7" },
-        { "type": "Fouls",         "value": "13" },
-        { "type": "Yellow Cards",  "value": "2" },
-        { "type": "Red Cards",     "value": "0" }
+        { "type": "Possession", "value": "20%" },
+        { "type": "Shots on Goal", "value": "0" },
+        { "type": "Total Shots", "value": "2" },
+        { "type": "Corner Kicks", "value": "1" },
+        { "type": "Fouls", "value": "10" },
+        { "type": "Yellow Cards", "value": "1" },
+        { "type": "Red Cards", "value": "2" }
       ]
     }
   ],
   "events": [
-    { "minute": 32, "team": "Switzerland", "player": "Granit Xhaka",       "type": "Card",  "detail": "Yellow Card" },
-    { "minute": 32, "team": "Canada",      "player": "Cyle Larin",          "type": "Card",  "detail": "Yellow Card" },
-    { "minute": 46, "team": "Switzerland", "player": "Ruben Vargas",        "type": "Goal",  "detail": "Normal Goal" },
-    { "minute": 57, "team": "Switzerland", "player": "Johan Manzambi",      "type": "Goal",  "detail": "Normal Goal" },
-    { "minute": 58, "team": "Canada",      "player": "Stephen Eustaquio",   "type": "subst", "detail": "out: Mathieu Choiniere, in: Stephen Eustaquio" },
-    { "minute": 58, "team": "Canada",      "player": "Liam Millar",         "type": "subst", "detail": "out: Ali Ahmed, in: Liam Millar" },
-    { "minute": 58, "team": "Canada",      "player": "Tani Oluwaseyi",      "type": "subst", "detail": "out: Cyle Larin, in: Tani Oluwaseyi" },
-    { "minute": 74, "team": "Canada",      "player": "Promise David",       "type": "subst", "detail": "out: Tajon Buchanan, in: Promise David" },
-    { "minute": 74, "team": "Switzerland", "player": "Michel Aebischer",    "type": "subst", "detail": "out: Djibril Sow, in: Michel Aebischer" },
-    { "minute": 74, "team": "Switzerland", "player": "Silvan Widmer",       "type": "subst", "detail": "out: Luca Jaquez, in: Silvan Widmer" },
-    { "minute": 76, "team": "Canada",      "player": "Promise David",       "type": "Goal",  "detail": "Normal Goal" },
-    { "minute": 80, "team": "Switzerland", "player": "Dan Ndoye",           "type": "subst", "detail": "out: Ruben Vargas, in: Dan Ndoye" },
-    { "minute": 83, "team": "Canada",      "player": "Jacob Shaffelburg",   "type": "subst", "detail": "out: Richie Laryea, in: Jacob Shaffelburg" },
-    { "minute": 85, "team": "Switzerland", "player": "Cedric Itten",        "type": "subst", "detail": "out: Johan Manzambi, in: Cedric Itten" },
-    { "minute": 85, "team": "Switzerland", "player": "Breel Embolo",        "type": "subst", "detail": "out: Christian Fassnacht, in: Breel Embolo" },
-    { "minute": 87, "team": "Canada",      "player": "Liam Millar",         "type": "Card",  "detail": "Yellow Card" }
+    { "minute": 9,  "team": "Canada", "player": "Derek CORNELIUS",     "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 16, "team": "Canada", "player": "Cyle LARIN",          "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 29, "team": "Canada", "player": "Jonathan DAVID",      "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 33, "team": "Qatar",  "player": "HOMAM AHMED",         "type": "Card",  "detail": "Red Card" },
+    { "minute": 40, "team": "Qatar",  "player": "SULTAN ALBRAKE",      "type": "subst", "detail": "out: YUSUF ABDURISAG, in: SULTAN ALBRAKE" },
+    { "minute": 45, "team": "Canada", "player": "Jonathan DAVID",      "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 46, "team": "Qatar",  "player": "LUCAS MENDES",        "type": "subst", "detail": "out: PEDRO MIGUEL, in: LUCAS MENDES" },
+    { "minute": 46, "team": "Qatar",  "player": "AHMED FATHY",         "type": "subst", "detail": "out: EDMILSON JUNIOR, in: AHMED FATHY" },
+    { "minute": 46, "team": "Qatar",  "player": "JASSEM GABER",        "type": "subst", "detail": "out: BOUALEM KHOUKHI, in: JASSEM GABER" },
+    { "minute": 46, "team": "Canada", "player": "Moise BOMBITO",       "type": "subst", "detail": "out: Derek CORNELIUS, in: Moise BOMBITO" },
+    { "minute": 51, "team": "Qatar",  "player": "ASSIM MADIBO",        "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 56, "team": "Canada", "player": "Nathan SALIBA",       "type": "subst", "detail": "out: Ismael KONE, in: Nathan SALIBA" },
+    { "minute": 59, "team": "Qatar",  "player": "ALHASHMI ALHUSSEIN",  "type": "subst", "detail": "out: AKRAM AFIF, in: ALHASHMI ALHUSSEIN" },
+    { "minute": 62, "team": "Qatar",  "player": "AHMED FATHY",         "type": "Card",  "detail": "Red Card" },
+    { "minute": 64, "team": "Canada", "player": "Nathan SALIBA",       "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 71, "team": "Canada", "player": "Jacob SHAFFELBURG",   "type": "subst", "detail": "out: Luc DE FOUGEROLLES, in: Jacob SHAFFELBURG" },
+    { "minute": 71, "team": "Canada", "player": "Tani OLUWASEYI",      "type": "subst", "detail": "out: Ali AHMED, in: Tani OLUWASEYI" },
+    { "minute": 75, "team": "Qatar",  "player": "MOHAMED MANAI",       "type": "Goal",  "detail": "Own Goal" },
+    { "minute": 83, "team": "Canada", "player": "Niko SIGUR",          "type": "subst", "detail": "out: Tajon BUCHANAN, in: Niko SIGUR" },
+    { "minute": 90, "team": "Canada", "player": "Jonathan DAVID",      "type": "Goal",  "detail": "Normal Goal" }
   ],
   "lineups": [
-    {
-      "team": { "name": "Switzerland" },
-      "formation": "4-2-3-1",
-      "startXI": [
-        { "player": { "name": "Gregor Kobel",         "number": 1,  "pos": "G" } },
-        { "player": { "name": "Luca Jaquez",          "number": 25, "pos": "D" } },
-        { "player": { "name": "Nico Elvedi",          "number": 4,  "pos": "D" } },
-        { "player": { "name": "Manuel Akanji",        "number": 5,  "pos": "D" } },
-        { "player": { "name": "Ricardo Rodriguez",    "number": 13, "pos": "D" } },
-        { "player": { "name": "Remo Freuler",         "number": 8,  "pos": "M" } },
-        { "player": { "name": "Granit Xhaka",         "number": 10, "pos": "M" } },
-        { "player": { "name": "Djibril Sow",          "number": 15, "pos": "M" } },
-        { "player": { "name": "Johan Manzambi",       "number": 9,  "pos": "M" } },
-        { "player": { "name": "Ruben Vargas",         "number": 17, "pos": "M" } },
-        { "player": { "name": "Christian Fassnacht",  "number": 16, "pos": "F" } }
-      ],
-      "substitutes": [
-        { "player": { "name": "Michel Aebischer",  "number": 20, "pos": "M" } },
-        { "player": { "name": "Silvan Widmer",     "number": 3,  "pos": "D" } },
-        { "player": { "name": "Dan Ndoye",         "number": 11, "pos": "F" } },
-        { "player": { "name": "Breel Embolo",      "number": 7,  "pos": "F" } },
-        { "player": { "name": "Cedric Itten",      "number": 26, "pos": "F" } },
-        { "player": { "name": "Yvon Mvogo",        "number": 12, "pos": "G" } },
-        { "player": { "name": "Marvin Keller",     "number": 21, "pos": "M" } },
-        { "player": { "name": "Eray Coemert",      "number": 18, "pos": "D" } },
-        { "player": { "name": "Aurele Amenda",     "number": 24, "pos": "D" } },
-        { "player": { "name": "Denis Zakaria",     "number": 6,  "pos": "M" } },
-        { "player": { "name": "Ardon Jashari",     "number": 14, "pos": "M" } },
-        { "player": { "name": "Fabian Rieder",     "number": 22, "pos": "M" } },
-        { "player": { "name": "Noah Okafor",       "number": 19, "pos": "F" } },
-        { "player": { "name": "Zeki Amdouni",      "number": 23, "pos": "F" } }
-      ]
-    },
     {
       "team": { "name": "Canada" },
       "formation": "4-4-2",
       "startXI": [
-        { "player": { "name": "Maxime Crepeau",      "number": 16, "pos": "G" } },
-        { "player": { "name": "Alistair Johnston",   "number": 2,  "pos": "D" } },
-        { "player": { "name": "Luc de Fougerolles",  "number": 4,  "pos": "D" } },
-        { "player": { "name": "Derek Cornelius",     "number": 13, "pos": "D" } },
-        { "player": { "name": "Richie Laryea",       "number": 22, "pos": "D" } },
-        { "player": { "name": "Mathieu Choiniere",   "number": 6,  "pos": "M" } },
-        { "player": { "name": "Nathan Saliba",       "number": 25, "pos": "M" } },
-        { "player": { "name": "Ali Ahmed",           "number": 20, "pos": "M" } },
-        { "player": { "name": "Tajon Buchanan",      "number": 17, "pos": "M" } },
-        { "player": { "name": "Cyle Larin",          "number": 9,  "pos": "F" } },
-        { "player": { "name": "Jonathan David",      "number": 10, "pos": "F" } }
+        { "player": { "name": "Maxime CREPEAU",    "number": 16, "pos": "G" } },
+        { "player": { "name": "Alistair JOHNSTON", "number": 2,  "pos": "D" } },
+        { "player": { "name": "Luc DE FOUGEROLLES","number": 4,  "pos": "D" } },
+        { "player": { "name": "Derek CORNELIUS",   "number": 13, "pos": "D" } },
+        { "player": { "name": "Richie LARYEA",     "number": 22, "pos": "D" } },
+        { "player": { "name": "Stephen EUSTAQUIO", "number": 7,  "pos": "M" } },
+        { "player": { "name": "Ismael KONE",       "number": 8,  "pos": "M" } },
+        { "player": { "name": "Tajon BUCHANAN",    "number": 17, "pos": "M" } },
+        { "player": { "name": "Ali AHMED",         "number": 20, "pos": "M" } },
+        { "player": { "name": "Cyle LARIN",        "number": 9,  "pos": "F" } },
+        { "player": { "name": "Jonathan DAVID",    "number": 10, "pos": "F" } }
       ],
       "substitutes": [
-        { "player": { "name": "Stephen Eustaquio",  "number": 7,  "pos": "M" } },
-        { "player": { "name": "Tani Oluwaseyi",     "number": 12, "pos": "F" } },
-        { "player": { "name": "Liam Millar",        "number": 11, "pos": "F" } },
-        { "player": { "name": "Promise David",      "number": 24, "pos": "F" } },
-        { "player": { "name": "Jacob Shaffelburg",  "number": 14, "pos": "M" } },
-        { "player": { "name": "Dayne St. Clair",    "number": 1,  "pos": "G" } },
-        { "player": { "name": "Owen Goodman",       "number": 18, "pos": "G" } },
-        { "player": { "name": "Joel Waterman",      "number": 5,  "pos": "D" } },
-        { "player": { "name": "Moise Bombito",      "number": 15, "pos": "D" } },
-        { "player": { "name": "Alphonso Davies",    "number": 19, "pos": "D" } },
-        { "player": { "name": "Niko Sigur",         "number": 23, "pos": "M" } },
-        { "player": { "name": "Jonathan Osorio",    "number": 21, "pos": "M" } },
-        { "player": { "name": "Jayden Nelson",      "number": 26, "pos": "F" } }
+        { "player": { "name": "Dayne ST. CLAIR",   "number": 1,  "pos": "G" } },
+        { "player": { "name": "Owen GOODMAN",      "number": 18, "pos": "G" } },
+        { "player": { "name": "Joel WATERMAN",     "number": 5,  "pos": "D" } },
+        { "player": { "name": "Moise BOMBITO",     "number": 15, "pos": "D" } },
+        { "player": { "name": "Mathieu CHOINIERE", "number": 6,  "pos": "M" } },
+        { "player": { "name": "Liam MILLAR",       "number": 11, "pos": "M" } },
+        { "player": { "name": "Jacob SHAFFELBURG", "number": 14, "pos": "M" } },
+        { "player": { "name": "Jonathan OSORIO",   "number": 21, "pos": "M" } },
+        { "player": { "name": "Nathan SALIBA",     "number": 25, "pos": "M" } },
+        { "player": { "name": "Tani OLUWASEYI",    "number": 12, "pos": "F" } },
+        { "player": { "name": "Promise DAVID",     "number": 24, "pos": "F" } },
+        { "player": { "name": "Niko SIGUR",        "number": 23, "pos": "F" } },
+        { "player": { "name": "Jayden NELSON",     "number": 26, "pos": "F" } }
+      ]
+    },
+    {
+      "team": { "name": "Qatar" },
+      "formation": "4-3-3",
+      "startXI": [
+        { "player": { "name": "MAHMOUD ABUNADA",  "number": 1,  "pos": "G" } },
+        { "player": { "name": "PEDRO MIGUEL",     "number": 2,  "pos": "D" } },
+        { "player": { "name": "ISSA LAYE",        "number": 4,  "pos": "D" } },
+        { "player": { "name": "JASSEM GABER",     "number": 5,  "pos": "D" } },
+        { "player": { "name": "BOUALEM KHOUKHI",  "number": 16, "pos": "D" } },
+        { "player": { "name": "ASSIM MADIBO",     "number": 23, "pos": "M" } },
+        { "player": { "name": "HOMAM AHMED",      "number": 14, "pos": "M" } },
+        { "player": { "name": "YUSUF ABDURISAG",  "number": 15, "pos": "M" } },
+        { "player": { "name": "EDMILSON JUNIOR",  "number": 8,  "pos": "F" } },
+        { "player": { "name": "AKRAM AFIF",       "number": 11, "pos": "F" } },
+        { "player": { "name": "SULTAN ALBRAKE",   "number": 18, "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "SALAH ZAKARIA",     "number": 21, "pos": "G" } },
+        { "player": { "name": "MESHAAL BARSHAM",   "number": 22, "pos": "G" } },
+        { "player": { "name": "LUCAS MENDES",      "number": 3,  "pos": "D" } },
+        { "player": { "name": "ABDULAZIZ HATEM",   "number": 6,  "pos": "M" } },
+        { "player": { "name": "KARIM BOUDIAF",     "number": 12, "pos": "M" } },
+        { "player": { "name": "AHMED ALGANEHI",    "number": 17, "pos": "M" } },
+        { "player": { "name": "AHMED FATHY",       "number": 20, "pos": "M" } },
+        { "player": { "name": "AHMED ALAAELDIN",   "number": 7,  "pos": "F" } },
+        { "player": { "name": "MOHAMMED MUNTARI",  "number": 9,  "pos": "F" } },
+        { "player": { "name": "HASSAN ALHAYDOS",   "number": 10, "pos": "F" } },
+        { "player": { "name": "ALMOEZ ALI",        "number": 19, "pos": "F" } },
+        { "player": { "name": "TAHSIN MOHAMMED",   "number": 24, "pos": "F" } },
+        { "player": { "name": "MOHAMED MANAI",     "number": 26, "pos": "F" } },
+        { "player": { "name": "ALHASHMI ALHUSSEIN","number": 25, "pos": "F" } }
       ]
     }
   ]

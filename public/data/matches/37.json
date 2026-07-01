@@ -1,94 +1,92 @@
 {
   "fixture": {
-    "id": "wc2026-group-g-ir-iran-new-zealand",
+    "id": "wc2026-group-g-belgium-egypt",
     "date": "2026-06-16T00:00:00Z",
-    "venue": { "name": "BC Place", "city": "Vancouver" },
+    "venue": { "name": "Hard Rock Stadium", "city": "Miami" },
     "status": { "short": "FT", "long": "Match Finished" }
   },
   "league": { "round": "Group G" },
   "teams": {
-    "home": { "name": "IR Iran", "code": "IRN" },
-    "away": { "name": "New Zealand", "code": "NZL" }
+    "home": { "name": "Belgium", "code": "BEL" },
+    "away": { "name": "Egypt", "code": "EGY" }
   },
-  "goals": { "home": 2, "away": 2 },
+  "goals": { "home": 1, "away": 1 },
   "score": {
-    "halftime": { "home": 1, "away": 1 },
-    "fulltime": { "home": 2, "away": 2 }
+    "halftime": { "home": 0, "away": 1 },
+    "fulltime": { "home": 1, "away": 1 }
   },
   "stats": [
     {
-      "team": "IR Iran",
+      "team": "Belgium",
       "statistics": [
-        { "type": "Possession", "value": "43%" },
-        { "type": "Shots on Goal", "value": 4 },
-        { "type": "Total Shots", "value": 17 },
-        { "type": "Corner Kicks", "value": 4 },
-        { "type": "Fouls", "value": 10 },
-        { "type": "Yellow Cards", "value": 1 },
+        { "type": "Possession", "value": "52%" },
+        { "type": "Shots on Goal", "value": 3 },
+        { "type": "Total Shots", "value": 15 },
+        { "type": "Corner Kicks", "value": 2 },
+        { "type": "Fouls", "value": 15 },
+        { "type": "Yellow Cards", "value": 2 },
         { "type": "Red Cards", "value": 0 }
       ]
     },
     {
-      "team": "New Zealand",
+      "team": "Egypt",
       "statistics": [
-        { "type": "Possession", "value": "45%" },
-        { "type": "Shots on Goal", "value": 8 },
+        { "type": "Possession", "value": "38%" },
+        { "type": "Shots on Goal", "value": 3 },
         { "type": "Total Shots", "value": 14 },
-        { "type": "Corner Kicks", "value": 1 },
-        { "type": "Fouls", "value": 8 },
-        { "type": "Yellow Cards", "value": 0 },
+        { "type": "Corner Kicks", "value": 7 },
+        { "type": "Fouls", "value": 15 },
+        { "type": "Yellow Cards", "value": 2 },
         { "type": "Red Cards", "value": 0 }
       ]
     }
   ],
   "events": [
-    { "minute": 7,  "team": "New Zealand", "player": "Ben Just",         "type": "Goal",  "detail": "Normal Goal", "_confidence": "FIFA: Wood 7', Sofascore: Just 7' — Sofascore used" },
-    { "minute": 32, "team": "IR Iran",     "player": "Ramin Rezaeian",   "type": "Goal",  "detail": "Normal Goal" },
-    { "minute": 54, "team": "New Zealand", "player": "Ben Just",         "type": "Goal",  "detail": "Normal Goal" },
-    { "minute": 64, "team": "IR Iran",     "player": "Vahid Mohebi",     "type": "Goal",  "detail": "Normal Goal" }
+    { "minute": 20, "team": "Egypt",   "player": "Omar Ashour",   "type": "Goal",  "detail": "Normal Goal", "_confidence": "FIFA: 20', Sofascore: 19' — FIFA used" },
+    { "minute": 66, "team": "Belgium", "player": "Mohamed Hany",  "type": "Goal",  "detail": "Own Goal (Egypt)" }
   ],
   "lineups": [
     {
-      "team": { "name": "IR Iran" },
-      "formation": "4-4-2",
+      "team": { "name": "Belgium" },
+      "formation": "4-2-3-1",
       "startXI": [
-        { "player": { "name": "Alireza Beiranvand", "number": 1,  "pos": "GK" } },
-        { "player": { "name": "Ramin Rezaeian",     "number": 23, "pos": "RB" } },
-        { "player": { "name": "Shojae Khalilzadeh","number": 4,  "pos": "CB" } },
-        { "player": { "name": "Ali Nemati",         "number": 19, "pos": "CB" } },
-        { "player": { "name": "Milad Mohammadi",    "number": 5,  "pos": "LB" } },
-        { "player": { "name": "Vahid Mohebi",       "number": 8,  "pos": "CM" } },
-        { "player": { "name": "Saeid Ezatolahi",    "number": 6,  "pos": "CM" } },
-        { "player": { "name": "Saman Ghoddos",      "number": 14, "pos": "RM" } },
-        { "player": { "name": "Ali Gholizadeh",     "number": 17, "pos": "LM" } },
-        { "player": { "name": "Sardar Azmoun",      "number": 20, "pos": "FW" } },
-        { "player": { "name": "Mehdi Taremi",       "number": 9,  "pos": "ST" } }
+        { "player": { "name": "Thibaut Courtois",      "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Thomas Meunier",        "number": 15, "pos": "RB" } },
+        { "player": { "name": "Wout Faes",             "number": 25, "pos": "CB" } },
+        { "player": { "name": "Thomas Vermaelen",      "number": 4,  "pos": "CB" } },
+        { "player": { "name": "Timothy Castagne",      "number": 21, "pos": "LB" } },
+        { "player": { "name": "Amadou Onana",          "number": 24, "pos": "DM" } },
+        { "player": { "name": "Youri Tielemans",       "number": 8,  "pos": "DM" } },
+        { "player": { "name": "Leandro Trossard",      "number": 10, "pos": "AM" } },
+        { "player": { "name": "Kevin De Bruyne",       "number": 7,  "pos": "AM" } },
+        { "player": { "name": "Johan Doku",            "number": 11, "pos": "LW" } },
+        { "player": { "name": "Charles De Ketelaere",  "number": 17, "pos": "ST" } }
       ],
       "substitutes": [
-        { "player": { "name": "Hossein Hosseini",   "number": 12, "pos": "GK" } },
-        { "player": { "name": "Karim Ansarifard",   "number": 11, "pos": "FW" } }
+        { "player": { "name": "Koen Casteels",         "number": 12, "pos": "GK" } },
+        { "player": { "name": "Romelu Lukaku",         "number": 9,  "pos": "ST" } },
+        { "player": { "name": "Lois Openda",           "number": 23, "pos": "FW" } }
       ]
     },
     {
-      "team": { "name": "New Zealand" },
+      "team": { "name": "Egypt" },
       "formation": "4-2-3-1",
       "startXI": [
-        { "player": { "name": "Max Crocombe",   "number": 1,  "pos": "GK" } },
-        { "player": { "name": "Liberato Cacace","number": 13, "pos": "RB" } },
-        { "player": { "name": "Winston Reid",   "number": 5,  "pos": "CB" } },
-        { "player": { "name": "Nando Pijnaker", "number": 16, "pos": "CB" } },
-        { "player": { "name": "Michael Boxall", "number": 6,  "pos": "LB" } },
-        { "player": { "name": "Bill Tuilagi",   "number": 8,  "pos": "DM" } },
-        { "player": { "name": "Elijah Just",    "number": 20, "pos": "DM" } },
-        { "player": { "name": "Clayton Lewis",  "number": 10, "pos": "AM" } },
-        { "player": { "name": "Ben Just",       "number": 11, "pos": "FW" } },
-        { "player": { "name": "Marko Stamenic", "number": 14, "pos": "FW" } },
-        { "player": { "name": "Chris Wood",     "number": 9,  "pos": "ST" } }
+        { "player": { "name": "Mohamed Shobeir",       "number": 23, "pos": "GK" } },
+        { "player": { "name": "Mohamed Hany",          "number": 3,  "pos": "RB" } },
+        { "player": { "name": "Mostafa Mohamed Ibrahim","number": 2,  "pos": "CB" } },
+        { "player": { "name": "Ahmed Fathy",           "number": 14, "pos": "CB" } },
+        { "player": { "name": "Omar Aboul-Fetouh",     "number": 13, "pos": "LB" } },
+        { "player": { "name": "Mahmoud Alaa",          "number": 19, "pos": "DM" } },
+        { "player": { "name": "Mohamed Elneny",        "number": 17, "pos": "DM" } },
+        { "player": { "name": "Emam Ashour",           "number": 11, "pos": "AM" } },
+        { "player": { "name": "Mohamed Salah",         "number": 10, "pos": "AM" } },
+        { "player": { "name": "Omar Ashour",           "number": 8,  "pos": "FW" } },
+        { "player": { "name": "Omar Marmoush",         "number": 22, "pos": "ST" } }
       ],
       "substitutes": [
-        { "player": { "name": "Stefan Marinovic","number": 12, "pos": "GK" } },
-        { "player": { "name": "Tommy Smith",    "number": 2,  "pos": "DF" } },
-        { "player": { "name": "Sarpreet Singh", "number": 17, "pos": "MF" } }
+        { "player": { "name": "Ahmed El-Shenawy",      "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Mostafa Mohamed",       "number": 9,  "pos": "FW" } }
       ]
     }
   ]

@@ -34,7 +34,7 @@ function StatBar({ label, home, away }) {
 }
 
 const STAT_KEYS = [
-  { api: 'Ball Possession', i18nKey: 'match.possession' },
+  { api: 'Possession', i18nKey: 'match.possession' },
   { api: 'Total Shots', i18nKey: 'match.shots' },
   { api: 'Shots on Goal', i18nKey: 'match.shotsOnTarget' },
   { api: 'Corner Kicks', i18nKey: 'match.corners' },

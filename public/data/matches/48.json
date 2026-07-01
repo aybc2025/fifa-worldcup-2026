@@ -1,99 +1,602 @@
-{
-  "fixture": {
-    "id": "wc2026-group-i-france-senegal",
-    "date": "2026-06-16T20:00:00Z",
-    "venue": { "name": "Estadio Azteca", "city": "Mexico City" },
-    "status": { "short": "FT", "long": "Match Finished" }
-  },
-  "league": { "round": "Group I" },
-  "teams": {
-    "home": { "name": "France", "code": "FRA" },
-    "away": { "name": "Senegal", "code": "SEN" }
-  },
-  "goals": { "home": 3, "away": 1 },
-  "score": {
-    "halftime": { "home": 0, "away": 0 },
-    "fulltime": { "home": 3, "away": 1 }
-  },
-  "stats": [
-    {
-      "team": "France",
-      "statistics": [
-        { "type": "Possession", "value": "49%" },
-        { "type": "Shots on Goal", "value": 8 },
-        { "type": "Total Shots", "value": 11 },
-        { "type": "Corner Kicks", "value": 6 },
-        { "type": "Fouls", "value": 5 },
-        { "type": "Yellow Cards", "value": 0 },
-        { "type": "Red Cards", "value": 0 }
-      ]
-    },
-    {
-      "team": "Senegal",
-      "statistics": [
-        { "type": "Possession", "value": "44%" },
-        { "type": "Shots on Goal", "value": 2 },
-        { "type": "Total Shots", "value": 6 },
-        { "type": "Corner Kicks", "value": 4 },
-        { "type": "Fouls", "value": 9 },
-        { "type": "Yellow Cards", "value": 0 },
-        { "type": "Red Cards", "value": 0 }
-      ]
-    }
-  ],
-  "events": [
-    { "minute": 66, "team": "France",  "player": "Kylian Mbappé",  "type": "Goal",  "detail": "Normal Goal" },
-    { "minute": 80, "team": "France",  "player": "Bradley Barcola","type": "subst", "detail": "out: Ousmane Dembélé, in: Bradley Barcola" },
-    { "minute": 82, "team": "France",  "player": "Bradley Barcola","type": "Goal",  "detail": "Normal Goal" },
-    { "minute": 87, "team": "France",  "player": "Marcus Thuram",  "type": "subst", "detail": "out: Mathys Tel, in: Marcus Thuram" },
-    { "minute": 95, "team": "Senegal", "player": "Bamba Mbaye",    "type": "Goal",  "detail": "Normal Goal" },
-    { "minute": 96, "team": "France",  "player": "Kylian Mbappé",  "type": "Goal",  "detail": "Normal Goal" }
-  ],
-  "lineups": [
-    {
-      "team": { "name": "France" },
-      "formation": "4-2-3-1",
-      "startXI": [
-        { "player": { "name": "Mike Maignan",        "number": 16, "pos": "GK" } },
-        { "player": { "name": "Jules Koundé",        "number": 5,  "pos": "RB" } },
-        { "player": { "name": "Dayot Upamecano",     "number": 4,  "pos": "CB" } },
-        { "player": { "name": "William Saliba",      "number": 17, "pos": "CB" } },
-        { "player": { "name": "Theo Hernández",      "number": 19, "pos": "LB" } },
-        { "player": { "name": "Aurélien Tchouaméni", "number": 8,  "pos": "DM" } },
-        { "player": { "name": "Adrien Rabiot",       "number": 14, "pos": "DM" } },
-        { "player": { "name": "Michael Olise",       "number": 11, "pos": "RM" } },
-        { "player": { "name": "Ousmane Dembélé",     "number": 7,  "pos": "AM" } },
-        { "player": { "name": "Mathys Tel",          "number": 20, "pos": "LM" } },
-        { "player": { "name": "Kylian Mbappé",       "number": 10, "pos": "ST" } }
-      ],
-      "substitutes": [
-        { "player": { "name": "Alphonse Areola",     "number": 23, "pos": "GK" } },
-        { "player": { "name": "Eduardo Camavinga",   "number": 6,  "pos": "MF" } },
-        { "player": { "name": "Bradley Barcola",     "number": 9,  "pos": "FW" } },
-        { "player": { "name": "Marcus Thuram",       "number": 3,  "pos": "FW" } }
-      ]
-    },
-    {
-      "team": { "name": "Senegal" },
-      "formation": "4-2-3-1",
-      "startXI": [
-        { "player": { "name": "Édouard Mendy",    "number": 16, "pos": "GK" } },
-        { "player": { "name": "Krepin Diatta",    "number": 15, "pos": "RB" } },
-        { "player": { "name": "Kalidou Koulibaly","number": 3,  "pos": "CB" } },
-        { "player": { "name": "Abdou Diallo",     "number": 19, "pos": "CB" } },
-        { "player": { "name": "Formose Mendy",    "number": 25, "pos": "LB" } },
-        { "player": { "name": "Idrissa Gueye",    "number": 5,  "pos": "DM" } },
-        { "player": { "name": "Pape Matar Sarr",  "number": 26, "pos": "DM" } },
-        { "player": { "name": "Ismaïla Sarr",     "number": 18, "pos": "RM" } },
-        { "player": { "name": "Lamine Camara",    "number": 8,  "pos": "AM" } },
-        { "player": { "name": "Sadio Mané",       "number": 10, "pos": "LW" } },
-        { "player": { "name": "Nicolas Jackson",  "number": 11, "pos": "ST" } }
-      ],
-      "substitutes": [
-        { "player": { "name": "Alfred Gomis",     "number": 23, "pos": "GK" } },
-        { "player": { "name": "Bamba Dieng",      "number": 9,  "pos": "FW" } },
-        { "player": { "name": "Bamba Mbaye",      "number": 7,  "pos": "FW" } }
-      ]
-    }
-  ]
+﻿{
+    "fixture":  {
+                    "id":  "wc2026-group-h-uruguay-spain",
+                    "date":  "2026-06-26T21:00:00Z",
+                    "venue":  {
+                                  "name":  "Guadalajara Stadium",
+                                  "city":  "Guadalajara"
+                              },
+                    "status":  {
+                                   "short":  "FT",
+                                   "long":  "Match Finished"
+                               }
+                },
+    "league":  {
+                   "round":  "Group H"
+               },
+    "teams":  {
+                  "home":  {
+                               "name":  "Uruguay",
+                               "code":  "URU"
+                           },
+                  "away":  {
+                               "name":  "Spain",
+                               "code":  "ESP"
+                           }
+              },
+    "goals":  {
+                  "home":  0,
+                  "away":  1
+              },
+    "score":  {
+                  "halftime":  {
+                                   "home":  0,
+                                   "away":  1
+                               },
+                  "fulltime":  {
+                                   "home":  0,
+                                   "away":  1
+                               }
+              },
+    "stats":  [
+                  {
+                      "team":  "Uruguay",
+                      "statistics":  [
+                                         {
+                                             "type":  "Possession",
+                                             "value":  "33%"
+                                         },
+                                         {
+                                             "type":  "Shots on Goal",
+                                             "value":  1
+                                         },
+                                         {
+                                             "type":  "Total Shots",
+                                             "value":  5
+                                         },
+                                         {
+                                             "type":  "Corner Kicks",
+                                             "value":  1
+                                         },
+                                         {
+                                             "type":  "Fouls",
+                                             "value":  14
+                                         },
+                                         {
+                                             "type":  "Yellow Cards",
+                                             "value":  3
+                                         },
+                                         {
+                                             "type":  "Red Cards",
+                                             "value":  1
+                                         }
+                                     ]
+                  },
+                  {
+                      "team":  "Spain",
+                      "statistics":  [
+                                         {
+                                             "type":  "Possession",
+                                             "value":  "57%"
+                                         },
+                                         {
+                                             "type":  "Shots on Goal",
+                                             "value":  1
+                                         },
+                                         {
+                                             "type":  "Total Shots",
+                                             "value":  6
+                                         },
+                                         {
+                                             "type":  "Corner Kicks",
+                                             "value":  6
+                                         },
+                                         {
+                                             "type":  "Fouls",
+                                             "value":  14
+                                         },
+                                         {
+                                             "type":  "Yellow Cards",
+                                             "value":  1
+                                         },
+                                         {
+                                             "type":  "Red Cards",
+                                             "value":  0
+                                         }
+                                     ]
+                  }
+              ],
+    "events":  [
+                   {
+                       "minute":  42,
+                       "team":  "Spain",
+                       "player":  "Alex Baena",
+                       "type":  "Goal",
+                       "detail":  "Normal Goal"
+                   },
+                   {
+                       "minute":  45,
+                       "team":  "Uruguay",
+                       "player":  "Nicolas De La Cruz",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   },
+                   {
+                       "minute":  46,
+                       "team":  "Spain",
+                       "player":  "Alex Baena",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   },
+                   {
+                       "minute":  0,
+                       "team":  "Uruguay",
+                       "player":  "Sergio Rochet",
+                       "type":  "subst",
+                       "detail":  "out: Fernando Muslera, in: Sergio Rochet (HT)"
+                   },
+                   {
+                       "minute":  54,
+                       "team":  "Uruguay",
+                       "player":  "Juan Manuel Sanabria",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   },
+                   {
+                       "minute":  56,
+                       "team":  "Uruguay",
+                       "player":  "Federico Vinas",
+                       "type":  "subst",
+                       "detail":  "out: Federico Vinas, in: Juan Manuel Sanabria"
+                   },
+                   {
+                       "minute":  58,
+                       "team":  "Uruguay",
+                       "player":  "Federico Valverde",
+                       "type":  "subst",
+                       "detail":  "out: Guillermo Varela, in: Federico Valverde"
+                   },
+                   {
+                       "minute":  60,
+                       "team":  "Spain",
+                       "player":  "Dani Olmo",
+                       "type":  "subst",
+                       "detail":  "out: Mikel Merino, in: Dani Olmo"
+                   },
+                   {
+                       "minute":  60,
+                       "team":  "Spain",
+                       "player":  "Fabian Ruiz",
+                       "type":  "subst",
+                       "detail":  "out: Fabian Ruiz, in: Pedri"
+                   },
+                   {
+                       "minute":  66,
+                       "team":  "Spain",
+                       "player":  "Yeremy Pino",
+                       "type":  "subst",
+                       "detail":  "out: Alex Baena, in: Yeremy Pino"
+                   },
+                   {
+                       "minute":  70,
+                       "team":  "Uruguay",
+                       "player":  "Brian Rodriguez",
+                       "type":  "subst",
+                       "detail":  "out: Maxi Araujo, in: Brian Rodriguez"
+                   },
+                   {
+                       "minute":  76,
+                       "team":  "Spain",
+                       "player":  "Ferran Torres",
+                       "type":  "subst",
+                       "detail":  "out: Lamine Yamal, in: Ferran Torres"
+                   },
+                   {
+                       "minute":  76,
+                       "team":  "Spain",
+                       "player":  "Nico Williams",
+                       "type":  "subst",
+                       "detail":  "out: Mikel Oyarzabal, in: Nico Williams"
+                   },
+                   {
+                       "minute":  90,
+                       "team":  "Uruguay",
+                       "player":  "Nicolas De La Cruz",
+                       "type":  "subst",
+                       "detail":  "out: Nicolas De La Cruz, in: [reserve]"
+                   },
+                   {
+                       "minute":  94,
+                       "team":  "Uruguay",
+                       "player":  "Agustin Canobbio",
+                       "type":  "Card",
+                       "detail":  "Red Card"
+                   }
+               ],
+    "lineups":  [
+                    {
+                        "team":  {
+                                     "name":  "Uruguay"
+                                 },
+                        "formation":  "4-1-2-3",
+                        "startXI":  [
+                                        {
+                                            "player":  {
+                                                           "name":  "Fernando Muslera",
+                                                           "number":  23,
+                                                           "pos":  "G"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Sebastian Caceres",
+                                                           "number":  3,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Guillermo Varela",
+                                                           "number":  13,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Mathias Olivera",
+                                                           "number":  16,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Manuel Ugarte",
+                                                           "number":  5,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Nicolas De La Cruz",
+                                                           "number":  7,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Rodrigo Bentancur",
+                                                           "number":  6,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Federico Valverde",
+                                                           "number":  8,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Federico Vinas",
+                                                           "number":  21,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Agustin Canobbio",
+                                                           "number":  14,
+                                                           "pos":  "F"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Maxi Araujo",
+                                                           "number":  20,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Darwin Nunez",
+                                                           "number":  9,
+                                                           "pos":  "F"
+                                                       }
+                                        }
+                                    ],
+                        "substitutes":  [
+                                            {
+                                                "player":  {
+                                                               "name":  "Sergio Rochet",
+                                                               "number":  1,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Santiago Mele",
+                                                               "number":  12,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Jose Maria Gimenez",
+                                                               "number":  2,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Ronald Araujo",
+                                                               "number":  4,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Matias Vina",
+                                                               "number":  17,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Santiago Bueno",
+                                                               "number":  24,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Giorgian De Arrascaeta",
+                                                               "number":  10,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Emiliano Martinez",
+                                                               "number":  15,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Joaquin Piquerez",
+                                                               "number":  22,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Juan Manuel Sanabria",
+                                                               "number":  25,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Rodrigo Zalazar",
+                                                               "number":  26,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Brian Rodriguez",
+                                                               "number":  18,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Facundo Pellistri",
+                                                               "number":  11,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Rodrigo Aguirre",
+                                                               "number":  19,
+                                                               "pos":  null
+                                                           }
+                                            }
+                                        ]
+                    },
+                    {
+                        "team":  {
+                                     "name":  "Spain"
+                                 },
+                        "formation":  "4-1-2-3",
+                        "startXI":  [
+                                        {
+                                            "player":  {
+                                                           "name":  "Unai Simon",
+                                                           "number":  23,
+                                                           "pos":  "G"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Marcos Llorente",
+                                                           "number":  5,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Aymeric Laporte",
+                                                           "number":  14,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Pau Cubarsi",
+                                                           "number":  22,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Marc Cucurella",
+                                                           "number":  24,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Mikel Merino",
+                                                           "number":  6,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Alex Baena",
+                                                           "number":  15,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Rodri",
+                                                           "number":  16,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Fabian Ruiz",
+                                                           "number":  8,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Lamine Yamal",
+                                                           "number":  19,
+                                                           "pos":  "F"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Mikel Oyarzabal",
+                                                           "number":  21,
+                                                           "pos":  "F"
+                                                       }
+                                        }
+                                    ],
+                        "substitutes":  [
+                                            {
+                                                "player":  {
+                                                               "name":  "David Raya",
+                                                               "number":  1,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Joan Garcia",
+                                                               "number":  13,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Marc Pubill",
+                                                               "number":  2,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Alex Grimaldo",
+                                                               "number":  3,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Eric Garcia",
+                                                               "number":  4,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Pedro Porro",
+                                                               "number":  12,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Dani Olmo",
+                                                               "number":  10,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Pedri",
+                                                               "number":  20,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Gavi",
+                                                               "number":  9,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Yeremy Pino",
+                                                               "number":  11,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Ferran Torres",
+                                                               "number":  7,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Nico Williams",
+                                                               "number":  17,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Martin Zubimendi",
+                                                               "number":  18,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Victor Munoz",
+                                                               "number":  25,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Borja Iglesias",
+                                                               "number":  26,
+                                                               "pos":  null
+                                                           }
+                                            }
+                                        ]
+                    }
+                ]
 }
