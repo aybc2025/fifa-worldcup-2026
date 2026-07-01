@@ -1,0 +1,90 @@
+{
+  "stats": [
+    {
+      "team": "Ivory Coast",
+      "statistics": [
+        { "type": "Possession",    "value": "46%" },
+        { "type": "Total Shots",   "value": 12 },
+        { "type": "Shots on Goal", "value": 4 },
+        { "type": "Corner Kicks",  "value": 5 },
+        { "type": "Fouls",         "value": 15 },
+        { "type": "Yellow Cards",  "value": 1 },
+        { "type": "Red Cards",     "value": 0 }
+      ]
+    },
+    {
+      "team": "Norway",
+      "statistics": [
+        { "type": "Possession",    "value": "54%" },
+        { "type": "Total Shots",   "value": 14 },
+        { "type": "Shots on Goal", "value": 6 },
+        { "type": "Corner Kicks",  "value": 7 },
+        { "type": "Fouls",         "value": 11 },
+        { "type": "Yellow Cards",  "value": 1 },
+        { "type": "Red Cards",     "value": 0 }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 39,  "team": "Norway",       "player": "Antonio Nusa",          "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 45,  "team": "Norway",       "player": "Antonio Nusa",          "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 60,  "team": "Ivory Coast",  "player": "Amad Diallo",           "type": "subst", "detail": "out: Christ Inao Oulaï" },
+    { "minute": 60,  "team": "Ivory Coast",  "player": "Elye Wahi",             "type": "subst", "detail": "out: Ange-Yoan Bonny" },
+    { "minute": 71,  "team": "Norway",       "player": "Andreas Schjelderup",   "type": "subst", "detail": "out: Alexander Sørloth" },
+    { "minute": 71,  "team": "Norway",       "player": "Oscar Bobb",            "type": "subst", "detail": "out: Antonio Nusa" },
+    { "minute": 74,  "team": "Ivory Coast",  "player": "Amad Diallo",           "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 83,  "team": "Norway",       "player": "Fredrik Aursnes",       "type": "subst", "detail": "out: Marcus Holmgren Pedersen" },
+    { "minute": 86,  "team": "Norway",       "player": "Erling Haaland",        "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 87,  "team": "Ivory Coast",  "player": "Oumar Diakité",         "type": "subst", "detail": "out: Nicolas Pépé" },
+    { "minute": 90,  "team": "Ivory Coast",  "player": "Evann Guessand",        "type": "subst", "detail": "out: Ghislain Konan" },
+    { "minute": 90,  "team": "Ivory Coast",  "player": "Bazoumana Touré",       "type": "subst", "detail": "out: Yan Diomande" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Ivory Coast" },
+      "formation": "4-3-3",
+      "startXI": [
+        { "player": { "name": "Yahia Fofana",       "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Guéla Doué",         "number": 17, "pos": "RB" } },
+        { "player": { "name": "Odilon Kossounou",   "number": 7,  "pos": "CB" } },
+        { "player": { "name": "Emmanuel Agbadou",   "number": 20, "pos": "CB" } },
+        { "player": { "name": "Ghislain Konan",     "number": 3,  "pos": "LB" } },
+        { "player": { "name": "Ibrahim Sangaré",    "number": 18, "pos": "DM" } },
+        { "player": { "name": "Franck Kessié",      "number": 8,  "pos": "CM" } },
+        { "player": { "name": "Christ Inao Oulaï",  "number": 26, "pos": "CM" } },
+        { "player": { "name": "Nicolas Pépé",       "number": 19, "pos": "RW" } },
+        { "player": { "name": "Ange-Yoan Bonny",    "number": 9,  "pos": "ST" } },
+        { "player": { "name": "Yan Diomande",       "number": 11, "pos": "LW" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Amad Diallo",     "number": 15, "pos": "RW" } },
+        { "player": { "name": "Elye Wahi",        "number": 12, "pos": "ST" } },
+        { "player": { "name": "Oumar Diakité",    "number": 14, "pos": "RW" } },
+        { "player": { "name": "Evann Guessand",   "number": 22, "pos": "ST" } },
+        { "player": { "name": "Bazoumana Touré",  "number": 24, "pos": "LB" } }
+      ]
+    },
+    {
+      "team": { "name": "Norway" },
+      "formation": "4-3-3",
+      "startXI": [
+        { "player": { "name": "Ørjan Nyland",              "number": 1,  "pos": "GK"  } },
+        { "player": { "name": "Marcus Holmgren Pedersen",   "number": 16, "pos": "RB"  } },
+        { "player": { "name": "Kristoffer Ajer",            "number": 3,  "pos": "CB"  } },
+        { "player": { "name": "Torbjørn Heggem",           "number": 17, "pos": "CB"  } },
+        { "player": { "name": "David Møller Wolfe",        "number": 5,  "pos": "LB"  } },
+        { "player": { "name": "Patrick Berg",               "number": 6,  "pos": "DM"  } },
+        { "player": { "name": "Sander Berge",               "number": 8,  "pos": "CM"  } },
+        { "player": { "name": "Martin Ødegaard",           "number": 10, "pos": "CAM" } },
+        { "player": { "name": "Alexander Sørloth",          "number": 7,  "pos": "RW"  } },
+        { "player": { "name": "Erling Haaland",             "number": 9,  "pos": "ST"  } },
+        { "player": { "name": "Antonio Nusa",               "number": 20, "pos": "LW"  } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Andreas Schjelderup",  "number": 21, "pos": "LW" } },
+        { "player": { "name": "Oscar Bobb",            "number": 22, "pos": "RW" } },
+        { "player": { "name": "Fredrik Aursnes",       "number": 14, "pos": "CM" } }
+      ]
+    }
+  ]
+}

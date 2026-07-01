@@ -1,0 +1,94 @@
+{
+  "stats": [
+    {
+      "team": "France",
+      "statistics": [
+        { "type": "Possession",    "value": "63%" },
+        { "type": "Total Shots",   "value": 16 },
+        { "type": "Shots on Goal", "value": 7 },
+        { "type": "Corner Kicks",  "value": 7 },
+        { "type": "Fouls",         "value": 10 },
+        { "type": "Yellow Cards",  "value": 0 },
+        { "type": "Red Cards",     "value": 0 }
+      ]
+    },
+    {
+      "team": "Sweden",
+      "statistics": [
+        { "type": "Possession",    "value": "37%" },
+        { "type": "Total Shots",   "value": 6 },
+        { "type": "Shots on Goal", "value": 2 },
+        { "type": "Corner Kicks",  "value": 3 },
+        { "type": "Fouls",         "value": 14 },
+        { "type": "Yellow Cards",  "value": 0 },
+        { "type": "Red Cards",     "value": 0 }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 45, "team": "France", "player": "Kylian Mbappé",         "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 53, "team": "France", "player": "Bradley Barcola",        "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 66, "team": "Sweden", "player": "Taha Ali",               "type": "subst", "detail": "out: Lucas Bergvall" },
+    { "minute": 66, "team": "Sweden", "player": "Besfort Zeneli",         "type": "subst", "detail": "out: Elliot Stroud" },
+    { "minute": 74, "team": "France", "player": "Kylian Mbappé",         "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 75, "team": "France", "player": "Désiré Doué",           "type": "subst", "detail": "out: Jules Koundé" },
+    { "minute": 75, "team": "France", "player": "Malo Gusto",             "type": "subst", "detail": "out: Ousmane Dembélé" },
+    { "minute": 78, "team": "France", "player": "Théo Hernandez",        "type": "subst", "detail": "out: Lucas Digne" },
+    { "minute": 82, "team": "Sweden", "player": "Benjamin Nygren",        "type": "subst", "detail": "out: Daniel Svensson" },
+    { "minute": 82, "team": "Sweden", "player": "Mattias Svanberg",       "type": "subst", "detail": "out: Yasin Ayari" },
+    { "minute": 85, "team": "France", "player": "Jean-Philippe Mateta",   "type": "subst", "detail": "out: Michael Olise" },
+    { "minute": 85, "team": "France", "player": "Rayan Cherki",           "type": "subst", "detail": "out: Kylian Mbappé" },
+    { "minute": 89, "team": "Sweden", "player": "Gustaf Nilsson",         "type": "subst", "detail": "out: Alexander Isak" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "France" },
+      "formation": "4-2-3-1",
+      "startXI": [
+        { "player": { "name": "Mike Maignan",        "number": 16, "pos": "GK"  } },
+        { "player": { "name": "Jules Koundé",         "number": 5,  "pos": "RB"  } },
+        { "player": { "name": "Dayot Upamecano",      "number": 4,  "pos": "CB"  } },
+        { "player": { "name": "William Saliba",       "number": 17, "pos": "CB"  } },
+        { "player": { "name": "Lucas Digne",          "number": 3,  "pos": "LB"  } },
+        { "player": { "name": "Aurélien Tchouaméni", "number": 8,  "pos": "DM"  } },
+        { "player": { "name": "Adrien Rabiot",        "number": 14, "pos": "DM"  } },
+        { "player": { "name": "Ousmane Dembélé",     "number": 7,  "pos": "RW"  } },
+        { "player": { "name": "Michael Olise",        "number": 11, "pos": "CAM" } },
+        { "player": { "name": "Bradley Barcola",      "number": 12, "pos": "LW"  } },
+        { "player": { "name": "Kylian Mbappé",       "number": 10, "pos": "ST"  } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Malo Gusto",           "number": 2,  "pos": "RB"  } },
+        { "player": { "name": "Lucas Hernandez",      "number": 21, "pos": "CB"  } },
+        { "player": { "name": "Théo Hernandez",      "number": 19, "pos": "LB"  } },
+        { "player": { "name": "Désiré Doué",         "number": 20, "pos": "LW"  } },
+        { "player": { "name": "Jean-Philippe Mateta", "number": 22, "pos": "ST"  } },
+        { "player": { "name": "Rayan Cherki",         "number": 24, "pos": "AM"  } }
+      ]
+    },
+    {
+      "team": { "name": "Sweden" },
+      "formation": "4-4-2",
+      "startXI": [
+        { "player": { "name": "Jacob Widell Zetterström", "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Daniel Svensson",           "number": 8,  "pos": "RB" } },
+        { "player": { "name": "Gustaf Lagerbielke",        "number": 2,  "pos": "CB" } },
+        { "player": { "name": "Victor Lindelöf",           "number": 3,  "pos": "CB" } },
+        { "player": { "name": "Gabriel Gudmundsson",       "number": 5,  "pos": "LB" } },
+        { "player": { "name": "Anthony Elanga",            "number": 11, "pos": "RM" } },
+        { "player": { "name": "Lucas Bergvall",            "number": 7,  "pos": "CM" } },
+        { "player": { "name": "Yasin Ayari",               "number": 18, "pos": "CM" } },
+        { "player": { "name": "Elliot Stroud",             "number": 24, "pos": "LM" } },
+        { "player": { "name": "Viktor Gyökeres",           "number": 17, "pos": "ST" } },
+        { "player": { "name": "Alexander Isak",            "number": 9,  "pos": "ST" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Taha Ali",         "number": 26, "pos": "CM" } },
+        { "player": { "name": "Besfort Zeneli",   "number": 22, "pos": "LW" } },
+        { "player": { "name": "Benjamin Nygren",  "number": 10, "pos": "ST" } },
+        { "player": { "name": "Mattias Svanberg", "number": 19, "pos": "CM" } },
+        { "player": { "name": "Gustaf Nilsson",   "number": 25, "pos": "ST" } }
+      ]
+    }
+  ]
+}

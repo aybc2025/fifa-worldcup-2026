@@ -1,0 +1,79 @@
+{
+  "stats": [
+    {
+      "team": "Mexico",
+      "statistics": [
+        { "type": "Possession",    "value": "56%" },
+        { "type": "Total Shots",   "value": 14 },
+        { "type": "Shots on Goal", "value": 7 },
+        { "type": "Corner Kicks",  "value": 7 },
+        { "type": "Fouls",         "value": 12 },
+        { "type": "Yellow Cards",  "value": 1 },
+        { "type": "Red Cards",     "value": 0 }
+      ]
+    },
+    {
+      "team": "Ecuador",
+      "statistics": [
+        { "type": "Possession",    "value": "44%" },
+        { "type": "Total Shots",   "value": 8 },
+        { "type": "Shots on Goal", "value": 2 },
+        { "type": "Corner Kicks",  "value": 3 },
+        { "type": "Fouls",         "value": 15 },
+        { "type": "Yellow Cards",  "value": 0 },
+        { "type": "Red Cards",     "value": 1 }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 22,  "team": "Mexico",   "player": "Julián Quiñones",   "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 31,  "team": "Mexico",   "player": "Raúl Jiménez",      "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 45,  "team": "Ecuador",  "player": "Piero Hincapié",    "type": "Card",  "detail": "Red Card" },
+    { "minute": 72,  "team": "Mexico",   "player": "Guillermo Martínez","type": "subst", "detail": "out: Hirving Lozano" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Mexico" },
+      "formation": "4-2-3-1",
+      "startXI": [
+        { "player": { "name": "Guillermo Ochoa",   "number": 1,  "pos": "GK"  } },
+        { "player": { "name": "Jesús Angulo",       "number": 2,  "pos": "RB"  } },
+        { "player": { "name": "Héctor Moreno",      "number": 3,  "pos": "CB"  } },
+        { "player": { "name": "Néstor Araujo",      "number": 4,  "pos": "CB"  } },
+        { "player": { "name": "Jorge Sánchez",      "number": 5,  "pos": "LB"  } },
+        { "player": { "name": "Edson Álvarez",      "number": 6,  "pos": "DM"  } },
+        { "player": { "name": "Roberto Alvarado",   "number": 8,  "pos": "DM"  } },
+        { "player": { "name": "Hirving Lozano",     "number": 7,  "pos": "RW"  } },
+        { "player": { "name": "Julián Quiñones",    "number": 21, "pos": "CAM" } },
+        { "player": { "name": "Santiago Giménez",   "number": 11, "pos": "LW"  } },
+        { "player": { "name": "Raúl Jiménez",       "number": 9,  "pos": "ST"  } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Alexis Vega",          "number": 10, "pos": "AM"  } },
+        { "player": { "name": "Guillermo Martínez",   "number": 17, "pos": "RW"  } },
+        { "player": { "name": "Henry Martín",         "number": 19, "pos": "ST"  } }
+      ]
+    },
+    {
+      "team": { "name": "Ecuador" },
+      "formation": "4-4-2",
+      "startXI": [
+        { "player": { "name": "Hernán Galíndez",    "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Ángelo Preciado",    "number": 4,  "pos": "RB" } },
+        { "player": { "name": "Félix Torres",        "number": 3,  "pos": "CB" } },
+        { "player": { "name": "Piero Hincapié",      "number": 2,  "pos": "CB" } },
+        { "player": { "name": "Pervis Estupiñán",   "number": 5,  "pos": "LB" } },
+        { "player": { "name": "Enner Valencia",      "number": 7,  "pos": "RM" } },
+        { "player": { "name": "José Cifuentes",      "number": 8,  "pos": "CM" } },
+        { "player": { "name": "Moisés Caicedo",      "number": 6,  "pos": "CM" } },
+        { "player": { "name": "John Yeboah",         "number": 11, "pos": "LM" } },
+        { "player": { "name": "Kendry Páez",         "number": 9,  "pos": "ST" } },
+        { "player": { "name": "Jhojan Montoya",      "number": 10, "pos": "ST" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Leonardo Campana", "number": 14, "pos": "ST" } },
+        { "player": { "name": "Jeremy Sarmiento", "number": 17, "pos": "LW" } }
+      ]
+    }
+  ]
+}
