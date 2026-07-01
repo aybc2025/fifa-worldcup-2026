@@ -1,0 +1,100 @@
+{
+  "fixture": {
+    "id": "wc2026-group-b-qatar-switzerland",
+    "date": "2026-06-13T18:00:00Z",
+    "venue": { "name": "Levi's Stadium", "city": "San Francisco Bay Area" },
+    "status": { "short": "FT", "long": "Match Finished" }
+  },
+  "league": { "round": "Group B" },
+  "teams": {
+    "home": { "name": "Qatar", "code": "QAT" },
+    "away": { "name": "Switzerland", "code": "SUI" }
+  },
+  "goals": { "home": 1, "away": 1 },
+  "score": {
+    "halftime": { "home": 0, "away": 1 },
+    "fulltime": { "home": 1, "away": 1 }
+  },
+  "stats": [
+    {
+      "team": "Qatar",
+      "statistics": [
+        { "type": "Possession", "value": "28%", "_confidence": "FIFA=28%, Sofascore=32%; FIFA used" },
+        { "type": "Shots on Goal", "value": 3 },
+        { "type": "Total Shots", "value": 6 },
+        { "type": "Corner Kicks", "value": 3 },
+        { "type": "Fouls", "value": 12 },
+        { "type": "Yellow Cards", "value": 2 },
+        { "type": "Red Cards", "value": 0 }
+      ]
+    },
+    {
+      "team": "Switzerland",
+      "statistics": [
+        { "type": "Possession", "value": "58%", "_confidence": "FIFA=58%, Sofascore=68%; FIFA used" },
+        { "type": "Shots on Goal", "value": 7 },
+        { "type": "Total Shots", "value": 26 },
+        { "type": "Corner Kicks", "value": 10 },
+        { "type": "Fouls", "value": 11 },
+        { "type": "Yellow Cards", "value": 1 },
+        { "type": "Red Cards", "value": 0 }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 17, "team": "Switzerland", "player": "Breel Embolo",   "type": "Goal",  "detail": "Penalty" },
+    { "minute": 60, "team": "Qatar",       "player": "Ahmed Fathi",    "type": "subst", "detail": "out: Abdullah Al-Ahbabi, in: Ahmed Fathi" },
+    { "minute": 60, "team": "Qatar",       "player": "Karim Boudiaf",  "type": "subst", "detail": "out: Jassem Abdulsallam, in: Karim Boudiaf" },
+    { "minute": 60, "team": "Qatar",       "player": "Ahmed Alaaeldin","type": "subst", "detail": "out: Yusuf Abdurisag, in: Ahmed Alaaeldin" },
+    { "minute": 79, "team": "Qatar",       "player": "Mohamed Naceur Almanai","type": "subst","detail": "out: Abdelkarim Madibo, in: Mohamed Naceur Almanai" },
+    { "minute": 88, "team": "Qatar",       "player": "Hassan Al Haydos","type":"subst", "detail": "out: El Junior, in: Hassan Al Haydos" },
+    { "minute": 94, "team": "Qatar",       "player": "Miro Muheim",    "type": "Goal",  "detail": "Own Goal (Switzerland)" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Qatar" },
+      "formation": "4-3-3",
+      "startXI": [
+        { "player": { "name": "Meshaal Abunada",    "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Abdullah Al-Ahbabi", "number": 13, "pos": "RB" } },
+        { "player": { "name": "Pedro Miguel",       "number": 2,  "pos": "CB" } },
+        { "player": { "name": "Bassam Khoukhi",     "number": 16, "pos": "CB" } },
+        { "player": { "name": "Homam Al-Amin",      "number": 14, "pos": "LB" } },
+        { "player": { "name": "Jassem Abdulsallam", "number": 5,  "pos": "DM" } },
+        { "player": { "name": "Abdelkarim Madibo",  "number": 23, "pos": "CM" } },
+        { "player": { "name": "Ismail Laye",        "number": 4,  "pos": "CM" } },
+        { "player": { "name": "El Junior",          "number": 8,  "pos": "RW" } },
+        { "player": { "name": "Yusuf Abdurisag",    "number": 15, "pos": "LW" } },
+        { "player": { "name": "Akram Afif",         "number": 11, "pos": "ST" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Ahmed Fathi",        "number": 20, "pos": "MF" } },
+        { "player": { "name": "Karim Boudiaf",      "number": 12, "pos": "MF" } },
+        { "player": { "name": "Ahmed Alaaeldin",    "number": 7,  "pos": "MF" } },
+        { "player": { "name": "Mohamed Naceur Almanai","number": 26,"pos": "MF" } },
+        { "player": { "name": "Hassan Al Haydos",   "number": 10, "pos": "FW" } },
+        { "player": { "name": "Almoez Ali",         "number": 19, "pos": "FW" } }
+      ]
+    },
+    {
+      "team": { "name": "Switzerland" },
+      "formation": "4-3-3",
+      "startXI": [
+        { "player": { "name": "Gregor Kobel",       "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Denis Zakaria",      "number": 6,  "pos": "RB" } },
+        { "player": { "name": "Nico Elvedi",        "number": 4,  "pos": "CB" } },
+        { "player": { "name": "Manuel Akanji",      "number": 5,  "pos": "CB" } },
+        { "player": { "name": "Ricardo Rodríguez",  "number": 13, "pos": "LB" } },
+        { "player": { "name": "Michel Aebischer",   "number": 20, "pos": "DM" } },
+        { "player": { "name": "Granit Xhaka",       "number": 10, "pos": "CM" } },
+        { "player": { "name": "Remo Freuler",       "number": 8,  "pos": "CM" } },
+        { "player": { "name": "Dan Ndoye",          "number": 11, "pos": "RW" } },
+        { "player": { "name": "Breel Embolo",       "number": 7,  "pos": "ST" } },
+        { "player": { "name": "Ruben Vargas",       "number": 17, "pos": "LW" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Miro Muheim",        "number": null, "pos": "LB" } }
+      ]
+    }
+  ]
+}

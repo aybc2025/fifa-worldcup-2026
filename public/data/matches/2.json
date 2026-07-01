@@ -1,0 +1,126 @@
+{
+  "fixture": {
+    "id": "wc2026-group-a-czechia-southafrica",
+    "date": "2026-06-18T13:00:00Z",
+    "venue": { "name": "Mercedes-Benz Stadium", "city": "Atlanta" },
+    "status": { "short": "FT", "long": "Match Finished" }
+  },
+  "league": { "round": "Group A" },
+  "teams": {
+    "home": { "name": "Czech Republic", "code": "CZE" },
+    "away": { "name": "South Africa", "code": "ZAF" }
+  },
+  "goals": { "home": 1, "away": 1 },
+  "score": {
+    "halftime": { "home": 1, "away": 0 },
+    "fulltime": { "home": 1, "away": 1 }
+  },
+  "stats": [
+    {
+      "team": "Czech Republic",
+      "statistics": [
+        { "type": "Possession", "value": "32%" },
+        { "type": "Shots on Goal", "value": "3" },
+        { "type": "Total Shots", "value": "14" },
+        { "type": "Corner Kicks", "value": "5" },
+        { "type": "Fouls", "value": "12" },
+        { "type": "Yellow Cards", "value": "1" },
+        { "type": "Red Cards", "value": "0" }
+      ]
+    },
+    {
+      "team": "South Africa",
+      "statistics": [
+        { "type": "Possession", "value": "60%" },
+        { "type": "Shots on Goal", "value": "4" },
+        { "type": "Total Shots", "value": "17" },
+        { "type": "Corner Kicks", "value": "5" },
+        { "type": "Fouls", "value": "10" },
+        { "type": "Yellow Cards", "value": "2" },
+        { "type": "Red Cards", "value": "0" }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 6,  "team": "Czech Republic", "player": "Michal SADILEK",      "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 33, "team": "South Africa",   "player": "Teboho MOKOENA",      "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 40, "team": "South Africa",   "player": "Thalente MBATHA",     "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 46, "team": "South Africa",   "player": "Relebohile MOFOKENG", "type": "subst", "detail": "out: Jayden ADAMS, in: Relebohile MOFOKENG" },
+    { "minute": 55, "team": "Czech Republic", "player": "Jaroslav ZELENY",     "type": "subst", "detail": "out: Alexandr SOJKA, in: Jaroslav ZELENY" },
+    { "minute": 55, "team": "Czech Republic", "player": "Pavel SULC",          "type": "subst", "detail": "out: Vladimir DARIDA, in: Pavel SULC" },
+    { "minute": 66, "team": "South Africa",   "player": "Evidence MAKGOPA",    "type": "subst", "detail": "out: Iqraam RAYNERS, in: Evidence MAKGOPA" },
+    { "minute": 67, "team": "Czech Republic", "player": "Tomas SOUCEK",        "type": "subst", "detail": "out: Michal SADILEK, in: Tomas SOUCEK" },
+    { "minute": 67, "team": "Czech Republic", "player": "Lukas PROVOD",        "type": "subst", "detail": "out: Adam HLOZEK, in: Lukas PROVOD" },
+    { "minute": 75, "team": "Czech Republic", "player": "Ladislav KREJCI",     "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 78, "team": "Czech Republic", "player": "David ZIMA",          "type": "subst", "detail": "out: Lukas CERV, in: David ZIMA" },
+    { "minute": 83, "team": "South Africa",   "player": "Teboho MOKOENA",      "type": "Goal",  "detail": "Penalty" },
+    { "minute": 84, "team": "South Africa",   "player": "Kamogelo SEBELEBELE", "type": "subst", "detail": "out: Thapelo MASEKO, in: Kamogelo SEBELEBELE" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Czech Republic" },
+      "formation": "3-5-2",
+      "startXI": [
+        { "player": { "name": "Matej KOVAR",     "number": 1,  "pos": "G" } },
+        { "player": { "name": "Tomas HOLES",     "number": 3,  "pos": "D" } },
+        { "player": { "name": "Robin HRANAC",    "number": 4,  "pos": "D" } },
+        { "player": { "name": "Ladislav KREJCI", "number": 7,  "pos": "D" } },
+        { "player": { "name": "Vladimir COUFAL", "number": 5,  "pos": "D" } },
+        { "player": { "name": "Vladimir DARIDA", "number": 8,  "pos": "M" } },
+        { "player": { "name": "Lukas CERV",      "number": 12, "pos": "M" } },
+        { "player": { "name": "Michal SADILEK",  "number": 18, "pos": "M" } },
+        { "player": { "name": "Alexandr SOJKA",  "number": 24, "pos": "M" } },
+        { "player": { "name": "Patrik SCHICK",   "number": 10, "pos": "F" } },
+        { "player": { "name": "Adam HLOZEK",     "number": 9,  "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Jindrich STANEK",  "number": 16, "pos": "G" } },
+        { "player": { "name": "Lukas HORNICEK",   "number": 23, "pos": "G" } },
+        { "player": { "name": "David ZIMA",       "number": 2,  "pos": "D" } },
+        { "player": { "name": "Stepan CHALOUPEK", "number": 6,  "pos": "D" } },
+        { "player": { "name": "David DOUDERA",    "number": 21, "pos": "D" } },
+        { "player": { "name": "Jaroslav ZELENY",  "number": 20, "pos": "M" } },
+        { "player": { "name": "Tomas SOUCEK",     "number": 22, "pos": "M" } },
+        { "player": { "name": "Pavel SULC",       "number": 15, "pos": "M" } },
+        { "player": { "name": "Lukas PROVOD",     "number": 17, "pos": "F" } },
+        { "player": { "name": "Hugo SOCHUREK",    "number": 25, "pos": "F" } },
+        { "player": { "name": "Jan KUCHTA",       "number": 11, "pos": "F" } },
+        { "player": { "name": "Mojmir CHYTIL",    "number": 13, "pos": "F" } },
+        { "player": { "name": "Tomas CHORY",      "number": 19, "pos": "F" } },
+        { "player": { "name": "Denis VISINSKY",   "number": 26, "pos": "M" } }
+      ]
+    },
+    {
+      "team": { "name": "South Africa" },
+      "formation": "4-3-3",
+      "startXI": [
+        { "player": { "name": "Ronwen WILLIAMS",   "number": 1,  "pos": "G" } },
+        { "player": { "name": "Aubrey MODIBA",     "number": 6,  "pos": "D" } },
+        { "player": { "name": "Mbekezeli MBOKAZI", "number": 14, "pos": "D" } },
+        { "player": { "name": "Khuliso MUDAU",     "number": 20, "pos": "D" } },
+        { "player": { "name": "Ime OKON",          "number": 21, "pos": "D" } },
+        { "player": { "name": "Teboho MOKOENA",    "number": 4,  "pos": "M" } },
+        { "player": { "name": "Thalente MBATHA",   "number": 5,  "pos": "M" } },
+        { "player": { "name": "Jayden ADAMS",      "number": 23, "pos": "M" } },
+        { "player": { "name": "Oswin APPOLLIS",    "number": 7,  "pos": "F" } },
+        { "player": { "name": "Thapelo MASEKO",    "number": 12, "pos": "F" } },
+        { "player": { "name": "Iqraam RAYNERS",    "number": 15, "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Sipho CHAINE",        "number": 16, "pos": "G" } },
+        { "player": { "name": "Ricardo GOSS",        "number": 22, "pos": "G" } },
+        { "player": { "name": "Thabang MATULUDI",    "number": 2,  "pos": "D" } },
+        { "player": { "name": "Khulumani NDAMANE",   "number": 3,  "pos": "D" } },
+        { "player": { "name": "Samukele KABINI",     "number": 18, "pos": "D" } },
+        { "player": { "name": "Nkosinathi SIBISI",   "number": 19, "pos": "D" } },
+        { "player": { "name": "Olwethu MAKHANYA",    "number": 24, "pos": "D" } },
+        { "player": { "name": "Bradley CROSS",       "number": 26, "pos": "D" } },
+        { "player": { "name": "Tshepang MOREMI",     "number": 8,  "pos": "M" } },
+        { "player": { "name": "Relebohile MOFOKENG", "number": 10, "pos": "F" } },
+        { "player": { "name": "Lyle FOSTER",         "number": 9,  "pos": "F" } },
+        { "player": { "name": "Evidence MAKGOPA",    "number": 17, "pos": "F" } },
+        { "player": { "name": "Kamogelo SEBELEBELE", "number": 25, "pos": "F" } }
+      ]
+    }
+  ]
+}

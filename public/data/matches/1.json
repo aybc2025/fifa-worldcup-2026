@@ -1,0 +1,108 @@
+{
+  "fixture": {
+    "id": "wc2026-group-a-korea-republic-czechia",
+    "date": "2026-06-11T23:00:00Z",
+    "venue": { "name": "Estadio Akron", "city": "Guadalajara" },
+    "status": { "short": "FT", "long": "Match Finished" }
+  },
+  "league": { "round": "Group A" },
+  "teams": {
+    "home": { "name": "Korea Republic", "code": "KOR" },
+    "away": { "name": "Czechia", "code": "CZE" }
+  },
+  "goals": { "home": 2, "away": 1 },
+  "score": {
+    "halftime": { "home": 0, "away": 0 },
+    "fulltime": { "home": 2, "away": 1 }
+  },
+  "stats": [
+    {
+      "team": "Korea Republic",
+      "statistics": [
+        { "type": "Possession", "value": "55%", "_confidence": "FIFA=55%, Sofascore=62%; FIFA used" },
+        { "type": "Shots on Goal", "value": 6 },
+        { "type": "Total Shots", "value": 15 },
+        { "type": "Corner Kicks", "value": 4 },
+        { "type": "Fouls", "value": 9 },
+        { "type": "Yellow Cards", "value": 1 },
+        { "type": "Red Cards", "value": 0 }
+      ]
+    },
+    {
+      "team": "Czechia",
+      "statistics": [
+        { "type": "Possession", "value": "34%", "_confidence": "FIFA=34%, Sofascore=38%; FIFA used" },
+        { "type": "Shots on Goal", "value": 4 },
+        { "type": "Total Shots", "value": 7 },
+        { "type": "Corner Kicks", "value": 5 },
+        { "type": "Fouls", "value": 16 },
+        { "type": "Yellow Cards", "value": 0 },
+        { "type": "Red Cards", "value": 0 }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 59, "team": "Czechia",        "player": "Ladislav Krejčí",  "type": "Goal",  "detail": "Header — assist: Vladimír Coufal" },
+    { "minute": 62, "team": "Korea Republic", "player": "Hwang Hee-chan",    "type": "subst", "detail": "out: Lee Jae-sung, in: Hwang Hee-chan" },
+    { "minute": 64, "team": "Czechia",        "player": "Tomáš Chorý",      "type": "subst", "detail": "out: Patrik Schick, in: Tomáš Chorý" },
+    { "minute": 64, "team": "Czechia",        "player": "Michal Sadílek",   "type": "subst", "detail": "out: Lukáš Provod, in: Michal Sadílek" },
+    { "minute": 64, "team": "Czechia",        "player": "Adam Hložek",      "type": "subst", "detail": "out: Pavel Šulc, in: Adam Hložek" },
+    { "minute": 67, "team": "Korea Republic", "player": "Hwang In-beom",    "type": "Goal",  "detail": "Normal Goal — assist: Lee Kang-in" },
+    { "minute": 69, "team": "Korea Republic", "player": "Oh Hyeon-gyu",     "type": "subst", "detail": "out: Son Heung-min, in: Oh Hyeon-gyu" },
+    { "minute": 69, "team": "Korea Republic", "player": "Eom Ji-sung",      "type": "subst", "detail": "out: Lee Tae-seok, in: Eom Ji-sung" },
+    { "minute": 80, "team": "Korea Republic", "player": "Oh Hyeon-gyu",     "type": "Goal",  "detail": "Normal Goal — assist: Hwang In-beom" },
+    { "minute": 84, "team": "Czechia",        "player": "Mojmír Chytil",    "type": "subst", "detail": "out: Alexandr Sojka, in: Mojmír Chytil" },
+    { "minute": 84, "team": "Korea Republic", "player": "Jin-seob Park",    "type": "subst", "detail": "out: Seung-ho Paik, in: Jin-seob Park" },
+    { "minute": 84, "team": "Korea Republic", "player": "Jin-gyu Kim",      "type": "subst", "detail": "out: Hwang In-beom, in: Jin-gyu Kim" },
+    { "minute": 96, "team": "Korea Republic", "player": "Lee Gi-hyuk",      "type": "Card",  "detail": "Yellow Card" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Korea Republic" },
+      "formation": "3-4-2-1",
+      "startXI": [
+        { "player": { "name": "Kim Seung-gyu",  "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Lee Hanbeom",    "number": 2,  "pos": "CB" } },
+        { "player": { "name": "Kim Min-jae",    "number": 4,  "pos": "CB" } },
+        { "player": { "name": "Lee Gi-hyuk",    "number": 3,  "pos": "CB" } },
+        { "player": { "name": "Seol Young-woo", "number": 22, "pos": "RWB" } },
+        { "player": { "name": "Hwang In-beom",  "number": 6,  "pos": "CM" } },
+        { "player": { "name": "Seung-ho Paik",  "number": 8,  "pos": "CM" } },
+        { "player": { "name": "Lee Tae-seok",   "number": 13, "pos": "LWB" } },
+        { "player": { "name": "Lee Kang-in",    "number": 19, "pos": "AM" } },
+        { "player": { "name": "Lee Jae-sung",   "number": 10, "pos": "AM" } },
+        { "player": { "name": "Son Heung-min",  "number": 7,  "pos": "ST" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Jin-seob Park",  "number": 16, "pos": "MF" } },
+        { "player": { "name": "Hwang Hee-chan", "number": 11, "pos": "FW" } },
+        { "player": { "name": "Oh Hyeon-gyu",  "number": 18, "pos": "ST" } },
+        { "player": { "name": "Jin-gyu Kim",   "number": 24, "pos": "MF" } },
+        { "player": { "name": "Eom Ji-sung",   "number": 25, "pos": "DF" } }
+      ]
+    },
+    {
+      "team": { "name": "Czechia" },
+      "formation": "3-4-2-1",
+      "startXI": [
+        { "player": { "name": "Matej Kovář",      "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Stepan Chaloupek", "number": 6,  "pos": "CB" } },
+        { "player": { "name": "Robin Hranáč",     "number": 4,  "pos": "CB" } },
+        { "player": { "name": "Ladislav Krejčí",  "number": 7,  "pos": "CB" } },
+        { "player": { "name": "Vladimír Coufal",  "number": 5,  "pos": "RWB" } },
+        { "player": { "name": "Tomáš Souček",     "number": 22, "pos": "CM" } },
+        { "player": { "name": "Alexandr Sojka",   "number": 24, "pos": "CM" } },
+        { "player": { "name": "Jaroslav Zelený",  "number": 20, "pos": "LWB" } },
+        { "player": { "name": "Lukáš Provod",     "number": 17, "pos": "AM" } },
+        { "player": { "name": "Pavel Šulc",       "number": 15, "pos": "AM" } },
+        { "player": { "name": "Patrik Schick",    "number": 10, "pos": "ST" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Michal Sadílek",   "number": null, "pos": "MF" } },
+        { "player": { "name": "Adam Hložek",      "number": null, "pos": "FW" } },
+        { "player": { "name": "Tomáš Chorý",      "number": null, "pos": "FW" } },
+        { "player": { "name": "Mojmír Chytil",    "number": null, "pos": "FW" } }
+      ]
+    }
+  ]
+}

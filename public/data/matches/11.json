@@ -1,0 +1,129 @@
+{
+  "fixture": {
+    "id": "wc2026-group-b-bosnia-and-herzegovina-qatar",
+    "date": "2026-06-24T19:00:00Z",
+    "venue": { "name": "Seattle Stadium", "city": "Seattle" },
+    "status": { "short": "FT", "long": "Match Finished" }
+  },
+  "league": { "round": "Group B" },
+  "teams": {
+    "home": { "name": "Bosnia and Herzegovina", "code": "BIH" },
+    "away": { "name": "Qatar",                  "code": "QAT" }
+  },
+  "goals": { "home": 3, "away": 1 },
+  "score": {
+    "halftime": { "home": 2, "away": 1 },
+    "fulltime":  { "home": 3, "away": 1 }
+  },
+  "stats": [
+    {
+      "team": "Bosnia and Herzegovina",
+      "statistics": [
+        { "type": "Possession",    "value": "54%" },
+        { "type": "Shots on Goal", "value": "5" },
+        { "type": "Total Shots",   "value": "14" },
+        { "type": "Corner Kicks",  "value": "5" },
+        { "type": "Fouls",         "value": "9" },
+        { "type": "Yellow Cards",  "value": "1" },
+        { "type": "Red Cards",     "value": "0" }
+      ]
+    },
+    {
+      "team": "Qatar",
+      "statistics": [
+        { "type": "Possession",    "value": "46%" },
+        { "type": "Shots on Goal", "value": "3" },
+        { "type": "Total Shots",   "value": "9" },
+        { "type": "Corner Kicks",  "value": "5" },
+        { "type": "Fouls",         "value": "14" },
+        { "type": "Yellow Cards",  "value": "1" },
+        { "type": "Red Cards",     "value": "0" }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 29, "team": "Bosnia and Herzegovina", "player": "Kerim Alajbegovic",  "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 34, "team": "Qatar",                  "player": "Mahmoud Abunada",    "type": "Goal",  "detail": "Own Goal" },
+    { "minute": 42, "team": "Qatar",                  "player": "Hassan Alhaydos",    "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 46, "team": "Bosnia and Herzegovina", "player": "Benjamin Tahirovic", "type": "subst", "detail": "out: Ivan Sunjic, in: Benjamin Tahirovic" },
+    { "minute": 46, "team": "Bosnia and Herzegovina", "player": "Amar Memic",         "type": "subst", "detail": "out: Arjan Malic, in: Amar Memic" },
+    { "minute": 46, "team": "Qatar",                  "player": "Abdulaziz Hatem",    "type": "subst", "detail": "out: Jassem Gaber, in: Abdulaziz Hatem" },
+    { "minute": 55, "team": "Qatar",                  "player": "Ahmed Alganehi",     "type": "subst", "detail": "out: Hassan Alhaydos, in: Ahmed Alganehi" },
+    { "minute": 63, "team": "Bosnia and Herzegovina", "player": "Dennis Hadzikadunic","type": "subst", "detail": "out: Nikola Katic, in: Dennis Hadzikadunic" },
+    { "minute": 63, "team": "Bosnia and Herzegovina", "player": "Ermin Mahmic",       "type": "subst", "detail": "out: Edin Dzeko, in: Ermin Mahmic" },
+    { "minute": 72, "team": "Qatar",                  "player": "Almoez Ali",         "type": "subst", "detail": "out: Karim Boudiaf, in: Almoez Ali" },
+    { "minute": 78, "team": "Qatar",                  "player": "Ahmed Fathy",        "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 79, "team": "Qatar",                  "player": "Ahmed Alaaeldin",    "type": "subst", "detail": "out: Edmilson Junior, in: Ahmed Alaaeldin" },
+    { "minute": 79, "team": "Qatar",                  "player": "Mohamed Manai",      "type": "subst", "detail": "out: Ahmed Fathy, in: Mohamed Manai" },
+    { "minute": 80, "team": "Bosnia and Herzegovina", "player": "Ermin Mahmic",       "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 82, "team": "Bosnia and Herzegovina", "player": "Dzenis Burnic",      "type": "subst", "detail": "out: Kerim Alajbegovic, in: Dzenis Burnic" },
+    { "minute": 82, "team": "Bosnia and Herzegovina", "player": "Kerim Alajbegovic",  "type": "Card",  "detail": "Yellow Card" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Bosnia and Herzegovina" },
+      "formation": "4-4-2",
+      "startXI": [
+        { "player": { "name": "Nikola Vasilj",        "number": 1,  "pos": "G" } },
+        { "player": { "name": "Arjan Malic",           "number": 24, "pos": "D" } },
+        { "player": { "name": "Nikola Katic",          "number": 18, "pos": "D" } },
+        { "player": { "name": "Stjepan Radeljic",      "number": 21, "pos": "D" } },
+        { "player": { "name": "Sead Kolasinac",        "number": 5,  "pos": "D" } },
+        { "player": { "name": "Esmir Bajraktarevic",   "number": 20, "pos": "M" } },
+        { "player": { "name": "Ivan Basic",            "number": 13, "pos": "M" } },
+        { "player": { "name": "Ivan Sunjic",           "number": 14, "pos": "M" } },
+        { "player": { "name": "Kerim Alajbegovic",     "number": 19, "pos": "F" } },
+        { "player": { "name": "Ermedin Demirovic",     "number": 10, "pos": "F" } },
+        { "player": { "name": "Edin Dzeko",            "number": 11, "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Benjamin Tahirovic",   "number": 6,  "pos": "M" } },
+        { "player": { "name": "Amar Memic",           "number": 15, "pos": "D" } },
+        { "player": { "name": "Dennis Hadzikadunic",  "number": 3,  "pos": "D" } },
+        { "player": { "name": "Ermin Mahmic",         "number": 26, "pos": "F" } },
+        { "player": { "name": "Dzenis Burnic",        "number": 17, "pos": "M" } },
+        { "player": { "name": "Mladen Jurkas",        "number": 12, "pos": "G" } },
+        { "player": { "name": "Martin Zlomislic",     "number": 22, "pos": "F" } },
+        { "player": { "name": "Nihad Mujakovic",      "number": 2,  "pos": "D" } },
+        { "player": { "name": "Amar Dedic",           "number": 7,  "pos": "D" } },
+        { "player": { "name": "Armin Gigovic",        "number": 8,  "pos": "M" } },
+        { "player": { "name": "Amir Hadziahmetovic",  "number": 16, "pos": "M" } },
+        { "player": { "name": "Samed Bazdar",         "number": 9,  "pos": "F" } },
+        { "player": { "name": "Haris Tabakovic",      "number": 23, "pos": "F" } },
+        { "player": { "name": "Jovo Lukic",           "number": 25, "pos": "D" } }
+      ]
+    },
+    {
+      "team": { "name": "Qatar" },
+      "formation": "4-1-2-3",
+      "startXI": [
+        { "player": { "name": "Mahmoud Abunada",   "number": 1,  "pos": "G" } },
+        { "player": { "name": "Pedro Miguel",      "number": 2,  "pos": "D" } },
+        { "player": { "name": "Issa Laye",         "number": 4,  "pos": "D" } },
+        { "player": { "name": "Jassem Gaber",      "number": 5,  "pos": "D" } },
+        { "player": { "name": "Boualem Khoukhi",   "number": 16, "pos": "D" } },
+        { "player": { "name": "Sultan Albrake",    "number": 18, "pos": "M" } },
+        { "player": { "name": "Karim Boudiaf",     "number": 12, "pos": "M" } },
+        { "player": { "name": "Ahmed Fathy",       "number": 20, "pos": "M" } },
+        { "player": { "name": "Edmilson Junior",   "number": 8,  "pos": "F" } },
+        { "player": { "name": "Hassan Alhaydos",   "number": 10, "pos": "F" } },
+        { "player": { "name": "Akram Afif",        "number": 11, "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Abdulaziz Hatem",   "number": 6,  "pos": "M" } },
+        { "player": { "name": "Ahmed Alganehi",    "number": 17, "pos": "F" } },
+        { "player": { "name": "Almoez Ali",        "number": 19, "pos": "F" } },
+        { "player": { "name": "Mohamed Manai",     "number": 26, "pos": "M" } },
+        { "player": { "name": "Ahmed Alaaeldin",   "number": 7,  "pos": "F" } },
+        { "player": { "name": "Meshaal Barsham",   "number": 22, "pos": "G" } },
+        { "player": { "name": "Salah Zakaria",     "number": 21, "pos": "M" } },
+        { "player": { "name": "Lucas Mendes",      "number": 3,  "pos": "D" } },
+        { "player": { "name": "Ayoub Aloui",       "number": 13, "pos": "D" } },
+        { "player": { "name": "Alhashmi Alhussein","number": 25, "pos": "D" } },
+        { "player": { "name": "Mohammed Muntari",  "number": 9,  "pos": "F" } },
+        { "player": { "name": "Yusuf Abdurisag",   "number": 15, "pos": "M" } },
+        { "player": { "name": "Tahsin Mohammed",   "number": 24, "pos": "D" } }
+      ]
+    }
+  ]
+}

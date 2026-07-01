@@ -1,0 +1,96 @@
+{
+  "fixture": {
+    "id": "wc2026-group-c-haiti-scotland",
+    "date": "2026-06-13T23:00:00Z",
+    "venue": { "name": "Gillette Stadium", "city": "Boston" },
+    "status": { "short": "FT", "long": "Match Finished" }
+  },
+  "league": { "round": "Group C" },
+  "teams": {
+    "home": { "name": "Haiti", "code": "HAI" },
+    "away": { "name": "Scotland", "code": "SCO" }
+  },
+  "goals": { "home": 0, "away": 1 },
+  "score": {
+    "halftime": { "home": 0, "away": 1 },
+    "fulltime": { "home": 0, "away": 1 }
+  },
+  "stats": [
+    {
+      "team": "Haiti",
+      "statistics": [
+        { "type": "Possession", "value": "51%", "_confidence": "FIFA=51%, Sofascore=54%; FIFA used" },
+        { "type": "Shots on Goal", "value": 2 },
+        { "type": "Total Shots", "value": 15 },
+        { "type": "Corner Kicks", "value": 4 },
+        { "type": "Fouls", "value": 23 },
+        { "type": "Yellow Cards", "value": 1 },
+        { "type": "Red Cards", "value": 0 }
+      ]
+    },
+    {
+      "team": "Scotland",
+      "statistics": [
+        { "type": "Possession", "value": "40%", "_confidence": "FIFA=40%, Sofascore=46%; FIFA used" },
+        { "type": "Shots on Goal", "value": 2 },
+        { "type": "Total Shots", "value": 9 },
+        { "type": "Corner Kicks", "value": 3 },
+        { "type": "Fouls", "value": 21 },
+        { "type": "Yellow Cards", "value": 3 },
+        { "type": "Red Cards", "value": 0 }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 28, "team": "Scotland", "player": "John McGinn",           "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 61, "team": "Haiti",    "player": "Josué Casimir",         "type": "subst", "detail": "out: Lenny Dossou Deedson, in: Josué Casimir" },
+    { "minute": 76, "team": "Haiti",    "player": "Lenny Joseph",          "type": "subst", "detail": "out: Woodensky Isidor, in: Lenny Joseph" },
+    { "minute": 85, "team": "Haiti",    "player": "Yassin Fortune",        "type": "subst", "detail": "out: Richardson Providence, in: Yassin Fortune" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Haiti" },
+      "formation": "4-4-2",
+      "startXI": [
+        { "player": { "name": "Jimmy Placide",          "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Carlo Arcus",            "number": 2,  "pos": "RB" } },
+        { "player": { "name": "Réginald Adé",           "number": 4,  "pos": "CB" } },
+        { "player": { "name": "Hannes Delcroix",        "number": 5,  "pos": "CB" } },
+        { "player": { "name": "Martin Expérience",      "number": 8,  "pos": "LB" } },
+        { "player": { "name": "Lenny Dossou Deedson",   "number": 11, "pos": "RM" } },
+        { "player": { "name": "Duckens Jean Jacques",   "number": 17, "pos": "CM" } },
+        { "player": { "name": "Jean-Ricner Bellegarde", "number": 10, "pos": "CM" } },
+        { "player": { "name": "Richardson Providence",  "number": 15, "pos": "LM" } },
+        { "player": { "name": "Frantz Pierrot",         "number": 20, "pos": "ST" } },
+        { "player": { "name": "Woodensky Isidor",       "number": 18, "pos": "ST" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Josué Casimir",  "number": 21, "pos": "MF" } },
+        { "player": { "name": "Lenny Joseph",   "number": 16, "pos": "FW" } },
+        { "player": { "name": "Yassin Fortune", "number": 19, "pos": "FW" } }
+      ]
+    },
+    {
+      "team": { "name": "Scotland" },
+      "formation": "4-4-2",
+      "startXI": [
+        { "player": { "name": "Angus Gunn",       "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Aaron Hickey",     "number": 2,  "pos": "RB" } },
+        { "player": { "name": "Grant Hanley",     "number": 5,  "pos": "CB" } },
+        { "player": { "name": "Jack Hendry",      "number": 13, "pos": "CB" } },
+        { "player": { "name": "Andy Robertson",   "number": 3,  "pos": "LB" } },
+        { "player": { "name": "Ben Doak",         "number": 17, "pos": "RM" } },
+        { "player": { "name": "Scott McTominay",  "number": 4,  "pos": "CM" } },
+        { "player": { "name": "Lewis Ferguson",   "number": 19, "pos": "CM" } },
+        { "player": { "name": "John McGinn",      "number": 7,  "pos": "LM" } },
+        { "player": { "name": "Lawrence Shankland","number": 20, "pos": "ST" } },
+        { "player": { "name": "Che Adams",        "number": 10, "pos": "ST" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Craig Gordon",     "number": 12, "pos": "GK" } },
+        { "player": { "name": "Kieran Tierney",   "number": 15, "pos": "LB" } },
+        { "player": { "name": "Callum McGregor",  "number": 8,  "pos": "CM" } }
+      ]
+    }
+  ]
+}

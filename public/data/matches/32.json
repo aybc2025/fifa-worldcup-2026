@@ -1,0 +1,132 @@
+{
+  "fixture": {
+    "id": "wc2026-group-f-ned-swe",
+    "date": "2026-06-20T15:00:00Z",
+    "venue": { "name": "NRG Stadium", "city": "Houston" },
+    "status": { "short": "FT", "long": "Match Finished" }
+  },
+  "league": { "round": "Group F" },
+  "teams": {
+    "home": { "name": "Netherlands", "code": "NED" },
+    "away": { "name": "Sweden",      "code": "SWE" }
+  },
+  "goals": { "home": 5, "away": 1 },
+  "score": {
+    "halftime": { "home": 2, "away": 0 },
+    "fulltime": { "home": 5, "away": 1 }
+  },
+  "stats": [
+    {
+      "team": "Netherlands",
+      "statistics": [
+        { "type": "Possession",    "value": "48%" },
+        { "type": "Shots on Goal", "value": "7" },
+        { "type": "Total Shots",   "value": "10" },
+        { "type": "Corner Kicks",  "value": "2" },
+        { "type": "Fouls",         "value": "9" },
+        { "type": "Yellow Cards",  "value": "0" },
+        { "type": "Red Cards",     "value": "0" }
+      ]
+    },
+    {
+      "team": "Sweden",
+      "statistics": [
+        { "type": "Possession",    "value": "43%" },
+        { "type": "Shots on Goal", "value": "8" },
+        { "type": "Total Shots",   "value": "16" },
+        { "type": "Corner Kicks",  "value": "5" },
+        { "type": "Fouls",         "value": "12" },
+        { "type": "Yellow Cards",  "value": "3" },
+        { "type": "Red Cards",     "value": "0" }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 5,  "team": "Netherlands", "player": "Brian Brobbey",          "type": "Goal",  "detail": "1-0; assist: Cody Gakpo" },
+    { "minute": 17, "team": "Netherlands", "player": "Brian Brobbey",          "type": "Goal",  "detail": "2-0; assist: Denzel Dumfries" },
+    { "minute": 46, "team": "Netherlands", "player": "Crysencio Summerville",  "type": "subst", "detail": "out: Donyell Malen, in: Crysencio Summerville" },
+    { "minute": 47, "team": "Netherlands", "player": "Cody Gakpo",             "type": "Goal",  "detail": "3-0; assist: Crysencio Summerville" },
+    { "minute": 54, "team": "Netherlands", "player": "Cody Gakpo",             "type": "Goal",  "detail": "4-0; assist: Crysencio Summerville" },
+    { "minute": 55, "team": "Sweden",      "player": "Benjamin Nygren",        "type": "subst", "detail": "out: Lucas Bergvall, in: Benjamin Nygren" },
+    { "minute": 55, "team": "Sweden",      "player": "Jesper Karlström",       "type": "subst", "detail": "out: Besfort Zeneli, in: Jesper Karlström" },
+    { "minute": 55, "team": "Sweden",      "player": "Alexander Bernhardsson", "type": "subst", "detail": "out: Anthony Elanga, in: Alexander Bernhardsson" },
+    { "minute": 59, "team": "Sweden",      "player": "Anthony Elanga",         "type": "Goal",  "detail": "4-1; assist: Alexander Isak" },
+    { "minute": 59, "team": "Netherlands", "player": "Tijjani Reijnders",      "type": "subst", "detail": "out: Guus Til, in: Tijjani Reijnders" },
+    { "minute": 59, "team": "Netherlands", "player": "Frenkie de Jong",        "type": "subst", "detail": "out: Teun Koopmeiners, in: Frenkie de Jong" },
+    { "minute": 72, "team": "Netherlands", "player": "Memphis Depay",          "type": "subst", "detail": "out: Brian Brobbey, in: Memphis Depay" },
+    { "minute": 79, "team": "Sweden",      "player": "Taha Ali",               "type": "subst", "detail": "out: Yasin Ayari, in: Taha Ali" },
+    { "minute": 80, "team": "Sweden",      "player": "Lucas Bergvall",         "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 89, "team": "Netherlands", "player": "Crysencio Summerville",  "type": "Goal",  "detail": "5-1; assist: Memphis Depay" },
+    { "minute": 90, "team": "Netherlands", "player": "Noa Lang",               "type": "subst", "detail": "out: Cody Gakpo, in: Noa Lang" },
+    { "minute": 93, "team": "Sweden",      "player": "Elliot Stroud",          "type": "subst", "detail": "out: Gabriel Gudmundsson, in: Elliot Stroud" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Netherlands" },
+      "formation": "4-3-3",
+      "startXI": [
+        { "player": { "name": "Bart Verbruggen",    "number": 1,  "pos": "G" } },
+        { "player": { "name": "Virgil van Dijk",    "number": 4,  "pos": "D" } },
+        { "player": { "name": "Jan Paul van Hecke", "number": 6,  "pos": "D" } },
+        { "player": { "name": "Micky van de Ven",   "number": 15, "pos": "D" } },
+        { "player": { "name": "Denzel Dumfries",    "number": 22, "pos": "D" } },
+        { "player": { "name": "Ryan Gravenberch",   "number": 8,  "pos": "M" } },
+        { "player": { "name": "Guus Til",           "number": 16, "pos": "M" } },
+        { "player": { "name": "Teun Koopmeiners",   "number": 20, "pos": "M" } },
+        { "player": { "name": "Cody Gakpo",         "number": 11, "pos": "F" } },
+        { "player": { "name": "Donyell Malen",      "number": 18, "pos": "F" } },
+        { "player": { "name": "Brian Brobbey",      "number": 19, "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Robin Roefs",          "number": 13, "pos": "G" } },
+        { "player": { "name": "Mark Flekken",         "number": 23, "pos": "G" } },
+        { "player": { "name": "Lutsharel Geertruida", "number": 2,  "pos": "D" } },
+        { "player": { "name": "Nathan Aké",           "number": 5,  "pos": "D" } },
+        { "player": { "name": "Mats Wieffer",         "number": 12, "pos": "D" } },
+        { "player": { "name": "Jorrel Hato",          "number": 25, "pos": "D" } },
+        { "player": { "name": "Marten de Roon",       "number": 3,  "pos": "M" } },
+        { "player": { "name": "Justin Kluivert",      "number": 7,  "pos": "M" } },
+        { "player": { "name": "Tijjani Reijnders",    "number": 14, "pos": "M" } },
+        { "player": { "name": "Frenkie de Jong",      "number": 21, "pos": "M" } },
+        { "player": { "name": "Wout Weghorst",        "number": 9,  "pos": "F" } },
+        { "player": { "name": "Memphis Depay",        "number": 10, "pos": "F" } },
+        { "player": { "name": "Noa Lang",             "number": 17, "pos": "F" } },
+        { "player": { "name": "Crysencio Summerville","number": 24, "pos": "F" } }
+      ]
+    },
+    {
+      "team": { "name": "Sweden" },
+      "formation": "3-5-2",
+      "startXI": [
+        { "player": { "name": "Kristoffer Nordfeldt", "number": 23, "pos": "G" } },
+        { "player": { "name": "Gustaf Lagerbielke",   "number": 2,  "pos": "D" } },
+        { "player": { "name": "Victor Lindelöf",      "number": 3,  "pos": "D" } },
+        { "player": { "name": "Isak Hien",            "number": 4,  "pos": "D" } },
+        { "player": { "name": "Gabriel Gudmundsson",  "number": 5,  "pos": "D" } },
+        { "player": { "name": "Lucas Bergvall",       "number": 7,  "pos": "M" } },
+        { "player": { "name": "Besfort Zeneli",       "number": 22, "pos": "M" } },
+        { "player": { "name": "Yasin Ayari",          "number": 18, "pos": "M" } },
+        { "player": { "name": "Alexander Isak",       "number": 9,  "pos": "F" } },
+        { "player": { "name": "Viktor Gyökeres",      "number": 17, "pos": "F" } },
+        { "player": { "name": "Anthony Elanga",       "number": 11, "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Jacob Widell Zetterström","number": 1,  "pos": "G" } },
+        { "player": { "name": "Viktor Johansson",      "number": 12, "pos": "G" } },
+        { "player": { "name": "Herman Johansson",      "number": 6,  "pos": "D" } },
+        { "player": { "name": "Daniel Svensson",       "number": 8,  "pos": "D" } },
+        { "player": { "name": "Hjalmar Ekdal",         "number": 14, "pos": "D" } },
+        { "player": { "name": "Carl Starfelt",         "number": 15, "pos": "D" } },
+        { "player": { "name": "Jesper Karlström",      "number": 16, "pos": "M" } },
+        { "player": { "name": "Eric Smith",            "number": 20, "pos": "M" } },
+        { "player": { "name": "Alexander Bernhardsson","number": 21, "pos": "M" } },
+        { "player": { "name": "Benjamin Nygren",       "number": 10, "pos": "M" } },
+        { "player": { "name": "Elliot Stroud",         "number": 24, "pos": "M" } },
+        { "player": { "name": "Ken Sema",              "number": 13, "pos": "F" } },
+        { "player": { "name": "Mattias Svanberg",      "number": 19, "pos": "F" } },
+        { "player": { "name": "Taha Ali",              "number": 26, "pos": "F" } },
+        { "player": { "name": "Gustaf Nilsson",        "number": 25, "pos": "F" } }
+      ]
+    }
+  ]
+}

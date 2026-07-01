@@ -1,0 +1,99 @@
+{
+  "fixture": {
+    "id": "wc2026-group-i-france-senegal",
+    "date": "2026-06-16T20:00:00Z",
+    "venue": { "name": "Estadio Azteca", "city": "Mexico City" },
+    "status": { "short": "FT", "long": "Match Finished" }
+  },
+  "league": { "round": "Group I" },
+  "teams": {
+    "home": { "name": "France", "code": "FRA" },
+    "away": { "name": "Senegal", "code": "SEN" }
+  },
+  "goals": { "home": 3, "away": 1 },
+  "score": {
+    "halftime": { "home": 0, "away": 0 },
+    "fulltime": { "home": 3, "away": 1 }
+  },
+  "stats": [
+    {
+      "team": "France",
+      "statistics": [
+        { "type": "Possession", "value": "49%" },
+        { "type": "Shots on Goal", "value": 8 },
+        { "type": "Total Shots", "value": 11 },
+        { "type": "Corner Kicks", "value": 6 },
+        { "type": "Fouls", "value": 5 },
+        { "type": "Yellow Cards", "value": 0 },
+        { "type": "Red Cards", "value": 0 }
+      ]
+    },
+    {
+      "team": "Senegal",
+      "statistics": [
+        { "type": "Possession", "value": "44%" },
+        { "type": "Shots on Goal", "value": 2 },
+        { "type": "Total Shots", "value": 6 },
+        { "type": "Corner Kicks", "value": 4 },
+        { "type": "Fouls", "value": 9 },
+        { "type": "Yellow Cards", "value": 0 },
+        { "type": "Red Cards", "value": 0 }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 66, "team": "France",  "player": "Kylian Mbappé",  "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 80, "team": "France",  "player": "Bradley Barcola","type": "subst", "detail": "out: Ousmane Dembélé, in: Bradley Barcola" },
+    { "minute": 82, "team": "France",  "player": "Bradley Barcola","type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 87, "team": "France",  "player": "Marcus Thuram",  "type": "subst", "detail": "out: Mathys Tel, in: Marcus Thuram" },
+    { "minute": 95, "team": "Senegal", "player": "Bamba Mbaye",    "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 96, "team": "France",  "player": "Kylian Mbappé",  "type": "Goal",  "detail": "Normal Goal" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "France" },
+      "formation": "4-2-3-1",
+      "startXI": [
+        { "player": { "name": "Mike Maignan",        "number": 16, "pos": "GK" } },
+        { "player": { "name": "Jules Koundé",        "number": 5,  "pos": "RB" } },
+        { "player": { "name": "Dayot Upamecano",     "number": 4,  "pos": "CB" } },
+        { "player": { "name": "William Saliba",      "number": 17, "pos": "CB" } },
+        { "player": { "name": "Theo Hernández",      "number": 19, "pos": "LB" } },
+        { "player": { "name": "Aurélien Tchouaméni", "number": 8,  "pos": "DM" } },
+        { "player": { "name": "Adrien Rabiot",       "number": 14, "pos": "DM" } },
+        { "player": { "name": "Michael Olise",       "number": 11, "pos": "RM" } },
+        { "player": { "name": "Ousmane Dembélé",     "number": 7,  "pos": "AM" } },
+        { "player": { "name": "Mathys Tel",          "number": 20, "pos": "LM" } },
+        { "player": { "name": "Kylian Mbappé",       "number": 10, "pos": "ST" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Alphonse Areola",     "number": 23, "pos": "GK" } },
+        { "player": { "name": "Eduardo Camavinga",   "number": 6,  "pos": "MF" } },
+        { "player": { "name": "Bradley Barcola",     "number": 9,  "pos": "FW" } },
+        { "player": { "name": "Marcus Thuram",       "number": 3,  "pos": "FW" } }
+      ]
+    },
+    {
+      "team": { "name": "Senegal" },
+      "formation": "4-2-3-1",
+      "startXI": [
+        { "player": { "name": "Édouard Mendy",    "number": 16, "pos": "GK" } },
+        { "player": { "name": "Krepin Diatta",    "number": 15, "pos": "RB" } },
+        { "player": { "name": "Kalidou Koulibaly","number": 3,  "pos": "CB" } },
+        { "player": { "name": "Abdou Diallo",     "number": 19, "pos": "CB" } },
+        { "player": { "name": "Formose Mendy",    "number": 25, "pos": "LB" } },
+        { "player": { "name": "Idrissa Gueye",    "number": 5,  "pos": "DM" } },
+        { "player": { "name": "Pape Matar Sarr",  "number": 26, "pos": "DM" } },
+        { "player": { "name": "Ismaïla Sarr",     "number": 18, "pos": "RM" } },
+        { "player": { "name": "Lamine Camara",    "number": 8,  "pos": "AM" } },
+        { "player": { "name": "Sadio Mané",       "number": 10, "pos": "LW" } },
+        { "player": { "name": "Nicolas Jackson",  "number": 11, "pos": "ST" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Alfred Gomis",     "number": 23, "pos": "GK" } },
+        { "player": { "name": "Bamba Dieng",      "number": 9,  "pos": "FW" } },
+        { "player": { "name": "Bamba Mbaye",      "number": 7,  "pos": "FW" } }
+      ]
+    }
+  ]
+}

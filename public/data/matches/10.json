@@ -1,0 +1,129 @@
+{
+  "fixture": {
+    "id": "wc2026-group-b-switzerland-canada",
+    "date": "2026-06-24T19:00:00Z",
+    "venue": { "name": "BC Place Vancouver", "city": "Vancouver" },
+    "status": { "short": "FT", "long": "Match Finished" }
+  },
+  "league": { "round": "Group B" },
+  "teams": {
+    "home": { "name": "Switzerland", "code": "SUI" },
+    "away": { "name": "Canada",      "code": "CAN" }
+  },
+  "goals": { "home": 2, "away": 1 },
+  "score": {
+    "halftime": { "home": 0, "away": 0 },
+    "fulltime":  { "home": 2, "away": 1 }
+  },
+  "stats": [
+    {
+      "team": "Switzerland",
+      "statistics": [
+        { "type": "Possession",    "value": "55%" },
+        { "type": "Shots on Goal", "value": "4" },
+        { "type": "Total Shots",   "value": "6" },
+        { "type": "Corner Kicks",  "value": "2" },
+        { "type": "Fouls",         "value": "19" },
+        { "type": "Yellow Cards",  "value": "1" },
+        { "type": "Red Cards",     "value": "0" }
+      ]
+    },
+    {
+      "team": "Canada",
+      "statistics": [
+        { "type": "Possession",    "value": "45%" },
+        { "type": "Shots on Goal", "value": "7" },
+        { "type": "Total Shots",   "value": "13" },
+        { "type": "Corner Kicks",  "value": "7" },
+        { "type": "Fouls",         "value": "13" },
+        { "type": "Yellow Cards",  "value": "2" },
+        { "type": "Red Cards",     "value": "0" }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 32, "team": "Switzerland", "player": "Granit Xhaka",       "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 32, "team": "Canada",      "player": "Cyle Larin",          "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 46, "team": "Switzerland", "player": "Ruben Vargas",        "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 57, "team": "Switzerland", "player": "Johan Manzambi",      "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 58, "team": "Canada",      "player": "Stephen Eustaquio",   "type": "subst", "detail": "out: Mathieu Choiniere, in: Stephen Eustaquio" },
+    { "minute": 58, "team": "Canada",      "player": "Liam Millar",         "type": "subst", "detail": "out: Ali Ahmed, in: Liam Millar" },
+    { "minute": 58, "team": "Canada",      "player": "Tani Oluwaseyi",      "type": "subst", "detail": "out: Cyle Larin, in: Tani Oluwaseyi" },
+    { "minute": 74, "team": "Canada",      "player": "Promise David",       "type": "subst", "detail": "out: Tajon Buchanan, in: Promise David" },
+    { "minute": 74, "team": "Switzerland", "player": "Michel Aebischer",    "type": "subst", "detail": "out: Djibril Sow, in: Michel Aebischer" },
+    { "minute": 74, "team": "Switzerland", "player": "Silvan Widmer",       "type": "subst", "detail": "out: Luca Jaquez, in: Silvan Widmer" },
+    { "minute": 76, "team": "Canada",      "player": "Promise David",       "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 80, "team": "Switzerland", "player": "Dan Ndoye",           "type": "subst", "detail": "out: Ruben Vargas, in: Dan Ndoye" },
+    { "minute": 83, "team": "Canada",      "player": "Jacob Shaffelburg",   "type": "subst", "detail": "out: Richie Laryea, in: Jacob Shaffelburg" },
+    { "minute": 85, "team": "Switzerland", "player": "Cedric Itten",        "type": "subst", "detail": "out: Johan Manzambi, in: Cedric Itten" },
+    { "minute": 85, "team": "Switzerland", "player": "Breel Embolo",        "type": "subst", "detail": "out: Christian Fassnacht, in: Breel Embolo" },
+    { "minute": 87, "team": "Canada",      "player": "Liam Millar",         "type": "Card",  "detail": "Yellow Card" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Switzerland" },
+      "formation": "4-2-3-1",
+      "startXI": [
+        { "player": { "name": "Gregor Kobel",         "number": 1,  "pos": "G" } },
+        { "player": { "name": "Luca Jaquez",          "number": 25, "pos": "D" } },
+        { "player": { "name": "Nico Elvedi",          "number": 4,  "pos": "D" } },
+        { "player": { "name": "Manuel Akanji",        "number": 5,  "pos": "D" } },
+        { "player": { "name": "Ricardo Rodriguez",    "number": 13, "pos": "D" } },
+        { "player": { "name": "Remo Freuler",         "number": 8,  "pos": "M" } },
+        { "player": { "name": "Granit Xhaka",         "number": 10, "pos": "M" } },
+        { "player": { "name": "Djibril Sow",          "number": 15, "pos": "M" } },
+        { "player": { "name": "Johan Manzambi",       "number": 9,  "pos": "M" } },
+        { "player": { "name": "Ruben Vargas",         "number": 17, "pos": "M" } },
+        { "player": { "name": "Christian Fassnacht",  "number": 16, "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Michel Aebischer",  "number": 20, "pos": "M" } },
+        { "player": { "name": "Silvan Widmer",     "number": 3,  "pos": "D" } },
+        { "player": { "name": "Dan Ndoye",         "number": 11, "pos": "F" } },
+        { "player": { "name": "Breel Embolo",      "number": 7,  "pos": "F" } },
+        { "player": { "name": "Cedric Itten",      "number": 26, "pos": "F" } },
+        { "player": { "name": "Yvon Mvogo",        "number": 12, "pos": "G" } },
+        { "player": { "name": "Marvin Keller",     "number": 21, "pos": "M" } },
+        { "player": { "name": "Eray Coemert",      "number": 18, "pos": "D" } },
+        { "player": { "name": "Aurele Amenda",     "number": 24, "pos": "D" } },
+        { "player": { "name": "Denis Zakaria",     "number": 6,  "pos": "M" } },
+        { "player": { "name": "Ardon Jashari",     "number": 14, "pos": "M" } },
+        { "player": { "name": "Fabian Rieder",     "number": 22, "pos": "M" } },
+        { "player": { "name": "Noah Okafor",       "number": 19, "pos": "F" } },
+        { "player": { "name": "Zeki Amdouni",      "number": 23, "pos": "F" } }
+      ]
+    },
+    {
+      "team": { "name": "Canada" },
+      "formation": "4-4-2",
+      "startXI": [
+        { "player": { "name": "Maxime Crepeau",      "number": 16, "pos": "G" } },
+        { "player": { "name": "Alistair Johnston",   "number": 2,  "pos": "D" } },
+        { "player": { "name": "Luc de Fougerolles",  "number": 4,  "pos": "D" } },
+        { "player": { "name": "Derek Cornelius",     "number": 13, "pos": "D" } },
+        { "player": { "name": "Richie Laryea",       "number": 22, "pos": "D" } },
+        { "player": { "name": "Mathieu Choiniere",   "number": 6,  "pos": "M" } },
+        { "player": { "name": "Nathan Saliba",       "number": 25, "pos": "M" } },
+        { "player": { "name": "Ali Ahmed",           "number": 20, "pos": "M" } },
+        { "player": { "name": "Tajon Buchanan",      "number": 17, "pos": "M" } },
+        { "player": { "name": "Cyle Larin",          "number": 9,  "pos": "F" } },
+        { "player": { "name": "Jonathan David",      "number": 10, "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Stephen Eustaquio",  "number": 7,  "pos": "M" } },
+        { "player": { "name": "Tani Oluwaseyi",     "number": 12, "pos": "F" } },
+        { "player": { "name": "Liam Millar",        "number": 11, "pos": "F" } },
+        { "player": { "name": "Promise David",      "number": 24, "pos": "F" } },
+        { "player": { "name": "Jacob Shaffelburg",  "number": 14, "pos": "M" } },
+        { "player": { "name": "Dayne St. Clair",    "number": 1,  "pos": "G" } },
+        { "player": { "name": "Owen Goodman",       "number": 18, "pos": "G" } },
+        { "player": { "name": "Joel Waterman",      "number": 5,  "pos": "D" } },
+        { "player": { "name": "Moise Bombito",      "number": 15, "pos": "D" } },
+        { "player": { "name": "Alphonso Davies",    "number": 19, "pos": "D" } },
+        { "player": { "name": "Niko Sigur",         "number": 23, "pos": "M" } },
+        { "player": { "name": "Jonathan Osorio",    "number": 21, "pos": "M" } },
+        { "player": { "name": "Jayden Nelson",      "number": 26, "pos": "F" } }
+      ]
+    }
+  ]
+}

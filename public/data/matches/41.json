@@ -1,0 +1,616 @@
+﻿{
+    "fixture":  {
+                    "id":  "wc2026-group-g-newzealand-belgium",
+                    "date":  "2026-06-27T00:00:00Z",
+                    "venue":  {
+                                  "name":  "BC Place Vancouver",
+                                  "city":  "Vancouver"
+                              },
+                    "status":  {
+                                   "short":  "FT",
+                                   "long":  "Match Finished"
+                               }
+                },
+    "league":  {
+                   "round":  "Group G"
+               },
+    "teams":  {
+                  "home":  {
+                               "name":  "New Zealand",
+                               "code":  "NZL"
+                           },
+                  "away":  {
+                               "name":  "Belgium",
+                               "code":  "BEL"
+                           }
+              },
+    "goals":  {
+                  "home":  1,
+                  "away":  5
+              },
+    "score":  {
+                  "halftime":  {
+                                   "home":  0,
+                                   "away":  1
+                               },
+                  "fulltime":  {
+                                   "home":  1,
+                                   "away":  5
+                               }
+              },
+    "stats":  [
+                  {
+                      "team":  "New Zealand",
+                      "statistics":  [
+                                         {
+                                             "type":  "Possession",
+                                             "value":  "40%"
+                                         },
+                                         {
+                                             "type":  "Shots on Goal",
+                                             "value":  2
+                                         },
+                                         {
+                                             "type":  "Total Shots",
+                                             "value":  6
+                                         },
+                                         {
+                                             "type":  "Corner Kicks",
+                                             "value":  5
+                                         },
+                                         {
+                                             "type":  "Fouls",
+                                             "value":  10
+                                         },
+                                         {
+                                             "type":  "Yellow Cards",
+                                             "value":  2
+                                         },
+                                         {
+                                             "type":  "Red Cards",
+                                             "value":  0
+                                         }
+                                     ]
+                  },
+                  {
+                      "team":  "Belgium",
+                      "statistics":  [
+                                         {
+                                             "type":  "Possession",
+                                             "value":  "50%"
+                                         },
+                                         {
+                                             "type":  "Shots on Goal",
+                                             "value":  10
+                                         },
+                                         {
+                                             "type":  "Total Shots",
+                                             "value":  35
+                                         },
+                                         {
+                                             "type":  "Corner Kicks",
+                                             "value":  8
+                                         },
+                                         {
+                                             "type":  "Fouls",
+                                             "value":  7
+                                         },
+                                         {
+                                             "type":  "Yellow Cards",
+                                             "value":  0
+                                         },
+                                         {
+                                             "type":  "Red Cards",
+                                             "value":  0
+                                         }
+                                     ]
+                  }
+              ],
+    "events":  [
+                   {
+                       "minute":  28,
+                       "team":  "Belgium",
+                       "player":  "Leandro Trossard",
+                       "type":  "Goal",
+                       "detail":  "Normal Goal"
+                   },
+                   {
+                       "minute":  0,
+                       "team":  "New Zealand",
+                       "player":  "Jesse Randall",
+                       "type":  "subst",
+                       "detail":  "out: Sarpreet Singh, in: Jesse Randall (HT)"
+                   },
+                   {
+                       "minute":  0,
+                       "team":  "New Zealand",
+                       "player":  "Ben Old",
+                       "type":  "subst",
+                       "detail":  "out: Ryan Thomas, in: Ben Old (HT)"
+                   },
+                   {
+                       "minute":  46,
+                       "team":  "New Zealand",
+                       "player":  "Marko Stamenic",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   },
+                   {
+                       "minute":  50,
+                       "team":  "Belgium",
+                       "player":  "Leandro Trossard",
+                       "type":  "Goal",
+                       "detail":  "Normal Goal"
+                   },
+                   {
+                       "minute":  56,
+                       "team":  "Belgium",
+                       "player":  "Matias Fernandez-Pardo",
+                       "type":  "subst",
+                       "detail":  "out: Jeremy Doku, in: Matias Fernandez-Pardo"
+                   },
+                   {
+                       "minute":  56,
+                       "team":  "New Zealand",
+                       "player":  "Elijah Just",
+                       "type":  "subst",
+                       "detail":  "out: Elijah Just, in: [reserve]"
+                   },
+                   {
+                       "minute":  64,
+                       "team":  "New Zealand",
+                       "player":  "Michael Boxall",
+                       "type":  "subst",
+                       "detail":  "out: Michael Boxall, in: Tim Payne"
+                   },
+                   {
+                       "minute":  64,
+                       "team":  "New Zealand",
+                       "player":  "Callum McOwatt",
+                       "type":  "subst",
+                       "detail":  "out: Callum McOwatt, in: Joe Bell"
+                   },
+                   {
+                       "minute":  66,
+                       "team":  "Belgium",
+                       "player":  "Kevin De Bruyne",
+                       "type":  "Goal",
+                       "detail":  "Normal Goal"
+                   },
+                   {
+                       "minute":  72,
+                       "team":  "Belgium",
+                       "player":  "Alexis Saelemaekers",
+                       "type":  "subst",
+                       "detail":  "out: Leandro Trossard, in: Alexis Saelemaekers"
+                   },
+                   {
+                       "minute":  72,
+                       "team":  "Belgium",
+                       "player":  "Amadou Onana",
+                       "type":  "subst",
+                       "detail":  "out: Amadou Onana, in: Kevin De Bruyne"
+                   },
+                   {
+                       "minute":  79,
+                       "team":  "New Zealand",
+                       "player":  "Francis De Vries",
+                       "type":  "subst",
+                       "detail":  "out: Liberato Cacace, in: Francis De Vries"
+                   },
+                   {
+                       "minute":  84,
+                       "team":  "New Zealand",
+                       "player":  "Elijah Just",
+                       "type":  "Goal",
+                       "detail":  "Normal Goal"
+                   },
+                   {
+                       "minute":  85,
+                       "team":  "Belgium",
+                       "player":  "Romelu Lukaku",
+                       "type":  "subst",
+                       "detail":  "out: Charles De Ketelaere, in: Romelu Lukaku"
+                   },
+                   {
+                       "minute":  85,
+                       "team":  "Belgium",
+                       "player":  "Nicolas Raskin",
+                       "type":  "subst",
+                       "detail":  "out: Youri Tielemans, in: Nicolas Raskin"
+                   },
+                   {
+                       "minute":  86,
+                       "team":  "Belgium",
+                       "player":  "Romelu Lukaku",
+                       "type":  "Goal",
+                       "detail":  "Normal Goal"
+                   },
+                   {
+                       "minute":  88,
+                       "team":  "New Zealand",
+                       "player":  "Finn Surman",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   },
+                   {
+                       "minute":  94,
+                       "team":  "Belgium",
+                       "player":  "Alexis Saelemaekers",
+                       "type":  "Goal",
+                       "detail":  "Normal Goal"
+                   }
+               ],
+    "lineups":  [
+                    {
+                        "team":  {
+                                     "name":  "New Zealand"
+                                 },
+                        "formation":  "4-2-3-1",
+                        "startXI":  [
+                                        {
+                                            "player":  {
+                                                           "name":  "Max Crocombe",
+                                                           "number":  1,
+                                                           "pos":  "G"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Tim Payne",
+                                                           "number":  2,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Michael Boxall",
+                                                           "number":  5,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Tyler Bindon",
+                                                           "number":  4,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Liberato Cacace",
+                                                           "number":  13,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Finn Surman",
+                                                           "number":  16,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Joe Bell",
+                                                           "number":  6,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Callum McOwatt",
+                                                           "number":  20,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Marko Stamenic",
+                                                           "number":  8,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Sarpreet Singh",
+                                                           "number":  10,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Ryan Thomas",
+                                                           "number":  23,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Elijah Just",
+                                                           "number":  11,
+                                                           "pos":  "F"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Chris Wood",
+                                                           "number":  9,
+                                                           "pos":  "F"
+                                                       }
+                                        }
+                                    ],
+                        "substitutes":  [
+                                            {
+                                                "player":  {
+                                                               "name":  "Alex Paulsen",
+                                                               "number":  12,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Michael Woud",
+                                                               "number":  22,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Francis De Vries",
+                                                               "number":  3,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Nando Pijnaker",
+                                                               "number":  15,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Callan Elliot",
+                                                               "number":  24,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Tommy Smith",
+                                                               "number":  26,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Jesse Randall",
+                                                               "number":  21,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Ben Old",
+                                                               "number":  19,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Alex Rufer",
+                                                               "number":  14,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Lachlan Bayliss",
+                                                               "number":  25,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Logan Rogerson",
+                                                               "number":  7,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Kosta Barbarouses",
+                                                               "number":  17,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Ben Waine",
+                                                               "number":  18,
+                                                               "pos":  null
+                                                           }
+                                            }
+                                        ]
+                    },
+                    {
+                        "team":  {
+                                     "name":  "Belgium"
+                                 },
+                        "formation":  "4-2-3-1",
+                        "startXI":  [
+                                        {
+                                            "player":  {
+                                                           "name":  "Thibaut Courtois",
+                                                           "number":  1,
+                                                           "pos":  "G"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Arthur Theate",
+                                                           "number":  3,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Brandon Mechele",
+                                                           "number":  4,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Maxim De Cuyper",
+                                                           "number":  5,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Timothy Castagne",
+                                                           "number":  21,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Amadou Onana",
+                                                           "number":  24,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Youri Tielemans",
+                                                           "number":  8,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Hans Vanaken",
+                                                           "number":  20,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Leandro Trossard",
+                                                           "number":  10,
+                                                           "pos":  "F"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Jeremy Doku",
+                                                           "number":  11,
+                                                           "pos":  "F"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Charles De Ketelaere",
+                                                           "number":  17,
+                                                           "pos":  "F"
+                                                       }
+                                        }
+                                    ],
+                        "substitutes":  [
+                                            {
+                                                "player":  {
+                                                               "name":  "Senne Lammens",
+                                                               "number":  12,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Mike Penders",
+                                                               "number":  13,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Thomas Meunier",
+                                                               "number":  15,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Koni De Winter",
+                                                               "number":  16,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Joaquin Seys",
+                                                               "number":  18,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Axel Witsel",
+                                                               "number":  6,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Kevin De Bruyne",
+                                                               "number":  7,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Nicolas Raskin",
+                                                               "number":  23,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Diego Moreira",
+                                                               "number":  19,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Alexis Saelemaekers",
+                                                               "number":  22,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Matias Fernandez-Pardo",
+                                                               "number":  26,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Romelu Lukaku",
+                                                               "number":  9,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Dodi Lukebakio",
+                                                               "number":  14,
+                                                               "pos":  null
+                                                           }
+                                            }
+                                        ]
+                    }
+                ]
+}

@@ -1,0 +1,129 @@
+{
+  "fixture": {
+    "id": "wc2026-group-a-czechia-mexico",
+    "date": "2026-06-25T01:00:00Z",
+    "venue": { "name": "Mexico City Stadium", "city": "Mexico City" },
+    "status": { "short": "FT", "long": "Match Finished" }
+  },
+  "league": { "round": "Group A" },
+  "teams": {
+    "home": { "name": "Czechia", "code": "CZE" },
+    "away": { "name": "Mexico",  "code": "MEX" }
+  },
+  "goals": { "home": 0, "away": 3 },
+  "score": {
+    "halftime": { "home": 0, "away": 0 },
+    "fulltime":  { "home": 0, "away": 3 }
+  },
+  "stats": [
+    {
+      "team": "Czechia",
+      "statistics": [
+        { "type": "Possession",    "value": "52%" },
+        { "type": "Shots on Goal", "value": "1" },
+        { "type": "Total Shots",   "value": "13" },
+        { "type": "Corner Kicks",  "value": "5" },
+        { "type": "Fouls",         "value": "9" },
+        { "type": "Yellow Cards",  "value": "0" },
+        { "type": "Red Cards",     "value": "0" }
+      ]
+    },
+    {
+      "team": "Mexico",
+      "statistics": [
+        { "type": "Possession",    "value": "48%" },
+        { "type": "Shots on Goal", "value": "5" },
+        { "type": "Total Shots",   "value": "11" },
+        { "type": "Corner Kicks",  "value": "1" },
+        { "type": "Fouls",         "value": "13" },
+        { "type": "Yellow Cards",  "value": "1" },
+        { "type": "Red Cards",     "value": "0" }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 55, "team": "Mexico",  "player": "Mateo Chavez",      "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 56, "team": "Czechia", "player": "Lukas Provod",      "type": "subst", "detail": "out: Denis Visinsky, in: Lukas Provod" },
+    { "minute": 61, "team": "Mexico",  "player": "Julian Quinones",   "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 63, "team": "Mexico",  "player": "Edson Alvarez",     "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 63, "team": "Mexico",  "player": "Obed Vargas",       "type": "subst", "detail": "out: Luis Romo, in: Obed Vargas" },
+    { "minute": 63, "team": "Mexico",  "player": "Santiago Gimenez",  "type": "subst", "detail": "out: Guillermo Martinez, in: Santiago Gimenez" },
+    { "minute": 64, "team": "Czechia", "player": "Tomas Soucek",      "type": "subst", "detail": "out: Tomas Holes, in: Tomas Soucek" },
+    { "minute": 64, "team": "Czechia", "player": "Adam Hlozek",       "type": "subst", "detail": "out: Patrik Schick, in: Adam Hlozek" },
+    { "minute": 72, "team": "Mexico",  "player": "Alvaro Fidalgo",    "type": "subst", "detail": "out: Gilberto Mora, in: Alvaro Fidalgo" },
+    { "minute": 78, "team": "Mexico",  "player": "Jesus Gallardo",    "type": "subst", "detail": "out: Mateo Chavez, in: Jesus Gallardo" },
+    { "minute": 78, "team": "Mexico",  "player": "Guillermo Ochoa",   "type": "subst", "detail": "out: Raul Rangel, in: Guillermo Ochoa" },
+    { "minute": 87, "team": "Czechia", "player": "Alexandr Sojka",    "type": "subst", "detail": "out: Tomas Soucek, in: Alexandr Sojka" },
+    { "minute": 87, "team": "Czechia", "player": "Tomas Chory",       "type": "subst", "detail": "out: Lukas Cerv, in: Tomas Chory" },
+    { "minute": 90, "team": "Mexico",  "player": "Alvaro Fidalgo",    "type": "Goal",  "detail": "Normal Goal" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Czechia" },
+      "formation": "5-2-3",
+      "startXI": [
+        { "player": { "name": "Matej Kovar",         "number": 1,  "pos": "G" } },
+        { "player": { "name": "Robin Hranac",         "number": 4,  "pos": "D" } },
+        { "player": { "name": "Vladimir Coufal",      "number": 5,  "pos": "D" } },
+        { "player": { "name": "Ladislav Krejci",      "number": 7,  "pos": "D" } },
+        { "player": { "name": "David Doudera",        "number": 21, "pos": "D" } },
+        { "player": { "name": "Tomas Holes",          "number": 3,  "pos": "D" } },
+        { "player": { "name": "Lukas Cerv",           "number": 12, "pos": "M" } },
+        { "player": { "name": "Michal Sadilek",       "number": 18, "pos": "M" } },
+        { "player": { "name": "Patrik Schick",        "number": 10, "pos": "F" } },
+        { "player": { "name": "Pavel Sulc",           "number": 15, "pos": "F" } },
+        { "player": { "name": "Denis Visinsky",       "number": 26, "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Tomas Soucek",     "number": 22, "pos": "M" } },
+        { "player": { "name": "Adam Hlozek",      "number": 9,  "pos": "F" } },
+        { "player": { "name": "Lukas Provod",     "number": 17, "pos": "M" } },
+        { "player": { "name": "Alexandr Sojka",   "number": 24, "pos": "M" } },
+        { "player": { "name": "Tomas Chory",      "number": 19, "pos": "F" } },
+        { "player": { "name": "Jindrich Stanek",  "number": 16, "pos": "G" } },
+        { "player": { "name": "Lukas Hornicek",   "number": 23, "pos": "G" } },
+        { "player": { "name": "David Zima",       "number": 2,  "pos": "D" } },
+        { "player": { "name": "Stepan Chaloupek", "number": 6,  "pos": "M" } },
+        { "player": { "name": "Jaroslav Zeleny",  "number": 20, "pos": "D" } },
+        { "player": { "name": "Vladimir Darida",  "number": 8,  "pos": "M" } },
+        { "player": { "name": "Hugo Sochurek",    "number": 25, "pos": "F" } },
+        { "player": { "name": "Jan Kuchta",       "number": 11, "pos": "F" } },
+        { "player": { "name": "Mojmir Chytil",    "number": 13, "pos": "F" } }
+      ]
+    },
+    {
+      "team": { "name": "Mexico" },
+      "formation": "4-1-2-3",
+      "startXI": [
+        { "player": { "name": "Raul Rangel",        "number": 1,  "pos": "G" } },
+        { "player": { "name": "Jorge Sanchez",      "number": 2,  "pos": "D" } },
+        { "player": { "name": "Cesar Montes",       "number": 3,  "pos": "D" } },
+        { "player": { "name": "Edson Alvarez",      "number": 4,  "pos": "D" } },
+        { "player": { "name": "Israel Reyes",       "number": 15, "pos": "D" } },
+        { "player": { "name": "Mateo Chavez",       "number": 20, "pos": "M" } },
+        { "player": { "name": "Luis Romo",          "number": 7,  "pos": "M" } },
+        { "player": { "name": "Gilberto Mora",      "number": 19, "pos": "M" } },
+        { "player": { "name": "Julian Quinones",    "number": 16, "pos": "F" } },
+        { "player": { "name": "Guillermo Martinez", "number": 22, "pos": "F" } },
+        { "player": { "name": "Roberto Alvarado",   "number": 25, "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Guillermo Ochoa",    "number": 13, "pos": "G" } },
+        { "player": { "name": "Obed Vargas",        "number": 18, "pos": "M" } },
+        { "player": { "name": "Santiago Gimenez",   "number": 11, "pos": "F" } },
+        { "player": { "name": "Alvaro Fidalgo",     "number": 8,  "pos": "M" } },
+        { "player": { "name": "Jesus Gallardo",     "number": 23, "pos": "D" } },
+        { "player": { "name": "Carlos Acevedo",     "number": 12, "pos": "G" } },
+        { "player": { "name": "Johan Vasquez",      "number": 5,  "pos": "D" } },
+        { "player": { "name": "Erik Lira",          "number": 6,  "pos": "M" } },
+        { "player": { "name": "Orbelin Pineda",     "number": 17, "pos": "M" } },
+        { "player": { "name": "Luis Chavez",        "number": 24, "pos": "M" } },
+        { "player": { "name": "Brian Gutierrez",    "number": 26, "pos": "M" } },
+        { "player": { "name": "Raul Jimenez",       "number": 9,  "pos": "F" } },
+        { "player": { "name": "Alexis Vega",        "number": 10, "pos": "F" } },
+        { "player": { "name": "Armando Gonzalez",   "number": 14, "pos": "F" } },
+        { "player": { "name": "Cesar Huerta",       "number": 21, "pos": "F" } }
+      ]
+    }
+  ]
+}

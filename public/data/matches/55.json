@@ -1,0 +1,97 @@
+{
+  "fixture": {
+    "id": "wc2026-group-k-uzbekistan-colombia",
+    "date": "2026-06-17T23:00:00Z",
+    "venue": { "name": "SoFi Stadium", "city": "Los Angeles" },
+    "status": { "short": "FT", "long": "Match Finished" }
+  },
+  "league": { "round": "Group K" },
+  "teams": {
+    "home": { "name": "Uzbekistan", "code": "UZB" },
+    "away": { "name": "Colombia", "code": "COL" }
+  },
+  "goals": { "home": 1, "away": 3 },
+  "score": {
+    "halftime": { "home": 0, "away": 1 },
+    "fulltime": { "home": 1, "away": 3 }
+  },
+  "stats": [
+    {
+      "team": "Uzbekistan",
+      "statistics": [
+        { "type": "Possession", "value": "33%" },
+        { "type": "Shots on Goal", "value": 2 },
+        { "type": "Total Shots", "value": 8 },
+        { "type": "Corner Kicks", "value": 3 },
+        { "type": "Fouls", "value": 14 },
+        { "type": "Yellow Cards", "value": 1 },
+        { "type": "Red Cards", "value": 0 }
+      ]
+    },
+    {
+      "team": "Colombia",
+      "statistics": [
+        { "type": "Possession", "value": "56%" },
+        { "type": "Shots on Goal", "value": 4 },
+        { "type": "Total Shots", "value": 15 },
+        { "type": "Corner Kicks", "value": 4 },
+        { "type": "Fouls", "value": 11 },
+        { "type": "Yellow Cards", "value": 1 },
+        { "type": "Red Cards", "value": 0 }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 40,  "team": "Colombia",   "player": "Daniel Muñoz",     "type": "Goal", "detail": "Normal Goal" },
+    { "minute": 60,  "team": "Uzbekistan", "player": "Abbosbek Fayzullaev","type": "Goal", "detail": "Normal Goal" },
+    { "minute": 65,  "team": "Colombia",   "player": "Luis Díaz",         "type": "Goal", "detail": "Normal Goal" },
+    { "minute": 99,  "team": "Colombia",   "player": "Jorge Carrascal",   "type": "Goal", "detail": "Normal Goal" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Uzbekistan" },
+      "formation": "3-4-2-1",
+      "startXI": [
+        { "player": { "name": "Utkir Yusupov",        "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Mukhammadali Akhrorjonov","number": 2, "pos": "CB" } },
+        { "player": { "name": "Eldor Shomurodov",      "number": 18, "pos": "CB" } },
+        { "player": { "name": "Sanjar Yakhshiboev",    "number": 5,  "pos": "CB" } },
+        { "player": { "name": "Azizbek Nasrullaev",    "number": 24, "pos": "RWB" } },
+        { "player": { "name": "Jaloliddin Iskanderov", "number": 6,  "pos": "CM" } },
+        { "player": { "name": "Otabek Shukurov",       "number": 7,  "pos": "CM" } },
+        { "player": { "name": "Odil Ahmedov",          "number": 13, "pos": "LWB" } },
+        { "player": { "name": "Abbosbek Fayzullaev",   "number": 22, "pos": "AM" } },
+        { "player": { "name": "Islom Tukhtamurodov",   "number": 11, "pos": "AM" } },
+        { "player": { "name": "Mirzo Khamdamov",       "number": 14, "pos": "ST" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Sarvarbek Komilov",     "number": 12, "pos": "GK" } },
+        { "player": { "name": "Jasurbek Yakhshiboyev", "number": 9,  "pos": "FW" } },
+        { "player": { "name": "Sherzod Nasrullayev",   "number": 17, "pos": "MF" } }
+      ]
+    },
+    {
+      "team": { "name": "Colombia" },
+      "formation": "4-3-3",
+      "startXI": [
+        { "player": { "name": "Camilo Vargas",    "number": 12, "pos": "GK" } },
+        { "player": { "name": "Daniel Muñoz",     "number": 2,  "pos": "RB" } },
+        { "player": { "name": "Davinson Sánchez", "number": 23, "pos": "CB" } },
+        { "player": { "name": "Jhon Lucumí",      "number": 3,  "pos": "CB" } },
+        { "player": { "name": "Johan Mojica",     "number": 17, "pos": "LB" } },
+        { "player": { "name": "Mateus Uribe",     "number": 14, "pos": "DM" } },
+        { "player": { "name": "Jefferson Lerma",  "number": 16, "pos": "CM" } },
+        { "player": { "name": "Sebastián Gómez",  "number": 11, "pos": "CM" } },
+        { "player": { "name": "James Rodríguez",  "number": 10, "pos": "AM" } },
+        { "player": { "name": "Jhon Córdoba",     "number": 25, "pos": "ST" } },
+        { "player": { "name": "Luis Díaz",        "number": 7,  "pos": "LW" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "David Ospina",     "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Jorge Carrascal",  "number": 8,  "pos": "MF" } },
+        { "player": { "name": "Rafael Santos Borré","number": 19,"pos": "FW" } },
+        { "player": { "name": "Cucho Hernández",  "number": 15, "pos": "FW" } }
+      ]
+    }
+  ]
+}

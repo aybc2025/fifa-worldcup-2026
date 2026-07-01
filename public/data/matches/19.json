@@ -1,0 +1,94 @@
+{
+  "fixture": {
+    "id": "wc2026-group-d-australia-turkiye",
+    "date": "2026-06-14T00:00:00Z",
+    "venue": { "name": "BC Place", "city": "Vancouver" },
+    "status": { "short": "FT", "long": "Match Finished" }
+  },
+  "league": { "round": "Group D" },
+  "teams": {
+    "home": { "name": "Australia", "code": "AUS" },
+    "away": { "name": "Türkiye", "code": "TUR" }
+  },
+  "goals": { "home": 2, "away": 0 },
+  "score": {
+    "halftime": { "home": 1, "away": 0 },
+    "fulltime": { "home": 2, "away": 0 }
+  },
+  "stats": [
+    {
+      "team": "Australia",
+      "statistics": [
+        { "type": "Possession", "value": "27%" },
+        { "type": "Shots on Goal", "value": 4 },
+        { "type": "Total Shots", "value": 9 },
+        { "type": "Corner Kicks", "value": 5 },
+        { "type": "Fouls", "value": 12 },
+        { "type": "Yellow Cards", "value": 0 },
+        { "type": "Red Cards", "value": 0 }
+      ]
+    },
+    {
+      "team": "Türkiye",
+      "statistics": [
+        { "type": "Possession", "value": "62%" },
+        { "type": "Shots on Goal", "value": 7 },
+        { "type": "Total Shots", "value": 30 },
+        { "type": "Corner Kicks", "value": 8 },
+        { "type": "Fouls", "value": 4 },
+        { "type": "Yellow Cards", "value": 1 },
+        { "type": "Red Cards", "value": 0 }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 27, "team": "Australia", "player": "Nestory Irankunda", "type": "Goal", "detail": "Normal Goal" },
+    { "minute": 75, "team": "Australia", "player": "Connor Metcalfe",   "type": "Goal", "detail": "Normal Goal" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Australia" },
+      "formation": "5-4-1",
+      "startXI": [
+        { "player": { "name": "Joe Beach",          "number": 18, "pos": "GK" } },
+        { "player": { "name": "Gianni Italiano",    "number": 4,  "pos": "RB" } },
+        { "player": { "name": "Alex Circati",       "number": 3,  "pos": "CB" } },
+        { "player": { "name": "Harry Souttar",      "number": 19, "pos": "CB" } },
+        { "player": { "name": "Craig Burgess",      "number": 21, "pos": "CB" } },
+        { "player": { "name": "Joel Bos",           "number": 5,  "pos": "LB" } },
+        { "player": { "name": "Connor Metcalfe",    "number": 8,  "pos": "MF" } },
+        { "player": { "name": "Aidan O'Neill",      "number": 13, "pos": "MF" } },
+        { "player": { "name": "Phil Okon-Engstler", "number": 24, "pos": "MF" } },
+        { "player": { "name": "Nestory Irankunda",  "number": 17, "pos": "FW" } },
+        { "player": { "name": "Mathieu Touré",      "number": 9,  "pos": "ST" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Mathew Ryan",        "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Riley McGree",       "number": 10, "pos": "MF" } },
+        { "player": { "name": "Martin Boyle",       "number": 11, "pos": "FW" } }
+      ]
+    },
+    {
+      "team": { "name": "Türkiye" },
+      "formation": "4-2-3-1",
+      "startXI": [
+        { "player": { "name": "Uğurcan Çakır",      "number": 23, "pos": "GK" } },
+        { "player": { "name": "Zeki Çelik",         "number": 2,  "pos": "RB" } },
+        { "player": { "name": "Merih Demiral",      "number": 3,  "pos": "CB" } },
+        { "player": { "name": "Abdülkerim Bardakcı","number": 14, "pos": "CB" } },
+        { "player": { "name": "Ferdi Kadıoğlu",     "number": 20, "pos": "LB" } },
+        { "player": { "name": "İlkay Yüksek",       "number": 16, "pos": "DM" } },
+        { "player": { "name": "Hakan Çalhanoğlu",   "number": 10, "pos": "DM" } },
+        { "player": { "name": "Arda Güler",         "number": 8,  "pos": "AM" } },
+        { "player": { "name": "Orkun Kökçü",        "number": 6,  "pos": "AM" } },
+        { "player": { "name": "Barış Alper Yılmaz", "number": 21, "pos": "FW" } },
+        { "player": { "name": "Kerem Aktürkoğlu",   "number": 7,  "pos": "ST" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Altay Bayındır",     "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Okay Yokuşlu",       "number": 5,  "pos": "MF" } },
+        { "player": { "name": "Cenk Tosun",         "number": 11, "pos": "FW" } }
+      ]
+    }
+  ]
+}

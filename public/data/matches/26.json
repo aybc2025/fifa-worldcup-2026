@@ -1,0 +1,129 @@
+{
+  "fixture": {
+    "id": "wc2026-group-e-ger-civ",
+    "date": "2026-06-20T17:00:00Z",
+    "venue": { "name": "BMO Field", "city": "Toronto" },
+    "status": { "short": "FT", "long": "Match Finished" }
+  },
+  "league": { "round": "Group E" },
+  "teams": {
+    "home": { "name": "Germany",       "code": "GER" },
+    "away": { "name": "Ivory Coast",   "code": "CIV" }
+  },
+  "goals": { "home": 2, "away": 1 },
+  "score": {
+    "halftime": { "home": 0, "away": 1 },
+    "fulltime": { "home": 2, "away": 1 }
+  },
+  "stats": [
+    {
+      "team": "Germany",
+      "statistics": [
+        { "type": "Possession",    "value": "49%" },
+        { "type": "Shots on Goal", "value": "7" },
+        { "type": "Total Shots",   "value": "16" },
+        { "type": "Corner Kicks",  "value": "8" },
+        { "type": "Fouls",         "value": "5" },
+        { "type": "Yellow Cards",  "value": "0" },
+        { "type": "Red Cards",     "value": "0" }
+      ]
+    },
+    {
+      "team": "Ivory Coast",
+      "statistics": [
+        { "type": "Possession",    "value": "41%" },
+        { "type": "Shots on Goal", "value": "2" },
+        { "type": "Total Shots",   "value": "9" },
+        { "type": "Corner Kicks",  "value": "3" },
+        { "type": "Fouls",         "value": "7" },
+        { "type": "Yellow Cards",  "value": "0" },
+        { "type": "Red Cards",     "value": "0" }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 30, "team": "Ivory Coast", "player": "Franck Kessié",       "type": "Goal",  "detail": "0-1" },
+    { "minute": 46, "team": "Germany",     "player": "Nico Schlotterbeck",   "type": "subst", "detail": "out: Antonio Rüdiger, in: Nico Schlotterbeck" },
+    { "minute": 60, "team": "Germany",     "player": "Aleksandar Pavlović",  "type": "subst", "detail": "out: Nadiem Amiri, in: Aleksandar Pavlović" },
+    { "minute": 60, "team": "Germany",     "player": "Jamal Musiala",        "type": "subst", "detail": "out: Deniz Undav, in: Jamal Musiala" },
+    { "minute": 60, "team": "Germany",     "player": "Leroy Sané",           "type": "subst", "detail": "out: Jamie Leweling, in: Leroy Sané" },
+    { "minute": 68, "team": "Germany",     "player": "Deniz Undav",          "type": "Goal",  "detail": "1-1; assist: Nadiem Amiri" },
+    { "minute": 75, "team": "Ivory Coast", "player": "Amad Diallo",          "type": "subst", "detail": "out: Simon Adingra, in: Amad Diallo" },
+    { "minute": 75, "team": "Ivory Coast", "player": "Ibrahim Sangaré",      "type": "subst", "detail": "out: Seko Fofana, in: Ibrahim Sangaré" },
+    { "minute": 75, "team": "Ivory Coast", "player": "Ange-Yoan Bonny",      "type": "subst", "detail": "out: Evann Guessand, in: Ange-Yoan Bonny" },
+    { "minute": 82, "team": "Ivory Coast", "player": "Wilfried Singo",       "type": "subst", "detail": "out: Guela Doué, in: Wilfried Singo" },
+    { "minute": 85, "team": "Germany",     "player": "Leon Goretzka",        "type": "subst", "detail": "out: Kai Havertz, in: Leon Goretzka" },
+    { "minute": 85, "team": "Ivory Coast", "player": "Yan Diomandé",         "type": "subst", "detail": "out: Nicolas Pépé, in: Yan Diomandé" },
+    { "minute": 94, "team": "Germany",     "player": "Deniz Undav",          "type": "Goal",  "detail": "2-1; assist: Felix Nmecha" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Germany" },
+      "formation": "4-2-3-1",
+      "startXI": [
+        { "player": { "name": "Manuel Neuer",       "number": 1,  "pos": "G" } },
+        { "player": { "name": "Jonathan Tah",       "number": 4,  "pos": "D" } },
+        { "player": { "name": "Joshua Kimmich",     "number": 6,  "pos": "D" } },
+        { "player": { "name": "Antonio Rüdiger",    "number": 2,  "pos": "D" } },
+        { "player": { "name": "Nathaniel Brown",    "number": 18, "pos": "D" } },
+        { "player": { "name": "Nadiem Amiri",       "number": 20, "pos": "M" } },
+        { "player": { "name": "Florian Wirtz",      "number": 17, "pos": "M" } },
+        { "player": { "name": "Jamie Leweling",     "number": 9,  "pos": "M" } },
+        { "player": { "name": "Deniz Undav",        "number": 26, "pos": "M" } },
+        { "player": { "name": "Kai Havertz",        "number": 7,  "pos": "F" } },
+        { "player": { "name": "Leroy Sané",         "number": 19, "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Oliver Baumann",      "number": 12, "pos": "G" } },
+        { "player": { "name": "Alexander Nübel",     "number": 21, "pos": "G" } },
+        { "player": { "name": "Waldemar Anton",      "number": 3,  "pos": "D" } },
+        { "player": { "name": "David Raum",          "number": 22, "pos": "D" } },
+        { "player": { "name": "Malick Thiaw",        "number": 24, "pos": "D" } },
+        { "player": { "name": "Nico Schlotterbeck",  "number": 15, "pos": "D" } },
+        { "player": { "name": "Leon Goretzka",       "number": 8,  "pos": "M" } },
+        { "player": { "name": "Pascal Groß",         "number": 13, "pos": "M" } },
+        { "player": { "name": "Angelo Stiller",      "number": 16, "pos": "M" } },
+        { "player": { "name": "Assan Ouédraogo",     "number": 25, "pos": "M" } },
+        { "player": { "name": "Felix Nmecha",        "number": 23, "pos": "M" } },
+        { "player": { "name": "Aleksandar Pavlović", "number": 5,  "pos": "M" } },
+        { "player": { "name": "Jamal Musiala",       "number": 10, "pos": "M" } },
+        { "player": { "name": "Nick Woltemade",      "number": 11, "pos": "F" } },
+        { "player": { "name": "Maximilian Beier",    "number": 14, "pos": "F" } }
+      ]
+    },
+    {
+      "team": { "name": "Ivory Coast" },
+      "formation": "4-1-2-3",
+      "startXI": [
+        { "player": { "name": "Yahia Fofana",      "number": 1,  "pos": "G" } },
+        { "player": { "name": "Ghislain Konan",    "number": 3,  "pos": "D" } },
+        { "player": { "name": "Odilon Kossounou",  "number": 7,  "pos": "D" } },
+        { "player": { "name": "Emmanuel Agbadou",  "number": 20, "pos": "D" } },
+        { "player": { "name": "Christ Inao Oulai", "number": 26, "pos": "D" } },
+        { "player": { "name": "Franck Kessié",     "number": 8,  "pos": "M" } },
+        { "player": { "name": "Seko Fofana",       "number": 6,  "pos": "M" } },
+        { "player": { "name": "Simon Adingra",     "number": 10, "pos": "F" } },
+        { "player": { "name": "Evann Guessand",    "number": 22, "pos": "F" } },
+        { "player": { "name": "Nicolas Pépé",      "number": 19, "pos": "F" } },
+        { "player": { "name": "Guela Doué",        "number": 17, "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Mohamed Koné",       "number": 16, "pos": "G" } },
+        { "player": { "name": "Alban Lafont",       "number": 23, "pos": "G" } },
+        { "player": { "name": "Ousmane Diomandé",   "number": 2,  "pos": "D" } },
+        { "player": { "name": "Christopher Operi",  "number": 13, "pos": "D" } },
+        { "player": { "name": "Evan N'Dicka",       "number": 21, "pos": "D" } },
+        { "player": { "name": "Wilfried Singo",     "number": 5,  "pos": "D" } },
+        { "player": { "name": "Jean Michael Séri",  "number": 4,  "pos": "M" } },
+        { "player": { "name": "Ibrahim Sangaré",    "number": 18, "pos": "M" } },
+        { "player": { "name": "Parfait Guiagon",    "number": 25, "pos": "M" } },
+        { "player": { "name": "Bazoumana Touré",    "number": 24, "pos": "M" } },
+        { "player": { "name": "Elye Wahi",          "number": 12, "pos": "F" } },
+        { "player": { "name": "Oumar Diakité",      "number": 14, "pos": "F" } },
+        { "player": { "name": "Amad Diallo",        "number": 15, "pos": "F" } },
+        { "player": { "name": "Ange-Yoan Bonny",    "number": 9,  "pos": "F" } },
+        { "player": { "name": "Yan Diomandé",       "number": 11, "pos": "F" } }
+      ]
+    }
+  ]
+}

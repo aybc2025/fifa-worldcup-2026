@@ -1,0 +1,118 @@
+{
+  "fixture": {
+    "id": "wc2026-group-l-panama-croatia",
+    "date": "2026-06-23T20:00:00Z",
+    "venue": { "name": "Toronto Stadium", "city": "Toronto" },
+    "status": { "short": "FT", "long": "Match Finished" }
+  },
+  "league": { "round": "Group L" },
+  "teams": {
+    "home": { "name": "Panama",  "code": "PAN" },
+    "away": { "name": "Croatia", "code": "CRO" }
+  },
+  "goals": { "home": 0, "away": 1 },
+  "score": {
+    "halftime": { "home": 0, "away": 0 },
+    "fulltime": { "home": 0, "away": 1 }
+  },
+  "stats": [
+    {
+      "team": "Panama",
+      "statistics": [
+        { "type": "Possession",    "value": "37%" },
+        { "type": "Shots on Goal", "value": "1" },
+        { "type": "Total Shots",   "value": "8" },
+        { "type": "Corner Kicks",  "value": "7" },
+        { "type": "Fouls",         "value": "19" },
+        { "type": "Yellow Cards",  "value": "1" },
+        { "type": "Red Cards",     "value": "0" }
+      ]
+    },
+    {
+      "team": "Croatia",
+      "statistics": [
+        { "type": "Possession",    "value": "52%" },
+        { "type": "Shots on Goal", "value": "2" },
+        { "type": "Total Shots",   "value": "6" },
+        { "type": "Corner Kicks",  "value": "2" },
+        { "type": "Fouls",         "value": "12" },
+        { "type": "Yellow Cards",  "value": "1" },
+        { "type": "Red Cards",     "value": "0" }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 46, "team": "Croatia", "player": "Ante Budimir",    "type": "subst", "detail": "out: Petar Musa, in: Ante Budimir" },
+    { "minute": 46, "team": "Croatia", "player": "Andrej Kramaric", "type": "subst", "detail": "out: Josko Gvardiol, in: Andrej Kramaric" },
+    { "minute": 54, "team": "Croatia", "player": "Ante Budimir",    "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 61, "team": "Panama",  "player": "Yoel Barcenas",   "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 72, "team": "Croatia", "player": "Petar Sucic",     "type": "subst", "detail": "out: Mateo Kovacic, in: Petar Sucic" },
+    { "minute": 72, "team": "Croatia", "player": "Luka Sucic",      "type": "subst", "detail": "out: Marco Pasalic, in: Luka Sucic" },
+    { "minute": 77, "team": "Panama",  "player": "Cecilio Waterman","type": "subst", "detail": "out: Jiovany Ramos, in: Cecilio Waterman" },
+    { "minute": 81, "team": "Croatia", "player": "Mario Pasalic",   "type": "subst", "detail": "out: Luka Modric, in: Mario Pasalic" },
+    { "minute": 83, "team": "Panama",  "player": "Azarias Londono", "type": "subst", "detail": "out: Jose Fajardo, in: Azarias Londono" },
+    { "minute": 90, "team": "Panama",  "player": "Eric Davis",      "type": "subst", "detail": "out: Cesar Blackman, in: Eric Davis" },
+    { "minute": 90, "team": "Panama",  "player": "Tomas Rodriguez", "type": "subst", "detail": "out: Yoel Barcenas, in: Tomas Rodriguez" },
+    { "minute": 92, "team": "Croatia", "player": "Petar Sucic",     "type": "Card",  "detail": "Yellow Card" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Panama" },
+      "formation": "5-4-1",
+      "startXI": [
+        { "player": { "name": "Orlando Mosquera",    "number": 22, "pos": "G" } },
+        { "player": { "name": "Amir Murillo",        "number": 23, "pos": "D" } },
+        { "player": { "name": "Jiovany Ramos",       "number": 13, "pos": "D" } },
+        { "player": { "name": "Jose Cordoba",        "number": 3,  "pos": "D" } },
+        { "player": { "name": "Andres Andrade",      "number": 16, "pos": "D" } },
+        { "player": { "name": "Cesar Blackman",      "number": 2,  "pos": "D" } },
+        { "player": { "name": "Cristian Martinez",   "number": 6,  "pos": "M" } },
+        { "player": { "name": "Carlos Harvey",       "number": 14, "pos": "M" } },
+        { "player": { "name": "Yoel Barcenas",       "number": 11, "pos": "M" } },
+        { "player": { "name": "Jose Luis Rodriguez", "number": 7,  "pos": "M" } },
+        { "player": { "name": "Jose Fajardo",        "number": 17, "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Luis Mejia",            "number": 1,  "pos": "G" } },
+        { "player": { "name": "Cesar Samudio",         "number": 12, "pos": "G" } },
+        { "player": { "name": "Fidel Escobar",         "number": 4,  "pos": "D" } },
+        { "player": { "name": "Edgardo Farina",        "number": 5,  "pos": "D" } },
+        { "player": { "name": "Roderick Miller",       "number": 25, "pos": "D" } },
+        { "player": { "name": "Eric Davis",            "number": 15, "pos": "D" } },
+        { "player": { "name": "Jorge Gutierrez",       "number": 26, "pos": "M" } },
+        { "player": { "name": "Adalberto Carrasquilla","number": 8,  "pos": "M" } },
+        { "player": { "name": "Ismael Diaz",           "number": 10, "pos": "M" } },
+        { "player": { "name": "Alberto Quintero",      "number": 19, "pos": "M" } },
+        { "player": { "name": "Anibal Godoy",          "number": 20, "pos": "M" } },
+        { "player": { "name": "Cesar Yanis",           "number": 21, "pos": "M" } },
+        { "player": { "name": "Cecilio Waterman",      "number": 18, "pos": "F" } },
+        { "player": { "name": "Azarias Londono",       "number": 24, "pos": "F" } },
+        { "player": { "name": "Tomas Rodriguez",       "number": 9,  "pos": "F" } }
+      ]
+    },
+    {
+      "team": { "name": "Croatia" },
+      "formation": "4-2-3-1",
+      "startXI": [
+        { "player": { "name": "Dominik Livakovic",  "number": 1,  "pos": "G" } },
+        { "player": { "name": "Josip Stanisic",     "number": 2,  "pos": "D" } },
+        { "player": { "name": "Josip Sutalo",       "number": 6,  "pos": "D" } },
+        { "player": { "name": "Marin Pongracic",    "number": 3,  "pos": "D" } },
+        { "player": { "name": "Josko Gvardiol",     "number": 4,  "pos": "D" } },
+        { "player": { "name": "Luka Modric",        "number": 10, "pos": "M" } },
+        { "player": { "name": "Mateo Kovacic",      "number": 8,  "pos": "M" } },
+        { "player": { "name": "Marco Pasalic",      "number": 24, "pos": "M" } },
+        { "player": { "name": "Martin Baturina",    "number": 16, "pos": "M" } },
+        { "player": { "name": "Ivan Perisic",       "number": 14, "pos": "M" } },
+        { "player": { "name": "Petar Musa",         "number": 26, "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Ante Budimir",    "number": null, "pos": "F" } },
+        { "player": { "name": "Andrej Kramaric", "number": null, "pos": "F" } },
+        { "player": { "name": "Petar Sucic",     "number": null, "pos": "M" } },
+        { "player": { "name": "Luka Sucic",      "number": null, "pos": "M" } },
+        { "player": { "name": "Mario Pasalic",   "number": null, "pos": "M" } }
+      ]
+    }
+  ]
+}

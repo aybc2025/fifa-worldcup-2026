@@ -1,0 +1,92 @@
+{
+  "fixture": {
+    "id": "wc2026-group-h-spain-cabo-verde",
+    "date": "2026-06-15T20:00:00Z",
+    "venue": { "name": "Rose Bowl", "city": "Los Angeles" },
+    "status": { "short": "FT", "long": "Match Finished" }
+  },
+  "league": { "round": "Group H" },
+  "teams": {
+    "home": { "name": "Spain", "code": "ESP" },
+    "away": { "name": "Cabo Verde", "code": "CPV" }
+  },
+  "goals": { "home": 0, "away": 0 },
+  "score": {
+    "halftime": { "home": 0, "away": 0 },
+    "fulltime": { "home": 0, "away": 0 }
+  },
+  "stats": [
+    {
+      "team": "Spain",
+      "statistics": [
+        { "type": "Possession", "value": "65%" },
+        { "type": "Shots on Goal", "value": 7 },
+        { "type": "Total Shots", "value": 27 },
+        { "type": "Corner Kicks", "value": 11 },
+        { "type": "Fouls", "value": 10 },
+        { "type": "Yellow Cards", "value": 1 },
+        { "type": "Red Cards", "value": 0 }
+      ]
+    },
+    {
+      "team": "Cabo Verde",
+      "statistics": [
+        { "type": "Possession", "value": "25%" },
+        { "type": "Shots on Goal", "value": 1 },
+        { "type": "Total Shots", "value": 6 },
+        { "type": "Corner Kicks", "value": 1 },
+        { "type": "Fouls", "value": 11 },
+        { "type": "Yellow Cards", "value": 1 },
+        { "type": "Red Cards", "value": 0 }
+      ]
+    }
+  ],
+  "events": [],
+  "lineups": [
+    {
+      "team": { "name": "Spain" },
+      "formation": "4-3-3",
+      "startXI": [
+        { "player": { "name": "Unai Simón",       "number": 23, "pos": "GK" } },
+        { "player": { "name": "Marcos Llorente",  "number": 5,  "pos": "RB" } },
+        { "player": { "name": "Pau Cubarsí",      "number": 22, "pos": "CB" } },
+        { "player": { "name": "Aymeric Laporte",  "number": 14, "pos": "CB" } },
+        { "player": { "name": "Marc Cucurella",   "number": 24, "pos": "LB" } },
+        { "player": { "name": "Fabián Ruiz",      "number": 8,  "pos": "CM" } },
+        { "player": { "name": "Rodri",            "number": 16, "pos": "DM" } },
+        { "player": { "name": "Pedri",            "number": 20, "pos": "CM" } },
+        { "player": { "name": "Ferran Torres",    "number": 7,  "pos": "RW" } },
+        { "player": { "name": "Mikel Oyarzabal",  "number": 21, "pos": "ST" } },
+        { "player": { "name": "Gavi",             "number": 9,  "pos": "LW" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "David Raya",       "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Dani Carvajal",    "number": 2,  "pos": "RB" } },
+        { "player": { "name": "Dani Olmo",        "number": 10, "pos": "MF" } },
+        { "player": { "name": "Nico Williams",    "number": 11, "pos": "FW" } },
+        { "player": { "name": "Álvaro Morata",    "number": 19, "pos": "ST" } }
+      ]
+    },
+    {
+      "team": { "name": "Cabo Verde" },
+      "formation": "4-1-4-1",
+      "startXI": [
+        { "player": { "name": "Vozinha",          "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Óscar Macedo",     "number": 22, "pos": "RB" } },
+        { "player": { "name": "Roberto Lopes",    "number": 4,  "pos": "CB" } },
+        { "player": { "name": "Diney",            "number": 3,  "pos": "CB" } },
+        { "player": { "name": "Stopira",          "number": 13, "pos": "LB" } },
+        { "player": { "name": "Jamiro Monteiro",  "number": 6,  "pos": "DM" } },
+        { "player": { "name": "Kenny Rocha",      "number": 20, "pos": "CM" } },
+        { "player": { "name": "Garry Rodrigues",  "number": 15, "pos": "CM" } },
+        { "player": { "name": "Éverton",          "number": 10, "pos": "CM" } },
+        { "player": { "name": "Júlio Tavares",    "number": 7,  "pos": "CM" } },
+        { "player": { "name": "Nanu",             "number": 19, "pos": "ST" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Steven Fortes",    "number": 2, "pos": "DF" } },
+        { "player": { "name": "Willy Semedo",     "number": 11,"pos": "FW" } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "fixture": {
+    "id": "wc2026-group-c-morocco-haiti",
+    "date": "2026-06-24T22:00:00Z",
+    "venue": { "name": "Atlanta Stadium", "city": "Atlanta" },
+    "status": { "short": "FT", "long": "Match Finished" }
+  },
+  "league": { "round": "Group C" },
+  "teams": {
+    "home": { "name": "Morocco", "code": "MAR" },
+    "away": { "name": "Haiti",   "code": "HAI" }
+  },
+  "goals": { "home": 4, "away": 2 },
+  "score": {
+    "halftime": { "home": 2, "away": 2 },
+    "fulltime":  { "home": 4, "away": 2 }
+  },
+  "stats": [
+    {
+      "team": "Morocco",
+      "statistics": [
+        { "type": "Possession",    "value": "69%" },
+        { "type": "Shots on Goal", "value": "11" },
+        { "type": "Total Shots",   "value": "22" },
+        { "type": "Corner Kicks",  "value": "9" },
+        { "type": "Fouls",         "value": "10" },
+        { "type": "Yellow Cards",  "value": "1" },
+        { "type": "Red Cards",     "value": "0" }
+      ]
+    },
+    {
+      "team": "Haiti",
+      "statistics": [
+        { "type": "Possession",    "value": "31%" },
+        { "type": "Shots on Goal", "value": "2" },
+        { "type": "Total Shots",   "value": "9" },
+        { "type": "Corner Kicks",  "value": "1" },
+        { "type": "Fouls",         "value": "18" },
+        { "type": "Yellow Cards",  "value": "2" },
+        { "type": "Red Cards",     "value": "0" }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 10, "team": "Morocco", "player": "Yassine Bounou",      "type": "Goal",  "detail": "Own Goal" },
+    { "minute": 39, "team": "Morocco", "player": "Achraf Hakimi",        "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 43, "team": "Haiti",   "player": "Wilson Isidor",        "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 45, "team": "Morocco", "player": "Ismael Saibari",       "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 67, "team": "Haiti",   "player": "Duckens Nazon",        "type": "subst", "detail": "out: Ruben Providence, in: Duckens Nazon" },
+    { "minute": 67, "team": "Haiti",   "player": "Louicius Deedson",     "type": "subst", "detail": "in: Louicius Deedson" },
+    { "minute": 70, "team": "Morocco", "player": "Gessime Yassine",      "type": "subst", "detail": "out: Ayoub El Kaabi, in: Gessime Yassine" },
+    { "minute": 70, "team": "Morocco", "player": "Azzedine Ounahi",      "type": "subst", "detail": "out: Brahim Diaz, in: Azzedine Ounahi" },
+    { "minute": 70, "team": "Morocco", "player": "Soufiane Rahimi",      "type": "subst", "detail": "out: Ismael Saibari, in: Soufiane Rahimi" },
+    { "minute": 78, "team": "Morocco", "player": "Soufiane Rahimi",      "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 79, "team": "Haiti",   "player": "Duckens Nazon",        "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 79, "team": "Haiti",   "player": "Johny Placide",        "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 80, "team": "Haiti",   "player": "Dominique Simon",      "type": "subst", "detail": "out: Jean-Kevin Duverne, in: Dominique Simon" },
+    { "minute": 80, "team": "Haiti",   "player": "Carlens Arcus",        "type": "subst", "detail": "in: Carlens Arcus" },
+    { "minute": 83, "team": "Morocco", "player": "Noussair Mazraoui",    "type": "subst", "detail": "out: Anass Salah Eddine, in: Noussair Mazraoui" },
+    { "minute": 83, "team": "Morocco", "player": "Samir El Mourabet",    "type": "subst", "detail": "out: Neil El Aynaoui, in: Samir El Mourabet" },
+    { "minute": 83, "team": "Haiti",   "player": "Frantzdy Pierrot",     "type": "subst", "detail": "out: Lenny Joseph, in: Frantzdy Pierrot" },
+    { "minute": 89, "team": "Morocco", "player": "Gessime Yassine",      "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 90, "team": "Haiti",   "player": "Josue Casimir",        "type": "subst", "detail": "in: Josue Casimir" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Morocco" },
+      "formation": "4-2-3-1",
+      "startXI": [
+        { "player": { "name": "Yassine Bounou",       "number": 1,  "pos": "G" } },
+        { "player": { "name": "Achraf Hakimi",         "number": 2,  "pos": "D" } },
+        { "player": { "name": "Chadi Riad",            "number": 18, "pos": "D" } },
+        { "player": { "name": "Redouane Halhal",       "number": 25, "pos": "D" } },
+        { "player": { "name": "Anass Salah Eddine",    "number": 26, "pos": "D" } },
+        { "player": { "name": "Sofyan Amrabat",        "number": 4,  "pos": "M" } },
+        { "player": { "name": "Ismael Saibari",        "number": 11, "pos": "M" } },
+        { "player": { "name": "Bilal El Khannouss",    "number": 23, "pos": "M" } },
+        { "player": { "name": "Neil El Aynaoui",       "number": 24, "pos": "M" } },
+        { "player": { "name": "Brahim Diaz",           "number": 10, "pos": "F" } },
+        { "player": { "name": "Ayoub El Kaabi",        "number": 20, "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Soufiane Rahimi",      "number": 9,  "pos": "F" } },
+        { "player": { "name": "Azzedine Ounahi",      "number": 8,  "pos": "M" } },
+        { "player": { "name": "Gessime Yassine",      "number": 16, "pos": "F" } },
+        { "player": { "name": "Noussair Mazraoui",    "number": 3,  "pos": "D" } },
+        { "player": { "name": "Samir El Mourabet",    "number": 15, "pos": "M" } },
+        { "player": { "name": "Munir El Kajoui",      "number": 12, "pos": "G" } },
+        { "player": { "name": "Ahmed Reda Tagnaouti", "number": 22, "pos": "G" } },
+        { "player": { "name": "Marwane Saadane",      "number": 5,  "pos": "D" } },
+        { "player": { "name": "Zakaria El Ouahdi",    "number": 13, "pos": "D" } },
+        { "player": { "name": "Issa Diop",            "number": 14, "pos": "D" } },
+        { "player": { "name": "Youssef Belammari",    "number": 19, "pos": "M" } },
+        { "player": { "name": "Ayyoub Bouaddi",       "number": 6,  "pos": "M" } },
+        { "player": { "name": "Chemsdine Talbi",      "number": 7,  "pos": "M" } },
+        { "player": { "name": "Amine Sbai",           "number": 17, "pos": "F" } },
+        { "player": { "name": "Ayoube Amaimouni",     "number": 21, "pos": "F" } }
+      ]
+    },
+    {
+      "team": { "name": "Haiti" },
+      "formation": "4-4-2",
+      "startXI": [
+        { "player": { "name": "Johny Placide",          "number": 1,  "pos": "G" } },
+        { "player": { "name": "Ricardo Ade",            "number": 4,  "pos": "D" } },
+        { "player": { "name": "Hannes Delcroix",        "number": 5,  "pos": "D" } },
+        { "player": { "name": "Martin Experience",      "number": 8,  "pos": "D" } },
+        { "player": { "name": "Jean-Kevin Duverne",     "number": 22, "pos": "D" } },
+        { "player": { "name": "Jean-Ricner Bellegarde", "number": 10, "pos": "M" } },
+        { "player": { "name": "Danley Jean Jacques",    "number": 17, "pos": "M" } },
+        { "player": { "name": "Dominique Simon",        "number": 25, "pos": "M" } },
+        { "player": { "name": "Carlens Arcus",          "number": 2,  "pos": "D" } },
+        { "player": { "name": "Ruben Providence",       "number": 15, "pos": "F" } },
+        { "player": { "name": "Wilson Isidor",          "number": 18, "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Duckens Nazon",     "number": 9,  "pos": "F" } },
+        { "player": { "name": "Louicius Deedson",  "number": 11, "pos": "M" } },
+        { "player": { "name": "Lenny Joseph",      "number": 16, "pos": "F" } },
+        { "player": { "name": "Frantzdy Pierrot",  "number": 20, "pos": "F" } },
+        { "player": { "name": "Josue Casimir",     "number": 21, "pos": "M" } },
+        { "player": { "name": "Alexandre Pierre",  "number": 12, "pos": "G" } },
+        { "player": { "name": "Josue Duverger",    "number": 23, "pos": "G" } },
+        { "player": { "name": "Keeto Thermoncy",   "number": 3,  "pos": "D" } },
+        { "player": { "name": "Markhus Lacroix",   "number": 13, "pos": "D" } },
+        { "player": { "name": "Garven Metusala",   "number": 14, "pos": "M" } },
+        { "player": { "name": "Wilguens Paugain",  "number": 24, "pos": "D" } },
+        { "player": { "name": "Carl Sainte",       "number": 6,  "pos": "M" } },
+        { "player": { "name": "Woodensky Pierre",  "number": 26, "pos": "M" } },
+        { "player": { "name": "Derrick Etienne",   "number": 7,  "pos": "M" } },
+        { "player": { "name": "Yassin Fortune",    "number": 19, "pos": "F" } }
+      ]
+    }
+  ]
+}

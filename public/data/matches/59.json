@@ -1,0 +1,623 @@
+﻿{
+    "fixture":  {
+                    "id":  "wc2026-group-k-congodr-uzbekistan",
+                    "date":  "2026-06-27T20:30:00Z",
+                    "venue":  {
+                                  "name":  "Atlanta Stadium",
+                                  "city":  "Atlanta"
+                              },
+                    "status":  {
+                                   "short":  "FT",
+                                   "long":  "Match Finished"
+                               }
+                },
+    "league":  {
+                   "round":  "Group K"
+               },
+    "teams":  {
+                  "home":  {
+                               "name":  "Congo DR",
+                               "code":  "COD"
+                           },
+                  "away":  {
+                               "name":  "Uzbekistan",
+                               "code":  "UZB"
+                           }
+              },
+    "goals":  {
+                  "home":  3,
+                  "away":  1
+              },
+    "score":  {
+                  "halftime":  {
+                                   "home":  0,
+                                   "away":  1
+                               },
+                  "fulltime":  {
+                                   "home":  3,
+                                   "away":  1
+                               }
+              },
+    "stats":  [
+                  {
+                      "team":  "Congo DR",
+                      "statistics":  [
+                                         {
+                                             "type":  "Possession",
+                                             "value":  "53%"
+                                         },
+                                         {
+                                             "type":  "Shots on Goal",
+                                             "value":  5
+                                         },
+                                         {
+                                             "type":  "Total Shots",
+                                             "value":  19
+                                         },
+                                         {
+                                             "type":  "Corner Kicks",
+                                             "value":  2
+                                         },
+                                         {
+                                             "type":  "Fouls",
+                                             "value":  6
+                                         },
+                                         {
+                                             "type":  "Yellow Cards",
+                                             "value":  3
+                                         },
+                                         {
+                                             "type":  "Red Cards",
+                                             "value":  0
+                                         }
+                                     ]
+                  },
+                  {
+                      "team":  "Uzbekistan",
+                      "statistics":  [
+                                         {
+                                             "type":  "Possession",
+                                             "value":  "36%"
+                                         },
+                                         {
+                                             "type":  "Shots on Goal",
+                                             "value":  1
+                                         },
+                                         {
+                                             "type":  "Total Shots",
+                                             "value":  3
+                                         },
+                                         {
+                                             "type":  "Corner Kicks",
+                                             "value":  3
+                                         },
+                                         {
+                                             "type":  "Fouls",
+                                             "value":  16
+                                         },
+                                         {
+                                             "type":  "Yellow Cards",
+                                             "value":  2
+                                         },
+                                         {
+                                             "type":  "Red Cards",
+                                             "value":  0
+                                         }
+                                     ]
+                  }
+              ],
+    "events":  [
+                   {
+                       "minute":  10,
+                       "team":  "Uzbekistan",
+                       "player":  "Eldor Shomurodov",
+                       "type":  "Goal",
+                       "detail":  "Normal Goal"
+                   },
+                   {
+                       "minute":  21,
+                       "team":  "Congo DR",
+                       "player":  "Noah Sadiki",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   },
+                   {
+                       "minute":  43,
+                       "team":  "Uzbekistan",
+                       "player":  "Abdukodir Khusanov",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   },
+                   {
+                       "minute":  45,
+                       "team":  "Congo DR",
+                       "player":  "Nathanael Mbuku",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   },
+                   {
+                       "minute":  51,
+                       "team":  "Congo DR",
+                       "player":  "Fiston Mayele",
+                       "type":  "subst",
+                       "detail":  "out: Cedric Bakambu, in: Fiston Mayele"
+                   },
+                   {
+                       "minute":  58,
+                       "team":  "Uzbekistan",
+                       "player":  "Azizjon Ganiev",
+                       "type":  "subst",
+                       "detail":  "out: Dostonbek Khamdamov, in: Azizjon Ganiev"
+                   },
+                   {
+                       "minute":  58,
+                       "team":  "Uzbekistan",
+                       "player":  "Odiljon Xamrobekov",
+                       "type":  "subst",
+                       "detail":  "out: Otabek Shukurov, in: Odiljon Xamrobekov"
+                   },
+                   {
+                       "minute":  62,
+                       "team":  "Congo DR",
+                       "player":  "Samuel Moutoussamy",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   },
+                   {
+                       "minute":  68,
+                       "team":  "Congo DR",
+                       "player":  "Yoane Wissa",
+                       "type":  "Goal",
+                       "detail":  "Penalty"
+                   },
+                   {
+                       "minute":  72,
+                       "team":  "Congo DR",
+                       "player":  "Theo Bongonda",
+                       "type":  "subst",
+                       "detail":  "out: Brian Cipenga, in: Theo Bongonda"
+                   },
+                   {
+                       "minute":  72,
+                       "team":  "Congo DR",
+                       "player":  "Meschack Elia",
+                       "type":  "subst",
+                       "detail":  "out: Nathanael Mbuku, in: Meschack Elia"
+                   },
+                   {
+                       "minute":  72,
+                       "team":  "Congo DR",
+                       "player":  "Ngalayel Mukau",
+                       "type":  "subst",
+                       "detail":  "out: Samuel Moutoussamy, in: Ngalayel Mukau"
+                   },
+                   {
+                       "minute":  73,
+                       "team":  "Uzbekistan",
+                       "player":  "Oston Urunov",
+                       "type":  "subst",
+                       "detail":  "out: Abbosbek Fayzullaev, in: Oston Urunov"
+                   },
+                   {
+                       "minute":  78,
+                       "team":  "Congo DR",
+                       "player":  "Fiston Mayele",
+                       "type":  "Goal",
+                       "detail":  "Normal Goal"
+                   },
+                   {
+                       "minute":  82,
+                       "team":  "Uzbekistan",
+                       "player":  "Jamshid Iskanderov",
+                       "type":  "subst",
+                       "detail":  "out: Akmal Mozgovoy, in: Jamshid Iskanderov"
+                   },
+                   {
+                       "minute":  82,
+                       "team":  "Uzbekistan",
+                       "player":  "Igor Sergeev",
+                       "type":  "subst",
+                       "detail":  "out: Jakhongir Urozov, in: Igor Sergeev"
+                   },
+                   {
+                       "minute":  83,
+                       "team":  "Congo DR",
+                       "player":  "Joris Kayembe",
+                       "type":  "subst",
+                       "detail":  "out: Arthur Masuaku, in: Joris Kayembe"
+                   },
+                   {
+                       "minute":  91,
+                       "team":  "Congo DR",
+                       "player":  "Yoane Wissa",
+                       "type":  "Goal",
+                       "detail":  "Normal Goal"
+                   }
+               ],
+    "lineups":  [
+                    {
+                        "team":  {
+                                     "name":  "Congo DR"
+                                 },
+                        "formation":  "4-4-2",
+                        "startXI":  [
+                                        {
+                                            "player":  {
+                                                           "name":  "Lionel Mpasi",
+                                                           "number":  1,
+                                                           "pos":  "G"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Aaron Wan-Bissaka",
+                                                           "number":  2,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Axel Tuanzebe",
+                                                           "number":  4,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Chancel Mbemba",
+                                                           "number":  22,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Arthur Masuaku",
+                                                           "number":  26,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Nathanael Mbuku",
+                                                           "number":  7,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Samuel Moutoussamy",
+                                                           "number":  8,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Noah Sadiki",
+                                                           "number":  14,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Meschack Elia",
+                                                           "number":  13,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Brian Cipenga",
+                                                           "number":  9,
+                                                           "pos":  "F"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Cedric Bakambu",
+                                                           "number":  17,
+                                                           "pos":  "F"
+                                                       }
+                                        }
+                                    ],
+                        "substitutes":  [
+                                            {
+                                                "player":  {
+                                                               "name":  "Timothy Fayulu",
+                                                               "number":  16,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Matthieu Epolo",
+                                                               "number":  21,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Steve Kapuadi",
+                                                               "number":  3,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Dylan Batubinsika",
+                                                               "number":  5,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Ngalayel Mukau",
+                                                               "number":  6,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Theo Bongonda",
+                                                               "number":  10,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Gael Kakuta",
+                                                               "number":  11,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Joris Kayembe",
+                                                               "number":  12,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Aaron Tshibola",
+                                                               "number":  15,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Charles Pickel",
+                                                               "number":  18,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Fiston Mayele",
+                                                               "number":  19,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Yoane Wissa",
+                                                               "number":  20,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Simon Banza",
+                                                               "number":  23,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Gedeon Kalulu",
+                                                               "number":  24,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Edo Kayembe",
+                                                               "number":  25,
+                                                               "pos":  null
+                                                           }
+                                            }
+                                        ]
+                    },
+                    {
+                        "team":  {
+                                     "name":  "Uzbekistan"
+                                 },
+                        "formation":  "3-4-3",
+                        "startXI":  [
+                                        {
+                                            "player":  {
+                                                           "name":  "Abduvohid Nematov",
+                                                           "number":  12,
+                                                           "pos":  "G"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Abdukodir Khusanov",
+                                                           "number":  2,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Khojiakbar Alijonov",
+                                                           "number":  3,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Rustam Ashurmatov",
+                                                           "number":  5,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Sherzod Nasrullaev",
+                                                           "number":  13,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Akmal Mozgovoy",
+                                                           "number":  6,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Otabek Shukurov",
+                                                           "number":  7,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Dostonbek Khamdamov",
+                                                           "number":  17,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Abbosbek Fayzullaev",
+                                                           "number":  22,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Jakhongir Urozov",
+                                                           "number":  26,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Eldor Shomurodov",
+                                                           "number":  14,
+                                                           "pos":  "F"
+                                                       }
+                                        }
+                                    ],
+                        "substitutes":  [
+                                            {
+                                                "player":  {
+                                                               "name":  "Utkir Yusupov",
+                                                               "number":  1,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Botirali Ergashev",
+                                                               "number":  16,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Farrukh Sayfiev",
+                                                               "number":  4,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Jamshid Iskanderov",
+                                                               "number":  8,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Odiljon Xamrobekov",
+                                                               "number":  9,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Ruslanbek Jiyanov",
+                                                               "number":  10,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Oston Urunov",
+                                                               "number":  11,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Umar Eshmurodov",
+                                                               "number":  15,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Abdulla Abdullaev",
+                                                               "number":  18,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Azizjon Ganiev",
+                                                               "number":  19,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Azizbek Amonov",
+                                                               "number":  20,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Igor Sergeev",
+                                                               "number":  21,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Sherzod Esanov",
+                                                               "number":  23,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Behruzjon Karimov",
+                                                               "number":  24,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Avazbek Ulmasaliyev",
+                                                               "number":  25,
+                                                               "pos":  null
+                                                           }
+                                            }
+                                        ]
+                    }
+                ]
+}

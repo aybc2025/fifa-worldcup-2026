@@ -1,0 +1,90 @@
+{
+  "fixture": {
+    "id": "wc2026-group-e-cote-divoire-ecuador",
+    "date": "2026-06-15T02:00:00Z",
+    "venue": { "name": "Levi's Stadium", "city": "San Francisco Bay Area" },
+    "status": { "short": "FT", "long": "Match Finished" }
+  },
+  "league": { "round": "Group E" },
+  "teams": {
+    "home": { "name": "Côte d'Ivoire", "code": "CIV" },
+    "away": { "name": "Ecuador", "code": "ECU" }
+  },
+  "goals": { "home": 1, "away": 0 },
+  "score": {
+    "halftime": { "home": 0, "away": 0 },
+    "fulltime": { "home": 1, "away": 0 }
+  },
+  "stats": [
+    {
+      "team": "Côte d'Ivoire",
+      "statistics": [
+        { "type": "Possession", "value": "41%" },
+        { "type": "Shots on Goal", "value": 4 },
+        { "type": "Total Shots", "value": 15 },
+        { "type": "Corner Kicks", "value": 3 },
+        { "type": "Fouls", "value": 10 },
+        { "type": "Yellow Cards", "value": 3 },
+        { "type": "Red Cards", "value": 0 }
+      ]
+    },
+    {
+      "team": "Ecuador",
+      "statistics": [
+        { "type": "Possession", "value": "49%" },
+        { "type": "Shots on Goal", "value": 1 },
+        { "type": "Total Shots", "value": 12 },
+        { "type": "Corner Kicks", "value": 5 },
+        { "type": "Fouls", "value": 13 },
+        { "type": "Yellow Cards", "value": 1 },
+        { "type": "Red Cards", "value": 0 }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 90, "team": "Côte d'Ivoire", "player": "Amad Diallo", "type": "Goal", "detail": "Normal Goal" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Côte d'Ivoire" },
+      "formation": "4-4-2",
+      "startXI": [
+        { "player": { "name": "Yahia Fofana",       "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Wilfried Singo",     "number": 5,  "pos": "RB" } },
+        { "player": { "name": "Evan Ndicka",        "number": 20, "pos": "CB" } },
+        { "player": { "name": "Willy Boly",         "number": 3,  "pos": "CB" } },
+        { "player": { "name": "Ghislain Konan",     "number": 17, "pos": "LB" } },
+        { "player": { "name": "Franck Kessié",      "number": 8,  "pos": "CM" } },
+        { "player": { "name": "Seko Fofana",        "number": 6,  "pos": "CM" } },
+        { "player": { "name": "Ibrahim Sangaré",    "number": 24, "pos": "CM" } },
+        { "player": { "name": "Amad Diallo",        "number": 11, "pos": "RW" } },
+        { "player": { "name": "Nicolas Pépé",       "number": 19, "pos": "LW" } },
+        { "player": { "name": "Sébastien Haller",   "number": 12, "pos": "ST" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Wilfried Zaha",      "number": 10, "pos": "FW" } },
+        { "player": { "name": "Max-Alain Gradel",   "number": 9,  "pos": "FW" } }
+      ]
+    },
+    {
+      "team": { "name": "Ecuador" },
+      "formation": "4-4-2",
+      "startXI": [
+        { "player": { "name": "Hernán Galíndez",   "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Angelo Preciado",   "number": 21, "pos": "RB" } },
+        { "player": { "name": "Piero Hincapié",    "number": 3,  "pos": "CB" } },
+        { "player": { "name": "Félix Torres",      "number": 4,  "pos": "CB" } },
+        { "player": { "name": "Pervis Estupiñán",  "number": 6,  "pos": "LB" } },
+        { "player": { "name": "Moisés Caicedo",    "number": 23, "pos": "CM" } },
+        { "player": { "name": "Carlos Gruezo",     "number": 15, "pos": "CM" } },
+        { "player": { "name": "Romario Ibarra",    "number": 14, "pos": "RM" } },
+        { "player": { "name": "Gonzalo Plata",     "number": 19, "pos": "LW" } },
+        { "player": { "name": "Djorkaeff Reasco",  "number": 9,  "pos": "FW" } },
+        { "player": { "name": "Enner Valencia",    "number": 13, "pos": "ST" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Jeremy Sarmiento",  "number": 11, "pos": "FW" } }
+      ]
+    }
+  ]
+}

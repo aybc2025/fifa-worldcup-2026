@@ -1,0 +1,127 @@
+{
+  "fixture": {
+    "id": "wc2026-group-e-ecu-cuw",
+    "date": "2026-06-20T22:00:00Z",
+    "venue": { "name": "Arrowhead Stadium", "city": "Kansas City" },
+    "status": { "short": "FT", "long": "Match Finished" }
+  },
+  "league": { "round": "Group E" },
+  "teams": {
+    "home": { "name": "Ecuador", "code": "ECU" },
+    "away": { "name": "Curaçao", "code": "CUW" }
+  },
+  "goals": { "home": 0, "away": 0 },
+  "score": {
+    "halftime": { "home": 0, "away": 0 },
+    "fulltime": { "home": 0, "away": 0 }
+  },
+  "stats": [
+    {
+      "team": "Ecuador",
+      "statistics": [
+        { "type": "Possession",    "value": "65%" },
+        { "type": "Shots on Goal", "value": "15" },
+        { "type": "Total Shots",   "value": "27" },
+        { "type": "Corner Kicks",  "value": "9" },
+        { "type": "Fouls",         "value": "7" },
+        { "type": "Yellow Cards",  "value": "1" },
+        { "type": "Red Cards",     "value": "0" }
+      ]
+    },
+    {
+      "team": "Curaçao",
+      "statistics": [
+        { "type": "Possession",    "value": "23%" },
+        { "type": "Shots on Goal", "value": "3" },
+        { "type": "Total Shots",   "value": "10" },
+        { "type": "Corner Kicks",  "value": "0" },
+        { "type": "Fouls",         "value": "10" },
+        { "type": "Yellow Cards",  "value": "5" },
+        { "type": "Red Cards",     "value": "0" }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 46, "team": "Ecuador",  "player": "Kevin Rodríguez",    "type": "subst", "detail": "out: Kevin Rodríguez, in: Jordy Alcivar" },
+    { "minute": 55, "team": "Curaçao",  "player": "Livano Comenencia",  "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 70, "team": "Ecuador",  "player": "Nilson Angulo",      "type": "subst", "detail": "out: Nilson Angulo, in: Pervis Estupiñán" },
+    { "minute": 75, "team": "Curaçao",  "player": "Kenji Gorré",        "type": "subst", "detail": "out: Kenji Gorré, in: Juninho Bacuna" },
+    { "minute": 75, "team": "Curaçao",  "player": "Roshon van Eijma",   "type": "subst", "detail": "out: Roshon van Eijma, in: Deveron Fonville" },
+    { "minute": 75, "team": "Curaçao",  "player": "Jearl Margaritha",   "type": "subst", "detail": "out: Jearl Margaritha, in: Tahith Chong" },
+    { "minute": 75, "team": "Curaçao",  "player": "Jason Gaari",        "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 81, "team": "Ecuador",  "player": "Ángelo Preciado",    "type": "subst", "detail": "out: Ángelo Preciado, in: Alan Franco" },
+    { "minute": 83, "team": "Curaçao",  "player": "Godfried Roemeratoe","type": "subst", "detail": "out: Godfried Roemeratoe, in: Livano Comenencia" },
+    { "minute": 83, "team": "Curaçao",  "player": "Gervane Kastaneer",  "type": "subst", "detail": "out: Juergen Locadia, in: Gervane Kastaneer" },
+    { "minute": 89, "team": "Ecuador",  "player": "Jordy Caicedo",      "type": "subst", "detail": "out: Enner Valencia, in: Jordy Caicedo" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Ecuador" },
+      "formation": "3-5-2",
+      "startXI": [
+        { "player": { "name": "Hernán Galíndez",  "number": 1,  "pos": "G" } },
+        { "player": { "name": "Piero Hincapié",   "number": 3,  "pos": "D" } },
+        { "player": { "name": "Willian Pacho",    "number": 6,  "pos": "D" } },
+        { "player": { "name": "Nilson Angulo",    "number": 20, "pos": "D" } },
+        { "player": { "name": "Moisés Caicedo",   "number": 23, "pos": "M" } },
+        { "player": { "name": "Kevin Rodríguez",  "number": 11, "pos": "M" } },
+        { "player": { "name": "Pedro Vite",       "number": 15, "pos": "M" } },
+        { "player": { "name": "Ángelo Preciado",  "number": 17, "pos": "M" } },
+        { "player": { "name": "Gonzalo Plata",    "number": 19, "pos": "M" } },
+        { "player": { "name": "John Yeboah",      "number": 9,  "pos": "F" } },
+        { "player": { "name": "Enner Valencia",   "number": 13, "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Moisés Ramírez",   "number": 12, "pos": "G" } },
+        { "player": { "name": "Gonzalo Valle",    "number": 22, "pos": "G" } },
+        { "player": { "name": "Félix Torres",     "number": 2,  "pos": "D" } },
+        { "player": { "name": "Joel Ordóñez",     "number": 4,  "pos": "D" } },
+        { "player": { "name": "Jackson Porozo",   "number": 25, "pos": "D" } },
+        { "player": { "name": "Yaimar Medina",    "number": 26, "pos": "D" } },
+        { "player": { "name": "Pervis Estupiñán", "number": 7,  "pos": "D" } },
+        { "player": { "name": "Anthony Valencia", "number": 8,  "pos": "M" } },
+        { "player": { "name": "Kendry Páez",      "number": 10, "pos": "M" } },
+        { "player": { "name": "Alan Minda",       "number": 14, "pos": "M" } },
+        { "player": { "name": "Denil Castillo",   "number": 18, "pos": "M" } },
+        { "player": { "name": "Jordy Alcivar",    "number": 5,  "pos": "M" } },
+        { "player": { "name": "Alan Franco",      "number": 21, "pos": "M" } },
+        { "player": { "name": "Jordy Caicedo",    "number": 16, "pos": "F" } },
+        { "player": { "name": "Jeremy Arévalo",   "number": 24, "pos": "F" } }
+      ]
+    },
+    {
+      "team": { "name": "Curaçao" },
+      "formation": "5-3-2",
+      "startXI": [
+        { "player": { "name": "Eloy Room",           "number": 1,  "pos": "G" } },
+        { "player": { "name": "Jurien Gaari",        "number": 3,  "pos": "D" } },
+        { "player": { "name": "Sherel Floranus",     "number": 5,  "pos": "D" } },
+        { "player": { "name": "Armando Obispo",      "number": 18, "pos": "D" } },
+        { "player": { "name": "Joshua Brenet",       "number": 20, "pos": "D" } },
+        { "player": { "name": "Roshon van Eijma",    "number": 4,  "pos": "M" } },
+        { "player": { "name": "Leandro Bacuna",      "number": 10, "pos": "M" } },
+        { "player": { "name": "Kenji Gorré",         "number": 14, "pos": "M" } },
+        { "player": { "name": "Godfried Roemeratoe", "number": 6,  "pos": "M" } },
+        { "player": { "name": "Jearl Margaritha",    "number": 16, "pos": "F" } },
+        { "player": { "name": "Juergen Locadia",     "number": 9,  "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Tyrick Bodak",      "number": 25, "pos": "G" } },
+        { "player": { "name": "Trevor Doornbusch", "number": 26, "pos": "G" } },
+        { "player": { "name": "Shurandy Sambo",    "number": 2,  "pos": "D" } },
+        { "player": { "name": "Riechedly Bazoer",  "number": 23, "pos": "D" } },
+        { "player": { "name": "Deveron Fonville",  "number": 24, "pos": "D" } },
+        { "player": { "name": "Arjany Martha",     "number": 15, "pos": "M" } },
+        { "player": { "name": "Kevin Felida",      "number": 22, "pos": "M" } },
+        { "player": { "name": "Jeremy Antonisse",  "number": 11, "pos": "M" } },
+        { "player": { "name": "Livano Comenencia", "number": 8,  "pos": "M" } },
+        { "player": { "name": "Juninho Bacuna",    "number": 7,  "pos": "M" } },
+        { "player": { "name": "Tahith Chong",      "number": 21, "pos": "F" } },
+        { "player": { "name": "Sontje Hansen",     "number": 12, "pos": "F" } },
+        { "player": { "name": "Tyrese Noslin",     "number": 13, "pos": "F" } },
+        { "player": { "name": "Brandley Kuwas",    "number": 17, "pos": "F" } },
+        { "player": { "name": "Gervane Kastaneer", "number": 19, "pos": "F" } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "fixture": {
+    "id": "wc2026-group-i-iraq-norway",
+    "date": "2026-06-17T00:00:00Z",
+    "venue": { "name": "Arrowhead Stadium", "city": "Kansas City" },
+    "status": { "short": "FT", "long": "Match Finished" }
+  },
+  "league": { "round": "Group I" },
+  "teams": {
+    "home": { "name": "Iraq", "code": "IRQ" },
+    "away": { "name": "Norway", "code": "NOR" }
+  },
+  "goals": { "home": 1, "away": 4 },
+  "score": {
+    "halftime": { "home": 1, "away": 2 },
+    "fulltime": { "home": 1, "away": 4 }
+  },
+  "stats": [
+    {
+      "team": "Iraq",
+      "statistics": [
+        { "type": "Possession", "value": "34%" },
+        { "type": "Shots on Goal", "value": 1 },
+        { "type": "Total Shots", "value": 11 },
+        { "type": "Corner Kicks", "value": 2 },
+        { "type": "Fouls", "value": 12 },
+        { "type": "Yellow Cards", "value": 1 },
+        { "type": "Red Cards", "value": 0 }
+      ]
+    },
+    {
+      "team": "Norway",
+      "statistics": [
+        { "type": "Possession", "value": "57%" },
+        { "type": "Shots on Goal", "value": 5 },
+        { "type": "Total Shots", "value": 11 },
+        { "type": "Corner Kicks", "value": 5 },
+        { "type": "Fouls", "value": 13 },
+        { "type": "Yellow Cards", "value": 0 },
+        { "type": "Red Cards", "value": 0 }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 29, "team": "Norway", "player": "Erling Haaland",      "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 39, "team": "Iraq",   "player": "Mohanad Ali",         "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 43, "team": "Norway", "player": "Erling Haaland",      "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 76, "team": "Iraq",   "player": "Neil Eike Østigård",  "type": "Goal",  "detail": "Own Goal (Norway)" },
+    { "minute": 96, "team": "Iraq",   "player": "Mohanad Ali",         "type": "Goal",  "detail": "Own Goal (Norway)" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Iraq" },
+      "formation": "4-4-2",
+      "startXI": [
+        { "player": { "name": "Fahad Hassan",   "number": 12, "pos": "GK" } },
+        { "player": { "name": "Humam Ali",      "number": 3,  "pos": "RB" } },
+        { "player": { "name": "Ali Adnan",      "number": 4,  "pos": "CB" } },
+        { "player": { "name": "Rebin Sulaka",   "number": 5,  "pos": "CB" } },
+        { "player": { "name": "Doski Abubakr",  "number": 23, "pos": "LB" } },
+        { "player": { "name": "Bashar Resan",   "number": 8,  "pos": "CM" } },
+        { "player": { "name": "Amjad Attwan",   "number": 24, "pos": "CM" } },
+        { "player": { "name": "Saad Natiq",     "number": 16, "pos": "RM" } },
+        { "player": { "name": "Hussein Ali",    "number": 17, "pos": "LM" } },
+        { "player": { "name": "Mohanad Ali",    "number": 18, "pos": "FW" } },
+        { "player": { "name": "Aymen Hussein",  "number": 9,  "pos": "ST" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Jalal Hassan",   "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Ahmed Yasin",    "number": 11, "pos": "FW" } }
+      ]
+    },
+    {
+      "team": { "name": "Norway" },
+      "formation": "4-4-2",
+      "startXI": [
+        { "player": { "name": "Ørjan Nyland",                "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Marcus Holmgren Pedersen",    "number": 26, "pos": "RB" } },
+        { "player": { "name": "Kristoffer Ajer",             "number": 3,  "pos": "CB" } },
+        { "player": { "name": "Andreas Hanche-Olsen",        "number": 17, "pos": "CB" } },
+        { "player": { "name": "David Wolfe",                 "number": 5,  "pos": "LB" } },
+        { "player": { "name": "Martin Ødegaard",             "number": 10, "pos": "CM" } },
+        { "player": { "name": "Sander Berge",                "number": 8,  "pos": "CM" } },
+        { "player": { "name": "Fredrik Aursnes",             "number": 14, "pos": "RM" } },
+        { "player": { "name": "Antonio Nusa",                "number": 20, "pos": "LM" } },
+        { "player": { "name": "Alexander Sørloth",           "number": 7,  "pos": "FW" } },
+        { "player": { "name": "Erling Haaland",              "number": 9,  "pos": "ST" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Matz Sels",                   "number": 12, "pos": "GK" } },
+        { "player": { "name": "Neil Eike Østigård",          "number": 6,  "pos": "DF" } },
+        { "player": { "name": "Mohamed Elyounoussi",         "number": 15, "pos": "FW" } }
+      ]
+    }
+  ]
+}

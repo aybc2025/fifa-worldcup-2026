@@ -1,0 +1,125 @@
+{
+  "fixture": {
+    "id": "wc2026-group-a-south-africa-korea-republic",
+    "date": "2026-06-25T01:00:00Z",
+    "venue": { "name": "Monterrey Stadium", "city": "Monterrey" },
+    "status": { "short": "FT", "long": "Match Finished" }
+  },
+  "league": { "round": "Group A" },
+  "teams": {
+    "home": { "name": "South Africa",   "code": "RSA" },
+    "away": { "name": "South Korea",    "code": "KOR" }
+  },
+  "goals": { "home": 1, "away": 0 },
+  "score": {
+    "halftime": { "home": 0, "away": 0 },
+    "fulltime":  { "home": 1, "away": 0 }
+  },
+  "stats": [
+    {
+      "team": "South Africa",
+      "statistics": [
+        { "type": "Possession",    "value": "32%" },
+        { "type": "Shots on Goal", "value": "4" },
+        { "type": "Total Shots",   "value": "13" },
+        { "type": "Corner Kicks",  "value": "4" },
+        { "type": "Fouls",         "value": "7" },
+        { "type": "Yellow Cards",  "value": "1" },
+        { "type": "Red Cards",     "value": "0" }
+      ]
+    },
+    {
+      "team": "South Korea",
+      "statistics": [
+        { "type": "Possession",    "value": "68%" },
+        { "type": "Shots on Goal", "value": "3" },
+        { "type": "Total Shots",   "value": "8" },
+        { "type": "Corner Kicks",  "value": "6" },
+        { "type": "Fouls",         "value": "9" },
+        { "type": "Yellow Cards",  "value": "1" },
+        { "type": "Red Cards",     "value": "0" }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 46, "team": "South Korea",   "player": "Jens-Lys Cajuste",  "type": "subst", "detail": "out: Lee Taeseok, in: Jens-Lys Cajuste" },
+    { "minute": 46, "team": "South Korea",   "player": "Paik Seungho",      "type": "subst", "detail": "out: Kim Jingyu, in: Paik Seungho" },
+    { "minute": 46, "team": "South Korea",   "player": "Hwang Heechan",     "type": "subst", "detail": "out: Son Heungmin, in: Hwang Heechan" },
+    { "minute": 62, "team": "South Africa",  "player": "Tshepang Moremi",   "type": "subst", "detail": "out: Oswin Appollis, in: Tshepang Moremi" },
+    { "minute": 63, "team": "South Africa",  "player": "Thapelo Maseko",    "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 65, "team": "South Korea",   "player": "Park Jinseob",      "type": "subst", "detail": "out: Kim Minjae, in: Park Jinseob" },
+    { "minute": 72, "team": "South Korea",   "player": "Kim Minjae",        "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 73, "team": "South Africa",  "player": "Aubrey Modiba",     "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 74, "team": "South Korea",   "player": "Oh Hyeongyu",       "type": "subst", "detail": "out: Cho Guesung, in: Oh Hyeongyu" },
+    { "minute": 75, "team": "South Africa",  "player": "Iqraam Rayners",    "type": "subst", "detail": "out: Thapelo Maseko, in: Iqraam Rayners" },
+    { "minute": 80, "team": "South Africa",  "player": "Jayden Adams",      "type": "subst", "detail": "out: Relebohile Mofokeng, in: Jayden Adams" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "South Africa" },
+      "formation": "4-2-3-1",
+      "startXI": [
+        { "player": { "name": "Ronwen Williams",      "number": 1,  "pos": "G" } },
+        { "player": { "name": "Aubrey Modiba",        "number": 6,  "pos": "D" } },
+        { "player": { "name": "Mbekezeli Mbokazi",    "number": 14, "pos": "D" } },
+        { "player": { "name": "Khuliso Mudau",        "number": 20, "pos": "D" } },
+        { "player": { "name": "Ime Okon",             "number": 21, "pos": "D" } },
+        { "player": { "name": "Thalente Mbatha",      "number": 5,  "pos": "M" } },
+        { "player": { "name": "Sphephelo Sithole",    "number": 13, "pos": "M" } },
+        { "player": { "name": "Oswin Appollis",       "number": 7,  "pos": "M" } },
+        { "player": { "name": "Relebohile Mofokeng",  "number": 10, "pos": "M" } },
+        { "player": { "name": "Thapelo Maseko",       "number": 12, "pos": "M" } },
+        { "player": { "name": "Evidence Makgopa",     "number": 17, "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Tshepang Moremi",     "number": 8,  "pos": "M" } },
+        { "player": { "name": "Iqraam Rayners",      "number": 15, "pos": "F" } },
+        { "player": { "name": "Jayden Adams",        "number": 23, "pos": "M" } },
+        { "player": { "name": "Sipho Chaine",        "number": 16, "pos": "G" } },
+        { "player": { "name": "Ricardo Goss",        "number": 22, "pos": "G" } },
+        { "player": { "name": "Thabang Matuludi",    "number": 2,  "pos": "D" } },
+        { "player": { "name": "Khulumani Ndamane",   "number": 3,  "pos": "D" } },
+        { "player": { "name": "Samukele Kabini",     "number": 18, "pos": "M" } },
+        { "player": { "name": "Nkosinathi Sibisi",   "number": 19, "pos": "D" } },
+        { "player": { "name": "Olwethu Makhanya",    "number": 24, "pos": "M" } },
+        { "player": { "name": "Bradley Cross",       "number": 26, "pos": "M" } },
+        { "player": { "name": "Lyle Foster",         "number": 9,  "pos": "F" } },
+        { "player": { "name": "Kamogelo Sebelebele", "number": 25, "pos": "F" } }
+      ]
+    },
+    {
+      "team": { "name": "South Korea" },
+      "formation": "3-4-3",
+      "startXI": [
+        { "player": { "name": "Kim Seunggyu",   "number": 1,  "pos": "G" } },
+        { "player": { "name": "Lee Hanbeom",    "number": 2,  "pos": "D" } },
+        { "player": { "name": "Kim Minjae",     "number": 4,  "pos": "D" } },
+        { "player": { "name": "Lee Taeseok",    "number": 13, "pos": "D" } },
+        { "player": { "name": "Seol Youngwoo",  "number": 22, "pos": "D" } },
+        { "player": { "name": "Lee Gihyuk",     "number": 3,  "pos": "M" } },
+        { "player": { "name": "Hwang Inbeom",   "number": 6,  "pos": "M" } },
+        { "player": { "name": "Kim Jingyu",     "number": 24, "pos": "M" } },
+        { "player": { "name": "Son Heungmin",   "number": 7,  "pos": "F" } },
+        { "player": { "name": "Lee Kangin",     "number": 19, "pos": "F" } },
+        { "player": { "name": "Cho Guesung",    "number": 9,  "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Jens-Lys Cajuste",  "number": 23, "pos": "D" } },
+        { "player": { "name": "Paik Seungho",      "number": 8,  "pos": "M" } },
+        { "player": { "name": "Hwang Heechan",     "number": 11, "pos": "F" } },
+        { "player": { "name": "Park Jinseob",      "number": 16, "pos": "D" } },
+        { "player": { "name": "Oh Hyeongyu",       "number": 18, "pos": "F" } },
+        { "player": { "name": "Song Bumkeun",      "number": 12, "pos": "G" } },
+        { "player": { "name": "Jo Hyeonwoo",       "number": 21, "pos": "G" } },
+        { "player": { "name": "Kim Taehyeon",      "number": 5,  "pos": "D" } },
+        { "player": { "name": "Cho Wije",          "number": 14, "pos": "D" } },
+        { "player": { "name": "Kim Moonhwan",      "number": 15, "pos": "D" } },
+        { "player": { "name": "Lee Jaesung",       "number": 10, "pos": "M" } },
+        { "player": { "name": "Bae Junho",         "number": 17, "pos": "M" } },
+        { "player": { "name": "Yang Hyunjun",      "number": 20, "pos": "F" } },
+        { "player": { "name": "Eum Jisung",        "number": 25, "pos": "F" } },
+        { "player": { "name": "Lee Donggyeong",    "number": 26, "pos": "M" } }
+      ]
+    }
+  ]
+}

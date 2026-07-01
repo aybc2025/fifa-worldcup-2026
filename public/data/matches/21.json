@@ -1,0 +1,129 @@
+{
+  "fixture": {
+    "id": "wc2026-group-d-tur-par",
+    "date": "2026-06-20T03:00:00Z",
+    "venue": { "name": "Levi's Stadium", "city": "Santa Clara" },
+    "status": { "short": "FT", "long": "Match Finished" }
+  },
+  "league": { "round": "Group D" },
+  "teams": {
+    "home": { "name": "Turkey",   "code": "TUR" },
+    "away": { "name": "Paraguay", "code": "PAR" }
+  },
+  "goals": { "home": 0, "away": 1 },
+  "score": {
+    "halftime": { "home": 0, "away": 1 },
+    "fulltime": { "home": 0, "away": 1 }
+  },
+  "stats": [
+    {
+      "team": "Turkey",
+      "statistics": [
+        { "type": "Possession",    "value": "67%" },
+        { "type": "Shots on Goal", "value": "5" },
+        { "type": "Total Shots",   "value": "32" },
+        { "type": "Corner Kicks",  "value": "12" },
+        { "type": "Fouls",         "value": "14" },
+        { "type": "Yellow Cards",  "value": "1" },
+        { "type": "Red Cards",     "value": "0" }
+      ]
+    },
+    {
+      "team": "Paraguay",
+      "statistics": [
+        { "type": "Possession",    "value": "19%" },
+        { "type": "Shots on Goal", "value": "2" },
+        { "type": "Total Shots",   "value": "7" },
+        { "type": "Corner Kicks",  "value": "0" },
+        { "type": "Fouls",         "value": "15" },
+        { "type": "Yellow Cards",  "value": "1" },
+        { "type": "Red Cards",     "value": "1" }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 2,  "team": "Paraguay", "player": "Matías Galarza",    "type": "Goal",  "detail": "1-0; assist: Julio Enciso" },
+    { "minute": 4,  "team": "Paraguay", "player": "Matías Galarza",    "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 46, "team": "Turkey",   "player": "Kerem Aktürkoğlu",  "type": "subst", "detail": "out: Baris Alper Yilmaz, in: Kerem Aktürkoğlu" },
+    { "minute": 46, "team": "Paraguay", "player": "Isidro Pitta",      "type": "subst", "detail": "out: Damian Bobadilla, in: Isidro Pitta" },
+    { "minute": 48, "team": "Paraguay", "player": "Miguel Almirón",    "type": "Card",  "detail": "Red Card" },
+    { "minute": 60, "team": "Turkey",   "player": "Deniz Gül",         "type": "subst", "detail": "out: Can Uzun, in: Deniz Gül" },
+    { "minute": 67, "team": "Paraguay", "player": "Gustavo Velázquez", "type": "subst", "detail": "out: Diego Gómez, in: Gustavo Velázquez" },
+    { "minute": 71, "team": "Turkey",   "player": "Eren Elmalı",       "type": "subst", "detail": "out: Ferdi Kadıoğlu, in: Eren Elmalı" },
+    { "minute": 71, "team": "Turkey",   "player": "Eren Elmalı",       "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 81, "team": "Paraguay", "player": "Alexandro Maidana", "type": "subst", "detail": "out: Juan José Cáceres, in: Alexandro Maidana" },
+    { "minute": 86, "team": "Turkey",   "player": "Orkun Kökçü",       "type": "subst", "detail": "out: Abdülkerim Bardakcı, in: Orkun Kökçü" },
+    { "minute": 91, "team": "Paraguay", "player": "Jose Canale",       "type": "subst", "detail": "out: Matías Galarza, in: Jose Canale" },
+    { "minute": 91, "team": "Paraguay", "player": "Gabriel Avalos",    "type": "subst", "detail": "out: Julio Enciso, in: Gabriel Avalos" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Turkey" },
+      "formation": "4-2-3-1",
+      "startXI": [
+        { "player": { "name": "Uğurcan Çakır",      "number": 23, "pos": "G" } },
+        { "player": { "name": "Merih Demiral",       "number": 3,  "pos": "D" } },
+        { "player": { "name": "Abdülkerim Bardakcı", "number": 14, "pos": "D" } },
+        { "player": { "name": "Mert Müldür",         "number": 18, "pos": "D" } },
+        { "player": { "name": "Ferdi Kadıoğlu",      "number": 20, "pos": "D" } },
+        { "player": { "name": "Hakan Çalhanoğlu",    "number": 10, "pos": "M" } },
+        { "player": { "name": "İsmail Yüksek",       "number": 16, "pos": "M" } },
+        { "player": { "name": "Orkun Kökçü",         "number": 6,  "pos": "M" } },
+        { "player": { "name": "Arda Güler",          "number": 8,  "pos": "M" } },
+        { "player": { "name": "Kenan Yıldız",        "number": 11, "pos": "F" } },
+        { "player": { "name": "Can Uzun",            "number": 26, "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Mert Günok",          "number": 1,  "pos": "G" } },
+        { "player": { "name": "Altay Bayındır",      "number": 12, "pos": "G" } },
+        { "player": { "name": "Zeki Çelik",          "number": 2,  "pos": "D" } },
+        { "player": { "name": "Çağlar Söyüncü",      "number": 4,  "pos": "D" } },
+        { "player": { "name": "Eren Elmalı",         "number": 13, "pos": "D" } },
+        { "player": { "name": "Ozan Kabak",          "number": 15, "pos": "D" } },
+        { "player": { "name": "Samet Akaydin",       "number": 25, "pos": "D" } },
+        { "player": { "name": "Salih Özcan",         "number": 5,  "pos": "M" } },
+        { "player": { "name": "Kaan Ayhan",          "number": 22, "pos": "M" } },
+        { "player": { "name": "İrfan Can Kahveci",   "number": 17, "pos": "M" } },
+        { "player": { "name": "Yunus Akgün",         "number": 19, "pos": "M" } },
+        { "player": { "name": "Kerem Aktürkoğlu",    "number": 7,  "pos": "F" } },
+        { "player": { "name": "Baris Alper Yılmaz",  "number": 21, "pos": "F" } },
+        { "player": { "name": "Deniz Gül",           "number": 9,  "pos": "F" } },
+        { "player": { "name": "Oğuz Aydın",          "number": 24, "pos": "F" } }
+      ]
+    },
+    {
+      "team": { "name": "Paraguay" },
+      "formation": "4-2-3-1",
+      "startXI": [
+        { "player": { "name": "Orlando Gill",      "number": 12, "pos": "G" } },
+        { "player": { "name": "Omar Alderete",     "number": 3,  "pos": "D" } },
+        { "player": { "name": "Juan José Cáceres", "number": 4,  "pos": "D" } },
+        { "player": { "name": "Junior Alonso",     "number": 6,  "pos": "D" } },
+        { "player": { "name": "Gustavo Gómez",     "number": 15, "pos": "D" } },
+        { "player": { "name": "Diego Gómez",       "number": 8,  "pos": "M" } },
+        { "player": { "name": "Andrés Cubas",      "number": 14, "pos": "M" } },
+        { "player": { "name": "Miguel Almirón",    "number": 10, "pos": "M" } },
+        { "player": { "name": "Matías Galarza",    "number": 23, "pos": "M" } },
+        { "player": { "name": "Julio Enciso",      "number": 19, "pos": "F" } },
+        { "player": { "name": "Isidro Pitta",      "number": 25, "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Gatito Fernández",           "number": 1,  "pos": "G" } },
+        { "player": { "name": "Gastón Olveira",             "number": 22, "pos": "G" } },
+        { "player": { "name": "Fabián Balbuena",            "number": 5,  "pos": "D" } },
+        { "player": { "name": "Alexandro Maidana",          "number": 26, "pos": "D" } },
+        { "player": { "name": "Gustavo Velázquez",          "number": 2,  "pos": "M" } },
+        { "player": { "name": "Jose Canale",                "number": 13, "pos": "M" } },
+        { "player": { "name": "Ramón Sosa",                 "number": 7,  "pos": "M" } },
+        { "player": { "name": "Mauricio",                   "number": 11, "pos": "M" } },
+        { "player": { "name": "Damian Bobadilla",           "number": 16, "pos": "M" } },
+        { "player": { "name": "Braian Ojeda",               "number": 20, "pos": "M" } },
+        { "player": { "name": "Gustavo Caballero",          "number": 24, "pos": "M" } },
+        { "player": { "name": "Antonio Sanabria",           "number": 9,  "pos": "F" } },
+        { "player": { "name": "Alejandro Romero Gamarra",   "number": 17, "pos": "F" } },
+        { "player": { "name": "Alex Arce",                  "number": 18, "pos": "F" } },
+        { "player": { "name": "Gabriel Avalos",             "number": 21, "pos": "F" } }
+      ]
+    }
+  ]
+}

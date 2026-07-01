@@ -1,0 +1,128 @@
+{
+  "fixture": {
+    "id": "wc2026-group-c-bra-hai",
+    "date": "2026-06-19T21:30:00Z",
+    "venue": { "name": "Lincoln Financial Field", "city": "Philadelphia" },
+    "status": { "short": "FT", "long": "Match Finished" }
+  },
+  "league": { "round": "Group C" },
+  "teams": {
+    "home": { "name": "Brazil", "code": "BRA" },
+    "away": { "name": "Haiti",  "code": "HAI" }
+  },
+  "goals": { "home": 3, "away": 0 },
+  "score": {
+    "halftime": { "home": 3, "away": 0 },
+    "fulltime": { "home": 3, "away": 0 }
+  },
+  "stats": [
+    {
+      "team": "Brazil",
+      "statistics": [
+        { "type": "Possession",    "value": "49%" },
+        { "type": "Shots on Goal", "value": "4" },
+        { "type": "Total Shots",   "value": "7" },
+        { "type": "Corner Kicks",  "value": "4" },
+        { "type": "Fouls",         "value": "13" },
+        { "type": "Yellow Cards",  "value": "1" },
+        { "type": "Red Cards",     "value": "0" }
+      ]
+    },
+    {
+      "team": "Haiti",
+      "statistics": [
+        { "type": "Possession",    "value": "43%" },
+        { "type": "Shots on Goal", "value": "3" },
+        { "type": "Total Shots",   "value": "7" },
+        { "type": "Corner Kicks",  "value": "4" },
+        { "type": "Fouls",         "value": "14" },
+        { "type": "Yellow Cards",  "value": "3" },
+        { "type": "Red Cards",     "value": "0" }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 23, "team": "Brazil", "player": "Matheus Cunha",     "type": "Goal",  "detail": "1-0" },
+    { "minute": 36, "team": "Brazil", "player": "Matheus Cunha",     "type": "Goal",  "detail": "2-0; assist: Vinícius Júnior" },
+    { "minute": 40, "team": "Brazil", "player": "Rayan",             "type": "subst", "detail": "out: Raphinha, in: Rayan" },
+    { "minute": 46, "team": "Haiti",  "player": "Wilson Isidor",     "type": "subst", "detail": "out: Frantzdy Pierrot, in: Wilson Isidor" },
+    { "minute": 46, "team": "Haiti",  "player": "Dominique Simon",   "type": "subst", "detail": "out: Carlens Arcus, in: Dominique Simon" },
+    { "minute": 48, "team": "Brazil", "player": "Vinícius Júnior",   "type": "Goal",  "detail": "3-0; assist: Lucas Paquetá" },
+    { "minute": 62, "team": "Haiti",  "player": "Louicius Deedson",  "type": "subst", "detail": "out: Josué Casimir, in: Louicius Deedson" },
+    { "minute": 64, "team": "Brazil", "player": "Endrick",           "type": "subst", "detail": "out: Matheus Cunha, in: Endrick" },
+    { "minute": 64, "team": "Brazil", "player": "Gabriel Martinelli","type": "subst", "detail": "out: Lucas Paquetá, in: Gabriel Martinelli" },
+    { "minute": 71, "team": "Haiti",  "player": "Lenny Joseph",      "type": "subst", "detail": "out: Ruben Providence, in: Lenny Joseph" },
+    { "minute": 81, "team": "Brazil", "player": "Ederson Silva",     "type": "subst", "detail": "out: Bruno Guimarães, in: Ederson Silva" },
+    { "minute": 81, "team": "Brazil", "player": "Danilo Santos",     "type": "subst", "detail": "out: Vinícius Júnior, in: Danilo Santos" },
+    { "minute": 81, "team": "Haiti",  "player": "Derrick Etienne",   "type": "subst", "detail": "out: Jean-Ricner Bellegarde, in: Derrick Etienne" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Brazil" },
+      "formation": "4-3-3",
+      "startXI": [
+        { "player": { "name": "Alisson",           "number": 1,  "pos": "G" } },
+        { "player": { "name": "Gabriel Magalhães", "number": 3,  "pos": "D" } },
+        { "player": { "name": "Marquinhos",        "number": 4,  "pos": "D" } },
+        { "player": { "name": "Danilo",            "number": 13, "pos": "D" } },
+        { "player": { "name": "Douglas Santos",    "number": 16, "pos": "D" } },
+        { "player": { "name": "Casemiro",          "number": 5,  "pos": "M" } },
+        { "player": { "name": "Bruno Guimarães",   "number": 8,  "pos": "M" } },
+        { "player": { "name": "Lucas Paquetá",     "number": 20, "pos": "M" } },
+        { "player": { "name": "Raphinha",          "number": 11, "pos": "F" } },
+        { "player": { "name": "Vinícius Júnior",   "number": 7,  "pos": "F" } },
+        { "player": { "name": "Matheus Cunha",     "number": 9,  "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Weverton",           "number": 12, "pos": "G" } },
+        { "player": { "name": "Ederson",            "number": 23, "pos": "G" } },
+        { "player": { "name": "Alex Sandro",        "number": 6,  "pos": "D" } },
+        { "player": { "name": "Bremer",             "number": 14, "pos": "D" } },
+        { "player": { "name": "Léo Pereira",        "number": 15, "pos": "D" } },
+        { "player": { "name": "Roger Ibañez",       "number": 24, "pos": "D" } },
+        { "player": { "name": "Fabinho",            "number": 17, "pos": "M" } },
+        { "player": { "name": "Ederson Silva",      "number": 2,  "pos": "M" } },
+        { "player": { "name": "Danilo Santos",      "number": 18, "pos": "M" } },
+        { "player": { "name": "Endrick",            "number": 19, "pos": "F" } },
+        { "player": { "name": "Gabriel Martinelli", "number": 22, "pos": "F" } },
+        { "player": { "name": "Luiz Henrique",      "number": 21, "pos": "F" } },
+        { "player": { "name": "Igor Thiago",        "number": 25, "pos": "F" } },
+        { "player": { "name": "Rayan",              "number": 26, "pos": "F" } }
+      ]
+    },
+    {
+      "team": { "name": "Haiti" },
+      "formation": "5-4-1",
+      "startXI": [
+        { "player": { "name": "Johny Placide",         "number": 1,  "pos": "G" } },
+        { "player": { "name": "Carlens Arcus",         "number": 2,  "pos": "D" } },
+        { "player": { "name": "Ricardo Adé",           "number": 4,  "pos": "D" } },
+        { "player": { "name": "Hannes Delcroix",       "number": 5,  "pos": "D" } },
+        { "player": { "name": "Martin Expérience",     "number": 8,  "pos": "D" } },
+        { "player": { "name": "Jean-Kevin Duverne",    "number": 22, "pos": "D" } },
+        { "player": { "name": "Jean-Ricner Bellegarde","number": 10, "pos": "M" } },
+        { "player": { "name": "Derrick Etienne",       "number": 7,  "pos": "M" } },
+        { "player": { "name": "Danley Jean Jacques",   "number": 17, "pos": "M" } },
+        { "player": { "name": "Ruben Providence",      "number": 15, "pos": "F" } },
+        { "player": { "name": "Frantzdy Pierrot",      "number": 20, "pos": "F" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Alexandre Pierre",  "number": 12, "pos": "G" } },
+        { "player": { "name": "Josué Duverger",    "number": 23, "pos": "G" } },
+        { "player": { "name": "Keeto Thermoncy",   "number": 3,  "pos": "D" } },
+        { "player": { "name": "Markhus Lacroix",   "number": 13, "pos": "D" } },
+        { "player": { "name": "Garven Metusala",   "number": 14, "pos": "D" } },
+        { "player": { "name": "Wilguens Paugain",  "number": 24, "pos": "D" } },
+        { "player": { "name": "Carl Sainte",       "number": 6,  "pos": "M" } },
+        { "player": { "name": "Dominique Simon",   "number": 25, "pos": "M" } },
+        { "player": { "name": "Woodensky Pierre",  "number": 26, "pos": "M" } },
+        { "player": { "name": "Josué Casimir",     "number": 3,  "pos": "M" } },
+        { "player": { "name": "Duckens Nazon",     "number": 9,  "pos": "F" } },
+        { "player": { "name": "Louicius Deedson",  "number": 11, "pos": "F" } },
+        { "player": { "name": "Lenny Joseph",      "number": 16, "pos": "F" } },
+        { "player": { "name": "Wilson Isidor",     "number": 18, "pos": "F" } },
+        { "player": { "name": "Yassin Fortune",    "number": 19, "pos": "F" } }
+      ]
+    }
+  ]
+}

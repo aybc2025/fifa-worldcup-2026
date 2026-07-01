@@ -1,0 +1,100 @@
+{
+  "fixture": {
+    "id": "wc2026-group-f-netherlands-japan",
+    "date": "2026-06-14T23:00:00Z",
+    "venue": { "name": "AT&T Stadium", "city": "Dallas" },
+    "status": { "short": "FT", "long": "Match Finished" }
+  },
+  "league": { "round": "Group F" },
+  "teams": {
+    "home": { "name": "Netherlands", "code": "NED" },
+    "away": { "name": "Japan", "code": "JPN" }
+  },
+  "goals": { "home": 2, "away": 2 },
+  "score": {
+    "halftime": { "home": 0, "away": 0 },
+    "fulltime": { "home": 2, "away": 2 }
+  },
+  "stats": [
+    {
+      "team": "Netherlands",
+      "statistics": [
+        { "type": "Possession", "value": "54%" },
+        { "type": "Shots on Goal", "value": 6 },
+        { "type": "Total Shots", "value": 10 },
+        { "type": "Corner Kicks", "value": 5 },
+        { "type": "Fouls", "value": 7 },
+        { "type": "Yellow Cards", "value": 3 },
+        { "type": "Red Cards", "value": 0 }
+      ]
+    },
+    {
+      "team": "Japan",
+      "statistics": [
+        { "type": "Possession", "value": "37%" },
+        { "type": "Shots on Goal", "value": 2 },
+        { "type": "Total Shots", "value": 9 },
+        { "type": "Corner Kicks", "value": 4 },
+        { "type": "Fouls", "value": 7 },
+        { "type": "Yellow Cards", "value": 0 },
+        { "type": "Red Cards", "value": 0 }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 51, "team": "Netherlands", "player": "Virgil van Dijk",      "type": "Goal",  "detail": "Normal Goal — assist: Ryan Gravenberch" },
+    { "minute": 57, "team": "Japan",       "player": "Ritsu Doan",           "type": "Goal",  "detail": "Normal Goal", "_confidence": "FIFA: Doan 57', Sofascore: Nakamura 57' — FIFA used as tiebreaker" },
+    { "minute": 64, "team": "Netherlands", "player": "Crysencio Summerville","type": "Goal",  "detail": "Normal Goal — assist: Ryan Gravenberch" },
+    { "minute": 70, "team": "Netherlands", "player": "Teun Koopmeiners",     "type": "subst", "detail": "out: Crysencio Summerville, in: Teun Koopmeiners" },
+    { "minute": 70, "team": "Netherlands", "player": "Memphis Depay",        "type": "subst", "detail": "out: Donyell Malen, in: Memphis Depay" },
+    { "minute": 75, "team": "Japan",       "player": "Takefusa Kubo",        "type": "subst", "detail": "out: Ritsu Doan, in: Takefusa Kubo" },
+    { "minute": 85, "team": "Netherlands", "player": "Brian Brobbey",        "type": "subst", "detail": "out: Cody Gakpo, in: Brian Brobbey" },
+    { "minute": 89, "team": "Japan",       "player": "Daichi Kamada",        "type": "Goal",  "detail": "Normal Goal — assist: Ogawa" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Netherlands" },
+      "formation": "4-3-3",
+      "startXI": [
+        { "player": { "name": "Bart Verbruggen",      "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Denzel Dumfries",      "number": 22, "pos": "RB" } },
+        { "player": { "name": "Jan Paul van Hecke",   "number": 6,  "pos": "CB" } },
+        { "player": { "name": "Virgil van Dijk",      "number": 4,  "pos": "CB" } },
+        { "player": { "name": "Micky van de Ven",     "number": 15, "pos": "LB" } },
+        { "player": { "name": "Ryan Gravenberch",     "number": 8,  "pos": "CM" } },
+        { "player": { "name": "Frenkie de Jong",      "number": 21, "pos": "CM" } },
+        { "player": { "name": "Tijjani Reijnders",    "number": 14, "pos": "CM" } },
+        { "player": { "name": "Crysencio Summerville","number": 24, "pos": "RW" } },
+        { "player": { "name": "Donyell Malen",        "number": 18, "pos": "LW" } },
+        { "player": { "name": "Cody Gakpo",           "number": 11, "pos": "ST" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Teun Koopmeiners",     "number": 7,  "pos": "MF" } },
+        { "player": { "name": "Memphis Depay",        "number": null,"pos": "FW" } },
+        { "player": { "name": "Brian Brobbey",        "number": 9,  "pos": "ST" } },
+        { "player": { "name": "Wout Weghorst",        "number": 19, "pos": "ST" } }
+      ]
+    },
+    {
+      "team": { "name": "Japan" },
+      "formation": "3-4-2-1",
+      "startXI": [
+        { "player": { "name": "Zion Suzuki",    "number": 1,  "pos": "GK" } },
+        { "player": { "name": "Shogo Taniguchi","number": 3,  "pos": "CB" } },
+        { "player": { "name": "Ko Itō",         "number": 16, "pos": "CB" } },
+        { "player": { "name": "Hiroki Ito",     "number": 21, "pos": "CB" } },
+        { "player": { "name": "Ritsu Doan",     "number": 10, "pos": "RWB" } },
+        { "player": { "name": "Ao Tanaka",      "number": 24, "pos": "CM" } },
+        { "player": { "name": "Daichi Kamada",  "number": 15, "pos": "CM" } },
+        { "player": { "name": "Kaoru Mitoma",   "number": 13, "pos": "LWB" } },
+        { "player": { "name": "Takefusa Kubo",  "number": 8,  "pos": "AM" } },
+        { "player": { "name": "Daizen Maeda",   "number": 11, "pos": "AM" } },
+        { "player": { "name": "Ayase Ueda",     "number": 18, "pos": "ST" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Reo Hatate",     "number": 7,  "pos": "MF" } },
+        { "player": { "name": "Takuma Asano",   "number": 19, "pos": "FW" } }
+      ]
+    }
+  ]
+}

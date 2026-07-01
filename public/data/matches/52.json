@@ -1,0 +1,616 @@
+﻿{
+    "fixture":  {
+                    "id":  "wc2026-group-i-norway-france",
+                    "date":  "2026-06-26T16:00:00Z",
+                    "venue":  {
+                                  "name":  "Boston Stadium",
+                                  "city":  "Boston"
+                              },
+                    "status":  {
+                                   "short":  "FT",
+                                   "long":  "Match Finished"
+                               }
+                },
+    "league":  {
+                   "round":  "Group I"
+               },
+    "teams":  {
+                  "home":  {
+                               "name":  "Norway",
+                               "code":  "NOR"
+                           },
+                  "away":  {
+                               "name":  "France",
+                               "code":  "FRA"
+                           }
+              },
+    "goals":  {
+                  "home":  1,
+                  "away":  4
+              },
+    "score":  {
+                  "halftime":  {
+                                   "home":  1,
+                                   "away":  3
+                               },
+                  "fulltime":  {
+                                   "home":  1,
+                                   "away":  4
+                               }
+              },
+    "stats":  [
+                  {
+                      "team":  "Norway",
+                      "statistics":  [
+                                         {
+                                             "type":  "Possession",
+                                             "value":  "40%"
+                                         },
+                                         {
+                                             "type":  "Shots on Goal",
+                                             "value":  5
+                                         },
+                                         {
+                                             "type":  "Total Shots",
+                                             "value":  10
+                                         },
+                                         {
+                                             "type":  "Corner Kicks",
+                                             "value":  4
+                                         },
+                                         {
+                                             "type":  "Fouls",
+                                             "value":  9
+                                         },
+                                         {
+                                             "type":  "Yellow Cards",
+                                             "value":  1
+                                         },
+                                         {
+                                             "type":  "Red Cards",
+                                             "value":  0
+                                         }
+                                     ]
+                  },
+                  {
+                      "team":  "France",
+                      "statistics":  [
+                                         {
+                                             "type":  "Possession",
+                                             "value":  "51%"
+                                         },
+                                         {
+                                             "type":  "Shots on Goal",
+                                             "value":  9
+                                         },
+                                         {
+                                             "type":  "Total Shots",
+                                             "value":  18
+                                         },
+                                         {
+                                             "type":  "Corner Kicks",
+                                             "value":  5
+                                         },
+                                         {
+                                             "type":  "Fouls",
+                                             "value":  11
+                                         },
+                                         {
+                                             "type":  "Yellow Cards",
+                                             "value":  1
+                                         },
+                                         {
+                                             "type":  "Red Cards",
+                                             "value":  0
+                                         }
+                                     ]
+                  }
+              ],
+    "events":  [
+                   {
+                       "minute":  7,
+                       "team":  "France",
+                       "player":  "Ousmane Dembélé",
+                       "type":  "Goal",
+                       "detail":  "Normal Goal"
+                   },
+                   {
+                       "minute":  10,
+                       "team":  "Norway",
+                       "player":  "Patrick Berg",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   },
+                   {
+                       "minute":  20,
+                       "team":  "France",
+                       "player":  "Ousmane Dembélé",
+                       "type":  "Goal",
+                       "detail":  "Normal Goal"
+                   },
+                   {
+                       "minute":  21,
+                       "team":  "Norway",
+                       "player":  "Thelo Aasgaard",
+                       "type":  "Goal",
+                       "detail":  "Normal Goal"
+                   },
+                   {
+                       "minute":  32,
+                       "team":  "France",
+                       "player":  "Ousmane Dembélé",
+                       "type":  "Goal",
+                       "detail":  "Normal Goal"
+                   },
+                   {
+                       "minute":  0,
+                       "team":  "Norway",
+                       "player":  "Morten Thorsby",
+                       "type":  "subst",
+                       "detail":  "out: Kristian Thorstvedt, in: Morten Thorsby (HT)"
+                   },
+                   {
+                       "minute":  0,
+                       "team":  "Norway",
+                       "player":  "Marcus Holmgren Pedersen",
+                       "type":  "subst",
+                       "detail":  "out: Fredrik Andre Bjorkan, in: Marcus Holmgren Pedersen (HT)"
+                   },
+                   {
+                       "minute":  65,
+                       "team":  "France",
+                       "player":  "Rayan Cherki",
+                       "type":  "subst",
+                       "detail":  "out: Michael Olise, in: Rayan Cherki"
+                   },
+                   {
+                       "minute":  65,
+                       "team":  "France",
+                       "player":  "Bradley Barcola",
+                       "type":  "subst",
+                       "detail":  "out: Ousmane Dembélé, in: Bradley Barcola"
+                   },
+                   {
+                       "minute":  66,
+                       "team":  "Norway",
+                       "player":  "Sondre Langas",
+                       "type":  "subst",
+                       "detail":  "out: Sondre Langas, in: Henrik Falchener"
+                   },
+                   {
+                       "minute":  74,
+                       "team":  "France",
+                       "player":  "Ibrahima Konate",
+                       "type":  "Card",
+                       "detail":  "Yellow Card"
+                   },
+                   {
+                       "minute":  76,
+                       "team":  "France",
+                       "player":  "Ibrahima Konate",
+                       "type":  "subst",
+                       "detail":  "out: Dayot Upamecano, in: Ibrahima Konate"
+                   },
+                   {
+                       "minute":  83,
+                       "team":  "Norway",
+                       "player":  "Jens Petter Hauge",
+                       "type":  "subst",
+                       "detail":  "out: Jens Petter Hauge, in: Andreas Schjelderup"
+                   },
+                   {
+                       "minute":  83,
+                       "team":  "Norway",
+                       "player":  "Antonio Nusa",
+                       "type":  "subst",
+                       "detail":  "out: Oscar Bobb, in: Antonio Nusa"
+                   },
+                   {
+                       "minute":  86,
+                       "team":  "France",
+                       "player":  "Jean-Philippe Mateta",
+                       "type":  "subst",
+                       "detail":  "out: Kylian Mbappé, in: Jean-Philippe Mateta"
+                   },
+                   {
+                       "minute":  86,
+                       "team":  "France",
+                       "player":  "Malo Gusto",
+                       "type":  "subst",
+                       "detail":  "out: Malo Gusto, in: Jules Koundé"
+                   },
+                   {
+                       "minute":  94,
+                       "team":  "France",
+                       "player":  "Désiré Doué",
+                       "type":  "Goal",
+                       "detail":  "Normal Goal"
+                   }
+               ],
+    "lineups":  [
+                    {
+                        "team":  {
+                                     "name":  "Norway"
+                                 },
+                        "formation":  "4-1-2-3",
+                        "startXI":  [
+                                        {
+                                            "player":  {
+                                                           "name":  "Egil Selvik",
+                                                           "number":  13,
+                                                           "pos":  "G"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Leo Ostigard",
+                                                           "number":  4,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Fredrik Andre Bjorkan",
+                                                           "number":  15,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Sondre Langas",
+                                                           "number":  24,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Patrick Berg",
+                                                           "number":  6,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Fredrik Aursnes",
+                                                           "number":  14,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Kristian Thorstvedt",
+                                                           "number":  18,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Thelo Aasgaard",
+                                                           "number":  19,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Jens Petter Hauge",
+                                                           "number":  23,
+                                                           "pos":  "F"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Oscar Bobb",
+                                                           "number":  22,
+                                                           "pos":  "F"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Jorgen Strand Larsen",
+                                                           "number":  11,
+                                                           "pos":  "F"
+                                                       }
+                                        }
+                                    ],
+                        "substitutes":  [
+                                            {
+                                                "player":  {
+                                                               "name":  "Orjan Nyland",
+                                                               "number":  1,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Sander Tangvik",
+                                                               "number":  12,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Kristoffer Ajer",
+                                                               "number":  3,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "David Moller Wolfe",
+                                                               "number":  5,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Henrik Falchener",
+                                                               "number":  25,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Marcus Holmgren Pedersen",
+                                                               "number":  16,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Torbjorn Heggem",
+                                                               "number":  17,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Morten Thorsby",
+                                                               "number":  2,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Sander Berge",
+                                                               "number":  8,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Martin Odegaard",
+                                                               "number":  10,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Andreas Schjelderup",
+                                                               "number":  21,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Antonio Nusa",
+                                                               "number":  20,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Alexander Sorloth",
+                                                               "number":  7,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Erling Haaland",
+                                                               "number":  9,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Julian Ryerson",
+                                                               "number":  26,
+                                                               "pos":  null
+                                                           }
+                                            }
+                                        ]
+                    },
+                    {
+                        "team":  {
+                                     "name":  "France"
+                                 },
+                        "formation":  "4-2-3-1",
+                        "startXI":  [
+                                        {
+                                            "player":  {
+                                                           "name":  "Mike Maignan",
+                                                           "number":  16,
+                                                           "pos":  "G"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Dayot Upamecano",
+                                                           "number":  4,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Malo Gusto",
+                                                           "number":  2,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Theo Hernandez",
+                                                           "number":  19,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Maxence Lacroix",
+                                                           "number":  26,
+                                                           "pos":  "D"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Manu Kone",
+                                                           "number":  6,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Aurélien Tchouaméni",
+                                                           "number":  8,
+                                                           "pos":  "M"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Ousmane Dembélé",
+                                                           "number":  7,
+                                                           "pos":  "F"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Kylian Mbappé",
+                                                           "number":  10,
+                                                           "pos":  "F"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Michael Olise",
+                                                           "number":  11,
+                                                           "pos":  "F"
+                                                       }
+                                        },
+                                        {
+                                            "player":  {
+                                                           "name":  "Désiré Doué",
+                                                           "number":  20,
+                                                           "pos":  "F"
+                                                       }
+                                        }
+                                    ],
+                        "substitutes":  [
+                                            {
+                                                "player":  {
+                                                               "name":  "Brice Samba",
+                                                               "number":  1,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Robin Risser",
+                                                               "number":  23,
+                                                               "pos":  "G"
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Lucas Digne",
+                                                               "number":  3,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Ibrahima Konate",
+                                                               "number":  15,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Jules Koundé",
+                                                               "number":  5,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "William Saliba",
+                                                               "number":  17,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Lucas Hernandez",
+                                                               "number":  21,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "N'Golo Kanté",
+                                                               "number":  13,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Adrien Rabiot",
+                                                               "number":  14,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Warren Zaïre-Emery",
+                                                               "number":  18,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Rayan Cherki",
+                                                               "number":  24,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Bradley Barcola",
+                                                               "number":  12,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Maghnes Akliouche",
+                                                               "number":  25,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Jean-Philippe Mateta",
+                                                               "number":  22,
+                                                               "pos":  null
+                                                           }
+                                            },
+                                            {
+                                                "player":  {
+                                                               "name":  "Marcus Thuram",
+                                                               "number":  9,
+                                                               "pos":  null
+                                                           }
+                                            }
+                                        ]
+                    }
+                ]
+}
