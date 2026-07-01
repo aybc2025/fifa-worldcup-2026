@@ -103,7 +103,9 @@ export default function HomePage() {
 })}
                   </h2>
                   <div className="space-y-2">
-                    {matches.map((f, i) => (
+                    {[...matches]
+                      .sort((a, b) => (a.fixture?.date ?? '').localeCompare(b.fixture?.date ?? ''))
+                      .map((f, i) => (
                       <MatchCard
                         key={f.id || f.fixture?.id || i}
                         fixture={f}
