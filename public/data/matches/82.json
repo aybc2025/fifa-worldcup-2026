@@ -1,0 +1,117 @@
+{
+  "stats": [
+    {
+      "team": "Belgium",
+      "statistics": [
+        { "type": "Possession",    "value": "48%" },
+        { "type": "Total Shots",   "value": 19 },
+        { "type": "Shots on Goal", "value": 5 },
+        { "type": "Corner Kicks",  "value": 4 },
+        { "type": "Fouls",         "value": 12 },
+        { "type": "Yellow Cards",  "value": 1 },
+        { "type": "Red Cards",     "value": 0 }
+      ]
+    },
+    {
+      "team": "Senegal",
+      "statistics": [
+        { "type": "Possession",    "value": "42%" },
+        { "type": "Total Shots",   "value": 19 },
+        { "type": "Shots on Goal", "value": 5 },
+        { "type": "Corner Kicks",  "value": 2 },
+        { "type": "Fouls",         "value": 22 },
+        { "type": "Yellow Cards",  "value": 1 },
+        { "type": "Red Cards",     "value": 0 }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 24,  "team": "Senegal", "player": "Habib Diarra",        "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 46,  "team": "Belgium", "player": "Romelu Lukaku",        "type": "subst", "detail": "out: Charles De Ketelaere" },
+    { "minute": 51,  "team": "Senegal", "player": "Ismaila Sarr",         "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 56,  "team": "Belgium", "player": "Nicolas Raskin",       "type": "subst", "detail": "out: Kevin De Bruyne" },
+    { "minute": 56,  "team": "Belgium", "player": "Dodi Lukebakio",       "type": "subst", "detail": "out: Jeremy Doku" },
+    { "minute": 63,  "team": "Belgium", "player": "Diego Moreira",        "type": "subst", "detail": "out: Hans Vanaken" },
+    { "minute": 64,  "team": "Belgium", "player": "Brandon Mechele",      "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 66,  "team": "Senegal", "player": "Lamine Camara",        "type": "subst", "detail": "out: Pape Gueye" },
+    { "minute": 67,  "team": "Senegal", "player": "Lamine Camara",        "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 73,  "team": "Senegal", "player": "Pape Matar Sarr",      "type": "subst", "detail": "out: Habib Diarra" },
+    { "minute": 73,  "team": "Senegal", "player": "Ibrahim Mbaye",        "type": "subst", "detail": "out: Iliman Ndiaye" },
+    { "minute": 78,  "team": "Belgium", "player": "Thomas Meunier",       "type": "subst", "detail": "out: Maxim De Cuyper" },
+    { "minute": 86,  "team": "Belgium", "player": "Romelu Lukaku",        "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 89,  "team": "Belgium", "player": "Youri Tielemans",      "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 93,  "team": "Senegal", "player": "El Hadji Malick Diouf","type": "subst", "detail": "out: Ismail Jakobs" },
+    { "minute": 93,  "team": "Senegal", "player": "Nicolas Jackson",      "type": "subst", "detail": "out: Sadio Mane" },
+    { "minute": 95,  "team": "Senegal", "player": "Bara Sapoko Ndiaye",   "type": "subst", "detail": "out: Idrissa Gana Gueye" },
+    { "minute": 109, "team": "Belgium", "player": "Amadou Onana",         "type": "subst", "detail": "out: Leandro Trossard" },
+    { "minute": 117, "team": "Belgium", "player": "Youri Tielemans",      "type": "Goal",  "detail": "Penalty" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Belgium" },
+      "formation": "4-2-3-1",
+      "startXI": [
+        { "player": { "name": "Thibaut Courtois",     "number": 1,  "pos": "GK"  } },
+        { "player": { "name": "Timothy Castagne",     "number": 21, "pos": "DEF" } },
+        { "player": { "name": "Brandon Mechele",      "number": 4,  "pos": "DEF" } },
+        { "player": { "name": "Arthur Theate",        "number": 3,  "pos": "DEF" } },
+        { "player": { "name": "Maxim De Cuyper",      "number": 5,  "pos": "DEF" } },
+        { "player": { "name": "Youri Tielemans",      "number": 8,  "pos": "MID" } },
+        { "player": { "name": "Kevin De Bruyne",      "number": 7,  "pos": "MID" } },
+        { "player": { "name": "Hans Vanaken",         "number": 20, "pos": "MID" } },
+        { "player": { "name": "Leandro Trossard",     "number": 10, "pos": "ATT" } },
+        { "player": { "name": "Jeremy Doku",          "number": 11, "pos": "ATT" } },
+        { "player": { "name": "Charles De Ketelaere", "number": 17, "pos": "ATT" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Senne Lammens",          "number": 12, "pos": "GK"  } },
+        { "player": { "name": "Mike Penders",           "number": 13, "pos": "GK"  } },
+        { "player": { "name": "Koni De Winter",         "number": 16, "pos": "DEF" } },
+        { "player": { "name": "Joaquin Seys",           "number": 18, "pos": "DEF" } },
+        { "player": { "name": "Nathan Ngoy",            "number": 25, "pos": "DEF" } },
+        { "player": { "name": "Thomas Meunier",         "number": 15, "pos": "DEF" } },
+        { "player": { "name": "Axel Witsel",            "number": 6,  "pos": "MID" } },
+        { "player": { "name": "Nicolas Raskin",         "number": 23, "pos": "MID" } },
+        { "player": { "name": "Amadou Onana",           "number": 24, "pos": "MID" } },
+        { "player": { "name": "Alexis Saelemaekers",    "number": 22, "pos": "MID" } },
+        { "player": { "name": "Diego Moreira",          "number": 19, "pos": "MID" } },
+        { "player": { "name": "Romelu Lukaku",          "number": 9,  "pos": "ATT" } },
+        { "player": { "name": "Dodi Lukebakio",         "number": 14, "pos": "ATT" } },
+        { "player": { "name": "Matias Fernandez-Pardo", "number": 26, "pos": "ATT" } }
+      ]
+    },
+    {
+      "team": { "name": "Senegal" },
+      "formation": "4-3-3",
+      "startXI": [
+        { "player": { "name": "Mory Diaw",          "number": 23, "pos": "GK"  } },
+        { "player": { "name": "Ismail Jakobs",       "number": 14, "pos": "DEF" } },
+        { "player": { "name": "Krepin Diatta",       "number": 15, "pos": "DEF" } },
+        { "player": { "name": "Moussa Niakhate",     "number": 19, "pos": "DEF" } },
+        { "player": { "name": "Pathe Ciss",          "number": 6,  "pos": "DEF" } },
+        { "player": { "name": "Idrissa Gana Gueye",  "number": 5,  "pos": "MID" } },
+        { "player": { "name": "Pape Gueye",          "number": 26, "pos": "MID" } },
+        { "player": { "name": "Habib Diarra",        "number": 21, "pos": "MID" } },
+        { "player": { "name": "Sadio Mane",          "number": 10, "pos": "ATT" } },
+        { "player": { "name": "Iliman Ndiaye",       "number": 13, "pos": "ATT" } },
+        { "player": { "name": "Ismaila Sarr",        "number": 18, "pos": "ATT" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Yehvann Diouf",        "number": null, "pos": "GK"  } },
+        { "player": { "name": "Mamadou Sarr",         "number": null, "pos": "GK"  } },
+        { "player": { "name": "Kalidou Koulibaly",    "number": null, "pos": "DEF" } },
+        { "player": { "name": "Abdoulaye Seck",       "number": null, "pos": "DEF" } },
+        { "player": { "name": "Antoine Mendy",        "number": null, "pos": "DEF" } },
+        { "player": { "name": "El Hadji Malick Diouf","number": null, "pos": "DEF" } },
+        { "player": { "name": "Lamine Camara",        "number": null, "pos": "MID" } },
+        { "player": { "name": "Bara Sapoko Ndiaye",   "number": null, "pos": "MID" } },
+        { "player": { "name": "Pape Matar Sarr",      "number": null, "pos": "MID" } },
+        { "player": { "name": "Assane Diao",          "number": null, "pos": "ATT" } },
+        { "player": { "name": "Bamba Dieng",          "number": null, "pos": "ATT" } },
+        { "player": { "name": "Ibrahim Mbaye",        "number": null, "pos": "ATT" } },
+        { "player": { "name": "Nicolas Jackson",      "number": null, "pos": "ATT" } },
+        { "player": { "name": "Cherif Ndiaye",        "number": null, "pos": "ATT" } }
+      ]
+    }
+  ]
+}

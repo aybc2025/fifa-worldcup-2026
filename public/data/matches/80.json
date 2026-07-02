@@ -1,0 +1,114 @@
+{
+  "stats": [
+    {
+      "team": "England",
+      "statistics": [
+        { "type": "Possession",    "value": "53%" },
+        { "type": "Total Shots",   "value": 16 },
+        { "type": "Shots on Goal", "value": 7 },
+        { "type": "Corner Kicks",  "value": 5 },
+        { "type": "Fouls",         "value": 10 },
+        { "type": "Yellow Cards",  "value": 1 },
+        { "type": "Red Cards",     "value": 0 }
+      ]
+    },
+    {
+      "team": "Congo DR",
+      "statistics": [
+        { "type": "Possession",    "value": "37%" },
+        { "type": "Total Shots",   "value": 7 },
+        { "type": "Shots on Goal", "value": 2 },
+        { "type": "Corner Kicks",  "value": 3 },
+        { "type": "Fouls",         "value": 12 },
+        { "type": "Yellow Cards",  "value": 1 },
+        { "type": "Red Cards",     "value": 0 }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 7,  "team": "Congo DR", "player": "Brian Cipenga",   "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 19, "team": "England",  "player": "Jude Bellingham", "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 28, "team": "Congo DR", "player": "Noah Sadiki",     "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 60, "team": "England",  "player": "Anthony Gordon",  "type": "subst", "detail": "out: Marcus Rashford" },
+    { "minute": 60, "team": "England",  "player": "Bukayo Saka",     "type": "subst", "detail": "out: Noni Madueke" },
+    { "minute": 64, "team": "Congo DR", "player": "Meschack Elia",   "type": "subst", "detail": "out: Nathanael Mbuku" },
+    { "minute": 70, "team": "England",  "player": "Eberechi Eze",    "type": "subst", "detail": "out: Djed Spence" },
+    { "minute": 75, "team": "England",  "player": "Harry Kane",      "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 76, "team": "Congo DR", "player": "Edo Kayembe",     "type": "subst", "detail": "out: Ngalayel Mukau" },
+    { "minute": 76, "team": "Congo DR", "player": "Theo Bongonda",   "type": "subst", "detail": "out: Brian Cipenga" },
+    { "minute": 86, "team": "England",  "player": "Harry Kane",      "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 89, "team": "Congo DR", "player": "Fiston Mayele",   "type": "subst", "detail": "out: Samuel Moutoussamy" },
+    { "minute": 89, "team": "Congo DR", "player": "Joris Kayembe",   "type": "subst", "detail": "out: Arthur Masuaku" },
+    { "minute": 91, "team": "England",  "player": "John Stones",     "type": "subst", "detail": "out: Declan Rice" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "England" },
+      "formation": "4-2-3-1",
+      "startXI": [
+        { "player": { "name": "Jordan Pickford",  "number": 1,  "pos": "GK"  } },
+        { "player": { "name": "Ezri Konsa",       "number": 2,  "pos": "DEF" } },
+        { "player": { "name": "Marc Guehi",       "number": 6,  "pos": "DEF" } },
+        { "player": { "name": "Nico O'Reilly",    "number": 3,  "pos": "DEF" } },
+        { "player": { "name": "Djed Spence",      "number": 25, "pos": "DEF" } },
+        { "player": { "name": "Declan Rice",      "number": 4,  "pos": "MID" } },
+        { "player": { "name": "Elliot Anderson",  "number": 8,  "pos": "MID" } },
+        { "player": { "name": "Jude Bellingham",  "number": 10, "pos": "MID" } },
+        { "player": { "name": "Marcus Rashford",  "number": 11, "pos": "ATT" } },
+        { "player": { "name": "Noni Madueke",     "number": 20, "pos": "ATT" } },
+        { "player": { "name": "Harry Kane",       "number": 9,  "pos": "ATT" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Dean Henderson",   "number": 13, "pos": "GK"  } },
+        { "player": { "name": "James Trafford",   "number": 23, "pos": "GK"  } },
+        { "player": { "name": "Trevoh Chalobah",  "number": 12, "pos": "DEF" } },
+        { "player": { "name": "Dan Burn",         "number": 15, "pos": "DEF" } },
+        { "player": { "name": "Reece James",      "number": 24, "pos": "DEF" } },
+        { "player": { "name": "Jarell Quansah",   "number": 26, "pos": "DEF" } },
+        { "player": { "name": "John Stones",      "number": 5,  "pos": "DEF" } },
+        { "player": { "name": "Jordan Henderson", "number": 14, "pos": "MID" } },
+        { "player": { "name": "Kobbie Mainoo",    "number": 16, "pos": "MID" } },
+        { "player": { "name": "Morgan Rogers",    "number": 17, "pos": "MID" } },
+        { "player": { "name": "Eberechi Eze",     "number": 21, "pos": "MID" } },
+        { "player": { "name": "Anthony Gordon",   "number": 18, "pos": "ATT" } },
+        { "player": { "name": "Bukayo Saka",      "number": 7,  "pos": "ATT" } },
+        { "player": { "name": "Ollie Watkins",    "number": 19, "pos": "ATT" } },
+        { "player": { "name": "Ivan Toney",       "number": 22, "pos": "ATT" } }
+      ]
+    },
+    {
+      "team": { "name": "Congo DR" },
+      "formation": "4-1-4-1",
+      "startXI": [
+        { "player": { "name": "Lionel Mpasi",        "number": null, "pos": "GK"  } },
+        { "player": { "name": "Aaron Wan-Bissaka",   "number": null, "pos": "DEF" } },
+        { "player": { "name": "Axel Tuanzebe",       "number": null, "pos": "DEF" } },
+        { "player": { "name": "Chancel Mbemba",      "number": null, "pos": "DEF" } },
+        { "player": { "name": "Arthur Masuaku",      "number": null, "pos": "DEF" } },
+        { "player": { "name": "Noah Sadiki",         "number": 14,   "pos": "MID" } },
+        { "player": { "name": "Ngalayel Mukau",      "number": null, "pos": "MID" } },
+        { "player": { "name": "Nathanael Mbuku",     "number": null, "pos": "MID" } },
+        { "player": { "name": "Samuel Moutoussamy",  "number": null, "pos": "MID" } },
+        { "player": { "name": "Yoane Wissa",         "number": null, "pos": "ATT" } },
+        { "player": { "name": "Brian Cipenga",       "number": 9,    "pos": "ATT" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Timothy Fayulu",    "number": null, "pos": "GK"  } },
+        { "player": { "name": "Matthieu Epolo",    "number": null, "pos": "GK"  } },
+        { "player": { "name": "Steve Kapuadi",     "number": null, "pos": "DEF" } },
+        { "player": { "name": "Dylan Batubinsika", "number": null, "pos": "DEF" } },
+        { "player": { "name": "Gedeon Kalulu",     "number": null, "pos": "DEF" } },
+        { "player": { "name": "Aaron Tshibola",    "number": null, "pos": "MID" } },
+        { "player": { "name": "Charles Pickel",    "number": null, "pos": "MID" } },
+        { "player": { "name": "Gael Kakuta",       "number": null, "pos": "MID" } },
+        { "player": { "name": "Meschack Elia",     "number": null, "pos": "MID" } },
+        { "player": { "name": "Edo Kayembe",       "number": null, "pos": "MID" } },
+        { "player": { "name": "Theo Bongonda",     "number": null, "pos": "ATT" } },
+        { "player": { "name": "Cedric Bakambu",    "number": null, "pos": "ATT" } },
+        { "player": { "name": "Fiston Mayele",     "number": null, "pos": "ATT" } },
+        { "player": { "name": "Simon Banza",       "number": null, "pos": "ATT" } },
+        { "player": { "name": "Joris Kayembe",     "number": null, "pos": "DEF" } }
+      ]
+    }
+  ]
+}
