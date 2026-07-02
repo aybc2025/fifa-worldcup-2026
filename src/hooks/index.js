@@ -1,7 +1,7 @@
 import { useQuery } from '@tanstack/react-query'
 import { useState, useEffect, useCallback } from 'react'
 import { useTranslation } from 'react-i18next'
-import { fetchTeamsData } from '../services/apiClient'
+import { fetchTeamsData, fetchSquads } from '../services/apiClient'
 import { useAllFixtures } from './useMatches'
 import { TTL } from '../config/constants'
 import { FLAG_URL, COUNTRY_CODES } from '../config/constants'
@@ -181,7 +181,16 @@ export function useTeams() {
 export function useTeam(id) {
   const { teams, isLoading, isError } = useTeams()
   const team = teams.find((t) => String(t.id) === String(id)) ?? null
-  return { team, players: [], isLoading, isError }
+
+  const { data: squads } = useQuery({
+    queryKey: ['squads'],
+    queryFn: fetchSquads,
+    staleTime: Infinity,
+  })
+
+  const players = squads && team ? (squads[team.name] ?? []) : []
+
+  return { team, players, isLoading, isError }
 }
 
 // ── Top Scorers — derived from fixture goal events ────────

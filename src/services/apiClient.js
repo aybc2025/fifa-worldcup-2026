@@ -22,3 +22,7 @@ export const fetchTeamsData = () => apiFetch(`${RAW}/worldcup.teams.json`)
 export const fetchMatchDetail = (id) =>
   apiFetch(`${import.meta.env.BASE_URL}data/matches/${id}.json`).catch(() => null)
 
+// Pre-built squad roster for every team, keyed by openfootball team name
+export const fetchSquads = () =>
+  apiFetch(`${import.meta.env.BASE_URL}data/squads.json`).catch(() => null)
+
