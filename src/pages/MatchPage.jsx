@@ -91,7 +91,12 @@ export default function MatchPage() {
               </div>
               {isLive
                 ? <LiveScoreBadge elapsed={fix?.status?.elapsed} status={status} />
-                : <span className="text-xs text-muted">{status === 'FT' ? t('match.fulltime') : timeStr}</span>
+                : <span className="text-xs text-muted">
+                    {status === 'FT' ? t('match.fulltime')
+                      : status === 'AET' ? t('match.aet')
+                      : status === 'PEN' ? t('match.penalties')
+                      : timeStr}
+                  </span>
               }
             </div>
 

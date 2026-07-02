@@ -29,7 +29,12 @@ function matchToUTC(date, time) {
 
 export function normalizeMatch(m, idx) {
   const dateStr = matchToUTC(m.date, m.time)
-  const hasScore = Array.isArray(m.score?.ft)
+  const ftScore = m.score?.ft
+  const etScore = m.score?.et
+  const penScore = m.score?.p
+  const hasScore = Array.isArray(ftScore)
+  const hasET = Array.isArray(etScore)
+  const hasPen = Array.isArray(penScore)
 
   const homeName = typeof m.team1 === 'string' ? m.team1 : (m.team1?.name ?? 'TBD')
   const awayName = typeof m.team2 === 'string' ? m.team2 : (m.team2?.name ?? 'TBD')
@@ -38,11 +43,12 @@ export function normalizeMatch(m, idx) {
   const homeId = teamId(homeName)
   const awayId = teamId(awayName)
 
-  const homeGoals = hasScore ? m.score.ft[0] : null
-  const awayGoals = hasScore ? m.score.ft[1] : null
-  const hasPen = Array.isArray(m.score?.p)
-  const homePen = hasPen ? m.score.p[0] : null
-  const awayPen = hasPen ? m.score.p[1] : null
+  // Use ET score when available (includes extra-time goals); fall back to FT
+  const displayScore = hasET ? etScore : ftScore
+  const homeGoals = displayScore ? displayScore[0] : null
+  const awayGoals = displayScore ? displayScore[1] : null
+  const homePen = hasPen ? penScore[0] : null
+  const awayPen = hasPen ? penScore[1] : null
 
   const events = [
     ...(m.goals1 ?? []).map((g) => ({
@@ -67,8 +73,8 @@ export function normalizeMatch(m, idx) {
       date: dateStr,
       localDate: m.date ?? dateStr.slice(0, 10),
       status: {
-        short: hasScore ? (hasPen ? 'PEN' : 'FT') : 'NS',
-        long: hasScore ? (hasPen ? 'Penalties' : 'Match Finished') : 'Not Started',
+        short: hasScore ? (hasPen ? 'PEN' : hasET ? 'AET' : 'FT') : 'NS',
+        long: hasScore ? (hasPen ? 'Penalties' : hasET ? 'After Extra Time' : 'Match Finished') : 'Not Started',
       },
       venue: m.ground ? { name: m.ground.name, city: m.ground.city } : null,
     },
