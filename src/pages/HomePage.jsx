@@ -91,12 +91,12 @@ export default function HomePage() {
         {Object.keys(grouped).length === 0 ? (
           <EmptyState />
         ) : (
-          <div className="px-4 space-y-5">
+          <div className="px-2 space-y-5">
             {Object.entries(grouped)
               .sort(([a], [b]) => a.localeCompare(b))
               .map(([date, matches]) => (
                 <div key={date}>
-                  <h2 className="text-[11px] font-semibold text-muted tracking-widest uppercase mb-2 px-1">
+                  <h2 className="text-xs font-semibold text-muted tracking-widest uppercase mb-2 px-1">
                     {date === 'TBD' ? 'TBD' : new Date(date + 'T00:00:00Z').toLocaleDateString(undefined, {
   weekday: 'long', month: 'long', day: 'numeric',
   timeZone: 'UTC',
