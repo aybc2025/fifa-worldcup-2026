@@ -1,0 +1,114 @@
+{
+  "stats": [
+    {
+      "team": "Spain",
+      "statistics": [
+        { "type": "Possession",    "value": "59%" },
+        { "type": "Total Shots",   "value": 23 },
+        { "type": "Shots on Goal", "value": 10 },
+        { "type": "Corner Kicks",  "value": 9 },
+        { "type": "Fouls",         "value": 15 },
+        { "type": "Yellow Cards",  "value": 0 },
+        { "type": "Red Cards",     "value": 0 }
+      ]
+    },
+    {
+      "team": "Austria",
+      "statistics": [
+        { "type": "Possession",    "value": "33%" },
+        { "type": "Total Shots",   "value": 5 },
+        { "type": "Shots on Goal", "value": 0 },
+        { "type": "Corner Kicks",  "value": 0 },
+        { "type": "Fouls",         "value": 8 },
+        { "type": "Yellow Cards",  "value": 1 },
+        { "type": "Red Cards",     "value": 0 }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 36, "team": "Spain",   "player": "Mikel Oyarzabal",   "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 46, "team": "Austria", "player": "Carney Chukwuemeka","type": "subst", "detail": "out: Nicolas Seiwald" },
+    { "minute": 46, "team": "Austria", "player": "Florian Grillitsch", "type": "subst", "detail": "out: Xaver Schlager" },
+    { "minute": 60, "team": "Austria", "player": "Marko Arnautovic",  "type": "subst", "detail": "out: Michael Gregoritsch" },
+    { "minute": 60, "team": "Austria", "player": "Sasa Kalajdzic",    "type": "subst", "detail": "out: Romano Schmid" },
+    { "minute": 66, "team": "Spain",   "player": "Pedro Porro",       "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 71, "team": "Spain",   "player": "Mikel Merino",      "type": "subst", "detail": "out: Dani Olmo" },
+    { "minute": 71, "team": "Spain",   "player": "Ferran Torres",     "type": "subst", "detail": "out: Alex Baena" },
+    { "minute": 83, "team": "Austria", "player": "Stefan Posch",      "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 85, "team": "Austria", "player": "Alexander Prass",   "type": "subst", "detail": "out: Stefan Posch" },
+    { "minute": 85, "team": "Spain",   "player": "Gavi",              "type": "subst", "detail": "out: Lamine Yamal" },
+    { "minute": 89, "team": "Spain",   "player": "Mikel Oyarzabal",   "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 93, "team": "Spain",   "player": "Marc Pubill",       "type": "subst", "detail": "out: Aymeric Laporte" },
+    { "minute": 93, "team": "Spain",   "player": "Fabian Ruiz",       "type": "subst", "detail": "out: Pedri" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Spain" },
+      "formation": "4-2-3-1",
+      "startXI": [
+        { "player": { "name": "Unai Simon",       "number": 23, "pos": "GK"  } },
+        { "player": { "name": "Pedro Porro",      "number": 12, "pos": "DEF" } },
+        { "player": { "name": "Aymeric Laporte",  "number": 14, "pos": "DEF" } },
+        { "player": { "name": "Pau Cubarsi",      "number": 22, "pos": "DEF" } },
+        { "player": { "name": "Marc Cucurella",   "number": 24, "pos": "DEF" } },
+        { "player": { "name": "Rodri",            "number": 16, "pos": "MID" } },
+        { "player": { "name": "Pedri",            "number": 20, "pos": "MID" } },
+        { "player": { "name": "Dani Olmo",        "number": 10, "pos": "MID" } },
+        { "player": { "name": "Alex Baena",       "number": 15, "pos": "MID" } },
+        { "player": { "name": "Lamine Yamal",     "number": 19, "pos": "ATT" } },
+        { "player": { "name": "Mikel Oyarzabal",  "number": 21, "pos": "ATT" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "David Raya",        "number": 1,  "pos": "GK"  } },
+        { "player": { "name": "Joan Garcia",       "number": 13, "pos": "GK"  } },
+        { "player": { "name": "Marc Pubill",       "number": 2,  "pos": "DEF" } },
+        { "player": { "name": "Alex Grimaldo",     "number": 3,  "pos": "DEF" } },
+        { "player": { "name": "Eric Garcia",       "number": 4,  "pos": "DEF" } },
+        { "player": { "name": "Marcos Llorente",   "number": 5,  "pos": "MID" } },
+        { "player": { "name": "Mikel Merino",      "number": 6,  "pos": "MID" } },
+        { "player": { "name": "Fabian Ruiz",       "number": 8,  "pos": "MID" } },
+        { "player": { "name": "Martin Zubimendi",  "number": 18, "pos": "MID" } },
+        { "player": { "name": "Gavi",              "number": 9,  "pos": "MID" } },
+        { "player": { "name": "Victor Munoz",      "number": 25, "pos": "MID" } },
+        { "player": { "name": "Ferran Torres",     "number": 7,  "pos": "ATT" } },
+        { "player": { "name": "Yeremy Pino",       "number": 11, "pos": "ATT" } },
+        { "player": { "name": "Nico Williams",     "number": 17, "pos": "ATT" } },
+        { "player": { "name": "Borja Iglesias",    "number": 26, "pos": "ATT" } }
+      ]
+    },
+    {
+      "team": { "name": "Austria" },
+      "formation": "4-2-3-1",
+      "startXI": [
+        { "player": { "name": "Alexander Schlager",  "number": 1,  "pos": "GK"  } },
+        { "player": { "name": "Stefan Posch",        "number": 5,  "pos": "DEF" } },
+        { "player": { "name": "Kevin Danso",         "number": 3,  "pos": "DEF" } },
+        { "player": { "name": "David Alaba",         "number": 8,  "pos": "DEF" } },
+        { "player": { "name": "Konrad Laimer",       "number": 20, "pos": "DEF" } },
+        { "player": { "name": "Nicolas Seiwald",     "number": 6,  "pos": "MID" } },
+        { "player": { "name": "Xaver Schlager",      "number": 4,  "pos": "MID" } },
+        { "player": { "name": "Romano Schmid",       "number": 18, "pos": "MID" } },
+        { "player": { "name": "Paul Wanner",         "number": 24, "pos": "MID" } },
+        { "player": { "name": "Marcel Sabitzer",     "number": 9,  "pos": "MID" } },
+        { "player": { "name": "Michael Gregoritsch", "number": 11, "pos": "ATT" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Florian Wiegele",     "number": null, "pos": "GK"  } },
+        { "player": { "name": "Patrick Pentz",       "number": null, "pos": "GK"  } },
+        { "player": { "name": "David Affengruber",   "number": null, "pos": "DEF" } },
+        { "player": { "name": "Philipp Lienhart",    "number": null, "pos": "DEF" } },
+        { "player": { "name": "Phillip Mwene",       "number": null, "pos": "DEF" } },
+        { "player": { "name": "Marco Friedl",        "number": null, "pos": "DEF" } },
+        { "player": { "name": "Michael Svoboda",     "number": null, "pos": "DEF" } },
+        { "player": { "name": "Alexander Prass",     "number": null, "pos": "DEF" } },
+        { "player": { "name": "Florian Grillitsch",  "number": null, "pos": "MID" } },
+        { "player": { "name": "Carney Chukwuemeka",  "number": null, "pos": "MID" } },
+        { "player": { "name": "Dejan Ljubicic",      "number": null, "pos": "MID" } },
+        { "player": { "name": "Alessandro Schoepf",  "number": null, "pos": "MID" } },
+        { "player": { "name": "Patrick Wimmer",      "number": null, "pos": "MID" } },
+        { "player": { "name": "Marko Arnautovic",    "number": null, "pos": "ATT" } },
+        { "player": { "name": "Sasa Kalajdzic",      "number": null, "pos": "ATT" } }
+      ]
+    }
+  ]
+}

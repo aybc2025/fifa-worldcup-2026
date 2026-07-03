@@ -1,0 +1,115 @@
+{
+  "stats": [
+    {
+      "team": "Portugal",
+      "statistics": [
+        { "type": "Possession",    "value": "55%" },
+        { "type": "Total Shots",   "value": 15 },
+        { "type": "Shots on Goal", "value": 3 },
+        { "type": "Corner Kicks",  "value": 9 },
+        { "type": "Fouls",         "value": 12 },
+        { "type": "Yellow Cards",  "value": 1 },
+        { "type": "Red Cards",     "value": 0 }
+      ]
+    },
+    {
+      "team": "Croatia",
+      "statistics": [
+        { "type": "Possession",    "value": "37%" },
+        { "type": "Total Shots",   "value": 13 },
+        { "type": "Shots on Goal", "value": 6 },
+        { "type": "Corner Kicks",  "value": 5 },
+        { "type": "Fouls",         "value": 6 },
+        { "type": "Yellow Cards",  "value": 2 },
+        { "type": "Red Cards",     "value": 0 }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 17, "team": "Portugal", "player": "Ruben Dias",          "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 46, "team": "Croatia",  "player": "Igor Matanovic",       "type": "subst", "detail": "out: Ante Budimir" },
+    { "minute": 53, "team": "Croatia",  "player": "Ivan Perisic",         "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 59, "team": "Croatia",  "player": "Luka Modric",          "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 62, "team": "Portugal", "player": "Bernardo Silva",       "type": "subst", "detail": "out: Vitinha" },
+    { "minute": 63, "team": "Portugal", "player": "Nelson Semedo",        "type": "subst", "detail": "out: Bruno Fernandes" },
+    { "minute": 63, "team": "Portugal", "player": "Francisco Conceicao",  "type": "subst", "detail": "out: Pedro Neto" },
+    { "minute": 63, "team": "Portugal", "player": "Goncalo Ramos",        "type": "subst", "detail": "out: Joao Cancelo" },
+    { "minute": 68, "team": "Croatia",  "player": "Mario Pasalic",        "type": "subst", "detail": "out: Martin Baturina" },
+    { "minute": 68, "team": "Portugal", "player": "Cristiano Ronaldo",    "type": "Goal",  "detail": "Penalty" },
+    { "minute": 81, "team": "Portugal", "player": "Ruben Neves",          "type": "subst", "detail": "out: Cristiano Ronaldo" },
+    { "minute": 92, "team": "Croatia",  "player": "Josko Gvardiol",       "type": "subst", "detail": "out: Nikola Vlasic" },
+    { "minute": 94, "team": "Portugal", "player": "Goncalo Ramos",        "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 96, "team": "Croatia",  "player": "Andrej Kramaric",      "type": "subst", "detail": "out: Mateo Kovacic" },
+    { "minute": 98, "team": "Croatia",  "player": "Ivan Perisic",         "type": "Card",  "detail": "Yellow Card" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Portugal" },
+      "formation": "4-2-3-1",
+      "startXI": [
+        { "player": { "name": "Diogo Costa",        "number": 1,  "pos": "GK"  } },
+        { "player": { "name": "Joao Cancelo",        "number": 20, "pos": "DEF" } },
+        { "player": { "name": "Ruben Dias",          "number": 3,  "pos": "DEF" } },
+        { "player": { "name": "Renato Veiga",        "number": 13, "pos": "DEF" } },
+        { "player": { "name": "Nuno Mendes",         "number": 25, "pos": "DEF" } },
+        { "player": { "name": "Joao Neves",          "number": 15, "pos": "MID" } },
+        { "player": { "name": "Vitinha",             "number": 23, "pos": "MID" } },
+        { "player": { "name": "Pedro Neto",          "number": 18, "pos": "MID" } },
+        { "player": { "name": "Bruno Fernandes",     "number": 8,  "pos": "MID" } },
+        { "player": { "name": "Rafael Leao",         "number": 17, "pos": "MID" } },
+        { "player": { "name": "Cristiano Ronaldo",   "number": 7,  "pos": "ATT" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Jose Sa",             "number": 12, "pos": "GK"  } },
+        { "player": { "name": "Rui Silva",           "number": 22, "pos": "GK"  } },
+        { "player": { "name": "Nelson Semedo",       "number": 2,  "pos": "DEF" } },
+        { "player": { "name": "Tomas Araujo",        "number": 4,  "pos": "DEF" } },
+        { "player": { "name": "Diogo Dalot",         "number": 5,  "pos": "DEF" } },
+        { "player": { "name": "Goncalo Inacio",      "number": 14, "pos": "DEF" } },
+        { "player": { "name": "Samu Costa",          "number": 24, "pos": "MID" } },
+        { "player": { "name": "Matheus Nunes",       "number": 6,  "pos": "MID" } },
+        { "player": { "name": "Bernardo Silva",      "number": 10, "pos": "MID" } },
+        { "player": { "name": "Ruben Neves",         "number": 21, "pos": "MID" } },
+        { "player": { "name": "Francisco Conceicao", "number": 26, "pos": "MID" } },
+        { "player": { "name": "Goncalo Ramos",       "number": 9,  "pos": "ATT" } },
+        { "player": { "name": "Joao Felix",          "number": 11, "pos": "ATT" } },
+        { "player": { "name": "Francisco Trincao",   "number": 16, "pos": "ATT" } },
+        { "player": { "name": "Goncalo Guedes",      "number": 19, "pos": "ATT" } }
+      ]
+    },
+    {
+      "team": { "name": "Croatia" },
+      "formation": "4-2-3-1",
+      "startXI": [
+        { "player": { "name": "Dominik Livakovic",  "number": 1,  "pos": "GK"  } },
+        { "player": { "name": "Josip Stanisic",     "number": 2,  "pos": "DEF" } },
+        { "player": { "name": "Marin Pongracic",    "number": 3,  "pos": "DEF" } },
+        { "player": { "name": "Josip Sutalo",       "number": 6,  "pos": "DEF" } },
+        { "player": { "name": "Ivan Perisic",       "number": 14, "pos": "DEF" } },
+        { "player": { "name": "Luka Modric",        "number": 10, "pos": "MID" } },
+        { "player": { "name": "Mateo Kovacic",      "number": 8,  "pos": "MID" } },
+        { "player": { "name": "Nikola Vlasic",      "number": 13, "pos": "MID" } },
+        { "player": { "name": "Petar Sucic",        "number": 17, "pos": "MID" } },
+        { "player": { "name": "Martin Baturina",    "number": 16, "pos": "MID" } },
+        { "player": { "name": "Ante Budimir",       "number": 11, "pos": "ATT" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Ivor Pandur",        "number": null, "pos": "GK"  } },
+        { "player": { "name": "Dominik Kotarski",   "number": null, "pos": "GK"  } },
+        { "player": { "name": "Josko Gvardiol",     "number": null, "pos": "DEF" } },
+        { "player": { "name": "Duje Caleta-Car",    "number": null, "pos": "DEF" } },
+        { "player": { "name": "Luka Vuskovic",      "number": null, "pos": "DEF" } },
+        { "player": { "name": "Martin Erlic",       "number": null, "pos": "DEF" } },
+        { "player": { "name": "Kristijan Jakic",    "number": null, "pos": "MID" } },
+        { "player": { "name": "Nikola Moro",        "number": null, "pos": "MID" } },
+        { "player": { "name": "Mario Pasalic",      "number": null, "pos": "MID" } },
+        { "player": { "name": "Toni Fruk",          "number": null, "pos": "MID" } },
+        { "player": { "name": "Luka Sucic",         "number": null, "pos": "MID" } },
+        { "player": { "name": "Marco Pasalic",      "number": null, "pos": "MID" } },
+        { "player": { "name": "Andrej Kramaric",    "number": null, "pos": "ATT" } },
+        { "player": { "name": "Igor Matanovic",     "number": null, "pos": "ATT" } },
+        { "player": { "name": "Petar Musa",         "number": null, "pos": "ATT" } }
+      ]
+    }
+  ]
+}

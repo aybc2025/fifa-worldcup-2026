@@ -1,0 +1,111 @@
+{
+  "stats": [
+    {
+      "team": "Switzerland",
+      "statistics": [
+        { "type": "Possession",    "value": "40%" },
+        { "type": "Total Shots",   "value": 11 },
+        { "type": "Shots on Goal", "value": 5 },
+        { "type": "Corner Kicks",  "value": 4 },
+        { "type": "Fouls",         "value": 12 },
+        { "type": "Yellow Cards",  "value": 0 },
+        { "type": "Red Cards",     "value": 0 }
+      ]
+    },
+    {
+      "team": "Algeria",
+      "statistics": [
+        { "type": "Possession",    "value": "51%" },
+        { "type": "Total Shots",   "value": 8 },
+        { "type": "Shots on Goal", "value": 2 },
+        { "type": "Corner Kicks",  "value": 2 },
+        { "type": "Fouls",         "value": 10 },
+        { "type": "Yellow Cards",  "value": 2 },
+        { "type": "Red Cards",     "value": 0 }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 10, "team": "Switzerland", "player": "Breel Embolo",      "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 36, "team": "Algeria",     "player": "Fares Chaibi",      "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 46, "team": "Switzerland", "player": "Dan Ndoye",         "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 58, "team": "Algeria",     "player": "Amine Gouiri",      "type": "subst", "detail": "out: Ramiz Zerrouki" },
+    { "minute": 58, "team": "Algeria",     "player": "Jaouen Hadjam",     "type": "subst", "detail": "out: Houssem Aouar" },
+    { "minute": 70, "team": "Switzerland", "player": "Fabian Rieder",     "type": "subst", "detail": "out: Ruben Vargas" },
+    { "minute": 70, "team": "Switzerland", "player": "Noah Okafor",       "type": "subst", "detail": "out: Johan Manzambi" },
+    { "minute": 71, "team": "Algeria",     "player": "Anis Hadj Moussa",  "type": "subst", "detail": "out: Riyad Mahrez" },
+    { "minute": 71, "team": "Algeria",     "player": "Hicham Boudaoui",   "type": "subst", "detail": "out: Nabil Bentaleb" },
+    { "minute": 72, "team": "Algeria",     "player": "Hicham Boudaoui",   "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 82, "team": "Algeria",     "player": "Adil Boulbina",     "type": "subst", "detail": "out: Rafik Belghali" },
+    { "minute": 82, "team": "Switzerland", "player": "Zeki Amdouni",      "type": "subst", "detail": "out: Breel Embolo" },
+    { "minute": 87, "team": "Switzerland", "player": "Silvan Widmer",     "type": "subst", "detail": "out: Denis Zakaria" },
+    { "minute": 87, "team": "Switzerland", "player": "Michel Aebischer",  "type": "subst", "detail": "out: Dan Ndoye" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Switzerland" },
+      "formation": "4-2-3-1",
+      "startXI": [
+        { "player": { "name": "Gregor Kobel",      "number": 1,  "pos": "GK"  } },
+        { "player": { "name": "Denis Zakaria",     "number": 6,  "pos": "DEF" } },
+        { "player": { "name": "Nico Elvedi",       "number": 4,  "pos": "DEF" } },
+        { "player": { "name": "Manuel Akanji",     "number": 5,  "pos": "DEF" } },
+        { "player": { "name": "Ricardo Rodriguez", "number": 13, "pos": "DEF" } },
+        { "player": { "name": "Remo Freuler",      "number": 8,  "pos": "MID" } },
+        { "player": { "name": "Granit Xhaka",      "number": 10, "pos": "MID" } },
+        { "player": { "name": "Dan Ndoye",         "number": 11, "pos": "MID" } },
+        { "player": { "name": "Johan Manzambi",    "number": 9,  "pos": "MID" } },
+        { "player": { "name": "Ruben Vargas",      "number": 17, "pos": "MID" } },
+        { "player": { "name": "Breel Embolo",      "number": 7,  "pos": "ATT" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Yvon Mvogo",         "number": 12, "pos": "GK"  } },
+        { "player": { "name": "Marvin Keller",      "number": 21, "pos": "GK"  } },
+        { "player": { "name": "Miro Muheim",        "number": 2,  "pos": "DEF" } },
+        { "player": { "name": "Silvan Widmer",      "number": 3,  "pos": "DEF" } },
+        { "player": { "name": "Eray Coemert",       "number": 18, "pos": "DEF" } },
+        { "player": { "name": "Aurele Amenda",      "number": 24, "pos": "DEF" } },
+        { "player": { "name": "Ardon Jashari",      "number": 14, "pos": "MID" } },
+        { "player": { "name": "Djibril Sow",        "number": 15, "pos": "MID" } },
+        { "player": { "name": "Fabian Rieder",      "number": 22, "pos": "MID" } },
+        { "player": { "name": "Michel Aebischer",   "number": 20, "pos": "MID" } },
+        { "player": { "name": "Christian Fassnacht","number": 16, "pos": "ATT" } },
+        { "player": { "name": "Noah Okafor",        "number": 19, "pos": "ATT" } },
+        { "player": { "name": "Zeki Amdouni",       "number": 23, "pos": "ATT" } },
+        { "player": { "name": "Cedric Itten",       "number": 26, "pos": "ATT" } }
+      ]
+    },
+    {
+      "team": { "name": "Algeria" },
+      "formation": "4-3-3",
+      "startXI": [
+        { "player": { "name": "Luca Zidane",       "number": 23, "pos": "GK"  } },
+        { "player": { "name": "Aissa Mandi",       "number": 2,  "pos": "DEF" } },
+        { "player": { "name": "Rafik Belghali",    "number": 17, "pos": "DEF" } },
+        { "player": { "name": "Ramy Bensebaini",   "number": 21, "pos": "DEF" } },
+        { "player": { "name": "Rayan Ait-Nouri",   "number": 15, "pos": "DEF" } },
+        { "player": { "name": "Ramiz Zerrouki",    "number": 6,  "pos": "MID" } },
+        { "player": { "name": "Nabil Bentaleb",    "number": 19, "pos": "MID" } },
+        { "player": { "name": "Fares Chaibi",      "number": 10, "pos": "MID" } },
+        { "player": { "name": "Riyad Mahrez",      "number": 7,  "pos": "ATT" } },
+        { "player": { "name": "Ibrahim Maza",      "number": 22, "pos": "MID" } },
+        { "player": { "name": "Houssem Aouar",     "number": 8,  "pos": "MID" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Melvin Mastil",          "number": null, "pos": "GK"  } },
+        { "player": { "name": "Oussama Benbot",         "number": null, "pos": "GK"  } },
+        { "player": { "name": "Achref Abada",           "number": null, "pos": "DEF" } },
+        { "player": { "name": "Mohamed Amine Tougai",   "number": null, "pos": "DEF" } },
+        { "player": { "name": "Zineddine Belaid",       "number": null, "pos": "DEF" } },
+        { "player": { "name": "Adil Boulbina",          "number": null, "pos": "DEF" } },
+        { "player": { "name": "Samir Chergui",          "number": null, "pos": "MID" } },
+        { "player": { "name": "Hicham Boudaoui",        "number": null, "pos": "MID" } },
+        { "player": { "name": "Yassine Titraoui",       "number": null, "pos": "MID" } },
+        { "player": { "name": "Amine Gouiri",           "number": null, "pos": "MID" } },
+        { "player": { "name": "Jaouen Hadjam",          "number": null, "pos": "MID" } },
+        { "player": { "name": "Anis Hadj Moussa",       "number": null, "pos": "ATT" } },
+        { "player": { "name": "Fares Ghedjemis",        "number": null, "pos": "ATT" } }
+      ]
+    }
+  ]
+}
