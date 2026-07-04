@@ -79,8 +79,9 @@ export function BracketTree({ rounds: roundsData }) {
         const x2 = colX[colIdx]
 
         const prevFixtures = roundsData?.[ROUNDS_CONFIG[colIdx - 1].key] ?? []
-        const doneA = prevFixtures[matchIdx * 2]?.fixture?.status?.short === 'FT'
-        const doneB = prevFixtures[matchIdx * 2 + 1]?.fixture?.status?.short === 'FT'
+        const DECIDED = new Set(['FT', 'AET', 'PEN', 'AWD', 'WO'])
+        const doneA = DECIDED.has(prevFixtures[matchIdx * 2]?.fixture?.status?.short)
+        const doneB = DECIDED.has(prevFixtures[matchIdx * 2 + 1]?.fixture?.status?.short)
 
         if (srcA !== undefined) {
           paths.push({ x1, y1: srcA, x2, y2: cy, done: doneA, key: `${colIdx}-${matchIdx}-a` })
