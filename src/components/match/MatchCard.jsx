@@ -84,13 +84,13 @@ export function MatchCard({ fixture, animDelay = 0 }) {
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: animDelay, duration: 0.25 }}
       onClick={() => navigate(`/match/${m.id}`)}
-      className={`w-full text-start bg-surface rounded-xl border transition-all duration-200 hover:border-teal/40 active:scale-[0.99] ${
+      className={`w-full text-start bg-surface border-y transition-all duration-200 active:scale-[0.99] ${
         isLive ? 'border-teal/30 shadow-[0_0_16px_rgba(0,206,201,0.08)]' : 'border-border'
       }`}
     >
-      <div className="px-4 py-4">
+      <div className="px-4 py-5">
         {/* Meta */}
-        <div className="flex items-center justify-between mb-3 text-xs text-muted">
+        <div className="flex items-center justify-between mb-3 text-sm text-muted">
           <span>{m.round}</span>
           {m.venue && <span className="truncate max-w-[160px]">{m.venue}</span>}
         </div>

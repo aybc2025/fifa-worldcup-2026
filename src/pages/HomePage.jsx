@@ -70,12 +70,12 @@ export default function HomePage() {
       )}
 
       {/* Filter tabs */}
-      <div className="flex gap-1 px-4 py-3 overflow-x-auto">
+      <div className="flex gap-2 px-3 py-3 overflow-x-auto">
         {FILTERS.map((f) => (
           <button
             key={f}
             onClick={() => setFilter(f)}
-            className={`flex-shrink-0 px-3 py-1.5 rounded-full text-xs font-medium transition-all ${
+            className={`flex-shrink-0 px-5 py-2.5 rounded-full text-sm font-semibold transition-all ${
               filter === f
                 ? 'bg-teal/20 text-teal border border-teal/40'
                 : 'bg-surface text-muted border border-border hover:border-teal/20'
@@ -91,18 +91,18 @@ export default function HomePage() {
         {Object.keys(grouped).length === 0 ? (
           <EmptyState />
         ) : (
-          <div className="px-2 space-y-5">
+          <div className="space-y-5">
             {Object.entries(grouped)
               .sort(([a], [b]) => a.localeCompare(b))
               .map(([date, matches]) => (
                 <div key={date}>
-                  <h2 className="text-xs font-semibold text-muted tracking-widest uppercase mb-2 px-1">
+                  <h2 className="text-sm font-semibold text-muted tracking-widest uppercase mb-1.5 px-3">
                     {date === 'TBD' ? 'TBD' : new Date(date + 'T00:00:00Z').toLocaleDateString(undefined, {
   weekday: 'long', month: 'long', day: 'numeric',
   timeZone: 'UTC',
 })}
                   </h2>
-                  <div className="space-y-2">
+                  <div className="space-y-px">
                     {[...matches]
                       .sort((a, b) => (a.fixture?.date ?? '').localeCompare(b.fixture?.date ?? ''))
                       .map((f, i) => (
