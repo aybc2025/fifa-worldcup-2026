@@ -1,0 +1,118 @@
+{
+  "stats": [
+    {
+      "team": "Australia",
+      "statistics": [
+        { "type": "Possession",    "value": "35%" },
+        { "type": "Total Shots",   "value": 16 },
+        { "type": "Shots on Goal", "value": 2 },
+        { "type": "Corner Kicks",  "value": 4 },
+        { "type": "Fouls",         "value": 12 },
+        { "type": "Yellow Cards",  "value": 0 },
+        { "type": "Red Cards",     "value": 0 }
+      ]
+    },
+    {
+      "team": "Egypt",
+      "statistics": [
+        { "type": "Possession",    "value": "53%" },
+        { "type": "Total Shots",   "value": 14 },
+        { "type": "Shots on Goal", "value": 4 },
+        { "type": "Corner Kicks",  "value": 7 },
+        { "type": "Fouls",         "value": 14 },
+        { "type": "Yellow Cards",  "value": 2 },
+        { "type": "Red Cards",     "value": 0 }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 13,  "team": "Egypt",     "player": "Emam Ashour",         "type": "Goal",    "detail": "Normal Goal" },
+    { "minute": 46,  "team": "Australia", "player": "Kai Trewin",           "type": "subst",   "detail": "out: Jordan Bos" },
+    { "minute": 55,  "team": "Australia", "player": "Mohamed Hany",         "type": "Goal",    "detail": "Own Goal" },
+    { "minute": 67,  "team": "Egypt",     "player": "Hossam Abdelmaguid",   "type": "subst",   "detail": "out: Hamdy Fathy" },
+    { "minute": 67,  "team": "Egypt",     "player": "Haissem Hassan",        "type": "subst",   "detail": "out: Mostafa Zico" },
+    { "minute": 74,  "team": "Australia", "player": "Mohamed Toure",         "type": "subst",   "detail": "out: Nestory Irankunda" },
+    { "minute": 74,  "team": "Australia", "player": "Ajdin Hrustic",         "type": "subst",   "detail": "out: Cristian Volpato" },
+    { "minute": 80,  "team": "Egypt",     "player": "Trezeguet",             "type": "subst",   "detail": "out: Karim Hafez" },
+    { "minute": 91,  "team": "Australia", "player": "Awer Mabil",            "type": "subst",   "detail": "out: Connor Metcalfe" },
+    { "minute": 91,  "team": "Australia", "player": "Paul Okon-Engstler",    "type": "subst",   "detail": "out: Aiden Oneill" },
+    { "minute": 104, "team": "Egypt",     "player": "Hamza Abdelkarim",      "type": "subst",   "detail": "out: Omar Marmoush" },
+    { "minute": 104, "team": "Egypt",     "player": "Haissem Hassan",         "type": "Card",    "detail": "Yellow Card" },
+    { "minute": 119, "team": "Australia", "player": "Mathew Ryan",            "type": "subst",   "detail": "out: Patrick Beach" },
+    { "minute": 120, "team": "Egypt",     "player": "Yasser Ibrahim",         "type": "Card",    "detail": "Yellow Card" },
+    { "minute": 121, "team": "Egypt",     "player": "Mahmoud Saber",          "type": "subst",   "detail": "out: Marawan Attia" },
+    { "minute": 122, "team": "Australia", "player": "Harry Souttar",          "type": "Penalty", "detail": "Missed" },
+    { "minute": 123, "team": "Egypt",     "player": "Mahmoud Saber",          "type": "Penalty", "detail": "Scored" },
+    { "minute": 124, "team": "Australia", "player": "Jackson Irvine",         "type": "Penalty", "detail": "Scored" },
+    { "minute": 125, "team": "Egypt",     "player": "Ramy Rabia",             "type": "Penalty", "detail": "Scored" },
+    { "minute": 126, "team": "Australia", "player": "Awer Mabil",             "type": "Penalty", "detail": "Scored" },
+    { "minute": 127, "team": "Egypt",     "player": "Mohamed Salah",          "type": "Penalty", "detail": "Scored" },
+    { "minute": 128, "team": "Australia", "player": "Lucas Herrington",       "type": "Penalty", "detail": "Missed" },
+    { "minute": 129, "team": "Egypt",     "player": "Hossam Abdelmaguid",     "type": "Penalty", "detail": "Scored" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Australia" },
+      "formation": "3-4-3",
+      "startXI": [
+        { "player": { "name": "Patrick Beach",       "number": 18, "pos": "GK"  } },
+        { "player": { "name": "Alessandro Circati",  "number": 3,  "pos": "DEF" } },
+        { "player": { "name": "Jordan Bos",          "number": 5,  "pos": "DEF" } },
+        { "player": { "name": "Aziz Behich",         "number": 16, "pos": "DEF" } },
+        { "player": { "name": "Harry Souttar",       "number": 19, "pos": "DEF" } },
+        { "player": { "name": "Lucas Herrington",    "number": 25, "pos": "DEF" } },
+        { "player": { "name": "Connor Metcalfe",     "number": 8,  "pos": "MID" } },
+        { "player": { "name": "Aiden Oneill",        "number": 13, "pos": "MID" } },
+        { "player": { "name": "Jackson Irvine",      "number": 22, "pos": "MID" } },
+        { "player": { "name": "Nestory Irankunda",   "number": 17, "pos": "ATT" } },
+        { "player": { "name": "Cristian Volpato",    "number": 20, "pos": "ATT" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Mathew Ryan",          "number": 1,  "pos": "GK"  } },
+        { "player": { "name": "Paul Izzo",            "number": 12, "pos": "GK"  } },
+        { "player": { "name": "Milos Degenek",        "number": 2,  "pos": "DEF" } },
+        { "player": { "name": "Jason Geria",          "number": 6,  "pos": "DEF" } },
+        { "player": { "name": "Kai Trewin",           "number": 15, "pos": "DEF" } },
+        { "player": { "name": "Cameron Burgess",      "number": 21, "pos": "DEF" } },
+        { "player": { "name": "Cameron Devlin",       "number": 14, "pos": "MID" } },
+        { "player": { "name": "Paul Okon-Engstler",   "number": 24, "pos": "MID" } },
+        { "player": { "name": "Mohamed Toure",        "number": 9,  "pos": "ATT" } },
+        { "player": { "name": "Ajdin Hrustic",        "number": 10, "pos": "ATT" } },
+        { "player": { "name": "Awer Mabil",           "number": 11, "pos": "ATT" } },
+        { "player": { "name": "Nishan Velupillay",    "number": 23, "pos": "ATT" } },
+        { "player": { "name": "Tete Yengi",           "number": 26, "pos": "ATT" } }
+      ]
+    },
+    {
+      "team": { "name": "Egypt" },
+      "formation": "4-4-2",
+      "startXI": [
+        { "player": { "name": "Mostafa Shoubir",   "number": 23, "pos": "GK"  } },
+        { "player": { "name": "Yasser Ibrahim",    "number": 2,  "pos": "DEF" } },
+        { "player": { "name": "Mohamed Hany",      "number": 3,  "pos": "DEF" } },
+        { "player": { "name": "Ramy Rabia",        "number": 5,  "pos": "DEF" } },
+        { "player": { "name": "Karim Hafez",       "number": 15, "pos": "DEF" } },
+        { "player": { "name": "Emam Ashour",       "number": 8,  "pos": "MID" } },
+        { "player": { "name": "Mostafa Zico",      "number": 11, "pos": "MID" } },
+        { "player": { "name": "Hamdy Fathy",       "number": 14, "pos": "MID" } },
+        { "player": { "name": "Marawan Attia",     "number": 19, "pos": "MID" } },
+        { "player": { "name": "Mohamed Salah",     "number": 10, "pos": "ATT" } },
+        { "player": { "name": "Omar Marmoush",     "number": 22, "pos": "ATT" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Mohamed Elshenawy",   "number": 1,  "pos": "GK"  } },
+        { "player": { "name": "Mahdy Soliman",        "number": 16, "pos": "GK"  } },
+        { "player": { "name": "Mohamed Alaa",         "number": 26, "pos": "DEF" } },
+        { "player": { "name": "Tarek Alaa",           "number": 24, "pos": "DEF" } },
+        { "player": { "name": "Hossam Abdelmaguid",   "number": 4,  "pos": "MID" } },
+        { "player": { "name": "Nabil Donga",          "number": 18, "pos": "MID" } },
+        { "player": { "name": "Mahmoud Saber",        "number": 21, "pos": "MID" } },
+        { "player": { "name": "Haissem Hassan",        "number": 12, "pos": "MID" } },
+        { "player": { "name": "Hamza Abdelkarim",     "number": 9,  "pos": "ATT" } },
+        { "player": { "name": "Trezeguet",             "number": 7,  "pos": "ATT" } },
+        { "player": { "name": "Ibrahim Adel",         "number": 20, "pos": "ATT" } },
+        { "player": { "name": "Zizo",                 "number": 25, "pos": "ATT" } }
+      ]
+    }
+  ]
+}

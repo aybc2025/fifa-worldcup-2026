@@ -1,0 +1,115 @@
+{
+  "stats": [
+    {
+      "team": "Colombia",
+      "statistics": [
+        { "type": "Possession",    "value": "56%" },
+        { "type": "Total Shots",   "value": 20 },
+        { "type": "Shots on Goal", "value": 8 },
+        { "type": "Corner Kicks",  "value": 3 },
+        { "type": "Fouls",         "value": 14 },
+        { "type": "Yellow Cards",  "value": 2 },
+        { "type": "Red Cards",     "value": 0 }
+      ]
+    },
+    {
+      "team": "Ghana",
+      "statistics": [
+        { "type": "Possession",    "value": "36%" },
+        { "type": "Total Shots",   "value": 8 },
+        { "type": "Shots on Goal", "value": 0 },
+        { "type": "Corner Kicks",  "value": 2 },
+        { "type": "Fouls",         "value": 10 },
+        { "type": "Yellow Cards",  "value": 3 },
+        { "type": "Red Cards",     "value": 0 }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 8,  "team": "Colombia", "player": "Luis Suarez",      "type": "subst", "detail": "out: Jhon Cordoba" },
+    { "minute": 12, "team": "Colombia", "player": "Jhon Arias",        "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 13, "team": "Ghana",    "player": "Alidu Seidu",       "type": "subst", "detail": "out: Marvin Senaya" },
+    { "minute": 14, "team": "Colombia", "player": "Jhon Arias",        "type": "Goal",  "detail": "Normal Goal", "assist": "Luis Suarez" },
+    { "minute": 46, "team": "Colombia", "player": "Richard Rios",      "type": "subst", "detail": "out: James Rodriguez" },
+    { "minute": 49, "team": "Ghana",    "player": "Caleb Yirenkyi",    "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 62, "team": "Ghana",    "player": "Elisha Owusu",      "type": "subst", "detail": "out: Kwasi Sibo" },
+    { "minute": 62, "team": "Ghana",    "player": "Abdul Fatawu",      "type": "subst", "detail": "out: Inaki Williams" },
+    { "minute": 66, "team": "Ghana",    "player": "Abdul Fatawu",      "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 72, "team": "Colombia", "player": "Juan Quintero",     "type": "subst", "detail": "out: Jhon Arias" },
+    { "minute": 76, "team": "Ghana",    "player": "Alidu Seidu",       "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 78, "team": "Colombia", "player": "Richard Rios",      "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 79, "team": "Ghana",    "player": "Ernest Nuamah",     "type": "subst", "detail": "out: Jordan Ayew" },
+    { "minute": 79, "team": "Ghana",    "player": "Prince Adu",        "type": "subst", "detail": "out: Caleb Yirenkyi" },
+    { "minute": 90, "team": "Colombia", "player": "Jaminton Campaz",   "type": "subst", "detail": "out: Luis Diaz" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Colombia" },
+      "formation": "4-1-2-3",
+      "startXI": [
+        { "player": { "name": "Camilo Vargas",    "number": 12, "pos": "GK"  } },
+        { "player": { "name": "Daniel Munoz",     "number": 2,  "pos": "DEF" } },
+        { "player": { "name": "Jhon Lucumi",      "number": 3,  "pos": "DEF" } },
+        { "player": { "name": "Gustavo Puerta",   "number": 14, "pos": "DEF" } },
+        { "player": { "name": "Johan Mojica",     "number": 17, "pos": "DEF" } },
+        { "player": { "name": "Davinson Sanchez", "number": 23, "pos": "DEF" } },
+        { "player": { "name": "James Rodriguez",  "number": 10, "pos": "MID" } },
+        { "player": { "name": "Jhon Arias",       "number": 11, "pos": "MID" } },
+        { "player": { "name": "Jefferson Lerma",  "number": 16, "pos": "MID" } },
+        { "player": { "name": "Luis Diaz",        "number": 7,  "pos": "ATT" } },
+        { "player": { "name": "Jhon Cordoba",     "number": 9,  "pos": "ATT" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "David Ospina",      "number": 1,  "pos": "GK"  } },
+        { "player": { "name": "Alvaro Montero",    "number": 24, "pos": "GK"  } },
+        { "player": { "name": "Santiago Arias",    "number": 4,  "pos": "DEF" } },
+        { "player": { "name": "Yerry Mina",        "number": 13, "pos": "DEF" } },
+        { "player": { "name": "Willer Ditta",      "number": 18, "pos": "DEF" } },
+        { "player": { "name": "Deiver Machado",    "number": 22, "pos": "DEF" } },
+        { "player": { "name": "Kevin Castano",     "number": 5,  "pos": "DEF" } },
+        { "player": { "name": "Richard Rios",      "number": 6,  "pos": "MID" } },
+        { "player": { "name": "Jorge Carrascal",   "number": 8,  "pos": "MID" } },
+        { "player": { "name": "Juan Portilla",     "number": 15, "pos": "MID" } },
+        { "player": { "name": "Juan Quintero",     "number": 20, "pos": "MID" } },
+        { "player": { "name": "Cucho Hernandez",   "number": 19, "pos": "ATT" } },
+        { "player": { "name": "Jaminton Campaz",   "number": 21, "pos": "ATT" } },
+        { "player": { "name": "Luis Suarez",       "number": 25, "pos": "ATT" } },
+        { "player": { "name": "Andres Gomez",      "number": 26, "pos": "ATT" } }
+      ]
+    },
+    {
+      "team": { "name": "Ghana" },
+      "formation": "4-1-2-3",
+      "startXI": [
+        { "player": { "name": "Lawrence Ati Zigi",   "number": 1,  "pos": "GK"  } },
+        { "player": { "name": "Gideon Mensah",       "number": 14, "pos": "DEF" } },
+        { "player": { "name": "Jerome Opoku",        "number": 18, "pos": "DEF" } },
+        { "player": { "name": "Derrick Luckassen",   "number": 23, "pos": "DEF" } },
+        { "player": { "name": "Marvin Senaya",       "number": 26, "pos": "DEF" } },
+        { "player": { "name": "Caleb Yirenkyi",      "number": 3,  "pos": "MID" } },
+        { "player": { "name": "Thomas Partey",       "number": 5,  "pos": "MID" } },
+        { "player": { "name": "Kwasi Sibo",          "number": 8,  "pos": "MID" } },
+        { "player": { "name": "Antoine Semenyo",     "number": 11, "pos": "MID" } },
+        { "player": { "name": "Jordan Ayew",         "number": 9,  "pos": "ATT" } },
+        { "player": { "name": "Inaki Williams",      "number": 19, "pos": "ATT" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Joseph Anang",            "number": 12, "pos": "GK"  } },
+        { "player": { "name": "Benjamin Asare",          "number": 16, "pos": "GK"  } },
+        { "player": { "name": "Alidu Seidu",             "number": 2,  "pos": "DEF" } },
+        { "player": { "name": "Jonas Adjetey",           "number": 4,  "pos": "DEF" } },
+        { "player": { "name": "Abdul Mumin",             "number": 6,  "pos": "DEF" } },
+        { "player": { "name": "Baba Rahman",             "number": 17, "pos": "DEF" } },
+        { "player": { "name": "Kojo Peprah Oppong",      "number": 21, "pos": "DEF" } },
+        { "player": { "name": "Elisha Owusu",            "number": 15, "pos": "MID" } },
+        { "player": { "name": "Prince Adu",              "number": 25, "pos": "MID" } },
+        { "player": { "name": "Augustine Boakye",        "number": 20, "pos": "ATT" } },
+        { "player": { "name": "Abdul Fatawu",            "number": 7,  "pos": "ATT" } },
+        { "player": { "name": "Brandon Thomas-Asante",   "number": 10, "pos": "ATT" } },
+        { "player": { "name": "Christopher Bonsu Baah",  "number": 13, "pos": "ATT" } },
+        { "player": { "name": "Kamaldeen Sulemana",      "number": 22, "pos": "ATT" } },
+        { "player": { "name": "Ernest Nuamah",           "number": 24, "pos": "ATT" } }
+      ]
+    }
+  ]
+}
