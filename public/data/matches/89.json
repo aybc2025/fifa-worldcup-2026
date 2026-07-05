@@ -1,0 +1,110 @@
+{
+  "stats": [
+    {
+      "team": "Paraguay",
+      "statistics": [
+        { "type": "Possession",    "value": "22%" },
+        { "type": "Total Shots",   "value": 5 },
+        { "type": "Shots on Goal", "value": 0 },
+        { "type": "Corner Kicks",  "value": 2 },
+        { "type": "Fouls",         "value": 13 },
+        { "type": "Yellow Cards",  "value": 0 },
+        { "type": "Red Cards",     "value": 0 }
+      ]
+    },
+    {
+      "team": "France",
+      "statistics": [
+        { "type": "Possession",    "value": "66%" },
+        { "type": "Total Shots",   "value": 15 },
+        { "type": "Shots on Goal", "value": 5 },
+        { "type": "Corner Kicks",  "value": 12 },
+        { "type": "Fouls",         "value": 11 },
+        { "type": "Yellow Cards",  "value": 3 },
+        { "type": "Red Cards",     "value": 0 }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 19, "team": "France",   "player": "Bradley Barcola",     "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 58, "team": "Paraguay", "player": "Jose Canale",          "type": "subst", "detail": "out: Omar Alderete" },
+    { "minute": 61, "team": "Paraguay", "player": "Gustavo Caballero",    "type": "subst", "detail": "out: Julio Enciso" },
+    { "minute": 61, "team": "France",   "player": "Desire Doue",          "type": "subst", "detail": "out: Bradley Barcola" },
+    { "minute": 70, "team": "France",   "player": "Kylian Mbappe",        "type": "Goal",  "detail": "Penalty" },
+    { "minute": 71, "team": "Paraguay", "player": "Gabriel Avalos",       "type": "subst", "detail": "out: Miguel Almiron" },
+    { "minute": 71, "team": "Paraguay", "player": "Mauricio",             "type": "subst", "detail": "out: Diego Gomez" },
+    { "minute": 81, "team": "France",   "player": "Manu Kone",            "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 84, "team": "France",   "player": "Rayan Cherki",         "type": "subst", "detail": "out: Ousmane Dembele" },
+    { "minute": 90, "team": "France",   "player": "Michael Olise",        "type": "Card",  "detail": "Yellow Card" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Paraguay" },
+      "formation": "5-4-1",
+      "startXI": [
+        { "player": { "name": "Orlando Gill",        "number": 12, "pos": "GK"  } },
+        { "player": { "name": "Gustavo Velazquez",   "number": 2,  "pos": "DEF" } },
+        { "player": { "name": "Omar Alderete",       "number": 3,  "pos": "DEF" } },
+        { "player": { "name": "Juan Jose Caceres",   "number": 4,  "pos": "DEF" } },
+        { "player": { "name": "Junior Alonso",       "number": 6,  "pos": "DEF" } },
+        { "player": { "name": "Gustavo Gomez",       "number": 15, "pos": "DEF" } },
+        { "player": { "name": "Diego Gomez",         "number": 8,  "pos": "MID" } },
+        { "player": { "name": "Miguel Almiron",      "number": 10, "pos": "MID" } },
+        { "player": { "name": "Andres Cubas",        "number": 14, "pos": "MID" } },
+        { "player": { "name": "Matias Galarza",      "number": 23, "pos": "MID" } },
+        { "player": { "name": "Julio Enciso",        "number": 19, "pos": "ATT" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Gatito Fernandez",           "number": 1,  "pos": "" } },
+        { "player": { "name": "Gaston Olveira",             "number": 22, "pos": "" } },
+        { "player": { "name": "Fabian Balbuena",            "number": 5,  "pos": "" } },
+        { "player": { "name": "Jose Canale",                "number": 13, "pos": "" } },
+        { "player": { "name": "Alexandro Maidana",          "number": 26, "pos": "" } },
+        { "player": { "name": "Ramon Sosa",                 "number": 7,  "pos": "" } },
+        { "player": { "name": "Mauricio",                   "number": 11, "pos": "" } },
+        { "player": { "name": "Damian Bobadilla",           "number": 16, "pos": "" } },
+        { "player": { "name": "Braian Ojeda",               "number": 20, "pos": "" } },
+        { "player": { "name": "Gustavo Caballero",          "number": 24, "pos": "" } },
+        { "player": { "name": "Antonio Sanabria",           "number": 9,  "pos": "" } },
+        { "player": { "name": "Alejandro Romero Gamarra",   "number": 17, "pos": "" } },
+        { "player": { "name": "Alex Arce",                  "number": 18, "pos": "" } },
+        { "player": { "name": "Gabriel Avalos",             "number": 21, "pos": "" } },
+        { "player": { "name": "Isidro Pitta",               "number": 25, "pos": "" } }
+      ]
+    },
+    {
+      "team": { "name": "France" },
+      "formation": "4-2-3-1",
+      "startXI": [
+        { "player": { "name": "Mike Maignan",       "number": 16, "pos": "GK"  } },
+        { "player": { "name": "Lucas Digne",         "number": 3,  "pos": "DEF" } },
+        { "player": { "name": "Dayot Upamecano",     "number": 4,  "pos": "DEF" } },
+        { "player": { "name": "Jules Kounde",        "number": 5,  "pos": "DEF" } },
+        { "player": { "name": "William Saliba",      "number": 17, "pos": "DEF" } },
+        { "player": { "name": "Manu Kone",           "number": 6,  "pos": "MID" } },
+        { "player": { "name": "Adrien Rabiot",       "number": 14, "pos": "MID" } },
+        { "player": { "name": "Ousmane Dembele",     "number": 7,  "pos": "ATT" } },
+        { "player": { "name": "Kylian Mbappe",       "number": 10, "pos": "ATT" } },
+        { "player": { "name": "Michael Olise",       "number": 11, "pos": "ATT" } },
+        { "player": { "name": "Bradley Barcola",     "number": 12, "pos": "ATT" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Brice Samba",              "number": 1,  "pos": "" } },
+        { "player": { "name": "Robin Risser",             "number": 23, "pos": "" } },
+        { "player": { "name": "Malo Gusto",               "number": 2,  "pos": "" } },
+        { "player": { "name": "Ibrahima Konate",          "number": 15, "pos": "" } },
+        { "player": { "name": "Theo Hernandez",           "number": 19, "pos": "" } },
+        { "player": { "name": "Lucas Hernandez",          "number": 21, "pos": "" } },
+        { "player": { "name": "Maxence Lacroix",          "number": 26, "pos": "" } },
+        { "player": { "name": "Aurelien Tchouameni",      "number": 8,  "pos": "" } },
+        { "player": { "name": "Ngolo Kante",              "number": 13, "pos": "" } },
+        { "player": { "name": "Warren Zaire-Emery",       "number": 18, "pos": "" } },
+        { "player": { "name": "Rayan Cherki",             "number": 24, "pos": "" } },
+        { "player": { "name": "Maghnes Aklouiche",        "number": 25, "pos": "" } },
+        { "player": { "name": "Marcus Thuram",            "number": 9,  "pos": "" } },
+        { "player": { "name": "Desire Doue",              "number": 20, "pos": "" } },
+        { "player": { "name": "Jean-Philippe Mateta",     "number": 22, "pos": "" } }
+      ]
+    }
+  ]
+}

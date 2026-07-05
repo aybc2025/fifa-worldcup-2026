@@ -1,0 +1,120 @@
+{
+  "stats": [
+    {
+      "team": "Canada",
+      "statistics": [
+        { "type": "Possession",    "value": "37%" },
+        { "type": "Total Shots",   "value": 10 },
+        { "type": "Shots on Goal", "value": 3 },
+        { "type": "Corner Kicks",  "value": 11 },
+        { "type": "Fouls",         "value": 24 },
+        { "type": "Yellow Cards",  "value": 4 },
+        { "type": "Red Cards",     "value": 0 }
+      ]
+    },
+    {
+      "team": "Morocco",
+      "statistics": [
+        { "type": "Possession",    "value": "50%" },
+        { "type": "Total Shots",   "value": 5 },
+        { "type": "Shots on Goal", "value": 4 },
+        { "type": "Corner Kicks",  "value": 1 },
+        { "type": "Fouls",         "value": 14 },
+        { "type": "Yellow Cards",  "value": 4 },
+        { "type": "Red Cards",     "value": 0 }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 20, "team": "Morocco", "player": "Redouane Halhal",       "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 22, "team": "Morocco", "player": "Soufiane Rahimi",       "type": "subst", "detail": "out: Ismael Saibari" },
+    { "minute": 40, "team": "Morocco", "player": "Achraf Hakimi",         "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 40, "team": "Canada",  "player": "Richie Laryea",         "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 43, "team": "Canada",  "player": "Jonathan David",        "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 45, "team": "Morocco", "player": "Azzedine Ounahi",       "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 45, "team": "Morocco", "player": "Bilal El Khannouss",    "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 49, "team": "Canada",  "player": "Luc De Fougerolles",    "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 50, "team": "Morocco", "player": "Azzedine Ounahi",       "type": "Goal",  "detail": "Normal Goal", "assist": "Achraf Hakimi" },
+    { "minute": 63, "team": "Canada",  "player": "Cyle Larin",            "type": "subst", "detail": "out: Tani Oluwaseyi" },
+    { "minute": 63, "team": "Morocco", "player": "Sofyan Amrabat",        "type": "subst", "detail": "out: Ayyoub Bouaddi" },
+    { "minute": 63, "team": "Morocco", "player": "Chemsdine Talbi",       "type": "subst", "detail": "out: Bilal El Khannouss" },
+    { "minute": 67, "team": "Canada",  "player": "Cyle Larin",            "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 78, "team": "Canada",  "player": "Jacob Shaffelburg",     "type": "subst", "detail": "out: Richie Laryea" },
+    { "minute": 78, "team": "Canada",  "player": "Promise David",         "type": "subst", "detail": "out: Ali Ahmed" },
+    { "minute": 82, "team": "Morocco", "player": "Azzedine Ounahi",       "type": "Goal",  "detail": "Normal Goal", "assist": "Brahim Diaz" },
+    { "minute": 87, "team": "Morocco", "player": "Marwane Saadane",       "type": "subst", "detail": "out: Issa Diop" },
+    { "minute": 87, "team": "Morocco", "player": "Samir El Mourabet",     "type": "subst", "detail": "out: Azzedine Ounahi" },
+    { "minute": 87, "team": "Canada",  "player": "Jayden Nelson",         "type": "subst", "detail": "out: Tajon Buchanan" },
+    { "minute": 87, "team": "Canada",  "player": "Jonathan Osorio",       "type": "subst", "detail": "out: Niko Sigur" },
+    { "minute": 90, "team": "Morocco", "player": "Soufiane Rahimi",       "type": "Goal",  "detail": "Normal Goal", "assist": "Brahim Diaz" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Canada" },
+      "formation": "4-4-2",
+      "startXI": [
+        { "player": { "name": "Maxime Crepeau",       "number": 16, "pos": "GK"  } },
+        { "player": { "name": "Alistair Johnston",    "number": 2,  "pos": "DEF" } },
+        { "player": { "name": "Luc De Fougerolles",  "number": 4,  "pos": "DEF" } },
+        { "player": { "name": "Moise Bombito",        "number": 15, "pos": "DEF" } },
+        { "player": { "name": "Richie Laryea",        "number": 22, "pos": "DEF" } },
+        { "player": { "name": "Niko Sigur",           "number": 23, "pos": "MID" } },
+        { "player": { "name": "Stephen Eustaquio",    "number": 7,  "pos": "MID" } },
+        { "player": { "name": "Tajon Buchanan",       "number": 17, "pos": "MID" } },
+        { "player": { "name": "Ali Ahmed",            "number": 20, "pos": "MID" } },
+        { "player": { "name": "Jonathan David",       "number": 10, "pos": "ATT" } },
+        { "player": { "name": "Tani Oluwaseyi",       "number": 12, "pos": "ATT" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Dayne St. Clair",      "number": 1,  "pos": "" } },
+        { "player": { "name": "Owen Goodman",         "number": 18, "pos": "" } },
+        { "player": { "name": "Alfie Jones",          "number": 3,  "pos": "" } },
+        { "player": { "name": "Joel Waterman",        "number": 5,  "pos": "" } },
+        { "player": { "name": "Derek Cornelius",      "number": 13, "pos": "" } },
+        { "player": { "name": "Alphonso Davies",      "number": 19, "pos": "" } },
+        { "player": { "name": "Mathieu Choiniere",    "number": 6,  "pos": "" } },
+        { "player": { "name": "Liam Millar",          "number": 11, "pos": "" } },
+        { "player": { "name": "Jacob Shaffelburg",    "number": 14, "pos": "" } },
+        { "player": { "name": "Jonathan Osorio",      "number": 21, "pos": "" } },
+        { "player": { "name": "Nathan Saliba",        "number": 25, "pos": "" } },
+        { "player": { "name": "Cyle Larin",           "number": 9,  "pos": "" } },
+        { "player": { "name": "Promise David",        "number": 24, "pos": "" } },
+        { "player": { "name": "Jayden Nelson",        "number": 26, "pos": "" } }
+      ]
+    },
+    {
+      "team": { "name": "Morocco" },
+      "formation": "4-2-3-1",
+      "startXI": [
+        { "player": { "name": "Yassine Bounou",       "number": 1,  "pos": "GK"  } },
+        { "player": { "name": "Achraf Hakimi",        "number": 2,  "pos": "DEF" } },
+        { "player": { "name": "Noussair Mazraoui",    "number": 3,  "pos": "DEF" } },
+        { "player": { "name": "Issa Diop",            "number": 14, "pos": "DEF" } },
+        { "player": { "name": "Redouane Halhal",      "number": 25, "pos": "DEF" } },
+        { "player": { "name": "Ayyoub Bouaddi",       "number": 6,  "pos": "MID" } },
+        { "player": { "name": "Neil El Aynaoui",      "number": 24, "pos": "MID" } },
+        { "player": { "name": "Azzedine Ounahi",      "number": 8,  "pos": "MID" } },
+        { "player": { "name": "Bilal El Khannouss",   "number": 23, "pos": "MID" } },
+        { "player": { "name": "Ismael Saibari",       "number": 11, "pos": "MID" } },
+        { "player": { "name": "Brahim Diaz",          "number": 10, "pos": "ATT" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Munir El Kajoui",         "number": 12, "pos": "" } },
+        { "player": { "name": "Ahmed Reda Tagnaouti",    "number": 22, "pos": "" } },
+        { "player": { "name": "Marwane Saadane",         "number": 5,  "pos": "" } },
+        { "player": { "name": "Zakaria El Ouahdi",       "number": 13, "pos": "" } },
+        { "player": { "name": "Chadi Riad",              "number": 18, "pos": "" } },
+        { "player": { "name": "Youssef Belammari",       "number": 19, "pos": "" } },
+        { "player": { "name": "Anass Salah Eddine",      "number": 26, "pos": "" } },
+        { "player": { "name": "Sofyan Amrabat",          "number": 4,  "pos": "" } },
+        { "player": { "name": "Chemsdine Talbi",         "number": 7,  "pos": "" } },
+        { "player": { "name": "Samir El Mourabet",       "number": 15, "pos": "" } },
+        { "player": { "name": "Gessime Yassine",         "number": 16, "pos": "" } },
+        { "player": { "name": "Soufiane Rahimi",         "number": 9,  "pos": "" } },
+        { "player": { "name": "Amine Sbai",              "number": 17, "pos": "" } },
+        { "player": { "name": "Ayoub El Kaabi",          "number": 20, "pos": "" } },
+        { "player": { "name": "Ayoube Amaimouni",        "number": 21, "pos": "" } }
+      ]
+    }
+  ]
+}
