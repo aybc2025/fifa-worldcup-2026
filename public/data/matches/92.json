@@ -1,0 +1,120 @@
+{
+  "stats": [
+    {
+      "team": "Mexico",
+      "statistics": [
+        { "type": "Possession",    "value": "59%" },
+        { "type": "Total Shots",   "value": 20 },
+        { "type": "Shots on Goal", "value": 5 },
+        { "type": "Corner Kicks",  "value": 12 },
+        { "type": "Fouls",         "value": 14 },
+        { "type": "Yellow Cards",  "value": 2 },
+        { "type": "Red Cards",     "value": 0 }
+      ]
+    },
+    {
+      "team": "England",
+      "statistics": [
+        { "type": "Possession",    "value": "31%" },
+        { "type": "Total Shots",   "value": 6 },
+        { "type": "Shots on Goal", "value": 5 },
+        { "type": "Corner Kicks",  "value": 2 },
+        { "type": "Fouls",         "value": 7 },
+        { "type": "Yellow Cards",  "value": 4 },
+        { "type": "Red Cards",     "value": 1 }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 36, "team": "England", "player": "Jude Bellingham",   "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 38, "team": "England", "player": "Jude Bellingham",   "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 42, "team": "Mexico",  "player": "Julian Quinones",   "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 46, "team": "Mexico",  "player": "Edson Alvarez",     "type": "subst", "detail": "out: Cesar Montes" },
+    { "minute": 54, "team": "England", "player": "Jarell Quansah",    "type": "Card",  "detail": "Red Card" },
+    { "minute": 57, "team": "England", "player": "John Stones",       "type": "subst", "detail": "out: Bukayo Saka" },
+    { "minute": 60, "team": "England", "player": "Harry Kane",        "type": "Goal",  "detail": "Penalty" },
+    { "minute": 61, "team": "Mexico",  "player": "Brian Gutierrez",   "type": "subst", "detail": "out: Luis Romo" },
+    { "minute": 61, "team": "Mexico",  "player": "Santiago Gimenez",  "type": "subst", "detail": "out: Gilberto Mora" },
+    { "minute": 68, "team": "England", "player": "Marc Guehi",        "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 69, "team": "Mexico",  "player": "Raul Jimenez",      "type": "Goal",  "detail": "Penalty" },
+    { "minute": 71, "team": "Mexico",  "player": "Jorge Sanchez",     "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 72, "team": "England", "player": "Nico O'Reilly",     "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 75, "team": "England", "player": "Djed Spence",       "type": "subst", "detail": "out: Nico O'Reilly" },
+    { "minute": 75, "team": "England", "player": "Dan Burn",          "type": "subst", "detail": "out: Elliot Anderson" },
+    { "minute": 79, "team": "Mexico",  "player": "Alvaro Fidalgo",    "type": "subst", "detail": "out: Jorge Sanchez" },
+    { "minute": 81, "team": "Mexico",  "player": "Guillermo Martinez","type": "subst", "detail": "out: Julian Quinones" },
+    { "minute": 90, "team": "England", "player": "Morgan Rogers",     "type": "subst", "detail": "out: Harry Kane" },
+    { "minute": 90, "team": "Mexico",  "player": "Johan Vasquez",     "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 90, "team": "England", "player": "Jordan Henderson",  "type": "Card",  "detail": "Yellow Card" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Mexico" },
+      "formation": "4-1-2-3",
+      "startXI": [
+        { "player": { "name": "Raul Rangel",       "number": 1,  "pos": "GK"  } },
+        { "player": { "name": "Jorge Sanchez",     "number": 2,  "pos": "DEF" } },
+        { "player": { "name": "Cesar Montes",      "number": 3,  "pos": "DEF" } },
+        { "player": { "name": "Johan Vasquez",     "number": 5,  "pos": "DEF" } },
+        { "player": { "name": "Jesus Gallardo",    "number": 23, "pos": "DEF" } },
+        { "player": { "name": "Erik Lira",         "number": 6,  "pos": "MID" } },
+        { "player": { "name": "Luis Romo",         "number": 7,  "pos": "MID" } },
+        { "player": { "name": "Gilberto Mora",     "number": 19, "pos": "MID" } },
+        { "player": { "name": "Raul Jimenez",      "number": 9,  "pos": "ATT" } },
+        { "player": { "name": "Julian Quinones",   "number": 16, "pos": "ATT" } },
+        { "player": { "name": "Roberto Alvarado",  "number": 25, "pos": "ATT" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Carlos Acevedo",           "number": 12, "pos": "" } },
+        { "player": { "name": "Guillermo Ochoa",          "number": 13, "pos": "" } },
+        { "player": { "name": "Edson Alvarez",            "number": 4,  "pos": "" } },
+        { "player": { "name": "Israel Reyes",             "number": 15, "pos": "" } },
+        { "player": { "name": "Mateo Chavez",             "number": 20, "pos": "" } },
+        { "player": { "name": "Alvaro Fidalgo",           "number": 8,  "pos": "" } },
+        { "player": { "name": "Orbelin Pineda",           "number": 17, "pos": "" } },
+        { "player": { "name": "Obed Vargas",              "number": 18, "pos": "" } },
+        { "player": { "name": "Luis Chavez",              "number": 24, "pos": "" } },
+        { "player": { "name": "Brian Gutierrez",          "number": 26, "pos": "" } },
+        { "player": { "name": "Alexis Vega",              "number": 10, "pos": "" } },
+        { "player": { "name": "Santiago Gimenez",         "number": 11, "pos": "" } },
+        { "player": { "name": "Armando Gonzalez",         "number": 14, "pos": "" } },
+        { "player": { "name": "Cesar Huerta",             "number": 21, "pos": "" } },
+        { "player": { "name": "Guillermo Martinez",       "number": 22, "pos": "" } }
+      ]
+    },
+    {
+      "team": { "name": "England" },
+      "formation": "4-2-3-1",
+      "startXI": [
+        { "player": { "name": "Jordan Pickford",  "number": 1,  "pos": "GK"  } },
+        { "player": { "name": "Ezri Konsa",        "number": 2,  "pos": "DEF" } },
+        { "player": { "name": "Nico O'Reilly",     "number": 3,  "pos": "DEF" } },
+        { "player": { "name": "Marc Guehi",        "number": 6,  "pos": "DEF" } },
+        { "player": { "name": "Jarell Quansah",    "number": 26, "pos": "DEF" } },
+        { "player": { "name": "Declan Rice",       "number": 4,  "pos": "MID" } },
+        { "player": { "name": "Elliot Anderson",   "number": 8,  "pos": "MID" } },
+        { "player": { "name": "Jude Bellingham",   "number": 10, "pos": "MID" } },
+        { "player": { "name": "Bukayo Saka",       "number": 7,  "pos": "ATT" } },
+        { "player": { "name": "Harry Kane",        "number": 9,  "pos": "ATT" } },
+        { "player": { "name": "Anthony Gordon",    "number": 18, "pos": "ATT" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Dean Henderson",      "number": 13,   "pos": "" } },
+        { "player": { "name": "James Trafford",      "number": 23,   "pos": "" } },
+        { "player": { "name": "John Stones",         "number": null, "pos": "" } },
+        { "player": { "name": "Trevoh Chalobah",     "number": 12,   "pos": "" } },
+        { "player": { "name": "Dan Burn",            "number": 15,   "pos": "" } },
+        { "player": { "name": "Reece James",         "number": 24,   "pos": "" } },
+        { "player": { "name": "Djed Spence",         "number": 25,   "pos": "" } },
+        { "player": { "name": "Jordan Henderson",    "number": 14,   "pos": "" } },
+        { "player": { "name": "Kobbie Mainoo",       "number": 16,   "pos": "" } },
+        { "player": { "name": "Morgan Rogers",       "number": 17,   "pos": "" } },
+        { "player": { "name": "Eberechi Eze",        "number": 21,   "pos": "" } },
+        { "player": { "name": "Marcus Rashford",     "number": 11,   "pos": "" } },
+        { "player": { "name": "Ollie Watkins",       "number": 19,   "pos": "" } },
+        { "player": { "name": "Noni Madueke",        "number": 20,   "pos": "" } },
+        { "player": { "name": "Ivan Toney",          "number": 22,   "pos": "" } }
+      ]
+    }
+  ]
+}
