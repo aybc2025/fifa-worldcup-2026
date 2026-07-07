@@ -9910,6 +9910,12 @@
       "number": 26,
       "pos": "F",
       "position": "Attacker"
+    },
+    {
+      "name": "Alvaro Morata",
+      "number": null,
+      "pos": "",
+      "position": "Attacker"
     }
   ],
   "Sweden": [
@@ -11125,6 +11131,12 @@
       "name": "Alex Zendejas",
       "number": 26,
       "pos": "F",
+      "position": "Attacker"
+    },
+    {
+      "name": "Cristian Roldan",
+      "number": 15,
+      "pos": "",
       "position": "Attacker"
     }
   ],

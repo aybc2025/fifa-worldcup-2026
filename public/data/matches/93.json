@@ -1,0 +1,111 @@
+{
+  "stats": [
+    {
+      "team": "Portugal",
+      "statistics": [
+        { "type": "Possession",    "value": "44%" },
+        { "type": "Total Shots",   "value": 10 },
+        { "type": "Shots on Goal", "value": 3 },
+        { "type": "Corner Kicks",  "value": 6 },
+        { "type": "Fouls",         "value": 14 },
+        { "type": "Yellow Cards",  "value": 2 },
+        { "type": "Red Cards",     "value": 0 }
+      ]
+    },
+    {
+      "team": "Spain",
+      "statistics": [
+        { "type": "Possession",    "value": "56%" },
+        { "type": "Total Shots",   "value": 14 },
+        { "type": "Shots on Goal", "value": 5 },
+        { "type": "Corner Kicks",  "value": 7 },
+        { "type": "Fouls",         "value": 11 },
+        { "type": "Yellow Cards",  "value": 1 },
+        { "type": "Red Cards",     "value": 0 }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 56, "team": "Portugal", "player": "Nelson Semedo",      "type": "subst", "detail": "out: Nuno Mendes" },
+    { "minute": 71, "team": "Portugal", "player": "Diogo Dalot",        "type": "subst", "detail": "out: Joao Cancelo" },
+    { "minute": 71, "team": "Portugal", "player": "Rafael Leao",        "type": "subst", "detail": "out: Joao Felix" },
+    { "minute": 75, "team": "Spain",    "player": "Ferran Torres",      "type": "subst", "detail": "out: Alex Baena" },
+    { "minute": 83, "team": "Portugal", "player": "Bernardo Silva",     "type": "subst", "detail": "out: Vitinha" },
+    { "minute": 83, "team": "Portugal", "player": "Francisco Conceicao","type": "subst", "detail": "out: Pedro Neto" },
+    { "minute": 85, "team": "Spain",    "player": "Mikel Merino",       "type": "subst", "detail": "out: Dani Olmo" },
+    { "minute": 85, "team": "Spain",    "player": "Fabian Ruiz",        "type": "subst", "detail": "out: Pedri" },
+    { "minute": 89, "team": "Portugal", "player": "Bernardo Silva",     "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 90, "team": "Spain",    "player": "Mikel Merino",       "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 90, "team": "Portugal", "player": "Renato Veiga",       "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 90, "team": "Spain",    "player": "Borja Iglesias",     "type": "subst", "detail": "out: Mikel Oyarzabal" },
+    { "minute": 90, "team": "Spain",    "player": "Ferran Torres",      "type": "Card",  "detail": "Yellow Card" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Portugal" },
+      "formation": "4-3-3",
+      "startXI": [
+        { "player": { "name": "Diogo Costa",        "number": 1,  "pos": "GK"  } },
+        { "player": { "name": "Joao Cancelo",        "number": 20, "pos": "DEF" } },
+        { "player": { "name": "Ruben Dias",          "number": 3,  "pos": "DEF" } },
+        { "player": { "name": "Renato Veiga",        "number": 13, "pos": "DEF" } },
+        { "player": { "name": "Nuno Mendes",         "number": 25, "pos": "DEF" } },
+        { "player": { "name": "Bruno Fernandes",     "number": 8,  "pos": "MID" } },
+        { "player": { "name": "Vitinha",             "number": 23, "pos": "MID" } },
+        { "player": { "name": "Joao Neves",          "number": 15, "pos": "MID" } },
+        { "player": { "name": "Joao Felix",          "number": 11, "pos": "ATT" } },
+        { "player": { "name": "Cristiano Ronaldo",   "number": 7,  "pos": "ATT" } },
+        { "player": { "name": "Pedro Neto",          "number": 18, "pos": "ATT" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Jose Sa",             "number": 12, "pos": "" } },
+        { "player": { "name": "Tomas Araujo",        "number": 4,  "pos": "" } },
+        { "player": { "name": "Goncalo Inacio",      "number": 14, "pos": "" } },
+        { "player": { "name": "Nelson Semedo",       "number": 22, "pos": "" } },
+        { "player": { "name": "Diogo Dalot",         "number": 2,  "pos": "" } },
+        { "player": { "name": "Matheus Nunes",       "number": 6,  "pos": "" } },
+        { "player": { "name": "Ruben Neves",         "number": 21, "pos": "" } },
+        { "player": { "name": "Samu Costa",          "number": 24, "pos": "" } },
+        { "player": { "name": "Bernardo Silva",      "number": 10, "pos": "" } },
+        { "player": { "name": "Francisco Conceicao", "number": 26, "pos": "" } },
+        { "player": { "name": "Rafael Leao",         "number": 17, "pos": "" } },
+        { "player": { "name": "Goncalo Ramos",       "number": 9,  "pos": "" } },
+        { "player": { "name": "Goncalo Guedes",      "number": 19, "pos": "" } },
+        { "player": { "name": "Francisco Trincao",   "number": 16, "pos": "" } }
+      ]
+    },
+    {
+      "team": { "name": "Spain" },
+      "formation": "4-3-3",
+      "startXI": [
+        { "player": { "name": "Unai Simon",          "number": 23, "pos": "GK"  } },
+        { "player": { "name": "Pedro Porro",         "number": 12, "pos": "DEF" } },
+        { "player": { "name": "Aymeric Laporte",     "number": 14, "pos": "DEF" } },
+        { "player": { "name": "Pau Cubarsi",         "number": 22, "pos": "DEF" } },
+        { "player": { "name": "Marc Cucurella",      "number": 24, "pos": "DEF" } },
+        { "player": { "name": "Rodri",               "number": 16, "pos": "MID" } },
+        { "player": { "name": "Pedri",               "number": 20, "pos": "MID" } },
+        { "player": { "name": "Dani Olmo",           "number": 10, "pos": "MID" } },
+        { "player": { "name": "Alex Baena",          "number": 15, "pos": "ATT" } },
+        { "player": { "name": "Lamine Yamal",        "number": 19, "pos": "ATT" } },
+        { "player": { "name": "Mikel Oyarzabal",     "number": 21, "pos": "ATT" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Joan Garcia",         "number": 13, "pos": "" } },
+        { "player": { "name": "Dani Carvajal",       "number": 2,  "pos": "" } },
+        { "player": { "name": "Alex Grimaldo",       "number": 3,  "pos": "" } },
+        { "player": { "name": "Eric Garcia",         "number": 4,  "pos": "" } },
+        { "player": { "name": "Marcos Llorente",     "number": 5,  "pos": "" } },
+        { "player": { "name": "Mikel Merino",        "number": 6,  "pos": "" } },
+        { "player": { "name": "Ferran Torres",       "number": 7,  "pos": "" } },
+        { "player": { "name": "Fabian Ruiz",         "number": 8,  "pos": "" } },
+        { "player": { "name": "Gavi",                "number": 9,  "pos": "" } },
+        { "player": { "name": "Nico Williams",       "number": 11, "pos": "" } },
+        { "player": { "name": "Martin Zubimendi",    "number": 18, "pos": "" } },
+        { "player": { "name": "Alvaro Morata",       "number": null,"pos": "" } },
+        { "player": { "name": "Victor Munoz",        "number": 25, "pos": "" } },
+        { "player": { "name": "Borja Iglesias",      "number": 26, "pos": "" } }
+      ]
+    }
+  ]
+}
