@@ -1,0 +1,123 @@
+{
+  "stats": [
+    {
+      "team": "Switzerland",
+      "statistics": [
+        { "type": "Possession",    "value": "48%" },
+        { "type": "Total Shots",   "value": 7 },
+        { "type": "Shots on Goal", "value": 2 },
+        { "type": "Corner Kicks",  "value": 3 },
+        { "type": "Fouls",         "value": 22 },
+        { "type": "Yellow Cards",  "value": 3 },
+        { "type": "Red Cards",     "value": 0 }
+      ]
+    },
+    {
+      "team": "Colombia",
+      "statistics": [
+        { "type": "Possession",    "value": "44%" },
+        { "type": "Total Shots",   "value": 15 },
+        { "type": "Shots on Goal", "value": 3 },
+        { "type": "Corner Kicks",  "value": 7 },
+        { "type": "Fouls",         "value": 21 },
+        { "type": "Yellow Cards",  "value": 2 },
+        { "type": "Red Cards",     "value": 0 }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 46,  "team": "Switzerland", "player": "Djibril Sow",        "type": "subst",   "detail": "out: Ardon Jashari" },
+    { "minute": 51,  "team": "Switzerland", "player": "Granit Xhaka",        "type": "Card",    "detail": "Yellow Card" },
+    { "minute": 59,  "team": "Switzerland", "player": "Denis Zakaria",       "type": "Card",    "detail": "Yellow Card" },
+    { "minute": 60,  "team": "Colombia",    "player": "Luis Suarez",         "type": "Card",    "detail": "Yellow Card" },
+    { "minute": 66,  "team": "Colombia",    "player": "Juan Quintero",       "type": "subst",   "detail": "out: James Rodriguez" },
+    { "minute": 66,  "team": "Colombia",    "player": "Jaminton Campaz",     "type": "subst",   "detail": "out: Jhon Arias" },
+    { "minute": 71,  "team": "Switzerland", "player": "Miro Muheim",         "type": "subst",   "detail": "out: Ricardo Rodriguez" },
+    { "minute": 82,  "team": "Colombia",    "player": "Richard Rios",        "type": "subst",   "detail": "out: Jefferson Lerma" },
+    { "minute": 82,  "team": "Colombia",    "player": "Cucho Hernandez",     "type": "subst",   "detail": "out: Luis Suarez" },
+    { "minute": 87,  "team": "Switzerland", "player": "Silvan Widmer",       "type": "subst",   "detail": "out: Denis Zakaria" },
+    { "minute": 87,  "team": "Switzerland", "player": "Cedric Itten",        "type": "subst",   "detail": "out: Breel Embolo" },
+    { "minute": 90,  "team": "Switzerland", "player": "Ruben Vargas",        "type": "subst",   "detail": "out: Dan Ndoye" },
+    { "minute": 90,  "team": "Colombia",    "player": "Davinson Sanchez",    "type": "Card",    "detail": "Yellow Card" },
+    { "minute": 103, "team": "Switzerland", "player": "Zeki Amdouni",        "type": "subst",   "detail": "out: Fabian Rieder" },
+    { "minute": 105, "team": "Switzerland", "player": "Miro Muheim",         "type": "Card",    "detail": "Yellow Card" },
+    { "minute": 118, "team": "Colombia",    "player": "Yerry Mina",          "type": "subst",   "detail": "out: Jhon Lucumi" },
+    { "minute": 121, "team": "Colombia",    "player": "Juan Quintero",       "type": "Penalty", "detail": "Scored" },
+    { "minute": 122, "team": "Switzerland", "player": "Granit Xhaka",        "type": "Penalty", "detail": "Scored" },
+    { "minute": 123, "team": "Colombia",    "player": "Davinson Sanchez",    "type": "Penalty", "detail": "Missed" },
+    { "minute": 124, "team": "Switzerland", "player": "Zeki Amdouni",        "type": "Penalty", "detail": "Scored" },
+    { "minute": 125, "team": "Colombia",    "player": "Jaminton Campaz",     "type": "Penalty", "detail": "Scored" },
+    { "minute": 126, "team": "Switzerland", "player": "Manuel Akanji",       "type": "Penalty", "detail": "Missed" },
+    { "minute": 127, "team": "Colombia",    "player": "Cucho Hernandez",     "type": "Penalty", "detail": "Missed" },
+    { "minute": 128, "team": "Switzerland", "player": "Cedric Itten",        "type": "Penalty", "detail": "Scored" },
+    { "minute": 129, "team": "Colombia",    "player": "Luis Diaz",           "type": "Penalty", "detail": "Scored" },
+    { "minute": 130, "team": "Switzerland", "player": "Ruben Vargas",        "type": "Penalty", "detail": "Scored" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Switzerland" },
+      "formation": "4-1-2-3",
+      "startXI": [
+        { "player": { "name": "Gregor Kobel",      "number": 1,  "pos": "GK"  } },
+        { "player": { "name": "Nico Elvedi",        "number": 4,  "pos": "DEF" } },
+        { "player": { "name": "Manuel Akanji",      "number": 5,  "pos": "DEF" } },
+        { "player": { "name": "Ricardo Rodriguez",  "number": 13, "pos": "DEF" } },
+        { "player": { "name": "Denis Zakaria",      "number": 6,  "pos": "MID" } },
+        { "player": { "name": "Remo Freuler",       "number": 8,  "pos": "MID" } },
+        { "player": { "name": "Granit Xhaka",       "number": 10, "pos": "MID" } },
+        { "player": { "name": "Ardon Jashari",      "number": 14, "pos": "MID" } },
+        { "player": { "name": "Fabian Rieder",      "number": 22, "pos": "MID" } },
+        { "player": { "name": "Breel Embolo",       "number": 7,  "pos": "ATT" } },
+        { "player": { "name": "Dan Ndoye",          "number": 11, "pos": "ATT" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Yvon Mvogo",          "number": 12, "pos": "" } },
+        { "player": { "name": "Marvin Keller",       "number": 21, "pos": "" } },
+        { "player": { "name": "Miro Muheim",         "number": 2,  "pos": "" } },
+        { "player": { "name": "Silvan Widmer",       "number": 3,  "pos": "" } },
+        { "player": { "name": "Eray Coemert",        "number": 18, "pos": "" } },
+        { "player": { "name": "Aurele Amenda",       "number": 24, "pos": "" } },
+        { "player": { "name": "Djibril Sow",         "number": 15, "pos": "" } },
+        { "player": { "name": "Christian Fassnacht", "number": 16, "pos": "" } },
+        { "player": { "name": "Ruben Vargas",        "number": 17, "pos": "" } },
+        { "player": { "name": "Noah Okafor",         "number": 19, "pos": "" } },
+        { "player": { "name": "Zeki Amdouni",        "number": 23, "pos": "" } },
+        { "player": { "name": "Cedric Itten",        "number": 26, "pos": "" } }
+      ]
+    },
+    {
+      "team": { "name": "Colombia" },
+      "formation": "4-1-2-3",
+      "startXI": [
+        { "player": { "name": "Camilo Vargas",     "number": 12, "pos": "GK"  } },
+        { "player": { "name": "Daniel Munoz",      "number": 2,  "pos": "DEF" } },
+        { "player": { "name": "Jhon Lucumi",       "number": 3,  "pos": "DEF" } },
+        { "player": { "name": "Gustavo Puerta",    "number": 14, "pos": "DEF" } },
+        { "player": { "name": "Johan Mojica",      "number": 17, "pos": "DEF" } },
+        { "player": { "name": "Davinson Sanchez",  "number": 23, "pos": "DEF" } },
+        { "player": { "name": "James Rodriguez",   "number": 10, "pos": "MID" } },
+        { "player": { "name": "Jhon Arias",        "number": 11, "pos": "MID" } },
+        { "player": { "name": "Jefferson Lerma",   "number": 16, "pos": "MID" } },
+        { "player": { "name": "Luis Diaz",         "number": 7,  "pos": "ATT" } },
+        { "player": { "name": "Luis Suarez",       "number": 25, "pos": "ATT" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "David Ospina",       "number": 1,  "pos": "" } },
+        { "player": { "name": "Alvaro Montero",     "number": 24, "pos": "" } },
+        { "player": { "name": "Santiago Arias",     "number": 4,  "pos": "" } },
+        { "player": { "name": "Yerry Mina",         "number": 13, "pos": "" } },
+        { "player": { "name": "Willer Ditta",       "number": 18, "pos": "" } },
+        { "player": { "name": "Deiver Machado",     "number": 22, "pos": "" } },
+        { "player": { "name": "Kevin Castano",      "number": 5,  "pos": "" } },
+        { "player": { "name": "Richard Rios",       "number": 6,  "pos": "" } },
+        { "player": { "name": "Jorge Carrascal",    "number": 8,  "pos": "" } },
+        { "player": { "name": "Juan Portilla",      "number": 15, "pos": "" } },
+        { "player": { "name": "Juan Quintero",      "number": 20, "pos": "" } },
+        { "player": { "name": "Jaminton Campaz",    "number": 21, "pos": "" } },
+        { "player": { "name": "Jhon Cordoba",       "number": 9,  "pos": "" } },
+        { "player": { "name": "Cucho Hernandez",    "number": 19, "pos": "" } },
+        { "player": { "name": "Andres Gomez",       "number": 26, "pos": "" } }
+      ]
+    }
+  ]
+}
