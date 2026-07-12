@@ -4309,6 +4309,12 @@
       "name": "Maghnes Aklouiche",
       "number": 25,
       "pos": ""
+    },
+    {
+      "name": "N'Golo Kante",
+      "number": 13,
+      "pos": "",
+      "position": "Attacker"
     }
   ],
   "Germany": [
@@ -7286,6 +7292,12 @@
       "name": "Julian Ryerson",
       "number": 26,
       "pos": "D",
+      "position": "Attacker"
+    },
+    {
+      "name": "Henrik Saelebakke Falchener",
+      "number": 25,
+      "pos": "",
       "position": "Attacker"
     }
   ],

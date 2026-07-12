@@ -1,0 +1,113 @@
+{
+  "stats": [
+    {
+      "team": "Spain",
+      "statistics": [
+        { "type": "Possession",    "value": "61%" },
+        { "type": "Total Shots",   "value": 17 },
+        { "type": "Shots on Goal", "value": 8 },
+        { "type": "Corner Kicks",  "value": 5 },
+        { "type": "Fouls",         "value": 13 },
+        { "type": "Yellow Cards",  "value": 2 },
+        { "type": "Red Cards",     "value": 0 }
+      ]
+    },
+    {
+      "team": "Belgium",
+      "statistics": [
+        { "type": "Possession",    "value": "30%" },
+        { "type": "Total Shots",   "value": 5 },
+        { "type": "Shots on Goal", "value": 2 },
+        { "type": "Corner Kicks",  "value": 1 },
+        { "type": "Fouls",         "value": 18 },
+        { "type": "Yellow Cards",  "value": 2 },
+        { "type": "Red Cards",     "value": 0 }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 30, "team": "Spain",   "player": "Fabian Ruiz",           "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 41, "team": "Belgium", "player": "Charles De Ketelaere",  "type": "Goal",  "detail": "Header", "assist": "Timothy Castagne" },
+    { "minute": 43, "team": "Spain",   "player": "Pau Cubarsi",           "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 55, "team": "Spain",   "player": "Pedri",                 "type": "subst", "detail": "out: Fabian Ruiz" },
+    { "minute": 55, "team": "Spain",   "player": "Ferran Torres",         "type": "subst", "detail": "out: Alex Baena" },
+    { "minute": 60, "team": "Belgium", "player": "Axel Witsel",           "type": "subst", "detail": "out: Leandro Trossard" },
+    { "minute": 60, "team": "Belgium", "player": "Romelu Lukaku",         "type": "subst", "detail": "out: Hans Vanaken" },
+    { "minute": 60, "team": "Belgium", "player": "Joaquin Seys",          "type": "subst", "detail": "out: Maxim De Cuyper" },
+    { "minute": 71, "team": "Belgium", "player": "Senne Lammens",         "type": "subst", "detail": "out: Thibaut Courtois" },
+    { "minute": 79, "team": "Spain",   "player": "Nico Williams",         "type": "subst", "detail": "out: Mikel Oyarzabal" },
+    { "minute": 85, "team": "Belgium", "player": "Kevin De Bruyne",       "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 86, "team": "Spain",   "player": "Mikel Merino",          "type": "subst", "detail": "out: Dani Olmo" },
+    { "minute": 86, "team": "Belgium", "player": "Alexis Saelemaekers",   "type": "subst", "detail": "out: Kevin De Bruyne" },
+    { "minute": 88, "team": "Spain",   "player": "Mikel Merino",          "type": "Goal",  "detail": "Normal Goal", "assist": "Dani Olmo" },
+    { "minute": 90, "team": "Spain",   "player": "Aymeric Laporte",       "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 90, "team": "Belgium", "player": "Axel Witsel",           "type": "Card",  "detail": "Yellow Card" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Spain" },
+      "formation": "4-2-3-1",
+      "startXI": [
+        { "player": { "name": "Unai Simon",      "number": 23, "pos": "GK"  } },
+        { "player": { "name": "Pedro Porro",     "number": 12, "pos": "DEF" } },
+        { "player": { "name": "Aymeric Laporte", "number": 14, "pos": "DEF" } },
+        { "player": { "name": "Pau Cubarsi",     "number": 22, "pos": "DEF" } },
+        { "player": { "name": "Marc Cucurella",  "number": 24, "pos": "DEF" } },
+        { "player": { "name": "Fabian Ruiz",     "number": 8,  "pos": "MID" } },
+        { "player": { "name": "Alex Baena",      "number": 15, "pos": "MID" } },
+        { "player": { "name": "Rodri",           "number": 16, "pos": "MID" } },
+        { "player": { "name": "Dani Olmo",       "number": 10, "pos": "ATT" } },
+        { "player": { "name": "Lamine Yamal",    "number": 19, "pos": "ATT" } },
+        { "player": { "name": "Mikel Oyarzabal", "number": 21, "pos": "ATT" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "David Raya",       "number": 1,  "pos": "" } },
+        { "player": { "name": "Joan Garcia",      "number": 13, "pos": "" } },
+        { "player": { "name": "Marc Pubill",      "number": 2,  "pos": "" } },
+        { "player": { "name": "Alex Grimaldo",    "number": 3,  "pos": "" } },
+        { "player": { "name": "Eric Garcia",      "number": 4,  "pos": "" } },
+        { "player": { "name": "Marcos Llorente",  "number": 5,  "pos": "" } },
+        { "player": { "name": "Mikel Merino",     "number": 6,  "pos": "" } },
+        { "player": { "name": "Gavi",             "number": 9,  "pos": "" } },
+        { "player": { "name": "Martin Zubimendi", "number": 18, "pos": "" } },
+        { "player": { "name": "Pedri",            "number": 20, "pos": "" } },
+        { "player": { "name": "Ferran Torres",    "number": 7,  "pos": "" } },
+        { "player": { "name": "Yeremy Pino",      "number": 11, "pos": "" } },
+        { "player": { "name": "Nico Williams",    "number": 17, "pos": "" } },
+        { "player": { "name": "Victor Munoz",     "number": 25, "pos": "" } },
+        { "player": { "name": "Borja Iglesias",   "number": 26, "pos": "" } }
+      ]
+    },
+    {
+      "team": { "name": "Belgium" },
+      "formation": "4-2-3-1",
+      "startXI": [
+        { "player": { "name": "Thibaut Courtois",    "number": 1,  "pos": "GK"  } },
+        { "player": { "name": "Brandon Mechele",     "number": 4,  "pos": "DEF" } },
+        { "player": { "name": "Maxim De Cuyper",     "number": 5,  "pos": "DEF" } },
+        { "player": { "name": "Timothy Castagne",    "number": 21, "pos": "DEF" } },
+        { "player": { "name": "Nathan Ngoy",         "number": 25, "pos": "DEF" } },
+        { "player": { "name": "Kevin De Bruyne",     "number": 7,  "pos": "MID" } },
+        { "player": { "name": "Hans Vanaken",        "number": 20, "pos": "MID" } },
+        { "player": { "name": "Nicolas Raskin",      "number": 23, "pos": "MID" } },
+        { "player": { "name": "Leandro Trossard",    "number": 10, "pos": "ATT" } },
+        { "player": { "name": "Jeremy Doku",         "number": 11, "pos": "ATT" } },
+        { "player": { "name": "Charles De Ketelaere","number": 17, "pos": "ATT" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Senne Lammens",          "number": 12, "pos": "" } },
+        { "player": { "name": "Mike Penders",            "number": 13, "pos": "" } },
+        { "player": { "name": "Arthur Theate",           "number": 3,  "pos": "" } },
+        { "player": { "name": "Thomas Meunier",          "number": 15, "pos": "" } },
+        { "player": { "name": "Koni De Winter",          "number": 16, "pos": "" } },
+        { "player": { "name": "Joaquin Seys",            "number": 18, "pos": "" } },
+        { "player": { "name": "Axel Witsel",             "number": 6,  "pos": "" } },
+        { "player": { "name": "Diego Moreira",           "number": 19, "pos": "" } },
+        { "player": { "name": "Alexis Saelemaekers",     "number": 22, "pos": "" } },
+        { "player": { "name": "Romelu Lukaku",           "number": 9,  "pos": "" } },
+        { "player": { "name": "Dodi Lukebakio",          "number": 14, "pos": "" } },
+        { "player": { "name": "Matias Fernandez-Pardo",  "number": 26, "pos": "" } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "stats": [
+    {
+      "team": "France",
+      "statistics": [
+        { "type": "Possession",    "value": "46%" },
+        { "type": "Total Shots",   "value": 22 },
+        { "type": "Shots on Goal", "value": 8 },
+        { "type": "Corner Kicks",  "value": 5 },
+        { "type": "Fouls",         "value": 10 },
+        { "type": "Yellow Cards",  "value": 0 },
+        { "type": "Red Cards",     "value": 0 }
+      ]
+    },
+    {
+      "team": "Morocco",
+      "statistics": [
+        { "type": "Possession",    "value": "46%" },
+        { "type": "Total Shots",   "value": 5 },
+        { "type": "Shots on Goal", "value": 1 },
+        { "type": "Corner Kicks",  "value": 5 },
+        { "type": "Fouls",         "value": 13 },
+        { "type": "Yellow Cards",  "value": 1 },
+        { "type": "Red Cards",     "value": 0 }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 60, "team": "France",   "player": "Kylian Mbappe",       "type": "Goal",  "detail": "Normal Goal", "assist": "Desire Doue" },
+    { "minute": 62, "team": "Morocco",  "player": "Sofyan Amrabat",       "type": "subst", "detail": "out: Ayyoub Bouaddi" },
+    { "minute": 62, "team": "Morocco",  "player": "Soufiane Rahimi",      "type": "subst", "detail": "out: Bilal El Khannouss" },
+    { "minute": 63, "team": "Morocco",  "player": "Issa Diop",            "type": "Card",  "detail": "Yellow Card" },
+    { "minute": 66, "team": "France",   "player": "Ousmane Dembele",      "type": "Goal",  "detail": "Normal Goal", "assist": "Kylian Mbappe" },
+    { "minute": 71, "team": "France",   "player": "Warren Zaire-Emery",   "type": "subst", "detail": "out: Manu Kone" },
+    { "minute": 74, "team": "Morocco",  "player": "Zakaria El Ouahdi",    "type": "subst", "detail": "out: Anass Salah Eddine" },
+    { "minute": 77, "team": "France",   "player": "Jean-Philippe Mateta", "type": "subst", "detail": "out: Kylian Mbappe" },
+    { "minute": 77, "team": "France",   "player": "Bradley Barcola",      "type": "subst", "detail": "out: Desire Doue" },
+    { "minute": 85, "team": "Morocco",  "player": "Amine Sbai",           "type": "subst", "detail": "out: Chemsdine Talbi" },
+    { "minute": 87, "team": "France",   "player": "Malo Gusto",           "type": "subst", "detail": "out: Jules Kounde" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "France" },
+      "formation": "4-2-3-1",
+      "startXI": [
+        { "player": { "name": "Mike Maignan",         "number": 16, "pos": "GK"  } },
+        { "player": { "name": "Lucas Digne",          "number": 3,  "pos": "DEF" } },
+        { "player": { "name": "Dayot Upamecano",      "number": 4,  "pos": "DEF" } },
+        { "player": { "name": "Jules Kounde",         "number": 5,  "pos": "DEF" } },
+        { "player": { "name": "William Saliba",       "number": 17, "pos": "DEF" } },
+        { "player": { "name": "Manu Kone",            "number": 6,  "pos": "MID" } },
+        { "player": { "name": "Adrien Rabiot",        "number": 14, "pos": "MID" } },
+        { "player": { "name": "Ousmane Dembele",      "number": 7,  "pos": "ATT" } },
+        { "player": { "name": "Kylian Mbappe",        "number": 10, "pos": "ATT" } },
+        { "player": { "name": "Michael Olise",        "number": 11, "pos": "ATT" } },
+        { "player": { "name": "Desire Doue",          "number": 20, "pos": "ATT" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Brice Samba",            "number": 1,  "pos": "" } },
+        { "player": { "name": "Robin Risser",           "number": 23, "pos": "" } },
+        { "player": { "name": "Malo Gusto",             "number": 2,  "pos": "" } },
+        { "player": { "name": "Ibrahima Konate",        "number": 15, "pos": "" } },
+        { "player": { "name": "Theo Hernandez",         "number": 19, "pos": "" } },
+        { "player": { "name": "Lucas Hernandez",        "number": 21, "pos": "" } },
+        { "player": { "name": "Maxence Lacroix",        "number": 26, "pos": "" } },
+        { "player": { "name": "Aurelien Tchouameni",    "number": 8,  "pos": "" } },
+        { "player": { "name": "N'Golo Kante",           "number": 13, "pos": "" } },
+        { "player": { "name": "Warren Zaire-Emery",     "number": 18, "pos": "" } },
+        { "player": { "name": "Rayan Cherki",           "number": 24, "pos": "" } },
+        { "player": { "name": "Maghnes Akliouche",      "number": 25, "pos": "" } },
+        { "player": { "name": "Marcus Thuram",          "number": 9,  "pos": "" } },
+        { "player": { "name": "Bradley Barcola",        "number": 12, "pos": "" } },
+        { "player": { "name": "Jean-Philippe Mateta",   "number": 22, "pos": "" } }
+      ]
+    },
+    {
+      "team": { "name": "Morocco" },
+      "formation": "4-2-3-1",
+      "startXI": [
+        { "player": { "name": "Yassine Bounou",      "number": 1,  "pos": "GK"  } },
+        { "player": { "name": "Achraf Hakimi",       "number": 2,  "pos": "DEF" } },
+        { "player": { "name": "Noussair Mazraoui",   "number": 3,  "pos": "DEF" } },
+        { "player": { "name": "Issa Diop",           "number": 14, "pos": "DEF" } },
+        { "player": { "name": "Anass Salah Eddine",  "number": 26, "pos": "DEF" } },
+        { "player": { "name": "Ayyoub Bouaddi",      "number": 6,  "pos": "MID" } },
+        { "player": { "name": "Chemsdine Talbi",     "number": 7,  "pos": "MID" } },
+        { "player": { "name": "Azzedine Ounahi",     "number": 8,  "pos": "MID" } },
+        { "player": { "name": "Bilal El Khannouss",  "number": 23, "pos": "MID" } },
+        { "player": { "name": "Neil El Aynaoui",     "number": 24, "pos": "MID" } },
+        { "player": { "name": "Brahim Diaz",         "number": 10, "pos": "ATT" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Munir El Kajoui",       "number": 12, "pos": "" } },
+        { "player": { "name": "Ahmed Reda Tagnaouti",  "number": 22, "pos": "" } },
+        { "player": { "name": "Marwane Saadane",       "number": 5,  "pos": "" } },
+        { "player": { "name": "Zakaria El Ouahdi",     "number": 13, "pos": "" } },
+        { "player": { "name": "Chadi Riad",            "number": 18, "pos": "" } },
+        { "player": { "name": "Youssef Belammari",     "number": 19, "pos": "" } },
+        { "player": { "name": "Redouane Halhal",       "number": 25, "pos": "" } },
+        { "player": { "name": "Sofyan Amrabat",        "number": 4,  "pos": "" } },
+        { "player": { "name": "Ismael Saibari",        "number": 11, "pos": "" } },
+        { "player": { "name": "Samir El Mourabet",     "number": 15, "pos": "" } },
+        { "player": { "name": "Gessime Yassine",       "number": 16, "pos": "" } },
+        { "player": { "name": "Soufiane Rahimi",       "number": 9,  "pos": "" } },
+        { "player": { "name": "Amine Sbai",            "number": 17, "pos": "" } },
+        { "player": { "name": "Ayoub El Kaabi",        "number": 20, "pos": "" } },
+        { "player": { "name": "Ayoube Amaimouni",      "number": 21, "pos": "" } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "stats": [
+    {
+      "team": "Norway",
+      "statistics": [
+        { "type": "Possession",    "value": "44%" },
+        { "type": "Total Shots",   "value": 13 },
+        { "type": "Shots on Goal", "value": 4 },
+        { "type": "Corner Kicks",  "value": 7 },
+        { "type": "Fouls",         "value": 10 },
+        { "type": "Yellow Cards",  "value": 1 },
+        { "type": "Red Cards",     "value": 0 }
+      ]
+    },
+    {
+      "team": "England",
+      "statistics": [
+        { "type": "Possession",    "value": "47%" },
+        { "type": "Total Shots",   "value": 14 },
+        { "type": "Shots on Goal", "value": 7 },
+        { "type": "Corner Kicks",  "value": 4 },
+        { "type": "Fouls",         "value": 8 },
+        { "type": "Yellow Cards",  "value": 0 },
+        { "type": "Red Cards",     "value": 0 }
+      ]
+    }
+  ],
+  "events": [
+    { "minute": 36,  "team": "Norway",  "player": "Andreas Schjelderup",    "type": "Goal",  "detail": "Normal Goal", "assist": "Martin Odegaard" },
+    { "minute": 45,  "team": "England", "player": "Jude Bellingham",        "type": "Goal",  "detail": "Normal Goal", "assist": "Anthony Gordon" },
+    { "minute": 46,  "team": "England", "player": "Eberechi Eze",           "type": "subst", "detail": "out: Declan Rice" },
+    { "minute": 46,  "team": "England", "player": "Bukayo Saka",            "type": "subst", "detail": "out: Noni Madueke" },
+    { "minute": 60,  "team": "Norway",  "player": "Fredrik Aursnes",        "type": "subst", "detail": "out: Julian Ryerson" },
+    { "minute": 67,  "team": "Norway",  "player": "Oscar Bobb",             "type": "subst", "detail": "out: Alexander Sorloth" },
+    { "minute": 67,  "team": "Norway",  "player": "Antonio Nusa",           "type": "subst", "detail": "out: Andreas Schjelderup" },
+    { "minute": 71,  "team": "England", "player": "Reece James",            "type": "subst", "detail": "out: Anthony Gordon" },
+    { "minute": 86,  "team": "England", "player": "Djed Spence",            "type": "subst", "detail": "out: Nico O'Reilly" },
+    { "minute": 89,  "team": "England", "player": "Morgan Rogers",          "type": "subst", "detail": "out: Ezri Konsa" },
+    { "minute": 90,  "team": "Norway",  "player": "Marcus Holmgren Pedersen","type": "subst", "detail": "out: David Moller Wolfe" },
+    { "minute": 91,  "team": "Norway",  "player": "Leo Ostigard",           "type": "subst", "detail": "out: Torbjorn Heggem" },
+    { "minute": 93,  "team": "England", "player": "Jude Bellingham",        "type": "Goal",  "detail": "Normal Goal" },
+    { "minute": 106, "team": "Norway",  "player": "Jorgen Strand Larsen",   "type": "subst", "detail": "out: Erling Haaland" },
+    { "minute": 111, "team": "England", "player": "Dan Burn",               "type": "subst", "detail": "out: Jude Bellingham" },
+    { "minute": 117, "team": "Norway",  "player": "Kristoffer Ajer",        "type": "Card",  "detail": "Yellow Card" }
+  ],
+  "lineups": [
+    {
+      "team": { "name": "Norway" },
+      "formation": "4-1-2-3",
+      "startXI": [
+        { "player": { "name": "Orjan Nyland",          "number": 1,  "pos": "GK"  } },
+        { "player": { "name": "Kristoffer Ajer",       "number": 3,  "pos": "DEF" } },
+        { "player": { "name": "David Moller Wolfe",    "number": 5,  "pos": "DEF" } },
+        { "player": { "name": "Torbjorn Heggem",       "number": 17, "pos": "DEF" } },
+        { "player": { "name": "Patrick Berg",          "number": 6,  "pos": "MID" } },
+        { "player": { "name": "Sander Berge",          "number": 8,  "pos": "MID" } },
+        { "player": { "name": "Martin Odegaard",       "number": 10, "pos": "MID" } },
+        { "player": { "name": "Andreas Schjelderup",   "number": 21, "pos": "MID" } },
+        { "player": { "name": "Alexander Sorloth",     "number": 7,  "pos": "ATT" } },
+        { "player": { "name": "Erling Haaland",        "number": 9,  "pos": "ATT" } },
+        { "player": { "name": "Julian Ryerson",        "number": 26, "pos": "ATT" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Sander Tangvik",             "number": 12, "pos": "" } },
+        { "player": { "name": "Egil Selvik",                "number": 13, "pos": "" } },
+        { "player": { "name": "Leo Ostigard",               "number": 4,  "pos": "" } },
+        { "player": { "name": "Fredrik Andre Bjorkan",      "number": 15, "pos": "" } },
+        { "player": { "name": "Marcus Holmgren Pedersen",   "number": 16, "pos": "" } },
+        { "player": { "name": "Sondre Langas",              "number": 24, "pos": "" } },
+        { "player": { "name": "Henrik Saelebakke Falchener","number": 25, "pos": "" } },
+        { "player": { "name": "Morten Thorsby",             "number": 2,  "pos": "" } },
+        { "player": { "name": "Fredrik Aursnes",            "number": 14, "pos": "" } },
+        { "player": { "name": "Antonio Nusa",               "number": 20, "pos": "" } },
+        { "player": { "name": "Oscar Bobb",                 "number": 22, "pos": "" } },
+        { "player": { "name": "Jorgen Strand Larsen",       "number": 11, "pos": "" } }
+      ]
+    },
+    {
+      "team": { "name": "England" },
+      "formation": "4-2-3-1",
+      "startXI": [
+        { "player": { "name": "Jordan Pickford",  "number": 1,  "pos": "GK"  } },
+        { "player": { "name": "Ezri Konsa",       "number": 2,  "pos": "DEF" } },
+        { "player": { "name": "Nico O'Reilly",    "number": 3,  "pos": "DEF" } },
+        { "player": { "name": "John Stones",      "number": 5,  "pos": "DEF" } },
+        { "player": { "name": "Marc Guehi",       "number": 6,  "pos": "DEF" } },
+        { "player": { "name": "Declan Rice",      "number": 4,  "pos": "MID" } },
+        { "player": { "name": "Elliot Anderson",  "number": 8,  "pos": "MID" } },
+        { "player": { "name": "Jude Bellingham",  "number": 10, "pos": "MID" } },
+        { "player": { "name": "Harry Kane",       "number": 9,  "pos": "ATT" } },
+        { "player": { "name": "Anthony Gordon",   "number": 18, "pos": "ATT" } },
+        { "player": { "name": "Noni Madueke",     "number": 20, "pos": "ATT" } }
+      ],
+      "substitutes": [
+        { "player": { "name": "Bukayo Saka",    "number": 7,  "pos": "" } },
+        { "player": { "name": "Eberechi Eze",   "number": 21, "pos": "" } },
+        { "player": { "name": "Reece James",    "number": 24, "pos": "" } },
+        { "player": { "name": "Djed Spence",    "number": 25, "pos": "" } },
+        { "player": { "name": "Morgan Rogers",  "number": 17, "pos": "" } },
+        { "player": { "name": "Dan Burn",       "number": 15, "pos": "" } }
+      ]
+    }
+  ]
+}
